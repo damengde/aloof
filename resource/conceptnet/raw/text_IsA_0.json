@@ -1,0 +1,1396 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/text&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/,/c/en/book/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rambled/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rambled"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "a text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[a text]] is [[a book]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/column/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/column/n", 
+                "@type": "Node", 
+                "label": "column", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/column"
+            }, 
+            "surfaceText": "[[column]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cookie/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie/n", 
+                "@type": "Node", 
+                "label": "cookie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cookie"
+            }, 
+            "surfaceText": "[[cookie]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/copy/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/copy/n", 
+                "@type": "Node", 
+                "label": "copy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/copy"
+            }, 
+            "surfaceText": "[[copy]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/draft/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/draft/n", 
+                "@type": "Node", 
+                "label": "draft", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/draft"
+            }, 
+            "surfaceText": "[[draft]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electronic_text/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electronic_text/n", 
+                "@type": "Node", 
+                "label": "electronic text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electronic_text"
+            }, 
+            "surfaceText": "[[electronic text]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/installment/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/installment/n", 
+                "@type": "Node", 
+                "label": "installment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/installment"
+            }, 
+            "surfaceText": "[[installment]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/letter/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/letter/n", 
+                "@type": "Node", 
+                "label": "letter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/letter"
+            }, 
+            "surfaceText": "[[letter]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/line/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/line/n", 
+                "@type": "Node", 
+                "label": "line", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/line"
+            }, 
+            "surfaceText": "[[line]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lipogram/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lipogram/n", 
+                "@type": "Node", 
+                "label": "lipogram", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lipogram"
+            }, 
+            "surfaceText": "[[lipogram]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lyric/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lyric/n", 
+                "@type": "Node", 
+                "label": "lyric", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lyric"
+            }, 
+            "surfaceText": "[[lyric]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stanza/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stanza/n", 
+                "@type": "Node", 
+                "label": "stanza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stanza"
+            }, 
+            "surfaceText": "[[stanza]] is a type of [[text]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/n/,/c/en/matter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/matter/n", 
+                "@type": "Node", 
+                "label": "matter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/matter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] is a type of [[matter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/n/,/c/en/passage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/passage/n", 
+                "@type": "Node", 
+                "label": "passage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/passage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] is a type of [[passage]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/attributive_reference/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/attributive_reference/n", 
+                "@type": "Node", 
+                "label": "attributive reference", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/attributive_reference"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bibliographic_reference/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bibliographic_reference/n", 
+                "@type": "Node", 
+                "label": "bibliographic reference", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bibliographic_reference"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cautionary_purpose/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cautionary_purpose/n", 
+                "@type": "Node", 
+                "label": "cautionary purpose", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cautionary_purpose"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cipher/,/c/en/text/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cipher", 
+                "@type": "Node", 
+                "label": "A cipher", 
+                "language": "en", 
+                "term": "/c/en/cipher"
+            }, 
+            "surfaceText": "[[A cipher]] is [[text]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/computer_program/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer_program/n", 
+                "@type": "Node", 
+                "label": "computer program", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/computer_program"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/emphatic_purpose/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/emphatic_purpose/n", 
+                "@type": "Node", 
+                "label": "emphatic purpose", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/emphatic_purpose"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/exemplary_purpose/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/exemplary_purpose/n", 
+                "@type": "Node", 
+                "label": "exemplary purpose", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/exemplary_purpose"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/formal_grammar_text/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/formal_grammar_text/n", 
+                "@type": "Node", 
+                "label": "formal grammar text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/formal_grammar_text"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/formal_meta_grammar/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/formal_meta_grammar/n", 
+                "@type": "Node", 
+                "label": "formal meta grammar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/formal_meta_grammar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/markup_language_source/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/markup_language_source/n", 
+                "@type": "Node", 
+                "label": "markup language source", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/markup_language_source"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/markup_language_tag/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/markup_language_tag/n", 
+                "@type": "Node", 
+                "label": "markup language tag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/markup_language_tag"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/material_safety_data_sheet/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/material_safety_data_sheet/n", 
+                "@type": "Node", 
+                "label": "material safety data sheet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/material_safety_data_sheet"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/musical_score/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/musical_score/n", 
+                "@type": "Node", 
+                "label": "musical score", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/musical_score"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/natural_language_string/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/natural_language_string/n", 
+                "@type": "Node", 
+                "label": "natural language string", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/natural_language_string"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/performance_metric/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/performance_metric/n", 
+                "@type": "Node", 
+                "label": "performance metric", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/performance_metric"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/review_purpose/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/review_purpose/n", 
+                "@type": "Node", 
+                "label": "review purpose", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/review_purpose"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rfc/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rfc/n", 
+                "@type": "Node", 
+                "label": "rfc", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rfc"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/subl_expression/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/subl_expression/n", 
+                "@type": "Node", 
+                "label": "subl expression", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/subl_expression"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/supporting_reference/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/supporting_reference/n", 
+                "@type": "Node", 
+                "label": "supporting reference", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/supporting_reference"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/table_of_contents/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table_of_contents/n", 
+                "@type": "Node", 
+                "label": "table of contents", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table_of_contents"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/,/c/en/almost_always/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/almost_always", 
+                "@type": "Node", 
+                "label": "almost always", 
+                "language": "en", 
+                "term": "/c/en/almost_always"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] is [[almost always]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/,/c/en/authoritative_source/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/authoritative_source", 
+                "@type": "Node", 
+                "label": "an authoritative source", 
+                "language": "en", 
+                "term": "/c/en/authoritative_source"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "A text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[A text]] is [[an authoritative source]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/n/,/c/en/linguistic_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/linguistic_object/n", 
+                "@type": "Node", 
+                "label": "linguistic object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/linguistic_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/text/n/,/c/en/text/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text/n", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/potted_plant&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/potted_plant/,/c/en/windowsill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/windowsill", 
+                "@type": "Node", 
+                "label": "the windowsill", 
+                "language": "en", 
+                "term": "/c/en/windowsill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potted_plant", 
+                "@type": "Node", 
+                "label": "a potted plant", 
+                "language": "en", 
+                "term": "/c/en/potted_plant"
+            }, 
+            "surfaceText": "*Something you find on [[the windowsill]] is [[a potted plant]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/potted_plant/,/c/en/shelf/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shelf", 
+                "@type": "Node", 
+                "label": "the shelf", 
+                "language": "en", 
+                "term": "/c/en/shelf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potted_plant", 
+                "@type": "Node", 
+                "label": "a potted plant", 
+                "language": "en", 
+                "term": "/c/en/potted_plant"
+            }, 
+            "surfaceText": "*Something you find on [[the shelf]] is [[a potted plant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/potted_plant/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potted_plant", 
+                "@type": "Node", 
+                "label": "a potted plant", 
+                "language": "en", 
+                "term": "/c/en/potted_plant"
+            }, 
+            "surfaceText": "*Something you find on [[a table]] is [[a potted plant]]", 
+            "weight": 1.0
+        }
+    ]
+}

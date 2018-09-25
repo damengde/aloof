@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/violin&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/violin/,/c/en/make_music_when_played/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_music_when_played", 
+                "@type": "Node", 
+                "label": "make music when played", 
+                "language": "en", 
+                "term": "/c/en/make_music_when_played"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vasile/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vasile"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/violin", 
+                "@type": "Node", 
+                "label": "A violin", 
+                "language": "en", 
+                "term": "/c/en/violin"
+            }, 
+            "surfaceText": "[[A violin]] can [[make music when played]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/violin/,/c/en/sound_funny/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sound_funny", 
+                "@type": "Node", 
+                "label": "sound funny", 
+                "language": "en", 
+                "term": "/c/en/sound_funny"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lordprotectorguy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lordprotectorguy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/violin", 
+                "@type": "Node", 
+                "label": "A violin", 
+                "language": "en", 
+                "term": "/c/en/violin"
+            }, 
+            "surfaceText": "[[A violin]] can [[sound funny]]", 
+            "weight": 1.0
+        }
+    ]
+}

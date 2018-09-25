@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/charger&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/charger/,/c/en/charge_battery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/charge_battery", 
+                "@type": "Node", 
+                "label": "charge a battery", 
+                "language": "en", 
+                "term": "/c/en/charge_battery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/charger", 
+                "@type": "Node", 
+                "label": "a charger", 
+                "language": "en", 
+                "term": "/c/en/charger"
+            }, 
+            "surfaceText": "[[a charger]] can [[charge a battery]]", 
+            "weight": 1.0
+        }
+    ]
+}

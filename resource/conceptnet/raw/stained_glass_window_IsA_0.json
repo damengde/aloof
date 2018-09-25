@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stained_glass_window&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stained_glass_window/n/,/c/en/part_of_building/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/part_of_building/n", 
+                "@type": "Node", 
+                "label": "part of building", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/part_of_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass_window/n", 
+                "@type": "Node", 
+                "label": "stained glass window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stained_glass_window"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stained_glass_window/n/,/c/en/stained_glass/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/stained_glass/n", 
+                "@type": "Node", 
+                "label": "stained glass", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stained_glass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass_window/n", 
+                "@type": "Node", 
+                "label": "stained glass window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stained_glass_window"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stained_glass_window/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass_window/n", 
+                "@type": "Node", 
+                "label": "stained glass window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stained_glass_window"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

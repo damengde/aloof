@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/whisk&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/whisk/,/c/en/beat_eggs_or_batter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beat_eggs_or_batter", 
+                "@type": "Node", 
+                "label": "beat eggs or batter", 
+                "language": "en", 
+                "term": "/c/en/beat_eggs_or_batter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/whisk", 
+                "@type": "Node", 
+                "label": "A whisk", 
+                "language": "en", 
+                "term": "/c/en/whisk"
+            }, 
+            "surfaceText": "[[A whisk]] is used to [[beat eggs or batter]]", 
+            "weight": 1.0
+        }
+    ]
+}

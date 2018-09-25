@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/star&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/star/,/c/en/pretty/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pretty", 
+                "@type": "Node", 
+                "label": "pretty", 
+                "language": "en", 
+                "term": "/c/en/pretty"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/ricardo_andres_guzman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/ricardo_andres_guzman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "a star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[a star]] is [[pretty]]", 
+            "weight": 1.0
+        }
+    ]
+}

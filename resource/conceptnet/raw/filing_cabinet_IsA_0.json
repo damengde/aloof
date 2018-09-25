@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/filing_cabinet&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/filing_cabinet/,/c/en/example_of_storage_furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/example_of_storage_furniture", 
+                "@type": "Node", 
+                "label": "an example of storage furniture", 
+                "language": "en", 
+                "term": "/c/en/example_of_storage_furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/filing_cabinet", 
+                "@type": "Node", 
+                "label": "a filing cabinet", 
+                "language": "en", 
+                "term": "/c/en/filing_cabinet"
+            }, 
+            "surfaceText": "[[a filing cabinet]] is [[an example of storage furniture]]", 
+            "weight": 1.0
+        }
+    ]
+}

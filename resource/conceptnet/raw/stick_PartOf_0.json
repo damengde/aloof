@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stick&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stick/,/c/en/ice_hockey/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/ice_hockey/n", 
+                "@type": "Node", 
+                "label": "ice hockey", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ice_hockey"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stick", 
+                "@type": "Node", 
+                "label": "stick", 
+                "language": "en", 
+                "term": "/c/en/stick"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

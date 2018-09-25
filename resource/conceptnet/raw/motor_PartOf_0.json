@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/motor&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/motor/,/c/en/treadmill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/treadmill", 
+                "@type": "Node", 
+                "label": "a treadmill", 
+                "language": "en", 
+                "term": "/c/en/treadmill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/d/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/d"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "a motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "surfaceText": "[[a motor]] is part of [[a treadmill]].", 
+            "weight": 1.0
+        }
+    ]
+}

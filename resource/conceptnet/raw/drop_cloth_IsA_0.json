@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/drop_cloth&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/drop_cloth/n/,/c/en/piece_of_cloth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/piece_of_cloth/n", 
+                "@type": "Node", 
+                "label": "piece of cloth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/piece_of_cloth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drop_cloth/n", 
+                "@type": "Node", 
+                "label": "drop cloth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drop_cloth"
+            }, 
+            "surfaceText": "[[drop cloth]] is a type of [[piece of cloth]]", 
+            "weight": 2.0
+        }
+    ]
+}

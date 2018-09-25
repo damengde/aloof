@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/candleholder&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/candle/,/c/en/candleholder/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/candleholder", 
+                "@type": "Node", 
+                "label": "a candleholder", 
+                "language": "en", 
+                "term": "/c/en/candleholder"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pharkas/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pharkas"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candle", 
+                "@type": "Node", 
+                "label": "a candle", 
+                "language": "en", 
+                "term": "/c/en/candle"
+            }, 
+            "surfaceText": "You are likely to find [[a candle]] in [[a candleholder]]", 
+            "weight": 1.0
+        }
+    ]
+}

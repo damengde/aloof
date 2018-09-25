@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bread_box&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fungus/,/c/en/bread_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bread_box", 
+                "@type": "Node", 
+                "label": "a bread box", 
+                "language": "en", 
+                "term": "/c/en/bread_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/beerchick701/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/beerchick701"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fungus", 
+                "@type": "Node", 
+                "label": "a fungus", 
+                "language": "en", 
+                "term": "/c/en/fungus"
+            }, 
+            "surfaceText": "You are likely to find [[a fungus]] in [[a bread box]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bath&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bath/n/,/c/en/england/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/england/n", 
+                "@type": "Node", 
+                "label": "England", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/england"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath/n", 
+                "@type": "Node", 
+                "label": "Bath", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bath"
+            }, 
+            "surfaceText": "[[Bath]] is a part of [[England]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bath/n/,/c/en/homer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/homer/n", 
+                "@type": "Node", 
+                "label": "homer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/homer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath/n", 
+                "@type": "Node", 
+                "label": "bath", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bath"
+            }, 
+            "surfaceText": "[[bath]] is a part of [[homer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/log/,/c/en/bath/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/bath/n", 
+                "@type": "Node", 
+                "label": "bath", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bath"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

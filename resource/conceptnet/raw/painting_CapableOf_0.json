@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/painting&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/painting/,/c/en/picture_tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/picture_tree", 
+                "@type": "Node", 
+                "label": "picture a tree", 
+                "language": "en", 
+                "term": "/c/en/picture_tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/olakristoffer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/olakristoffer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "a painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[a painting]] can [[picture a tree]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/painting/,/c/en/please_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/please_person", 
+                "@type": "Node", 
+                "label": "please a person", 
+                "language": "en", 
+                "term": "/c/en/please_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lisawhirl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lisawhirl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[painting]] can [[please a person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/painting/,/c/en/prevents_from_rusting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/prevents_from_rusting", 
+                "@type": "Node", 
+                "label": "prevents it from rusting", 
+                "language": "en", 
+                "term": "/c/en/prevents_from_rusting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mevans/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mevans"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "Painting something", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[Painting something]] often [[prevents it from rusting]]", 
+            "weight": 1.0
+        }
+    ]
+}

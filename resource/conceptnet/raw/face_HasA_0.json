@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/face&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/average_human_body/,/c/en/face/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/face", 
+                "@type": "Node", 
+                "label": "a face", 
+                "language": "en", 
+                "term": "/c/en/face"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/average_human_body", 
+                "@type": "Node", 
+                "label": "The average human body", 
+                "language": "en", 
+                "term": "/c/en/average_human_body"
+            }, 
+            "surfaceText": "[[The average human body]] has [[a face]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/clock/,/c/en/face/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/face", 
+                "@type": "Node", 
+                "label": "a face", 
+                "language": "en", 
+                "term": "/c/en/face"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[a clock]] has [[a face]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/face/,/c/en/nose/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nose", 
+                "@type": "Node", 
+                "label": "a nose", 
+                "language": "en", 
+                "term": "/c/en/nose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/face", 
+                "@type": "Node", 
+                "label": "A face", 
+                "language": "en", 
+                "term": "/c/en/face"
+            }, 
+            "surfaceText": "[[A face]] has [[a nose]]", 
+            "weight": 1.0
+        }
+    ]
+}

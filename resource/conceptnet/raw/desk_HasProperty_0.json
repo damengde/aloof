@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/desk&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/desk/,/c/en/engineered_for_sitting_and_writing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/engineered_for_sitting_and_writing", 
+                "@type": "Node", 
+                "label": "engineered for sitting and writing", 
+                "language": "en", 
+                "term": "/c/en/engineered_for_sitting_and_writing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slurslee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slurslee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "A desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[A desk]] is [[engineered for sitting and writing]]", 
+            "weight": 1.0
+        }
+    ]
+}

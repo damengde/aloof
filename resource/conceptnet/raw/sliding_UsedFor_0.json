@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sliding&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/minibar/,/c/en/sliding/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sliding", 
+                "@type": "Node", 
+                "label": "sliding", 
+                "language": "en", 
+                "term": "/c/en/sliding"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ptown/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ptown"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/minibar", 
+                "@type": "Node", 
+                "label": "a minibar", 
+                "language": "en", 
+                "term": "/c/en/minibar"
+            }, 
+            "surfaceText": "[[a minibar]] is for [[sliding]]", 
+            "weight": 1.0
+        }
+    ]
+}

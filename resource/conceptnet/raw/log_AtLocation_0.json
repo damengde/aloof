@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/log&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/insects/,/c/en/log/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "a log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jd204c/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jd204c"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/insects", 
+                "@type": "Node", 
+                "label": "insects", 
+                "language": "en", 
+                "term": "/c/en/insects"
+            }, 
+            "surfaceText": "*Something you find under [[a log]] is [[insects]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lizard/,/c/en/log/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "a log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rjeffers/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rjeffers"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lizard", 
+                "@type": "Node", 
+                "label": "a lizard", 
+                "language": "en", 
+                "term": "/c/en/lizard"
+            }, 
+            "surfaceText": "You are likely to find [[a lizard]] in [[a log]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/log/,/c/en/doctor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/doctor", 
+                "@type": "Node", 
+                "label": "a doctor", 
+                "language": "en", 
+                "term": "/c/en/doctor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "a log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "surfaceText": "*Something you find at [[a doctor]] is [[a log]]", 
+            "weight": 1.0
+        }
+    ]
+}

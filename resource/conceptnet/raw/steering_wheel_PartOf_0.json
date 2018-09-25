@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/steering_wheel&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/steering_wheel/n/,/c/en/steering_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/steering_system/n", 
+                "@type": "Node", 
+                "label": "steering system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/steering_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel/n", 
+                "@type": "Node", 
+                "label": "steering wheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "[[steering wheel]] is a part of [[steering system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/steering_wheel/,/c/en/auto/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/auto/n", 
+                "@type": "Node", 
+                "label": "auto", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/auto"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/steering_wheel/,/c/en/car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "A steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "[[A steering wheel]] is part of [[car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/steering_wheel/,/c/en/car/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/car/n", 
+                "@type": "Node", 
+                "label": "car", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

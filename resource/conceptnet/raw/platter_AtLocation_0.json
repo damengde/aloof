@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/platter&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/platter/,/c/en/cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cabinet", 
+                "@type": "Node", 
+                "label": "a cabinet", 
+                "language": "en", 
+                "term": "/c/en/cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/heavygravy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/heavygravy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/orangefrog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/orangefrog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/platter", 
+                "@type": "Node", 
+                "label": "a platter", 
+                "language": "en", 
+                "term": "/c/en/platter"
+            }, 
+            "surfaceText": "*Something you find in [[a cabinet]] is [[a platter]]", 
+            "weight": 2.0
+        }
+    ]
+}

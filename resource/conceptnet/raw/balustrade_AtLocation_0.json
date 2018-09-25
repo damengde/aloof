@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/balustrade&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balustrade/,/c/en/grand_ballroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grand_ballroom", 
+                "@type": "Node", 
+                "label": "a grand ballroom", 
+                "language": "en", 
+                "term": "/c/en/grand_ballroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bhunt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balustrade", 
+                "@type": "Node", 
+                "label": "a balustrade", 
+                "language": "en", 
+                "term": "/c/en/balustrade"
+            }, 
+            "surfaceText": "You are likely to find [[a balustrade]] in [[a grand ballroom]]", 
+            "weight": 1.0
+        }
+    ]
+}

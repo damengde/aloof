@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/french_bread&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/baguet/n/,/c/en/french_bread/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/french_bread/n", 
+                "@type": "Node", 
+                "label": "French bread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/french_bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baguet/n", 
+                "@type": "Node", 
+                "label": "baguet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baguet"
+            }, 
+            "surfaceText": "[[baguet]] is a type of [[French bread]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/french_bread/n/,/c/en/white_bread/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/white_bread/n", 
+                "@type": "Node", 
+                "label": "white bread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/white_bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/french_bread/n", 
+                "@type": "Node", 
+                "label": "French bread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/french_bread"
+            }, 
+            "surfaceText": "[[French bread]] is a type of [[white bread]]", 
+            "weight": 2.0
+        }
+    ]
+}

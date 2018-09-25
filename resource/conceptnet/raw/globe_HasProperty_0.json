@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/globe&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/globe/,/c/en/round/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/round", 
+                "@type": "Node", 
+                "label": "round", 
+                "language": "en", 
+                "term": "/c/en/round"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/blade2075/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/blade2075"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nymus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/nymus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[round]]", 
+            "weight": 2.82842712474619
+        }
+    ]
+}

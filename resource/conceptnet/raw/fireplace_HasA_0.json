@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fireplace&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fireplace/,/c/en/chimney/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chimney", 
+                "@type": "Node", 
+                "label": "a chimney", 
+                "language": "en", 
+                "term": "/c/en/chimney"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fireplace", 
+                "@type": "Node", 
+                "label": "A fireplace", 
+                "language": "en", 
+                "term": "/c/en/fireplace"
+            }, 
+            "surfaceText": "[[A fireplace]] has [[a chimney]]", 
+            "weight": 1.0
+        }
+    ]
+}

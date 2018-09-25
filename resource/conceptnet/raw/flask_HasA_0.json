@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flask&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/flask/,/c/en/liquid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/liquid", 
+                "@type": "Node", 
+                "label": "liquid", 
+                "language": "en", 
+                "term": "/c/en/liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flask", 
+                "@type": "Node", 
+                "label": "A flask", 
+                "language": "en", 
+                "term": "/c/en/flask"
+            }, 
+            "surfaceText": "[[A flask]] contains [[liquid]]", 
+            "weight": 1.0
+        }
+    ]
+}

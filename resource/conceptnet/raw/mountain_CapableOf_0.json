@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mountain&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/mountain/,/c/en/divide_continent/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/divide_continent", 
+                "@type": "Node", 
+                "label": "divide continent", 
+                "language": "en", 
+                "term": "/c/en/divide_continent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lmklein2000/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lmklein2000"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "[[a mountain]] can [[divide continent]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/mountain/,/c/en/present_obstacle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/present_obstacle", 
+                "@type": "Node", 
+                "label": "present an obstacle", 
+                "language": "en", 
+                "term": "/c/en/present_obstacle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "[[a mountain]] can [[present an obstacle]]", 
+            "weight": 1.0
+        }
+    ]
+}

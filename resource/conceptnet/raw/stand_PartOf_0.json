@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stand&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stand/n/,/c/en/ballpark/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ballpark/n", 
+                "@type": "Node", 
+                "label": "ballpark", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ballpark"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stand/n", 
+                "@type": "Node", 
+                "label": "stand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stand"
+            }, 
+            "surfaceText": "[[stand]] is a part of [[ballpark]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stand/n/,/c/en/stadium/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/stadium/n", 
+                "@type": "Node", 
+                "label": "stadium", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stadium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stand/n", 
+                "@type": "Node", 
+                "label": "stand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stand"
+            }, 
+            "surfaceText": "[[stand]] is a part of [[stadium]]", 
+            "weight": 2.0
+        }
+    ]
+}

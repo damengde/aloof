@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vacuum_cleaner&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vacuum_cleaner/,/c/en/short_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/short_out", 
+                "@type": "Node", 
+                "label": "short out", 
+                "language": "en", 
+                "term": "/c/en/short_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vacuum_cleaner", 
+                "@type": "Node", 
+                "label": "a vacuum cleaner", 
+                "language": "en", 
+                "term": "/c/en/vacuum_cleaner"
+            }, 
+            "surfaceText": "An activity [[a vacuum cleaner]] can do is [[short out]]", 
+            "weight": 1.0
+        }
+    ]
+}

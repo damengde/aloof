@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/candlestick&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/candelabrum/n/,/c/en/candlestick/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/candlestick/n", 
+                "@type": "Node", 
+                "label": "candlestick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candlestick"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candelabrum/n", 
+                "@type": "Node", 
+                "label": "candelabrum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candelabrum"
+            }, 
+            "surfaceText": "[[candelabrum]] is a type of [[candlestick]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/candlestick/n/,/c/en/holder/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/holder/n", 
+                "@type": "Node", 
+                "label": "holder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/holder"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candlestick/n", 
+                "@type": "Node", 
+                "label": "candlestick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candlestick"
+            }, 
+            "surfaceText": "[[candlestick]] is a type of [[holder]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/girandole/n/,/c/en/candlestick/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/candlestick/n", 
+                "@type": "Node", 
+                "label": "candlestick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candlestick"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/girandole/n", 
+                "@type": "Node", 
+                "label": "girandole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/girandole"
+            }, 
+            "surfaceText": "[[girandole]] is a type of [[candlestick]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/candlestick/,/c/en/candleholder/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/candleholder/n", 
+                "@type": "Node", 
+                "label": "candleholder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candleholder"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candlestick", 
+                "@type": "Node", 
+                "label": "candlestick", 
+                "language": "en", 
+                "term": "/c/en/candlestick"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

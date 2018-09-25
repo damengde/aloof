@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rack&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rack/,/c/en/oven/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/oven", 
+                "@type": "Node", 
+                "label": "the oven", 
+                "language": "en", 
+                "term": "/c/en/oven"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrrrow665/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrrrow665"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rack", 
+                "@type": "Node", 
+                "label": "a rack", 
+                "language": "en", 
+                "term": "/c/en/rack"
+            }, 
+            "surfaceText": "*Something you find in [[the oven]] is [[a rack]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/magazine/,/c/en/rack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rack", 
+                "@type": "Node", 
+                "label": "a rack", 
+                "language": "en", 
+                "term": "/c/en/rack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "Somewhere [[a magazine]] can be is in [[a rack]]", 
+            "weight": 1.0
+        }
+    ]
+}

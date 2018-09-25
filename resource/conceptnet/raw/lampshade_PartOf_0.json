@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lampshade&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lampshade/n/,/c/en/lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lamp/n", 
+                "@type": "Node", 
+                "label": "lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lampshade/n", 
+                "@type": "Node", 
+                "label": "lampshade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lampshade"
+            }, 
+            "surfaceText": "[[lampshade]] is a part of [[lamp]]", 
+            "weight": 2.0
+        }
+    ]
+}

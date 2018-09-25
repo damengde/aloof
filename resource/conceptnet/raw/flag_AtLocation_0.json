@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flag&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flag/,/c/en/country/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/country", 
+                "@type": "Node", 
+                "label": "a country", 
+                "language": "en", 
+                "term": "/c/en/country"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/usaps/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/usaps"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tbrdboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tbrdboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag", 
+                "@type": "Node", 
+                "label": "a flag", 
+                "language": "en", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "*Something you find in [[a country]] is [[a flag]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flag/,/c/en/classroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/classroom", 
+                "@type": "Node", 
+                "label": "a classroom", 
+                "language": "en", 
+                "term": "/c/en/classroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag", 
+                "@type": "Node", 
+                "label": "a flag", 
+                "language": "en", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "*Something you find in [[a classroom]] is [[a flag]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flag/,/c/en/suface_of_moon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/suface_of_moon", 
+                "@type": "Node", 
+                "label": "the suface of the moon", 
+                "language": "en", 
+                "term": "/c/en/suface_of_moon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bravo466/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bravo466"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag", 
+                "@type": "Node", 
+                "label": "a flag", 
+                "language": "en", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "*Something you find on [[the suface of the moon]] is [[a flag]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flag/,/c/en/top_of_mountain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/top_of_mountain", 
+                "@type": "Node", 
+                "label": "the top of a mountain", 
+                "language": "en", 
+                "term": "/c/en/top_of_mountain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kristianhuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kristianhuber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag", 
+                "@type": "Node", 
+                "label": "flag", 
+                "language": "en", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "*Something you find at [[the top of a mountain]] is [[flag]]", 
+            "weight": 1.0
+        }
+    ]
+}

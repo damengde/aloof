@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tiling&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiling/n/,/c/en/application/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/application/n", 
+                "@type": "Node", 
+                "label": "application", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/application"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiling/n", 
+                "@type": "Node", 
+                "label": "tiling", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiling"
+            }, 
+            "surfaceText": "[[tiling]] is a type of [[application]]", 
+            "weight": 2.0
+        }
+    ]
+}

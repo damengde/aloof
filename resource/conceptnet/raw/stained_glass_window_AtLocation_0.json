@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stained_glass_window&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stained_glass_window/,/c/en/church/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/church", 
+                "@type": "Node", 
+                "label": "a church", 
+                "language": "en", 
+                "term": "/c/en/church"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jhunt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/twospooky/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/twospooky"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass_window", 
+                "@type": "Node", 
+                "label": "a stained-glass window", 
+                "language": "en", 
+                "term": "/c/en/stained_glass_window"
+            }, 
+            "surfaceText": "You are likely to find [[a stained-glass window]] in [[a church]]", 
+            "weight": 3.4641016151377544
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/balustrade&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/balustrade/,/c/en/parapet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/parapet/n", 
+                "@type": "Node", 
+                "label": "parapet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/parapet"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balustrade", 
+                "@type": "Node", 
+                "label": "balustrade", 
+                "language": "en", 
+                "term": "/c/en/balustrade"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/balustrade/n/,/c/en/parapet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/parapet", 
+                "@type": "Node", 
+                "label": "parapet", 
+                "language": "en", 
+                "term": "/c/en/parapet"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balustrade/n", 
+                "@type": "Node", 
+                "label": "balustrade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/balustrade"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,1068 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ring&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bell/,/c/en/ring/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bell", 
+                "@type": "Node", 
+                "label": "a bell", 
+                "language": "en", 
+                "term": "/c/en/bell"
+            }, 
+            "surfaceText": "You can use [[a bell]] to [[ring]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/wearing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wearing", 
+                "@type": "Node", 
+                "label": "wearing", 
+                "language": "en", 
+                "term": "/c/en/wearing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[wearing]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/alarm_clock/n/,/c/en/ring/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ring/v", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock/n", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": "[[alarm clock]] is used for [[ring]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/alarm/n/,/c/en/ring/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ring/v", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm/n", 
+                "@type": "Node", 
+                "label": "alarm", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alarm"
+            }, 
+            "surfaceText": "[[alarm]] is used for [[ring]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/doorbell/n/,/c/en/ring/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ring/v", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorbell/n", 
+                "@type": "Node", 
+                "label": "doorbell", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorbell"
+            }, 
+            "surfaceText": "[[doorbell]] is used for [[ring]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/decoration/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decoration", 
+                "@type": "Node", 
+                "label": "decoration", 
+                "language": "en", 
+                "term": "/c/en/decoration"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/elarsen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/elarsen"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[decoration]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/engage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/engage", 
+                "@type": "Node", 
+                "label": "engage", 
+                "language": "en", 
+                "term": "/c/en/engage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/js/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/js"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "You can use [[a ring]] to [[engage]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/adorning_finger/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/adorning_finger", 
+                "@type": "Node", 
+                "label": "adorning a finger", 
+                "language": "en", 
+                "term": "/c/en/adorning_finger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[adorning a finger]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/being_engaged/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/being_engaged", 
+                "@type": "Node", 
+                "label": "being engaged", 
+                "language": "en", 
+                "term": "/c/en/being_engaged"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[being engaged]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/being_friends/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/being_friends", 
+                "@type": "Node", 
+                "label": "being friends", 
+                "language": "en", 
+                "term": "/c/en/being_friends"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[being friends]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/being_married/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/being_married", 
+                "@type": "Node", 
+                "label": "being married", 
+                "language": "en", 
+                "term": "/c/en/being_married"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[being married]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/bringing_to_phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bringing_to_phone", 
+                "@type": "Node", 
+                "label": "bringing someone to a phone", 
+                "language": "en", 
+                "term": "/c/en/bringing_to_phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[bringing someone to a phone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/decorate_finger/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decorate_finger", 
+                "@type": "Node", 
+                "label": "decorate a finger", 
+                "language": "en", 
+                "term": "/c/en/decorate_finger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used to [[decorate a finger]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/decorate_yourself/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decorate_yourself", 
+                "@type": "Node", 
+                "label": "decorate yourself", 
+                "language": "en", 
+                "term": "/c/en/decorate_yourself"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "You can use [[a ring]] to [[decorate yourself]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/fastening_ropes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fastening_ropes", 
+                "@type": "Node", 
+                "label": "fastening ropes", 
+                "language": "en", 
+                "term": "/c/en/fastening_ropes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[fastening ropes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/fighting_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fighting_in", 
+                "@type": "Node", 
+                "label": "fighting in", 
+                "language": "en", 
+                "term": "/c/en/fighting_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[fighting in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/finger/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/finger", 
+                "@type": "Node", 
+                "label": "finger", 
+                "language": "en", 
+                "term": "/c/en/finger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bajakmembajak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bajakmembajak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[finger]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/get_engaged/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_engaged", 
+                "@type": "Node", 
+                "label": "get engaged", 
+                "language": "en", 
+                "term": "/c/en/get_engaged"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "You can use [[a ring]] to [[get engaged]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/getting_attention/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_attention", 
+                "@type": "Node", 
+                "label": "getting attention", 
+                "language": "en", 
+                "term": "/c/en/getting_attention"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[getting attention]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/gymnastic_exercise/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gymnastic_exercise", 
+                "@type": "Node", 
+                "label": "Gymnastic exercise", 
+                "language": "en", 
+                "term": "/c/en/gymnastic_exercise"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[Gymnastic exercise]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/jelwellery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jelwellery", 
+                "@type": "Node", 
+                "label": "jelwellery", 
+                "language": "en", 
+                "term": "/c/en/jelwellery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/shesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/shesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "A ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[A ring]] is used for [[jelwellery]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/prancing_horses/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/prancing_horses", 
+                "@type": "Node", 
+                "label": "prancing horses", 
+                "language": "en", 
+                "term": "/c/en/prancing_horses"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[prancing horses]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/response_to_door_bell_push/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/response_to_door_bell_push", 
+                "@type": "Node", 
+                "label": "response to a door bell push", 
+                "language": "en", 
+                "term": "/c/en/response_to_door_bell_push"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[response to a door bell push]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/rule_all/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rule_all", 
+                "@type": "Node", 
+                "label": "rule them all", 
+                "language": "en", 
+                "term": "/c/en/rule_all"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/crazytrain/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/crazytrain"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "You can use [[a ring]] to [[rule them all]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/showing_commitment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/showing_commitment", 
+                "@type": "Node", 
+                "label": "showing commitment", 
+                "language": "en", 
+                "term": "/c/en/showing_commitment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[showing commitment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/symbolism/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/symbolism", 
+                "@type": "Node", 
+                "label": "symbolism", 
+                "language": "en", 
+                "term": "/c/en/symbolism"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[symbolism]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/symbolizing_bond/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/symbolizing_bond", 
+                "@type": "Node", 
+                "label": "symbolizing a bond", 
+                "language": "en", 
+                "term": "/c/en/symbolizing_bond"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is used for [[symbolizing a bond]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/tying_rope_through/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tying_rope_through", 
+                "@type": "Node", 
+                "label": "Tying a rope through", 
+                "language": "en", 
+                "term": "/c/en/tying_rope_through"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[Tying a rope through]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ring/,/c/en/uniting_two_items/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/uniting_two_items", 
+                "@type": "Node", 
+                "label": "uniting two items", 
+                "language": "en", 
+                "term": "/c/en/uniting_two_items"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "[[a ring]] is for [[uniting two items]]", 
+            "weight": 1.0
+        }
+    ]
+}

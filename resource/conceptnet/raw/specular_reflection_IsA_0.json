@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/specular_reflection&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/reflecting/n/,/c/en/specular_reflection/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/specular_reflection/n", 
+                "@type": "Node", 
+                "label": "specular reflection", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/specular_reflection"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reflecting/n", 
+                "@type": "Node", 
+                "label": "reflecting", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/reflecting"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/specular_reflection/n/,/c/en/electromagnetic_radiation_reflection/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/electromagnetic_radiation_reflection/n", 
+                "@type": "Node", 
+                "label": "electromagnetic radiation reflection", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electromagnetic_radiation_reflection"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/specular_reflection/n", 
+                "@type": "Node", 
+                "label": "specular reflection", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/specular_reflection"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

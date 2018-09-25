@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/reflection&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/reflection/,/c/en/mirror/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mirror", 
+                "@type": "Node", 
+                "label": "a mirror", 
+                "language": "en", 
+                "term": "/c/en/mirror"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bcurie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/bcurie"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reflection", 
+                "@type": "Node", 
+                "label": "a reflection", 
+                "language": "en", 
+                "term": "/c/en/reflection"
+            }, 
+            "surfaceText": "*Something you find in [[a mirror]] is [[a reflection]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/reflection/,/c/en/introvert/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/introvert", 
+                "@type": "Node", 
+                "label": "an introvert", 
+                "language": "en", 
+                "term": "/c/en/introvert"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reflection", 
+                "@type": "Node", 
+                "label": "reflection", 
+                "language": "en", 
+                "term": "/c/en/reflection"
+            }, 
+            "surfaceText": "You are likely to find [[reflection]] in [[an introvert]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/reflection/,/c/en/sea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sea", 
+                "@type": "Node", 
+                "label": "the sea", 
+                "language": "en", 
+                "term": "/c/en/sea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reflection", 
+                "@type": "Node", 
+                "label": "a reflection", 
+                "language": "en", 
+                "term": "/c/en/reflection"
+            }, 
+            "surfaceText": "*Something you find on [[the sea]] is [[a reflection]]", 
+            "weight": 1.0
+        }
+    ]
+}

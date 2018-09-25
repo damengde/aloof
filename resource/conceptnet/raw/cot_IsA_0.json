@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cot&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cot/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cot/n", 
+                "@type": "Node", 
+                "label": "cot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cot"
+            }, 
+            "surfaceText": "[[cot]] is a type of [[bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cot/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/antacidtablets/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/antacidtablets"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cot", 
+                "@type": "Node", 
+                "label": "A cot", 
+                "language": "en", 
+                "term": "/c/en/cot"
+            }, 
+            "surfaceText": "[[A cot]] is a kind of [[bed]]", 
+            "weight": 1.0
+        }
+    ]
+}

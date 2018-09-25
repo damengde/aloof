@@ -1,0 +1,224 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fruit&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/sugar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sugar", 
+                "@type": "Node", 
+                "label": "sugar", 
+                "language": "en", 
+                "term": "/c/en/sugar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bagsc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bagsc"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/suchow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/suchow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "Fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[Fruit]] has [[sugar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/antioxidants/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/antioxidants", 
+                "@type": "Node", 
+                "label": "antioxidants", 
+                "language": "en", 
+                "term": "/c/en/antioxidants"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/orcinus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/orcinus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "Fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[Fruit]] contains [[antioxidants]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/pleasant_taste/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pleasant_taste", 
+                "@type": "Node", 
+                "label": "a pleasant taste", 
+                "language": "en", 
+                "term": "/c/en/pleasant_taste"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/euxneks/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/euxneks"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "Fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[Fruit]] has [[a pleasant taste]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/seeds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/seeds", 
+                "@type": "Node", 
+                "label": "seeds", 
+                "language": "en", 
+                "term": "/c/en/seeds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lmklein2000/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lmklein2000"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "Fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[Fruit]] has [[seeds]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/vitamins/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vitamins", 
+                "@type": "Node", 
+                "label": "vitamins", 
+                "language": "en", 
+                "term": "/c/en/vitamins"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/timeslicer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/timeslicer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[fruit]] has [[vitamins]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fruit/,/c/en/water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jblachly/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jblachly"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "surfaceText": "[[fruit]] contains [[water]]", 
+            "weight": 1.0
+        }
+    ]
+}

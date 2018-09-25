@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/furniture&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/furniture/,/c/en/cost_lot_of_money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cost_lot_of_money", 
+                "@type": "Node", 
+                "label": "cost a lot of money", 
+                "language": "en", 
+                "term": "/c/en/cost_lot_of_money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leangal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leangal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "Furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "surfaceText": "[[Furniture]] can [[cost a lot of money]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/furniture/,/c/en/give_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/give_out", 
+                "@type": "Node", 
+                "label": "give out", 
+                "language": "en", 
+                "term": "/c/en/give_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "Furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "surfaceText": "[[Furniture]] can [[give out]]", 
+            "weight": 1.0
+        }
+    ]
+}

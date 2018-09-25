@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soap&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/soap/,/c/en/clean_cars/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clean_cars", 
+                "@type": "Node", 
+                "label": "clean cars", 
+                "language": "en", 
+                "term": "/c/en/clean_cars"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "[[soap]] can [[clean cars]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/soap/,/c/en/liquid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/liquid", 
+                "@type": "Node", 
+                "label": "be a liquid", 
+                "language": "en", 
+                "term": "/c/en/liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "[[soap]] can [[be a liquid]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/soap/,/c/en/wash_hands/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wash_hands", 
+                "@type": "Node", 
+                "label": "wash hands", 
+                "language": "en", 
+                "term": "/c/en/wash_hands"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rickyd/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rickyd"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "Soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "[[Soap]] can [[wash hands]]", 
+            "weight": 1.0
+        }
+    ]
+}

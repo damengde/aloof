@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fork&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fork/,/c/en/move_food_to_mouth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/move_food_to_mouth", 
+                "@type": "Node", 
+                "label": "move the food to your mouth", 
+                "language": "en", 
+                "term": "/c/en/move_food_to_mouth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thevieve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thevieve"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/net7runner/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/net7runner"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork", 
+                "@type": "Node", 
+                "label": "A fork", 
+                "language": "en", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": "[[A fork]] can [[move the food to your mouth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fork/,/c/en/hold_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_things", 
+                "@type": "Node", 
+                "label": "hold things", 
+                "language": "en", 
+                "term": "/c/en/hold_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chrisjrn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chrisjrn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork", 
+                "@type": "Node", 
+                "label": "A fork", 
+                "language": "en", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": "[[A fork]] can [[hold things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fork/,/c/en/in_road/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/in_road", 
+                "@type": "Node", 
+                "label": "be in a road", 
+                "language": "en", 
+                "term": "/c/en/in_road"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork", 
+                "@type": "Node", 
+                "label": "a fork", 
+                "language": "en", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": "[[a fork]] may [[be in a road]]", 
+            "weight": 1.0
+        }
+    ]
+}

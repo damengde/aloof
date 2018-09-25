@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bicycle&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bicycle/,/c/en/fun_to_ride/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fun_to_ride", 
+                "@type": "Node", 
+                "label": "fun to ride", 
+                "language": "en", 
+                "term": "/c/en/fun_to_ride"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/exa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/exa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "A bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "surfaceText": "[[A bicycle]] is [[fun to ride]]", 
+            "weight": 1.0
+        }
+    ]
+}

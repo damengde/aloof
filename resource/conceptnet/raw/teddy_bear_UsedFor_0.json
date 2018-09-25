@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teddy_bear&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/teddy_bear/,/c/en/cuddling/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cuddling", 
+                "@type": "Node", 
+                "label": "cuddling", 
+                "language": "en", 
+                "term": "/c/en/cuddling"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teddy_bear", 
+                "@type": "Node", 
+                "label": "A teddy bear", 
+                "language": "en", 
+                "term": "/c/en/teddy_bear"
+            }, 
+            "surfaceText": "[[A teddy bear]] is for [[cuddling]]", 
+            "weight": 1.0
+        }
+    ]
+}

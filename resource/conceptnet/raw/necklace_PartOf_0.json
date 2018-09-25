@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/necklace&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pendant/n/,/c/en/necklace/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/necklace/n", 
+                "@type": "Node", 
+                "label": "necklace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/necklace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pendant/n", 
+                "@type": "Node", 
+                "label": "pendant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pendant"
+            }, 
+            "surfaceText": "[[pendant]] is a part of [[necklace]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/necklace/,/c/en/treasure/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/treasure", 
+                "@type": "Node", 
+                "label": "the treasure", 
+                "language": "en", 
+                "term": "/c/en/treasure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/necklace", 
+                "@type": "Node", 
+                "label": "this necklace", 
+                "language": "en", 
+                "term": "/c/en/necklace"
+            }, 
+            "surfaceText": "[[this necklace]] is part of [[the treasure]]", 
+            "weight": 1.0
+        }
+    ]
+}

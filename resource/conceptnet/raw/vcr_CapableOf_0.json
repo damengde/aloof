@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vcr&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vcr/,/c/en/record_television_show/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/record_television_show", 
+                "@type": "Node", 
+                "label": "record a television show", 
+                "language": "en", 
+                "term": "/c/en/record_television_show"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/firethegoat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/firethegoat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vcr", 
+                "@type": "Node", 
+                "label": "a VCR", 
+                "language": "en", 
+                "term": "/c/en/vcr"
+            }, 
+            "surfaceText": "[[a VCR]] can [[record a television show]]", 
+            "weight": 1.0
+        }
+    ]
+}

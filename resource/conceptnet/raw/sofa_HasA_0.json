@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sofa&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/sofa/,/c/en/legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/legs", 
+                "@type": "Node", 
+                "label": "legs", 
+                "language": "en", 
+                "term": "/c/en/legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "A sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "[[A sofa]] has [[legs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/typical_livingroom/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/typical_livingroom", 
+                "@type": "Node", 
+                "label": "a typical livingroom", 
+                "language": "en", 
+                "term": "/c/en/typical_livingroom"
+            }, 
+            "surfaceText": "[[a typical livingroom]] contains [[a sofa]]", 
+            "weight": 1.0
+        }
+    ]
+}

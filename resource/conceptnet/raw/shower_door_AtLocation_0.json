@@ -1,0 +1,96 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_door&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_door/,/c/en/bathroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathroom", 
+                "@type": "Node", 
+                "label": "a bathroom", 
+                "language": "en", 
+                "term": "/c/en/bathroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lisaclovis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lisaclovis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/suzanne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/suzanne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lisaclovis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lisaclovis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_door", 
+                "@type": "Node", 
+                "label": "a shower door", 
+                "language": "en", 
+                "term": "/c/en/shower_door"
+            }, 
+            "surfaceText": "You are likely to find [[a shower door]] in [[a bathroom]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_door/,/c/en/shower_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shower_room", 
+                "@type": "Node", 
+                "label": "the shower room", 
+                "language": "en", 
+                "term": "/c/en/shower_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rangerbaldwin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rangerbaldwin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_door", 
+                "@type": "Node", 
+                "label": "a shower door", 
+                "language": "en", 
+                "term": "/c/en/shower_door"
+            }, 
+            "surfaceText": "You are likely to find [[a shower door]] in [[the shower room]]", 
+            "weight": 1.0
+        }
+    ]
+}

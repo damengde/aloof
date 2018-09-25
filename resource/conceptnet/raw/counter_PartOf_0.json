@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/counter&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/counter/n/,/c/en/boot/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/boot/n", 
+                "@type": "Node", 
+                "label": "boot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/counter/n", 
+                "@type": "Node", 
+                "label": "counter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/counter"
+            }, 
+            "surfaceText": "[[counter]] is a part of [[boot]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/counter/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/counter/n", 
+                "@type": "Node", 
+                "label": "counter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/counter"
+            }, 
+            "surfaceText": "[[counter]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/countertop/n/,/c/en/counter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/counter/n", 
+                "@type": "Node", 
+                "label": "counter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/counter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/countertop/n", 
+                "@type": "Node", 
+                "label": "countertop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/countertop"
+            }, 
+            "surfaceText": "[[countertop]] is a part of [[counter]]", 
+            "weight": 2.0
+        }
+    ]
+}

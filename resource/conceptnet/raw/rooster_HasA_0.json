@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rooster&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/rooster/,/c/en/comb/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/comb", 
+                "@type": "Node", 
+                "label": "a comb", 
+                "language": "en", 
+                "term": "/c/en/comb"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/isylph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/isylph"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bstone/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bstone"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rooster", 
+                "@type": "Node", 
+                "label": "a rooster", 
+                "language": "en", 
+                "term": "/c/en/rooster"
+            }, 
+            "surfaceText": "[[a rooster]] has [[a comb]]", 
+            "weight": 2.0
+        }
+    ]
+}

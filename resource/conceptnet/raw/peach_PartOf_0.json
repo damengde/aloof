@@ -1,0 +1,121 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/peach&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/peach/n/,/c/en/peach/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/peach/n", 
+                "@type": "Node", 
+                "label": "peach", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/peach"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/peach/n", 
+                "@type": "Node", 
+                "label": "peach", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/peach"
+            }, 
+            "surfaceText": "[[peach]] is a part of [[peach]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pit/,/c/en/peach/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/peach", 
+                "@type": "Node", 
+                "label": "a peach", 
+                "language": "en", 
+                "term": "/c/en/peach"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/razzbaronz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/razzbaronz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pit", 
+                "@type": "Node", 
+                "label": "A pit", 
+                "language": "en", 
+                "term": "/c/en/pit"
+            }, 
+            "surfaceText": "[[A pit]] is part of [[a peach]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/peach/,/c/en/orchard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/orchard/n", 
+                "@type": "Node", 
+                "label": "orchard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/orchard"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/peach", 
+                "@type": "Node", 
+                "label": "peach", 
+                "language": "en", 
+                "term": "/c/en/peach"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

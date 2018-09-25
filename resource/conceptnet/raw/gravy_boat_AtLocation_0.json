@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/gravy_boat&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gravy_boat/,/c/en/cupboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "the cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gravy_boat", 
+                "@type": "Node", 
+                "label": "a gravy boat", 
+                "language": "en", 
+                "term": "/c/en/gravy_boat"
+            }, 
+            "surfaceText": "*Something you find in [[the cupboard]] is [[a gravy boat]]", 
+            "weight": 2.82842712474619
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/score&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/musical_notation/n/,/c/en/score/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/score/n", 
+                "@type": "Node", 
+                "label": "score", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/score"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/musical_notation/n", 
+                "@type": "Node", 
+                "label": "musical notation", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/musical_notation"
+            }, 
+            "surfaceText": "[[musical notation]] is a part of [[score]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/point/n/,/c/en/score/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/score/n", 
+                "@type": "Node", 
+                "label": "score", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/score"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/point/n", 
+                "@type": "Node", 
+                "label": "point", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/point"
+            }, 
+            "surfaceText": "[[point]] is a part of [[score]]", 
+            "weight": 2.0
+        }
+    ]
+}

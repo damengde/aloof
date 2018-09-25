@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/paper&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/desk_drawer/,/c/en/paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/paper", 
+                "@type": "Node", 
+                "label": "paper", 
+                "language": "en", 
+                "term": "/c/en/paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/majordecoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/majordecoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk_drawer", 
+                "@type": "Node", 
+                "label": "a desk drawer", 
+                "language": "en", 
+                "term": "/c/en/desk_drawer"
+            }, 
+            "surfaceText": "[[a desk drawer]] contains [[paper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/notepad/,/c/en/paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/paper", 
+                "@type": "Node", 
+                "label": "paper", 
+                "language": "en", 
+                "term": "/c/en/paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "A notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[A notepad]] contains [[paper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/paper/,/c/en/pulp/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pulp", 
+                "@type": "Node", 
+                "label": "pulp", 
+                "language": "en", 
+                "term": "/c/en/pulp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paper", 
+                "@type": "Node", 
+                "label": "paper", 
+                "language": "en", 
+                "term": "/c/en/paper"
+            }, 
+            "surfaceText": "[[paper]] contains [[pulp]]", 
+            "weight": 1.0
+        }
+    ]
+}

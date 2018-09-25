@@ -1,0 +1,172 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sideboard&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sideboard/,/c/en/dining_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dining_room", 
+                "@type": "Node", 
+                "label": "the dining room", 
+                "language": "en", 
+                "term": "/c/en/dining_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/salyre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/salyre"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mevans/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mevans"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/salyre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/salyre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "a sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "You are likely to find [[a sideboard]] in [[the dining room]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sideboard/,/c/en/home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home", 
+                "@type": "Node", 
+                "label": "a home", 
+                "language": "en", 
+                "term": "/c/en/home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/caff/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/caff"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "a sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "You are likely to find [[a sideboard]] in [[a home]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sideboard/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "the kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "a sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "You are likely to find [[a sideboard]] in [[the kitchen]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sideboard/,/c/en/room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/room", 
+                "@type": "Node", 
+                "label": "a room", 
+                "language": "en", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "a sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "You are likely to find [[a sideboard]] in [[a room]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cushion&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cushion/,/c/en/comfort/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/comfort", 
+                "@type": "Node", 
+                "label": "comfort", 
+                "language": "en", 
+                "term": "/c/en/comfort"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/isylph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/isylph"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cushion", 
+                "@type": "Node", 
+                "label": "a cushion", 
+                "language": "en", 
+                "term": "/c/en/cushion"
+            }, 
+            "surfaceText": "[[a cushion]] is used for [[comfort]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pad/,/c/en/cushion/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cushion", 
+                "@type": "Node", 
+                "label": "a cushion", 
+                "language": "en", 
+                "term": "/c/en/cushion"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pad", 
+                "@type": "Node", 
+                "label": "a pad", 
+                "language": "en", 
+                "term": "/c/en/pad"
+            }, 
+            "surfaceText": "[[a pad]] is used for [[a cushion]]", 
+            "weight": 1.0
+        }
+    ]
+}

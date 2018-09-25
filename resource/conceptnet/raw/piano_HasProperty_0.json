@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/piano&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/piano/,/c/en/one_kind_of_musical_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_kind_of_musical_instrument", 
+                "@type": "Node", 
+                "label": "one kind of musical instrument", 
+                "language": "en", 
+                "term": "/c/en/one_kind_of_musical_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davcamer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davcamer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "[[a piano]] is [[one kind of musical instrument]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/piano/,/c/en/solid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/solid", 
+                "@type": "Node", 
+                "label": "solid", 
+                "language": "en", 
+                "term": "/c/en/solid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "[[a piano]] is [[solid]]", 
+            "weight": 1.0
+        }
+    ]
+}

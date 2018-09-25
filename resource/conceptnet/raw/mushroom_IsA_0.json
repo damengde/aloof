@@ -1,0 +1,442 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mushroom&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/,/c/en/fungus/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fungus", 
+                "@type": "Node", 
+                "label": "a fungus", 
+                "language": "en", 
+                "term": "/c/en/fungus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/apb3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/apb3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fcueto/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fcueto"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zafuman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zafuman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/echooooo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/echooooo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pastymage/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pastymage"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ricardo_andres_guzman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ricardo_andres_guzman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zafuman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zafuman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "a mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[a mushroom]] is [[a fungus]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/morel/n/,/c/en/mushroom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/morel/n", 
+                "@type": "Node", 
+                "label": "morel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/morel"
+            }, 
+            "surfaceText": "[[morel]] is a type of [[mushroom]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/agaric/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/agaric/n", 
+                "@type": "Node", 
+                "label": "agaric", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/agaric"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a type of [[agaric]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/basidiomycete/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/basidiomycete/n", 
+                "@type": "Node", 
+                "label": "basidiomycete", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/basidiomycete"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a type of [[basidiomycete]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/cloud/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cloud/n", 
+                "@type": "Node", 
+                "label": "cloud", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cloud"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a type of [[cloud]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/vegetable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vegetable/n", 
+                "@type": "Node", 
+                "label": "vegetable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a type of [[vegetable]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/,/c/en/form_of_fungus/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_fungus", 
+                "@type": "Node", 
+                "label": "a form of fungus", 
+                "language": "en", 
+                "term": "/c/en/form_of_fungus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/bfgx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/bfgx"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "A mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[A mushroom]] is [[a form of fungus]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/,/c/en/vegetable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vegetable", 
+                "@type": "Node", 
+                "label": "vegetable", 
+                "language": "en", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/andreicnx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/andreicnx"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a kind of [[vegetable]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/living_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/living_thing/n", 
+                "@type": "Node", 
+                "label": "living thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/living_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mushroom/n/,/c/en/tangible_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tangible_thing/n", 
+                "@type": "Node", 
+                "label": "tangible thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tangible_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toadstool/,/c/en/mushroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "a mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toadstool", 
+                "@type": "Node", 
+                "label": "a toadstool", 
+                "language": "en", 
+                "term": "/c/en/toadstool"
+            }, 
+            "surfaceText": "[[a toadstool]] is [[a mushroom]]", 
+            "weight": 1.0
+        }
+    ]
+}

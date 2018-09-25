@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/deer&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/deer/,/c/en/fear_hunters/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fear_hunters", 
+                "@type": "Node", 
+                "label": "fear hunters", 
+                "language": "en", 
+                "term": "/c/en/fear_hunters"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "[[deer]] can [[fear hunters]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/deer/,/c/en/long_for_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_for_water", 
+                "@type": "Node", 
+                "label": "long for water", 
+                "language": "en", 
+                "term": "/c/en/long_for_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tigger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tigger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "[[deer]] can [[long for water]]", 
+            "weight": 1.0
+        }
+    ]
+}

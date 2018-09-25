@@ -1,0 +1,201 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mug&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mug/,/c/en/cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cabinet", 
+                "@type": "Node", 
+                "label": "the cabinet", 
+                "language": "en", 
+                "term": "/c/en/cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lobryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lobryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mug", 
+                "@type": "Node", 
+                "label": "a mug", 
+                "language": "en", 
+                "term": "/c/en/mug"
+            }, 
+            "surfaceText": "You are likely to find [[a mug]] in [[the cabinet]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mug/,/c/en/cupboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "the cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hawkeye/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hawkeye"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hreinn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hreinn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mug", 
+                "@type": "Node", 
+                "label": "a mug", 
+                "language": "en", 
+                "term": "/c/en/mug"
+            }, 
+            "surfaceText": "You are likely to find [[a mug]] in [[the cupboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mug/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/havasi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/havasi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mug", 
+                "@type": "Node", 
+                "label": "a mug", 
+                "language": "en", 
+                "term": "/c/en/mug"
+            }, 
+            "surfaceText": "You are likely to find [[a mug]] in [[a store]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee/,/c/en/mug/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mug", 
+                "@type": "Node", 
+                "label": "a mug", 
+                "language": "en", 
+                "term": "/c/en/mug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/snellchatfield/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/snellchatfield"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee", 
+                "@type": "Node", 
+                "label": "coffee", 
+                "language": "en", 
+                "term": "/c/en/coffee"
+            }, 
+            "surfaceText": "Somewhere [[coffee]] can be is [[a mug]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mug/,/c/en/bar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mug", 
+                "@type": "Node", 
+                "label": "a mug", 
+                "language": "en", 
+                "term": "/c/en/mug"
+            }, 
+            "surfaceText": "You are likely to find [[a mug]] in [[a bar]]", 
+            "weight": 1.0
+        }
+    ]
+}

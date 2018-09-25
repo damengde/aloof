@@ -1,0 +1,172 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rope&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rope/,/c/en/trip_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trip_person", 
+                "@type": "Node", 
+                "label": "trip a person", 
+                "language": "en", 
+                "term": "/c/en/trip_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/moocreature/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/moocreature"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/czechnmymail/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/czechnmymail"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moocreature/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moocreature"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rope", 
+                "@type": "Node", 
+                "label": "a rope", 
+                "language": "en", 
+                "term": "/c/en/rope"
+            }, 
+            "surfaceText": "[[a rope]] can [[trip a person]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rope/,/c/en/lower_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lower_person", 
+                "@type": "Node", 
+                "label": "lower a person", 
+                "language": "en", 
+                "term": "/c/en/lower_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tazzydevil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tazzydevil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rope", 
+                "@type": "Node", 
+                "label": "a rope", 
+                "language": "en", 
+                "term": "/c/en/rope"
+            }, 
+            "surfaceText": "[[a rope]] can [[lower a person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rope/,/c/en/tie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "tie something", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boreas/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/boreas"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rope", 
+                "@type": "Node", 
+                "label": "rope", 
+                "language": "en", 
+                "term": "/c/en/rope"
+            }, 
+            "surfaceText": "[[rope]] can [[tie something]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rope/,/c/en/tie_boat_to_dock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tie_boat_to_dock", 
+                "@type": "Node", 
+                "label": "tie a boat to a dock", 
+                "language": "en", 
+                "term": "/c/en/tie_boat_to_dock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/toman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/toman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rope", 
+                "@type": "Node", 
+                "label": "A rope", 
+                "language": "en", 
+                "term": "/c/en/rope"
+            }, 
+            "surfaceText": "[[A rope]] can [[tie a boat to a dock]]", 
+            "weight": 1.0
+        }
+    ]
+}

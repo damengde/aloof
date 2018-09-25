@@ -1,0 +1,408 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tractor&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulldozer/n/,/c/en/tractor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulldozer/n", 
+                "@type": "Node", 
+                "label": "bulldozer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulldozer"
+            }, 
+            "surfaceText": "[[bulldozer]] is a type of [[tractor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/skidder/n/,/c/en/tractor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/skidder/n", 
+                "@type": "Node", 
+                "label": "skidder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/skidder"
+            }, 
+            "surfaceText": "[[skidder]] is a type of [[tractor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/,/c/en/vehicle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vehicle", 
+                "@type": "Node", 
+                "label": "a vehicle", 
+                "language": "en", 
+                "term": "/c/en/vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor", 
+                "@type": "Node", 
+                "label": "a tractor", 
+                "language": "en", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "[[a tractor]] is [[a vehicle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/self_propelled_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/self_propelled_vehicle/n", 
+                "@type": "Node", 
+                "label": "self-propelled vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/self_propelled_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "[[tractor]] is a type of [[self-propelled vehicle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/truck/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/truck/n", 
+                "@type": "Node", 
+                "label": "truck", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/truck"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "[[tractor]] is a type of [[truck]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulldozer/,/c/en/tractor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tractor", 
+                "@type": "Node", 
+                "label": "a tractor", 
+                "language": "en", 
+                "term": "/c/en/tractor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulldozer", 
+                "@type": "Node", 
+                "label": "a bulldozer", 
+                "language": "en", 
+                "term": "/c/en/bulldozer"
+            }, 
+            "surfaceText": "[[a bulldozer]] is [[a tractor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/agricultural_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/agricultural_vehicle/n", 
+                "@type": "Node", 
+                "label": "agricultural vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/agricultural_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/internal_combustion_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/internal_combustion_powered_device/n", 
+                "@type": "Node", 
+                "label": "internal combustion powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/internal_combustion_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/land_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/land_vehicle/n", 
+                "@type": "Node", 
+                "label": "land vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/land_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/transport_container/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/transport_container/n", 
+                "@type": "Node", 
+                "label": "transport container", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/transport_container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tractor/n/,/c/en/wheeled_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/wheeled_vehicle/n", 
+                "@type": "Node", 
+                "label": "wheeled vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheeled_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor/n", 
+                "@type": "Node", 
+                "label": "tractor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

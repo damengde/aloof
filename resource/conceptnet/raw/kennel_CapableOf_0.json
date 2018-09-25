@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/kennel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/kennel/,/c/en/board_animals/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/board_animals", 
+                "@type": "Node", 
+                "label": "board animals", 
+                "language": "en", 
+                "term": "/c/en/board_animals"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kennel", 
+                "@type": "Node", 
+                "label": "A kennel", 
+                "language": "en", 
+                "term": "/c/en/kennel"
+            }, 
+            "surfaceText": "[[A kennel]] can [[board animals]]", 
+            "weight": 1.0
+        }
+    ]
+}

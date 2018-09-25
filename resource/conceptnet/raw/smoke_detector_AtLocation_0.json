@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/smoke_detector&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/smoke_detector/,/c/en/apartment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/apartment", 
+                "@type": "Node", 
+                "label": "an apartment", 
+                "language": "en", 
+                "term": "/c/en/apartment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/smoke_detector", 
+                "@type": "Node", 
+                "label": "a smoke detector", 
+                "language": "en", 
+                "term": "/c/en/smoke_detector"
+            }, 
+            "surfaceText": "*Something you find at [[an apartment]] is [[a smoke detector]]", 
+            "weight": 1.0
+        }
+    ]
+}

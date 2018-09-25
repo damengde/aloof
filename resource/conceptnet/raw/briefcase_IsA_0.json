@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/briefcase&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/attache_case/n/,/c/en/briefcase/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/briefcase/n", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/briefcase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/attache_case/n", 
+                "@type": "Node", 
+                "label": "attache case", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/attache_case"
+            }, 
+            "surfaceText": "[[attache case]] is a type of [[briefcase]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/briefcase/n/,/c/en/case/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/case/n", 
+                "@type": "Node", 
+                "label": "case", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/case"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/briefcase/n", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/briefcase"
+            }, 
+            "surfaceText": "[[briefcase]] is a type of [[case]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/attach\u00e9_case/n/,/c/en/briefcase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/briefcase", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "term": "/c/en/briefcase"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/attach\u00e9_case/n", 
+                "@type": "Node", 
+                "label": "attach\u00e9 case", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/attach\u00e9_case"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/briefcase/,/c/en/most_often/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/most_often", 
+                "@type": "Node", 
+                "label": "most often", 
+                "language": "en", 
+                "term": "/c/en/most_often"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/briefcase", 
+                "@type": "Node", 
+                "label": "a briefcase", 
+                "language": "en", 
+                "term": "/c/en/briefcase"
+            }, 
+            "surfaceText": "[[a briefcase]] is [[most often]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/briefcase/n/,/c/en/baggage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/baggage/n", 
+                "@type": "Node", 
+                "label": "baggage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baggage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/briefcase/n", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/briefcase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/briefcase/n/,/c/en/box/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/box/n", 
+                "@type": "Node", 
+                "label": "box", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/briefcase/n", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/briefcase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/briefcase/n/,/c/en/office_product/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/office_product/n", 
+                "@type": "Node", 
+                "label": "office product", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/office_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/briefcase/n", 
+                "@type": "Node", 
+                "label": "briefcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/briefcase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

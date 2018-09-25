@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/corner&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bully/,/c/en/corner/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/corner", 
+                "@type": "Node", 
+                "label": "corner someone", 
+                "language": "en", 
+                "term": "/c/en/corner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/emkeki/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/emkeki"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bully", 
+                "@type": "Node", 
+                "label": "a bully", 
+                "language": "en", 
+                "term": "/c/en/bully"
+            }, 
+            "surfaceText": "[[a bully]] can [[corner someone]]", 
+            "weight": 1.0
+        }
+    ]
+}

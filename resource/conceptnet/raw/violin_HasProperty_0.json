@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/violin&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/violin/,/c/en/brown/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/brown", 
+                "@type": "Node", 
+                "label": "brown", 
+                "language": "en", 
+                "term": "/c/en/brown"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/violin", 
+                "@type": "Node", 
+                "label": "a violin", 
+                "language": "en", 
+                "term": "/c/en/violin"
+            }, 
+            "surfaceText": "[[a violin]] is [[brown]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/violin/,/c/en/like_viola_but_smaller/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/like_viola_but_smaller", 
+                "@type": "Node", 
+                "label": "like a viola but smaller", 
+                "language": "en", 
+                "term": "/c/en/like_viola_but_smaller"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/violin", 
+                "@type": "Node", 
+                "label": "a violin", 
+                "language": "en", 
+                "term": "/c/en/violin"
+            }, 
+            "surfaceText": "[[a violin]] is [[like a viola but smaller]]", 
+            "weight": 1.0
+        }
+    ]
+}

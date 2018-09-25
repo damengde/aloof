@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fishtank&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/blowfish/,/c/en/fishtank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fishtank", 
+                "@type": "Node", 
+                "label": "a fishtank", 
+                "language": "en", 
+                "term": "/c/en/fishtank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blowfish", 
+                "@type": "Node", 
+                "label": "a blowfish", 
+                "language": "en", 
+                "term": "/c/en/blowfish"
+            }, 
+            "surfaceText": "You are likely to find [[a blowfish]] in [[a fishtank]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/crab/,/c/en/fishtank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fishtank", 
+                "@type": "Node", 
+                "label": "my fishtank", 
+                "language": "en", 
+                "term": "/c/en/fishtank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/meghan89/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/meghan89"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crab", 
+                "@type": "Node", 
+                "label": "a crab", 
+                "language": "en", 
+                "term": "/c/en/crab"
+            }, 
+            "surfaceText": "You are likely to find [[a crab]] in [[my fishtank]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fish/,/c/en/fishtank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fishtank", 
+                "@type": "Node", 
+                "label": "a fishtank", 
+                "language": "en", 
+                "term": "/c/en/fishtank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/mikec43/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/mikec43"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "a fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "surfaceText": "You are likely to find [[a fish]] in [[a fishtank]]", 
+            "weight": 1.0
+        }
+    ]
+}

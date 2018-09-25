@@ -1,0 +1,143 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tire&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tire/,/c/en/car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "a car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joyr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joyr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/desalvionjr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/desalvionjr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lieber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lieber"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/weboide/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/weboide"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "A tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[A tire]] is part of [[a car]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tire/,/c/en/automobile/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/automobile", 
+                "@type": "Node", 
+                "label": "an automobile", 
+                "language": "en", 
+                "term": "/c/en/automobile"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "a tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[a tire]] is part of [[an automobile]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tire/,/c/en/car's_wheel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car's_wheel", 
+                "@type": "Node", 
+                "label": "a car's wheel", 
+                "language": "en", 
+                "term": "/c/en/car's_wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "A tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[A tire]] is part of [[a car's wheel]]", 
+            "weight": 1.0
+        }
+    ]
+}

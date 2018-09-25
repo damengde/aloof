@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tile&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/tile/,/c/en/cold/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cold", 
+                "@type": "Node", 
+                "label": "cold", 
+                "language": "en", 
+                "term": "/c/en/cold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mvdh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mvdh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tile", 
+                "@type": "Node", 
+                "label": "a tile", 
+                "language": "en", 
+                "term": "/c/en/tile"
+            }, 
+            "surfaceText": "[[a tile]] can be [[cold]]", 
+            "weight": 1.0
+        }
+    ]
+}

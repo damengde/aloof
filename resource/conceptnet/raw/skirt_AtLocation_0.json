@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/skirt&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/skirt/,/c/en/closet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/closet", 
+                "@type": "Node", 
+                "label": "a closet", 
+                "language": "en", 
+                "term": "/c/en/closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/skirt", 
+                "@type": "Node", 
+                "label": "a skirt", 
+                "language": "en", 
+                "term": "/c/en/skirt"
+            }, 
+            "surfaceText": "Somewhere [[a skirt]] can be is in [[a closet]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vagina/,/c/en/skirt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/skirt", 
+                "@type": "Node", 
+                "label": "a skirt", 
+                "language": "en", 
+                "term": "/c/en/skirt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/blah_blankerson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/blah_blankerson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vagina", 
+                "@type": "Node", 
+                "label": "a vagina", 
+                "language": "en", 
+                "term": "/c/en/vagina"
+            }, 
+            "surfaceText": "You are likely to find [[a vagina]] in [[a skirt]].", 
+            "weight": 2.0
+        }
+    ]
+}

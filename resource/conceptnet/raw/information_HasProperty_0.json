@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/information&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/information/,/c/en/undervalued_in_australia/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/undervalued_in_australia", 
+                "@type": "Node", 
+                "label": "undervalued in Australia", 
+                "language": "en", 
+                "term": "/c/en/undervalued_in_australia"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "Information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[Information]] is [[undervalued in Australia]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/information/,/c/en/universal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/universal", 
+                "@type": "Node", 
+                "label": "universal", 
+                "language": "en", 
+                "term": "/c/en/universal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "Some information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[Some information]] is [[universal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/information/,/c/en/unknown_to_memory_banks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/unknown_to_memory_banks", 
+                "@type": "Node", 
+                "label": "unknown to my memory banks", 
+                "language": "en", 
+                "term": "/c/en/unknown_to_memory_banks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matrix29/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matrix29"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "That information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[That information]] is [[unknown to my memory banks]]", 
+            "weight": 1.0
+        }
+    ]
+}

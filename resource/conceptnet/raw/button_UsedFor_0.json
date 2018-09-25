@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/button&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/button/n/,/c/en/fasten/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fasten/v", 
+                "@type": "Node", 
+                "label": "fasten", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fasten"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is used for [[fasten]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/button/n/,/c/en/pin/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pin/v", 
+                "@type": "Node", 
+                "label": "pin", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/pin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is used for [[pin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/button/,/c/en/fastening/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fastening", 
+                "@type": "Node", 
+                "label": "fastening", 
+                "language": "en", 
+                "term": "/c/en/fastening"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "a button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[a button]] is used for [[fastening]].", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/brick&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/brick/,/c/en/brick_wall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/brick_wall", 
+                "@type": "Node", 
+                "label": "a brick wall", 
+                "language": "en", 
+                "term": "/c/en/brick_wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/glowstick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/glowstick"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brick", 
+                "@type": "Node", 
+                "label": "a brick", 
+                "language": "en", 
+                "term": "/c/en/brick"
+            }, 
+            "surfaceText": "[[a brick]] is part of [[a brick wall]]", 
+            "weight": 1.0
+        }
+    ]
+}

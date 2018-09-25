@@ -1,0 +1,289 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/folder&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/filing_cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/filing_cabinet", 
+                "@type": "Node", 
+                "label": "a filing cabinet", 
+                "language": "en", 
+                "term": "/c/en/filing_cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/test/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/test"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jedibabe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jedibabe"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sghoover/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sghoover"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[a filing cabinet]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/file_cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/file_cabinet", 
+                "@type": "Node", 
+                "label": "a file cabinet", 
+                "language": "en", 
+                "term": "/c/en/file_cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jedibabe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jedibabe"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sghoover/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sghoover"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[a file cabinet]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/shelf/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shelf", 
+                "@type": "Node", 
+                "label": "a shelf", 
+                "language": "en", 
+                "term": "/c/en/shelf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mevans/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mevans"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tripl3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tripl3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[a shelf]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/briefcase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/briefcase", 
+                "@type": "Node", 
+                "label": "a briefcase", 
+                "language": "en", 
+                "term": "/c/en/briefcase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[a briefcase]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/file_drawer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/file_drawer", 
+                "@type": "Node", 
+                "label": "a file drawer", 
+                "language": "en", 
+                "term": "/c/en/file_drawer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jnosanov/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jnosanov"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[a file drawer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/folder/,/c/en/school/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/school", 
+                "@type": "Node", 
+                "label": "school", 
+                "language": "en", 
+                "term": "/c/en/school"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "You are likely to find [[a folder]] in [[school]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/paper/,/c/en/folder/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/twistofreality/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/twistofreality"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paper", 
+                "@type": "Node", 
+                "label": "a paper", 
+                "language": "en", 
+                "term": "/c/en/paper"
+            }, 
+            "surfaceText": "Somewhere [[a paper]] can be is in [[a folder]]", 
+            "weight": 1.0
+        }
+    ]
+}

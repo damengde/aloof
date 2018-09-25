@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/food_processor&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/food_processor/n/,/c/en/kitchen_appliance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/kitchen_appliance/n", 
+                "@type": "Node", 
+                "label": "kitchen appliance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food_processor/n", 
+                "@type": "Node", 
+                "label": "food processor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_processor"
+            }, 
+            "surfaceText": "[[food processor]] is a type of [[kitchen appliance]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/food_processor/n/,/c/en/electrical_household_appliance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/electrical_household_appliance/n", 
+                "@type": "Node", 
+                "label": "electrical household appliance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electrical_household_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food_processor/n", 
+                "@type": "Node", 
+                "label": "food processor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_processor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/food_processor/n/,/c/en/kitchen_tool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/kitchen_tool/n", 
+                "@type": "Node", 
+                "label": "kitchen tool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food_processor/n", 
+                "@type": "Node", 
+                "label": "food processor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_processor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/salad_shooter/n/,/c/en/food_processor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/food_processor", 
+                "@type": "Node", 
+                "label": "food processor", 
+                "language": "en", 
+                "term": "/c/en/food_processor"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salad_shooter/n", 
+                "@type": "Node", 
+                "label": "salad shooter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/salad_shooter"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

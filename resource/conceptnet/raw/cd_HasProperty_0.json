@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cd&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cd/,/c/en/flat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flat", 
+                "@type": "Node", 
+                "label": "flat", 
+                "language": "en", 
+                "term": "/c/en/flat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "A CD", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[A CD]] is [[flat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cd/,/c/en/opaque/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opaque", 
+                "@type": "Node", 
+                "label": "opaque", 
+                "language": "en", 
+                "term": "/c/en/opaque"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "a cd", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[a cd]] is [[opaque]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cd/,/c/en/solid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/solid", 
+                "@type": "Node", 
+                "label": "solid", 
+                "language": "en", 
+                "term": "/c/en/solid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "a cd", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[a cd]] is [[solid]]", 
+            "weight": 1.0
+        }
+    ]
+}

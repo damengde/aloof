@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scaffolding&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/scaffold/n/,/c/en/scaffolding/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/scaffolding/n", 
+                "@type": "Node", 
+                "label": "scaffolding", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scaffolding"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scaffold/n", 
+                "@type": "Node", 
+                "label": "scaffold", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scaffold"
+            }, 
+            "surfaceText": "[[scaffold]] is a part of [[scaffolding]]", 
+            "weight": 2.0
+        }
+    ]
+}

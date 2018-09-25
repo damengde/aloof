@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fire&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fire/,/c/en/effect_of_burning/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/effect_of_burning", 
+                "@type": "Node", 
+                "label": "the effect of burning", 
+                "language": "en", 
+                "term": "/c/en/effect_of_burning"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/sethatbyu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/sethatbyu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "Fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "[[Fire]] has [[the effect of burning]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fire/,/c/en/temperature/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/temperature", 
+                "@type": "Node", 
+                "label": "a temperature", 
+                "language": "en", 
+                "term": "/c/en/temperature"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "Fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "[[Fire]] has [[a temperature]]", 
+            "weight": 1.0
+        }
+    ]
+}

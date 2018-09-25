@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hat&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hat/,/c/en/fit_head/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fit_head", 
+                "@type": "Node", 
+                "label": "fit a head", 
+                "language": "en", 
+                "term": "/c/en/fit_head"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobrideen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobrideen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hat", 
+                "@type": "Node", 
+                "label": "A hat", 
+                "language": "en", 
+                "term": "/c/en/hat"
+            }, 
+            "surfaceText": "[[A hat]] can [[fit a head]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hat/,/c/en/fit_well/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fit_well", 
+                "@type": "Node", 
+                "label": "fit well", 
+                "language": "en", 
+                "term": "/c/en/fit_well"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hat", 
+                "@type": "Node", 
+                "label": "a hat", 
+                "language": "en", 
+                "term": "/c/en/hat"
+            }, 
+            "surfaceText": "[[a hat]] can [[fit well]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hat/,/c/en/shade_eyes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shade_eyes", 
+                "@type": "Node", 
+                "label": "shade your eyes", 
+                "language": "en", 
+                "term": "/c/en/shade_eyes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hat", 
+                "@type": "Node", 
+                "label": "A hat", 
+                "language": "en", 
+                "term": "/c/en/hat"
+            }, 
+            "surfaceText": "[[A hat]] can [[shade your eyes]]", 
+            "weight": 1.0
+        }
+    ]
+}

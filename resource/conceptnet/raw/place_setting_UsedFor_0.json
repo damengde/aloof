@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/place_setting&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/place_setting/,/c/en/having_meal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/having_meal", 
+                "@type": "Node", 
+                "label": "having a meal", 
+                "language": "en", 
+                "term": "/c/en/having_meal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/erikglenn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/erikglenn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/place_setting", 
+                "@type": "Node", 
+                "label": "A place setting", 
+                "language": "en", 
+                "term": "/c/en/place_setting"
+            }, 
+            "surfaceText": "[[A place setting]] is for [[having a meal]]", 
+            "weight": 1.0
+        }
+    ]
+}

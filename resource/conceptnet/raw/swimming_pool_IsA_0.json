@@ -1,0 +1,544 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/swimming_pool&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/n/,/c/en/athletic_facility/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/athletic_facility/n", 
+                "@type": "Node", 
+                "label": "athletic facility", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/athletic_facility"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[swimming pool]] is a type of [[athletic facility]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/n/,/c/en/pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pool/n", 
+                "@type": "Node", 
+                "label": "pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[swimming pool]] is a type of [[pool]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/baths/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baths", 
+                "@type": "Node", 
+                "label": "baths", 
+                "language": "en", 
+                "term": "/c/en/baths"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_outside/,/c/en/swimming_pool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/swimming_pool", 
+                "@type": "Node", 
+                "label": "a swimming pool", 
+                "language": "en", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0229153/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0229153"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_outside", 
+                "@type": "Node", 
+                "label": "Something you find outside", 
+                "language": "en", 
+                "term": "/c/en/find_outside"
+            }, 
+            "surfaceText": "[[Something you find outside]] is [[a swimming pool]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kiddie_pool/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kiddie_pool", 
+                "@type": "Node", 
+                "label": "kiddie pool", 
+                "language": "en", 
+                "term": "/c/en/kiddie_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lido/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lido", 
+                "@type": "Node", 
+                "label": "lido", 
+                "language": "en", 
+                "term": "/c/en/lido"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/outdoor_swimming_pool/n/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/outdoor_swimming_pool/n", 
+                "@type": "Node", 
+                "label": "outdoor swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/outdoor_swimming_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/paddling_pool/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paddling_pool", 
+                "@type": "Node", 
+                "label": "paddling pool", 
+                "language": "en", 
+                "term": "/c/en/paddling_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/public_swimming_pool/n/,/c/en/swimming_pool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/public_swimming_pool/n", 
+                "@type": "Node", 
+                "label": "public swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/public_swimming_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/,/c/en/artificial_pond/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/artificial_pond", 
+                "@type": "Node", 
+                "label": "an artificial pond", 
+                "language": "en", 
+                "term": "/c/en/artificial_pond"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool", 
+                "@type": "Node", 
+                "label": "A swimming pool", 
+                "language": "en", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[A swimming pool]] is [[an artificial pond]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/,/c/en/large_space/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/large_space", 
+                "@type": "Node", 
+                "label": "a large space", 
+                "language": "en", 
+                "term": "/c/en/large_space"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool", 
+                "@type": "Node", 
+                "label": "a swimming pool", 
+                "language": "en", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[a swimming pool]] is [[a large space]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/,/c/en/pond/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pond", 
+                "@type": "Node", 
+                "label": "a pond", 
+                "language": "en", 
+                "term": "/c/en/pond"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool", 
+                "@type": "Node", 
+                "label": "a swimming pool", 
+                "language": "en", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[a swimming pool]] is [[a pond]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/n/,/c/en/artificial_water_feature/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/artificial_water_feature/n", 
+                "@type": "Node", 
+                "label": "artificial water feature", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artificial_water_feature"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/n/,/c/en/fluid_reservoir/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/fluid_reservoir/n", 
+                "@type": "Node", 
+                "label": "fluid reservoir", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fluid_reservoir"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swimming_pool/n/,/c/en/man_made_structure/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/man_made_structure/n", 
+                "@type": "Node", 
+                "label": "man made structure", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/man_made_structure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

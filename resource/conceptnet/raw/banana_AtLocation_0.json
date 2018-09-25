@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/banana&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/banana/,/c/en/monkey's_hand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/monkey's_hand", 
+                "@type": "Node", 
+                "label": "a monkey's hand", 
+                "language": "en", 
+                "term": "/c/en/monkey's_hand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/vdoma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/vdoma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana", 
+                "@type": "Node", 
+                "label": "a banana", 
+                "language": "en", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "You are likely to find [[a banana]] in [[a monkey's hand]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/banana/,/c/en/pantry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pantry", 
+                "@type": "Node", 
+                "label": "a pantry", 
+                "language": "en", 
+                "term": "/c/en/pantry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana", 
+                "@type": "Node", 
+                "label": "a banana", 
+                "language": "en", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "*Something you find in [[a pantry]] is [[a banana]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/banana/,/c/en/stomach/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stomach", 
+                "@type": "Node", 
+                "label": "your stomach", 
+                "language": "en", 
+                "term": "/c/en/stomach"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/davidwbdick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/davidwbdick"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana", 
+                "@type": "Node", 
+                "label": "a banana", 
+                "language": "en", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "Somewhere [[a banana]] can be is in [[your stomach]]", 
+            "weight": 1.0
+        }
+    ]
+}

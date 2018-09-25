@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tent&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tent/,/c/en/camping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/camping", 
+                "@type": "Node", 
+                "label": "camping", 
+                "language": "en", 
+                "term": "/c/en/camping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zetar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zetar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tent", 
+                "@type": "Node", 
+                "label": "a tent", 
+                "language": "en", 
+                "term": "/c/en/tent"
+            }, 
+            "surfaceText": "[[a tent]] is used for [[camping]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tent/,/c/en/sleep_in_while_camping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sleep_in_while_camping", 
+                "@type": "Node", 
+                "label": "sleep in while camping", 
+                "language": "en", 
+                "term": "/c/en/sleep_in_while_camping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/billymind/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/billymind"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tent", 
+                "@type": "Node", 
+                "label": "A tent", 
+                "language": "en", 
+                "term": "/c/en/tent"
+            }, 
+            "surfaceText": "[[A tent]] is used to [[sleep in while camping]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/canvas/,/c/en/tent/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tent", 
+                "@type": "Node", 
+                "label": "a tent", 
+                "language": "en", 
+                "term": "/c/en/tent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canvas", 
+                "@type": "Node", 
+                "label": "a canvas", 
+                "language": "en", 
+                "term": "/c/en/canvas"
+            }, 
+            "surfaceText": "[[a canvas]] is for [[a tent]]", 
+            "weight": 1.0
+        }
+    ]
+}

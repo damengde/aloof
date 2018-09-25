@@ -1,0 +1,155 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/land&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/land/n/,/c/en/earth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/earth/n", 
+                "@type": "Node", 
+                "label": "Earth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land/n", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is a part of [[Earth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/seaside/,/c/en/land/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/kwitzel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/kwitzel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seaside", 
+                "@type": "Node", 
+                "label": "the seaside", 
+                "language": "en", 
+                "term": "/c/en/seaside"
+            }, 
+            "surfaceText": "[[the seaside]] is part of [[land]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/land/,/c/en/earth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/earth", 
+                "@type": "Node", 
+                "label": "the earth", 
+                "language": "en", 
+                "term": "/c/en/earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/godwasamonkey/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/godwasamonkey"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is part of [[the earth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/land/,/c/en/environment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/environment", 
+                "@type": "Node", 
+                "label": "an environment", 
+                "language": "en", 
+                "term": "/c/en/environment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "The land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[The land]] is part of [[an environment]]", 
+            "weight": 1.0
+        }
+    ]
+}

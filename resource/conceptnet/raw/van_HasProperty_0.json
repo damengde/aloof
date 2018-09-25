@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/van&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/van/,/c/en/less_cramped_than_automobile/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/less_cramped_than_automobile", 
+                "@type": "Node", 
+                "label": "less cramped than an automobile", 
+                "language": "en", 
+                "term": "/c/en/less_cramped_than_automobile"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "A van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[A van]] is [[less cramped than an automobile]]", 
+            "weight": 1.0
+        }
+    ]
+}

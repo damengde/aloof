@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pumpkin&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pumpkin/n/,/c/en/pumpkin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pumpkin/n", 
+                "@type": "Node", 
+                "label": "pumpkin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pumpkin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pumpkin/n", 
+                "@type": "Node", 
+                "label": "pumpkin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pumpkin"
+            }, 
+            "surfaceText": "[[pumpkin]] is a part of [[pumpkin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pumpkin_seed/n/,/c/en/pumpkin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pumpkin/n", 
+                "@type": "Node", 
+                "label": "pumpkin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pumpkin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pumpkin_seed/n", 
+                "@type": "Node", 
+                "label": "pumpkin seed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pumpkin_seed"
+            }, 
+            "surfaceText": "[[pumpkin seed]] is a part of [[pumpkin]]", 
+            "weight": 2.0
+        }
+    ]
+}

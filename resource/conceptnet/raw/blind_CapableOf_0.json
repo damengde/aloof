@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/blind&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/blind/,/c/en/leading_blind/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/leading_blind", 
+                "@type": "Node", 
+                "label": "be leading the blind", 
+                "language": "en", 
+                "term": "/c/en/leading_blind"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/acapnotic/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/acapnotic"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blind", 
+                "@type": "Node", 
+                "label": "the blind", 
+                "language": "en", 
+                "term": "/c/en/blind"
+            }, 
+            "surfaceText": "[[the blind]] can [[be leading the blind]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/blind/,/c/en/mean_lacking_power_of_sight/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mean_lacking_power_of_sight", 
+                "@type": "Node", 
+                "label": "mean lacking the power of sight", 
+                "language": "en", 
+                "term": "/c/en/mean_lacking_power_of_sight"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blind", 
+                "@type": "Node", 
+                "label": "Blind", 
+                "language": "en", 
+                "term": "/c/en/blind"
+            }, 
+            "surfaceText": "[[Blind]] can [[mean lacking the power of sight]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bright_light/,/c/en/blind/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/blind", 
+                "@type": "Node", 
+                "label": "blind", 
+                "language": "en", 
+                "term": "/c/en/blind"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bright_light", 
+                "@type": "Node", 
+                "label": "bright light", 
+                "language": "en", 
+                "term": "/c/en/bright_light"
+            }, 
+            "surfaceText": "[[bright light]] can [[blind]]", 
+            "weight": 1.0
+        }
+    ]
+}

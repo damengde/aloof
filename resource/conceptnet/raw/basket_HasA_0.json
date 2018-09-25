@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/basket&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/basket/,/c/en/dirty_cloth_used_for_wash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dirty_cloth_used_for_wash", 
+                "@type": "Node", 
+                "label": "dirty cloth, used for wash", 
+                "language": "en", 
+                "term": "/c/en/dirty_cloth_used_for_wash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jani/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jani"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/basket", 
+                "@type": "Node", 
+                "label": "a basket", 
+                "language": "en", 
+                "term": "/c/en/basket"
+            }, 
+            "surfaceText": "[[a basket]] contains [[dirty cloth, used for wash]]", 
+            "weight": 1.0
+        }
+    ]
+}

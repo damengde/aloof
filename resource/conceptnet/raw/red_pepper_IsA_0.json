@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/red_pepper&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/capsicum/,/c/en/red_pepper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/red_pepper", 
+                "@type": "Node", 
+                "label": "a red pepper", 
+                "language": "en", 
+                "term": "/c/en/red_pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/capsicum", 
+                "@type": "Node", 
+                "label": "Capsicum", 
+                "language": "en", 
+                "term": "/c/en/capsicum"
+            }, 
+            "surfaceText": "[[Capsicum]] is [[a red pepper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/red_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/red_pepper", 
+                "@type": "Node", 
+                "label": "red pepper", 
+                "language": "en", 
+                "term": "/c/en/red_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

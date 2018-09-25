@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/windowsill&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/windowsill/n/,/c/en/window_frame/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window_frame/n", 
+                "@type": "Node", 
+                "label": "window frame", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_frame"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/windowsill/n", 
+                "@type": "Node", 
+                "label": "windowsill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/windowsill"
+            }, 
+            "surfaceText": "[[windowsill]] is a part of [[window frame]]", 
+            "weight": 2.0
+        }
+    ]
+}

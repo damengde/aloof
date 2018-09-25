@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/book&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/book/,/c/en/up_on_top_shelf/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/up_on_top_shelf", 
+                "@type": "Node", 
+                "label": "up on the top shelf", 
+                "language": "en", 
+                "term": "/c/en/up_on_top_shelf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] can be [[up on the top shelf]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/book/,/c/en/made_of_paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/made_of_paper", 
+                "@type": "Node", 
+                "label": "made of paper", 
+                "language": "en", 
+                "term": "/c/en/made_of_paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] is [[made of paper]]", 
+            "weight": 1.0
+        }
+    ]
+}

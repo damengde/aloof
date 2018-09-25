@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grand_piano&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/baby_grand/n/,/c/en/grand_piano/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grand_piano/n", 
+                "@type": "Node", 
+                "label": "grand piano", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grand_piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baby_grand/n", 
+                "@type": "Node", 
+                "label": "baby grand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baby_grand"
+            }, 
+            "surfaceText": "[[baby grand]] is a type of [[grand piano]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/concert_grand/n/,/c/en/grand_piano/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grand_piano/n", 
+                "@type": "Node", 
+                "label": "grand piano", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grand_piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/concert_grand/n", 
+                "@type": "Node", 
+                "label": "concert grand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/concert_grand"
+            }, 
+            "surfaceText": "[[concert grand]] is a type of [[grand piano]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grand_piano/n/,/c/en/piano/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/piano/n", 
+                "@type": "Node", 
+                "label": "piano", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grand_piano/n", 
+                "@type": "Node", 
+                "label": "grand piano", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grand_piano"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dress&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/dress/,/c/en/action/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/action", 
+                "@type": "Node", 
+                "label": "be an action", 
+                "language": "en", 
+                "term": "/c/en/action"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/go/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/go"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "[[dress]] can [[be an action]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/dress/,/c/en/confortable_or_unconfortable_to_wear/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/confortable_or_unconfortable_to_wear", 
+                "@type": "Node", 
+                "label": "be confortable or unconfortable to wear", 
+                "language": "en", 
+                "term": "/c/en/confortable_or_unconfortable_to_wear"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/csmajor/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/csmajor"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "a dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "[[a dress]] can [[be confortable or unconfortable to wear]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/dress/,/c/en/fit_on_woman/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fit_on_woman", 
+                "@type": "Node", 
+                "label": "fit on a woman", 
+                "language": "en", 
+                "term": "/c/en/fit_on_woman"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pixielady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pixielady"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "A dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "[[A dress]] can [[fit on a woman]]", 
+            "weight": 1.0
+        }
+    ]
+}

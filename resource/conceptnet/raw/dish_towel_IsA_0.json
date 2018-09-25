@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dish_towel&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dish_towel/n/,/c/en/towel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/towel/n", 
+                "@type": "Node", 
+                "label": "towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/towel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dish_towel/n", 
+                "@type": "Node", 
+                "label": "dish towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dish_towel"
+            }, 
+            "surfaceText": "[[dish towel]] is a type of [[towel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dish_towel/n/,/c/en/cloth_towel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/cloth_towel/n", 
+                "@type": "Node", 
+                "label": "cloth towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cloth_towel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dish_towel/n", 
+                "@type": "Node", 
+                "label": "dish towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dish_towel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

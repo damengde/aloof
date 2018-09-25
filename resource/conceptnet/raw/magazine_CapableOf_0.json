@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/magazine&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/magazine/,/c/en/cover_article/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cover_article", 
+                "@type": "Node", 
+                "label": "cover an article", 
+                "language": "en", 
+                "term": "/c/en/cover_article"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pwddesign/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pwddesign"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[a magazine]] can [[cover an article]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/magazine/,/c/en/out_gay_man/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/out_gay_man", 
+                "@type": "Node", 
+                "label": "out a gay man", 
+                "language": "en", 
+                "term": "/c/en/out_gay_man"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "A magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[A magazine]] can [[out a gay man]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/magazine/,/c/en/reach_readers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reach_readers", 
+                "@type": "Node", 
+                "label": "reach readers", 
+                "language": "en", 
+                "term": "/c/en/reach_readers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[a magazine]] can [[reach readers]]", 
+            "weight": 1.0
+        }
+    ]
+}

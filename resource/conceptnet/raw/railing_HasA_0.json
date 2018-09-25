@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/railing&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/most_stairs/,/c/en/railing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/railing", 
+                "@type": "Node", 
+                "label": "a railing", 
+                "language": "en", 
+                "term": "/c/en/railing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neuromancer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neuromancer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/most_stairs", 
+                "@type": "Node", 
+                "label": "most stairs", 
+                "language": "en", 
+                "term": "/c/en/most_stairs"
+            }, 
+            "surfaceText": "[[most stairs]] have [[a railing]]", 
+            "weight": 1.0
+        }
+    ]
+}

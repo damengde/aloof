@@ -1,0 +1,201 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rock&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/rock/,/c/en/heavy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heavy", 
+                "@type": "Node", 
+                "label": "heavy", 
+                "language": "en", 
+                "term": "/c/en/heavy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schickel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schickel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/realmz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/realmz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/w0229153/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/w0229153"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rock", 
+                "@type": "Node", 
+                "label": "a rock", 
+                "language": "en", 
+                "term": "/c/en/rock"
+            }, 
+            "surfaceText": "[[a rock]] can be [[heavy]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/find_underground/,/c/en/rock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rock", 
+                "@type": "Node", 
+                "label": "rock", 
+                "language": "en", 
+                "term": "/c/en/rock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/irrevocability/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/irrevocability"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_underground", 
+                "@type": "Node", 
+                "label": "Something you find underground", 
+                "language": "en", 
+                "term": "/c/en/find_underground"
+            }, 
+            "surfaceText": "[[Something you find underground]] is [[rock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/rock/,/c/en/difficult_to_carve_by_hand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/difficult_to_carve_by_hand", 
+                "@type": "Node", 
+                "label": "difficult to carve by hand", 
+                "language": "en", 
+                "term": "/c/en/difficult_to_carve_by_hand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aussiesue/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aussiesue"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rock", 
+                "@type": "Node", 
+                "label": "rock", 
+                "language": "en", 
+                "term": "/c/en/rock"
+            }, 
+            "surfaceText": "[[rock]] is [[difficult to carve by hand]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/rock/,/c/en/very_heavy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_heavy", 
+                "@type": "Node", 
+                "label": "very heavy", 
+                "language": "en", 
+                "term": "/c/en/very_heavy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0229153/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0229153"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rock", 
+                "@type": "Node", 
+                "label": "A rock", 
+                "language": "en", 
+                "term": "/c/en/rock"
+            }, 
+            "surfaceText": "[[A rock]] can be [[very heavy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/style_of_music_songs/,/c/en/rock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rock", 
+                "@type": "Node", 
+                "label": "rock", 
+                "language": "en", 
+                "term": "/c/en/rock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/style_of_music_songs", 
+                "@type": "Node", 
+                "label": "The style of some music songs", 
+                "language": "en", 
+                "term": "/c/en/style_of_music_songs"
+            }, 
+            "surfaceText": "[[The style of some music songs]] is [[rock]]", 
+            "weight": 1.0
+        }
+    ]
+}

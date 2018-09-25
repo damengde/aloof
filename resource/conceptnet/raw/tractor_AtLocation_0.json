@@ -1,0 +1,96 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tractor&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tractor/,/c/en/farm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/farm", 
+                "@type": "Node", 
+                "label": "farm", 
+                "language": "en", 
+                "term": "/c/en/farm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/arabel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/arabel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/msdny/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/msdny"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/msdny/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/msdny"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/toodleoo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/toodleoo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor", 
+                "@type": "Node", 
+                "label": "a tractor", 
+                "language": "en", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "You are likely to find [[a tractor]] in [[farm]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tractor/,/c/en/farmer's_field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/farmer's_field", 
+                "@type": "Node", 
+                "label": "a farmer's field", 
+                "language": "en", 
+                "term": "/c/en/farmer's_field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor", 
+                "@type": "Node", 
+                "label": "a tractor", 
+                "language": "en", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "Somewhere [[a tractor]] can be is in [[a farmer's field]]", 
+            "weight": 1.0
+        }
+    ]
+}

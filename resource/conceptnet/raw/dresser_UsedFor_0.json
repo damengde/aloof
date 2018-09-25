@@ -1,0 +1,388 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dresser&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/storing_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_clothing", 
+                "@type": "Node", 
+                "label": "storing clothing", 
+                "language": "en", 
+                "term": "/c/en/storing_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jhunt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is used for [[storing clothing]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/holding_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_clothes", 
+                "@type": "Node", 
+                "label": "holding clothes", 
+                "language": "en", 
+                "term": "/c/en/holding_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pwddesign/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pwddesign"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is used for [[holding clothes]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/storing_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_clothes", 
+                "@type": "Node", 
+                "label": "storing clothes", 
+                "language": "en", 
+                "term": "/c/en/storing_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is for [[storing clothes]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/furnishing_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furnishing_room", 
+                "@type": "Node", 
+                "label": "furnishing a room", 
+                "language": "en", 
+                "term": "/c/en/furnishing_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/malixsys/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/malixsys"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is for [[furnishing a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/hold_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_clothing", 
+                "@type": "Node", 
+                "label": "hold clothing", 
+                "language": "en", 
+                "term": "/c/en/hold_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "A dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[A dresser]] is used to [[hold clothing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/put_clothes_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/put_clothes_in", 
+                "@type": "Node", 
+                "label": "put clothes in", 
+                "language": "en", 
+                "term": "/c/en/put_clothes_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0250607/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0250607"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is used to [[put clothes in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/store_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_clothes", 
+                "@type": "Node", 
+                "label": "store clothes", 
+                "language": "en", 
+                "term": "/c/en/store_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jhunt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "You can use [[a dresser]] to [[store clothes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/store_crockery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_crockery", 
+                "@type": "Node", 
+                "label": "store crockery", 
+                "language": "en", 
+                "term": "/c/en/store_crockery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "You can use [[a dresser]] to [[store crockery]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/storing_items_of_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_items_of_clothing", 
+                "@type": "Node", 
+                "label": "storing items of clothing", 
+                "language": "en", 
+                "term": "/c/en/storing_items_of_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is used for [[storing items of clothing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dresser/,/c/en/supporting_mirror/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/supporting_mirror", 
+                "@type": "Node", 
+                "label": "supporting a mirror", 
+                "language": "en", 
+                "term": "/c/en/supporting_mirror"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/malixsys/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/malixsys"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] is for [[supporting a mirror]]", 
+            "weight": 1.0
+        }
+    ]
+}

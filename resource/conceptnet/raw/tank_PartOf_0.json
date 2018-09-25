@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tank&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cannon/n/,/c/en/tank/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tank/n", 
+                "@type": "Node", 
+                "label": "tank", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cannon/n", 
+                "@type": "Node", 
+                "label": "cannon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cannon"
+            }, 
+            "surfaceText": "[[cannon]] is a part of [[tank]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/gun_enclosure/n/,/c/en/tank/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tank/n", 
+                "@type": "Node", 
+                "label": "tank", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gun_enclosure/n", 
+                "@type": "Node", 
+                "label": "gun enclosure", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gun_enclosure"
+            }, 
+            "surfaceText": "[[gun enclosure]] is a part of [[tank]]", 
+            "weight": 2.0
+        }
+    ]
+}

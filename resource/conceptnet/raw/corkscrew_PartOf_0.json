@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/corkscrew&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/worm/,/c/en/corkscrew/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/corkscrew/n", 
+                "@type": "Node", 
+                "label": "corkscrew", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/corkscrew"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/worm", 
+                "@type": "Node", 
+                "label": "worm", 
+                "language": "en", 
+                "term": "/c/en/worm"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

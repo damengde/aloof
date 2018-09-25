@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rabbit&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rabbit/,/c/en/medow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/medow", 
+                "@type": "Node", 
+                "label": "a medow", 
+                "language": "en", 
+                "term": "/c/en/medow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rabbit", 
+                "@type": "Node", 
+                "label": "a rabbit", 
+                "language": "en", 
+                "term": "/c/en/rabbit"
+            }, 
+            "surfaceText": "You are likely to find [[a rabbit]] in [[a medow]]", 
+            "weight": 1.0
+        }
+    ]
+}

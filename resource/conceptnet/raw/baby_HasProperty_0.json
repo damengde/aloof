@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/baby&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/baby/,/c/en/beginning_to_talk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beginning_to_talk", 
+                "@type": "Node", 
+                "label": "beginning to talk", 
+                "language": "en", 
+                "term": "/c/en/beginning_to_talk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baby", 
+                "@type": "Node", 
+                "label": "A baby", 
+                "language": "en", 
+                "term": "/c/en/baby"
+            }, 
+            "surfaceText": "[[A baby]] can be [[beginning to talk]]", 
+            "weight": 1.0
+        }
+    ]
+}

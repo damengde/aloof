@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sleeping_bag&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sleeping_bag/,/c/en/backpack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/esunday/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/esunday"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sleeping_bag", 
+                "@type": "Node", 
+                "label": "sleeping bag", 
+                "language": "en", 
+                "term": "/c/en/sleeping_bag"
+            }, 
+            "surfaceText": "*Something you find in [[a backpack]] is [[sleeping bag]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sleeping_bag/,/c/en/tent/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tent", 
+                "@type": "Node", 
+                "label": "a tent", 
+                "language": "en", 
+                "term": "/c/en/tent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sleeping_bag", 
+                "@type": "Node", 
+                "label": "a sleeping bag", 
+                "language": "en", 
+                "term": "/c/en/sleeping_bag"
+            }, 
+            "surfaceText": "You are likely to find [[a sleeping bag]] in [[a tent]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/snake/,/c/en/sleeping_bag/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sleeping_bag", 
+                "@type": "Node", 
+                "label": "your sleeping bag", 
+                "language": "en", 
+                "term": "/c/en/sleeping_bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xobabe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xobabe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snake", 
+                "@type": "Node", 
+                "label": "a snake", 
+                "language": "en", 
+                "term": "/c/en/snake"
+            }, 
+            "surfaceText": "You are likely to find [[a snake]] in [[your sleeping bag]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/blanket&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/blanket/n/,/c/en/breeder_reactor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/breeder_reactor/n", 
+                "@type": "Node", 
+                "label": "breeder reactor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/breeder_reactor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blanket/n", 
+                "@type": "Node", 
+                "label": "blanket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/blanket"
+            }, 
+            "surfaceText": "[[blanket]] is a part of [[breeder reactor]]", 
+            "weight": 2.0
+        }
+    ]
+}

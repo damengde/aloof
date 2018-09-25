@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cell_phone&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cell_phone/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_1166872243/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/20q_1166872243"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/essent/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/essent"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/vi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "[[a cell phone]] is [[a telephone]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cell_phone/,/c/en/portable_telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/portable_telephone", 
+                "@type": "Node", 
+                "label": "a portable telephone", 
+                "language": "en", 
+                "term": "/c/en/portable_telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "[[a cell phone]] is [[a portable telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cell_phone/,/c/en/wireless_phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wireless_phone", 
+                "@type": "Node", 
+                "label": "a wireless phone", 
+                "language": "en", 
+                "term": "/c/en/wireless_phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jgagnon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jgagnon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "[[a cell phone]] is [[a wireless phone]]", 
+            "weight": 1.0
+        }
+    ]
+}

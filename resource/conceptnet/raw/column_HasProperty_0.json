@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/column&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/column/,/c/en/cylindrical/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cylindrical", 
+                "@type": "Node", 
+                "label": "cylindrical", 
+                "language": "en", 
+                "term": "/c/en/cylindrical"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/awp2222/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/awp2222"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/column", 
+                "@type": "Node", 
+                "label": "A column", 
+                "language": "en", 
+                "term": "/c/en/column"
+            }, 
+            "surfaceText": "[[A column]] is [[cylindrical]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/column/,/c/en/heavy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heavy", 
+                "@type": "Node", 
+                "label": "heavy", 
+                "language": "en", 
+                "term": "/c/en/heavy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/column", 
+                "@type": "Node", 
+                "label": "a column", 
+                "language": "en", 
+                "term": "/c/en/column"
+            }, 
+            "surfaceText": "[[a column]] is [[heavy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/column/,/c/en/straight/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/straight", 
+                "@type": "Node", 
+                "label": "straight", 
+                "language": "en", 
+                "term": "/c/en/straight"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/agact/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/agact"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/column", 
+                "@type": "Node", 
+                "label": "A column", 
+                "language": "en", 
+                "term": "/c/en/column"
+            }, 
+            "surfaceText": "[[A column]] is [[straight]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/broomstick&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/broomstick/n/,/c/en/broom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/broom/n", 
+                "@type": "Node", 
+                "label": "broom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/broom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broomstick/n", 
+                "@type": "Node", 
+                "label": "broomstick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/broomstick"
+            }, 
+            "surfaceText": "[[broomstick]] is a part of [[broom]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/garlic&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/garlic/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "the kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lulu58e2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lulu58e2"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garlic", 
+                "@type": "Node", 
+                "label": "garlic", 
+                "language": "en", 
+                "term": "/c/en/garlic"
+            }, 
+            "surfaceText": "*Something you find in [[the kitchen]] is [[garlic]]", 
+            "weight": 2.0
+        }
+    ]
+}

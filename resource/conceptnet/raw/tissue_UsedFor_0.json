@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tissue&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tissue/,/c/en/remove_makeup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/remove_makeup", 
+                "@type": "Node", 
+                "label": "remove makeup", 
+                "language": "en", 
+                "term": "/c/en/remove_makeup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tissue", 
+                "@type": "Node", 
+                "label": "a tissue", 
+                "language": "en", 
+                "term": "/c/en/tissue"
+            }, 
+            "surfaceText": "You can use [[a tissue]] to [[remove makeup]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tissue/,/c/en/wipe_nose/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wipe_nose", 
+                "@type": "Node", 
+                "label": "wipe your nose", 
+                "language": "en", 
+                "term": "/c/en/wipe_nose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tissue", 
+                "@type": "Node", 
+                "label": "A tissue", 
+                "language": "en", 
+                "term": "/c/en/tissue"
+            }, 
+            "surfaceText": "[[A tissue]] can be used to [[wipe your nose]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tissue/,/c/en/wiping_tears/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wiping_tears", 
+                "@type": "Node", 
+                "label": "wiping tears", 
+                "language": "en", 
+                "term": "/c/en/wiping_tears"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tissue", 
+                "@type": "Node", 
+                "label": "tissue", 
+                "language": "en", 
+                "term": "/c/en/tissue"
+            }, 
+            "surfaceText": "[[tissue]] is used for [[wiping tears]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rug&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/edging/n/,/c/en/rug/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rug/n", 
+                "@type": "Node", 
+                "label": "rug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/edging/n", 
+                "@type": "Node", 
+                "label": "edging", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/edging"
+            }, 
+            "surfaceText": "[[edging]] is a part of [[rug]]", 
+            "weight": 2.0
+        }
+    ]
+}

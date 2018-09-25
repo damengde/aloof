@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/button&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/button/,/c/en/start_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/start_machine", 
+                "@type": "Node", 
+                "label": "start a machine", 
+                "language": "en", 
+                "term": "/c/en/start_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jshaft/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jshaft"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "A button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[A button]] can [[start a machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

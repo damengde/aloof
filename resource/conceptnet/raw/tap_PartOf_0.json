@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tap&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tap/n/,/c/en/barrel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/barrel/n", 
+                "@type": "Node", 
+                "label": "barrel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barrel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tap/n", 
+                "@type": "Node", 
+                "label": "tap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tap"
+            }, 
+            "surfaceText": "[[tap]] is a part of [[barrel]]", 
+            "weight": 2.0
+        }
+    ]
+}

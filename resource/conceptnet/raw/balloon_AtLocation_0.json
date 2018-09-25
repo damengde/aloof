@@ -1,0 +1,306 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/balloon&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air/,/c/en/balloon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kcarnold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kcarnold"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/samvermette/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/samvermette"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air", 
+                "@type": "Node", 
+                "label": "air", 
+                "language": "en", 
+                "term": "/c/en/air"
+            }, 
+            "surfaceText": "Somewhere [[air]] can be is in [[a balloon]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/sky/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sky", 
+                "@type": "Node", 
+                "label": "sky", 
+                "language": "en", 
+                "term": "/c/en/sky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[sky]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/air/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/air", 
+                "@type": "Node", 
+                "label": "the air", 
+                "language": "en", 
+                "term": "/c/en/air"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "Somewhere [[a balloon]] can be is in [[the air]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/birthday_party/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/birthday_party", 
+                "@type": "Node", 
+                "label": "a birthday party", 
+                "language": "en", 
+                "term": "/c/en/birthday_party"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[a birthday party]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/child's_hand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/child's_hand", 
+                "@type": "Node", 
+                "label": "a child's hand", 
+                "language": "en", 
+                "term": "/c/en/child's_hand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/darkblue/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/darkblue"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[a child's hand]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/circus/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/circus", 
+                "@type": "Node", 
+                "label": "a circus", 
+                "language": "en", 
+                "term": "/c/en/circus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/killmrbob/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/killmrbob"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[a circus]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/grocery_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grocery_store", 
+                "@type": "Node", 
+                "label": "grocery store", 
+                "language": "en", 
+                "term": "/c/en/grocery_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0250607/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0250607"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[grocery store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/balloon/,/c/en/room_with_other_party_supplies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/room_with_other_party_supplies", 
+                "@type": "Node", 
+                "label": "a room with other party supplies", 
+                "language": "en", 
+                "term": "/c/en/room_with_other_party_supplies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon", 
+                "@type": "Node", 
+                "label": "a balloon", 
+                "language": "en", 
+                "term": "/c/en/balloon"
+            }, 
+            "surfaceText": "You are likely to find [[a balloon]] in [[a room with other party supplies]]", 
+            "weight": 1.0
+        }
+    ]
+}

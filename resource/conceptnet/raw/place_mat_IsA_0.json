@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/place_mat&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/place_mat/n/,/c/en/mat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mat/n", 
+                "@type": "Node", 
+                "label": "mat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/place_mat/n", 
+                "@type": "Node", 
+                "label": "place mat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/place_mat"
+            }, 
+            "surfaceText": "[[place mat]] is a type of [[mat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/place_mat/n/,/c/en/table_linen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/table_linen/n", 
+                "@type": "Node", 
+                "label": "table linen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table_linen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/place_mat/n", 
+                "@type": "Node", 
+                "label": "place mat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/place_mat"
+            }, 
+            "surfaceText": "[[place mat]] is a type of [[table linen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/place_mat/n/,/c/en/table_covering/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/table_covering/n", 
+                "@type": "Node", 
+                "label": "table covering", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table_covering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/place_mat/n", 
+                "@type": "Node", 
+                "label": "place mat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/place_mat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

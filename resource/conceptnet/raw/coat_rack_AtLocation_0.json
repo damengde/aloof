@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coat_rack&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coat/,/c/en/coat_rack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/coat_rack", 
+                "@type": "Node", 
+                "label": "a coat rack", 
+                "language": "en", 
+                "term": "/c/en/coat_rack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/elliot972/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/elliot972"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coat", 
+                "@type": "Node", 
+                "label": "a coat", 
+                "language": "en", 
+                "term": "/c/en/coat"
+            }, 
+            "surfaceText": "You are likely to find [[a coat]] in [[a coat rack]]", 
+            "weight": 1.0
+        }
+    ]
+}

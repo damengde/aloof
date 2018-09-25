@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wine_rack&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flask/,/c/en/wine_rack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wine_rack", 
+                "@type": "Node", 
+                "label": "a wine rack", 
+                "language": "en", 
+                "term": "/c/en/wine_rack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rjeffers/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rjeffers"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flask", 
+                "@type": "Node", 
+                "label": "a flask", 
+                "language": "en", 
+                "term": "/c/en/flask"
+            }, 
+            "surfaceText": "You are likely to find [[a flask]] in [[a wine rack]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wine_rack/,/c/en/cellar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cellar", 
+                "@type": "Node", 
+                "label": "the cellar", 
+                "language": "en", 
+                "term": "/c/en/cellar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wine_rack", 
+                "@type": "Node", 
+                "label": "a wine rack", 
+                "language": "en", 
+                "term": "/c/en/wine_rack"
+            }, 
+            "surfaceText": "*Something you find in [[the cellar]] is [[a wine rack]]", 
+            "weight": 1.0
+        }
+    ]
+}

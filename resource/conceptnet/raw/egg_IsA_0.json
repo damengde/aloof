@@ -1,0 +1,783 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/egg&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chicken_egg/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "a egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken_egg", 
+                "@type": "Node", 
+                "label": "a chicken egg", 
+                "language": "en", 
+                "term": "/c/en/chicken_egg"
+            }, 
+            "surfaceText": "[[a chicken egg]] is [[a egg]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/humpty_dumpty/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "an egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vampy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vampy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/humpty_dumpty", 
+                "@type": "Node", 
+                "label": "Humpty Dumpty", 
+                "language": "en", 
+                "term": "/c/en/humpty_dumpty"
+            }, 
+            "surfaceText": "[[Humpty Dumpty]] was [[an egg]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/foodstuff/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/foodstuff/n", 
+                "@type": "Node", 
+                "label": "foodstuff", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/foodstuff"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[egg]] is a type of [[foodstuff]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/ovum/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ovum/n", 
+                "@type": "Node", 
+                "label": "ovum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ovum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[egg]] is a type of [[ovum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/nit/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/nit/n", 
+                "@type": "Node", 
+                "label": "nit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/nit"
+            }, 
+            "surfaceText": "[[nit]] is a type of [[egg]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/roe/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/roe/n", 
+                "@type": "Node", 
+                "label": "roe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/roe"
+            }, 
+            "surfaceText": "[[roe]] is a type of [[egg]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/silkworm_seed/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/silkworm_seed/n", 
+                "@type": "Node", 
+                "label": "silkworm seed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/silkworm_seed"
+            }, 
+            "surfaceText": "[[silkworm seed]] is a type of [[egg]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spawn/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spawn/n", 
+                "@type": "Node", 
+                "label": "spawn", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spawn"
+            }, 
+            "surfaceText": "[[spawn]] is a type of [[egg]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/weeb/n/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }, 
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/weeb/n", 
+                "@type": "Node", 
+                "label": "weeb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/weeb"
+            }, 
+            "surfaceText": null, 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bird_egg/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bird_egg/n", 
+                "@type": "Node", 
+                "label": "bird egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bird_egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "a food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "An egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[An egg]] is [[a food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/,/c/en/gamete/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/gamete/n", 
+                "@type": "Node", 
+                "label": "gamete", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gamete"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/,/c/en/roundish_chicken_product/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/roundish_chicken_product", 
+                "@type": "Node", 
+                "label": "a roundish chicken product", 
+                "language": "en", 
+                "term": "/c/en/roundish_chicken_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mif/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mif"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "An egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[An egg]] is [[a roundish chicken product]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/,/c/en/single_biological_cell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/single_biological_cell", 
+                "@type": "Node", 
+                "label": "a single biological cell", 
+                "language": "en", 
+                "term": "/c/en/single_biological_cell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "An egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[An egg]] is [[a single biological cell]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg_fish/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg_fish/n", 
+                "@type": "Node", 
+                "label": "egg fish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg_fish"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/animal_or_body_part/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/animal_or_body_part/n", 
+                "@type": "Node", 
+                "label": "animal or body part", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/animal_or_body_part"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/convex_tangible_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/convex_tangible_object/n", 
+                "@type": "Node", 
+                "label": "convex tangible object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/convex_tangible_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/raw_edibles/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/raw_edibles/n", 
+                "@type": "Node", 
+                "label": "raw edibles", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/raw_edibles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wapanese/n/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wapanese/n", 
+                "@type": "Node", 
+                "label": "wapanese", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wapanese"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/weeaboo/n/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/weeaboo/n", 
+                "@type": "Node", 
+                "label": "weeaboo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/weeaboo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/egg/n/,/c/en/magazine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/magazine/n", 
+                "@type": "Node", 
+                "label": "magazine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/magazine"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

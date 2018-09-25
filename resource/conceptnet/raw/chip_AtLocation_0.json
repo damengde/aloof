@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chip&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chip/,/c/en/casino/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/casino", 
+                "@type": "Node", 
+                "label": "a casino", 
+                "language": "en", 
+                "term": "/c/en/casino"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chip", 
+                "@type": "Node", 
+                "label": "a chip", 
+                "language": "en", 
+                "term": "/c/en/chip"
+            }, 
+            "surfaceText": "*Something you find in [[a casino]] is [[a chip]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ice_bucket&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ice_bucket/,/c/en/motel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/motel", 
+                "@type": "Node", 
+                "label": "a motel", 
+                "language": "en", 
+                "term": "/c/en/motel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ice_bucket", 
+                "@type": "Node", 
+                "label": "an ice bucket", 
+                "language": "en", 
+                "term": "/c/en/ice_bucket"
+            }, 
+            "surfaceText": "*Something you find at [[a motel]] is [[an ice bucket]]", 
+            "weight": 1.0
+        }
+    ]
+}

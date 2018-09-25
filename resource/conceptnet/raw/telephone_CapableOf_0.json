@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/telephone/,/c/en/ring_loudly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring_loudly", 
+                "@type": "Node", 
+                "label": "ring loudly", 
+                "language": "en", 
+                "term": "/c/en/ring_loudly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/azulatigrada"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/azulatigrada"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[a telephone]] can [[ring loudly]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/telephone/,/c/en/hang_on_wall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hang_on_wall", 
+                "@type": "Node", 
+                "label": "hang on a wall", 
+                "language": "en", 
+                "term": "/c/en/hang_on_wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "A telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[A telephone]] can [[hang on a wall]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/telephone/,/c/en/ring/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "A telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[A telephone]] may [[ring]]", 
+            "weight": 1.0
+        }
+    ]
+}

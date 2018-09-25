@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bolt&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cloth/,/c/en/bolt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bolt", 
+                "@type": "Node", 
+                "label": "a bolt", 
+                "language": "en", 
+                "term": "/c/en/bolt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cloth", 
+                "@type": "Node", 
+                "label": "cloth", 
+                "language": "en", 
+                "term": "/c/en/cloth"
+            }, 
+            "surfaceText": "You are likely to find [[cloth]] in [[a bolt]]", 
+            "weight": 1.0
+        }
+    ]
+}

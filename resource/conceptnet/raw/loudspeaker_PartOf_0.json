@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/loudspeaker&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/loudspeaker/n/,/c/en/public_address_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/public_address_system/n", 
+                "@type": "Node", 
+                "label": "public address system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/public_address_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/loudspeaker/n", 
+                "@type": "Node", 
+                "label": "loudspeaker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/loudspeaker"
+            }, 
+            "surfaceText": "[[loudspeaker]] is a part of [[public address system]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/raining&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/storm/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajnewbold"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/storm", 
+                "@type": "Node", 
+                "label": "a storm", 
+                "language": "en", 
+                "term": "/c/en/storm"
+            }, 
+            "surfaceText": "[[a storm]] is for [[raining]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/sky/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azulatigrada/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/azulatigrada"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sky", 
+                "@type": "Node", 
+                "label": "the sky", 
+                "language": "en", 
+                "term": "/c/en/sky"
+            }, 
+            "surfaceText": "[[the sky]] is for [[raining]]", 
+            "weight": 1.0
+        }
+    ]
+}

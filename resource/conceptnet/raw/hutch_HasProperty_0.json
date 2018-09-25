@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hutch&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/hutch/,/c/en/placed_parallel_to_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/placed_parallel_to_table", 
+                "@type": "Node", 
+                "label": "placed parallel to a table", 
+                "language": "en", 
+                "term": "/c/en/placed_parallel_to_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hutch", 
+                "@type": "Node", 
+                "label": "A hutch", 
+                "language": "en", 
+                "term": "/c/en/hutch"
+            }, 
+            "surfaceText": "[[A hutch]] can be [[placed parallel to a table]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fan&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/fan/,/c/en/more_useful_with_handle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/more_useful_with_handle", 
+                "@type": "Node", 
+                "label": "more useful with a handle", 
+                "language": "en", 
+                "term": "/c/en/more_useful_with_handle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fan", 
+                "@type": "Node", 
+                "label": "A fan", 
+                "language": "en", 
+                "term": "/c/en/fan"
+            }, 
+            "surfaceText": "[[A fan]] is [[more useful with a handle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/fan/,/c/en/short_for_fanatic/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/short_for_fanatic", 
+                "@type": "Node", 
+                "label": "short for fanatic", 
+                "language": "en", 
+                "term": "/c/en/short_for_fanatic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fan", 
+                "@type": "Node", 
+                "label": "fan", 
+                "language": "en", 
+                "term": "/c/en/fan"
+            }, 
+            "surfaceText": "[[fan]] is [[short for fanatic]]", 
+            "weight": 1.0
+        }
+    ]
+}

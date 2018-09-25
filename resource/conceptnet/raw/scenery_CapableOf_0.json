@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scenery&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/scenery/,/c/en/beautifull/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beautifull", 
+                "@type": "Node", 
+                "label": "be beautifull", 
+                "language": "en", 
+                "term": "/c/en/beautifull"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joostvandeputte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joostvandeputte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scenery", 
+                "@type": "Node", 
+                "label": "the scenery", 
+                "language": "en", 
+                "term": "/c/en/scenery"
+            }, 
+            "surfaceText": "[[the scenery]] can [[be beautifull]]", 
+            "weight": 1.0
+        }
+    ]
+}

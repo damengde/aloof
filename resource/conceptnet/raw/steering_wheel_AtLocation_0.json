@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/steering_wheel&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/steering_wheel/,/c/en/bus/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bus", 
+                "@type": "Node", 
+                "label": "a bus", 
+                "language": "en", 
+                "term": "/c/en/bus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/isylph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/isylph"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "a steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "*Something you find in [[a bus]] is [[a steering wheel]]", 
+            "weight": 2.0
+        }
+    ]
+}

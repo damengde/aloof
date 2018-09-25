@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/machine&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/machine/,/c/en/mechanical/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mechanical", 
+                "@type": "Node", 
+                "label": "mechanical", 
+                "language": "en", 
+                "term": "/c/en/mechanical"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/craigyboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/craigyboy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kwitzel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kwitzel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/machine", 
+                "@type": "Node", 
+                "label": "A machine", 
+                "language": "en", 
+                "term": "/c/en/machine"
+            }, 
+            "surfaceText": "[[A machine]] is [[mechanical]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/computer/,/c/en/machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/machine", 
+                "@type": "Node", 
+                "label": "a machine", 
+                "language": "en", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/msamadi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/msamadi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer", 
+                "@type": "Node", 
+                "label": "computer", 
+                "language": "en", 
+                "term": "/c/en/computer"
+            }, 
+            "surfaceText": "[[computer]] is [[a machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

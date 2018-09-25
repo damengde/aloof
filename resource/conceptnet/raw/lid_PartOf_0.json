@@ -1,0 +1,270 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lid&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/,/c/en/jar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/kirun"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/glowstick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/glowstick"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurros"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid", 
+                "@type": "Node", 
+                "label": "The lid", 
+                "language": "en", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": "[[The lid]] is part of [[a jar]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/n/,/c/en/box/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/box/n", 
+                "@type": "Node", 
+                "label": "box", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid/n", 
+                "@type": "Node", 
+                "label": "lid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": "[[lid]] is a part of [[box]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/n/,/c/en/chest/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chest/n", 
+                "@type": "Node", 
+                "label": "chest", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid/n", 
+                "@type": "Node", 
+                "label": "lid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": "[[lid]] is a part of [[chest]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/n/,/c/en/jar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid/n", 
+                "@type": "Node", 
+                "label": "lid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": "[[lid]] is a part of [[jar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lock/n/,/c/en/lid/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lid/n", 
+                "@type": "Node", 
+                "label": "lid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is a part of [[lid]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid", 
+                "@type": "Node", 
+                "label": "A lid", 
+                "language": "en", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": "[[A lid]] is part of [[a box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lid/,/c/en/food_processor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/food_processor/n", 
+                "@type": "Node", 
+                "label": "food processor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_processor"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lid", 
+                "@type": "Node", 
+                "label": "lid", 
+                "language": "en", 
+                "term": "/c/en/lid"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

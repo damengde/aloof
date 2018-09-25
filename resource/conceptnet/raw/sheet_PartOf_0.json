@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sheet&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sheet/n/,/c/en/ship/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ship/n", 
+                "@type": "Node", 
+                "label": "ship", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ship"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sheet/n", 
+                "@type": "Node", 
+                "label": "sheet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sheet"
+            }, 
+            "surfaceText": "[[sheet]] is a part of [[ship]]", 
+            "weight": 2.0
+        }
+    ]
+}

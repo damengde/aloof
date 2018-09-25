@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cap&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/feather/,/c/en/cap/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cap", 
+                "@type": "Node", 
+                "label": "a cap", 
+                "language": "en", 
+                "term": "/c/en/cap"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hirni3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hirni3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xerolooper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xerolooper"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/xerolooper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/xerolooper"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/feather", 
+                "@type": "Node", 
+                "label": "a feather", 
+                "language": "en", 
+                "term": "/c/en/feather"
+            }, 
+            "surfaceText": "You are likely to find [[a feather]] in [[a cap]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cap/,/c/en/suitcase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/suitcase", 
+                "@type": "Node", 
+                "label": "a suitcase", 
+                "language": "en", 
+                "term": "/c/en/suitcase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cap", 
+                "@type": "Node", 
+                "label": "a cap", 
+                "language": "en", 
+                "term": "/c/en/cap"
+            }, 
+            "surfaceText": "*Something you find in [[a suitcase]] is [[a cap]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/newspaper&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/newspaper/,/c/en/information_about_many_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/information_about_many_things", 
+                "@type": "Node", 
+                "label": "information about many things", 
+                "language": "en", 
+                "term": "/c/en/information_about_many_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cspera/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cspera"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] has [[information about many things]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/newspaper/,/c/en/many_columns/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_columns", 
+                "@type": "Node", 
+                "label": "many columns", 
+                "language": "en", 
+                "term": "/c/en/many_columns"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rosa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rosa"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "A newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[A newspaper]] has [[many columns]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/newspaper/,/c/en/news_in_paper_format/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/news_in_paper_format", 
+                "@type": "Node", 
+                "label": "news in paper format", 
+                "language": "en", 
+                "term": "/c/en/news_in_paper_format"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thungk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thungk"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] contains [[news in paper format]]", 
+            "weight": 2.0
+        }
+    ]
+}

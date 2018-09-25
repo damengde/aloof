@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_conditioning&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/air_conditioning/,/c/en/cool_hot_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_hot_room", 
+                "@type": "Node", 
+                "label": "cool a hot room", 
+                "language": "en", 
+                "term": "/c/en/cool_hot_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/blueice2k3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/blueice2k3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioning", 
+                "@type": "Node", 
+                "label": "air-conditioning", 
+                "language": "en", 
+                "term": "/c/en/air_conditioning"
+            }, 
+            "surfaceText": "[[air-conditioning]] can [[cool a hot room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/air_conditioning/,/c/en/cool_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_house", 
+                "@type": "Node", 
+                "label": "cool a house", 
+                "language": "en", 
+                "term": "/c/en/cool_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/blueice2k3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/blueice2k3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioning", 
+                "@type": "Node", 
+                "label": "air conditioning", 
+                "language": "en", 
+                "term": "/c/en/air_conditioning"
+            }, 
+            "surfaceText": "[[air conditioning]] can [[cool a house]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/arch&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/arch/,/c/en/strong_in_compression/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/strong_in_compression", 
+                "@type": "Node", 
+                "label": "strong in compression", 
+                "language": "en", 
+                "term": "/c/en/strong_in_compression"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arch", 
+                "@type": "Node", 
+                "label": "an arch", 
+                "language": "en", 
+                "term": "/c/en/arch"
+            }, 
+            "surfaceText": "[[an arch]] is [[strong in compression]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/arch/,/c/en/weak_in_tension/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/weak_in_tension", 
+                "@type": "Node", 
+                "label": "weak in tension", 
+                "language": "en", 
+                "term": "/c/en/weak_in_tension"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arch", 
+                "@type": "Node", 
+                "label": "an arch", 
+                "language": "en", 
+                "term": "/c/en/arch"
+            }, 
+            "surfaceText": "[[an arch]] is [[weak in tension]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rolling_pin&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rolling_pin/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "the kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/narcisse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/narcisse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rolling_pin", 
+                "@type": "Node", 
+                "label": "a rolling pin", 
+                "language": "en", 
+                "term": "/c/en/rolling_pin"
+            }, 
+            "surfaceText": "*Something you find in [[the kitchen]] is [[a rolling pin]]", 
+            "weight": 1.0
+        }
+    ]
+}

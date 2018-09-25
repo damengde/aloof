@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/orange&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/orange/,/c/en/warning_signs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warning_signs", 
+                "@type": "Node", 
+                "label": "warning signs", 
+                "language": "en", 
+                "term": "/c/en/warning_signs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/orange", 
+                "@type": "Node", 
+                "label": "Orange", 
+                "language": "en", 
+                "term": "/c/en/orange"
+            }, 
+            "surfaceText": "[[Orange]] is used for [[warning signs]]", 
+            "weight": 1.0
+        }
+    ]
+}

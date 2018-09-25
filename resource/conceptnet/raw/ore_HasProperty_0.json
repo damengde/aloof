@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ore&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/ore/,/c/en/refined_into_metal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/refined_into_metal", 
+                "@type": "Node", 
+                "label": "refined into metal", 
+                "language": "en", 
+                "term": "/c/en/refined_into_metal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mdmarkus66/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mdmarkus66"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ore", 
+                "@type": "Node", 
+                "label": "Ore", 
+                "language": "en", 
+                "term": "/c/en/ore"
+            }, 
+            "surfaceText": "[[Ore]] can be [[refined into metal]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vase&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vase/,/c/en/hold_flower/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_flower", 
+                "@type": "Node", 
+                "label": "hold flower", 
+                "language": "en", 
+                "term": "/c/en/hold_flower"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/murphro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/murphro"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarphine/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sarphine"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vase", 
+                "@type": "Node", 
+                "label": "vase", 
+                "language": "en", 
+                "term": "/c/en/vase"
+            }, 
+            "surfaceText": "[[vase]] can [[hold flower]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vase/,/c/en/fall_off_shelf/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fall_off_shelf", 
+                "@type": "Node", 
+                "label": "fall off a shelf", 
+                "language": "en", 
+                "term": "/c/en/fall_off_shelf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vase", 
+                "@type": "Node", 
+                "label": "A vase", 
+                "language": "en", 
+                "term": "/c/en/vase"
+            }, 
+            "surfaceText": "[[A vase]] can [[fall off a shelf]]", 
+            "weight": 1.0
+        }
+    ]
+}

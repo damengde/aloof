@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/seat&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/seat/,/c/en/sticky/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sticky", 
+                "@type": "Node", 
+                "label": "sticky", 
+                "language": "en", 
+                "term": "/c/en/sticky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat", 
+                "@type": "Node", 
+                "label": "The seat", 
+                "language": "en", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[The seat]] is [[sticky]]", 
+            "weight": 1.0
+        }
+    ]
+}

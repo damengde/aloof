@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/adding_machine&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/adding_machine/n/,/c/en/cash_register/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cash_register/n", 
+                "@type": "Node", 
+                "label": "cash register", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cash_register"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adding_machine/n", 
+                "@type": "Node", 
+                "label": "adding machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/adding_machine"
+            }, 
+            "surfaceText": "[[adding machine]] is a part of [[cash register]]", 
+            "weight": 2.0
+        }
+    ]
+}

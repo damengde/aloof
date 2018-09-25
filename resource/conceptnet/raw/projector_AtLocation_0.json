@@ -1,0 +1,201 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/projector&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/projector/,/c/en/movies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/movies", 
+                "@type": "Node", 
+                "label": "the movies", 
+                "language": "en", 
+                "term": "/c/en/movies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "*Something you find at [[the movies]] is [[a projector]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/projector/,/c/en/movie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/movie", 
+                "@type": "Node", 
+                "label": "a movie", 
+                "language": "en", 
+                "term": "/c/en/movie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "*Something you find at [[a movie]] is [[a projector]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/projector/,/c/en/conference/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/conference", 
+                "@type": "Node", 
+                "label": "a conference", 
+                "language": "en", 
+                "term": "/c/en/conference"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/samslippy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/samslippy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "*Something you find at [[a conference]] is [[projector]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/projector/,/c/en/meeting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/meeting", 
+                "@type": "Node", 
+                "label": "a meeting", 
+                "language": "en", 
+                "term": "/c/en/meeting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/strider2112/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/strider2112"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "*Something you find at [[a meeting]] is [[a projector]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/projector/,/c/en/theatre/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/theatre", 
+                "@type": "Node", 
+                "label": "the theatre", 
+                "language": "en", 
+                "term": "/c/en/theatre"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "*Something you find at [[the theatre]] is [[a projector]]", 
+            "weight": 1.0
+        }
+    ]
+}

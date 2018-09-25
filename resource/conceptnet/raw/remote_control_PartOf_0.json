@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/remote_control&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/remote_control/n/,/c/en/remote_control_bomb/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/remote_control_bomb/n", 
+                "@type": "Node", 
+                "label": "remote-control bomb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/remote_control_bomb"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/remote_control/n", 
+                "@type": "Node", 
+                "label": "remote control", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/remote_control"
+            }, 
+            "surfaceText": "[[remote control]] is a part of [[remote-control bomb]]", 
+            "weight": 2.0
+        }
+    ]
+}

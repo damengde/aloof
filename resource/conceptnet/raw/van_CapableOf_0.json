@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/van&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/van/,/c/en/carry_camping_gear/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_camping_gear", 
+                "@type": "Node", 
+                "label": "carry camping gear", 
+                "language": "en", 
+                "term": "/c/en/carry_camping_gear"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "A van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[A van]] can [[carry camping gear]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/van/,/c/en/seat_more_than_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/seat_more_than_car", 
+                "@type": "Node", 
+                "label": "seat more than a car", 
+                "language": "en", 
+                "term": "/c/en/seat_more_than_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "A van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[A van]] can [[seat more than a car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/van/,/c/en/transport/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport", 
+                "@type": "Node", 
+                "label": "transport anything", 
+                "language": "en", 
+                "term": "/c/en/transport"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "a van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[a van]] can [[transport anything]]", 
+            "weight": 1.0
+        }
+    ]
+}

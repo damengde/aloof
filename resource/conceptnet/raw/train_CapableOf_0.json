@@ -1,0 +1,575 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/train&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_late/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_late", 
+                "@type": "Node", 
+                "label": "arrive late", 
+                "language": "en", 
+                "term": "/c/en/arrive_late"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kirun"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[arrive late]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_on_schedule/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_on_schedule", 
+                "@type": "Node", 
+                "label": "arrive on schedule", 
+                "language": "en", 
+                "term": "/c/en/arrive_on_schedule"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/heatherjay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/heatherjay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[arrive on schedule]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/near_destination/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/near_destination", 
+                "@type": "Node", 
+                "label": "near its destination", 
+                "language": "en", 
+                "term": "/c/en/near_destination"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[near its destination]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/run_on_railroad_tracks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/run_on_railroad_tracks", 
+                "@type": "Node", 
+                "label": "run on railroad tracks", 
+                "language": "en", 
+                "term": "/c/en/run_on_railroad_tracks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gisele/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gisele"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[run on railroad tracks]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_at_city/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_at_city", 
+                "@type": "Node", 
+                "label": "arrive at a city", 
+                "language": "en", 
+                "term": "/c/en/arrive_at_city"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/njmitch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/njmitch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[arrive at a city]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_at_station/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_at_station", 
+                "@type": "Node", 
+                "label": "arrive at a station", 
+                "language": "en", 
+                "term": "/c/en/arrive_at_station"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/surgchen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/surgchen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[a train]] can [[arrive at a station]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_early/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_early", 
+                "@type": "Node", 
+                "label": "arrive early", 
+                "language": "en", 
+                "term": "/c/en/arrive_early"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fetherlan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fetherlan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[arrive early]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arrive_on_time/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_on_time", 
+                "@type": "Node", 
+                "label": "arrive on time", 
+                "language": "en", 
+                "term": "/c/en/arrive_on_time"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/penai/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/penai"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[a train]] can [[arrive on time]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/arriving_at_station/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arriving_at_station", 
+                "@type": "Node", 
+                "label": "be arriving at a station", 
+                "language": "en", 
+                "term": "/c/en/arriving_at_station"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[be arriving at a station]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/jump_tracks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_tracks", 
+                "@type": "Node", 
+                "label": "jump its tracks", 
+                "language": "en", 
+                "term": "/c/en/jump_tracks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[a train]] can [[jump its tracks]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/near_station/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/near_station", 
+                "@type": "Node", 
+                "label": "near the station", 
+                "language": "en", 
+                "term": "/c/en/near_station"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eliasbergan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eliasbergan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[near the station]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/passing_slowly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/passing_slowly", 
+                "@type": "Node", 
+                "label": "be passing slowly", 
+                "language": "en", 
+                "term": "/c/en/passing_slowly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/janet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/janet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[be passing slowly]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/shunt_from_one_track_to_another/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shunt_from_one_track_to_another", 
+                "@type": "Node", 
+                "label": "shunt from one track to another", 
+                "language": "en", 
+                "term": "/c/en/shunt_from_one_track_to_another"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[shunt from one track to another]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/slow_down/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/slow_down", 
+                "@type": "Node", 
+                "label": "slow down", 
+                "language": "en", 
+                "term": "/c/en/slow_down"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[slow down]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/train/,/c/en/transport_mail/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport_mail", 
+                "@type": "Node", 
+                "label": "transport mail", 
+                "language": "en", 
+                "term": "/c/en/transport_mail"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "A train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[A train]] can [[transport mail]]", 
+            "weight": 1.0
+        }
+    ]
+}

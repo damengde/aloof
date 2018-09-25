@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitcher&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/pitcher/,/c/en/just_pitched/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/just_pitched", 
+                "@type": "Node", 
+                "label": "just pitched", 
+                "language": "en", 
+                "term": "/c/en/just_pitched"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sraina/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sraina"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "the pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[the pitcher]] has [[just pitched]]", 
+            "weight": 1.0
+        }
+    ]
+}

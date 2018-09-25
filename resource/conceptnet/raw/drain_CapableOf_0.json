@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/drain&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/drain/,/c/en/tube/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tube", 
+                "@type": "Node", 
+                "label": "be a tube", 
+                "language": "en", 
+                "term": "/c/en/tube"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drain", 
+                "@type": "Node", 
+                "label": "A drain", 
+                "language": "en", 
+                "term": "/c/en/drain"
+            }, 
+            "surfaceText": "[[A drain]] can [[be a tube]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/drain/,/c/en/wick/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wick", 
+                "@type": "Node", 
+                "label": "be a wick", 
+                "language": "en", 
+                "term": "/c/en/wick"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drain", 
+                "@type": "Node", 
+                "label": "A drain", 
+                "language": "en", 
+                "term": "/c/en/drain"
+            }, 
+            "surfaceText": "[[A drain]] can [[be a wick]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flag&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/flag/n/,/c/en/deer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/deer/n", 
+                "@type": "Node", 
+                "label": "deer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/deer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag/n", 
+                "@type": "Node", 
+                "label": "flag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "[[flag]] is a part of [[deer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/flag/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag/n", 
+                "@type": "Node", 
+                "label": "flag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "[[flag]] is a part of [[dog]]", 
+            "weight": 2.0
+        }
+    ]
+}

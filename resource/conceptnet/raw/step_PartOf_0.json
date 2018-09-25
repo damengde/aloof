@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/step&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/riser/n/,/c/en/step/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/step/n", 
+                "@type": "Node", 
+                "label": "step", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/step"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/riser/n", 
+                "@type": "Node", 
+                "label": "riser", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/riser"
+            }, 
+            "surfaceText": "[[riser]] is a part of [[step]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/step/n/,/c/en/stairway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/stairway/n", 
+                "@type": "Node", 
+                "label": "stairway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stairway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/step/n", 
+                "@type": "Node", 
+                "label": "step", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/step"
+            }, 
+            "surfaceText": "[[step]] is a part of [[stairway]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tread/n/,/c/en/step/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/step/n", 
+                "@type": "Node", 
+                "label": "step", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/step"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tread/n", 
+                "@type": "Node", 
+                "label": "tread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tread"
+            }, 
+            "surfaceText": "[[tread]] is a part of [[step]]", 
+            "weight": 2.0
+        }
+    ]
+}

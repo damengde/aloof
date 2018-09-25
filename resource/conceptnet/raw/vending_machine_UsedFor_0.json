@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vending_machine&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cash_coin/,/c/en/vending_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vending_machine", 
+                "@type": "Node", 
+                "label": "a vending machine", 
+                "language": "en", 
+                "term": "/c/en/vending_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thumps/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thumps"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cash_coin", 
+                "@type": "Node", 
+                "label": "a cash coin", 
+                "language": "en", 
+                "term": "/c/en/cash_coin"
+            }, 
+            "surfaceText": "[[a cash coin]] is used for [[a vending machine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/vending_machine/,/c/en/buy_soda/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/buy_soda", 
+                "@type": "Node", 
+                "label": "buy soda", 
+                "language": "en", 
+                "term": "/c/en/buy_soda"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/xemu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/xemu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vending_machine", 
+                "@type": "Node", 
+                "label": "a vending machine", 
+                "language": "en", 
+                "term": "/c/en/vending_machine"
+            }, 
+            "surfaceText": "You can use [[a vending machine]] to [[buy soda]]", 
+            "weight": 1.0
+        }
+    ]
+}

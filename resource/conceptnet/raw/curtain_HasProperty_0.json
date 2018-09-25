@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/curtain&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/curtain/,/c/en/essential_for_privacy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/essential_for_privacy", 
+                "@type": "Node", 
+                "label": "essential for privacy", 
+                "language": "en", 
+                "term": "/c/en/essential_for_privacy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/detmar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/detmar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/curtain", 
+                "@type": "Node", 
+                "label": "a curtain", 
+                "language": "en", 
+                "term": "/c/en/curtain"
+            }, 
+            "surfaceText": "[[a curtain]] is [[essential for privacy]]", 
+            "weight": 1.0
+        }
+    ]
+}

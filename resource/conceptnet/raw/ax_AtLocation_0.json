@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ax&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ax/,/c/en/garage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "the garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/deanp/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/deanp"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ax", 
+                "@type": "Node", 
+                "label": "an ax", 
+                "language": "en", 
+                "term": "/c/en/ax"
+            }, 
+            "surfaceText": "*Something you find in [[the garage]] is [[an ax]]", 
+            "weight": 2.0
+        }
+    ]
+}

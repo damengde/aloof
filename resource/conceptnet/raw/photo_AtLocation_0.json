@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/photo&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sky/,/c/en/photo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/photo", 
+                "@type": "Node", 
+                "label": "a photo", 
+                "language": "en", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/heavygravy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/heavygravy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jalanb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jalanb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sky", 
+                "@type": "Node", 
+                "label": "the sky", 
+                "language": "en", 
+                "term": "/c/en/sky"
+            }, 
+            "surfaceText": "You are likely to find [[the sky]] in [[a photo]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bee/,/c/en/photo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/photo", 
+                "@type": "Node", 
+                "label": "a photo", 
+                "language": "en", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sexycash/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sexycash"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bee", 
+                "@type": "Node", 
+                "label": "a bee", 
+                "language": "en", 
+                "term": "/c/en/bee"
+            }, 
+            "surfaceText": "You are likely to find [[a bee]] in [[a photo]]", 
+            "weight": 1.0
+        }
+    ]
+}

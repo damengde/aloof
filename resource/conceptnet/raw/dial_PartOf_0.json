@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dial&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/dial/n/,/c/en/dial_telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dial_telephone/n", 
+                "@type": "Node", 
+                "label": "dial telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dial_telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dial/n", 
+                "@type": "Node", 
+                "label": "dial", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dial"
+            }, 
+            "surfaceText": "[[dial]] is a part of [[dial telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/dial/n/,/c/en/timepiece/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/timepiece/n", 
+                "@type": "Node", 
+                "label": "timepiece", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/timepiece"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dial/n", 
+                "@type": "Node", 
+                "label": "dial", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dial"
+            }, 
+            "surfaceText": "[[dial]] is a part of [[timepiece]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/finger_hole/n/,/c/en/dial/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dial/n", 
+                "@type": "Node", 
+                "label": "dial", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dial"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/finger_hole/n", 
+                "@type": "Node", 
+                "label": "finger hole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/finger_hole"
+            }, 
+            "surfaceText": "[[finger hole]] is a part of [[dial]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/dial/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/toods/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/toods"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dial", 
+                "@type": "Node", 
+                "label": "The dial", 
+                "language": "en", 
+                "term": "/c/en/dial"
+            }, 
+            "surfaceText": "[[The dial]] is part of [[a clock]]", 
+            "weight": 1.0
+        }
+    ]
+}

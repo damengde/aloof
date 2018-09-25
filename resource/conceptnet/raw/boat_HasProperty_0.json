@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/boat&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/boat/,/c/en/powered_by_engine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/powered_by_engine", 
+                "@type": "Node", 
+                "label": "powered by an engine", 
+                "language": "en", 
+                "term": "/c/en/powered_by_engine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/skoerber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/skoerber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can be [[powered by an engine]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fireplace&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fireplace/,/c/en/heat_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_room", 
+                "@type": "Node", 
+                "label": "heat the room", 
+                "language": "en", 
+                "term": "/c/en/heat_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fireplace", 
+                "@type": "Node", 
+                "label": "A fireplace", 
+                "language": "en", 
+                "term": "/c/en/fireplace"
+            }, 
+            "surfaceText": "[[A fireplace]] can [[heat the room]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fireplace/,/c/en/make_home_cosy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_home_cosy", 
+                "@type": "Node", 
+                "label": "make a home cosy", 
+                "language": "en", 
+                "term": "/c/en/make_home_cosy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zetar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zetar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fireplace", 
+                "@type": "Node", 
+                "label": "A fireplace", 
+                "language": "en", 
+                "term": "/c/en/fireplace"
+            }, 
+            "surfaceText": "[[A fireplace]] can [[make a home cosy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/fireplace/,/c/en/warm_living_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_living_room", 
+                "@type": "Node", 
+                "label": "warm a living room", 
+                "language": "en", 
+                "term": "/c/en/warm_living_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fireplace", 
+                "@type": "Node", 
+                "label": "A fireplace", 
+                "language": "en", 
+                "term": "/c/en/fireplace"
+            }, 
+            "surfaceText": "[[A fireplace]] can [[warm a living room]]", 
+            "weight": 1.0
+        }
+    ]
+}

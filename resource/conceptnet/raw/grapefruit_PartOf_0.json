@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grapefruit&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grapefruit/n/,/c/en/grapefruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grapefruit/n", 
+                "@type": "Node", 
+                "label": "grapefruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grapefruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grapefruit/n", 
+                "@type": "Node", 
+                "label": "grapefruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grapefruit"
+            }, 
+            "surfaceText": "[[grapefruit]] is a part of [[grapefruit]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grapefruit_peel/n/,/c/en/grapefruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grapefruit/n", 
+                "@type": "Node", 
+                "label": "grapefruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grapefruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grapefruit_peel/n", 
+                "@type": "Node", 
+                "label": "grapefruit peel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grapefruit_peel"
+            }, 
+            "surfaceText": "[[grapefruit peel]] is a part of [[grapefruit]]", 
+            "weight": 2.0
+        }
+    ]
+}

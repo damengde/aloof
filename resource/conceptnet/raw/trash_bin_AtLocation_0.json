@@ -1,0 +1,96 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trash_bin&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/trash/,/c/en/trash_bin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash_bin", 
+                "@type": "Node", 
+                "label": "a trash bin", 
+                "language": "en", 
+                "term": "/c/en/trash_bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pmessri/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pmessri"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pmessri/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pmessri"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/yoleus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/yoleus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You are likely to find [[trash]] in [[a trash bin]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/refuse/,/c/en/trash_bin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash_bin", 
+                "@type": "Node", 
+                "label": "trash bin", 
+                "language": "en", 
+                "term": "/c/en/trash_bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chazryt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chazryt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refuse", 
+                "@type": "Node", 
+                "label": "refuse", 
+                "language": "en", 
+                "term": "/c/en/refuse"
+            }, 
+            "surfaceText": "You are likely to find [[refuse]] in [[trash bin]]", 
+            "weight": 1.0
+        }
+    ]
+}

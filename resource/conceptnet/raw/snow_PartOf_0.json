@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/snow&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/snowflake/n/,/c/en/snow/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/snow/n", 
+                "@type": "Node", 
+                "label": "snow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/snow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snowflake/n", 
+                "@type": "Node", 
+                "label": "snowflake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/snowflake"
+            }, 
+            "surfaceText": "[[snowflake]] is a part of [[snow]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/snow/,/c/en/cryosphere/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/cryosphere/n", 
+                "@type": "Node", 
+                "label": "cryosphere", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cryosphere"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/snow/,/c/en/weather/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/weather", 
+                "@type": "Node", 
+                "label": "weather", 
+                "language": "en", 
+                "term": "/c/en/weather"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "Snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "surfaceText": "[[Snow]] is part of [[weather]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ceiling&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ceiling/,/c/en/leak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/leak", 
+                "@type": "Node", 
+                "label": "leak", 
+                "language": "en", 
+                "term": "/c/en/leak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hazn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hazn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ceiling", 
+                "@type": "Node", 
+                "label": "ceiling", 
+                "language": "en", 
+                "term": "/c/en/ceiling"
+            }, 
+            "surfaceText": "[[ceiling]] can [[leak]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ceiling/,/c/en/metaphor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/metaphor", 
+                "@type": "Node", 
+                "label": "be a metaphor", 
+                "language": "en", 
+                "term": "/c/en/metaphor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ceiling", 
+                "@type": "Node", 
+                "label": "A ceiling", 
+                "language": "en", 
+                "term": "/c/en/ceiling"
+            }, 
+            "surfaceText": "[[A ceiling]] can [[be a metaphor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ceiling/,/c/en/sag/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sag", 
+                "@type": "Node", 
+                "label": "sag", 
+                "language": "en", 
+                "term": "/c/en/sag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ceiling", 
+                "@type": "Node", 
+                "label": "A ceiling", 
+                "language": "en", 
+                "term": "/c/en/ceiling"
+            }, 
+            "surfaceText": "[[A ceiling]] may [[sag]]", 
+            "weight": 1.0
+        }
+    ]
+}

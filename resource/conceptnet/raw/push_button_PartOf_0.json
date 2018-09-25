@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/push_button&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/push_button/n/,/c/en/push_button_radio/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/push_button_radio/n", 
+                "@type": "Node", 
+                "label": "push-button radio", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button_radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/push_button/n", 
+                "@type": "Node", 
+                "label": "push button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button"
+            }, 
+            "surfaceText": "[[push button]] is a part of [[push-button radio]]", 
+            "weight": 2.0
+        }
+    ]
+}

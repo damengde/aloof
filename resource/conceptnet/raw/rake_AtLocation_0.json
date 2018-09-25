@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rake&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rake/,/c/en/garage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "the garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tbrdboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tbrdboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rake", 
+                "@type": "Node", 
+                "label": "a rake", 
+                "language": "en", 
+                "term": "/c/en/rake"
+            }, 
+            "surfaceText": "*Something you find in [[the garage]] is [[a rake]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rake/,/c/en/tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tree", 
+                "@type": "Node", 
+                "label": "a tree", 
+                "language": "en", 
+                "term": "/c/en/tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rake", 
+                "@type": "Node", 
+                "label": "a rake", 
+                "language": "en", 
+                "term": "/c/en/rake"
+            }, 
+            "surfaceText": "*Something you find under [[a tree]] is [[a rake]]", 
+            "weight": 1.0
+        }
+    ]
+}

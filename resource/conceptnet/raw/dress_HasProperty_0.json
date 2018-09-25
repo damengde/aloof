@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dress&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dress/,/c/en/blue/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/blue", 
+                "@type": "Node", 
+                "label": "blue", 
+                "language": "en", 
+                "term": "/c/en/blue"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "A dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "[[A dress]] can be [[blue]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dress/,/c/en/dark/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dark", 
+                "@type": "Node", 
+                "label": "dark", 
+                "language": "en", 
+                "term": "/c/en/dark"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "The dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "[[The dress]] is [[dark]]", 
+            "weight": 1.0
+        }
+    ]
+}

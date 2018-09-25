@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sidewalk&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/sidewalk/,/c/en/cracks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cracks", 
+                "@type": "Node", 
+                "label": "cracks", 
+                "language": "en", 
+                "term": "/c/en/cracks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[a sidewalk]] has [[cracks]]", 
+            "weight": 1.0
+        }
+    ]
+}

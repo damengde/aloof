@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coat&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/coat/,/c/en/handmedown/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/handmedown", 
+                "@type": "Node", 
+                "label": "be a handmedown", 
+                "language": "en", 
+                "term": "/c/en/handmedown"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coat", 
+                "@type": "Node", 
+                "label": "A coat", 
+                "language": "en", 
+                "term": "/c/en/coat"
+            }, 
+            "surfaceText": "[[A coat]] can [[be a handmedown]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/coat/,/c/en/keep_warm_in_winter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_warm_in_winter", 
+                "@type": "Node", 
+                "label": "keep you warm in winter", 
+                "language": "en", 
+                "term": "/c/en/keep_warm_in_winter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/poisonborz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/poisonborz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coat", 
+                "@type": "Node", 
+                "label": "a coat", 
+                "language": "en", 
+                "term": "/c/en/coat"
+            }, 
+            "surfaceText": "[[a coat]] can [[keep you warm in winter]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,294 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffee_table&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/front_of_couch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/front_of_couch", 
+                "@type": "Node", 
+                "label": "front of the couch", 
+                "language": "en", 
+                "term": "/c/en/front_of_couch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dmarie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dmarie"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[front of the couch]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/book/,/c/en/coffee_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "Somewhere [[a book]] can be is on [[a coffee table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/bookstore/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bookstore", 
+                "@type": "Node", 
+                "label": "bookstore", 
+                "language": "en", 
+                "term": "/c/en/bookstore"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[bookstore]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/breakfast_nook/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/breakfast_nook", 
+                "@type": "Node", 
+                "label": "your breakfast nook", 
+                "language": "en", 
+                "term": "/c/en/breakfast_nook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcfleischer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcfleischer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[your breakfast nook]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/furnature_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furnature_store", 
+                "@type": "Node", 
+                "label": "a furnature store", 
+                "language": "en", 
+                "term": "/c/en/furnature_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/youhere/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/youhere"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[a furnature store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/merleen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/merleen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "*Something you find in [[a house]] is [[a coffee table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/living_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/living_room", 
+                "@type": "Node", 
+                "label": "someone's living room", 
+                "language": "en", 
+                "term": "/c/en/living_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/madvay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/madvay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[someone's living room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_table/,/c/en/someones_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/someones_house", 
+                "@type": "Node", 
+                "label": "someones house", 
+                "language": "en", 
+                "term": "/c/en/someones_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pmessri/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pmessri"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "You are likely to find [[a coffee table]] in [[someones house]]", 
+            "weight": 1.0
+        }
+    ]
+}

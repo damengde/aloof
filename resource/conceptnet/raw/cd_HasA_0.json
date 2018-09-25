@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cd&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cd/,/c/en/number_of_songs_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/number_of_songs_on", 
+                "@type": "Node", 
+                "label": "a number of songs on it", 
+                "language": "en", 
+                "term": "/c/en/number_of_songs_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hjohnson_7801/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/hjohnson_7801"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "A CD", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[A CD]] has [[a number of songs on it]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cd/,/c/en/music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music", 
+                "@type": "Node", 
+                "label": "music", 
+                "language": "en", 
+                "term": "/c/en/music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "a CD", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[a CD]] contains [[music]]", 
+            "weight": 1.0
+        }
+    ]
+}

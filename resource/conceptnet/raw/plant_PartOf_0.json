@@ -1,0 +1,430 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plant&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/hood/n/,/c/en/plant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plant/n", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hood/n", 
+                "@type": "Node", 
+                "label": "hood", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hood"
+            }, 
+            "surfaceText": "[[hood]] is a part of [[plant]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plant_part/n/,/c/en/plant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plant/n", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant_part/n", 
+                "@type": "Node", 
+                "label": "plant part", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant_part"
+            }, 
+            "surfaceText": "[[plant part]] is a part of [[plant]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/transport_system/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "A plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/maofnoah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/maofnoah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/transport_system", 
+                "@type": "Node", 
+                "label": "a transport system", 
+                "language": "en", 
+                "term": "/c/en/transport_system"
+            }, 
+            "surfaceText": "*[[A plant]] has [[a transport system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cotton_fibrous_substance/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cotton_fibrous_substance", 
+                "@type": "Node", 
+                "label": "Cotton is a fibrous substance that", 
+                "language": "en", 
+                "term": "/c/en/cotton_fibrous_substance"
+            }, 
+            "surfaceText": "[[Cotton is a fibrous substance that]] is part of [[a plant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/leaf/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/maofnoah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/maofnoah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/leaf", 
+                "@type": "Node", 
+                "label": "Leaf", 
+                "language": "en", 
+                "term": "/c/en/leaf"
+            }, 
+            "surfaceText": "[[Leaf]] is part of [[a plant]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plant/,/c/en/ecosystem/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ecosystem", 
+                "@type": "Node", 
+                "label": "an ecosystem", 
+                "language": "en", 
+                "term": "/c/en/ecosystem"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "A plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "surfaceText": "[[A plant]] is part of [[an ecosystem]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plant/,/c/en/garden/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garden", 
+                "@type": "Node", 
+                "label": "the garden", 
+                "language": "en", 
+                "term": "/c/en/garden"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "This plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "surfaceText": "[[This plant]] is part of [[the garden]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plant/,/c/en/nature/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nature", 
+                "@type": "Node", 
+                "label": "nature", 
+                "language": "en", 
+                "term": "/c/en/nature"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "surfaceText": "[[a plant]] is part of [[nature]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/potato/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "[[a potato]] is part of [[a plant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/root/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/maofnoah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/maofnoah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/root", 
+                "@type": "Node", 
+                "label": "Root", 
+                "language": "en", 
+                "term": "/c/en/root"
+            }, 
+            "surfaceText": "[[Root]] is part of [[a plant]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stem/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/maofnoah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/maofnoah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stem", 
+                "@type": "Node", 
+                "label": "Stem", 
+                "language": "en", 
+                "term": "/c/en/stem"
+            }, 
+            "surfaceText": "[[Stem]] is part of [[a plant]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/suture/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thoughttreasure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thoughttreasure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/suture", 
+                "@type": "Node", 
+                "label": "A suture", 
+                "language": "en", 
+                "term": "/c/en/suture"
+            }, 
+            "surfaceText": "[[A suture]] is part of [[a plant]]", 
+            "weight": 1.0
+        }
+    ]
+}

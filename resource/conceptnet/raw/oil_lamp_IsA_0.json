@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/oil_lamp&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/oil_lamp/n/,/c/en/lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lamp/n", 
+                "@type": "Node", 
+                "label": "lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/oil_lamp/n", 
+                "@type": "Node", 
+                "label": "oil lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oil_lamp"
+            }, 
+            "surfaceText": "[[oil lamp]] is a type of [[lamp]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/safety_lamp/n/,/c/en/oil_lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/oil_lamp/n", 
+                "@type": "Node", 
+                "label": "oil lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oil_lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/safety_lamp/n", 
+                "@type": "Node", 
+                "label": "safety lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/safety_lamp"
+            }, 
+            "surfaceText": "[[safety lamp]] is a type of [[oil lamp]]", 
+            "weight": 2.0
+        }
+    ]
+}

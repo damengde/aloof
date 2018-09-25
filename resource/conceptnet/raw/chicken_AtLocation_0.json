@@ -1,0 +1,289 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chicken&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chicken/,/c/en/pizza/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "a pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/morgoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/morgoth"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "*Something you find on [[a pizza]] is [[chicken]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/egg/,/c/en/chicken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "a chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/morgoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/morgoth"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "an egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "You are likely to find [[an egg]] in [[a chicken]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chicken/,/c/en/plate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plate", 
+                "@type": "Node", 
+                "label": "a plate", 
+                "language": "en", 
+                "term": "/c/en/plate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jasongross/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jasongross"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "*Something you find on [[a plate]] is [[chicken]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chicken/,/c/en/fast_food_restaurant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fast_food_restaurant", 
+                "@type": "Node", 
+                "label": "a fast-food restaurant", 
+                "language": "en", 
+                "term": "/c/en/fast_food_restaurant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "*Something you find at [[a fast-food restaurant]] is [[chicken]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chicken/,/c/en/freezer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/freezer", 
+                "@type": "Node", 
+                "label": "the freezer", 
+                "language": "en", 
+                "term": "/c/en/freezer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/beerchick701/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/beerchick701"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "*Something you find in [[the freezer]] is [[chicken]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/chicken/,/c/en/oven/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/oven", 
+                "@type": "Node", 
+                "label": "the oven", 
+                "language": "en", 
+                "term": "/c/en/oven"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eldalamber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eldalamber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "*Something you find in [[the oven]] is [[chicken]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/potato/,/c/en/chicken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "a chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "You are likely to find [[a potato]] in [[a chicken]]", 
+            "weight": 1.0
+        }
+    ]
+}

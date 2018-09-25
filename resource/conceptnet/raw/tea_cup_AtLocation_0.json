@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tea_cup&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tea_cup/,/c/en/cupboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "the cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tea_cup", 
+                "@type": "Node", 
+                "label": "a tea cup", 
+                "language": "en", 
+                "term": "/c/en/tea_cup"
+            }, 
+            "surfaceText": "You are likely to find [[a tea cup]] in [[the cupboard]]", 
+            "weight": 1.0
+        }
+    ]
+}

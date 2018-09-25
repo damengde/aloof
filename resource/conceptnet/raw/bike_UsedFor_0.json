@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bike&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bike/,/c/en/transport/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport", 
+                "@type": "Node", 
+                "label": "transport", 
+                "language": "en", 
+                "term": "/c/en/transport"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_640479202/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/20q_640479202"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] is used for [[transport]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bike/,/c/en/commuting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/commuting", 
+                "@type": "Node", 
+                "label": "commuting", 
+                "language": "en", 
+                "term": "/c/en/commuting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] is used for [[commuting]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bike/,/c/en/riding/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/riding", 
+                "@type": "Node", 
+                "label": "riding", 
+                "language": "en", 
+                "term": "/c/en/riding"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] is for [[riding]]", 
+            "weight": 1.0
+        }
+    ]
+}

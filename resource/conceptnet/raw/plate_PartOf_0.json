@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plate&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plate/n/,/c/en/structure/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/structure/n", 
+                "@type": "Node", 
+                "label": "structure", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/structure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plate/n", 
+                "@type": "Node", 
+                "label": "plate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plate"
+            }, 
+            "surfaceText": "[[plate]] is a part of [[structure]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plate/n/,/c/en/tube/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tube/n", 
+                "@type": "Node", 
+                "label": "tube", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tube"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plate/n", 
+                "@type": "Node", 
+                "label": "plate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plate"
+            }, 
+            "surfaceText": "[[plate]] is a part of [[tube]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plate/,/c/en/set_of_dishes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/set_of_dishes", 
+                "@type": "Node", 
+                "label": "a set of dishes", 
+                "language": "en", 
+                "term": "/c/en/set_of_dishes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plate", 
+                "@type": "Node", 
+                "label": "A plate", 
+                "language": "en", 
+                "term": "/c/en/plate"
+            }, 
+            "surfaceText": "[[A plate]] is part of [[a set of dishes]]", 
+            "weight": 1.0
+        }
+    ]
+}

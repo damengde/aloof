@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/carp&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/carp/n/,/c/en/domestic_carp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/domestic_carp/n", 
+                "@type": "Node", 
+                "label": "domestic carp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/domestic_carp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carp/n", 
+                "@type": "Node", 
+                "label": "carp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carp"
+            }, 
+            "surfaceText": "[[carp]] is a part of [[domestic carp]]", 
+            "weight": 2.0
+        }
+    ]
+}

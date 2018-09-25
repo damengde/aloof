@@ -1,0 +1,207 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/refrigerator&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/refrigerator/,/c/en/cool_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_food", 
+                "@type": "Node", 
+                "label": "cool food", 
+                "language": "en", 
+                "term": "/c/en/cool_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "a refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "surfaceText": "[[a refrigerator]] can [[cool food]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/refrigerator/,/c/en/keep_food_cold/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_food_cold", 
+                "@type": "Node", 
+                "label": "keep food cold", 
+                "language": "en", 
+                "term": "/c/en/keep_food_cold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/melahen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/melahen"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "A refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "surfaceText": "[[A refrigerator]] can [[keep food cold]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/refrigerator/,/c/en/keep_ice_cold/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_ice_cold", 
+                "@type": "Node", 
+                "label": "keep ice cold", 
+                "language": "en", 
+                "term": "/c/en/keep_ice_cold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eldalamber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eldalamber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "A refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "surfaceText": "[[A refrigerator]] can [[keep ice cold]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/refrigerator/,/c/en/stock_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stock_food", 
+                "@type": "Node", 
+                "label": "stock food", 
+                "language": "en", 
+                "term": "/c/en/stock_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "a refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "surfaceText": "[[a refrigerator]] can [[stock food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/refrigerator/,/c/en/store_food_for_long_times/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_food_for_long_times", 
+                "@type": "Node", 
+                "label": "store food for long times", 
+                "language": "en", 
+                "term": "/c/en/store_food_for_long_times"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "a refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "surfaceText": "[[a refrigerator]] can [[store food for long times]]", 
+            "weight": 1.0
+        }
+    ]
+}

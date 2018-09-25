@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/magnet&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/core/n/,/c/en/magnet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/magnet/n", 
+                "@type": "Node", 
+                "label": "magnet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/magnet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/core/n", 
+                "@type": "Node", 
+                "label": "core", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/core"
+            }, 
+            "surfaceText": "[[core]] is a part of [[magnet]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pole/n/,/c/en/magnet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/magnet/n", 
+                "@type": "Node", 
+                "label": "magnet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/magnet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pole/n", 
+                "@type": "Node", 
+                "label": "pole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pole"
+            }, 
+            "surfaceText": "[[pole]] is a part of [[magnet]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toy&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toy/,/c/en/delight_child/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/delight_child", 
+                "@type": "Node", 
+                "label": "delight a child", 
+                "language": "en", 
+                "term": "/c/en/delight_child"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daisychic446/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/daisychic446"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thinkdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thinkdude"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daisychic446/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/daisychic446"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lrk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lrk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "A toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "[[A toy]] can [[delight a child]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ball/,/c/en/toy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "be a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/danyo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/danyo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ball", 
+                "@type": "Node", 
+                "label": "a ball", 
+                "language": "en", 
+                "term": "/c/en/ball"
+            }, 
+            "surfaceText": "[[a ball]] can [[be a toy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toy/,/c/en/belong_to_kid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/belong_to_kid", 
+                "@type": "Node", 
+                "label": "belong to a kid", 
+                "language": "en", 
+                "term": "/c/en/belong_to_kid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "[[a toy]] can [[belong to a kid]]", 
+            "weight": 1.0
+        }
+    ]
+}

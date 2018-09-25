@@ -1,0 +1,517 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mortar&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/,/c/en/weapon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/weapon", 
+                "@type": "Node", 
+                "label": "a weapon", 
+                "language": "en", 
+                "term": "/c/en/weapon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thayne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thayne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar", 
+                "@type": "Node", 
+                "label": "A mortar", 
+                "language": "en", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[A mortar]] is [[a weapon]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/n/,/c/en/building_material/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/building_material/n", 
+                "@type": "Node", 
+                "label": "building material", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/building_material"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[mortar]] is a type of [[building material]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/n/,/c/en/high_angle_gun/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/high_angle_gun/n", 
+                "@type": "Node", 
+                "label": "high-angle gun", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/high_angle_gun"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[mortar]] is a type of [[high-angle gun]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/n/,/c/en/vessel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vessel/n", 
+                "@type": "Node", 
+                "label": "vessel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vessel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[mortar]] is a type of [[vessel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/81_millimeter_mortar/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/81_millimeter_mortar/n", 
+                "@type": "Node", 
+                "label": "81 millimeter mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/81_millimeter_mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/81_mm_mortar/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/81_mm_mortar/n", 
+                "@type": "Node", 
+                "label": "81 mm mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/81_mm_mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/asw_mortar/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/asw_mortar/n", 
+                "@type": "Node", 
+                "label": "asw mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/asw_mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/heavy_mortar/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heavy_mortar/n", 
+                "@type": "Node", 
+                "label": "heavy mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heavy_mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/l16a2_81_mm_mortar/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/l16a2_81_mm_mortar/n", 
+                "@type": "Node", 
+                "label": "l16a2 81 mm mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/l16a2_81_mm_mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/light_mortar_launcher/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/light_mortar_launcher/n", 
+                "@type": "Node", 
+                "label": "light mortar launcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/light_mortar_launcher"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/m1064_mortar_carrier/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/m1064_mortar_carrier/n", 
+                "@type": "Node", 
+                "label": "m1064 mortar carrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/m1064_mortar_carrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar_launcher_medium/n/,/c/en/mortar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar_launcher_medium/n", 
+                "@type": "Node", 
+                "label": "mortar launcher medium", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar_launcher_medium"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/n/,/c/en/gun/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/gun/n", 
+                "@type": "Node", 
+                "label": "gun", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gun"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mortar/n/,/c/en/indirect_projectile_launcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/indirect_projectile_launcher/n", 
+                "@type": "Node", 
+                "label": "indirect projectile launcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/indirect_projectile_launcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar/n", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sweatshirt&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sweatshirt/n/,/c/en/sweat_suit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sweat_suit/n", 
+                "@type": "Node", 
+                "label": "sweat suit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sweat_suit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sweatshirt/n", 
+                "@type": "Node", 
+                "label": "sweatshirt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sweatshirt"
+            }, 
+            "surfaceText": "[[sweatshirt]] is a part of [[sweat suit]]", 
+            "weight": 2.0
+        }
+    ]
+}

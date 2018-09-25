@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/umbrella&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/umbrella/,/c/en/accent_on_second_syllable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/accent_on_second_syllable", 
+                "@type": "Node", 
+                "label": "the accent on the second syllable", 
+                "language": "en", 
+                "term": "/c/en/accent_on_second_syllable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/latrodectus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella", 
+                "@type": "Node", 
+                "label": "Umbrella", 
+                "language": "en", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[Umbrella]] has [[the accent on the second syllable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/umbrella/,/c/en/spokes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spokes", 
+                "@type": "Node", 
+                "label": "spokes", 
+                "language": "en", 
+                "term": "/c/en/spokes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella", 
+                "@type": "Node", 
+                "label": "An umbrella", 
+                "language": "en", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[An umbrella]] has [[spokes]]", 
+            "weight": 1.0
+        }
+    ]
+}

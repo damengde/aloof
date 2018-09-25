@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/computer_mouse&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/computer_mouse/,/c/en/desktop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desktop", 
+                "@type": "Node", 
+                "label": "a desktop", 
+                "language": "en", 
+                "term": "/c/en/desktop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer_mouse", 
+                "@type": "Node", 
+                "label": "a computer mouse", 
+                "language": "en", 
+                "term": "/c/en/computer_mouse"
+            }, 
+            "surfaceText": "*Something you find on [[a desktop]] is [[a computer mouse]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/computer_mouse/,/c/en/mouse_pad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mouse_pad", 
+                "@type": "Node", 
+                "label": "a mouse pad", 
+                "language": "en", 
+                "term": "/c/en/mouse_pad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer_mouse", 
+                "@type": "Node", 
+                "label": "a computer mouse", 
+                "language": "en", 
+                "term": "/c/en/computer_mouse"
+            }, 
+            "surfaceText": "*Something you find on [[a mouse pad]] is [[a computer mouse]]", 
+            "weight": 1.0
+        }
+    ]
+}

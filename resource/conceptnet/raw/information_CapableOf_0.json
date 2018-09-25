@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/information&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/information/,/c/en/increase_awareness/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/increase_awareness", 
+                "@type": "Node", 
+                "label": "increase awareness", 
+                "language": "en", 
+                "term": "/c/en/increase_awareness"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[information]] can [[increase awareness]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/information/,/c/en/plant_ideas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant_ideas", 
+                "@type": "Node", 
+                "label": "plant ideas", 
+                "language": "en", 
+                "term": "/c/en/plant_ideas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[information]] can [[plant ideas]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/information/,/c/en/stored_many_ways/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stored_many_ways", 
+                "@type": "Node", 
+                "label": "be stored many ways", 
+                "language": "en", 
+                "term": "/c/en/stored_many_ways"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/information", 
+                "@type": "Node", 
+                "label": "Information", 
+                "language": "en", 
+                "term": "/c/en/information"
+            }, 
+            "surfaceText": "[[Information]] can [[be stored many ways]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vending_machine&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/can_of_soda/,/c/en/vending_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vending_machine", 
+                "@type": "Node", 
+                "label": "a vending machine", 
+                "language": "en", 
+                "term": "/c/en/vending_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rspeer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/can_of_soda", 
+                "@type": "Node", 
+                "label": "a can of soda", 
+                "language": "en", 
+                "term": "/c/en/can_of_soda"
+            }, 
+            "surfaceText": "You are likely to find [[a can of soda]] in [[a vending machine]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vending_machine/,/c/en/work/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work", 
+                "@type": "Node", 
+                "label": "work", 
+                "language": "en", 
+                "term": "/c/en/work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/youhere/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/youhere"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vending_machine", 
+                "@type": "Node", 
+                "label": "a vending machine", 
+                "language": "en", 
+                "term": "/c/en/vending_machine"
+            }, 
+            "surfaceText": "*Something you find at [[work]] is [[a vending machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

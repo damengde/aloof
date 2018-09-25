@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stone&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pound/n/,/c/en/stone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/stone/n", 
+                "@type": "Node", 
+                "label": "stone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pound/n", 
+                "@type": "Node", 
+                "label": "pound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pound"
+            }, 
+            "surfaceText": "[[pound]] is a part of [[stone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stone/n/,/c/en/quarter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/quarter/n", 
+                "@type": "Node", 
+                "label": "quarter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/quarter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone/n", 
+                "@type": "Node", 
+                "label": "stone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[stone]] is a part of [[quarter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stone/,/c/en/building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building", 
+                "@type": "Node", 
+                "label": "a building", 
+                "language": "en", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone", 
+                "@type": "Node", 
+                "label": "stone", 
+                "language": "en", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[stone]] is part of [[a building]]", 
+            "weight": 1.0
+        }
+    ]
+}

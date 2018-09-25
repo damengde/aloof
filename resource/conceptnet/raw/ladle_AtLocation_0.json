@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ladle&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ladle/,/c/en/drawer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drawer", 
+                "@type": "Node", 
+                "label": "a drawer", 
+                "language": "en", 
+                "term": "/c/en/drawer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ladle", 
+                "@type": "Node", 
+                "label": "a ladle", 
+                "language": "en", 
+                "term": "/c/en/ladle"
+            }, 
+            "surfaceText": "*Something you find in [[a drawer]] is [[a ladle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ladle/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "a kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/fable/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/fable"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ladle", 
+                "@type": "Node", 
+                "label": "ladle", 
+                "language": "en", 
+                "term": "/c/en/ladle"
+            }, 
+            "surfaceText": "You are likely to find [[ladle]] in [[a kitchen]]", 
+            "weight": 1.0
+        }
+    ]
+}

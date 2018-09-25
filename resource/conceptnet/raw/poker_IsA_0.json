@@ -1,0 +1,489 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/poker&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/,/c/en/cardgame/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cardgame", 
+                "@type": "Node", 
+                "label": "a cardgame", 
+                "language": "en", 
+                "term": "/c/en/cardgame"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adrie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adrie"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/matte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/matte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[poker]] is [[a cardgame]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/draw/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/draw/n", 
+                "@type": "Node", 
+                "label": "draw", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/draw"
+            }, 
+            "surfaceText": "[[draw]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/high_low/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/high_low/n", 
+                "@type": "Node", 
+                "label": "high-low", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/high_low"
+            }, 
+            "surfaceText": "[[high-low]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/penny_ante/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/penny_ante/n", 
+                "@type": "Node", 
+                "label": "penny ante", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/penny_ante"
+            }, 
+            "surfaceText": "[[penny ante]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/,/c/en/card_game/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/card_game", 
+                "@type": "Node", 
+                "label": "a card game", 
+                "language": "en", 
+                "term": "/c/en/card_game"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/calibux/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/calibux"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[poker]] is [[a card game]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/n/,/c/en/card_game/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/card_game/n", 
+                "@type": "Node", 
+                "label": "card game", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/card_game"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[poker]] is a type of [[card game]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/n/,/c/en/fire_iron/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fire_iron/n", 
+                "@type": "Node", 
+                "label": "fire iron", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fire_iron"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[poker]] is a type of [[fire iron]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/straight_poker/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/straight_poker/n", 
+                "@type": "Node", 
+                "label": "straight poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/straight_poker"
+            }, 
+            "surfaceText": "[[straight poker]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/strip_poker/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/strip_poker/n", 
+                "@type": "Node", 
+                "label": "strip poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/strip_poker"
+            }, 
+            "surfaceText": "[[strip poker]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stud/n/,/c/en/poker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/poker/n", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stud/n", 
+                "@type": "Node", 
+                "label": "stud", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stud"
+            }, 
+            "surfaceText": "[[stud]] is a type of [[poker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/,/c/en/card_game_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/card_game_in", 
+                "@type": "Node", 
+                "label": "card game in", 
+                "language": "en", 
+                "term": "/c/en/card_game_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/akasanof/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/akasanof"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker", 
+                "@type": "Node", 
+                "label": "Poker", 
+                "language": "en", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[Poker]] is a type of [[card game in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poker/,/c/en/game_of_chance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/game_of_chance", 
+                "@type": "Node", 
+                "label": "a game of chance", 
+                "language": "en", 
+                "term": "/c/en/game_of_chance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mkyritsi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mkyritsi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poker", 
+                "@type": "Node", 
+                "label": "Poker", 
+                "language": "en", 
+                "term": "/c/en/poker"
+            }, 
+            "surfaceText": "[[Poker]] is [[a game of chance]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/texas_holdem/,/c/en/poker/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/poker", 
+                "@type": "Node", 
+                "label": "poker", 
+                "language": "en", 
+                "term": "/c/en/poker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/texas_holdem", 
+                "@type": "Node", 
+                "label": "Texas Holdem", 
+                "language": "en", 
+                "term": "/c/en/texas_holdem"
+            }, 
+            "surfaceText": "[[Texas Holdem]] is a type of [[poker]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,3602 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dog&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/,/c/en/usually_about_two_feet_tall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/usually_about_two_feet_tall", 
+                "@type": "Node", 
+                "label": "usually about two feet tall", 
+                "language": "en", 
+                "term": "/c/en/usually_about_two_feet_tall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] is [[usually about two feet tall]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/,/c/en/very_faithful_friend/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_faithful_friend", 
+                "@type": "Node", 
+                "label": "a very faithful friend", 
+                "language": "en", 
+                "term": "/c/en/very_faithful_friend"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] is [[a very faithful friend]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/n/,/c/en/canid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/canid", 
+                "@type": "Node", 
+                "label": "canid", 
+                "language": "en", 
+                "term": "/c/en/canid"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/n/,/c/en/canine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/canine", 
+                "@type": "Node", 
+                "label": "canine", 
+                "language": "en", 
+                "term": "/c/en/canine"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/n/,/c/en/canis/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/canis/n", 
+                "@type": "Node", 
+                "label": "canis", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canis"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/n/,/c/en/domesticated_animal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/domesticated_animal/n", 
+                "@type": "Node", 
+                "label": "domesticated animal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/domesticated_animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dog/n/,/c/en/mammal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/mammal", 
+                "@type": "Node", 
+                "label": "mammal", 
+                "language": "en", 
+                "term": "/c/en/mammal"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/elkhound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/elkhound/n", 
+                "@type": "Node", 
+                "label": "elkhound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/elkhound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/english_collie/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/english_collie/n", 
+                "@type": "Node", 
+                "label": "english collie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/english_collie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/female_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/female_dog/n", 
+                "@type": "Node", 
+                "label": "female dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/female_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fido/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fido", 
+                "@type": "Node", 
+                "label": "Fido", 
+                "language": "en", 
+                "term": "/c/en/fido"
+            }, 
+            "surfaceText": "[[Fido]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_downstairs/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_downstairs", 
+                "@type": "Node", 
+                "label": "Something you find downstairs", 
+                "language": "en", 
+                "term": "/c/en/find_downstairs"
+            }, 
+            "surfaceText": "[[Something you find downstairs]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gazelle_hound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gazelle_hound/n", 
+                "@type": "Node", 
+                "label": "gazelle hound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gazelle_hound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/german_pointer/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/german_pointer/n", 
+                "@type": "Node", 
+                "label": "german pointer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/german_pointer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/german_shepard/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/yahma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/yahma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/german_shepard", 
+                "@type": "Node", 
+                "label": "German Shepard", 
+                "language": "en", 
+                "term": "/c/en/german_shepard"
+            }, 
+            "surfaceText": "[[German Shepard]] is a type of [[dog]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/german_sheperd/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/cassiopeoa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/cassiopeoa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/german_sheperd", 
+                "@type": "Node", 
+                "label": "german sheperd", 
+                "language": "en", 
+                "term": "/c/en/german_sheperd"
+            }, 
+            "surfaceText": "[[german sheperd]] is a type of [[dog]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/german_shepherd/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/german_shepherd/n", 
+                "@type": "Node", 
+                "label": "german shepherd", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/german_shepherd"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giant_schnauzer/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giant_schnauzer/n", 
+                "@type": "Node", 
+                "label": "giant schnauzer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giant_schnauzer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/great_dane/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/great_dane/n", 
+                "@type": "Node", 
+                "label": "great dane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/great_dane"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/great_pyrenee/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/great_pyrenee/n", 
+                "@type": "Node", 
+                "label": "great pyrenee", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/great_pyrenee"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/greyhound/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/greyhound", 
+                "@type": "Node", 
+                "label": "A greyhound", 
+                "language": "en", 
+                "term": "/c/en/greyhound"
+            }, 
+            "surfaceText": "[[A greyhound]] is a kind of [[dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/greyhound/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/greyhound/n", 
+                "@type": "Node", 
+                "label": "greyhound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/greyhound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/greyhound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/greyhound/n", 
+                "@type": "Node", 
+                "label": "greyhound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/greyhound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/groenendael/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/staris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/staris"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/groenendael", 
+                "@type": "Node", 
+                "label": "Groenendael", 
+                "language": "en", 
+                "term": "/c/en/groenendael"
+            }, 
+            "surfaceText": "[[Groenendael]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gundog/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gundog", 
+                "@type": "Node", 
+                "label": "A gundog", 
+                "language": "en", 
+                "term": "/c/en/gundog"
+            }, 
+            "surfaceText": "[[A gundog]] is a kind of [[dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/harrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/harrier/n", 
+                "@type": "Node", 
+                "label": "harrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/harrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/herding_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/herding_dog/n", 
+                "@type": "Node", 
+                "label": "herding dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/herding_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hound_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hound_dog/n", 
+                "@type": "Node", 
+                "label": "hound dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hound_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hunting_dog/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hunting_dog/n", 
+                "@type": "Node", 
+                "label": "hunting dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hunting_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/husky/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/husky/n", 
+                "@type": "Node", 
+                "label": "husky", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/husky"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ibizan_hound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ibizan_hound/n", 
+                "@type": "Node", 
+                "label": "ibizan hound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ibizan_hound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/irish_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/irish_terrier/n", 
+                "@type": "Node", 
+                "label": "irish terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/irish_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/irish_wolfhound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/irish_wolfhound/n", 
+                "@type": "Node", 
+                "label": "irish wolfhound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/irish_wolfhound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jack_russell_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jack_russell_terrier/n", 
+                "@type": "Node", 
+                "label": "jack russell terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jack_russell_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/keeshond/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keeshond/n", 
+                "@type": "Node", 
+                "label": "keeshond", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keeshond"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kerry_blue_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kerry_blue_terrier/n", 
+                "@type": "Node", 
+                "label": "kerry blue terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kerry_blue_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/koolie/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/koolie/n", 
+                "@type": "Node", 
+                "label": "koolie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/koolie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kuvasz/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kuvasz/n", 
+                "@type": "Node", 
+                "label": "kuvasz", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kuvasz"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/labradoodle/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/labradoodle", 
+                "@type": "Node", 
+                "label": "The Labradoodle", 
+                "language": "en", 
+                "term": "/c/en/labradoodle"
+            }, 
+            "surfaceText": "[[The Labradoodle]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lakeland_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lakeland_terrier/n", 
+                "@type": "Node", 
+                "label": "lakeland terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lakeland_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lapdog/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lapdog", 
+                "@type": "Node", 
+                "label": "lapdog", 
+                "language": "en", 
+                "term": "/c/en/lapdog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lhasa_apso/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lhasa_apso", 
+                "@type": "Node", 
+                "label": "A lhasa apso", 
+                "language": "en", 
+                "term": "/c/en/lhasa_apso"
+            }, 
+            "surfaceText": "[[A lhasa apso]] is a kind of [[dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lhasa_apso/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lhasa_apso/n", 
+                "@type": "Node", 
+                "label": "lhasa apso", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lhasa_apso"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/long_haired_chihuahua/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/long_haired_chihuahua/n", 
+                "@type": "Node", 
+                "label": "long haired chihuahua", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/long_haired_chihuahua"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/long_haired_dachshund/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/long_haired_dachshund/n", 
+                "@type": "Node", 
+                "label": "long haired dachshund", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/long_haired_dachshund"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lurcher/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lurcher", 
+                "@type": "Node", 
+                "label": "A lurcher", 
+                "language": "en", 
+                "term": "/c/en/lurcher"
+            }, 
+            "surfaceText": "[[A lurcher]] is a kind of [[dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/malamute/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/malamute/n", 
+                "@type": "Node", 
+                "label": "malamute", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/malamute"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mastiff/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mastiff/n", 
+                "@type": "Node", 
+                "label": "mastiff", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mastiff"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/miniature_poodle/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/miniature_poodle/n", 
+                "@type": "Node", 
+                "label": "miniature poodle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/miniature_poodle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/miniature_schnauzer/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/miniature_schnauzer/n", 
+                "@type": "Node", 
+                "label": "miniature schnauzer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/miniature_schnauzer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/miscellaneous_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/miscellaneous_dog/n", 
+                "@type": "Node", 
+                "label": "miscellaneous dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/miscellaneous_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mixed_breed_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mixed_breed_dog/n", 
+                "@type": "Node", 
+                "label": "mixed breed dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mixed_breed_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/newfoundland_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newfoundland_dog/n", 
+                "@type": "Node", 
+                "label": "newfoundland dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/newfoundland_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/non_sporting_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/non_sporting_dog/n", 
+                "@type": "Node", 
+                "label": "non sporting dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_sporting_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/norfolk_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/norfolk_terrier/n", 
+                "@type": "Node", 
+                "label": "norfolk terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/norfolk_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/norwich_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/norwich_terrier/n", 
+                "@type": "Node", 
+                "label": "norwich terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/norwich_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/old_english_sheepdog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/old_english_sheepdog/n", 
+                "@type": "Node", 
+                "label": "old english sheepdog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/old_english_sheepdog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/otter_hound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/otter_hound/n", 
+                "@type": "Node", 
+                "label": "otter hound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/otter_hound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/outside_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/outside_dog/n", 
+                "@type": "Node", 
+                "label": "outside dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/outside_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/parti_colored_cocker_spaniel/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/parti_colored_cocker_spaniel/n", 
+                "@type": "Node", 
+                "label": "parti colored cocker spaniel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/parti_colored_cocker_spaniel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pembroke_welsh_corgi/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pembroke_welsh_corgi/n", 
+                "@type": "Node", 
+                "label": "pembroke welsh corgi", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pembroke_welsh_corgi"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pet_dog/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pet_dog/n", 
+                "@type": "Node", 
+                "label": "pet dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pet_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pharaoh_hound/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pharaoh_hound/n", 
+                "@type": "Node", 
+                "label": "pharaoh hound", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pharaoh_hound"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitbull/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitbull", 
+                "@type": "Node", 
+                "label": "A pitbull", 
+                "language": "en", 
+                "term": "/c/en/pitbull"
+            }, 
+            "surfaceText": "[[A pitbull]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pit_bull/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pit_bull/n", 
+                "@type": "Node", 
+                "label": "pit bull", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pit_bull"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pointer/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pointer/n", 
+                "@type": "Node", 
+                "label": "pointer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pointer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/poodle/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poodle/n", 
+                "@type": "Node", 
+                "label": "poodle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/poodle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/portuguese_water_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/portuguese_water_dog/n", 
+                "@type": "Node", 
+                "label": "portuguese water dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/portuguese_water_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/puli/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/puli/n", 
+                "@type": "Node", 
+                "label": "puli", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/puli"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/puppy/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/puppy/n", 
+                "@type": "Node", 
+                "label": "puppy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/puppy"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/puppy/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/puppy/n", 
+                "@type": "Node", 
+                "label": "puppy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/puppy"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/purebred/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lstuchal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lstuchal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purebred", 
+                "@type": "Node", 
+                "label": "A purebred", 
+                "language": "en", 
+                "term": "/c/en/purebred"
+            }, 
+            "surfaceText": "[[A purebred]] is [[a dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/retriever/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/retriever/n", 
+                "@type": "Node", 
+                "label": "retriever", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/retriever"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rhodesian_ridgeback/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rhodesian_ridgeback/n", 
+                "@type": "Node", 
+                "label": "rhodesian ridgeback", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rhodesian_ridgeback"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rottweiler/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rottweiler/n", 
+                "@type": "Node", 
+                "label": "rottweiler", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rottweiler"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rough_coated_collie/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rough_coated_collie/n", 
+                "@type": "Node", 
+                "label": "rough coated collie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rough_coated_collie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/samoyed/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/samoyed/n", 
+                "@type": "Node", 
+                "label": "samoyed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/samoyed"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/schipperke/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/schipperke/n", 
+                "@type": "Node", 
+                "label": "schipperke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/schipperke"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scottish_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scottish_terrier/n", 
+                "@type": "Node", 
+                "label": "scottish terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scottish_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sealyham_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sealyham_terrier/n", 
+                "@type": "Node", 
+                "label": "sealyham terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sealyham_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/setter/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/setter/n", 
+                "@type": "Node", 
+                "label": "setter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/setter"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sheepdog/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sheepdog", 
+                "@type": "Node", 
+                "label": "sheepdog", 
+                "language": "en", 
+                "term": "/c/en/sheepdog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sheepdog/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sheepdog/n", 
+                "@type": "Node", 
+                "label": "sheepdog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sheepdog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shepherd/n/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shepherd/n", 
+                "@type": "Node", 
+                "label": "shepherd", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shepherd"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shetland/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shetland/n", 
+                "@type": "Node", 
+                "label": "shetland", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shetland"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shih_tzu/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shih_tzu", 
+                "@type": "Node", 
+                "label": "A shih tzu", 
+                "language": "en", 
+                "term": "/c/en/shih_tzu"
+            }, 
+            "surfaceText": "[[A shih tzu]] is a kind of [[dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/skye_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/skye_terrier/n", 
+                "@type": "Node", 
+                "label": "skye terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/skye_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/small_for_dog_dog/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/small_for_dog_dog/n", 
+                "@type": "Node", 
+                "label": "small for dog dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/small_for_dog_dog"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/smooth_coated_chihuahua/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/smooth_coated_chihuahua/n", 
+                "@type": "Node", 
+                "label": "smooth coated chihuahua", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/smooth_coated_chihuahua"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/smooth_coated_collie/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/smooth_coated_collie/n", 
+                "@type": "Node", 
+                "label": "smooth coated collie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/smooth_coated_collie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/smooth_coated_dachshund/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/smooth_coated_dachshund/n", 
+                "@type": "Node", 
+                "label": "smooth coated dachshund", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/smooth_coated_dachshund"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/smooth_fox_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/smooth_fox_terrier/n", 
+                "@type": "Node", 
+                "label": "smooth fox terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/smooth_fox_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soft_coated_wheaten_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soft_coated_wheaten_terrier/n", 
+                "@type": "Node", 
+                "label": "soft coated wheaten terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soft_coated_wheaten_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spaniel/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spaniel/n", 
+                "@type": "Node", 
+                "label": "spaniel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spaniel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sporting_dog_functional_group/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sporting_dog_functional_group/n", 
+                "@type": "Node", 
+                "label": "sporting dog functional group", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sporting_dog_functional_group"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/staffordshire_bull_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staffordshire_bull_terrier/n", 
+                "@type": "Node", 
+                "label": "staffordshire bull terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/staffordshire_bull_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/standard_schnauzer/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/standard_schnauzer/n", 
+                "@type": "Node", 
+                "label": "standard schnauzer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/standard_schnauzer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/st_bernard/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/st_bernard/n", 
+                "@type": "Node", 
+                "label": "st bernard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/st_bernard"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sydney_silky_terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sydney_silky_terrier/n", 
+                "@type": "Node", 
+                "label": "sydney silky terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sydney_silky_terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/terrier/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/terrier/n", 
+                "@type": "Node", 
+                "label": "terrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/terrier"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/dog&rel=/r/IsA&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "comment": "There are more results. Follow the 'nextPage' link for more.", 
+        "firstPage": "/query?node=/c/en/dog&rel=/r/IsA&offset=0&limit=100", 
+        "nextPage": "/query?node=/c/en/dog&rel=/r/IsA&offset=200&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/dog&rel=/r/IsA&offset=0&limit=100"
+    }
+}

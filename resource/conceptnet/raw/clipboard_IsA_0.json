@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/clipboard&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clipboard/n/,/c/en/writing_board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/writing_board/n", 
+                "@type": "Node", 
+                "label": "writing board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/writing_board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clipboard/n", 
+                "@type": "Node", 
+                "label": "clipboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clipboard"
+            }, 
+            "surfaceText": "[[clipboard]] is a type of [[writing board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clipboard/n/,/c/en/mechanical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mechanical_device/n", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clipboard/n", 
+                "@type": "Node", 
+                "label": "clipboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clipboard"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

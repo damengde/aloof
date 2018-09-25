@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pipe&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pipe/,/c/en/water_fountain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_fountain", 
+                "@type": "Node", 
+                "label": "a water fountain", 
+                "language": "en", 
+                "term": "/c/en/water_fountain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pipe", 
+                "@type": "Node", 
+                "label": "a pipe", 
+                "language": "en", 
+                "term": "/c/en/pipe"
+            }, 
+            "surfaceText": "*Something you find at [[a water fountain]] is [[a pipe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water/,/c/en/pipe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pipe", 
+                "@type": "Node", 
+                "label": "a pipe", 
+                "language": "en", 
+                "term": "/c/en/pipe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "surfaceText": "Somewhere [[water]] can be is in [[a pipe]]", 
+            "weight": 1.0
+        }
+    ]
+}

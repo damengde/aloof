@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chip&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chip/,/c/en/small_piece_of_oak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/small_piece_of_oak", 
+                "@type": "Node", 
+                "label": "be a small piece of oak", 
+                "language": "en", 
+                "term": "/c/en/small_piece_of_oak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chip", 
+                "@type": "Node", 
+                "label": "a chip", 
+                "language": "en", 
+                "term": "/c/en/chip"
+            }, 
+            "surfaceText": "[[a chip]] can [[be a small piece of oak]]", 
+            "weight": 1.0
+        }
+    ]
+}

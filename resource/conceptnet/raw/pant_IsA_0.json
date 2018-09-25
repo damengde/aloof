@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pant&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pant/n/,/c/en/noise/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/noise/n", 
+                "@type": "Node", 
+                "label": "noise", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/noise"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pant/n", 
+                "@type": "Node", 
+                "label": "pant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pant"
+            }, 
+            "surfaceText": "[[pant]] is a type of [[noise]]", 
+            "weight": 2.0
+        }
+    ]
+}

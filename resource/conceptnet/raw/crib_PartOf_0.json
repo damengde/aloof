@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/crib&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/crib/n/,/c/en/cribbage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cribbage/n", 
+                "@type": "Node", 
+                "label": "cribbage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cribbage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crib/n", 
+                "@type": "Node", 
+                "label": "crib", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/crib"
+            }, 
+            "surfaceText": "[[crib]] is a part of [[cribbage]]", 
+            "weight": 2.0
+        }
+    ]
+}

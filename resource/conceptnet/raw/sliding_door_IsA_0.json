@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sliding_door&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barn_door/n/,/c/en/sliding_door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sliding_door/n", 
+                "@type": "Node", 
+                "label": "sliding door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sliding_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barn_door/n", 
+                "@type": "Node", 
+                "label": "barn door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barn_door"
+            }, 
+            "surfaceText": "[[barn door]] is a type of [[sliding door]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sliding_door/n/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sliding_door/n", 
+                "@type": "Node", 
+                "label": "sliding door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sliding_door"
+            }, 
+            "surfaceText": "[[sliding door]] is a type of [[door]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sliding_door/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sliding_door", 
+                "@type": "Node", 
+                "label": "sliding door", 
+                "language": "en", 
+                "term": "/c/en/sliding_door"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

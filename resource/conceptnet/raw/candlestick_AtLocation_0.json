@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/candlestick&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/candlestick/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "the table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/waltglass/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/waltglass"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candlestick", 
+                "@type": "Node", 
+                "label": "a candlestick", 
+                "language": "en", 
+                "term": "/c/en/candlestick"
+            }, 
+            "surfaceText": "*Something you find on [[the table]] is [[a candlestick]]", 
+            "weight": 1.0
+        }
+    ]
+}

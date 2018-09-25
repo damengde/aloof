@@ -1,0 +1,703 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/boat&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/ship_cargo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ship_cargo", 
+                "@type": "Node", 
+                "label": "ship cargo", 
+                "language": "en", 
+                "term": "/c/en/ship_cargo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mylky/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mylky"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/skimitar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/skimitar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mylky/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mylky"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/skimitar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/skimitar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[ship cargo]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/go_on_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_on_water", 
+                "@type": "Node", 
+                "label": "go on the water", 
+                "language": "en", 
+                "term": "/c/en/go_on_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tag/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tag"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/travhearn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/travhearn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[go on the water]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/bottom_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottom_out", 
+                "@type": "Node", 
+                "label": "bottom out", 
+                "language": "en", 
+                "term": "/c/en/bottom_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rielly/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rielly"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[bottom out]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/bottom_out_in_shallow_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottom_out_in_shallow_water", 
+                "@type": "Node", 
+                "label": "bottom out in shallow water", 
+                "language": "en", 
+                "term": "/c/en/bottom_out_in_shallow_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[bottom out in shallow water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/bottom_out_on_sand_bar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottom_out_on_sand_bar", 
+                "@type": "Node", 
+                "label": "bottom out on a sand bar", 
+                "language": "en", 
+                "term": "/c/en/bottom_out_on_sand_bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[bottom out on a sand bar]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/bus_refugees/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bus_refugees", 
+                "@type": "Node", 
+                "label": "bus refugees", 
+                "language": "en", 
+                "term": "/c/en/bus_refugees"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pressedhammus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pressedhammus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[bus refugees]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/cross_river/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cross_river", 
+                "@type": "Node", 
+                "label": "cross a river", 
+                "language": "en", 
+                "term": "/c/en/cross_river"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[cross a river]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/get_to_floating_football/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_to_floating_football", 
+                "@type": "Node", 
+                "label": "get to a floating football", 
+                "language": "en", 
+                "term": "/c/en/get_to_floating_football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/capitolj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/capitolj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[get to a floating football]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/go_sailing_on_lake/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_sailing_on_lake", 
+                "@type": "Node", 
+                "label": "go sailing on a lake", 
+                "language": "en", 
+                "term": "/c/en/go_sailing_on_lake"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[go sailing on a lake]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/list_to_one_side/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/list_to_one_side", 
+                "@type": "Node", 
+                "label": "list to one side", 
+                "language": "en", 
+                "term": "/c/en/list_to_one_side"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/awp2222/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/awp2222"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[list to one side]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/neaped_at_high_tide/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/neaped_at_high_tide", 
+                "@type": "Node", 
+                "label": "be neaped at high tide", 
+                "language": "en", 
+                "term": "/c/en/neaped_at_high_tide"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[be neaped at high tide]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/near_dock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/near_dock", 
+                "@type": "Node", 
+                "label": "near the dock", 
+                "language": "en", 
+                "term": "/c/en/near_dock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[near the dock]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/sailing_against_wind/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailing_against_wind", 
+                "@type": "Node", 
+                "label": "be sailing against the wind", 
+                "language": "en", 
+                "term": "/c/en/sailing_against_wind"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dreyfusj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dreyfusj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[be sailing against the wind]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/sail_on_pond/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sail_on_pond", 
+                "@type": "Node", 
+                "label": "sail on a pond", 
+                "language": "en", 
+                "term": "/c/en/sail_on_pond"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[sail on a pond]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/sail_through_sea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sail_through_sea", 
+                "@type": "Node", 
+                "label": "sail through the sea", 
+                "language": "en", 
+                "term": "/c/en/sail_through_sea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[sail through the sea]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/settle_lower/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/settle_lower", 
+                "@type": "Node", 
+                "label": "settle lower", 
+                "language": "en", 
+                "term": "/c/en/settle_lower"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[settle lower]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/swim_on_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/swim_on_water", 
+                "@type": "Node", 
+                "label": "swim on water", 
+                "language": "en", 
+                "term": "/c/en/swim_on_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hagbardcel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hagbardcel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[swim on water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/take_to_island/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/take_to_island", 
+                "@type": "Node", 
+                "label": "take you to an island", 
+                "language": "en", 
+                "term": "/c/en/take_to_island"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] can [[take you to an island]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/boat/,/c/en/weather_storm_on_sea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/weather_storm_on_sea", 
+                "@type": "Node", 
+                "label": "weather a storm on the sea", 
+                "language": "en", 
+                "term": "/c/en/weather_storm_on_sea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "A boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[A boat]] can [[weather a storm on the sea]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,322 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bed&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mattress/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/rainbowjar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/rainbowjar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_1227689298/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/20q_1227689298"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/alexbevilacqua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/alexbevilacqua"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ianozsvald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ianozsvald"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/swordfishdata"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mattress", 
+                "@type": "Node", 
+                "label": "a mattress ", 
+                "language": "en", 
+                "term": "/c/en/mattress"
+            }, 
+            "surfaceText": "[[a mattress ]] is part of [[a bed]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bed/n/,/c/en/bedroom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bedroom/n", 
+                "@type": "Node", 
+                "label": "bedroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[bed]] is a part of [[bedroom]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bed/n/,/c/en/press/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/press/n", 
+                "@type": "Node", 
+                "label": "press", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/press"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[bed]] is a part of [[press]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bedstead/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bedstead/n", 
+                "@type": "Node", 
+                "label": "bedstead", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedstead"
+            }, 
+            "surfaceText": "[[bedstead]] is a part of [[bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mattress/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mattress/n", 
+                "@type": "Node", 
+                "label": "mattress", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mattress"
+            }, 
+            "surfaceText": "[[mattress]] is a part of [[bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bed/,/c/en/household_posessions/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/household_posessions", 
+                "@type": "Node", 
+                "label": "someone's household posessions", 
+                "language": "en", 
+                "term": "/c/en/household_posessions"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/antacidtablets/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/antacidtablets"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "A bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[A bed]] is part of [[someone's household posessions]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/frame/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frame", 
+                "@type": "Node", 
+                "label": "A frame", 
+                "language": "en", 
+                "term": "/c/en/frame"
+            }, 
+            "surfaceText": "[[A frame]] is part of [[a bed]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/headboard/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/headboard", 
+                "@type": "Node", 
+                "label": "A headboard", 
+                "language": "en", 
+                "term": "/c/en/headboard"
+            }, 
+            "surfaceText": "[[A headboard]] is part of [[a bed]]", 
+            "weight": 1.0
+        }
+    ]
+}

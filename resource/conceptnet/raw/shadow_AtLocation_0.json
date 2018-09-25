@@ -1,0 +1,353 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shadow&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/ground/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ground", 
+                "@type": "Node", 
+                "label": "the ground", 
+                "language": "en", 
+                "term": "/c/en/ground"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zodiac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zodiac"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/endolith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/endolith"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/petersaj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/petersaj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "*Something you find on [[the ground]] is [[a shadow]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/bridge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bridge", 
+                "@type": "Node", 
+                "label": "a bridge", 
+                "language": "en", 
+                "term": "/c/en/bridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "*Something you find under [[a bridge]] is [[a shadow]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/bright_light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bright_light", 
+                "@type": "Node", 
+                "label": "bright light", 
+                "language": "en", 
+                "term": "/c/en/bright_light"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kimberly/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kimberly"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[bright light]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/day_attached_to/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/day_attached_to", 
+                "@type": "Node", 
+                "label": "the day, attached to you", 
+                "language": "en", 
+                "term": "/c/en/day_attached_to"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/estar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/estar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[the day, attached to you]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/daytime/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/daytime", 
+                "@type": "Node", 
+                "label": "daytime", 
+                "language": "en", 
+                "term": "/c/en/daytime"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[daytime]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/light", 
+                "@type": "Node", 
+                "label": "the light", 
+                "language": "en", 
+                "term": "/c/en/light"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gatohaus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gatohaus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[the light]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/moonlit_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/moonlit_room", 
+                "@type": "Node", 
+                "label": "a moonlit room", 
+                "language": "en", 
+                "term": "/c/en/moonlit_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[a moonlit room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/suface_of_moon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/suface_of_moon", 
+                "@type": "Node", 
+                "label": "the suface of the moon", 
+                "language": "en", 
+                "term": "/c/en/suface_of_moon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "*Something you find on [[the suface of the moon]] is [[a shadow]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shadow/,/c/en/sunshine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sunshine", 
+                "@type": "Node", 
+                "label": "the sunshine", 
+                "language": "en", 
+                "term": "/c/en/sunshine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/suzanne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/suzanne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shadow", 
+                "@type": "Node", 
+                "label": "a shadow", 
+                "language": "en", 
+                "term": "/c/en/shadow"
+            }, 
+            "surfaceText": "You are likely to find [[a shadow]] in [[the sunshine]]", 
+            "weight": 1.0
+        }
+    ]
+}

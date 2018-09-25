@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/poster&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/poster/,/c/en/bedroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedroom", 
+                "@type": "Node", 
+                "label": "a bedroom", 
+                "language": "en", 
+                "term": "/c/en/bedroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poster", 
+                "@type": "Node", 
+                "label": "a poster", 
+                "language": "en", 
+                "term": "/c/en/poster"
+            }, 
+            "surfaceText": "You are likely to find [[a poster]] in [[a bedroom]].", 
+            "weight": 1.0
+        }
+    ]
+}

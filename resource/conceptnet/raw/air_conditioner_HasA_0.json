@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_conditioner&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/most_cars/,/c/en/air_conditioner/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/most_cars", 
+                "@type": "Node", 
+                "label": "Most cars", 
+                "language": "en", 
+                "term": "/c/en/most_cars"
+            }, 
+            "surfaceText": "[[Most cars]] have [[an air conditioner]]", 
+            "weight": 1.0
+        }
+    ]
+}

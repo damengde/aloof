@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/alarm_clock&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/alarm_clock/,/c/en/go_on_night_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_on_night_table", 
+                "@type": "Node", 
+                "label": "go on a night table", 
+                "language": "en", 
+                "term": "/c/en/go_on_night_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cyates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cyates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock", 
+                "@type": "Node", 
+                "label": "Your alarm clock", 
+                "language": "en", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": "[[Your alarm clock]] can [[go on a night table]]", 
+            "weight": 1.0
+        }
+    ]
+}

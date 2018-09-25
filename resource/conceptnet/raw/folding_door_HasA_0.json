@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/folding_door&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/folding_door/,/c/en/hinges/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hinges", 
+                "@type": "Node", 
+                "label": "hinges", 
+                "language": "en", 
+                "term": "/c/en/hinges"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "a folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[a folding door]] has [[hinges]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/folding_door/,/c/en/many_hinges/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_hinges", 
+                "@type": "Node", 
+                "label": "many hinges", 
+                "language": "en", 
+                "term": "/c/en/many_hinges"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "a folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[a folding door]] contains [[many hinges]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/folding_door/,/c/en/several_rectangles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/several_rectangles", 
+                "@type": "Node", 
+                "label": "several rectangles", 
+                "language": "en", 
+                "term": "/c/en/several_rectangles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "a folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[a folding door]] contains [[several rectangles]]", 
+            "weight": 1.0
+        }
+    ]
+}

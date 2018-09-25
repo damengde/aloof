@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sweater&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/neckband/n/,/c/en/sweater/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sweater/n", 
+                "@type": "Node", 
+                "label": "sweater", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sweater"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/neckband/n", 
+                "@type": "Node", 
+                "label": "neckband", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/neckband"
+            }, 
+            "surfaceText": "[[neckband]] is a part of [[sweater]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/neckline/n/,/c/en/sweater/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sweater/n", 
+                "@type": "Node", 
+                "label": "sweater", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sweater"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/neckline/n", 
+                "@type": "Node", 
+                "label": "neckline", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/neckline"
+            }, 
+            "surfaceText": "[[neckline]] is a part of [[sweater]]", 
+            "weight": 2.0
+        }
+    ]
+}

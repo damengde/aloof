@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/breadbasket&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/breadbasket/n/,/c/en/basket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/basket/n", 
+                "@type": "Node", 
+                "label": "basket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/basket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/breadbasket/n", 
+                "@type": "Node", 
+                "label": "breadbasket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/breadbasket"
+            }, 
+            "surfaceText": "[[breadbasket]] is a type of [[basket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/breadbasket/n/,/c/en/region/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/region/n", 
+                "@type": "Node", 
+                "label": "region", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/region"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/breadbasket/n", 
+                "@type": "Node", 
+                "label": "breadbasket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/breadbasket"
+            }, 
+            "surfaceText": "[[breadbasket]] is a type of [[region]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rice_bowl/n/,/c/en/breadbasket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/breadbasket", 
+                "@type": "Node", 
+                "label": "breadbasket", 
+                "language": "en", 
+                "term": "/c/en/breadbasket"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rice_bowl/n", 
+                "@type": "Node", 
+                "label": "rice bowl", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rice_bowl"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

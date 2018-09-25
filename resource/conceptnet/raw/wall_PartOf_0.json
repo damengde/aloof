@@ -1,0 +1,570 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wall&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/perkl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/perkl"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/droberts45/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/droberts45"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/neqsus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/neqsus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "A wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[A wall]] is part of [[a house]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/arch/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arch/n", 
+                "@type": "Node", 
+                "label": "arch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/arch"
+            }, 
+            "surfaceText": "[[arch]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/capstone/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/capstone/n", 
+                "@type": "Node", 
+                "label": "capstone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/capstone"
+            }, 
+            "surfaceText": "[[capstone]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/course/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/course/n", 
+                "@type": "Node", 
+                "label": "course", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/course"
+            }, 
+            "surfaceText": "[[course]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/doorway/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": "[[doorway]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/header/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/header/n", 
+                "@type": "Node", 
+                "label": "header", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/header"
+            }, 
+            "surfaceText": "[[header]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/paneling/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paneling/n", 
+                "@type": "Node", 
+                "label": "paneling", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/paneling"
+            }, 
+            "surfaceText": "[[paneling]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pier/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pier/n", 
+                "@type": "Node", 
+                "label": "pier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pier"
+            }, 
+            "surfaceText": "[[pier]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wainscot/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wainscot/n", 
+                "@type": "Node", 
+                "label": "wainscot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wainscot"
+            }, 
+            "surfaceText": "[[wainscot]] is a part of [[wall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/,/c/en/structure/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/structure", 
+                "@type": "Node", 
+                "label": "a structure", 
+                "language": "en", 
+                "term": "/c/en/structure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/leisan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/leisan"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "A wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[A wall]] is part of [[a structure]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/n/,/c/en/building/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/building/n", 
+                "@type": "Node", 
+                "label": "building", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[wall]] is a part of [[building]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/n/,/c/en/cave/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cave/n", 
+                "@type": "Node", 
+                "label": "cave", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cave"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[wall]] is a part of [[cave]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/n/,/c/en/hallway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hallway/n", 
+                "@type": "Node", 
+                "label": "hallway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hallway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[wall]] is a part of [[hallway]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall/n/,/c/en/room/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/room/n", 
+                "@type": "Node", 
+                "label": "room", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[wall]] is a part of [[room]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wall_panel/n/,/c/en/wall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wall/n", 
+                "@type": "Node", 
+                "label": "wall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall_panel/n", 
+                "@type": "Node", 
+                "label": "wall panel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall_panel"
+            }, 
+            "surfaceText": "[[wall panel]] is a part of [[wall]]", 
+            "weight": 2.0
+        }
+    ]
+}

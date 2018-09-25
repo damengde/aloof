@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cd&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/digitally_encoded_music/,/c/en/cd/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "a CD", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/digitally_encoded_music", 
+                "@type": "Node", 
+                "label": "Digitally encoded music", 
+                "language": "en", 
+                "term": "/c/en/digitally_encoded_music"
+            }, 
+            "surfaceText": "[[Digitally encoded music]] is part of [[a CD]]", 
+            "weight": 1.0
+        }
+    ]
+}

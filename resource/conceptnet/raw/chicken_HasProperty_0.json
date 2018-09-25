@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chicken&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/chicken/,/c/en/tasty_when_fried_or_baked/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tasty_when_fried_or_baked", 
+                "@type": "Node", 
+                "label": "tasty when fried, or baked", 
+                "language": "en", 
+                "term": "/c/en/tasty_when_fried_or_baked"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "Chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "[[Chicken]] is [[tasty when fried, or baked]]", 
+            "weight": 1.0
+        }
+    ]
+}

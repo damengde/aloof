@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wall_hanging&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tapestry/,/c/en/wall_hanging/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wall_hanging", 
+                "@type": "Node", 
+                "label": "wall-hanging", 
+                "language": "en", 
+                "term": "/c/en/wall_hanging"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry", 
+                "@type": "Node", 
+                "label": "a tapestry", 
+                "language": "en", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[a tapestry]] is for [[wall-hanging]]", 
+            "weight": 1.0
+        }
+    ]
+}

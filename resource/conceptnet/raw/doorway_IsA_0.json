@@ -1,0 +1,437 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/doorway&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/n/,/c/en/entrance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/entrance/n", 
+                "@type": "Node", 
+                "label": "entrance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/entrance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": "[[doorway]] is a type of [[entrance]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/exterior_door/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/exterior_door/n", 
+                "@type": "Node", 
+                "label": "exterior door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/exterior_door"
+            }, 
+            "surfaceText": "[[exterior door]] is a type of [[doorway]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/balcony_doorway/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balcony_doorway/n", 
+                "@type": "Node", 
+                "label": "balcony doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/balcony_doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/,/c/en/entrance_or_exit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/entrance_or_exit", 
+                "@type": "Node", 
+                "label": "an entrance or exit", 
+                "language": "en", 
+                "term": "/c/en/entrance_or_exit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway", 
+                "@type": "Node", 
+                "label": "a doorway", 
+                "language": "en", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": "[[a doorway]] is [[an entrance or exit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/,/c/en/opening_to_another_area/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opening_to_another_area", 
+                "@type": "Node", 
+                "label": "a opening to another area", 
+                "language": "en", 
+                "term": "/c/en/opening_to_another_area"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway", 
+                "@type": "Node", 
+                "label": "A doorway", 
+                "language": "en", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": "[[A doorway]] is [[a opening to another area]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/n/,/c/en/indoor_space/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/indoor_space/n", 
+                "@type": "Node", 
+                "label": "indoor space", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/indoor_space"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/n/,/c/en/portal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/portal/n", 
+                "@type": "Node", 
+                "label": "portal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/portal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doorway/n/,/c/en/walled_cavity/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/walled_cavity/n", 
+                "@type": "Node", 
+                "label": "walled cavity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/walled_cavity"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/elevator_doorway/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/elevator_doorway/n", 
+                "@type": "Node", 
+                "label": "elevator doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/elevator_doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_upstairs/,/c/en/doorway/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/doorway", 
+                "@type": "Node", 
+                "label": "a doorway", 
+                "language": "en", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/awp2222/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/awp2222"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_upstairs", 
+                "@type": "Node", 
+                "label": "Something you find upstairs", 
+                "language": "en", 
+                "term": "/c/en/find_upstairs"
+            }, 
+            "surfaceText": "[[Something you find upstairs]] is [[a doorway]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/front_doorway_of_house/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/front_doorway_of_house/n", 
+                "@type": "Node", 
+                "label": "front doorway of house", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/front_doorway_of_house"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/garage_doorway/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garage_doorway/n", 
+                "@type": "Node", 
+                "label": "garage doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garage_doorway"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

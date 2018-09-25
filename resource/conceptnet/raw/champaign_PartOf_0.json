@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/champaign&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/champaign/n/,/c/en/illinois/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/illinois/n", 
+                "@type": "Node", 
+                "label": "Illinois", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/illinois"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/champaign/n", 
+                "@type": "Node", 
+                "label": "Champaign", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/champaign"
+            }, 
+            "surfaceText": "[[Champaign]] is a part of [[Illinois]]", 
+            "weight": 2.0
+        }
+    ]
+}

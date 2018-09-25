@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/football&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/referee/,/c/en/football/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/stevede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/stevede"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/referee", 
+                "@type": "Node", 
+                "label": "a referee", 
+                "language": "en", 
+                "term": "/c/en/referee"
+            }, 
+            "surfaceText": "*Something you find in [[football]] is [[a referee]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/football/,/c/en/roof/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/roof", 
+                "@type": "Node", 
+                "label": "the roof", 
+                "language": "en", 
+                "term": "/c/en/roof"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gryftir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gryftir"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "a football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "surfaceText": "*Something you find on [[the roof]] is [[a football]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/football/,/c/en/sporting_goods_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sporting_goods_store", 
+                "@type": "Node", 
+                "label": "a sporting goods store", 
+                "language": "en", 
+                "term": "/c/en/sporting_goods_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "a football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "surfaceText": "*Something you find in [[a sporting goods store]] is [[a football]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/safety/,/c/en/football/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chuddy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chuddy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/safety", 
+                "@type": "Node", 
+                "label": "a safety", 
+                "language": "en", 
+                "term": "/c/en/safety"
+            }, 
+            "surfaceText": "You are likely to find [[a safety]] in [[football]]", 
+            "weight": 1.0
+        }
+    ]
+}

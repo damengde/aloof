@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/desk&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/drawer/n/,/c/en/desk/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/desk/n", 
+                "@type": "Node", 
+                "label": "desk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/desk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drawer/n", 
+                "@type": "Node", 
+                "label": "drawer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drawer"
+            }, 
+            "surfaceText": "[[drawer]] is a part of [[desk]]", 
+            "weight": 2.0
+        }
+    ]
+}

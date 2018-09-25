@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/frame&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/frame/,/c/en/set_off_picture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/set_off_picture", 
+                "@type": "Node", 
+                "label": "set off a picture", 
+                "language": "en", 
+                "term": "/c/en/set_off_picture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frame", 
+                "@type": "Node", 
+                "label": "A frame", 
+                "language": "en", 
+                "term": "/c/en/frame"
+            }, 
+            "surfaceText": "[[A frame]] is used to [[set off a picture]]", 
+            "weight": 1.0
+        }
+    ]
+}

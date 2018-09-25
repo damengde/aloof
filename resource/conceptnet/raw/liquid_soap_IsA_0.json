@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/liquid_soap&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/liquid_soap/n/,/c/en/soap/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soap/n", 
+                "@type": "Node", 
+                "label": "soap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soap"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/liquid_soap/n", 
+                "@type": "Node", 
+                "label": "liquid soap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/liquid_soap"
+            }, 
+            "surfaceText": "[[liquid soap]] is a type of [[soap]]", 
+            "weight": 2.0
+        }
+    ]
+}

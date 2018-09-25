@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/photo_album&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/photo_album/,/c/en/relatives_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/relatives_house", 
+                "@type": "Node", 
+                "label": "a relatives house", 
+                "language": "en", 
+                "term": "/c/en/relatives_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/debbie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/debbie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo_album", 
+                "@type": "Node", 
+                "label": "photo album", 
+                "language": "en", 
+                "term": "/c/en/photo_album"
+            }, 
+            "surfaceText": "*Something you find at [[a relatives house]] is [[photo album]]", 
+            "weight": 1.0
+        }
+    ]
+}

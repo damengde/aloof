@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/camera&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/camera/,/c/en/picture_scene/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/picture_scene", 
+                "@type": "Node", 
+                "label": "picture that scene", 
+                "language": "en", 
+                "term": "/c/en/picture_scene"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/denni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/denni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/camera", 
+                "@type": "Node", 
+                "label": "A camera", 
+                "language": "en", 
+                "term": "/c/en/camera"
+            }, 
+            "surfaceText": "[[A camera]] can [[picture that scene]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/camera/,/c/en/picture_tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/picture_tree", 
+                "@type": "Node", 
+                "label": "picture a tree", 
+                "language": "en", 
+                "term": "/c/en/picture_tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schueler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schueler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/camera", 
+                "@type": "Node", 
+                "label": "A camera", 
+                "language": "en", 
+                "term": "/c/en/camera"
+            }, 
+            "surfaceText": "[[A camera]] can [[picture a tree]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/camera/,/c/en/record_scene/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/record_scene", 
+                "@type": "Node", 
+                "label": "record a scene", 
+                "language": "en", 
+                "term": "/c/en/record_scene"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davcamer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davcamer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/camera", 
+                "@type": "Node", 
+                "label": "A camera", 
+                "language": "en", 
+                "term": "/c/en/camera"
+            }, 
+            "surfaceText": "[[A camera]] can [[record a scene]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/camera/,/c/en/view_things_remotely/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/view_things_remotely", 
+                "@type": "Node", 
+                "label": "view things remotely", 
+                "language": "en", 
+                "term": "/c/en/view_things_remotely"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/camera", 
+                "@type": "Node", 
+                "label": "a camera", 
+                "language": "en", 
+                "term": "/c/en/camera"
+            }, 
+            "surfaceText": "[[a camera]] can [[view things remotely]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,622 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/window&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/,/c/en/building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building", 
+                "@type": "Node", 
+                "label": "a building", 
+                "language": "en", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daemon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/daemon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/geekchick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/geekchick"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/telarian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/telarian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window", 
+                "@type": "Node", 
+                "label": "A window", 
+                "language": "en", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[A window]] is part of [[a building]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/glass/,/c/en/window/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/window", 
+                "@type": "Node", 
+                "label": "a window", 
+                "language": "en", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lemony/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lemony"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass", 
+                "@type": "Node", 
+                "label": "The glass", 
+                "language": "en", 
+                "term": "/c/en/glass"
+            }, 
+            "surfaceText": "[[The glass]] is part of [[a window]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/casing/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/casing/n", 
+                "@type": "Node", 
+                "label": "casing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/casing"
+            }, 
+            "surfaceText": "[[casing]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mullion/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mullion/n", 
+                "@type": "Node", 
+                "label": "mullion", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mullion"
+            }, 
+            "surfaceText": "[[mullion]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pane/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane/n", 
+                "@type": "Node", 
+                "label": "pane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[pane]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sash_fastener/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sash_fastener/n", 
+                "@type": "Node", 
+                "label": "sash fastener", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sash_fastener"
+            }, 
+            "surfaceText": "[[sash fastener]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sash/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sash/n", 
+                "@type": "Node", 
+                "label": "sash", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sash"
+            }, 
+            "surfaceText": "[[sash]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window_frame/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window_frame/n", 
+                "@type": "Node", 
+                "label": "window frame", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_frame"
+            }, 
+            "surfaceText": "[[window frame]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/n/,/c/en/building/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/building/n", 
+                "@type": "Node", 
+                "label": "building", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[window]] is a part of [[building]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/n/,/c/en/bus/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bus/n", 
+                "@type": "Node", 
+                "label": "bus", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[window]] is a part of [[bus]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/n/,/c/en/car/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/car/n", 
+                "@type": "Node", 
+                "label": "car", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[window]] is a part of [[car]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/n/,/c/en/computer_screen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/computer_screen/n", 
+                "@type": "Node", 
+                "label": "computer screen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/computer_screen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[window]] is a part of [[computer screen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/window/n/,/c/en/window_envelope/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window_envelope/n", 
+                "@type": "Node", 
+                "label": "window envelope", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_envelope"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "surfaceText": "[[window]] is a part of [[window envelope]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/windowpane/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/windowpane/n", 
+                "@type": "Node", 
+                "label": "windowpane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/windowpane"
+            }, 
+            "surfaceText": "[[windowpane]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/frame/,/c/en/window/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/window", 
+                "@type": "Node", 
+                "label": "a window", 
+                "language": "en", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frame", 
+                "@type": "Node", 
+                "label": "The frame", 
+                "language": "en", 
+                "term": "/c/en/frame"
+            }, 
+            "surfaceText": "[[The frame]] is part of [[a window]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pane/,/c/en/window/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/window", 
+                "@type": "Node", 
+                "label": "a window", 
+                "language": "en", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane", 
+                "@type": "Node", 
+                "label": "a pane", 
+                "language": "en", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[a pane]] is part of [[a window]]", 
+            "weight": 1.0
+        }
+    ]
+}

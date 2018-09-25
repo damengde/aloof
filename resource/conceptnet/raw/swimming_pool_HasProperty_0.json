@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/swimming_pool&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/swimming_pool/,/c/en/one_kind_of_pool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_kind_of_pool", 
+                "@type": "Node", 
+                "label": "one kind of pool", 
+                "language": "en", 
+                "term": "/c/en/one_kind_of_pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool", 
+                "@type": "Node", 
+                "label": "a swimming pool", 
+                "language": "en", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[a swimming pool]] is [[one kind of pool]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pan&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/panhandle/n/,/c/en/pan/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pan/n", 
+                "@type": "Node", 
+                "label": "pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/panhandle/n", 
+                "@type": "Node", 
+                "label": "panhandle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/panhandle"
+            }, 
+            "surfaceText": "[[panhandle]] is a part of [[pan]]", 
+            "weight": 2.0
+        }
+    ]
+}

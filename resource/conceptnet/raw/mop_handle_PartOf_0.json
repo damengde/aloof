@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mop_handle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mop_handle/n/,/c/en/swab/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/swab/n", 
+                "@type": "Node", 
+                "label": "swab", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swab"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mop_handle/n", 
+                "@type": "Node", 
+                "label": "mop handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mop_handle"
+            }, 
+            "surfaceText": "[[mop handle]] is a part of [[swab]]", 
+            "weight": 2.0
+        }
+    ]
+}

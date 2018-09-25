@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/heather&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/heather/n/,/c/en/heath/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heath/n", 
+                "@type": "Node", 
+                "label": "heath", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heath"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heather/n", 
+                "@type": "Node", 
+                "label": "heather", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heather"
+            }, 
+            "surfaceText": "[[heather]] is a type of [[heath]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/heather/,/c/en/north_sea_oilfield/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/north_sea_oilfield", 
+                "@type": "Node", 
+                "label": "a North Sea oilfield", 
+                "language": "en", 
+                "term": "/c/en/north_sea_oilfield"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heather", 
+                "@type": "Node", 
+                "label": "Heather", 
+                "language": "en", 
+                "term": "/c/en/heather"
+            }, 
+            "surfaceText": "[[Heather]] is [[a North Sea oilfield]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/heather/n/,/c/en/plant_kingdom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/plant_kingdom/n", 
+                "@type": "Node", 
+                "label": "plant kingdom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant_kingdom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heather/n", 
+                "@type": "Node", 
+                "label": "heather", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heather"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

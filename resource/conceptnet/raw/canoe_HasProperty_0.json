@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/canoe&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/canoe/,/c/en/long_and_skinny/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_and_skinny", 
+                "@type": "Node", 
+                "label": "long and skinny", 
+                "language": "en", 
+                "term": "/c/en/long_and_skinny"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bc"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canoe", 
+                "@type": "Node", 
+                "label": "a canoe", 
+                "language": "en", 
+                "term": "/c/en/canoe"
+            }, 
+            "surfaceText": "[[a canoe]] is [[long and skinny]]", 
+            "weight": 1.0
+        }
+    ]
+}

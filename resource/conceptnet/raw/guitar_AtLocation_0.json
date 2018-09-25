@@ -1,0 +1,388 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/guitar&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/band/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/band", 
+                "@type": "Node", 
+                "label": "a band", 
+                "language": "en", 
+                "term": "/c/en/band"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/caslin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/caslin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dstarisbeastin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dstarisbeastin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/swordfishdata"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a band]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/concert/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/concert", 
+                "@type": "Node", 
+                "label": "a concert", 
+                "language": "en", 
+                "term": "/c/en/concert"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/caparks/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/caparks"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "*Something you find at [[a concert]] is [[a guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/music_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music_room", 
+                "@type": "Node", 
+                "label": "a music room", 
+                "language": "en", 
+                "term": "/c/en/music_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/seamas/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/seamas"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mattw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mattw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a music room]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/string/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jchajet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jchajet"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/string", 
+                "@type": "Node", 
+                "label": "a string", 
+                "language": "en", 
+                "term": "/c/en/string"
+            }, 
+            "surfaceText": "You are likely to find [[a string]] in [[a guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/case/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/case", 
+                "@type": "Node", 
+                "label": "a case", 
+                "language": "en", 
+                "term": "/c/en/case"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a case]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/guitaroo_man/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guitaroo_man", 
+                "@type": "Node", 
+                "label": "Guitaroo Man", 
+                "language": "en", 
+                "term": "/c/en/guitaroo_man"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/twinge/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/twinge"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[Guitaroo Man]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/rock_band/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rock_band", 
+                "@type": "Node", 
+                "label": "a rock band", 
+                "language": "en", 
+                "term": "/c/en/rock_band"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a rock band]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/guitar/,/c/en/toy_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy_store", 
+                "@type": "Node", 
+                "label": "a toy store", 
+                "language": "en", 
+                "term": "/c/en/toy_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "You are likely to find [[a guitar]] in [[a toy store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/strings/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/strings", 
+                "@type": "Node", 
+                "label": "strings", 
+                "language": "en", 
+                "term": "/c/en/strings"
+            }, 
+            "surfaceText": "*Something you find on [[a guitar]] is [[strings]]", 
+            "weight": 1.0
+        }
+    ]
+}

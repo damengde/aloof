@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/couch&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/couch/,/c/en/black/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/black", 
+                "@type": "Node", 
+                "label": "black", 
+                "language": "en", 
+                "term": "/c/en/black"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "That couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[That couch]] is [[black]]", 
+            "weight": 1.0
+        }
+    ]
+}

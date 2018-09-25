@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hand_towel&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hand_towel/n/,/c/en/towel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/towel/n", 
+                "@type": "Node", 
+                "label": "towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/towel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hand_towel/n", 
+                "@type": "Node", 
+                "label": "hand towel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hand_towel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

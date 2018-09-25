@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/apple&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[apple]] is a part of [[apple]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stem/,/c/en/apple/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "an apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stem", 
+                "@type": "Node", 
+                "label": "The stem", 
+                "language": "en", 
+                "term": "/c/en/stem"
+            }, 
+            "surfaceText": "[[The stem]] is part of [[an apple]]", 
+            "weight": 1.0
+        }
+    ]
+}

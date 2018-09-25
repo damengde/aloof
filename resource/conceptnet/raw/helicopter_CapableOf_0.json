@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helicopter&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/helicopter/,/c/en/land_on_roof/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/land_on_roof", 
+                "@type": "Node", 
+                "label": "land on a roof", 
+                "language": "en", 
+                "term": "/c/en/land_on_roof"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "A helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[A helicopter]] can [[land on a roof]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/helicopter/,/c/en/transport_injured_persons_to_hospital/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport_injured_persons_to_hospital", 
+                "@type": "Node", 
+                "label": "transport injured persons to a hospital", 
+                "language": "en", 
+                "term": "/c/en/transport_injured_persons_to_hospital"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "A helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[A helicopter]] can [[transport injured persons to a hospital]]", 
+            "weight": 1.0
+        }
+    ]
+}

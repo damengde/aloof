@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spray&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spray/,/c/en/waterfall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/waterfall", 
+                "@type": "Node", 
+                "label": "a waterfall", 
+                "language": "en", 
+                "term": "/c/en/waterfall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thejll/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/thejll"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spray", 
+                "@type": "Node", 
+                "label": "spray", 
+                "language": "en", 
+                "term": "/c/en/spray"
+            }, 
+            "surfaceText": "*Something you find at [[a waterfall]] is [[spray]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/deodorant/,/c/en/spray/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spray", 
+                "@type": "Node", 
+                "label": "a spray", 
+                "language": "en", 
+                "term": "/c/en/spray"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deodorant", 
+                "@type": "Node", 
+                "label": "a deodorant", 
+                "language": "en", 
+                "term": "/c/en/deodorant"
+            }, 
+            "surfaceText": "You are likely to find [[a deodorant]] in [[a spray]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water/,/c/en/spray/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spray", 
+                "@type": "Node", 
+                "label": "a spray", 
+                "language": "en", 
+                "term": "/c/en/spray"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matrix29/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matrix29"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "surfaceText": "You are likely to find [[water]] in [[a spray]]", 
+            "weight": 1.0
+        }
+    ]
+}

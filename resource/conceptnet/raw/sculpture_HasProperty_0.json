@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sculpture&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/sculpture/,/c/en/three_dimensional/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/three_dimensional", 
+                "@type": "Node", 
+                "label": "three-dimensional", 
+                "language": "en", 
+                "term": "/c/en/three_dimensional"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sculpture", 
+                "@type": "Node", 
+                "label": "a sculpture", 
+                "language": "en", 
+                "term": "/c/en/sculpture"
+            }, 
+            "surfaceText": "[[a sculpture]] is [[three-dimensional]]", 
+            "weight": 1.0
+        }
+    ]
+}

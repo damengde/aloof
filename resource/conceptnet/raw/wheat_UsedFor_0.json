@@ -1,0 +1,633 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheat&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/make_flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_flour", 
+                "@type": "Node", 
+                "label": "make flour", 
+                "language": "en", 
+                "term": "/c/en/make_flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/borris"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] is used to [[make flour]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flour", 
+                "@type": "Node", 
+                "label": "flour", 
+                "language": "en", 
+                "term": "/c/en/flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jdkcubed/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jdkcubed"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[flour]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/making_flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_flour", 
+                "@type": "Node", 
+                "label": "making flour", 
+                "language": "en", 
+                "term": "/c/en/making_flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[making flour]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/baking_bread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/baking_bread", 
+                "@type": "Node", 
+                "label": "baking bread", 
+                "language": "en", 
+                "term": "/c/en/baking_bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[baking bread]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/cake/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[cake]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/do_crafts/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/do_crafts", 
+                "@type": "Node", 
+                "label": "do crafts", 
+                "language": "en", 
+                "term": "/c/en/do_crafts"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You can use [[wheat]] to [[do crafts]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/eating/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eating", 
+                "@type": "Node", 
+                "label": "eating", 
+                "language": "en", 
+                "term": "/c/en/eating"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[eating]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/feeding_hungry_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/feeding_hungry_people", 
+                "@type": "Node", 
+                "label": "feeding hungry people", 
+                "language": "en", 
+                "term": "/c/en/feeding_hungry_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[feeding hungry people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/superless2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/superless2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/food_product/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food_product", 
+                "@type": "Node", 
+                "label": "food product", 
+                "language": "en", 
+                "term": "/c/en/food_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[food product]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/grinding_into_flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grinding_into_flour", 
+                "@type": "Node", 
+                "label": "grinding into flour", 
+                "language": "en", 
+                "term": "/c/en/grinding_into_flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[grinding into flour]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/growing_in_field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/growing_in_field", 
+                "@type": "Node", 
+                "label": "growing in a field", 
+                "language": "en", 
+                "term": "/c/en/growing_in_field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[growing in a field]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/growing_on_farm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/growing_on_farm", 
+                "@type": "Node", 
+                "label": "growing on a farm", 
+                "language": "en", 
+                "term": "/c/en/growing_on_farm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[growing on a farm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/harvesting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/harvesting", 
+                "@type": "Node", 
+                "label": "harvesting", 
+                "language": "en", 
+                "term": "/c/en/harvesting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[harvesting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/make_carbohydrate_based_foods/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_carbohydrate_based_foods", 
+                "@type": "Node", 
+                "label": "make carbohydrate based foods", 
+                "language": "en", 
+                "term": "/c/en/make_carbohydrate_based_foods"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/captainminus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/captainminus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] can be used to [[make carbohydrate based foods]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/making_cereal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_cereal", 
+                "@type": "Node", 
+                "label": "making cereal", 
+                "language": "en", 
+                "term": "/c/en/making_cereal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is for [[making cereal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheat/,/c/en/making_wheat_flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_wheat_flour", 
+                "@type": "Node", 
+                "label": "making wheat flour", 
+                "language": "en", 
+                "term": "/c/en/making_wheat_flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bhunt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is used for [[making wheat flour]]", 
+            "weight": 1.0
+        }
+    ]
+}

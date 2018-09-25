@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ladder&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/ladder/,/c/en/many_rungs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_rungs", 
+                "@type": "Node", 
+                "label": "many rungs", 
+                "language": "en", 
+                "term": "/c/en/many_rungs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ladder", 
+                "@type": "Node", 
+                "label": "A ladder", 
+                "language": "en", 
+                "term": "/c/en/ladder"
+            }, 
+            "surfaceText": "[[A ladder]] has [[many rungs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/ladder/,/c/en/rungs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rungs", 
+                "@type": "Node", 
+                "label": "rungs", 
+                "language": "en", 
+                "term": "/c/en/rungs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kenmkuhl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kenmkuhl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ladder", 
+                "@type": "Node", 
+                "label": "a ladder", 
+                "language": "en", 
+                "term": "/c/en/ladder"
+            }, 
+            "surfaceText": "[[a ladder]] has [[rungs]]", 
+            "weight": 1.0
+        }
+    ]
+}

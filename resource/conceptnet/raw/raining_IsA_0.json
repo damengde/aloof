@@ -1,0 +1,294 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/raining&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/raining/,/c/en/one_type_of_weather/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_type_of_weather", 
+                "@type": "Node", 
+                "label": "one type of weather", 
+                "language": "en", 
+                "term": "/c/en/one_type_of_weather"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dlf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dlf"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarahstyles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sarahstyles"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "Raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "surfaceText": "[[Raining]] is [[one type of weather]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/can_see/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/asteriskman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/asteriskman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/can_see", 
+                "@type": "Node", 
+                "label": "i can see that it", 
+                "language": "en", 
+                "term": "/c/en/can_see"
+            }, 
+            "surfaceText": "[[i can see that it]] is [[raining]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/if_rain_falling_then/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/if_rain_falling_then", 
+                "@type": "Node", 
+                "label": "if rain is falling then it", 
+                "language": "en", 
+                "term": "/c/en/if_rain_falling_then"
+            }, 
+            "surfaceText": "[[if rain is falling then it]] is [[raining]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/people_use_umbrellas_when/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yogsoggoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/yogsoggoth"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/people_use_umbrellas_when", 
+                "@type": "Node", 
+                "label": "people use umbrellas when it", 
+                "language": "en", 
+                "term": "/c/en/people_use_umbrellas_when"
+            }, 
+            "surfaceText": "[[people use umbrellas when it]] is [[raining]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/raining/,/c/en/release_water_from_sky/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/release_water_from_sky", 
+                "@type": "Node", 
+                "label": "to release water from the sky", 
+                "language": "en", 
+                "term": "/c/en/release_water_from_sky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/underwood/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/underwood"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "surfaceText": "[[raining]] is [[to release water from the sky]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/raining/,/c/en/state_of_weather/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/state_of_weather", 
+                "@type": "Node", 
+                "label": "a state of weather", 
+                "language": "en", 
+                "term": "/c/en/state_of_weather"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/symmetrus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/symmetrus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "surfaceText": "[[raining]] is [[a state of weather]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrellas_keep_dry_when/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrellas_keep_dry_when", 
+                "@type": "Node", 
+                "label": "Umbrellas keep you dry when it", 
+                "language": "en", 
+                "term": "/c/en/umbrellas_keep_dry_when"
+            }, 
+            "surfaceText": "[[Umbrellas keep you dry when it]] is [[raining]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/use_umbrella_if/,/c/en/raining/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/raining", 
+                "@type": "Node", 
+                "label": "raining", 
+                "language": "en", 
+                "term": "/c/en/raining"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/use_umbrella_if", 
+                "@type": "Node", 
+                "label": "use an umbrella if it", 
+                "language": "en", 
+                "term": "/c/en/use_umbrella_if"
+            }, 
+            "surfaceText": "[[use an umbrella if it]] is [[raining]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tap_wrench&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tap_wrench/n/,/c/en/wrench/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wrench/n", 
+                "@type": "Node", 
+                "label": "wrench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wrench"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tap_wrench/n", 
+                "@type": "Node", 
+                "label": "tap wrench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tap_wrench"
+            }, 
+            "surfaceText": "[[tap wrench]] is a type of [[wrench]]", 
+            "weight": 2.0
+        }
+    ]
+}

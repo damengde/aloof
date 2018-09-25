@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/star&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/star/,/c/en/galaxy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/galaxy", 
+                "@type": "Node", 
+                "label": "a galaxy", 
+                "language": "en", 
+                "term": "/c/en/galaxy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/elptr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/elptr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "a star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[a star]] is part of [[a galaxy]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/star/,/c/en/constellation/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/constellation", 
+                "@type": "Node", 
+                "label": "a constellation", 
+                "language": "en", 
+                "term": "/c/en/constellation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "A star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[A star]] is part of [[a constellation]]", 
+            "weight": 1.0
+        }
+    ]
+}

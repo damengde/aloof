@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chessboard&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chessboard/n/,/c/en/chess_set/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chess_set/n", 
+                "@type": "Node", 
+                "label": "chess set", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chess_set"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chessboard/n", 
+                "@type": "Node", 
+                "label": "chessboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chessboard"
+            }, 
+            "surfaceText": "[[chessboard]] is a part of [[chess set]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chessboard/,/c/en/chess/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/chess/n", 
+                "@type": "Node", 
+                "label": "chess", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chess"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chessboard", 
+                "@type": "Node", 
+                "label": "chessboard", 
+                "language": "en", 
+                "term": "/c/en/chessboard"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

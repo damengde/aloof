@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ring&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/canvas/n/,/c/en/ring/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ring/n", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canvas/n", 
+                "@type": "Node", 
+                "label": "canvas", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canvas"
+            }, 
+            "surfaceText": "[[canvas]] is a part of [[ring]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ring/,/c/en/algebra/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/algebra/n", 
+                "@type": "Node", 
+                "label": "algebra", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/algebra"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ring/n/,/c/en/south_park/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/south_park", 
+                "@type": "Node", 
+                "label": "south park", 
+                "language": "en", 
+                "term": "/c/en/south_park"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring/n", 
+                "@type": "Node", 
+                "label": "ring", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

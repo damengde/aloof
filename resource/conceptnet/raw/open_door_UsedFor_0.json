@@ -1,0 +1,143 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/open_door&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door_knobs/,/c/en/open_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/open_door", 
+                "@type": "Node", 
+                "label": "open a door", 
+                "language": "en", 
+                "term": "/c/en/open_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/msteede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/msteede"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pastymage/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pastymage"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shallowford/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shallowford"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door_knobs", 
+                "@type": "Node", 
+                "label": "Door knobs", 
+                "language": "en", 
+                "term": "/c/en/door_knobs"
+            }, 
+            "surfaceText": "[[Door knobs]] are used to [[open a door]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/key/,/c/en/open_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/open_door", 
+                "@type": "Node", 
+                "label": "open a door", 
+                "language": "en", 
+                "term": "/c/en/open_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/berkerbatur/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/berkerbatur"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gisele/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gisele"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/key", 
+                "@type": "Node", 
+                "label": "key", 
+                "language": "en", 
+                "term": "/c/en/key"
+            }, 
+            "surfaceText": "*When you want to [[open a door]], you will use [[key]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/handle/,/c/en/open_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/open_door", 
+                "@type": "Node", 
+                "label": "open a door", 
+                "language": "en", 
+                "term": "/c/en/open_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/norman314/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/norman314"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "a handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "You can use [[a handle]] to [[open a door]]", 
+            "weight": 2.0
+        }
+    ]
+}

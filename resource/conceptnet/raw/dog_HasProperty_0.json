@@ -1,0 +1,446 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dog&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/fun/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fun", 
+                "@type": "Node", 
+                "label": "fun", 
+                "language": "en", 
+                "term": "/c/en/fun"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/commonsense/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/commonsense"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarasood/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sarasood"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "my dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[my dog]] is [[fun]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/black/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/black", 
+                "@type": "Node", 
+                "label": "black", 
+                "language": "en", 
+                "term": "/c/en/black"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/feder/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/feder"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slux/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/slux"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] can be [[black]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/alive/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/alive", 
+                "@type": "Node", 
+                "label": "alive", 
+                "language": "en", 
+                "term": "/c/en/alive"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] is [[alive]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/brown/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/brown", 
+                "@type": "Node", 
+                "label": "brown", 
+                "language": "en", 
+                "term": "/c/en/brown"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "The dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[The dog]] is [[brown]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/gray/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gray", 
+                "@type": "Node", 
+                "label": "gray", 
+                "language": "en", 
+                "term": "/c/en/gray"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dce23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dce23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] can be [[gray]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/larger_than_cat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/larger_than_cat", 
+                "@type": "Node", 
+                "label": "larger than a cat", 
+                "language": "en", 
+                "term": "/c/en/larger_than_cat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] is generally [[larger than a cat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/mean/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mean", 
+                "@type": "Node", 
+                "label": "mean", 
+                "language": "en", 
+                "term": "/c/en/mean"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sterlingkara/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sterlingkara"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "The dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[The dog]] is [[mean]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/one_among_many_animals/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_among_many_animals", 
+                "@type": "Node", 
+                "label": "one among many animals", 
+                "language": "en", 
+                "term": "/c/en/one_among_many_animals"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/acruise/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/acruise"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] is [[one among many animals]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/playing_dead/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/playing_dead", 
+                "@type": "Node", 
+                "label": "playing dead", 
+                "language": "en", 
+                "term": "/c/en/playing_dead"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] can be [[playing dead]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/running_in_dream/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/running_in_dream", 
+                "@type": "Node", 
+                "label": "running in a dream", 
+                "language": "en", 
+                "term": "/c/en/running_in_dream"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leobaby/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leobaby"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] can be [[running in a dream]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/very_common_pet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_common_pet", 
+                "@type": "Node", 
+                "label": "very common pet", 
+                "language": "en", 
+                "term": "/c/en/very_common_pet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ttt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ttt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] is [[very common pet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dog/,/c/en/worth_much_more_than_dime/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/worth_much_more_than_dime", 
+                "@type": "Node", 
+                "label": "worth much more than a dime", 
+                "language": "en", 
+                "term": "/c/en/worth_much_more_than_dime"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dejahbleu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dejahbleu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "A dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[A dog]] is [[worth much more than a dime]]", 
+            "weight": 1.0
+        }
+    ]
+}

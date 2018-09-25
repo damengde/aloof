@@ -1,0 +1,423 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fire_extinguisher&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/putting_out_fires/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/putting_out_fires", 
+                "@type": "Node", 
+                "label": "putting out fires", 
+                "language": "en", 
+                "term": "/c/en/putting_out_fires"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/litllenick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/litllenick"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/litllenick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/litllenick"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sai/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sai"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[putting out fires]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/extinguishing_fires/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/extinguishing_fires", 
+                "@type": "Node", 
+                "label": "extinguishing fires", 
+                "language": "en", 
+                "term": "/c/en/extinguishing_fires"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[extinguishing fires]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/extinguish_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/extinguish_fire", 
+                "@type": "Node", 
+                "label": "extinguish a fire", 
+                "language": "en", 
+                "term": "/c/en/extinguish_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] can be used to [[extinguish a fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/hanging_on_wall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hanging_on_wall", 
+                "@type": "Node", 
+                "label": "hanging on the wall", 
+                "language": "en", 
+                "term": "/c/en/hanging_on_wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[hanging on the wall]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/keeping_at_hand_during_easter_bonfires/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_at_hand_during_easter_bonfires", 
+                "@type": "Node", 
+                "label": "keeping at hand during easter bonfires", 
+                "language": "en", 
+                "term": "/c/en/keeping_at_hand_during_easter_bonfires"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[keeping at hand during easter bonfires]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/prop_door_open/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/prop_door_open", 
+                "@type": "Node", 
+                "label": "prop a door open", 
+                "language": "en", 
+                "term": "/c/en/prop_door_open"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "You can use [[a fire extinguisher]] to [[prop a door open]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/propel_yourself_across_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/propel_yourself_across_room", 
+                "@type": "Node", 
+                "label": "propel yourself across the room", 
+                "language": "en", 
+                "term": "/c/en/propel_yourself_across_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thevieve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thevieve"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "You can use [[a fire extinguisher]] to [[propel yourself across the room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/put_out_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/put_out_fire", 
+                "@type": "Node", 
+                "label": "put out a fire", 
+                "language": "en", 
+                "term": "/c/en/put_out_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sai/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sai"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "You can use [[a fire extinguisher]] to [[put out a fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/put_out_small_flames/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/put_out_small_flames", 
+                "@type": "Node", 
+                "label": "put out small flames", 
+                "language": "en", 
+                "term": "/c/en/put_out_small_flames"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "You can use [[a fire extinguisher]] to [[put out small flames]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/safety/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/safety", 
+                "@type": "Node", 
+                "label": "safety", 
+                "language": "en", 
+                "term": "/c/en/safety"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cerewa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cerewa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[safety]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire_extinguisher/,/c/en/use_in_emergencies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/use_in_emergencies", 
+                "@type": "Node", 
+                "label": "use in emergencies", 
+                "language": "en", 
+                "term": "/c/en/use_in_emergencies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "surfaceText": "[[a fire extinguisher]] is for [[use in emergencies]]", 
+            "weight": 1.0
+        }
+    ]
+}

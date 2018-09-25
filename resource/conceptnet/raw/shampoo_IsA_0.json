@@ -1,0 +1,330 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shampoo&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/cleansing_agent/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cleansing_agent/n", 
+                "@type": "Node", 
+                "label": "cleansing agent", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cleansing_agent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is a type of [[cleansing agent]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/hair_care/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hair_care/n", 
+                "@type": "Node", 
+                "label": "hair care", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hair_care"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is a type of [[hair care]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dandruffshampoo/,/c/en/shampoo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "a shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/poincare/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/poincare"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dandruffshampoo", 
+                "@type": "Node", 
+                "label": "dandruffshampoo", 
+                "language": "en", 
+                "term": "/c/en/dandruffshampoo"
+            }, 
+            "surfaceText": "[[dandruffshampoo]] is [[a shampoo]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/,/c/en/aplyed_before_conditioner/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/aplyed_before_conditioner", 
+                "@type": "Node", 
+                "label": "aplyed before conditioner", 
+                "language": "en", 
+                "term": "/c/en/aplyed_before_conditioner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/doctus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/doctus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is [[aplyed before conditioner]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/detergent/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/detergent/n", 
+                "@type": "Node", 
+                "label": "detergent", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/detergent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/liquid/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/liquid/n", 
+                "@type": "Node", 
+                "label": "liquid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/mixture/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mixture/n", 
+                "@type": "Node", 
+                "label": "mixture", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mixture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/personal_washing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/personal_washing/n", 
+                "@type": "Node", 
+                "label": "personal washing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/personal_washing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shampoo/n/,/c/en/toiletry/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/toiletry/n", 
+                "@type": "Node", 
+                "label": "toiletry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toiletry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo/n", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

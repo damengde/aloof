@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/orange&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/orange/,/c/en/mean_fruit_or_color/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mean_fruit_or_color", 
+                "@type": "Node", 
+                "label": "mean a fruit or a color", 
+                "language": "en", 
+                "term": "/c/en/mean_fruit_or_color"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/orange", 
+                "@type": "Node", 
+                "label": "orange", 
+                "language": "en", 
+                "term": "/c/en/orange"
+            }, 
+            "surfaceText": "[[orange]] can [[mean a fruit or a color]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/orange/,/c/en/taste_sour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taste_sour", 
+                "@type": "Node", 
+                "label": "taste sour", 
+                "language": "en", 
+                "term": "/c/en/taste_sour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrtj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrtj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/orange", 
+                "@type": "Node", 
+                "label": "An orange", 
+                "language": "en", 
+                "term": "/c/en/orange"
+            }, 
+            "surfaceText": "[[An orange]] can [[taste sour]]", 
+            "weight": 1.0
+        }
+    ]
+}

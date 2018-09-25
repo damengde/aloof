@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helmet&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/head/,/c/en/helmet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/helmet", 
+                "@type": "Node", 
+                "label": "a helmet", 
+                "language": "en", 
+                "term": "/c/en/helmet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/borris"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/head", 
+                "@type": "Node", 
+                "label": "a head", 
+                "language": "en", 
+                "term": "/c/en/head"
+            }, 
+            "surfaceText": "You are likely to find [[a head]] in [[a helmet]]", 
+            "weight": 1.0
+        }
+    ]
+}

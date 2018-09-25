@@ -1,0 +1,1289 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/clock&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/watch/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glenbrowning/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/glenbrowning"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/straz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/straz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/watch", 
+                "@type": "Node", 
+                "label": "a watch", 
+                "language": "en", 
+                "term": "/c/en/watch"
+            }, 
+            "surfaceText": "[[a watch]] is [[a clock]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/analog_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/analog_clock/n", 
+                "@type": "Node", 
+                "label": "analog clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/analog_clock"
+            }, 
+            "surfaceText": "[[analog clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chronometer/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chronometer/n", 
+                "@type": "Node", 
+                "label": "chronometer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chronometer"
+            }, 
+            "surfaceText": "[[chronometer]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/,/c/en/machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/machine", 
+                "@type": "Node", 
+                "label": "a machine", 
+                "language": "en", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amacfie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/amacfie"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/luannliu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/luannliu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/technoboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/technoboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "A clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[A clock]] is [[a machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/n/,/c/en/timepiece/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/timepiece/n", 
+                "@type": "Node", 
+                "label": "timepiece", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/timepiece"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[clock]] is a type of [[timepiece]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cuckoo_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cuckoo_clock/n", 
+                "@type": "Node", 
+                "label": "cuckoo clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cuckoo_clock"
+            }, 
+            "surfaceText": "[[cuckoo clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/digital_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/digital_clock/n", 
+                "@type": "Node", 
+                "label": "digital clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/digital_clock"
+            }, 
+            "surfaceText": "[[digital clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_clock/n", 
+                "@type": "Node", 
+                "label": "electric clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_clock"
+            }, 
+            "surfaceText": "[[electric clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pendulum_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pendulum_clock/n", 
+                "@type": "Node", 
+                "label": "pendulum clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pendulum_clock"
+            }, 
+            "surfaceText": "[[pendulum clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/system_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/system_clock/n", 
+                "@type": "Node", 
+                "label": "system clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/system_clock"
+            }, 
+            "surfaceText": "[[system clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/time_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/time_clock/n", 
+                "@type": "Node", 
+                "label": "time clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/time_clock"
+            }, 
+            "surfaceText": "[[time clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/turret_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turret_clock/n", 
+                "@type": "Node", 
+                "label": "turret clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/turret_clock"
+            }, 
+            "surfaceText": "[[turret clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_clock/n", 
+                "@type": "Node", 
+                "label": "water clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_clock"
+            }, 
+            "surfaceText": "[[water clock]] is a type of [[clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/de/alarm/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/de/alarm", 
+                "@type": "Node", 
+                "label": "alarm", 
+                "language": "de", 
+                "term": "/c/de/alarm"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/alarm_clock/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/alarm_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock/n", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/atomic_clock/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/atomic_clock", 
+                "@type": "Node", 
+                "label": "atomic clock", 
+                "language": "en", 
+                "term": "/c/en/atomic_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/atomic_clock/n/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/atomic_clock/n", 
+                "@type": "Node", 
+                "label": "atomic clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/atomic_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/atomic_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/atomic_clock/n", 
+                "@type": "Node", 
+                "label": "atomic clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/atomic_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/,/c/en/interesting_invention/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/interesting_invention", 
+                "@type": "Node", 
+                "label": "an interesting invention", 
+                "language": "en", 
+                "term": "/c/en/interesting_invention"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "A clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[A clock]] is [[an interesting invention]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/,/c/en/mechanical_device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mechanical_device", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[clock]] is a kind of [[mechanical device]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/,/c/en/mechanical_or_electronic_device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mechanical_or_electronic_device", 
+                "@type": "Node", 
+                "label": "a mechanical or electronic device", 
+                "language": "en", 
+                "term": "/c/en/mechanical_or_electronic_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jenova/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jenova"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[a clock]] is [[a mechanical or electronic device]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/,/c/en/very_complex_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_complex_machine", 
+                "@type": "Node", 
+                "label": "a very complex machine", 
+                "language": "en", 
+                "term": "/c/en/very_complex_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/technoboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/technoboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": "[[a clock]] is [[a very complex machine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/n/,/c/en/device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/device/n", 
+                "@type": "Node", 
+                "label": "device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/n/,/c/en/mechanical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mechanical_device/n", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/n/,/c/en/non_agentive_artifact/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_agentive_artifact/n", 
+                "@type": "Node", 
+                "label": "non agentive artifact", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_agentive_artifact"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clock/n/,/c/en/opaque_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/opaque_thing/n", 
+                "@type": "Node", 
+                "label": "opaque thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/opaque_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_inside/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/merleen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/merleen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_inside", 
+                "@type": "Node", 
+                "label": "Something you find inside", 
+                "language": "en", 
+                "term": "/c/en/find_inside"
+            }, 
+            "surfaceText": "[[Something you find inside]] is [[a clock]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grandfather_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grandfather_clock/n", 
+                "@type": "Node", 
+                "label": "grandfather clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grandfather_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kitchen_clock/,/c/en/clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clock", 
+                "@type": "Node", 
+                "label": "a clock", 
+                "language": "en", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_clock", 
+                "@type": "Node", 
+                "label": "a kitchen clock", 
+                "language": "en", 
+                "term": "/c/en/kitchen_clock"
+            }, 
+            "surfaceText": "[[a kitchen clock]] is [[a clock]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kitchen_timer/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_timer/n", 
+                "@type": "Node", 
+                "label": "kitchen timer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_timer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ticking/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ticking/n", 
+                "@type": "Node", 
+                "label": "ticking", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ticking"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/timer/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/timer/n", 
+                "@type": "Node", 
+                "label": "timer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/timer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wall_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall_clock/n", 
+                "@type": "Node", 
+                "label": "wall clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/watch/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/watch/n", 
+                "@type": "Node", 
+                "label": "watch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/watch"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

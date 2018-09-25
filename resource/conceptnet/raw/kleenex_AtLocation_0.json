@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/kleenex&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/kleenex/,/c/en/pocket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pocket", 
+                "@type": "Node", 
+                "label": "a pocket", 
+                "language": "en", 
+                "term": "/c/en/pocket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cocoloco/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cocoloco"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cocoloco/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cocoloco"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kleenex", 
+                "@type": "Node", 
+                "label": "Kleenex", 
+                "language": "en", 
+                "term": "/c/en/kleenex"
+            }, 
+            "surfaceText": "*Something you find in [[a pocket]] is [[Kleenex]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/kleenex/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kleenex", 
+                "@type": "Node", 
+                "label": "kleenex", 
+                "language": "en", 
+                "term": "/c/en/kleenex"
+            }, 
+            "surfaceText": "*Something you find in [[a box]] is [[kleenex]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/kleenex/,/c/en/purse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "the purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kleenex", 
+                "@type": "Node", 
+                "label": "kleenex", 
+                "language": "en", 
+                "term": "/c/en/kleenex"
+            }, 
+            "surfaceText": "*Something you find in [[the purse]] is [[kleenex]]", 
+            "weight": 1.0
+        }
+    ]
+}

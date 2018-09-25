@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/watermelon&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/watermelon/,/c/en/black_seeds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/black_seeds", 
+                "@type": "Node", 
+                "label": "black seeds", 
+                "language": "en", 
+                "term": "/c/en/black_seeds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/watermelon", 
+                "@type": "Node", 
+                "label": "Watermelon", 
+                "language": "en", 
+                "term": "/c/en/watermelon"
+            }, 
+            "surfaceText": "[[Watermelon]] has [[black seeds]]", 
+            "weight": 2.0
+        }
+    ]
+}

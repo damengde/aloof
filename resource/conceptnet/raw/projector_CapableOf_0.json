@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/projector&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/projector/,/c/en/show_films/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/show_films", 
+                "@type": "Node", 
+                "label": "show films", 
+                "language": "en", 
+                "term": "/c/en/show_films"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "[[a projector]] can [[show films]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/projector/,/c/en/show_movies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/show_movies", 
+                "@type": "Node", 
+                "label": "show movies", 
+                "language": "en", 
+                "term": "/c/en/show_movies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/v6stang/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/v6stang"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "Projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "[[Projector]] can [[show movies]]", 
+            "weight": 1.0
+        }
+    ]
+}

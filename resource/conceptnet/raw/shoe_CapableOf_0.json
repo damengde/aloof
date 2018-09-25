@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shoe&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/shoe/,/c/en/buy_at_target/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/buy_at_target", 
+                "@type": "Node", 
+                "label": "buy at Target", 
+                "language": "en", 
+                "term": "/c/en/buy_at_target"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "A shoe is something you", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "surfaceText": "[[A shoe is something you]] can [[buy at Target]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/shoe/,/c/en/trip/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trip", 
+                "@type": "Node", 
+                "label": "trip you", 
+                "language": "en", 
+                "term": "/c/en/trip"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joycef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joycef"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "A shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "surfaceText": "[[A shoe]] can [[trip you]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soap_dish&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/soap_dish/,/c/en/sink/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sink", 
+                "@type": "Node", 
+                "label": "the sink", 
+                "language": "en", 
+                "term": "/c/en/sink"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/magikgr33n/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/magikgr33n"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schwartz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schwartz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schwartz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/schwartz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish", 
+                "@type": "Node", 
+                "label": "a soap dish", 
+                "language": "en", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": "You are likely to find [[a soap dish]] in [[the sink]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/soap/,/c/en/soap_dish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soap_dish", 
+                "@type": "Node", 
+                "label": "a soap dish", 
+                "language": "en", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "a soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "You are likely to find [[a soap]] in [[a soap dish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/soap_dish/,/c/en/shower/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shower", 
+                "@type": "Node", 
+                "label": "the shower", 
+                "language": "en", 
+                "term": "/c/en/shower"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/happygoodies/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/happygoodies"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish", 
+                "@type": "Node", 
+                "label": "a soap dish", 
+                "language": "en", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": "You are likely to find [[a soap dish]] in [[the shower]]", 
+            "weight": 1.0
+        }
+    ]
+}

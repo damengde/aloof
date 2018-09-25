@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cd&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cd/,/c/en/store_data/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_data", 
+                "@type": "Node", 
+                "label": "store data", 
+                "language": "en", 
+                "term": "/c/en/store_data"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cd", 
+                "@type": "Node", 
+                "label": "a CD", 
+                "language": "en", 
+                "term": "/c/en/cd"
+            }, 
+            "surfaceText": "[[a CD]] can [[store data]]", 
+            "weight": 1.0
+        }
+    ]
+}

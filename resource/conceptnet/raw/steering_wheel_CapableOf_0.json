@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/steering_wheel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/steering_wheel/,/c/en/control_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/control_car", 
+                "@type": "Node", 
+                "label": "control car", 
+                "language": "en", 
+                "term": "/c/en/control_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tazzydevil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tazzydevil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "[[steering wheel]] can [[control car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/steering_wheel/,/c/en/control_direction_car_turns/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/control_direction_car_turns", 
+                "@type": "Node", 
+                "label": "control the direction a car turns", 
+                "language": "en", 
+                "term": "/c/en/control_direction_car_turns"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tmichael/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tmichael"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "a steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "[[a steering wheel]] can [[control the direction a car turns]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/steering_wheel/,/c/en/turn_car_bus_or_truck/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turn_car_bus_or_truck", 
+                "@type": "Node", 
+                "label": "turn a car, bus, or truck", 
+                "language": "en", 
+                "term": "/c/en/turn_car_bus_or_truck"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "a steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "surfaceText": "[[a steering wheel]] can [[turn a car, bus, or truck]]", 
+            "weight": 1.0
+        }
+    ]
+}

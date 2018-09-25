@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bottle&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bottle/,/c/en/hold_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_water", 
+                "@type": "Node", 
+                "label": "hold water", 
+                "language": "en", 
+                "term": "/c/en/hold_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "A bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "surfaceText": "[[A bottle]] can [[hold water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bottle/,/c/en/quiet_baby/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/quiet_baby", 
+                "@type": "Node", 
+                "label": "quiet a baby", 
+                "language": "en", 
+                "term": "/c/en/quiet_baby"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mandlk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mandlk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "a bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "surfaceText": "[[a bottle]] can [[quiet a baby]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bottle/,/c/en/store_wine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_wine", 
+                "@type": "Node", 
+                "label": "store wine", 
+                "language": "en", 
+                "term": "/c/en/store_wine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nojo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nojo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "A bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "surfaceText": "[[A bottle]] can [[store wine]]", 
+            "weight": 1.0
+        }
+    ]
+}

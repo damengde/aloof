@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/turtle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/carapace/n/,/c/en/turtle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/turtle/n", 
+                "@type": "Node", 
+                "label": "turtle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/turtle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carapace/n", 
+                "@type": "Node", 
+                "label": "carapace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carapace"
+            }, 
+            "surfaceText": "[[carapace]] is a part of [[turtle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plastron/n/,/c/en/turtle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/turtle/n", 
+                "@type": "Node", 
+                "label": "turtle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/turtle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plastron/n", 
+                "@type": "Node", 
+                "label": "plastron", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plastron"
+            }, 
+            "surfaceText": "[[plastron]] is a part of [[turtle]]", 
+            "weight": 2.0
+        }
+    ]
+}

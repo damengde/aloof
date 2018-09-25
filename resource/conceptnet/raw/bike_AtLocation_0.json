@@ -1,0 +1,224 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bike&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bike/,/c/en/street/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/street", 
+                "@type": "Node", 
+                "label": "the street", 
+                "language": "en", 
+                "term": "/c/en/street"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mif/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mif"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/clawber22/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/clawber22"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "*Something you find in [[the street]] is [[a bike]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bike/,/c/en/garage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "a garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "*Something you find in [[a garage]] is [[a bike]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bike/,/c/en/toy_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy_store", 
+                "@type": "Node", 
+                "label": "a toy store", 
+                "language": "en", 
+                "term": "/c/en/toy_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "*Something you find at [[a toy store]] is [[a bike]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bike/,/c/en/velodrome/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/velodrome", 
+                "@type": "Node", 
+                "label": "a velodrome", 
+                "language": "en", 
+                "term": "/c/en/velodrome"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "You are likely to find [[a bike]] in [[a velodrome]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/garage/,/c/en/bike/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mindnomad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mindnomad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "a garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "surfaceText": "You are likely to find [[a garage]] in [[a bike]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/seat/,/c/en/bike/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat", 
+                "@type": "Node", 
+                "label": "a seat", 
+                "language": "en", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "Somewhere [[a seat]] can be is on [[a bike]]", 
+            "weight": 1.0
+        }
+    ]
+}

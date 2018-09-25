@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/box&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/box/,/c/en/6_sides/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/6_sides", 
+                "@type": "Node", 
+                "label": "6 sides", 
+                "language": "en", 
+                "term": "/c/en/6_sides"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "A box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "surfaceText": "[[A box]] has [[6 sides]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/box/,/c/en/finite_amount_of_space/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/finite_amount_of_space", 
+                "@type": "Node", 
+                "label": "a finite amount of space", 
+                "language": "en", 
+                "term": "/c/en/finite_amount_of_space"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fcueto/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fcueto"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "A box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "surfaceText": "[[A box]] has [[a finite amount of space]]", 
+            "weight": 1.0
+        }
+    ]
+}

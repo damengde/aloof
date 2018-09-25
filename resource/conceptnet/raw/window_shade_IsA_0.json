@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/window_shade&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/roller_blind/n/,/c/en/window_shade/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window_shade/n", 
+                "@type": "Node", 
+                "label": "window shade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_shade"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/roller_blind/n", 
+                "@type": "Node", 
+                "label": "roller blind", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/roller_blind"
+            }, 
+            "surfaceText": "[[roller blind]] is a type of [[window shade]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/window_shade/n/,/c/en/window_blind/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window_blind/n", 
+                "@type": "Node", 
+                "label": "window blind", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_blind"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window_shade/n", 
+                "@type": "Node", 
+                "label": "window shade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_shade"
+            }, 
+            "surfaceText": "[[window shade]] is a type of [[window blind]]", 
+            "weight": 2.0
+        }
+    ]
+}

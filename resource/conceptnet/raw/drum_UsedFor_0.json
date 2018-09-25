@@ -1,0 +1,555 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/drum&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/making_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_music", 
+                "@type": "Node", 
+                "label": "making music", 
+                "language": "en", 
+                "term": "/c/en/making_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/techdock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/techdock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/techdock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/techdock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[a drum]] is for [[making music]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/beat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beat", 
+                "@type": "Node", 
+                "label": "beat", 
+                "language": "en", 
+                "term": "/c/en/beat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[beat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/n/,/c/en/drum/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/drum/n", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum/n", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[drum]] is used for [[drum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/n/,/c/en/drum/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/drum/v", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/drum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum/n", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[drum]] is used for [[drum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/n/,/c/en/music/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/music/n", 
+                "@type": "Node", 
+                "label": "music", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum/n", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[drum]] is used for [[music]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/n/,/c/en/rhythm/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rhythm/n", 
+                "@type": "Node", 
+                "label": "rhythm", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rhythm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum/n", 
+                "@type": "Node", 
+                "label": "drum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[drum]] is used for [[rhythm]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/annoy_parents/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/annoy_parents", 
+                "@type": "Node", 
+                "label": "annoy your parents", 
+                "language": "en", 
+                "term": "/c/en/annoy_parents"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pdefer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pdefer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[annoy your parents]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/banging/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/banging", 
+                "@type": "Node", 
+                "label": "banging", 
+                "language": "en", 
+                "term": "/c/en/banging"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[a drum]] is for [[banging]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/create_beat_for_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/create_beat_for_music", 
+                "@type": "Node", 
+                "label": "create a beat for music", 
+                "language": "en", 
+                "term": "/c/en/create_beat_for_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[create a beat for music]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/hitting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hitting", 
+                "@type": "Node", 
+                "label": "hitting", 
+                "language": "en", 
+                "term": "/c/en/hitting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[a drum]] is for [[hitting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/make_noise/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_noise", 
+                "@type": "Node", 
+                "label": "make a noise", 
+                "language": "en", 
+                "term": "/c/en/make_noise"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mmmorse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mmmorse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[make a noise]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/make_sounds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_sounds", 
+                "@type": "Node", 
+                "label": "make sounds", 
+                "language": "en", 
+                "term": "/c/en/make_sounds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cmathers/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cmathers"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[make sounds]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/play_percussion/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/play_percussion", 
+                "@type": "Node", 
+                "label": "play percussion", 
+                "language": "en", 
+                "term": "/c/en/play_percussion"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/comdotatdotcom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/comdotatdotcom"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[play percussion]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/send_message/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/send_message", 
+                "@type": "Node", 
+                "label": "send a message", 
+                "language": "en", 
+                "term": "/c/en/send_message"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "A drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "[[A drum]] can be used to [[send a message]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/drum/,/c/en/sit_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sit_on", 
+                "@type": "Node", 
+                "label": "sit on", 
+                "language": "en", 
+                "term": "/c/en/sit_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tigen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tigen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drum", 
+                "@type": "Node", 
+                "label": "a drum", 
+                "language": "en", 
+                "term": "/c/en/drum"
+            }, 
+            "surfaceText": "You can use [[a drum]] to [[sit on]]", 
+            "weight": 1.0
+        }
+    ]
+}

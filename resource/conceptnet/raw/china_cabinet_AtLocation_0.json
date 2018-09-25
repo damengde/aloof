@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/china_cabinet&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/saucer/,/c/en/china_cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/china_cabinet", 
+                "@type": "Node", 
+                "label": "a china cabinet", 
+                "language": "en", 
+                "term": "/c/en/china_cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ghoti42/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ghoti42"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/saucer", 
+                "@type": "Node", 
+                "label": "a saucer", 
+                "language": "en", 
+                "term": "/c/en/saucer"
+            }, 
+            "surfaceText": "You are likely to find [[a saucer]] in [[a china cabinet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tablespoon/,/c/en/china_cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/china_cabinet", 
+                "@type": "Node", 
+                "label": "a china cabinet", 
+                "language": "en", 
+                "term": "/c/en/china_cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wwattles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wwattles"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tablespoon", 
+                "@type": "Node", 
+                "label": "a tablespoon", 
+                "language": "en", 
+                "term": "/c/en/tablespoon"
+            }, 
+            "surfaceText": "You are likely to find [[a tablespoon]] in [[a china cabinet]]", 
+            "weight": 1.0
+        }
+    ]
+}

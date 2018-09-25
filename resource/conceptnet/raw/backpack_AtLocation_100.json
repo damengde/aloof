@@ -1,0 +1,120 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/backpack&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vaseline/,/c/en/backpack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vaseline", 
+                "@type": "Node", 
+                "label": "vaseline", 
+                "language": "en", 
+                "term": "/c/en/vaseline"
+            }, 
+            "surfaceText": "*Something you find in [[a backpack]] is [[vaseline]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water/,/c/en/backpack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "surfaceText": "*Something you find in [[a backpack]] is [[water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water_protected_matches/,/c/en/backpack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_protected_matches", 
+                "@type": "Node", 
+                "label": "water protected matches", 
+                "language": "en", 
+                "term": "/c/en/water_protected_matches"
+            }, 
+            "surfaceText": "*Something you find in [[a backpack]] is [[water protected matches]]", 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/backpack&rel=/r/AtLocation&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "firstPage": "/query?node=/c/en/backpack&rel=/r/AtLocation&offset=0&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/backpack&rel=/r/AtLocation&offset=0&limit=100"
+    }
+}

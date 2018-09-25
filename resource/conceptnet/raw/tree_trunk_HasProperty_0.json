@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tree_trunk&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/tree_trunk/,/c/en/round/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/round", 
+                "@type": "Node", 
+                "label": "round", 
+                "language": "en", 
+                "term": "/c/en/round"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jarling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jarling"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tree_trunk", 
+                "@type": "Node", 
+                "label": "A tree trunk", 
+                "language": "en", 
+                "term": "/c/en/tree_trunk"
+            }, 
+            "surfaceText": "[[A tree trunk]] is [[round]]", 
+            "weight": 1.0
+        }
+    ]
+}

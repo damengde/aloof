@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toothpaste_tube&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothpaste/,/c/en/toothpaste_tube/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toothpaste_tube", 
+                "@type": "Node", 
+                "label": "a toothpaste tube", 
+                "language": "en", 
+                "term": "/c/en/toothpaste_tube"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/batguano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/batguano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothpaste", 
+                "@type": "Node", 
+                "label": "a toothpaste", 
+                "language": "en", 
+                "term": "/c/en/toothpaste"
+            }, 
+            "surfaceText": "You are likely to find [[a toothpaste]] in [[a toothpaste tube]]", 
+            "weight": 1.0
+        }
+    ]
+}

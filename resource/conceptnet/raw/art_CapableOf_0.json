@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/art&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/art/,/c/en/ask_what_truth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ask_what_truth", 
+                "@type": "Node", 
+                "label": "ask what is truth", 
+                "language": "en", 
+                "term": "/c/en/ask_what_truth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/goldenthroat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/goldenthroat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/art", 
+                "@type": "Node", 
+                "label": "art", 
+                "language": "en", 
+                "term": "/c/en/art"
+            }, 
+            "surfaceText": "[[art]] can [[ask what is truth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/art/,/c/en/teach_much_about_historical_events/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/teach_much_about_historical_events", 
+                "@type": "Node", 
+                "label": "teach much about historical events", 
+                "language": "en", 
+                "term": "/c/en/teach_much_about_historical_events"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ksandre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ksandre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/art", 
+                "@type": "Node", 
+                "label": "Some art", 
+                "language": "en", 
+                "term": "/c/en/art"
+            }, 
+            "surfaceText": "[[Some art]] can [[teach much about historical events]]", 
+            "weight": 1.0
+        }
+    ]
+}

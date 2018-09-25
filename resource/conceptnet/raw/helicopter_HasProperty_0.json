@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helicopter&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/helicopter/,/c/en/holding_steady/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_steady", 
+                "@type": "Node", 
+                "label": "holding steady", 
+                "language": "en", 
+                "term": "/c/en/holding_steady"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "A helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[A helicopter]] can be [[holding steady]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/helicopter/,/c/en/more_expensive_than_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/more_expensive_than_car", 
+                "@type": "Node", 
+                "label": "more expensive than a car", 
+                "language": "en", 
+                "term": "/c/en/more_expensive_than_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "a helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[a helicopter]] is [[more expensive than a car]]", 
+            "weight": 1.0
+        }
+    ]
+}

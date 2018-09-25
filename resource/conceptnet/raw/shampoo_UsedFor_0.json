@@ -1,0 +1,358 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shampoo&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/bathe_dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathe_dog", 
+                "@type": "Node", 
+                "label": "bathe your dog", 
+                "language": "en", 
+                "term": "/c/en/bathe_dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "You can use [[shampoo]] to [[bathe your dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/cleaning_carpet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cleaning_carpet", 
+                "@type": "Node", 
+                "label": "cleaning your carpet", 
+                "language": "en", 
+                "term": "/c/en/cleaning_carpet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is for [[cleaning your carpet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/curing_dandruff/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/curing_dandruff", 
+                "@type": "Node", 
+                "label": "curing your dandruff", 
+                "language": "en", 
+                "term": "/c/en/curing_dandruff"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is for [[curing your dandruff]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/getting_fleas_off_dogs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_fleas_off_dogs", 
+                "@type": "Node", 
+                "label": "getting fleas off dogs", 
+                "language": "en", 
+                "term": "/c/en/getting_fleas_off_dogs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is used for [[getting fleas off dogs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/hair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hair", 
+                "@type": "Node", 
+                "label": "hair", 
+                "language": "en", 
+                "term": "/c/en/hair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is used for [[hair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/washing_dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_dog", 
+                "@type": "Node", 
+                "label": "washing your dog", 
+                "language": "en", 
+                "term": "/c/en/washing_dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is for [[washing your dog]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/washing_hairy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_hairy", 
+                "@type": "Node", 
+                "label": "washing hairy", 
+                "language": "en", 
+                "term": "/c/en/washing_hairy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mikal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mikal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "Shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[Shampoo]] is for [[washing hairy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/washing_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_things", 
+                "@type": "Node", 
+                "label": "washing things", 
+                "language": "en", 
+                "term": "/c/en/washing_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dickeynh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dickeynh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is used for [[washing things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/wash_pets/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wash_pets", 
+                "@type": "Node", 
+                "label": "to wash your pets", 
+                "language": "en", 
+                "term": "/c/en/wash_pets"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/willie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/willie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is for [[to wash your pets]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/shampoo/,/c/en/wash_rugs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wash_rugs", 
+                "@type": "Node", 
+                "label": "to wash rugs", 
+                "language": "en", 
+                "term": "/c/en/wash_rugs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/willie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/willie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo", 
+                "@type": "Node", 
+                "label": "shampoo", 
+                "language": "en", 
+                "term": "/c/en/shampoo"
+            }, 
+            "surfaceText": "[[shampoo]] is for [[to wash rugs]]", 
+            "weight": 1.0
+        }
+    ]
+}

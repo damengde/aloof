@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/carpet&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/carpet/,/c/en/opaque/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opaque", 
+                "@type": "Node", 
+                "label": "opaque", 
+                "language": "en", 
+                "term": "/c/en/opaque"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[carpet]] is [[opaque]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/carpet/,/c/en/similar_to_rug/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/similar_to_rug", 
+                "@type": "Node", 
+                "label": "similar to a rug", 
+                "language": "en", 
+                "term": "/c/en/similar_to_rug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[carpet]] is [[similar to a rug]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pool_table&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ball/,/c/en/pool_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pool_table", 
+                "@type": "Node", 
+                "label": "a pool table", 
+                "language": "en", 
+                "term": "/c/en/pool_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/stevede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/stevede"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ball", 
+                "@type": "Node", 
+                "label": "a ball", 
+                "language": "en", 
+                "term": "/c/en/ball"
+            }, 
+            "surfaceText": "Somewhere [[a ball]] can be is on [[a pool table]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pool_table/,/c/en/bowling_alley/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bowling_alley", 
+                "@type": "Node", 
+                "label": "a bowling alley", 
+                "language": "en", 
+                "term": "/c/en/bowling_alley"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcarey1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/djuber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pool_table", 
+                "@type": "Node", 
+                "label": "a pool table", 
+                "language": "en", 
+                "term": "/c/en/pool_table"
+            }, 
+            "surfaceText": "*Something you find at [[a bowling alley]] is [[a pool table]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cue_ball/,/c/en/pool_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pool_table", 
+                "@type": "Node", 
+                "label": "a pool table", 
+                "language": "en", 
+                "term": "/c/en/pool_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dvz2333/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dvz2333"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cue_ball", 
+                "@type": "Node", 
+                "label": "a cue ball", 
+                "language": "en", 
+                "term": "/c/en/cue_ball"
+            }, 
+            "surfaceText": "*Something you find on [[a pool table]] is [[a cue ball]]", 
+            "weight": 1.0
+        }
+    ]
+}

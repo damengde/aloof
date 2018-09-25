@@ -1,0 +1,190 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cheese&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cheese/,/c/en/strong_odor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/strong_odor", 
+                "@type": "Node", 
+                "label": "a strong odor", 
+                "language": "en", 
+                "term": "/c/en/strong_odor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chagerling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/chagerling"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/grbyk9/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/grbyk9"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nissefors/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/nissefors"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cheese", 
+                "@type": "Node", 
+                "label": "some cheese", 
+                "language": "en", 
+                "term": "/c/en/cheese"
+            }, 
+            "surfaceText": "[[some cheese]] has [[a strong odor]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cheese/,/c/en/flavor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flavor", 
+                "@type": "Node", 
+                "label": "a flavor", 
+                "language": "en", 
+                "term": "/c/en/flavor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shercipher/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shercipher"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cheese", 
+                "@type": "Node", 
+                "label": "Cheese", 
+                "language": "en", 
+                "term": "/c/en/cheese"
+            }, 
+            "surfaceText": "[[Cheese]] has [[a flavor]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cheese/,/c/en/lot_of_fat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lot_of_fat", 
+                "@type": "Node", 
+                "label": "a lot of fat", 
+                "language": "en", 
+                "term": "/c/en/lot_of_fat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajnewbold"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cheese", 
+                "@type": "Node", 
+                "label": "Cheese", 
+                "language": "en", 
+                "term": "/c/en/cheese"
+            }, 
+            "surfaceText": "[[Cheese]] contains [[a lot of fat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cheese/,/c/en/benign_bacteria/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/benign_bacteria", 
+                "@type": "Node", 
+                "label": "benign bacteria", 
+                "language": "en", 
+                "term": "/c/en/benign_bacteria"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cheese", 
+                "@type": "Node", 
+                "label": "Some cheese", 
+                "language": "en", 
+                "term": "/c/en/cheese"
+            }, 
+            "surfaceText": "[[Some cheese]] contains [[benign bacteria]]", 
+            "weight": 1.0
+        }
+    ]
+}

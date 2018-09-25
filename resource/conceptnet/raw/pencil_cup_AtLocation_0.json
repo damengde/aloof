@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pencil_cup&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/highlighter_pen/,/c/en/pencil_cup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pencil_cup", 
+                "@type": "Node", 
+                "label": "a pencil cup", 
+                "language": "en", 
+                "term": "/c/en/pencil_cup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/highlighter_pen", 
+                "@type": "Node", 
+                "label": "a highlighter pen", 
+                "language": "en", 
+                "term": "/c/en/highlighter_pen"
+            }, 
+            "surfaceText": "You are likely to find [[a highlighter pen]] in [[a pencil cup]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pencil_cup/,/c/en/desktop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desktop", 
+                "@type": "Node", 
+                "label": "a desktop", 
+                "language": "en", 
+                "term": "/c/en/desktop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pencil_cup", 
+                "@type": "Node", 
+                "label": "a pencil cup", 
+                "language": "en", 
+                "term": "/c/en/pencil_cup"
+            }, 
+            "surfaceText": "*Something you find on [[a desktop]] is [[a pencil cup]]", 
+            "weight": 1.0
+        }
+    ]
+}

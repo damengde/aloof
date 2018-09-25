@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pulley&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pulley/,/c/en/lower_heavy_objects_safely/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lower_heavy_objects_safely", 
+                "@type": "Node", 
+                "label": "lower heavy objects safely", 
+                "language": "en", 
+                "term": "/c/en/lower_heavy_objects_safely"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bphilbrick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bphilbrick"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pulley", 
+                "@type": "Node", 
+                "label": "a pulley", 
+                "language": "en", 
+                "term": "/c/en/pulley"
+            }, 
+            "surfaceText": "[[a pulley]] can [[lower heavy objects safely]]", 
+            "weight": 1.0
+        }
+    ]
+}

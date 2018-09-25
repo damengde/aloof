@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/remote_control&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/on_off_switch/,/c/en/remote_control/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/remote_control", 
+                "@type": "Node", 
+                "label": "a remote control", 
+                "language": "en", 
+                "term": "/c/en/remote_control"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/on_off_switch", 
+                "@type": "Node", 
+                "label": "an on/off switch", 
+                "language": "en", 
+                "term": "/c/en/on_off_switch"
+            }, 
+            "surfaceText": "You are likely to find [[an on/off switch]] in [[a remote control]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/remote_control/,/c/en/television/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ovan4/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ovan4"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/remote_control", 
+                "@type": "Node", 
+                "label": "remote control", 
+                "language": "en", 
+                "term": "/c/en/remote_control"
+            }, 
+            "surfaceText": "*Something you find on [[television]] is [[remote control]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grille&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grille/n/,/c/en/grate/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grate/n", 
+                "@type": "Node", 
+                "label": "grate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grille/n", 
+                "@type": "Node", 
+                "label": "grille", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grille"
+            }, 
+            "surfaceText": "[[grille]] is a type of [[grate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grille/n/,/c/en/weapon/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/weapon/n", 
+                "@type": "Node", 
+                "label": "weapon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/weapon"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grille/n", 
+                "@type": "Node", 
+                "label": "grille", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grille"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

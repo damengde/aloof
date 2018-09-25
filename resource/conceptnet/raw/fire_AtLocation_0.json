@@ -1,0 +1,289 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fire&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fire/,/c/en/fireplace/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fireplace", 
+                "@type": "Node", 
+                "label": "a fireplace", 
+                "language": "en", 
+                "term": "/c/en/fireplace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kanef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kanef"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anita93/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anita93"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kanef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kanef"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nateelwood/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/nateelwood"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "Somewhere [[fire]] can be is in [[a fireplace]]", 
+            "weight": 4.898979485566356
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fire/,/c/en/forest/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/forest", 
+                "@type": "Node", 
+                "label": "the forest", 
+                "language": "en", 
+                "term": "/c/en/forest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "*Something you find in [[the forest]] is [[fire]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coal/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "the fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/stevede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/stevede"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coal", 
+                "@type": "Node", 
+                "label": "coal", 
+                "language": "en", 
+                "term": "/c/en/coal"
+            }, 
+            "surfaceText": "Somewhere [[coal]] can be is on [[the fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fire/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "a fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "*Something you find in [[a house]] is [[a fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fire/,/c/en/laboratory/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/laboratory", 
+                "@type": "Node", 
+                "label": "a laboratory", 
+                "language": "en", 
+                "term": "/c/en/laboratory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "*Something you find in [[a laboratory]] is [[fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/heat_source/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/h82losem/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/h82losem"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heat_source", 
+                "@type": "Node", 
+                "label": "a heat source", 
+                "language": "en", 
+                "term": "/c/en/heat_source"
+            }, 
+            "surfaceText": "You are likely to find [[a heat source]] in [[fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wood/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "a fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajiau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajiau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wood", 
+                "@type": "Node", 
+                "label": "wood", 
+                "language": "en", 
+                "term": "/c/en/wood"
+            }, 
+            "surfaceText": "You are likely to find [[wood]] in [[a fire]]", 
+            "weight": 1.0
+        }
+    ]
+}

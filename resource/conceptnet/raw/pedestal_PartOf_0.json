@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pedestal&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/dado/n/,/c/en/pedestal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pedestal/n", 
+                "@type": "Node", 
+                "label": "pedestal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pedestal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dado/n", 
+                "@type": "Node", 
+                "label": "dado", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dado"
+            }, 
+            "surfaceText": "[[dado]] is a part of [[pedestal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pedestal/n/,/c/en/column/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/column/n", 
+                "@type": "Node", 
+                "label": "column", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/column"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedestal/n", 
+                "@type": "Node", 
+                "label": "pedestal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pedestal"
+            }, 
+            "surfaceText": "[[pedestal]] is a part of [[column]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/package&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/package/,/c/en/arrive_in_mail/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrive_in_mail", 
+                "@type": "Node", 
+                "label": "arrive in the mail", 
+                "language": "en", 
+                "term": "/c/en/arrive_in_mail"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/natura1ist/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/natura1ist"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/package", 
+                "@type": "Node", 
+                "label": "A package", 
+                "language": "en", 
+                "term": "/c/en/package"
+            }, 
+            "surfaceText": "[[A package]] can [[arrive in the mail]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pane&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pane/n/,/c/en/window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/window/n", 
+                "@type": "Node", 
+                "label": "window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane/n", 
+                "@type": "Node", 
+                "label": "pane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[pane]] is a part of [[window]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pane/,/c/en/window/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/window", 
+                "@type": "Node", 
+                "label": "a window", 
+                "language": "en", 
+                "term": "/c/en/window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane", 
+                "@type": "Node", 
+                "label": "a pane", 
+                "language": "en", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[a pane]] is part of [[a window]]", 
+            "weight": 1.0
+        }
+    ]
+}

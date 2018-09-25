@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/computer_mouse&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/computer_mouse/,/c/en/one_to_three_buttons/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_to_three_buttons", 
+                "@type": "Node", 
+                "label": "one to three buttons", 
+                "language": "en", 
+                "term": "/c/en/one_to_three_buttons"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jgagnon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jgagnon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer_mouse", 
+                "@type": "Node", 
+                "label": "A computer mouse", 
+                "language": "en", 
+                "term": "/c/en/computer_mouse"
+            }, 
+            "surfaceText": "[[A computer mouse]] has [[one to three buttons]]", 
+            "weight": 1.0
+        }
+    ]
+}

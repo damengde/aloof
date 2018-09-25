@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stained_glass&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stained_glass/,/c/en/art_show/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/art_show", 
+                "@type": "Node", 
+                "label": "an art show", 
+                "language": "en", 
+                "term": "/c/en/art_show"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass", 
+                "@type": "Node", 
+                "label": "stained glass", 
+                "language": "en", 
+                "term": "/c/en/stained_glass"
+            }, 
+            "surfaceText": "*Something you find at [[an art show]] is [[stained glass]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stained_glass/,/c/en/church/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/church", 
+                "@type": "Node", 
+                "label": "church", 
+                "language": "en", 
+                "term": "/c/en/church"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/badbunny/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/badbunny"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass", 
+                "@type": "Node", 
+                "label": "stained glass", 
+                "language": "en", 
+                "term": "/c/en/stained_glass"
+            }, 
+            "surfaceText": "*Something you find in [[church]] is [[stained glass]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ribbon&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/ribbon/,/c/en/thin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/thin", 
+                "@type": "Node", 
+                "label": "thin", 
+                "language": "en", 
+                "term": "/c/en/thin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tmartin33/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tmartin33"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ribbon", 
+                "@type": "Node", 
+                "label": "a ribbon", 
+                "language": "en", 
+                "term": "/c/en/ribbon"
+            }, 
+            "surfaceText": "[[a ribbon]] is [[thin]]", 
+            "weight": 1.0
+        }
+    ]
+}

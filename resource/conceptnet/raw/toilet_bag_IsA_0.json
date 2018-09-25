@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toilet_bag&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toilet_bag/n/,/c/en/bag/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bag/n", 
+                "@type": "Node", 
+                "label": "bag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toilet_bag/n", 
+                "@type": "Node", 
+                "label": "toilet bag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toilet_bag"
+            }, 
+            "surfaceText": "[[toilet bag]] is a type of [[bag]]", 
+            "weight": 2.0
+        }
+    ]
+}

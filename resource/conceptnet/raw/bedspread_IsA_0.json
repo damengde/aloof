@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bedspread&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bedspread/n/,/c/en/bedclothes/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bedclothes/n", 
+                "@type": "Node", 
+                "label": "bedclothes", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedclothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bedspread/n", 
+                "@type": "Node", 
+                "label": "bedspread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedspread"
+            }, 
+            "surfaceText": "[[bedspread]] is a type of [[bedclothes]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coverlet/n/,/c/en/bedspread/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bedspread/n", 
+                "@type": "Node", 
+                "label": "bedspread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedspread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coverlet/n", 
+                "@type": "Node", 
+                "label": "coverlet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coverlet"
+            }, 
+            "surfaceText": "[[coverlet]] is a type of [[bedspread]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/quilted_bedspread/n/,/c/en/bedspread/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bedspread/n", 
+                "@type": "Node", 
+                "label": "bedspread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedspread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/quilted_bedspread/n", 
+                "@type": "Node", 
+                "label": "quilted bedspread", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/quilted_bedspread"
+            }, 
+            "surfaceText": "[[quilted bedspread]] is a type of [[bedspread]]", 
+            "weight": 2.0
+        }
+    ]
+}

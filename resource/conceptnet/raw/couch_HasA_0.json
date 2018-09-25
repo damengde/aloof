@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/couch&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/couch/,/c/en/cushions_to_make_sitting_more_comfortable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cushions_to_make_sitting_more_comfortable", 
+                "@type": "Node", 
+                "label": "cushions to make sitting more comfortable", 
+                "language": "en", 
+                "term": "/c/en/cushions_to_make_sitting_more_comfortable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "A couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[A couch]] has [[cushions to make sitting more comfortable]]", 
+            "weight": 1.0
+        }
+    ]
+}

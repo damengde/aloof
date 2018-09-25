@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/object&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/object/,/c/en/rolled_up_if_floppy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rolled_up_if_floppy", 
+                "@type": "Node", 
+                "label": "rolled up if it is floppy", 
+                "language": "en", 
+                "term": "/c/en/rolled_up_if_floppy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/object", 
+                "@type": "Node", 
+                "label": "an object", 
+                "language": "en", 
+                "term": "/c/en/object"
+            }, 
+            "surfaceText": "[[an object]] can be [[rolled up if it is floppy]]", 
+            "weight": 1.0
+        }
+    ]
+}

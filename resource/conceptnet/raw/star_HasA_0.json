@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/star&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/star/,/c/en/much_more_mass_than_planet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/much_more_mass_than_planet", 
+                "@type": "Node", 
+                "label": "much more mass than a planet", 
+                "language": "en", 
+                "term": "/c/en/much_more_mass_than_planet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "A star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[A star]] has [[much more mass than a planet]]", 
+            "weight": 1.0
+        }
+    ]
+}

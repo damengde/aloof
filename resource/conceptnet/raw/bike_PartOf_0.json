@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bike&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sprocket/,/c/en/bike/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sprocket", 
+                "@type": "Node", 
+                "label": "sprocket", 
+                "language": "en", 
+                "term": "/c/en/sprocket"
+            }, 
+            "surfaceText": "[[sprocket]] is part of [[bike]].", 
+            "weight": 1.0
+        }
+    ]
+}

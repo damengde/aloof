@@ -1,0 +1,409 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_conditioner&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/,/c/en/cooling_device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooling_device", 
+                "@type": "Node", 
+                "label": "cooling device", 
+                "language": "en", 
+                "term": "/c/en/cooling_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/tetracomm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/tetracomm"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qubit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qubit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "An air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "[[An air conditioner]] is a [[cooling device]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/appliance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/appliance/n", 
+                "@type": "Node", 
+                "label": "appliance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air-conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "[[air-conditioner]] is a type of [[appliance]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/cooling_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cooling_system/n", 
+                "@type": "Node", 
+                "label": "cooling system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooling_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "[[air conditioner]] is a type of [[cooling system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/air_cooling_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/air_cooling_device/n", 
+                "@type": "Node", 
+                "label": "air cooling device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_cooling_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/consumer_durable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/consumer_durable/n", 
+                "@type": "Node", 
+                "label": "consumer durable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/consumer_durable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/electrical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/electrical_device/n", 
+                "@type": "Node", 
+                "label": "electrical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electrical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/externally_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/externally_powered_device/n", 
+                "@type": "Node", 
+                "label": "externally powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/externally_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_conditioner/n/,/c/en/mechanical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mechanical_device/n", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/car_air_conditioner/n/,/c/en/air_conditioner/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/car_air_conditioner/n", 
+                "@type": "Node", 
+                "label": "car air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/car_air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/central_air_conditioner/n/,/c/en/air_conditioner/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/central_air_conditioner/n", 
+                "@type": "Node", 
+                "label": "central air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/central_air_conditioner"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/window_unit/n/,/c/en/air_conditioner/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/air_conditioner/n", 
+                "@type": "Node", 
+                "label": "air conditioner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window_unit/n", 
+                "@type": "Node", 
+                "label": "window unit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_unit"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

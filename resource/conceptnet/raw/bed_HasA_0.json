@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bed&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/bed/,/c/en/mattress/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mattress", 
+                "@type": "Node", 
+                "label": "a mattress", 
+                "language": "en", 
+                "term": "/c/en/mattress"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexbevilacqua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexbevilacqua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "A bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[A bed]] has [[a mattress]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/going_to_bed_requires_to/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/test/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/test"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/going_to_bed_requires_to", 
+                "@type": "Node", 
+                "label": "going to bed requires to", 
+                "language": "en", 
+                "term": "/c/en/going_to_bed_requires_to"
+            }, 
+            "surfaceText": "[[going to bed requires to]] have [[a bed]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/should/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nommo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nommo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/should", 
+                "@type": "Node", 
+                "label": "should", 
+                "language": "en", 
+                "term": "/c/en/should"
+            }, 
+            "surfaceText": "[[should]] have [[a bed]]", 
+            "weight": 1.0
+        }
+    ]
+}

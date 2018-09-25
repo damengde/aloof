@@ -1,0 +1,374 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/carpet&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_inside/,/c/en/carpet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "a carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mbuck/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mbuck"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_inside", 
+                "@type": "Node", 
+                "label": "Something you find inside", 
+                "language": "en", 
+                "term": "/c/en/find_inside"
+            }, 
+            "surfaceText": "[[Something you find inside]] is [[a carpet]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/n/,/c/en/natural_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/natural_object/n", 
+                "@type": "Node", 
+                "label": "natural object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/natural_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet/n", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[carpet]] is a type of [[natural object]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/,/c/en/floor_covering/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/floor_covering", 
+                "@type": "Node", 
+                "label": "a floor covering", 
+                "language": "en", 
+                "term": "/c/en/floor_covering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "a carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[a carpet]] is [[a floor covering]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/,/c/en/luxury/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/luxury", 
+                "@type": "Node", 
+                "label": "a luxury", 
+                "language": "en", 
+                "term": "/c/en/luxury"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jonk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jonk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[carpet]] is [[a luxury]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/,/c/en/luxury_to_most_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/luxury_to_most_people", 
+                "@type": "Node", 
+                "label": "a luxury to most people", 
+                "language": "en", 
+                "term": "/c/en/luxury_to_most_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jonk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jonk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "Carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[Carpet]] is [[a luxury to most people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/,/c/en/softer_than_hardwood_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/softer_than_hardwood_floor", 
+                "@type": "Node", 
+                "label": "softer than a hardwood floor", 
+                "language": "en", 
+                "term": "/c/en/softer_than_hardwood_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "A carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[A carpet]] is [[softer than a hardwood floor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/,/c/en/usually_on_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/usually_on_floor", 
+                "@type": "Node", 
+                "label": "usually on the floor", 
+                "language": "en", 
+                "term": "/c/en/usually_on_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet", 
+                "@type": "Node", 
+                "label": "a carpet", 
+                "language": "en", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": "[[a carpet]] is [[usually on the floor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/n/,/c/en/household_furnishings/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/household_furnishings/n", 
+                "@type": "Node", 
+                "label": "household furnishings", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/household_furnishings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet/n", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpet/n/,/c/en/textile_floor_covering/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/textile_floor_covering/n", 
+                "@type": "Node", 
+                "label": "textile floor covering", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/textile_floor_covering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpet/n", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carpet"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wall_to_wall_carpet/n/,/c/en/carpet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/carpet/n", 
+                "@type": "Node", 
+                "label": "carpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carpet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall_to_wall_carpet/n", 
+                "@type": "Node", 
+                "label": "wall to wall carpet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall_to_wall_carpet"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hairdryer&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hairdryer/,/c/en/dry_hair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dry_hair", 
+                "@type": "Node", 
+                "label": "dry hair", 
+                "language": "en", 
+                "term": "/c/en/dry_hair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aww/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aww"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hairdryer", 
+                "@type": "Node", 
+                "label": "A hairdryer", 
+                "language": "en", 
+                "term": "/c/en/hairdryer"
+            }, 
+            "surfaceText": "[[A hairdryer]] can [[dry hair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hairdryer/,/c/en/short_socket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/short_socket", 
+                "@type": "Node", 
+                "label": "short a socket", 
+                "language": "en", 
+                "term": "/c/en/short_socket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/exceptinsects/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/exceptinsects"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hairdryer", 
+                "@type": "Node", 
+                "label": "a hairdryer", 
+                "language": "en", 
+                "term": "/c/en/hairdryer"
+            }, 
+            "surfaceText": "[[a hairdryer]] can [[short a socket]]", 
+            "weight": 1.0
+        }
+    ]
+}

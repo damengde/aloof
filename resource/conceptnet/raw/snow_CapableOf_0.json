@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/snow&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/in_winter/,/c/en/snow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mark"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/in_winter", 
+                "@type": "Node", 
+                "label": "in the winter it", 
+                "language": "en", 
+                "term": "/c/en/in_winter"
+            }, 
+            "surfaceText": "[[in the winter it]] can [[snow]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/snow/,/c/en/arrives_with_storm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/arrives_with_storm", 
+                "@type": "Node", 
+                "label": "arrives with a storm", 
+                "language": "en", 
+                "term": "/c/en/arrives_with_storm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "Snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "surfaceText": "[[Snow]] often [[arrives with a storm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/snow/,/c/en/cover_ground/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cover_ground", 
+                "@type": "Node", 
+                "label": "cover the ground", 
+                "language": "en", 
+                "term": "/c/en/cover_ground"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jenniek159/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jenniek159"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "Snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "surfaceText": "[[Snow]] can [[cover the ground]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/snow/,/c/en/falls_around_christmas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/falls_around_christmas", 
+                "@type": "Node", 
+                "label": "falls around christmas", 
+                "language": "en", 
+                "term": "/c/en/falls_around_christmas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow", 
+                "@type": "Node", 
+                "label": "Snow", 
+                "language": "en", 
+                "term": "/c/en/snow"
+            }, 
+            "surfaceText": "[[Snow]] often [[falls around christmas]]", 
+            "weight": 1.0
+        }
+    ]
+}

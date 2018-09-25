@@ -1,0 +1,96 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/branch&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/branch/,/c/en/forest/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/forest", 
+                "@type": "Node", 
+                "label": "a forest", 
+                "language": "en", 
+                "term": "/c/en/forest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/binarydragon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/binarydragon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurt_woloch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ochuckles"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/branch", 
+                "@type": "Node", 
+                "label": "a branch", 
+                "language": "en", 
+                "term": "/c/en/branch"
+            }, 
+            "surfaceText": "*Something you find in [[a forest]] is [[a branch]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/branch/,/c/en/trunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trunk", 
+                "@type": "Node", 
+                "label": "a trunk", 
+                "language": "en", 
+                "term": "/c/en/trunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/carlo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/carlo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/branch", 
+                "@type": "Node", 
+                "label": "a branch", 
+                "language": "en", 
+                "term": "/c/en/branch"
+            }, 
+            "surfaceText": "*Something you find in [[a trunk]] is [[a branch]]", 
+            "weight": 1.0
+        }
+    ]
+}

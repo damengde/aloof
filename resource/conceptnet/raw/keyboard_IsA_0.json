@@ -1,0 +1,306 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/keyboard&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/part_of_accordion/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/strand/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/strand"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/part_of_accordion", 
+                "@type": "Node", 
+                "label": "Part of an accordion", 
+                "language": "en", 
+                "term": "/c/en/part_of_accordion"
+            }, 
+            "surfaceText": "[[Part of an accordion]] is [[a keyboard]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/computer_keyboard/n/,/c/en/keyboard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/keyboard/n", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer_keyboard/n", 
+                "@type": "Node", 
+                "label": "computer keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/computer_keyboard"
+            }, 
+            "surfaceText": "[[computer keyboard]] is a type of [[keyboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/keyboard/n/,/c/en/device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/device/n", 
+                "@type": "Node", 
+                "label": "device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard/n", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "[[keyboard]] is a type of [[device]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/keyboard/n/,/c/en/holder/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/holder/n", 
+                "@type": "Node", 
+                "label": "holder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/holder"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard/n", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "[[keyboard]] is a type of [[holder]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/piano_keyboard/n/,/c/en/keyboard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/keyboard/n", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano_keyboard/n", 
+                "@type": "Node", 
+                "label": "piano keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/piano_keyboard"
+            }, 
+            "surfaceText": "[[piano keyboard]] is a type of [[keyboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/typewriter_keyboard/n/,/c/en/keyboard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/keyboard/n", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/typewriter_keyboard/n", 
+                "@type": "Node", 
+                "label": "typewriter keyboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/typewriter_keyboard"
+            }, 
+            "surfaceText": "[[typewriter keyboard]] is a type of [[keyboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/keyboard/,/c/en/input_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/input_device/n", 
+                "@type": "Node", 
+                "label": "input device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/input_device"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/qwerty/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/odin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/odin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/qwerty", 
+                "@type": "Node", 
+                "label": "qwerty", 
+                "language": "en", 
+                "term": "/c/en/qwerty"
+            }, 
+            "surfaceText": "[[qwerty]] is a type of [[keyboard]]", 
+            "weight": 1.0
+        }
+    ]
+}

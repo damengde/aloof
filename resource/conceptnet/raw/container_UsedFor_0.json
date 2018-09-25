@@ -1,0 +1,569 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/container&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/holding/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding", 
+                "@type": "Node", 
+                "label": "holding something", 
+                "language": "en", 
+                "term": "/c/en/holding"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/blueice2k3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/blueice2k3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eanderson2768/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/eanderson2768"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jp_stormer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jp_stormer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is used for [[holding something]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/containing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/containing", 
+                "@type": "Node", 
+                "label": "containing", 
+                "language": "en", 
+                "term": "/c/en/containing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/njmitch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/njmitch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wyattcwr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/wyattcwr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is used for [[containing]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/ease_in_transportation/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ease_in_transportation", 
+                "@type": "Node", 
+                "label": "ease in transportation", 
+                "language": "en", 
+                "term": "/c/en/ease_in_transportation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[ease in transportation]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/hiding_dead_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hiding_dead_things", 
+                "@type": "Node", 
+                "label": "hiding dead things", 
+                "language": "en", 
+                "term": "/c/en/hiding_dead_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[hiding dead things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/holding_precious_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_precious_things", 
+                "@type": "Node", 
+                "label": "holding precious things", 
+                "language": "en", 
+                "term": "/c/en/holding_precious_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[holding precious things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/holding_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_things", 
+                "@type": "Node", 
+                "label": "holding things", 
+                "language": "en", 
+                "term": "/c/en/holding_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eanderson2768/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eanderson2768"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is used for [[holding things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/hold_liquid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_liquid", 
+                "@type": "Node", 
+                "label": "hold liquid", 
+                "language": "en", 
+                "term": "/c/en/hold_liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/json/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/json"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "You can use [[a container]] to [[hold liquid]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/hold_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_things", 
+                "@type": "Node", 
+                "label": "hold things", 
+                "language": "en", 
+                "term": "/c/en/hold_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "You can use [[a container]] to [[hold things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/keeping_liquids_manageable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_liquids_manageable", 
+                "@type": "Node", 
+                "label": "keeping liquids manageable", 
+                "language": "en", 
+                "term": "/c/en/keeping_liquids_manageable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[keeping liquids manageable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/organization/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/organization", 
+                "@type": "Node", 
+                "label": "organization", 
+                "language": "en", 
+                "term": "/c/en/organization"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[organization]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/putting_things_into/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/putting_things_into", 
+                "@type": "Node", 
+                "label": "putting things into", 
+                "language": "en", 
+                "term": "/c/en/putting_things_into"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/novalyte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[putting things into]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/store_rice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_rice", 
+                "@type": "Node", 
+                "label": "store rice", 
+                "language": "en", 
+                "term": "/c/en/store_rice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "You can use [[a container]] to [[store rice]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/storing_goods/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_goods", 
+                "@type": "Node", 
+                "label": "storing goods", 
+                "language": "en", 
+                "term": "/c/en/storing_goods"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mif/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mif"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is used for [[storing goods]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/taking_things_out_of/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taking_things_out_of", 
+                "@type": "Node", 
+                "label": "taking things out of", 
+                "language": "en", 
+                "term": "/c/en/taking_things_out_of"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/novalyte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[taking things out of]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/container/,/c/en/washing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing", 
+                "@type": "Node", 
+                "label": "washing", 
+                "language": "en", 
+                "term": "/c/en/washing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/novalyte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[a container]] is for [[washing]]", 
+            "weight": 1.0
+        }
+    ]
+}

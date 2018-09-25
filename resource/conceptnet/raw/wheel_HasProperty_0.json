@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheel&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/wheel/,/c/en/circular/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/circular", 
+                "@type": "Node", 
+                "label": "circular", 
+                "language": "en", 
+                "term": "/c/en/circular"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/andrewg/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/andrewg"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheel", 
+                "@type": "Node", 
+                "label": "A wheel", 
+                "language": "en", 
+                "term": "/c/en/wheel"
+            }, 
+            "surfaceText": "[[A wheel]] is [[circular]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/wheel/,/c/en/one_of_basic_simple_machines/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_of_basic_simple_machines", 
+                "@type": "Node", 
+                "label": "one of the basic simple machines", 
+                "language": "en", 
+                "term": "/c/en/one_of_basic_simple_machines"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/erikglenn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/erikglenn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheel", 
+                "@type": "Node", 
+                "label": "A wheel", 
+                "language": "en", 
+                "term": "/c/en/wheel"
+            }, 
+            "surfaceText": "[[A wheel]] is [[one of the basic simple machines]]", 
+            "weight": 1.0
+        }
+    ]
+}

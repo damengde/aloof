@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/purse&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/purse/,/c/en/hold_money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_money", 
+                "@type": "Node", 
+                "label": "hold money", 
+                "language": "en", 
+                "term": "/c/en/hold_money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jamielaiche/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jamielaiche"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "A purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "surfaceText": "[[A purse]] can [[hold money]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/purse/,/c/en/hold_cosmetics/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_cosmetics", 
+                "@type": "Node", 
+                "label": "hold your cosmetics", 
+                "language": "en", 
+                "term": "/c/en/hold_cosmetics"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "a purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "surfaceText": "[[a purse]] can [[hold your cosmetics]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/purse/,/c/en/store_money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_money", 
+                "@type": "Node", 
+                "label": "store money", 
+                "language": "en", 
+                "term": "/c/en/store_money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/andyc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/andyc"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "a purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "surfaceText": "[[a purse]] can [[store money]]", 
+            "weight": 1.0
+        }
+    ]
+}

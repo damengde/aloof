@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pan&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/pan/,/c/en/heated_with_flame/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heated_with_flame", 
+                "@type": "Node", 
+                "label": "heated with a flame", 
+                "language": "en", 
+                "term": "/c/en/heated_with_flame"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pan", 
+                "@type": "Node", 
+                "label": "A pan", 
+                "language": "en", 
+                "term": "/c/en/pan"
+            }, 
+            "surfaceText": "[[A pan]] is [[heated with a flame]]", 
+            "weight": 1.0
+        }
+    ]
+}

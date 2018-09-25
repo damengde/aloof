@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/drawing&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/drawing/,/c/en/gallery_opening/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gallery_opening", 
+                "@type": "Node", 
+                "label": "a gallery opening", 
+                "language": "en", 
+                "term": "/c/en/gallery_opening"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drawing", 
+                "@type": "Node", 
+                "label": "a drawing", 
+                "language": "en", 
+                "term": "/c/en/drawing"
+            }, 
+            "surfaceText": "*Something you find at [[a gallery opening]] is [[a drawing]]", 
+            "weight": 1.0
+        }
+    ]
+}

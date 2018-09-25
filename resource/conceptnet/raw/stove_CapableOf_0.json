@@ -1,0 +1,493 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stove&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_food", 
+                "@type": "Node", 
+                "label": "heat food", 
+                "language": "en", 
+                "term": "/c/en/heat_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/debhotmac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/debhotmac"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/debhotmac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/debhotmac"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/graylady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/graylady"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[heat food]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/brown_meat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/brown_meat", 
+                "@type": "Node", 
+                "label": "brown meat", 
+                "language": "en", 
+                "term": "/c/en/brown_meat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eagleon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eagleon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[brown meat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/burn_child/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/burn_child", 
+                "@type": "Node", 
+                "label": "burn a child", 
+                "language": "en", 
+                "term": "/c/en/burn_child"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/paula/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/paula"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[burn a child]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/electric_or_natural_gas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electric_or_natural_gas", 
+                "@type": "Node", 
+                "label": "be electric or natural gas", 
+                "language": "en", 
+                "term": "/c/en/electric_or_natural_gas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kimberly/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kimberly"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[be electric or natural gas]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/gas_or_electric/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gas_or_electric", 
+                "@type": "Node", 
+                "label": "be gas or electric", 
+                "language": "en", 
+                "term": "/c/en/gas_or_electric"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[be gas or electric]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_can_of_beans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_can_of_beans", 
+                "@type": "Node", 
+                "label": "heat a can of beans", 
+                "language": "en", 
+                "term": "/c/en/heat_can_of_beans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rsyko23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rsyko23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[heat a can of beans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_house", 
+                "@type": "Node", 
+                "label": "heat a house", 
+                "language": "en", 
+                "term": "/c/en/heat_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alcinoe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alcinoe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[heat a house]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_meal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_meal", 
+                "@type": "Node", 
+                "label": "heat the meal", 
+                "language": "en", 
+                "term": "/c/en/heat_meal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/graylady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/graylady"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[heat the meal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_pot", 
+                "@type": "Node", 
+                "label": "heat a pot", 
+                "language": "en", 
+                "term": "/c/en/heat_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[heat a pot]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/heat_pot_of_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_pot_of_water", 
+                "@type": "Node", 
+                "label": "heat a pot of water", 
+                "language": "en", 
+                "term": "/c/en/heat_pot_of_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kazeus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kazeus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[heat a pot of water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/use_gas_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/use_gas_fire", 
+                "@type": "Node", 
+                "label": "use a gas fire", 
+                "language": "en", 
+                "term": "/c/en/use_gas_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/erikglenn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/erikglenn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "A stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[A stove]] can [[use a gas fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/warm_pot_of_beans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_pot_of_beans", 
+                "@type": "Node", 
+                "label": "warm a pot of beans", 
+                "language": "en", 
+                "term": "/c/en/warm_pot_of_beans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "a stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[a stove]] can [[warm a pot of beans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stove/,/c/en/warm_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_room", 
+                "@type": "Node", 
+                "label": "warm a room", 
+                "language": "en", 
+                "term": "/c/en/warm_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/emre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/emre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "surfaceText": "[[stove]] can [[warm a room]]", 
+            "weight": 1.0
+        }
+    ]
+}

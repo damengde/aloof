@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/glass&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/glass/,/c/en/reflective_qualitities/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reflective_qualitities", 
+                "@type": "Node", 
+                "label": "reflective qualitities", 
+                "language": "en", 
+                "term": "/c/en/reflective_qualitities"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass", 
+                "@type": "Node", 
+                "label": "Glass", 
+                "language": "en", 
+                "term": "/c/en/glass"
+            }, 
+            "surfaceText": "[[Glass]] has [[reflective qualitities]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/glass/,/c/en/refractive_index/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/refractive_index", 
+                "@type": "Node", 
+                "label": "a refractive index", 
+                "language": "en", 
+                "term": "/c/en/refractive_index"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alanw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alanw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass", 
+                "@type": "Node", 
+                "label": "glass", 
+                "language": "en", 
+                "term": "/c/en/glass"
+            }, 
+            "surfaceText": "[[glass]] has [[a refractive index]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/glass/,/c/en/resonant_frequency/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/resonant_frequency", 
+                "@type": "Node", 
+                "label": "a resonant frequency", 
+                "language": "en", 
+                "term": "/c/en/resonant_frequency"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uberliz23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uberliz23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass", 
+                "@type": "Node", 
+                "label": "A glass", 
+                "language": "en", 
+                "term": "/c/en/glass"
+            }, 
+            "surfaceText": "[[A glass]] has [[a resonant frequency]]", 
+            "weight": 1.0
+        }
+    ]
+}

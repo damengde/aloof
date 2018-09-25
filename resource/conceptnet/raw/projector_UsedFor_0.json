@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/projector&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/projector/,/c/en/show_presentations/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/show_presentations", 
+                "@type": "Node", 
+                "label": "show presentations", 
+                "language": "en", 
+                "term": "/c/en/show_presentations"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/projector", 
+                "@type": "Node", 
+                "label": "a projector", 
+                "language": "en", 
+                "term": "/c/en/projector"
+            }, 
+            "surfaceText": "You can use [[a projector]] to [[show presentations]]", 
+            "weight": 1.0
+        }
+    ]
+}

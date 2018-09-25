@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/potato&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/potato/,/c/en/eating/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eating", 
+                "@type": "Node", 
+                "label": "eating", 
+                "language": "en", 
+                "term": "/c/en/eating"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dchait/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dchait"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "[[a potato]] is used for [[eating]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/potato/,/c/en/power_special_clock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power_special_clock", 
+                "@type": "Node", 
+                "label": "power a special clock", 
+                "language": "en", 
+                "term": "/c/en/power_special_clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "You can use [[a potato]] to [[power a special clock]]", 
+            "weight": 1.0
+        }
+    ]
+}

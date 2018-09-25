@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/motor&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/motor/,/c/en/repair_shop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/repair_shop", 
+                "@type": "Node", 
+                "label": "the repair shop", 
+                "language": "en", 
+                "term": "/c/en/repair_shop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "a motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "surfaceText": "*Something you find at [[the repair shop]] is [[a motor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stop/,/c/en/motor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "a motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cygnusmage/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cygnusmage"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stop", 
+                "@type": "Node", 
+                "label": "a stop", 
+                "language": "en", 
+                "term": "/c/en/stop"
+            }, 
+            "surfaceText": "You are likely to find [[a stop]] in [[a motor]]", 
+            "weight": 1.0
+        }
+    ]
+}

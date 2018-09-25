@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spice_rack&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spice_rack/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "the kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/rk250/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/rk250"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spice_rack", 
+                "@type": "Node", 
+                "label": "a spice-rack", 
+                "language": "en", 
+                "term": "/c/en/spice_rack"
+            }, 
+            "surfaceText": "*Something you find in [[the kitchen]] is [[a spice-rack]]", 
+            "weight": 1.0
+        }
+    ]
+}

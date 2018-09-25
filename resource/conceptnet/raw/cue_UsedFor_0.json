@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cue&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cue/,/c/en/billiards/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/billiards", 
+                "@type": "Node", 
+                "label": "billiards", 
+                "language": "en", 
+                "term": "/c/en/billiards"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/walterbauer3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/walterbauer3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cue", 
+                "@type": "Node", 
+                "label": "Cue", 
+                "language": "en", 
+                "term": "/c/en/cue"
+            }, 
+            "surfaceText": "[[Cue]] is used for [[billiards]]", 
+            "weight": 1.0
+        }
+    ]
+}

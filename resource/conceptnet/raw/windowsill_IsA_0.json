@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/windowsill&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/windowsill/n/,/c/en/sill/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sill/n", 
+                "@type": "Node", 
+                "label": "sill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/windowsill/n", 
+                "@type": "Node", 
+                "label": "windowsill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/windowsill"
+            }, 
+            "surfaceText": "[[windowsill]] is a type of [[sill]]", 
+            "weight": 2.0
+        }
+    ]
+}

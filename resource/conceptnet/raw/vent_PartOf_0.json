@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vent&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/vent/n/,/c/en/air_passage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/air_passage/n", 
+                "@type": "Node", 
+                "label": "air passage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_passage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vent/n", 
+                "@type": "Node", 
+                "label": "vent", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vent"
+            }, 
+            "surfaceText": "[[vent]] is a part of [[air passage]]", 
+            "weight": 2.0
+        }
+    ]
+}

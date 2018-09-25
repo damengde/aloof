@@ -1,0 +1,294 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vessel&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/ocean/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ocean", 
+                "@type": "Node", 
+                "label": "the ocean", 
+                "language": "en", 
+                "term": "/c/en/ocean"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[the ocean]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/body/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/body", 
+                "@type": "Node", 
+                "label": "your body", 
+                "language": "en", 
+                "term": "/c/en/body"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[your body]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/harbor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/harbor", 
+                "@type": "Node", 
+                "label": "a harbor", 
+                "language": "en", 
+                "term": "/c/en/harbor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dtreybig/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dtreybig"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[a harbor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home", 
+                "@type": "Node", 
+                "label": "a home", 
+                "language": "en", 
+                "term": "/c/en/home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[a home]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/human_body/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/human_body", 
+                "@type": "Node", 
+                "label": "the human body", 
+                "language": "en", 
+                "term": "/c/en/human_body"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steveh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/steveh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[the human body]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/port/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/port", 
+                "@type": "Node", 
+                "label": "port", 
+                "language": "en", 
+                "term": "/c/en/port"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[port]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/sea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sea", 
+                "@type": "Node", 
+                "label": "the sea", 
+                "language": "en", 
+                "term": "/c/en/sea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[the sea]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vessel/,/c/en/streets/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/streets", 
+                "@type": "Node", 
+                "label": "streets", 
+                "language": "en", 
+                "term": "/c/en/streets"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gr0ve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gr0ve"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "You are likely to find [[a vessel]] in [[streets]]", 
+            "weight": 1.0
+        }
+    ]
+}

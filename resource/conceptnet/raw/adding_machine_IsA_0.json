@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/adding_machine&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/adding_machine/n/,/c/en/calculator/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/calculator/n", 
+                "@type": "Node", 
+                "label": "calculator", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/calculator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adding_machine/n", 
+                "@type": "Node", 
+                "label": "adding machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/adding_machine"
+            }, 
+            "surfaceText": "[[adding machine]] is a type of [[calculator]]", 
+            "weight": 2.0
+        }
+    ]
+}

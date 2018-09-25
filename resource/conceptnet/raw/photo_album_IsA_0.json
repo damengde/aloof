@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/photo_album&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo_album/n/,/c/en/scrapbook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/scrapbook/n", 
+                "@type": "Node", 
+                "label": "scrapbook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scrapbook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo_album/n", 
+                "@type": "Node", 
+                "label": "photo album", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo_album"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo_album/,/c/en/album/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/album/n", 
+                "@type": "Node", 
+                "label": "album", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/album"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo_album", 
+                "@type": "Node", 
+                "label": "photo album", 
+                "language": "en", 
+                "term": "/c/en/photo_album"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

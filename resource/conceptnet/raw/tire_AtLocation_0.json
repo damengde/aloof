@@ -1,0 +1,183 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tire&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tire/,/c/en/bus_depot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bus_depot", 
+                "@type": "Node", 
+                "label": "a bus depot", 
+                "language": "en", 
+                "term": "/c/en/bus_depot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "a tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "*Something you find at [[a bus depot]] is [[a tire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tire/,/c/en/car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "a car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conspiratrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/conspiratrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "a tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "Somewhere [[a tire]] can be is on [[a car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tire/,/c/en/car_show/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car_show", 
+                "@type": "Node", 
+                "label": "a car show", 
+                "language": "en", 
+                "term": "/c/en/car_show"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "a tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "*Something you find at [[a car show]] is [[a tire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tire/,/c/en/garage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "the garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "a tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "*Something you find in [[the garage]] is [[a tire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tire/,/c/en/trunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trunk", 
+                "@type": "Node", 
+                "label": "a trunk", 
+                "language": "en", 
+                "term": "/c/en/trunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/toji/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/toji"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "*Something you find in [[a trunk]] is [[tire]]", 
+            "weight": 1.0
+        }
+    ]
+}

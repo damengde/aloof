@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spanner&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/spanner/,/c/en/useful_for_fixing_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_fixing_car", 
+                "@type": "Node", 
+                "label": "useful for fixing a car", 
+                "language": "en", 
+                "term": "/c/en/useful_for_fixing_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spanner", 
+                "@type": "Node", 
+                "label": "A spanner", 
+                "language": "en", 
+                "term": "/c/en/spanner"
+            }, 
+            "surfaceText": "[[A spanner]] is [[useful for fixing a car]]", 
+            "weight": 1.0
+        }
+    ]
+}

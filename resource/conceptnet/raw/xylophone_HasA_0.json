@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/xylophone&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/xylophone/,/c/en/two_rows_of_wooden_bars/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/two_rows_of_wooden_bars", 
+                "@type": "Node", 
+                "label": "two rows of wooden bars", 
+                "language": "en", 
+                "term": "/c/en/two_rows_of_wooden_bars"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/xylophone", 
+                "@type": "Node", 
+                "label": "A xylophone", 
+                "language": "en", 
+                "term": "/c/en/xylophone"
+            }, 
+            "surfaceText": "[[A xylophone]] has [[two rows of wooden bars]]", 
+            "weight": 1.0
+        }
+    ]
+}

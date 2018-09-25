@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/deer&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/deer/,/c/en/four_legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/four_legs", 
+                "@type": "Node", 
+                "label": "four legs", 
+                "language": "en", 
+                "term": "/c/en/four_legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bfgx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bfgx"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bfgx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bfgx"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "a deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "[[a deer]] has [[four legs]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/deer/,/c/en/head/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/head", 
+                "@type": "Node", 
+                "label": "a head", 
+                "language": "en", 
+                "term": "/c/en/head"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bfgx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bfgx"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "A deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "[[A deer]] has [[a head]]", 
+            "weight": 1.0
+        }
+    ]
+}

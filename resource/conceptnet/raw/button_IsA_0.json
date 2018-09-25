@@ -1,0 +1,805 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/button&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/,/c/en/fastening/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fastening", 
+                "@type": "Node", 
+                "label": "fastening", 
+                "language": "en", 
+                "term": "/c/en/fastening"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "a button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[a button]] is a kind of [[fastening]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/artifact/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/artifact/n", 
+                "@type": "Node", 
+                "label": "artifact", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artifact"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is a type of [[artifact]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/badge/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/badge/n", 
+                "@type": "Node", 
+                "label": "badge", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/badge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is a type of [[badge]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/fastener/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fastener/n", 
+                "@type": "Node", 
+                "label": "fastener", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fastener"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is a type of [[fastener]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/plant_part/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plant_part/n", 
+                "@type": "Node", 
+                "label": "plant part", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant_part"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "[[button]] is a type of [[plant part]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coat_button/n/,/c/en/button/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coat_button/n", 
+                "@type": "Node", 
+                "label": "coat button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coat_button"
+            }, 
+            "surfaceText": "[[coat button]] is a type of [[button]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shirt_button/n/,/c/en/button/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shirt_button/n", 
+                "@type": "Node", 
+                "label": "shirt button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shirt_button"
+            }, 
+            "surfaceText": "[[shirt button]] is a type of [[button]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/de/closure/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/closure", 
+                "@type": "Node", 
+                "label": "closure", 
+                "language": "de", 
+                "term": "/c/de/closure"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/badge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/badge", 
+                "@type": "Node", 
+                "label": "badge", 
+                "language": "en", 
+                "term": "/c/en/badge"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/connector/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/connector/n", 
+                "@type": "Node", 
+                "label": "connector", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/connector"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/control_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/control_device/n", 
+                "@type": "Node", 
+                "label": "control device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/control_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/fastening/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/fastening", 
+                "@type": "Node", 
+                "label": "fastening", 
+                "language": "en", 
+                "term": "/c/en/fastening"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/mechanical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mechanical_device/n", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/n/,/c/en/widget/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/widget", 
+                "@type": "Node", 
+                "label": "widget", 
+                "language": "en", 
+                "term": "/c/en/widget"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/v/,/c/de/fasten/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/fasten", 
+                "@type": "Node", 
+                "label": "fasten", 
+                "language": "de", 
+                "term": "/c/de/fasten"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/v", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/button/v/,/c/en/close/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/close", 
+                "@type": "Node", 
+                "label": "close", 
+                "language": "en", 
+                "term": "/c/en/close"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button/v", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electrical_button/n/,/c/en/button/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electrical_button/n", 
+                "@type": "Node", 
+                "label": "electrical button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electrical_button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/key/n/,/c/en/button/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/key/n", 
+                "@type": "Node", 
+                "label": "key", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/key"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/radio_button/n/,/c/en/button/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio_button/n", 
+                "@type": "Node", 
+                "label": "radio button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radio_button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shirt_button/n/,/c/en/button/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shirt_button/n", 
+                "@type": "Node", 
+                "label": "shirt button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shirt_button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/snap_button/,/c/en/button/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/button/n", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snap_button", 
+                "@type": "Node", 
+                "label": "snap button", 
+                "language": "en", 
+                "term": "/c/en/snap_button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stay_button/n/,/c/en/button/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stay_button/n", 
+                "@type": "Node", 
+                "label": "stay button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stay_button"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

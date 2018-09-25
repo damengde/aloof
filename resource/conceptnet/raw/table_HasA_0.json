@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/table&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/dining_room/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dining_room", 
+                "@type": "Node", 
+                "label": "A dining room", 
+                "language": "en", 
+                "term": "/c/en/dining_room"
+            }, 
+            "surfaceText": "[[A dining room]] contains [[a table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/doctor_examination_room/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doctor_examination_room", 
+                "@type": "Node", 
+                "label": "A doctor examination room", 
+                "language": "en", 
+                "term": "/c/en/doctor_examination_room"
+            }, 
+            "surfaceText": "[[A doctor examination room]] contains [[a table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/table/,/c/en/legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/legs", 
+                "@type": "Node", 
+                "label": "legs", 
+                "language": "en", 
+                "term": "/c/en/legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "A table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "surfaceText": "[[A table]] has [[legs]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mobile_phone&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mobile_phone/,/c/en/communication/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/communication", 
+                "@type": "Node", 
+                "label": "communication", 
+                "language": "en", 
+                "term": "/c/en/communication"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/foo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/foo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mobile_phone", 
+                "@type": "Node", 
+                "label": "a mobile phone", 
+                "language": "en", 
+                "term": "/c/en/mobile_phone"
+            }, 
+            "surfaceText": "[[a mobile phone]] is for [[communication]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mobile_phone/,/c/en/making_calls_from_remote_places/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_calls_from_remote_places", 
+                "@type": "Node", 
+                "label": "making calls from remote places", 
+                "language": "en", 
+                "term": "/c/en/making_calls_from_remote_places"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/borsuuk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/borsuuk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mobile_phone", 
+                "@type": "Node", 
+                "label": "A mobile phone", 
+                "language": "en", 
+                "term": "/c/en/mobile_phone"
+            }, 
+            "surfaceText": "[[A mobile phone]] is used for [[making calls from remote places]]", 
+            "weight": 1.0
+        }
+    ]
+}

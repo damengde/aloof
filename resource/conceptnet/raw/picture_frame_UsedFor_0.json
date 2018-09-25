@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/picture_frame&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mat/,/c/en/picture_frame/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/picture_frame", 
+                "@type": "Node", 
+                "label": "picture frame", 
+                "language": "en", 
+                "term": "/c/en/picture_frame"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vdoma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vdoma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mat", 
+                "@type": "Node", 
+                "label": "a mat", 
+                "language": "en", 
+                "term": "/c/en/mat"
+            }, 
+            "surfaceText": "You can use [[a mat]] to [[picture frame]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/picture_frame/,/c/en/displaying_photos/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/displaying_photos", 
+                "@type": "Node", 
+                "label": "displaying photos", 
+                "language": "en", 
+                "term": "/c/en/displaying_photos"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/picture_frame", 
+                "@type": "Node", 
+                "label": "a picture frame", 
+                "language": "en", 
+                "term": "/c/en/picture_frame"
+            }, 
+            "surfaceText": "[[a picture frame]] is used for [[displaying photos]]", 
+            "weight": 1.0
+        }
+    ]
+}

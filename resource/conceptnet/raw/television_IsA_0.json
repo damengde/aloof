@@ -1,0 +1,927 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/television&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/good_way_to_spend_time/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_way_to_spend_time", 
+                "@type": "Node", 
+                "label": "a good way to spend time", 
+                "language": "en", 
+                "term": "/c/en/good_way_to_spend_time"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cpg0000/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cpg0000"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is [[a good way to spend time]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/appliance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/appliance", 
+                "@type": "Node", 
+                "label": "an appliance", 
+                "language": "en", 
+                "term": "/c/en/appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/timeslicer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/timeslicer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/brainmagmo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/brainmagmo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffmuir"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "a television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[a television]] is [[an appliance]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cable/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cable/n", 
+                "@type": "Node", 
+                "label": "cable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cable"
+            }, 
+            "surfaceText": "[[cable]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cable_television/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cable_television/n", 
+                "@type": "Node", 
+                "label": "cable television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cable_television"
+            }, 
+            "surfaceText": "[[cable television]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/closed_circuit_television/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/closed_circuit_television/n", 
+                "@type": "Node", 
+                "label": "closed-circuit television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/closed_circuit_television"
+            }, 
+            "surfaceText": "[[closed-circuit television]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/color_television/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/color_television/n", 
+                "@type": "Node", 
+                "label": "color television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/color_television"
+            }, 
+            "surfaceText": "[[color television]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/high_definition_television/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/high_definition_television/n", 
+                "@type": "Node", 
+                "label": "high-definition television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/high_definition_television"
+            }, 
+            "surfaceText": "[[high-definition television]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/satellite_television/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/satellite_television/n", 
+                "@type": "Node", 
+                "label": "satellite television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/satellite_television"
+            }, 
+            "surfaceText": "[[satellite television]] is a type of [[television]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/machine", 
+                "@type": "Node", 
+                "label": "a machine", 
+                "language": "en", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "A television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[A television]] is [[a machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/tv/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tv", 
+                "@type": "Node", 
+                "label": "TV", 
+                "language": "en", 
+                "term": "/c/en/tv"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alls0p69/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alls0p69"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is [[TV]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/n/,/c/en/broadcasting/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/broadcasting/n", 
+                "@type": "Node", 
+                "label": "broadcasting", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/broadcasting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is a type of [[broadcasting]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/n/,/c/en/telecommunication_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telecommunication_system/n", 
+                "@type": "Node", 
+                "label": "telecommunication system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telecommunication_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is a type of [[telecommunication system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_inside/,/c/en/television/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "a television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xtat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xtat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_inside", 
+                "@type": "Node", 
+                "label": "Something you find inside", 
+                "language": "en", 
+                "term": "/c/en/find_inside"
+            }, 
+            "surfaceText": "[[Something you find inside]] is [[a television]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/broadcast_medium/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/broadcast_medium", 
+                "@type": "Node", 
+                "label": "a broadcast medium", 
+                "language": "en", 
+                "term": "/c/en/broadcast_medium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a broadcast medium]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/device", 
+                "@type": "Node", 
+                "label": "a device", 
+                "language": "en", 
+                "term": "/c/en/device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "a television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[a television]] is [[a device]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/electronic_medium/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electronic_medium", 
+                "@type": "Node", 
+                "label": "an electronic medium", 
+                "language": "en", 
+                "term": "/c/en/electronic_medium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is [[an electronic medium]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/form_of_communication/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_communication", 
+                "@type": "Node", 
+                "label": "a form of communication", 
+                "language": "en", 
+                "term": "/c/en/form_of_communication"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryageorge/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryageorge"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a form of communication]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/form_of_entertainment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_entertainment", 
+                "@type": "Node", 
+                "label": "a form of entertainment", 
+                "language": "en", 
+                "term": "/c/en/form_of_entertainment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/weavela/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/weavela"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a form of entertainment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/form_of_media/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_media", 
+                "@type": "Node", 
+                "label": "a form of Media", 
+                "language": "en", 
+                "term": "/c/en/form_of_media"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a form of Media]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/free_entertainment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/free_entertainment", 
+                "@type": "Node", 
+                "label": "free entertainment", 
+                "language": "en", 
+                "term": "/c/en/free_entertainment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/verhoho/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/verhoho"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[free entertainment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/means_of_communication/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/means_of_communication", 
+                "@type": "Node", 
+                "label": "a means of communication", 
+                "language": "en", 
+                "term": "/c/en/means_of_communication"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rfs/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rfs"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[television]] is [[a means of communication]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/multi_media_outlet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/multi_media_outlet", 
+                "@type": "Node", 
+                "label": "a multi media outlet", 
+                "language": "en", 
+                "term": "/c/en/multi_media_outlet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/billybob69/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/billybob69"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a multi media outlet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/passive_medium/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/passive_medium", 
+                "@type": "Node", 
+                "label": "a passive medium", 
+                "language": "en", 
+                "term": "/c/en/passive_medium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a passive medium]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/visual_and_auditory_medium/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/visual_and_auditory_medium", 
+                "@type": "Node", 
+                "label": "a visual and auditory medium", 
+                "language": "en", 
+                "term": "/c/en/visual_and_auditory_medium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/ssmith04/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/ssmith04"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a visual and auditory medium]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/television/,/c/en/way_to_recieve_information_volitionally/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/way_to_recieve_information_volitionally", 
+                "@type": "Node", 
+                "label": "a way to recieve information volitionally", 
+                "language": "en", 
+                "term": "/c/en/way_to_recieve_information_volitionally"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/television", 
+                "@type": "Node", 
+                "label": "Television", 
+                "language": "en", 
+                "term": "/c/en/television"
+            }, 
+            "surfaceText": "[[Television]] is [[a way to recieve information volitionally]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trestle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/trestle/n/,/c/en/bridge/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bridge/n", 
+                "@type": "Node", 
+                "label": "bridge", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trestle/n", 
+                "@type": "Node", 
+                "label": "trestle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trestle"
+            }, 
+            "surfaceText": "[[trestle]] is a part of [[bridge]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/trestle/n/,/c/en/trestle_table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/trestle_table/n", 
+                "@type": "Node", 
+                "label": "trestle table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trestle_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trestle/n", 
+                "@type": "Node", 
+                "label": "trestle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trestle"
+            }, 
+            "surfaceText": "[[trestle]] is a part of [[trestle table]]", 
+            "weight": 2.0
+        }
+    ]
+}

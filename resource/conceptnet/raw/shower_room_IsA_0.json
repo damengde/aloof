@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_room&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_room/n/,/c/en/room/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/room/n", 
+                "@type": "Node", 
+                "label": "room", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_room/n", 
+                "@type": "Node", 
+                "label": "shower room", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_room"
+            }, 
+            "surfaceText": "[[shower room]] is a type of [[room]]", 
+            "weight": 2.0
+        }
+    ]
+}

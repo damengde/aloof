@@ -1,0 +1,479 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pineapple&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/,/c/en/fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rose876/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rose876"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thirbijar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thirbijar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/andreicnx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/andreicnx"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/natura1ist/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/natura1ist"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pedrompereira/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pedrompereira"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thirbijar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/thirbijar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple", 
+                "@type": "Node", 
+                "label": "Pineapple", 
+                "language": "en", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": "[[Pineapple]] is a type of [[fruit]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/herb/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/herb/n", 
+                "@type": "Node", 
+                "label": "herb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/herb"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": "[[pineapple]] is a type of [[herb]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/,/c/en/citrus_fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/citrus_fruit", 
+                "@type": "Node", 
+                "label": "a citrus fruit", 
+                "language": "en", 
+                "term": "/c/en/citrus_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/deityboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/deityboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple", 
+                "@type": "Node", 
+                "label": "Pineapple", 
+                "language": "en", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": "[[Pineapple]] is [[a citrus fruit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/bromeliad/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bromeliad/n", 
+                "@type": "Node", 
+                "label": "bromeliad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bromeliad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/edible_fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/edible_fruit/n", 
+                "@type": "Node", 
+                "label": "edible fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/edible_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/living_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/living_thing/n", 
+                "@type": "Node", 
+                "label": "living thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/living_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/multiple_fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/multiple_fruit/n", 
+                "@type": "Node", 
+                "label": "multiple fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/multiple_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/shaped_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/shaped_thing/n", 
+                "@type": "Node", 
+                "label": "shaped thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shaped_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/solid_food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/solid_food/n", 
+                "@type": "Node", 
+                "label": "solid food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/solid_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/n/,/c/en/tangible_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tangible_thing/n", 
+                "@type": "Node", 
+                "label": "tangible thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tangible_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple/n", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pineapple/,/c/en/plant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/plant/n", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple", 
+                "@type": "Node", 
+                "label": "pineapple", 
+                "language": "en", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

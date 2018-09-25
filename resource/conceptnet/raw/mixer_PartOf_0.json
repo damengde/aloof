@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mixer&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mixer/n/,/c/en/mixed_drink/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mixed_drink/n", 
+                "@type": "Node", 
+                "label": "mixed drink", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mixed_drink"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mixer/n", 
+                "@type": "Node", 
+                "label": "mixer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mixer"
+            }, 
+            "surfaceText": "[[mixer]] is a part of [[mixed drink]]", 
+            "weight": 2.0
+        }
+    ]
+}

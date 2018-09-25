@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffee_table&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coffee_table/,/c/en/small_type_of_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/small_type_of_table", 
+                "@type": "Node", 
+                "label": "a small type of table", 
+                "language": "en", 
+                "term": "/c/en/small_type_of_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eldalamber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eldalamber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "[[a coffee table]] is [[a small type of table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coffee_table/n/,/c/en/table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/table/n", 
+                "@type": "Node", 
+                "label": "table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table/n", 
+                "@type": "Node", 
+                "label": "coffee table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

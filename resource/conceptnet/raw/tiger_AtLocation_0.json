@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tiger&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tiger/,/c/en/zoo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/zoo", 
+                "@type": "Node", 
+                "label": "the zoo", 
+                "language": "en", 
+                "term": "/c/en/zoo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/banebou/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/banebou"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "a tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "You are likely to find [[a tiger]] in [[the zoo]].", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tiger/,/c/en/india/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/india", 
+                "@type": "Node", 
+                "label": "India", 
+                "language": "en", 
+                "term": "/c/en/india"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/lucyfin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/lucyfin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "a tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "Somewhere [[a tiger]] can be is in [[India]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tiger/,/c/en/jungle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jungle", 
+                "@type": "Node", 
+                "label": "the jungle", 
+                "language": "en", 
+                "term": "/c/en/jungle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "a tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "You are likely to find [[a tiger]] in [[the jungle]]", 
+            "weight": 1.0
+        }
+    ]
+}

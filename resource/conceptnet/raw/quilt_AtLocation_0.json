@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/quilt&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/border/,/c/en/quilt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/quilt", 
+                "@type": "Node", 
+                "label": "a quilt", 
+                "language": "en", 
+                "term": "/c/en/quilt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jc"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/border", 
+                "@type": "Node", 
+                "label": "a border", 
+                "language": "en", 
+                "term": "/c/en/border"
+            }, 
+            "surfaceText": "You are likely to find [[a border]] in [[a quilt]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/quilt/,/c/en/trunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trunk", 
+                "@type": "Node", 
+                "label": "a trunk", 
+                "language": "en", 
+                "term": "/c/en/trunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/quilt", 
+                "@type": "Node", 
+                "label": "a quilt", 
+                "language": "en", 
+                "term": "/c/en/quilt"
+            }, 
+            "surfaceText": "*Something you find in [[a trunk]] is [[a quilt]]", 
+            "weight": 1.0
+        }
+    ]
+}

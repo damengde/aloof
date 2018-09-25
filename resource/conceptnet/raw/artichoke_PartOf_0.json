@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/artichoke&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/artichoke_heart/n/,/c/en/artichoke/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/artichoke/n", 
+                "@type": "Node", 
+                "label": "artichoke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artichoke"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/artichoke_heart/n", 
+                "@type": "Node", 
+                "label": "artichoke heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artichoke_heart"
+            }, 
+            "surfaceText": "[[artichoke heart]] is a part of [[artichoke]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/artichoke/n/,/c/en/artichoke/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/artichoke/n", 
+                "@type": "Node", 
+                "label": "artichoke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artichoke"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/artichoke/n", 
+                "@type": "Node", 
+                "label": "artichoke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/artichoke"
+            }, 
+            "surfaceText": "[[artichoke]] is a part of [[artichoke]]", 
+            "weight": 2.0
+        }
+    ]
+}

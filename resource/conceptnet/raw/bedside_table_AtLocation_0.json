@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bedside_table&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/rubber/,/c/en/bedside_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedside_table", 
+                "@type": "Node", 
+                "label": "a bedside table", 
+                "language": "en", 
+                "term": "/c/en/bedside_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pj"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/allens/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/allens"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rubber", 
+                "@type": "Node", 
+                "label": "a rubber", 
+                "language": "en", 
+                "term": "/c/en/rubber"
+            }, 
+            "surfaceText": "You are likely to find [[a rubber]] in [[a bedside table]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/book/,/c/en/bedside_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedside_table", 
+                "@type": "Node", 
+                "label": "your bedside table", 
+                "language": "en", 
+                "term": "/c/en/bedside_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "You are likely to find [[a book]] in [[your bedside table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/contraceptive_device/,/c/en/bedside_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedside_table", 
+                "@type": "Node", 
+                "label": "a bedside table", 
+                "language": "en", 
+                "term": "/c/en/bedside_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/allens/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/allens"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/contraceptive_device", 
+                "@type": "Node", 
+                "label": "a contraceptive device", 
+                "language": "en", 
+                "term": "/c/en/contraceptive_device"
+            }, 
+            "surfaceText": "You are likely to find [[a contraceptive device]] in [[a bedside table]]", 
+            "weight": 1.0
+        }
+    ]
+}

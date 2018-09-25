@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cell_phone&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/battery/,/c/en/cell_phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/templar314/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/templar314"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/battery", 
+                "@type": "Node", 
+                "label": "a battery", 
+                "language": "en", 
+                "term": "/c/en/battery"
+            }, 
+            "surfaceText": "*Something you find in [[a cell phone]] is [[a battery]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cell_phone/,/c/en/backpack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "*Something you find in [[a backpack]] is [[a cell phone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cell_phone/,/c/en/shelf/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shelf", 
+                "@type": "Node", 
+                "label": "the shelf", 
+                "language": "en", 
+                "term": "/c/en/shelf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "*Something you find on [[the shelf]] is [[a cell phone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/transistors/,/c/en/cell_phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/transistors", 
+                "@type": "Node", 
+                "label": "transistors", 
+                "language": "en", 
+                "term": "/c/en/transistors"
+            }, 
+            "surfaceText": "Somewhere [[transistors]] can be is in [[a cell phone]]", 
+            "weight": 1.0
+        }
+    ]
+}

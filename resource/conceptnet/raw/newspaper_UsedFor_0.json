@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/newspaper&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/newspaper/,/c/en/informing_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/informing_people", 
+                "@type": "Node", 
+                "label": "informing people", 
+                "language": "en", 
+                "term": "/c/en/informing_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] is used for [[informing people]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/newspaper/,/c/en/reading/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reading", 
+                "@type": "Node", 
+                "label": "reading", 
+                "language": "en", 
+                "term": "/c/en/reading"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] is for [[reading]]", 
+            "weight": 1.0
+        }
+    ]
+}

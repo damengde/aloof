@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/phonebook&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/addresses/,/c/en/phonebook/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/phonebook", 
+                "@type": "Node", 
+                "label": "a phonebook", 
+                "language": "en", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/addresses", 
+                "@type": "Node", 
+                "label": "addresses", 
+                "language": "en", 
+                "term": "/c/en/addresses"
+            }, 
+            "surfaceText": "You are likely to find [[addresses]] in [[a phonebook]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/number/,/c/en/phonebook/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/phonebook", 
+                "@type": "Node", 
+                "label": "a phonebook", 
+                "language": "en", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xerolooper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xerolooper"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/number", 
+                "@type": "Node", 
+                "label": "a number", 
+                "language": "en", 
+                "term": "/c/en/number"
+            }, 
+            "surfaceText": "You are likely to find [[a number]] in [[a phonebook]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/telephone_index/,/c/en/phonebook/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/phonebook", 
+                "@type": "Node", 
+                "label": "a phonebook", 
+                "language": "en", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rangerbaldwin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rangerbaldwin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_index", 
+                "@type": "Node", 
+                "label": "a telephone index", 
+                "language": "en", 
+                "term": "/c/en/telephone_index"
+            }, 
+            "surfaceText": "You are likely to find [[a telephone index]] in [[a phonebook]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/brick&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/brick/,/c/en/break_window/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/break_window", 
+                "@type": "Node", 
+                "label": "break a window", 
+                "language": "en", 
+                "term": "/c/en/break_window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcfleischer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcfleischer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brick", 
+                "@type": "Node", 
+                "label": "a brick", 
+                "language": "en", 
+                "term": "/c/en/brick"
+            }, 
+            "surfaceText": "[[a brick]] can [[break a window]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/brick/,/c/en/break_window_pane/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/break_window_pane", 
+                "@type": "Node", 
+                "label": "break that window pane", 
+                "language": "en", 
+                "term": "/c/en/break_window_pane"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brick", 
+                "@type": "Node", 
+                "label": "A brick", 
+                "language": "en", 
+                "term": "/c/en/brick"
+            }, 
+            "surfaceText": "[[A brick]] can [[break that window pane]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/brick/,/c/en/double_as_doorstop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/double_as_doorstop", 
+                "@type": "Node", 
+                "label": "double as a doorstop", 
+                "language": "en", 
+                "term": "/c/en/double_as_doorstop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/plankg2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/plankg2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brick", 
+                "@type": "Node", 
+                "label": "A brick", 
+                "language": "en", 
+                "term": "/c/en/brick"
+            }, 
+            "surfaceText": "[[A brick]] can [[double as a doorstop]]", 
+            "weight": 1.0
+        }
+    ]
+}

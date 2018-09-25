@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mobile&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mobile/n/,/c/en/alabama/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/alabama/n", 
+                "@type": "Node", 
+                "label": "Alabama", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alabama"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mobile/n", 
+                "@type": "Node", 
+                "label": "Mobile", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mobile"
+            }, 
+            "surfaceText": "[[Mobile]] is a part of [[Alabama]]", 
+            "weight": 2.0
+        }
+    ]
+}

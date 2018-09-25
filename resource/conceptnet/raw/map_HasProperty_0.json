@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/map&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/map/,/c/en/one_form_of_information/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_form_of_information", 
+                "@type": "Node", 
+                "label": "one form of information", 
+                "language": "en", 
+                "term": "/c/en/one_form_of_information"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "A map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "surfaceText": "[[A map]] is [[one form of information]]", 
+            "weight": 1.0
+        }
+    ]
+}

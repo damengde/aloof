@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffee_table&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/coffee_table/,/c/en/functional_or_decorative/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/functional_or_decorative", 
+                "@type": "Node", 
+                "label": "functional or decorative", 
+                "language": "en", 
+                "term": "/c/en/functional_or_decorative"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "A coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "surfaceText": "[[A coffee table]] can be [[functional or decorative]]", 
+            "weight": 1.0
+        }
+    ]
+}

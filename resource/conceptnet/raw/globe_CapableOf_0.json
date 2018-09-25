@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/globe&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/globe/,/c/en/warm_up/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_up", 
+                "@type": "Node", 
+                "label": "warm up", 
+                "language": "en", 
+                "term": "/c/en/warm_up"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "The globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[The globe]] can [[warm up]]", 
+            "weight": 1.0
+        }
+    ]
+}

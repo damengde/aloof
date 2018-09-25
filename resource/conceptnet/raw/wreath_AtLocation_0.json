@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wreath&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wreath/,/c/en/front_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/front_door", 
+                "@type": "Node", 
+                "label": "the front door", 
+                "language": "en", 
+                "term": "/c/en/front_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeeno/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeeno"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wreath", 
+                "@type": "Node", 
+                "label": "a wreath", 
+                "language": "en", 
+                "term": "/c/en/wreath"
+            }, 
+            "surfaceText": "*Something you find at [[the front door]] is [[a wreath]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wreath/,/c/en/funeral/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/funeral", 
+                "@type": "Node", 
+                "label": "a funeral", 
+                "language": "en", 
+                "term": "/c/en/funeral"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wreath", 
+                "@type": "Node", 
+                "label": "a wreath", 
+                "language": "en", 
+                "term": "/c/en/wreath"
+            }, 
+            "surfaceText": "*Something you find at [[a funeral]] is [[a wreath]]", 
+            "weight": 1.0
+        }
+    ]
+}

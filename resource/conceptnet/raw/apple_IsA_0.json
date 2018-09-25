@@ -1,0 +1,1122 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/apple&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/computer_brand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/computer_brand", 
+                "@type": "Node", 
+                "label": "computer brand", 
+                "language": "en", 
+                "term": "/c/en/computer_brand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/drk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/drk"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "Apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[Apple]] is a kind of [[computer brand]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/apple_tree/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/apple_tree/n", 
+                "@type": "Node", 
+                "label": "apple tree", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple_tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[apple]] is a type of [[apple tree]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/pome/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pome/n", 
+                "@type": "Node", 
+                "label": "pome", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pome"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[apple]] is a type of [[pome]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cooking_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cooking_apple/n", 
+                "@type": "Node", 
+                "label": "cooking apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooking_apple"
+            }, 
+            "surfaceText": "[[cooking apple]] is a type of [[apple]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/crab_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crab_apple/n", 
+                "@type": "Node", 
+                "label": "crab apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/crab_apple"
+            }, 
+            "surfaceText": "[[crab apple]] is a type of [[apple]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/eating_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/eating_apple/n", 
+                "@type": "Node", 
+                "label": "eating apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/eating_apple"
+            }, 
+            "surfaceText": "[[eating apple]] is a type of [[apple]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/adams_pearmain_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adams_pearmain_apple/n", 
+                "@type": "Node", 
+                "label": "adams pearmain apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/adams_pearmain_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ambrosia_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ambrosia_apple/n", 
+                "@type": "Node", 
+                "label": "ambrosia apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ambrosia_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/84_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/84_water", 
+                "@type": "Node", 
+                "label": "84% water", 
+                "language": "en", 
+                "term": "/c/en/84_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "An apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[An apple]] is [[84% water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/beautiful_golden_green_color/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beautiful_golden_green_color", 
+                "@type": "Node", 
+                "label": "a beautiful golden green color", 
+                "language": "en", 
+                "term": "/c/en/beautiful_golden_green_color"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "This apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[This apple]] is [[a beautiful golden green color]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/friut/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/friut", 
+                "@type": "Node", 
+                "label": "friut", 
+                "language": "en", 
+                "term": "/c/en/friut"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/ameraespil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/ameraespil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[apple]] is a [[friut]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/healthy_treat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/healthy_treat", 
+                "@type": "Node", 
+                "label": "a healthy treat", 
+                "language": "en", 
+                "term": "/c/en/healthy_treat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "An apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[An apple]] is [[a healthy treat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/piece_of_fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piece_of_fruit", 
+                "@type": "Node", 
+                "label": "a piece of fruit", 
+                "language": "en", 
+                "term": "/c/en/piece_of_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "an apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": "[[an apple]] is [[a piece of fruit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/pome/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/pome/n", 
+                "@type": "Node", 
+                "label": "pome", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pome"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/de/wood/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/wood", 
+                "@type": "Node", 
+                "label": "wood", 
+                "language": "de", 
+                "term": "/c/de/wood"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/accessory_fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/accessory_fruit/n", 
+                "@type": "Node", 
+                "label": "accessory fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/accessory_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/edible_fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/edible_fruit/n", 
+                "@type": "Node", 
+                "label": "edible fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/edible_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/fruit_tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/fruit_tree", 
+                "@type": "Node", 
+                "label": "fruit tree", 
+                "language": "en", 
+                "term": "/c/en/fruit_tree"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/n/,/c/en/tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/tree", 
+                "@type": "Node", 
+                "label": "tree", 
+                "language": "en", 
+                "term": "/c/en/tree"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/braeburn_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/braeburn_apple/n", 
+                "@type": "Node", 
+                "label": "braeburn apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/braeburn_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/crab_apple/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crab_apple", 
+                "@type": "Node", 
+                "label": "crab apple", 
+                "language": "en", 
+                "term": "/c/en/crab_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gala_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gala_apple/n", 
+                "@type": "Node", 
+                "label": "gala apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gala_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/golden_delicious_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/golden_delicious_apple/n", 
+                "@type": "Node", 
+                "label": "golden delicious apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/golden_delicious_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/granny_smith_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/granny_smith_apple/n", 
+                "@type": "Node", 
+                "label": "granny smith apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/granny_smith_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jazz_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jazz_apple/n", 
+                "@type": "Node", 
+                "label": "jazz apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jazz_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mcintosh_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mcintosh_apple/n", 
+                "@type": "Node", 
+                "label": "mcintosh apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mcintosh_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/one_kine_of_fruit/,/c/en/apple/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "an apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mmillier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mmillier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/one_kine_of_fruit", 
+                "@type": "Node", 
+                "label": "One kine of fruit", 
+                "language": "en", 
+                "term": "/c/en/one_kine_of_fruit"
+            }, 
+            "surfaceText": "[[One kine of fruit]] is [[an apple]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pippin/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pippin", 
+                "@type": "Node", 
+                "label": "pippin", 
+                "language": "en", 
+                "term": "/c/en/pippin"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/red_delicious_apple/n/,/c/en/apple/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/apple/n", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/red_delicious_apple/n", 
+                "@type": "Node", 
+                "label": "red delicious apple", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/red_delicious_apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/apple/,/c/en/plant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/plant/n", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/apple", 
+                "@type": "Node", 
+                "label": "apple", 
+                "language": "en", 
+                "term": "/c/en/apple"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

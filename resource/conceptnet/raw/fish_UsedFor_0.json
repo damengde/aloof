@@ -1,0 +1,447 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fish&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ocean/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "the fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/djuber"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/poptarts/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/poptarts"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ocean", 
+                "@type": "Node", 
+                "label": "the ocean", 
+                "language": "en", 
+                "term": "/c/en/ocean"
+            }, 
+            "surfaceText": "[[the ocean]] is for [[the fish]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/aquarium/n/,/c/en/fish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fish/n", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/aquarium/n", 
+                "@type": "Node", 
+                "label": "aquarium", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/aquarium"
+            }, 
+            "surfaceText": "[[aquarium]] is used for the benefit of [[fish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pond/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shesse"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pond", 
+                "@type": "Node", 
+                "label": "a pond", 
+                "language": "en", 
+                "term": "/c/en/pond"
+            }, 
+            "surfaceText": "You can use [[a pond]] to [[fish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/aquarium/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/aquarium", 
+                "@type": "Node", 
+                "label": "an aquarium", 
+                "language": "en", 
+                "term": "/c/en/aquarium"
+            }, 
+            "surfaceText": "[[an aquarium]] is for [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/brook/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wyndsome/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wyndsome"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brook", 
+                "@type": "Node", 
+                "label": "a brook", 
+                "language": "en", 
+                "term": "/c/en/brook"
+            }, 
+            "surfaceText": "You can use [[a brook]] to [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fishing_rod/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/aranyusuf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/aranyusuf"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fishing_rod", 
+                "@type": "Node", 
+                "label": "fishing rod", 
+                "language": "en", 
+                "term": "/c/en/fishing_rod"
+            }, 
+            "surfaceText": "*When you want to [[fish]], you will use [[fishing rod]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/indian_ocean/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/indian_ocean", 
+                "@type": "Node", 
+                "label": "the Indian Ocean", 
+                "language": "en", 
+                "term": "/c/en/indian_ocean"
+            }, 
+            "surfaceText": "You can use [[the Indian Ocean]] to [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/island/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/island", 
+                "@type": "Node", 
+                "label": "an island", 
+                "language": "en", 
+                "term": "/c/en/island"
+            }, 
+            "surfaceText": "You can use [[an island]] to [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lake/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xtat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xtat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lake", 
+                "@type": "Node", 
+                "label": "a lake", 
+                "language": "en", 
+                "term": "/c/en/lake"
+            }, 
+            "surfaceText": "You can use [[a lake]] to [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/line/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/line", 
+                "@type": "Node", 
+                "label": "a line", 
+                "language": "en", 
+                "term": "/c/en/line"
+            }, 
+            "surfaceText": "You can use [[a line]] to [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/scale/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scale", 
+                "@type": "Node", 
+                "label": "a scale", 
+                "language": "en", 
+                "term": "/c/en/scale"
+            }, 
+            "surfaceText": "[[a scale]] is for [[fish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/swimming/,/c/en/fish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/allford/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/allford"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming", 
+                "@type": "Node", 
+                "label": "swimming", 
+                "language": "en", 
+                "term": "/c/en/swimming"
+            }, 
+            "surfaceText": "[[swimming]] is for [[fish]]", 
+            "weight": 1.0
+        }
+    ]
+}

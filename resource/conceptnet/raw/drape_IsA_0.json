@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/drape&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/drape/n/,/c/en/covering/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/covering/n", 
+                "@type": "Node", 
+                "label": "covering", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/covering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drape/n", 
+                "@type": "Node", 
+                "label": "drape", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drape"
+            }, 
+            "surfaceText": "[[drape]] is a type of [[covering]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/drape/n/,/c/en/manner/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/manner/n", 
+                "@type": "Node", 
+                "label": "manner", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/manner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drape/n", 
+                "@type": "Node", 
+                "label": "drape", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drape"
+            }, 
+            "surfaceText": "[[drape]] is a type of [[manner]]", 
+            "weight": 2.0
+        }
+    ]
+}

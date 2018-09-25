@@ -1,0 +1,207 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hair_dryer&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_dryer/,/c/en/bathroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathroom", 
+                "@type": "Node", 
+                "label": "someone's bathroom", 
+                "language": "en", 
+                "term": "/c/en/bathroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pj"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wolfie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wolfie"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xerolooper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xerolooper"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tchadbou/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tchadbou"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wolfie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/wolfie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hair_dryer", 
+                "@type": "Node", 
+                "label": "a hair dryer", 
+                "language": "en", 
+                "term": "/c/en/hair_dryer"
+            }, 
+            "surfaceText": "You are likely to find [[a hair dryer]] in [[someone's bathroom]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_dryer/,/c/en/beauty_salon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beauty_salon", 
+                "@type": "Node", 
+                "label": "a beauty salon", 
+                "language": "en", 
+                "term": "/c/en/beauty_salon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/circe3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/circe3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hair_dryer", 
+                "@type": "Node", 
+                "label": "a hair dryer", 
+                "language": "en", 
+                "term": "/c/en/hair_dryer"
+            }, 
+            "surfaceText": "You are likely to find [[a hair dryer]] in [[a beauty salon]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_dryer/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hair_dryer", 
+                "@type": "Node", 
+                "label": "a hair dryer", 
+                "language": "en", 
+                "term": "/c/en/hair_dryer"
+            }, 
+            "surfaceText": "You are likely to find [[a hair dryer]] in [[a box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_dryer/,/c/en/college_dormitory/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/college_dormitory", 
+                "@type": "Node", 
+                "label": "a college dormitory", 
+                "language": "en", 
+                "term": "/c/en/college_dormitory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hair_dryer", 
+                "@type": "Node", 
+                "label": "a hair dryer", 
+                "language": "en", 
+                "term": "/c/en/hair_dryer"
+            }, 
+            "surfaceText": "You are likely to find [[a hair dryer]] in [[a college dormitory]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hair_dryer/,/c/en/drug_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drug_store", 
+                "@type": "Node", 
+                "label": "a drug store", 
+                "language": "en", 
+                "term": "/c/en/drug_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hair_dryer", 
+                "@type": "Node", 
+                "label": "a hair dryer", 
+                "language": "en", 
+                "term": "/c/en/hair_dryer"
+            }, 
+            "surfaceText": "You are likely to find [[a hair dryer]] in [[a drug store]]", 
+            "weight": 1.0
+        }
+    ]
+}

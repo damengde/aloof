@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pickle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pickle/,/c/en/diet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/diet", 
+                "@type": "Node", 
+                "label": "your diet", 
+                "language": "en", 
+                "term": "/c/en/diet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pickle", 
+                "@type": "Node", 
+                "label": "A pickle", 
+                "language": "en", 
+                "term": "/c/en/pickle"
+            }, 
+            "surfaceText": "[[A pickle]] is part of [[your diet]]", 
+            "weight": 1.0
+        }
+    ]
+}

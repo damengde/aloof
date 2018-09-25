@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/remote&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/remote/,/c/en/remotely_control_tv/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/remotely_control_tv", 
+                "@type": "Node", 
+                "label": "remotely control a TV", 
+                "language": "en", 
+                "term": "/c/en/remotely_control_tv"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/remote", 
+                "@type": "Node", 
+                "label": "a remote", 
+                "language": "en", 
+                "term": "/c/en/remote"
+            }, 
+            "surfaceText": "You can use [[a remote]] to [[remotely control a TV]]", 
+            "weight": 1.0
+        }
+    ]
+}

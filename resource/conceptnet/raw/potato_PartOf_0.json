@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/potato&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/jacket/n/,/c/en/potato/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/potato/n", 
+                "@type": "Node", 
+                "label": "potato", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/potato"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket/n", 
+                "@type": "Node", 
+                "label": "jacket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "[[jacket]] is a part of [[potato]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/potato/n/,/c/en/potato/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/potato/n", 
+                "@type": "Node", 
+                "label": "potato", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/potato"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato/n", 
+                "@type": "Node", 
+                "label": "potato", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "[[potato]] is a part of [[potato]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/potato/,/c/en/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "[[a potato]] is part of [[a plant]]", 
+            "weight": 1.0
+        }
+    ]
+}

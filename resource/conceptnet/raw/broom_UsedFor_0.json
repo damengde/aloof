@@ -1,0 +1,149 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/broom&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/broom/,/c/en/sweeping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sweeping", 
+                "@type": "Node", 
+                "label": "sweeping", 
+                "language": "en", 
+                "term": "/c/en/sweeping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenith"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lillet55/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lillet55"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/snarfle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/snarfle"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tedcoombs/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tedcoombs"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broom", 
+                "@type": "Node", 
+                "label": "A broom", 
+                "language": "en", 
+                "term": "/c/en/broom"
+            }, 
+            "surfaceText": "[[A broom]] is for [[sweeping]]", 
+            "weight": 4.898979485566356
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/broom/,/c/en/sweep/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sweep", 
+                "@type": "Node", 
+                "label": "sweep", 
+                "language": "en", 
+                "term": "/c/en/sweep"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/snarfle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/snarfle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broom", 
+                "@type": "Node", 
+                "label": "a broom", 
+                "language": "en", 
+                "term": "/c/en/broom"
+            }, 
+            "surfaceText": "[[a broom]] is used to [[sweep]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/broom/,/c/en/sweeping_floors/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sweeping_floors", 
+                "@type": "Node", 
+                "label": "sweeping floors", 
+                "language": "en", 
+                "term": "/c/en/sweeping_floors"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ghanney/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ghanney"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broom", 
+                "@type": "Node", 
+                "label": "a broom", 
+                "language": "en", 
+                "term": "/c/en/broom"
+            }, 
+            "surfaceText": "[[a broom]] is used for [[sweeping floors]]", 
+            "weight": 1.0
+        }
+    ]
+}

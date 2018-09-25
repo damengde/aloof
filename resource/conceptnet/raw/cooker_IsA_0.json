@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cooker&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cooker/n/,/c/en/cooking_utensil/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cooking_utensil/n", 
+                "@type": "Node", 
+                "label": "cooking utensil", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooking_utensil"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cooker/n", 
+                "@type": "Node", 
+                "label": "cooker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooker"
+            }, 
+            "surfaceText": "[[cooker]] is a type of [[cooking utensil]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/popper/n/,/c/en/cooker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cooker/n", 
+                "@type": "Node", 
+                "label": "cooker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/popper/n", 
+                "@type": "Node", 
+                "label": "popper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/popper"
+            }, 
+            "surfaceText": "[[popper]] is a type of [[cooker]]", 
+            "weight": 2.0
+        }
+    ]
+}

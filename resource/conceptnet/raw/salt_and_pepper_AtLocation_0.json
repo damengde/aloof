@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/salt_and_pepper&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/salt_and_pepper/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "the table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wergel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wergel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mikal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mikal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_and_pepper", 
+                "@type": "Node", 
+                "label": "salt and pepper", 
+                "language": "en", 
+                "term": "/c/en/salt_and_pepper"
+            }, 
+            "surfaceText": "*Something you find on [[the table]] is [[salt and pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/salt_and_pepper/,/c/en/dinner/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dinner", 
+                "@type": "Node", 
+                "label": "dinner", 
+                "language": "en", 
+                "term": "/c/en/dinner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pjfive/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pjfive"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_and_pepper", 
+                "@type": "Node", 
+                "label": "salt and pepper", 
+                "language": "en", 
+                "term": "/c/en/salt_and_pepper"
+            }, 
+            "surfaceText": "*Something you find at [[dinner]] is [[salt and pepper]]", 
+            "weight": 1.0
+        }
+    ]
+}

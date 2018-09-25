@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tripod&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tripod/,/c/en/camera_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/camera_store", 
+                "@type": "Node", 
+                "label": "a camera store", 
+                "language": "en", 
+                "term": "/c/en/camera_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/harrap/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/harrap"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tripod", 
+                "@type": "Node", 
+                "label": "a tripod", 
+                "language": "en", 
+                "term": "/c/en/tripod"
+            }, 
+            "surfaceText": "You are likely to find [[a tripod]] in [[a camera store]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tripod/,/c/en/camera_shop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/camera_shop", 
+                "@type": "Node", 
+                "label": "camera shop", 
+                "language": "en", 
+                "term": "/c/en/camera_shop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tripod", 
+                "@type": "Node", 
+                "label": "a tripod", 
+                "language": "en", 
+                "term": "/c/en/tripod"
+            }, 
+            "surfaceText": "You are likely to find [[a tripod]] in [[camera shop]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tripod/,/c/en/gadget_bag/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gadget_bag", 
+                "@type": "Node", 
+                "label": "a gadget bag", 
+                "language": "en", 
+                "term": "/c/en/gadget_bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/elarsen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/elarsen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tripod", 
+                "@type": "Node", 
+                "label": "a tripod", 
+                "language": "en", 
+                "term": "/c/en/tripod"
+            }, 
+            "surfaceText": "You are likely to find [[a tripod]] in [[a gadget bag]]", 
+            "weight": 1.0
+        }
+    ]
+}

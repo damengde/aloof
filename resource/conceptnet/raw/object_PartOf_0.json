@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/object&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/,/c/en/object/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/object", 
+                "@type": "Node", 
+                "label": "an object", 
+                "language": "en", 
+                "term": "/c/en/object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/djaynewman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/djaynewman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "A handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[A handle]] is part of [[an object]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/object/,/c/en/sentence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sentence", 
+                "@type": "Node", 
+                "label": "a sentence", 
+                "language": "en", 
+                "term": "/c/en/sentence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/object", 
+                "@type": "Node", 
+                "label": "an object", 
+                "language": "en", 
+                "term": "/c/en/object"
+            }, 
+            "surfaceText": "[[an object]] is part of [[a sentence]].", 
+            "weight": 1.0
+        }
+    ]
+}

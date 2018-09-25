@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/alarm&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/alarm/,/c/en/trigger_siren/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trigger_siren", 
+                "@type": "Node", 
+                "label": "trigger a siren", 
+                "language": "en", 
+                "term": "/c/en/trigger_siren"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm", 
+                "@type": "Node", 
+                "label": "An alarm", 
+                "language": "en", 
+                "term": "/c/en/alarm"
+            }, 
+            "surfaceText": "[[An alarm]] can [[trigger a siren]]", 
+            "weight": 1.0
+        }
+    ]
+}

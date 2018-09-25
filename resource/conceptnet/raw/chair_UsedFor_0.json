@@ -1,0 +1,658 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chair&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/resting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/resting", 
+                "@type": "Node", 
+                "label": "resting", 
+                "language": "en", 
+                "term": "/c/en/resting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nullotheist/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nullotheist"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/leighman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is used for [[resting]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/n/,/c/en/people/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/people/n", 
+                "@type": "Node", 
+                "label": "people", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[chair]] is used for the benefit of [[people]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/n/,/c/en/seat/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/seat/v", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[chair]] is used for [[seat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/block_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/block_door", 
+                "@type": "Node", 
+                "label": "block a door", 
+                "language": "en", 
+                "term": "/c/en/block_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/comdotatdotcom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/comdotatdotcom"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[block a door]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/electrocuting_condemend/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electrocuting_condemend", 
+                "@type": "Node", 
+                "label": "electrocuting the condemend", 
+                "language": "en", 
+                "term": "/c/en/electrocuting_condemend"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/latrodectus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[electrocuting the condemend]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/leading_meeting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/leading_meeting", 
+                "@type": "Node", 
+                "label": "leading a meeting", 
+                "language": "en", 
+                "term": "/c/en/leading_meeting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/latrodectus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[leading a meeting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/offer_hospitality/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/offer_hospitality", 
+                "@type": "Node", 
+                "label": "offer hospitality", 
+                "language": "en", 
+                "term": "/c/en/offer_hospitality"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[offer hospitality]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/person_to_seat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/person_to_seat", 
+                "@type": "Node", 
+                "label": "a person to seat", 
+                "language": "en", 
+                "term": "/c/en/person_to_seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vander/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vander"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "Chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[Chair]] is used to [[a person to seat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/reach_high_cupboards/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reach_high_cupboards", 
+                "@type": "Node", 
+                "label": "reach high cupboards", 
+                "language": "en", 
+                "term": "/c/en/reach_high_cupboards"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[reach high cupboards]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/relaxing_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/relaxing_in", 
+                "@type": "Node", 
+                "label": "relaxing in", 
+                "language": "en", 
+                "term": "/c/en/relaxing_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/latrodectus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[relaxing in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/rest_legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rest_legs", 
+                "@type": "Node", 
+                "label": "rest your legs", 
+                "language": "en", 
+                "term": "/c/en/rest_legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[rest your legs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/reupholstering/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reupholstering", 
+                "@type": "Node", 
+                "label": "reupholstering", 
+                "language": "en", 
+                "term": "/c/en/reupholstering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/latrodectus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/latrodectus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[reupholstering]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/sit_at_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sit_at_table", 
+                "@type": "Node", 
+                "label": "sit at the table", 
+                "language": "en", 
+                "term": "/c/en/sit_at_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[sit at the table]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/sit_down/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sit_down", 
+                "@type": "Node", 
+                "label": "sit down", 
+                "language": "en", 
+                "term": "/c/en/sit_down"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/xemu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/xemu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[sit down]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/sitting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sitting", 
+                "@type": "Node", 
+                "label": "sitting", 
+                "language": "en", 
+                "term": "/c/en/sitting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/weboide/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/weboide"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[sitting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/sitting_down/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sitting_down", 
+                "@type": "Node", 
+                "label": "sitting down", 
+                "language": "en", 
+                "term": "/c/en/sitting_down"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/waltglass/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/waltglass"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is for [[sitting down]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/sleep_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sleep_in", 
+                "@type": "Node", 
+                "label": "sleep in", 
+                "language": "en", 
+                "term": "/c/en/sleep_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[sleep in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chair/,/c/en/stand_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stand_on", 
+                "@type": "Node", 
+                "label": "stand on", 
+                "language": "en", 
+                "term": "/c/en/stand_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "You can use [[a chair]] to [[stand on]]", 
+            "weight": 1.0
+        }
+    ]
+}

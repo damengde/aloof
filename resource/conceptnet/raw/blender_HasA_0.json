@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/blender&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/blender/,/c/en/on_off_switch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/on_off_switch", 
+                "@type": "Node", 
+                "label": "an on/off switch", 
+                "language": "en", 
+                "term": "/c/en/on_off_switch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/terrisilvers/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/terrisilvers"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blender", 
+                "@type": "Node", 
+                "label": "A blender", 
+                "language": "en", 
+                "term": "/c/en/blender"
+            }, 
+            "surfaceText": "[[A blender]] has [[an on/off switch]]", 
+            "weight": 1.0
+        }
+    ]
+}

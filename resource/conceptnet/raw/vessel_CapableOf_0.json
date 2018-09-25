@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vessel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vessel/,/c/en/bottle_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottle_water", 
+                "@type": "Node", 
+                "label": "bottle water", 
+                "language": "en", 
+                "term": "/c/en/bottle_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/luisbrudna/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/luisbrudna"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "a vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "[[a vessel]] can [[bottle water]]", 
+            "weight": 1.0
+        }
+    ]
+}

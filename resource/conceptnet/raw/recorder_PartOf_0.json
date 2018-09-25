@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/recorder&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/playback/n/,/c/en/recorder/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/recorder/n", 
+                "@type": "Node", 
+                "label": "recorder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/recorder"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/playback/n", 
+                "@type": "Node", 
+                "label": "playback", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/playback"
+            }, 
+            "surfaceText": "[[playback]] is a part of [[recorder]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spatula&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/spatula/,/c/en/turning_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turning_food", 
+                "@type": "Node", 
+                "label": "turning food", 
+                "language": "en", 
+                "term": "/c/en/turning_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/essent/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/essent"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spatula", 
+                "@type": "Node", 
+                "label": "spatula", 
+                "language": "en", 
+                "term": "/c/en/spatula"
+            }, 
+            "surfaceText": "[[spatula]] is for [[turning food]]", 
+            "weight": 1.0
+        }
+    ]
+}

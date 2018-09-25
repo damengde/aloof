@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flower&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/flower/,/c/en/attracting_pollinators/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/attracting_pollinators", 
+                "@type": "Node", 
+                "label": "attracting pollinators", 
+                "language": "en", 
+                "term": "/c/en/attracting_pollinators"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/barbarajg/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/barbarajg"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flower", 
+                "@type": "Node", 
+                "label": "a flower", 
+                "language": "en", 
+                "term": "/c/en/flower"
+            }, 
+            "surfaceText": "[[a flower]] is for [[attracting pollinators]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/flower/,/c/en/extinguish_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/extinguish_fire", 
+                "@type": "Node", 
+                "label": "extinguish a fire", 
+                "language": "en", 
+                "term": "/c/en/extinguish_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flower", 
+                "@type": "Node", 
+                "label": "Flower", 
+                "language": "en", 
+                "term": "/c/en/flower"
+            }, 
+            "surfaceText": "[[Flower]] can be used to [[extinguish a fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/flower/,/c/en/producing_fruit_or_seed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/producing_fruit_or_seed", 
+                "@type": "Node", 
+                "label": "producing fruit or seed", 
+                "language": "en", 
+                "term": "/c/en/producing_fruit_or_seed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tesa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tesa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flower", 
+                "@type": "Node", 
+                "label": "a flower", 
+                "language": "en", 
+                "term": "/c/en/flower"
+            }, 
+            "surfaceText": "[[a flower]] is for [[producing fruit or seed]]", 
+            "weight": 1.0
+        }
+    ]
+}

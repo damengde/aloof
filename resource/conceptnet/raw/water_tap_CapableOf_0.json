@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/water_tap&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/water_tap/,/c/en/fill_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fill_pot", 
+                "@type": "Node", 
+                "label": "fill a pot", 
+                "language": "en", 
+                "term": "/c/en/fill_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_tap", 
+                "@type": "Node", 
+                "label": "A water tap", 
+                "language": "en", 
+                "term": "/c/en/water_tap"
+            }, 
+            "surfaceText": "[[A water tap]] can [[fill a pot]]", 
+            "weight": 1.0
+        }
+    ]
+}

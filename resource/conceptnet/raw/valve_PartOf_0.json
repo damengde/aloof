@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/valve&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handwheel/n/,/c/en/valve/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/valve/n", 
+                "@type": "Node", 
+                "label": "valve", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/valve"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handwheel/n", 
+                "@type": "Node", 
+                "label": "handwheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handwheel"
+            }, 
+            "surfaceText": "[[handwheel]] is a part of [[valve]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/valve/n/,/c/en/brass/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/brass/n", 
+                "@type": "Node", 
+                "label": "brass", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/brass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve/n", 
+                "@type": "Node", 
+                "label": "valve", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[valve]] is a part of [[brass]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/valve/n/,/c/en/heart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve/n", 
+                "@type": "Node", 
+                "label": "valve", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[valve]] is a part of [[heart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/valve/,/c/en/trumpet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trumpet", 
+                "@type": "Node", 
+                "label": "a trumpet", 
+                "language": "en", 
+                "term": "/c/en/trumpet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve", 
+                "@type": "Node", 
+                "label": "a valve", 
+                "language": "en", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[a valve]] is part of [[a trumpet]]", 
+            "weight": 1.0
+        }
+    ]
+}

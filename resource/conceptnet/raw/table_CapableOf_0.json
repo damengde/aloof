@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/table&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/table/,/c/en/double_as_desk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/double_as_desk", 
+                "@type": "Node", 
+                "label": "double as a desk", 
+                "language": "en", 
+                "term": "/c/en/double_as_desk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "A table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "surfaceText": "[[A table]] can [[double as a desk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/table/,/c/en/wooden_furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wooden_furniture", 
+                "@type": "Node", 
+                "label": "be wooden furniture", 
+                "language": "en", 
+                "term": "/c/en/wooden_furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jwragsda/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jwragsda"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "surfaceText": "[[a table]] can [[be wooden furniture]]", 
+            "weight": 1.0
+        }
+    ]
+}

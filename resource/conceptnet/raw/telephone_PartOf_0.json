@@ -1,0 +1,221 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouthpiece/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouthpiece/n", 
+                "@type": "Node", 
+                "label": "mouthpiece", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mouthpiece"
+            }, 
+            "surfaceText": "[[mouthpiece]] is a part of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/telephone/n/,/c/en/telephone_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone_system/n", 
+                "@type": "Node", 
+                "label": "telephone system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[telephone]] is a part of [[telephone system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/telephone_receiver/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_receiver/n", 
+                "@type": "Node", 
+                "label": "telephone receiver", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone_receiver"
+            }, 
+            "surfaceText": "[[telephone receiver]] is a part of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cord/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cord", 
+                "@type": "Node", 
+                "label": "A cord", 
+                "language": "en", 
+                "term": "/c/en/cord"
+            }, 
+            "surfaceText": "[[A cord]] is part of [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handset/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handset", 
+                "@type": "Node", 
+                "label": "A handset", 
+                "language": "en", 
+                "term": "/c/en/handset"
+            }, 
+            "surfaceText": "[[A handset]] is part of [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/receiver/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/receiver", 
+                "@type": "Node", 
+                "label": "a receiver", 
+                "language": "en", 
+                "term": "/c/en/receiver"
+            }, 
+            "surfaceText": "[[a receiver]] is part of [[a telephone]]", 
+            "weight": 1.0
+        }
+    ]
+}

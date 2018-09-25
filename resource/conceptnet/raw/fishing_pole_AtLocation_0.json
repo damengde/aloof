@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fishing_pole&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fishing_pole/,/c/en/boat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tyler/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tyler"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fishing_pole", 
+                "@type": "Node", 
+                "label": "a fishing pole", 
+                "language": "en", 
+                "term": "/c/en/fishing_pole"
+            }, 
+            "surfaceText": "*Something you find on [[a boat]] is [[a fishing pole]]", 
+            "weight": 1.0
+        }
+    ]
+}

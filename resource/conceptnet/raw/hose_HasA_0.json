@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hose&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/hose/,/c/en/empty_core/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/empty_core", 
+                "@type": "Node", 
+                "label": "an empty core", 
+                "language": "en", 
+                "term": "/c/en/empty_core"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hose", 
+                "@type": "Node", 
+                "label": "A hose", 
+                "language": "en", 
+                "term": "/c/en/hose"
+            }, 
+            "surfaceText": "[[A hose]] has [[an empty core]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/hose/,/c/en/vacant_core/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vacant_core", 
+                "@type": "Node", 
+                "label": "a vacant core", 
+                "language": "en", 
+                "term": "/c/en/vacant_core"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hose", 
+                "@type": "Node", 
+                "label": "A hose", 
+                "language": "en", 
+                "term": "/c/en/hose"
+            }, 
+            "surfaceText": "[[A hose]] has [[a vacant core]]", 
+            "weight": 1.0
+        }
+    ]
+}

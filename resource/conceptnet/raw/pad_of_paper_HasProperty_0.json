@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pad_of_paper&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/pad_of_paper/,/c/en/handy_for_jotting_down_notes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/handy_for_jotting_down_notes", 
+                "@type": "Node", 
+                "label": "handy for jotting down notes", 
+                "language": "en", 
+                "term": "/c/en/handy_for_jotting_down_notes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mezust/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mezust"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pad_of_paper", 
+                "@type": "Node", 
+                "label": "A pad of paper", 
+                "language": "en", 
+                "term": "/c/en/pad_of_paper"
+            }, 
+            "surfaceText": "[[A pad of paper]] is [[handy for jotting down notes]]", 
+            "weight": 1.0
+        }
+    ]
+}

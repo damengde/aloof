@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hanger&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/hanger/,/c/en/keeping_clothes_smooth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_clothes_smooth", 
+                "@type": "Node", 
+                "label": "keeping clothes smooth", 
+                "language": "en", 
+                "term": "/c/en/keeping_clothes_smooth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/frogface63/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/frogface63"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hanger", 
+                "@type": "Node", 
+                "label": "a hanger", 
+                "language": "en", 
+                "term": "/c/en/hanger"
+            }, 
+            "surfaceText": "[[a hanger]] is for [[keeping clothes smooth]]", 
+            "weight": 1.0
+        }
+    ]
+}

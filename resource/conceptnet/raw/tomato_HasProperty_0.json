@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tomato&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/tomato/,/c/en/red_or_green/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/red_or_green", 
+                "@type": "Node", 
+                "label": "red or green", 
+                "language": "en", 
+                "term": "/c/en/red_or_green"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mark"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tomato", 
+                "@type": "Node", 
+                "label": "a tomato", 
+                "language": "en", 
+                "term": "/c/en/tomato"
+            }, 
+            "surfaceText": "[[a tomato]] is [[red or green]]", 
+            "weight": 1.0
+        }
+    ]
+}

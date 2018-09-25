@@ -1,0 +1,312 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/washing_machine&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/clothing/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conspiratrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/conspiratrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clothing", 
+                "@type": "Node", 
+                "label": "clothing", 
+                "language": "en", 
+                "term": "/c/en/clothing"
+            }, 
+            "surfaceText": "Somewhere [[clothing]] can be is in [[a washing machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/washing_machine/,/c/en/cellar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cellar", 
+                "@type": "Node", 
+                "label": "the cellar", 
+                "language": "en", 
+                "term": "/c/en/cellar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cxv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cxv"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "the washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "surfaceText": "*Something you find in [[the cellar]] is [[the washing machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/washing_machine/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "your house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "surfaceText": "*Something you find at [[your house]] is [[a washing machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/washing_machine/,/c/en/laundromat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/laundromat", 
+                "@type": "Node", 
+                "label": "a laundromat", 
+                "language": "en", 
+                "term": "/c/en/laundromat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "surfaceText": "You are likely to find [[a washing machine]] in [[a laundromat]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/comforter/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "the washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/melahen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/melahen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/comforter", 
+                "@type": "Node", 
+                "label": "a comforter", 
+                "language": "en", 
+                "term": "/c/en/comforter"
+            }, 
+            "surfaceText": "You are likely to find [[a comforter]] in [[the washing machine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/detergent/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/fable/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/fable"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/detergent", 
+                "@type": "Node", 
+                "label": "detergent", 
+                "language": "en", 
+                "term": "/c/en/detergent"
+            }, 
+            "surfaceText": "You are likely to find [[detergent]] in [[a washing machine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wash_and_wear_fabric/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mezust/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mezust"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wash_and_wear_fabric", 
+                "@type": "Node", 
+                "label": "wash and wear fabric", 
+                "language": "en", 
+                "term": "/c/en/wash_and_wear_fabric"
+            }, 
+            "surfaceText": "You are likely to find [[wash and wear fabric]] in [[a washing machine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matrix29/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matrix29"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "surfaceText": "You are likely to find [[water]] in [[a washing machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

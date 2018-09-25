@@ -1,0 +1,189 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/phone&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/phone/,/c/en/make_calls/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_calls", 
+                "@type": "Node", 
+                "label": "make calls", 
+                "language": "en", 
+                "term": "/c/en/make_calls"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/lieber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/lieber"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/djuber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "a phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[a phone]] can [[make calls]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/phone/,/c/en/ring_incessantly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring_incessantly", 
+                "@type": "Node", 
+                "label": "ring incessantly", 
+                "language": "en", 
+                "term": "/c/en/ring_incessantly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "The phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[The phone]] can [[ring incessantly]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/phone/,/c/en/ring_loudly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring_loudly", 
+                "@type": "Node", 
+                "label": "ring loudly", 
+                "language": "en", 
+                "term": "/c/en/ring_loudly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "A phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[A phone]] can [[ring loudly]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/phone/,/c/en/ring_three_times/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring_three_times", 
+                "@type": "Node", 
+                "label": "ring three times", 
+                "language": "en", 
+                "term": "/c/en/ring_three_times"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/deityboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/deityboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "The phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[The phone]] can [[ring three times]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/phone/,/c/en/ring_until_answered/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ring_until_answered", 
+                "@type": "Node", 
+                "label": "ring until answered", 
+                "language": "en", 
+                "term": "/c/en/ring_until_answered"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leangal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leangal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "A phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[A phone]] can [[ring until answered]]", 
+            "weight": 1.0
+        }
+    ]
+}

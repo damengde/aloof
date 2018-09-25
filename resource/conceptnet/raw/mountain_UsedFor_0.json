@@ -1,0 +1,178 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mountain&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mountain/,/c/en/climbing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climbing", 
+                "@type": "Node", 
+                "label": "climbing", 
+                "language": "en", 
+                "term": "/c/en/climbing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/coldangel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/coldangel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "[[a mountain]] is used for [[climbing]]", 
+            "weight": 4.898979485566356
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mountain/,/c/en/climb/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climb", 
+                "@type": "Node", 
+                "label": "climb", 
+                "language": "en", 
+                "term": "/c/en/climb"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/coldangel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/coldangel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "You can use [[a mountain]] to [[climb]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mountain/,/c/en/crash_plane/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/crash_plane", 
+                "@type": "Node", 
+                "label": "crash a plane", 
+                "language": "en", 
+                "term": "/c/en/crash_plane"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nullotheist/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nullotheist"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "You can use [[a mountain]] to [[crash a plane]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/mountain/,/c/en/create_climbing_challenge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/create_climbing_challenge", 
+                "@type": "Node", 
+                "label": "create a climbing challenge", 
+                "language": "en", 
+                "term": "/c/en/create_climbing_challenge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "You can use [[a mountain]] to [[create a climbing challenge]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone_booth&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone_booth/n/,/c/en/booth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/booth/n", 
+                "@type": "Node", 
+                "label": "booth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/booth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth/n", 
+                "@type": "Node", 
+                "label": "telephone booth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[telephone booth]] is a type of [[booth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone_booth/,/c/en/public_telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/public_telephone/n", 
+                "@type": "Node", 
+                "label": "public telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/public_telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone_kiosk/,/c/en/telephone_booth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_kiosk", 
+                "@type": "Node", 
+                "label": "a telephone kiosk", 
+                "language": "en", 
+                "term": "/c/en/telephone_kiosk"
+            }, 
+            "surfaceText": "[[a telephone kiosk]] is [[a telephone booth]]", 
+            "weight": 1.0
+        }
+    ]
+}

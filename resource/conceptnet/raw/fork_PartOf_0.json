@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fork&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/prong/n/,/c/en/fork/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fork/n", 
+                "@type": "Node", 
+                "label": "fork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fork"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/prong/n", 
+                "@type": "Node", 
+                "label": "prong", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/prong"
+            }, 
+            "surfaceText": "[[prong]] is a part of [[fork]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tine/n/,/c/en/fork/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fork/n", 
+                "@type": "Node", 
+                "label": "fork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fork"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tine/n", 
+                "@type": "Node", 
+                "label": "tine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tine"
+            }, 
+            "surfaceText": "[[tine]] is a part of [[fork]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fork/,/c/en/dining_set/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dining_set", 
+                "@type": "Node", 
+                "label": "a dining set", 
+                "language": "en", 
+                "term": "/c/en/dining_set"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork", 
+                "@type": "Node", 
+                "label": "A fork", 
+                "language": "en", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": "[[A fork]] is part of [[a dining set]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/carousel&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carousel/n/,/c/en/conveyer_belt/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/conveyer_belt/n", 
+                "@type": "Node", 
+                "label": "conveyer belt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/conveyer_belt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carousel/n", 
+                "@type": "Node", 
+                "label": "carousel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carousel"
+            }, 
+            "surfaceText": "[[carousel]] is a type of [[conveyer belt]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carousel/n/,/c/en/ride/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/ride/n", 
+                "@type": "Node", 
+                "label": "ride", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ride"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carousel/n", 
+                "@type": "Node", 
+                "label": "carousel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carousel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/headboard&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/headboard/n/,/c/en/bedstead/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bedstead/n", 
+                "@type": "Node", 
+                "label": "bedstead", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bedstead"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/headboard/n", 
+                "@type": "Node", 
+                "label": "headboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/headboard"
+            }, 
+            "surfaceText": "[[headboard]] is a part of [[bedstead]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/headboard/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/headboard", 
+                "@type": "Node", 
+                "label": "A headboard", 
+                "language": "en", 
+                "term": "/c/en/headboard"
+            }, 
+            "surfaceText": "[[A headboard]] is part of [[a bed]]", 
+            "weight": 1.0
+        }
+    ]
+}

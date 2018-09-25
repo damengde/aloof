@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lid&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/can_of_paint/,/c/en/lid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lid", 
+                "@type": "Node", 
+                "label": "a lid", 
+                "language": "en", 
+                "term": "/c/en/lid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jarling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jarling"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/can_of_paint", 
+                "@type": "Node", 
+                "label": "A can of paint", 
+                "language": "en", 
+                "term": "/c/en/can_of_paint"
+            }, 
+            "surfaceText": "[[A can of paint]] has [[a lid]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/jar/,/c/en/lid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lid", 
+                "@type": "Node", 
+                "label": "a lid", 
+                "language": "en", 
+                "term": "/c/en/lid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glowstick/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/glowstick"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] has [[a lid]]", 
+            "weight": 1.0
+        }
+    ]
+}

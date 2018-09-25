@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dog_dish&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dog_dish/,/c/en/feeding_dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/feeding_dog", 
+                "@type": "Node", 
+                "label": "feeding a dog", 
+                "language": "en", 
+                "term": "/c/en/feeding_dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/gtadda17/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/gtadda17"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog_dish", 
+                "@type": "Node", 
+                "label": "dog dish", 
+                "language": "en", 
+                "term": "/c/en/dog_dish"
+            }, 
+            "surfaceText": "[[dog dish]] is used for [[feeding a dog]]", 
+            "weight": 1.0
+        }
+    ]
+}

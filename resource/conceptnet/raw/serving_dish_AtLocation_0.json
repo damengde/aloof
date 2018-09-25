@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/serving_dish&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spoon/,/c/en/serving_dish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/serving_dish", 
+                "@type": "Node", 
+                "label": "a serving dish", 
+                "language": "en", 
+                "term": "/c/en/serving_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "a spoon", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "You are likely to find [[a spoon]] in [[a serving dish]]", 
+            "weight": 1.0
+        }
+    ]
+}

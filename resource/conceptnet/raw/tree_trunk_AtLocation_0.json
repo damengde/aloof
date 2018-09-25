@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tree_trunk&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lizard/,/c/en/tree_trunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tree_trunk", 
+                "@type": "Node", 
+                "label": "a tree trunk", 
+                "language": "en", 
+                "term": "/c/en/tree_trunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mesrob/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mesrob"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lizard", 
+                "@type": "Node", 
+                "label": "a lizard", 
+                "language": "en", 
+                "term": "/c/en/lizard"
+            }, 
+            "surfaceText": "You are likely to find [[a lizard]] in [[a tree trunk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sap/,/c/en/tree_trunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tree_trunk", 
+                "@type": "Node", 
+                "label": "a tree trunk", 
+                "language": "en", 
+                "term": "/c/en/tree_trunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sap", 
+                "@type": "Node", 
+                "label": "sap", 
+                "language": "en", 
+                "term": "/c/en/sap"
+            }, 
+            "surfaceText": "You are likely to find [[sap]] in [[a tree trunk]]", 
+            "weight": 1.0
+        }
+    ]
+}

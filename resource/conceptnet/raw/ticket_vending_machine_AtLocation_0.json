@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ticket_vending_machine&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ticket_vending_machine/,/c/en/train_station/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train_station", 
+                "@type": "Node", 
+                "label": "a train station", 
+                "language": "en", 
+                "term": "/c/en/train_station"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nmeryash/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nmeryash"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ticket_vending_machine", 
+                "@type": "Node", 
+                "label": "a ticket vending machine", 
+                "language": "en", 
+                "term": "/c/en/ticket_vending_machine"
+            }, 
+            "surfaceText": "*Something you find at [[a train station]] is [[a ticket vending machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

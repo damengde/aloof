@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cup&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cup/,/c/en/liquid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/liquid", 
+                "@type": "Node", 
+                "label": "a liquid", 
+                "language": "en", 
+                "term": "/c/en/liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jokevv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jokevv"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sidegrinder/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sidegrinder"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cup", 
+                "@type": "Node", 
+                "label": "a cup", 
+                "language": "en", 
+                "term": "/c/en/cup"
+            }, 
+            "surfaceText": "[[a cup]] contains [[a liquid]]", 
+            "weight": 2.0
+        }
+    ]
+}

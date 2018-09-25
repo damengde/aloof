@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_freshener&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_freshener/,/c/en/car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "a car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcarey1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_freshener", 
+                "@type": "Node", 
+                "label": "an air freshener", 
+                "language": "en", 
+                "term": "/c/en/air_freshener"
+            }, 
+            "surfaceText": "*Something you find in [[a car]] is [[an air freshener]]", 
+            "weight": 1.0
+        }
+    ]
+}

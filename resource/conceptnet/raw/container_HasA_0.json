@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/container&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/container/,/c/en/inside_and_outside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/inside_and_outside", 
+                "@type": "Node", 
+                "label": "an inside and an outside", 
+                "language": "en", 
+                "term": "/c/en/inside_and_outside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "A container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[A container]] has [[an inside and an outside]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/container/,/c/en/smaller_object/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/smaller_object", 
+                "@type": "Node", 
+                "label": "a smaller object", 
+                "language": "en", 
+                "term": "/c/en/smaller_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "A container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "surfaceText": "[[A container]] contains [[a smaller object]]", 
+            "weight": 1.0
+        }
+    ]
+}

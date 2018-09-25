@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cauliflower&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cauliflower/,/c/en/eaten_cooked_or_raw/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eaten_cooked_or_raw", 
+                "@type": "Node", 
+                "label": "eaten cooked or raw", 
+                "language": "en", 
+                "term": "/c/en/eaten_cooked_or_raw"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower", 
+                "@type": "Node", 
+                "label": "Cauliflower", 
+                "language": "en", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[Cauliflower]] can be [[eaten cooked or raw]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cauliflower/,/c/en/white/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/white", 
+                "@type": "Node", 
+                "label": "white", 
+                "language": "en", 
+                "term": "/c/en/white"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower", 
+                "@type": "Node", 
+                "label": "Cauliflower", 
+                "language": "en", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[Cauliflower]] is [[white]]", 
+            "weight": 1.0
+        }
+    ]
+}

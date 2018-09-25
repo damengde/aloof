@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vent&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vent_brush/,/c/en/vent/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vent", 
+                "@type": "Node", 
+                "label": "a vent", 
+                "language": "en", 
+                "term": "/c/en/vent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vent_brush", 
+                "@type": "Node", 
+                "label": "a vent brush", 
+                "language": "en", 
+                "term": "/c/en/vent_brush"
+            }, 
+            "surfaceText": "You are likely to find [[a vent brush]] in [[a vent]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vent/,/c/en/attic/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/attic", 
+                "@type": "Node", 
+                "label": "the attic", 
+                "language": "en", 
+                "term": "/c/en/attic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kjonesjo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kjonesjo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vent", 
+                "@type": "Node", 
+                "label": "a vent", 
+                "language": "en", 
+                "term": "/c/en/vent"
+            }, 
+            "surfaceText": "*Something you find in [[the attic]] is [[a vent]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/vent/,/c/en/room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/room", 
+                "@type": "Node", 
+                "label": "a room", 
+                "language": "en", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vent", 
+                "@type": "Node", 
+                "label": "a vent", 
+                "language": "en", 
+                "term": "/c/en/vent"
+            }, 
+            "surfaceText": "You are likely to find [[a vent]] in [[a room]].", 
+            "weight": 1.0
+        }
+    ]
+}

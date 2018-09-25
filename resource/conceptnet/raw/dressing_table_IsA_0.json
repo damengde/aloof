@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dressing_table&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dressing_table/n/,/c/en/table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/table/n", 
+                "@type": "Node", 
+                "label": "table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dressing_table/n", 
+                "@type": "Node", 
+                "label": "dressing table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dressing_table"
+            }, 
+            "surfaceText": "[[dressing table]] is a type of [[table]]", 
+            "weight": 2.0
+        }
+    ]
+}

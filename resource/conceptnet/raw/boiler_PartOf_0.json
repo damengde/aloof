@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/boiler&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/boiler/n/,/c/en/heating_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heating_system/n", 
+                "@type": "Node", 
+                "label": "heating system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heating_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boiler/n", 
+                "@type": "Node", 
+                "label": "boiler", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boiler"
+            }, 
+            "surfaceText": "[[boiler]] is a part of [[heating system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/boiler/n/,/c/en/steam_engine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/steam_engine/n", 
+                "@type": "Node", 
+                "label": "steam engine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/steam_engine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boiler/n", 
+                "@type": "Node", 
+                "label": "boiler", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boiler"
+            }, 
+            "surfaceText": "[[boiler]] is a part of [[steam engine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/steam_whistle/n/,/c/en/boiler/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/boiler/n", 
+                "@type": "Node", 
+                "label": "boiler", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boiler"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steam_whistle/n", 
+                "@type": "Node", 
+                "label": "steam whistle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/steam_whistle"
+            }, 
+            "surfaceText": "[[steam whistle]] is a part of [[boiler]]", 
+            "weight": 2.0
+        }
+    ]
+}

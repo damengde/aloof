@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/salt_and_pepper&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/salt_and_pepper/,/c/en/names_for_condiments_commonly_used/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/names_for_condiments_commonly_used", 
+                "@type": "Node", 
+                "label": "names for condiments commonly used", 
+                "language": "en", 
+                "term": "/c/en/names_for_condiments_commonly_used"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_and_pepper", 
+                "@type": "Node", 
+                "label": "Salt and pepper", 
+                "language": "en", 
+                "term": "/c/en/salt_and_pepper"
+            }, 
+            "surfaceText": "[[Salt and pepper]] are [[names for condiments commonly used]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/salt_and_pepper/,/c/en/types_of_spice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/types_of_spice", 
+                "@type": "Node", 
+                "label": "types of spice", 
+                "language": "en", 
+                "term": "/c/en/types_of_spice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nsupremo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nsupremo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_and_pepper", 
+                "@type": "Node", 
+                "label": "Salt and pepper", 
+                "language": "en", 
+                "term": "/c/en/salt_and_pepper"
+            }, 
+            "surfaceText": "[[Salt and pepper]] are [[types of spice]]", 
+            "weight": 1.0
+        }
+    ]
+}

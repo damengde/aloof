@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/deer&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/deer/,/c/en/countryside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/countryside", 
+                "@type": "Node", 
+                "label": "the countryside", 
+                "language": "en", 
+                "term": "/c/en/countryside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/sporkiness/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/sporkiness"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "You are likely to find [[deer]] in [[the countryside]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/deer/,/c/en/north_america_and_antelopes_in_africa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/north_america_and_antelopes_in_africa", 
+                "@type": "Node", 
+                "label": "North America and antelopes in Africa", 
+                "language": "en", 
+                "term": "/c/en/north_america_and_antelopes_in_africa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deer", 
+                "@type": "Node", 
+                "label": "deer", 
+                "language": "en", 
+                "term": "/c/en/deer"
+            }, 
+            "surfaceText": "You are likely to find [[deer]] in [[North America and antelopes in Africa]]", 
+            "weight": 1.0
+        }
+    ]
+}

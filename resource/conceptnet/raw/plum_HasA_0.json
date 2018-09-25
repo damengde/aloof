@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plum&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/plum/,/c/en/smooth_skin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/smooth_skin", 
+                "@type": "Node", 
+                "label": "a smooth skin", 
+                "language": "en", 
+                "term": "/c/en/smooth_skin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cogworkz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cogworkz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plum", 
+                "@type": "Node", 
+                "label": "A plum", 
+                "language": "en", 
+                "term": "/c/en/plum"
+            }, 
+            "surfaceText": "[[A plum]] has [[a smooth skin]]", 
+            "weight": 1.0
+        }
+    ]
+}

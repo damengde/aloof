@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/newspaper&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/newspaper/,/c/en/folded/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/folded", 
+                "@type": "Node", 
+                "label": "folded", 
+                "language": "en", 
+                "term": "/c/en/folded"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] is generally [[folded]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/newspaper/,/c/en/light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/light", 
+                "@type": "Node", 
+                "label": "light", 
+                "language": "en", 
+                "term": "/c/en/light"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "a newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "surfaceText": "[[a newspaper]] is generally [[light]]", 
+            "weight": 1.0
+        }
+    ]
+}

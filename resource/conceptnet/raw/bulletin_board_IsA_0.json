@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bulletin_board&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulletin_board/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulletin_board/n", 
+                "@type": "Node", 
+                "label": "bulletin board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "surfaceText": "[[bulletin board]] is a type of [[board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/call_board/n/,/c/en/bulletin_board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bulletin_board/n", 
+                "@type": "Node", 
+                "label": "bulletin board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/call_board/n", 
+                "@type": "Node", 
+                "label": "call-board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/call_board"
+            }, 
+            "surfaceText": "[[call-board]] is a type of [[bulletin board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulletin_board/n/,/c/en/flat_surface/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/flat_surface/n", 
+                "@type": "Node", 
+                "label": "flat surface", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flat_surface"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulletin_board/n", 
+                "@type": "Node", 
+                "label": "bulletin board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulletin_board/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulletin_board/n", 
+                "@type": "Node", 
+                "label": "bulletin board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

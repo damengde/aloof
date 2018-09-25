@@ -1,0 +1,91 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lettuce&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lettuce/,/c/en/salad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/salad", 
+                "@type": "Node", 
+                "label": "a salad", 
+                "language": "en", 
+                "term": "/c/en/salad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lettuce", 
+                "@type": "Node", 
+                "label": "Lettuce", 
+                "language": "en", 
+                "term": "/c/en/lettuce"
+            }, 
+            "surfaceText": "[[Lettuce]] is part of [[a salad]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lettuce/n/,/c/en/garden_lettuce/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/garden_lettuce/n", 
+                "@type": "Node", 
+                "label": "garden lettuce", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garden_lettuce"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lettuce/n", 
+                "@type": "Node", 
+                "label": "lettuce", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lettuce"
+            }, 
+            "surfaceText": "[[lettuce]] is a part of [[garden lettuce]]", 
+            "weight": 2.0
+        }
+    ]
+}

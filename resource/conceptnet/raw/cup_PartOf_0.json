@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cup&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cup/n/,/c/en/pint/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pint/n", 
+                "@type": "Node", 
+                "label": "pint", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pint"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cup/n", 
+                "@type": "Node", 
+                "label": "cup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cup"
+            }, 
+            "surfaceText": "[[cup]] is a part of [[pint]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/gill/n/,/c/en/cup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cup/n", 
+                "@type": "Node", 
+                "label": "cup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gill/n", 
+                "@type": "Node", 
+                "label": "gill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gill"
+            }, 
+            "surfaceText": "[[gill]] is a part of [[cup]]", 
+            "weight": 2.0
+        }
+    ]
+}

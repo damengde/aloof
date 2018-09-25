@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_curtain&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/curtain/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/curtain/n", 
+                "@type": "Node", 
+                "label": "curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/curtain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": "[[shower curtain]] is a type of [[curtain]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/,/c/en/water_barrier/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_barrier", 
+                "@type": "Node", 
+                "label": "a water barrier", 
+                "language": "en", 
+                "term": "/c/en/water_barrier"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain", 
+                "@type": "Node", 
+                "label": "A shower curtain", 
+                "language": "en", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": "[[A shower curtain]] is [[a water barrier]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/bathroom_furnishings/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bathroom_furnishings/n", 
+                "@type": "Node", 
+                "label": "bathroom furnishings", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bathroom_furnishings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/sheet_of_substance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/sheet_of_substance/n", 
+                "@type": "Node", 
+                "label": "sheet of substance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sheet_of_substance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shower_curtain/n/,/c/en/single_purpose_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/single_purpose_device/n", 
+                "@type": "Node", 
+                "label": "single purpose device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/single_purpose_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wallet&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/wallet/,/c/en/money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/money", 
+                "@type": "Node", 
+                "label": "money", 
+                "language": "en", 
+                "term": "/c/en/money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/poplet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/poplet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wallet", 
+                "@type": "Node", 
+                "label": "Wallet", 
+                "language": "en", 
+                "term": "/c/en/wallet"
+            }, 
+            "surfaceText": "[[Wallet]] contains [[money]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/wallet/,/c/en/money_and_credit_cards/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/money_and_credit_cards", 
+                "@type": "Node", 
+                "label": "money and credit cards", 
+                "language": "en", 
+                "term": "/c/en/money_and_credit_cards"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexbevilacqua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexbevilacqua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wallet", 
+                "@type": "Node", 
+                "label": "A wallet", 
+                "language": "en", 
+                "term": "/c/en/wallet"
+            }, 
+            "surfaceText": "[[A wallet]] contains [[money and credit cards]]", 
+            "weight": 1.0
+        }
+    ]
+}

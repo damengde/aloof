@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/conch&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/conch/n/,/c/en/gastropod/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/gastropod/n", 
+                "@type": "Node", 
+                "label": "gastropod", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gastropod"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/conch/n", 
+                "@type": "Node", 
+                "label": "conch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/conch"
+            }, 
+            "surfaceText": "[[conch]] is a type of [[gastropod]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giant_conch/n/,/c/en/conch/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/conch/n", 
+                "@type": "Node", 
+                "label": "conch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/conch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giant_conch/n", 
+                "@type": "Node", 
+                "label": "giant conch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giant_conch"
+            }, 
+            "surfaceText": "[[giant conch]] is a type of [[conch]]", 
+            "weight": 2.0
+        }
+    ]
+}

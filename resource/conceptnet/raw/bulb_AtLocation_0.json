@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bulb&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bulb/n/,/c/en/land/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/land/n", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulb/n", 
+                "@type": "Node", 
+                "label": "bulb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulb"
+            }, 
+            "surfaceText": "[[bulb]] is located in [[land]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bulb/,/c/en/lamp/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lamp", 
+                "@type": "Node", 
+                "label": "a lamp", 
+                "language": "en", 
+                "term": "/c/en/lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dce23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dce23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulb", 
+                "@type": "Node", 
+                "label": "a bulb", 
+                "language": "en", 
+                "term": "/c/en/bulb"
+            }, 
+            "surfaceText": "You are likely to find [[a bulb]] in [[a lamp]]", 
+            "weight": 1.0
+        }
+    ]
+}

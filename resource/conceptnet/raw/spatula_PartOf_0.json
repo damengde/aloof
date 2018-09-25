@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spatula&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/blade/n/,/c/en/spatula/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/spatula/n", 
+                "@type": "Node", 
+                "label": "spatula", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spatula"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blade/n", 
+                "@type": "Node", 
+                "label": "blade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/blade"
+            }, 
+            "surfaceText": "[[blade]] is a part of [[spatula]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/n/,/c/en/spatula/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/spatula/n", 
+                "@type": "Node", 
+                "label": "spatula", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spatula"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle/n", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[handle]] is a part of [[spatula]]", 
+            "weight": 2.0
+        }
+    ]
+}

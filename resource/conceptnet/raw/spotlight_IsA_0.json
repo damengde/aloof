@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spotlight&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spotlight/n/,/c/en/lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lamp/n", 
+                "@type": "Node", 
+                "label": "lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spotlight/n", 
+                "@type": "Node", 
+                "label": "spotlight", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spotlight"
+            }, 
+            "surfaceText": "[[spotlight]] is a type of [[lamp]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spotlight/n/,/c/en/light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/light", 
+                "@type": "Node", 
+                "label": "light", 
+                "language": "en", 
+                "term": "/c/en/light"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spotlight/n", 
+                "@type": "Node", 
+                "label": "spotlight", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spotlight"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spotlight/v/,/c/en/light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/light", 
+                "@type": "Node", 
+                "label": "light", 
+                "language": "en", 
+                "term": "/c/en/light"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spotlight/v", 
+                "@type": "Node", 
+                "label": "spotlight", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/spotlight"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spotlight/n/,/c/en/software/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/software/n", 
+                "@type": "Node", 
+                "label": "software", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/software"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spotlight/n", 
+                "@type": "Node", 
+                "label": "spotlight", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spotlight"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

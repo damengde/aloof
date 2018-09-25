@@ -1,0 +1,464 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/keyboard&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/desk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "your desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/banebou/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/banebou"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dajo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dajo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/banebou/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/banebou"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "*Something you find on [[your desk]] is [[a keyboard]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/office", 
+                "@type": "Node", 
+                "label": "an office", 
+                "language": "en", 
+                "term": "/c/en/office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/maryann212/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/maryann212"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leahodell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/leahodell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[an office]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/typewriter_key/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rowanf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rowanf"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/typewriter_key", 
+                "@type": "Node", 
+                "label": "a typewriter key", 
+                "language": "en", 
+                "term": "/c/en/typewriter_key"
+            }, 
+            "surfaceText": "You are likely to find [[a typewriter key]] in [[a keyboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/area_of_computer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/area_of_computer", 
+                "@type": "Node", 
+                "label": "the area of a computer", 
+                "language": "en", 
+                "term": "/c/en/area_of_computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[the area of a computer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/desktop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desktop", 
+                "@type": "Node", 
+                "label": "a desktop", 
+                "language": "en", 
+                "term": "/c/en/desktop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gr0ve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gr0ve"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "*Something you find on [[a desktop]] is [[a keyboard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/finger/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/finger", 
+                "@type": "Node", 
+                "label": "your finger", 
+                "language": "en", 
+                "term": "/c/en/finger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "*Something you find on [[your finger]] is [[a keyboard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/landfill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/landfill", 
+                "@type": "Node", 
+                "label": "the landfill", 
+                "language": "en", 
+                "term": "/c/en/landfill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/skissane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/skissane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[the landfill]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/music_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music_store", 
+                "@type": "Node", 
+                "label": "a music store", 
+                "language": "en", 
+                "term": "/c/en/music_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ali33/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ali33"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[a music store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/onstage_at_concert/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/onstage_at_concert", 
+                "@type": "Node", 
+                "label": "onstage at a concert", 
+                "language": "en", 
+                "term": "/c/en/onstage_at_concert"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "Somewhere [[a keyboard]] can be is [[onstage at a concert]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[a piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/school/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/school", 
+                "@type": "Node", 
+                "label": "a school", 
+                "language": "en", 
+                "term": "/c/en/school"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[a school]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keys/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/yaron/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/yaron"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keys", 
+                "@type": "Node", 
+                "label": "keys", 
+                "language": "en", 
+                "term": "/c/en/keys"
+            }, 
+            "surfaceText": "You are likely to find [[keys]] in [[a keyboard]].", 
+            "weight": 1.0
+        }
+    ]
+}

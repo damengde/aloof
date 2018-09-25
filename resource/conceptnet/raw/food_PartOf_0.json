@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/food&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/food/n/,/c/en/food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/food/n", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food/n", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] is a part of [[food]]", 
+            "weight": 2.0
+        }
+    ]
+}

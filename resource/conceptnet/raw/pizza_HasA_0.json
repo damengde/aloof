@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pizza&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/pizza/,/c/en/cheese_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cheese_on", 
+                "@type": "Node", 
+                "label": "cheese on it", 
+                "language": "en", 
+                "term": "/c/en/cheese_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daboy1216/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/daboy1216"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] has [[cheese on it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/pizza/,/c/en/mostly_dough_cheese_and_tomato/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mostly_dough_cheese_and_tomato", 
+                "@type": "Node", 
+                "label": "mostly dough, cheese, and tomato", 
+                "language": "en", 
+                "term": "/c/en/mostly_dough_cheese_and_tomato"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "A pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[A pizza]] contains [[mostly dough, cheese, and tomato]]", 
+            "weight": 1.0
+        }
+    ]
+}

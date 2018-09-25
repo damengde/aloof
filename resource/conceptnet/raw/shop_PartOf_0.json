@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shop&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shopfront/n/,/c/en/shop/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shop/n", 
+                "@type": "Node", 
+                "label": "shop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shopfront/n", 
+                "@type": "Node", 
+                "label": "shopfront", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shopfront"
+            }, 
+            "surfaceText": "[[shopfront]] is a part of [[shop]]", 
+            "weight": 2.0
+        }
+    ]
+}

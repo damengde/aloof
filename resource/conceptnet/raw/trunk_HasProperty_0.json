@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trunk&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/trunk/,/c/en/useful_for_storing_blankets/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_storing_blankets", 
+                "@type": "Node", 
+                "label": "useful for storing blankets", 
+                "language": "en", 
+                "term": "/c/en/useful_for_storing_blankets"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trunk", 
+                "@type": "Node", 
+                "label": "A trunk", 
+                "language": "en", 
+                "term": "/c/en/trunk"
+            }, 
+            "surfaceText": "[[A trunk]] is [[useful for storing blankets]]", 
+            "weight": 1.0
+        }
+    ]
+}

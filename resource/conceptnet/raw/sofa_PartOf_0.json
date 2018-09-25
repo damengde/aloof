@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sofa&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cushion/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cushion", 
+                "@type": "Node", 
+                "label": "A cushion", 
+                "language": "en", 
+                "term": "/c/en/cushion"
+            }, 
+            "surfaceText": "[[A cushion]] is part of [[a sofa]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fabric/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ckerr115/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ckerr115"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fabric", 
+                "@type": "Node", 
+                "label": "fabric", 
+                "language": "en", 
+                "term": "/c/en/fabric"
+            }, 
+            "surfaceText": "[[fabric]] is part of [[a sofa]]", 
+            "weight": 1.0
+        }
+    ]
+}

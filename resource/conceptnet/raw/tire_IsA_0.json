@@ -1,0 +1,373 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tire&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pneumatic_tire/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pneumatic_tire/n", 
+                "@type": "Node", 
+                "label": "pneumatic tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pneumatic_tire"
+            }, 
+            "surfaceText": "[[pneumatic tire]] is a type of [[tire]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tire/,/c/en/wheel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheel", 
+                "@type": "Node", 
+                "label": "a wheel", 
+                "language": "en", 
+                "term": "/c/en/wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffmuir"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "A tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[A tire]] is [[a wheel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tire/n/,/c/en/hoop/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hoop/n", 
+                "@type": "Node", 
+                "label": "hoop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hoop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[tire]] is a type of [[hoop]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wagon_tire/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon_tire/n", 
+                "@type": "Node", 
+                "label": "wagon tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wagon_tire"
+            }, 
+            "surfaceText": "[[wagon tire]] is a type of [[tire]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bicycle_tire/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle_tire/n", 
+                "@type": "Node", 
+                "label": "bicycle tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_tire"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/car_tire/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/car_tire/n", 
+                "@type": "Node", 
+                "label": "car tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/car_tire"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pirelli/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pirelli/n", 
+                "@type": "Node", 
+                "label": "pirelli", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pirelli"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/snow_tire/n/,/c/en/tire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snow_tire/n", 
+                "@type": "Node", 
+                "label": "snow tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/snow_tire"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tire/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tire/n/,/c/en/part_for_wheeled_vehicles/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/part_for_wheeled_vehicles/n", 
+                "@type": "Node", 
+                "label": "part for wheeled vehicles", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/part_for_wheeled_vehicles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire/n", 
+                "@type": "Node", 
+                "label": "tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

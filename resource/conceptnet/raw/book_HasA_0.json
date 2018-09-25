@@ -1,0 +1,465 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/book&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/knowledge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/knowledge", 
+                "@type": "Node", 
+                "label": "knowledge", 
+                "language": "en", 
+                "term": "/c/en/knowledge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/miguelmateus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/miguelmateus"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/misshell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/misshell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tsbartley/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tsbartley"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/walter415/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/walter415"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[a book]] contains [[knowledge]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/cover/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cover", 
+                "@type": "Node", 
+                "label": "a cover", 
+                "language": "en", 
+                "term": "/c/en/cover"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sporkiness/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sporkiness"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thoughttreasure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/thoughttreasure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] has [[a cover]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/many_words/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_words", 
+                "@type": "Node", 
+                "label": "many words", 
+                "language": "en", 
+                "term": "/c/en/many_words"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rose876/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rose876"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[a book]] contains [[many words]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/pages/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pages", 
+                "@type": "Node", 
+                "label": "pages", 
+                "language": "en", 
+                "term": "/c/en/pages"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/erik/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/erik"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] has [[pages]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/words_and_or_pictures/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/words_and_or_pictures", 
+                "@type": "Node", 
+                "label": "words and/or pictures", 
+                "language": "en", 
+                "term": "/c/en/words_and_or_pictures"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/godwasamonkey/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/godwasamonkey"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] contains [[words and/or pictures]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/at_least_few_page/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/at_least_few_page", 
+                "@type": "Node", 
+                "label": "at least a few page", 
+                "language": "en", 
+                "term": "/c/en/at_least_few_page"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] contains [[at least a few page]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/been_printed_new/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/been_printed_new", 
+                "@type": "Node", 
+                "label": "been printed new", 
+                "language": "en", 
+                "term": "/c/en/been_printed_new"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mc27y/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mc27y"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "the book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[the book]] has [[been printed new]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/been_written_by_author/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/been_written_by_author", 
+                "@type": "Node", 
+                "label": "been written by an author", 
+                "language": "en", 
+                "term": "/c/en/been_written_by_author"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] has [[been written by an author]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/pages_with_printed_matter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pages_with_printed_matter", 
+                "@type": "Node", 
+                "label": "pages with printed matter", 
+                "language": "en", 
+                "term": "/c/en/pages_with_printed_matter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sharads/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sharads"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] has [[pages with printed matter]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/past/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/past", 
+                "@type": "Node", 
+                "label": "past", 
+                "language": "en", 
+                "term": "/c/en/past"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aliikan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aliikan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[book]] has [[past]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/book/,/c/en/story/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/story", 
+                "@type": "Node", 
+                "label": "a story", 
+                "language": "en", 
+                "term": "/c/en/story"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[a book]] contains [[a story]]", 
+            "weight": 1.0
+        }
+    ]
+}

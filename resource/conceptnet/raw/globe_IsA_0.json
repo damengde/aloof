@@ -1,0 +1,580 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/globe&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/spherical_map_of_earth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spherical_map_of_earth", 
+                "@type": "Node", 
+                "label": "a spherical map of the earth", 
+                "language": "en", 
+                "term": "/c/en/spherical_map_of_earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/benashbe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/benashbe"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mshepard/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mshepard"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "a globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[a globe]] is [[a spherical map of the earth]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/three_dimensional_map_of_world/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/three_dimensional_map_of_world", 
+                "@type": "Node", 
+                "label": "a three-dimensional map of the world", 
+                "language": "en", 
+                "term": "/c/en/three_dimensional_map_of_world"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/namir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/namir"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/strimbu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/strimbu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "a globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[a globe]] is [[a three-dimensional map of the world]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/celestial_globe/n/,/c/en/globe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/globe/n", 
+                "@type": "Node", 
+                "label": "globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/globe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/celestial_globe/n", 
+                "@type": "Node", 
+                "label": "celestial globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/celestial_globe"
+            }, 
+            "surfaceText": "[[celestial globe]] is a type of [[globe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/earth/,/c/en/globe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "a globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/holzer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/holzer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/earth", 
+                "@type": "Node", 
+                "label": "The earth", 
+                "language": "en", 
+                "term": "/c/en/earth"
+            }, 
+            "surfaceText": "[[The earth]] is [[a globe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/ball/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ball", 
+                "@type": "Node", 
+                "label": "a ball", 
+                "language": "en", 
+                "term": "/c/en/ball"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eliason/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eliason"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a ball]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/map/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "a map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lucyloser/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lucyloser"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vinmig/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/vinmig"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a map]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/n/,/c/en/model/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/model/n", 
+                "@type": "Node", 
+                "label": "model", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/model"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe/n", 
+                "@type": "Node", 
+                "label": "globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[globe]] is a type of [[model]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/n/,/c/en/sphere/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sphere/n", 
+                "@type": "Node", 
+                "label": "sphere", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sphere"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe/n", 
+                "@type": "Node", 
+                "label": "globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[globe]] is a type of [[sphere]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/3_dimensional_map_of_world/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/3_dimensional_map_of_world", 
+                "@type": "Node", 
+                "label": "a 3-dimensional map of the world", 
+                "language": "en", 
+                "term": "/c/en/3_dimensional_map_of_world"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a 3-dimensional map of the world]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/artificial_representation_of_world/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/artificial_representation_of_world", 
+                "@type": "Node", 
+                "label": "an artificial representation of the world", 
+                "language": "en", 
+                "term": "/c/en/artificial_representation_of_world"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/stanleyb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/stanleyb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "a globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[a globe]] is [[an artificial representation of the world]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/map_in_3_dimensions/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/map_in_3_dimensions", 
+                "@type": "Node", 
+                "label": "a map in 3 dimensions", 
+                "language": "en", 
+                "term": "/c/en/map_in_3_dimensions"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vinmig/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vinmig"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a map in 3 dimensions]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/model_representing_planet_earth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/model_representing_planet_earth", 
+                "@type": "Node", 
+                "label": "a model representing the planet earth", 
+                "language": "en", 
+                "term": "/c/en/model_representing_planet_earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/courtenayt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/courtenayt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a model representing the planet earth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/,/c/en/small_model_of_earth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/small_model_of_earth", 
+                "@type": "Node", 
+                "label": "a small model of the earth", 
+                "language": "en", 
+                "term": "/c/en/small_model_of_earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe", 
+                "@type": "Node", 
+                "label": "A globe", 
+                "language": "en", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": "[[A globe]] is [[a small model of the earth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/n/,/c/en/hardcopy_of_maps/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/hardcopy_of_maps/n", 
+                "@type": "Node", 
+                "label": "hardcopy of maps", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hardcopy_of_maps"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe/n", 
+                "@type": "Node", 
+                "label": "globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/globe/n/,/c/en/physical_information_bearing_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/physical_information_bearing_object/n", 
+                "@type": "Node", 
+                "label": "physical information bearing object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/physical_information_bearing_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/globe/n", 
+                "@type": "Node", 
+                "label": "globe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/globe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

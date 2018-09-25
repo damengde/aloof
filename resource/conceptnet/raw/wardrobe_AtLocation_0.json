@@ -1,0 +1,435 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wardrobe&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/bedroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedroom", 
+                "@type": "Node", 
+                "label": "the bedroom", 
+                "language": "en", 
+                "term": "/c/en/bedroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cbroome/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cbroome"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/stevede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/stevede"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cbroome/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cbroome"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stenforthewin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/stenforthewin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[the bedroom]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coat/,/c/en/wardrobe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbaldes/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbaldes"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/koralt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/koralt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stenforthewin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/stenforthewin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coat", 
+                "@type": "Node", 
+                "label": "a coat", 
+                "language": "en", 
+                "term": "/c/en/coat"
+            }, 
+            "surfaceText": "You are likely to find [[a coat]] in [[wardrobe]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/clothing_shelf/,/c/en/wardrobe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boojum/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/boojum"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clothing_shelf", 
+                "@type": "Node", 
+                "label": "a clothing shelf", 
+                "language": "en", 
+                "term": "/c/en/clothing_shelf"
+            }, 
+            "surfaceText": "You are likely to find [[a clothing shelf]] in [[a wardrobe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coats/,/c/en/wardrobe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/koralt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/koralt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coats", 
+                "@type": "Node", 
+                "label": "coats", 
+                "language": "en", 
+                "term": "/c/en/coats"
+            }, 
+            "surfaceText": "You are likely to find [[coats]] in [[a wardrobe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/handbag/,/c/en/wardrobe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mahray/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mahray"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handbag", 
+                "@type": "Node", 
+                "label": "a handbag", 
+                "language": "en", 
+                "term": "/c/en/handbag"
+            }, 
+            "surfaceText": "You are likely to find [[a handbag]] in [[a wardrobe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/closet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/closet", 
+                "@type": "Node", 
+                "label": "the closet", 
+                "language": "en", 
+                "term": "/c/en/closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schickel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schickel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[the closet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/clothes_cupboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clothes_cupboard", 
+                "@type": "Node", 
+                "label": "a clothes cupboard", 
+                "language": "en", 
+                "term": "/c/en/clothes_cupboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[a clothes cupboard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tosaja/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tosaja"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[a house]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/mansion/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mansion", 
+                "@type": "Node", 
+                "label": "a mansion", 
+                "language": "en", 
+                "term": "/c/en/mansion"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sprucery/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sprucery"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[a mansion]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/room", 
+                "@type": "Node", 
+                "label": "a room", 
+                "language": "en", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gabbrobreccia/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gabbrobreccia"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wardrobe/,/c/en/someones_closet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/someones_closet", 
+                "@type": "Node", 
+                "label": "someones closet", 
+                "language": "en", 
+                "term": "/c/en/someones_closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sekondairy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sekondairy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "a wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "You are likely to find [[a wardrobe]] in [[someones closet]]", 
+            "weight": 1.0
+        }
+    ]
+}

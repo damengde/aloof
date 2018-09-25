@@ -1,0 +1,437 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/giraffe&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/n/,/c/en/ruminant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ruminant/n", 
+                "@type": "Node", 
+                "label": "ruminant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ruminant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[giraffe]] is a type of [[ruminant]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/okapi/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/okapi/n", 
+                "@type": "Node", 
+                "label": "okapi", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/okapi"
+            }, 
+            "surfaceText": "[[okapi]] is a type of [[giraffe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/,/c/en/mammal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mammal", 
+                "@type": "Node", 
+                "label": "a mammal", 
+                "language": "en", 
+                "term": "/c/en/mammal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "The giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[The giraffe]] is [[a mammal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/,/c/en/ruminant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ruminant", 
+                "@type": "Node", 
+                "label": "a ruminant", 
+                "language": "en", 
+                "term": "/c/en/ruminant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "The giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[The giraffe]] is [[a ruminant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/n/,/c/en/giraffidae/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffidae/n", 
+                "@type": "Node", 
+                "label": "giraffidae", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffidae"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/n/,/c/en/herd_animal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/herd_animal/n", 
+                "@type": "Node", 
+                "label": "herd animal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/herd_animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kordofan_giraffe/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kordofan_giraffe/n", 
+                "@type": "Node", 
+                "label": "kordofan giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kordofan_giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/masai_giraffe/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/masai_giraffe/n", 
+                "@type": "Node", 
+                "label": "masai giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/masai_giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/medici_giraffe/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/medici_giraffe/n", 
+                "@type": "Node", 
+                "label": "medici giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/medici_giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rothschild_giraffe/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rothschild_giraffe/n", 
+                "@type": "Node", 
+                "label": "rothschild giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rothschild_giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/somali_giraffe/n/,/c/en/giraffe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/giraffe/n", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/giraffe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/somali_giraffe/n", 
+                "@type": "Node", 
+                "label": "somali giraffe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/somali_giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/giraffe/,/c/en/mammal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/mammal/n", 
+                "@type": "Node", 
+                "label": "mammal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mammal"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

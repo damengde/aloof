@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chimney&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/chimney/,/c/en/direct_smoke_up_and_away/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/direct_smoke_up_and_away", 
+                "@type": "Node", 
+                "label": "direct smoke up and away", 
+                "language": "en", 
+                "term": "/c/en/direct_smoke_up_and_away"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chimney", 
+                "@type": "Node", 
+                "label": "a chimney", 
+                "language": "en", 
+                "term": "/c/en/chimney"
+            }, 
+            "surfaceText": "[[a chimney]] is used to [[direct smoke up and away]]", 
+            "weight": 1.0
+        }
+    ]
+}

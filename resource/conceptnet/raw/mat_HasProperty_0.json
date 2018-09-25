@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mat&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/mat/,/c/en/flat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flat", 
+                "@type": "Node", 
+                "label": "flat", 
+                "language": "en", 
+                "term": "/c/en/flat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chazryt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chazryt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mat", 
+                "@type": "Node", 
+                "label": "A mat", 
+                "language": "en", 
+                "term": "/c/en/mat"
+            }, 
+            "surfaceText": "[[A mat]] is [[flat]]", 
+            "weight": 1.0
+        }
+    ]
+}

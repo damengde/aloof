@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jacket&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/jacket/n/,/c/en/potato/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/potato/n", 
+                "@type": "Node", 
+                "label": "potato", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/potato"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket/n", 
+                "@type": "Node", 
+                "label": "jacket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "[[jacket]] is a part of [[potato]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/zipper/,/c/en/jacket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zipper", 
+                "@type": "Node", 
+                "label": "zipper", 
+                "language": "en", 
+                "term": "/c/en/zipper"
+            }, 
+            "surfaceText": "[[zipper]] is part of [[jacket]]", 
+            "weight": 1.0
+        }
+    ]
+}

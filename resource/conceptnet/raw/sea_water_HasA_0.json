@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sea_water&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/sea_water/,/c/en/mineral_salt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mineral_salt", 
+                "@type": "Node", 
+                "label": "mineral salt", 
+                "language": "en", 
+                "term": "/c/en/mineral_salt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leonhoen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leonhoen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sea_water", 
+                "@type": "Node", 
+                "label": "sea water", 
+                "language": "en", 
+                "term": "/c/en/sea_water"
+            }, 
+            "surfaceText": "[[sea water]] contains [[mineral salt]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/sea_water/,/c/en/salt_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/salt_in", 
+                "@type": "Node", 
+                "label": "salt in it", 
+                "language": "en", 
+                "term": "/c/en/salt_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nmeryash/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nmeryash"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sea_water", 
+                "@type": "Node", 
+                "label": "Sea water", 
+                "language": "en", 
+                "term": "/c/en/sea_water"
+            }, 
+            "surfaceText": "[[Sea water]] has [[salt in it]]", 
+            "weight": 1.0
+        }
+    ]
+}

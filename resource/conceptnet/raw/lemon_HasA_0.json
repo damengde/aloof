@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lemon&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/lemon/,/c/en/lemon_juice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lemon_juice", 
+                "@type": "Node", 
+                "label": "lemon juice", 
+                "language": "en", 
+                "term": "/c/en/lemon_juice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "a lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "[[a lemon]] contains [[lemon juice]]", 
+            "weight": 1.0
+        }
+    ]
+}

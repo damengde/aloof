@@ -1,0 +1,91 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fan&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/blade/,/c/en/fan/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fan", 
+                "@type": "Node", 
+                "label": "a fan", 
+                "language": "en", 
+                "term": "/c/en/fan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ersi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ersi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blade", 
+                "@type": "Node", 
+                "label": "A blade", 
+                "language": "en", 
+                "term": "/c/en/blade"
+            }, 
+            "surfaceText": "[[A blade]] is part of [[a fan]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fan/n/,/c/en/cooling_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cooling_system/n", 
+                "@type": "Node", 
+                "label": "cooling system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooling_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fan/n", 
+                "@type": "Node", 
+                "label": "fan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fan"
+            }, 
+            "surfaceText": "[[fan]] is a part of [[cooling system]]", 
+            "weight": 2.0
+        }
+    ]
+}

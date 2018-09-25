@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shell&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/walnut/,/c/en/shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "a shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jkasunic/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jkasunic"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thoughttreasure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/thoughttreasure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/walnut", 
+                "@type": "Node", 
+                "label": "A walnut", 
+                "language": "en", 
+                "term": "/c/en/walnut"
+            }, 
+            "surfaceText": "[[A walnut]] has [[a shell]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/eggs/,/c/en/shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "a shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/eggs", 
+                "@type": "Node", 
+                "label": "eggs", 
+                "language": "en", 
+                "term": "/c/en/eggs"
+            }, 
+            "surfaceText": "[[eggs]] have [[a shell]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/turtle/,/c/en/shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "a shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gazook/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gazook"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "A turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "[[A turtle]] has [[a shell]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/turtles/,/c/en/shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "a shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/danielehr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/danielehr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtles", 
+                "@type": "Node", 
+                "label": "Turtles", 
+                "language": "en", 
+                "term": "/c/en/turtles"
+            }, 
+            "surfaceText": "[[Turtles]] have [[a shell]]", 
+            "weight": 1.0
+        }
+    ]
+}

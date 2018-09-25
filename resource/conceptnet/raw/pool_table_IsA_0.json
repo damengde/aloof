@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pool_table&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pool_table/n/,/c/en/game_equipment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/game_equipment/n", 
+                "@type": "Node", 
+                "label": "game equipment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/game_equipment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pool_table/n", 
+                "@type": "Node", 
+                "label": "pool table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pool_table"
+            }, 
+            "surfaceText": "[[pool table]] is a type of [[game equipment]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pool_table/n/,/c/en/table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/table/n", 
+                "@type": "Node", 
+                "label": "table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pool_table/n", 
+                "@type": "Node", 
+                "label": "pool table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pool_table"
+            }, 
+            "surfaceText": "[[pool table]] is a type of [[table]]", 
+            "weight": 2.0
+        }
+    ]
+}

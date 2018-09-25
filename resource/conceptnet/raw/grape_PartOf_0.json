@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grape&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grape/n/,/c/en/grape/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grape/n", 
+                "@type": "Node", 
+                "label": "grape", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grape/n", 
+                "@type": "Node", 
+                "label": "grape", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grape"
+            }, 
+            "surfaceText": "[[grape]] is a part of [[grape]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grape/,/c/en/wine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wine", 
+                "@type": "Node", 
+                "label": "wine", 
+                "language": "en", 
+                "term": "/c/en/wine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grape", 
+                "@type": "Node", 
+                "label": "A grape", 
+                "language": "en", 
+                "term": "/c/en/grape"
+            }, 
+            "surfaceText": "[[A grape]] is part of [[wine]]", 
+            "weight": 1.0
+        }
+    ]
+}

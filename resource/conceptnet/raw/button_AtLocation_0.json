@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/button&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/button/,/c/en/water_cooler/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_cooler", 
+                "@type": "Node", 
+                "label": "a water cooler", 
+                "language": "en", 
+                "term": "/c/en/water_cooler"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lauwersw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lauwersw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "a button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "surfaceText": "*Something you find at [[a water cooler]] is [[a button]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hole/,/c/en/button/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/button", 
+                "@type": "Node", 
+                "label": "a button", 
+                "language": "en", 
+                "term": "/c/en/button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hole", 
+                "@type": "Node", 
+                "label": "a hole", 
+                "language": "en", 
+                "term": "/c/en/hole"
+            }, 
+            "surfaceText": "You are likely to find [[a hole]] in [[a button]]", 
+            "weight": 1.0
+        }
+    ]
+}

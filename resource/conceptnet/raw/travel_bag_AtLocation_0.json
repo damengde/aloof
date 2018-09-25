@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/travel_bag&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/disposable_razor/,/c/en/travel_bag/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/travel_bag", 
+                "@type": "Node", 
+                "label": "travel bag", 
+                "language": "en", 
+                "term": "/c/en/travel_bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/disposable_razor", 
+                "@type": "Node", 
+                "label": "a disposable razor", 
+                "language": "en", 
+                "term": "/c/en/disposable_razor"
+            }, 
+            "surfaceText": "You are likely to find [[a disposable razor]] in [[travel bag]]", 
+            "weight": 1.0
+        }
+    ]
+}

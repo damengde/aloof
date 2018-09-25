@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/keyboard&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/computer/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary47/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary47"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer", 
+                "@type": "Node", 
+                "label": "A computer", 
+                "language": "en", 
+                "term": "/c/en/computer"
+            }, 
+            "surfaceText": "[[A computer]] has [[a keyboard]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/keyboard/,/c/en/keys/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keys", 
+                "@type": "Node", 
+                "label": "keys", 
+                "language": "en", 
+                "term": "/c/en/keys"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zorrobiwan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zorrobiwan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "[[a keyboard]] has [[keys]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/accordion/,/c/en/keyboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qubit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qubit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/accordion", 
+                "@type": "Node", 
+                "label": "an accordion", 
+                "language": "en", 
+                "term": "/c/en/accordion"
+            }, 
+            "surfaceText": "[[an accordion]] has [[a keyboard]]", 
+            "weight": 1.0
+        }
+    ]
+}

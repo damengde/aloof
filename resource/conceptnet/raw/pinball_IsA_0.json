@@ -1,0 +1,188 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pinball&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pachinko/n/,/c/en/pinball/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pinball/n", 
+                "@type": "Node", 
+                "label": "pinball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinball"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pachinko/n", 
+                "@type": "Node", 
+                "label": "pachinko", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pachinko"
+            }, 
+            "surfaceText": "[[pachinko]] is a type of [[pinball]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pinball/n/,/c/en/game/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/game/n", 
+                "@type": "Node", 
+                "label": "game", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/game"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinball/n", 
+                "@type": "Node", 
+                "label": "pinball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinball"
+            }, 
+            "surfaceText": "[[pinball]] is a type of [[game]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pinball/n/,/c/en/intelligent_agent_activity/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/intelligent_agent_activity/n", 
+                "@type": "Node", 
+                "label": "intelligent agent activity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/intelligent_agent_activity"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinball/n", 
+                "@type": "Node", 
+                "label": "pinball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinball"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pinball/n/,/c/en/playing_game/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/playing_game/n", 
+                "@type": "Node", 
+                "label": "playing game", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/playing_game"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinball/n", 
+                "@type": "Node", 
+                "label": "pinball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinball"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pinball/n/,/c/en/video_game/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/video_game/n", 
+                "@type": "Node", 
+                "label": "video game", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/video_game"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinball/n", 
+                "@type": "Node", 
+                "label": "pinball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinball"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

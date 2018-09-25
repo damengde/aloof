@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/water_vapor&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/water_vapor/,/c/en/less_dense_than_air/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/less_dense_than_air", 
+                "@type": "Node", 
+                "label": "less dense than air", 
+                "language": "en", 
+                "term": "/c/en/less_dense_than_air"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_vapor", 
+                "@type": "Node", 
+                "label": "Water vapor", 
+                "language": "en", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "surfaceText": "[[Water vapor]] is [[less dense than air]]", 
+            "weight": 1.0
+        }
+    ]
+}

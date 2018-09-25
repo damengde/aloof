@@ -1,0 +1,784 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/door&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/separating_rooms/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separating_rooms", 
+                "@type": "Node", 
+                "label": "separating rooms", 
+                "language": "en", 
+                "term": "/c/en/separating_rooms"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jarling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jarling"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/matyasj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/matyasj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "A door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[A door]] is used for [[separating rooms]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/access_to_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/access_to_room", 
+                "@type": "Node", 
+                "label": "access to a room", 
+                "language": "en", 
+                "term": "/c/en/access_to_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is for [[access to a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/closing_passageway/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/closing_passageway", 
+                "@type": "Node", 
+                "label": "closing a passageway", 
+                "language": "en", 
+                "term": "/c/en/closing_passageway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lilydog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lilydog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is used for [[closing a passageway]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/control_access/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/control_access", 
+                "@type": "Node", 
+                "label": "control access", 
+                "language": "en", 
+                "term": "/c/en/control_access"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[control access]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/enter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/enter", 
+                "@type": "Node", 
+                "label": "enter", 
+                "language": "en", 
+                "term": "/c/en/enter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/barraqs/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/barraqs"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[door]] is for [[enter]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/entering_or_exiting_area/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/entering_or_exiting_area", 
+                "@type": "Node", 
+                "label": "entering or exiting an area", 
+                "language": "en", 
+                "term": "/c/en/entering_or_exiting_area"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "A door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[A door]] is for [[entering or exiting an area]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/entering_or_exiting_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/entering_or_exiting_room", 
+                "@type": "Node", 
+                "label": "entering or exiting a room", 
+                "language": "en", 
+                "term": "/c/en/entering_or_exiting_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "A door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[A door]] is used for [[entering or exiting a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/enter_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/enter_room", 
+                "@type": "Node", 
+                "label": "enter a room", 
+                "language": "en", 
+                "term": "/c/en/enter_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/twistofreality/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/twistofreality"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[enter a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/entry_or_exit_to_location/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/entry_or_exit_to_location", 
+                "@type": "Node", 
+                "label": "entry or exit to a location", 
+                "language": "en", 
+                "term": "/c/en/entry_or_exit_to_location"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/hurkle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/hurkle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "A door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[A door]] is used for [[entry or exit to a location]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/exit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/exit", 
+                "@type": "Node", 
+                "label": "exit", 
+                "language": "en", 
+                "term": "/c/en/exit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is used for [[exit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/exit_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/exit_building", 
+                "@type": "Node", 
+                "label": "exit a building", 
+                "language": "en", 
+                "term": "/c/en/exit_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[exit a building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/get_out_of_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_out_of_car", 
+                "@type": "Node", 
+                "label": "get out of a car", 
+                "language": "en", 
+                "term": "/c/en/get_out_of_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[get out of a car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/going_in_and_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/going_in_and_out", 
+                "@type": "Node", 
+                "label": "going in and out", 
+                "language": "en", 
+                "term": "/c/en/going_in_and_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/debhotmac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/debhotmac"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is used for [[going in and out]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/keeping_people_in_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_people_in_room", 
+                "@type": "Node", 
+                "label": "keeping people in a room", 
+                "language": "en", 
+                "term": "/c/en/keeping_people_in_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/clem/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/clem"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is for [[keeping people in a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/keeping_people_out_of_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_people_out_of_room", 
+                "@type": "Node", 
+                "label": "keeping people out of a room", 
+                "language": "en", 
+                "term": "/c/en/keeping_people_out_of_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/clem/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/clem"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is for [[keeping people out of a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/lock_out_outside_world/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lock_out_outside_world", 
+                "@type": "Node", 
+                "label": "lock out the outside world", 
+                "language": "en", 
+                "term": "/c/en/lock_out_outside_world"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[lock out the outside world]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/making_room_private/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_room_private", 
+                "@type": "Node", 
+                "label": "making a room private", 
+                "language": "en", 
+                "term": "/c/en/making_room_private"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/clem/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/clem"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is for [[making a room private]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/move_from_one_room_to_another/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/move_from_one_room_to_another", 
+                "@type": "Node", 
+                "label": "move from one room to another", 
+                "language": "en", 
+                "term": "/c/en/move_from_one_room_to_another"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[move from one room to another]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/passage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/passage", 
+                "@type": "Node", 
+                "label": "passage", 
+                "language": "en", 
+                "term": "/c/en/passage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/shesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/shesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[door]] is used for [[passage]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/protecting_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting_things", 
+                "@type": "Node", 
+                "label": "protecting things", 
+                "language": "en", 
+                "term": "/c/en/protecting_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/marnoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/marnoot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is for [[protecting things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/separate_two_rooms/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separate_two_rooms", 
+                "@type": "Node", 
+                "label": "separate two rooms", 
+                "language": "en", 
+                "term": "/c/en/separate_two_rooms"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/norman314/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/norman314"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "You can use [[a door]] to [[separate two rooms]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/door/,/c/en/separe_rooms/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separe_rooms", 
+                "@type": "Node", 
+                "label": "separe rooms", 
+                "language": "en", 
+                "term": "/c/en/separe_rooms"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matyasj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matyasj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[a door]] is used for [[separe rooms]]", 
+            "weight": 1.0
+        }
+    ]
+}

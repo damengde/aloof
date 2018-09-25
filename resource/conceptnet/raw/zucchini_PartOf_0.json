@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/zucchini&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/zucchini/n/,/c/en/zucchini/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[zucchini]] is a part of [[zucchini]]", 
+            "weight": 2.0
+        }
+    ]
+}

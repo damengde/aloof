@@ -1,0 +1,399 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_conditioner&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/novalyte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[a house]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building", 
+                "@type": "Node", 
+                "label": "a building", 
+                "language": "en", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aussiesue/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aussiesue"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[a building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "a car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "*Something you find in [[a car]] is [[an air conditioner]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/computer_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/computer_room", 
+                "@type": "Node", 
+                "label": "a computer room", 
+                "language": "en", 
+                "term": "/c/en/computer_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[a computer room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/hard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hard", 
+                "@type": "Node", 
+                "label": "a hard", 
+                "language": "en", 
+                "term": "/c/en/hard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/arlosuave/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/arlosuave"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[a hard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home", 
+                "@type": "Node", 
+                "label": "a home", 
+                "language": "en", 
+                "term": "/c/en/home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "*Something you find at [[a home]] is [[an air conditioner]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/office", 
+                "@type": "Node", 
+                "label": "an office", 
+                "language": "en", 
+                "term": "/c/en/office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/donovan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/donovan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[an office]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/office_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/office_building", 
+                "@type": "Node", 
+                "label": "an office building", 
+                "language": "en", 
+                "term": "/c/en/office_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[an office building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/south/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/south", 
+                "@type": "Node", 
+                "label": "the south", 
+                "language": "en", 
+                "term": "/c/en/south"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[the south]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/texas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/texas", 
+                "@type": "Node", 
+                "label": "Texas", 
+                "language": "en", 
+                "term": "/c/en/texas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[Texas]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/air_conditioner/,/c/en/warm_climates/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_climates", 
+                "@type": "Node", 
+                "label": "warm climates", 
+                "language": "en", 
+                "term": "/c/en/warm_climates"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/loiosh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/loiosh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[an air conditioner]] in [[warm climates]]", 
+            "weight": 1.0
+        }
+    ]
+}

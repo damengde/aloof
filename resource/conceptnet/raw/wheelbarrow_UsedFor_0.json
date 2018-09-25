@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheelbarrow&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheelbarrow/,/c/en/carry_manure_away_from_barn/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_manure_away_from_barn", 
+                "@type": "Node", 
+                "label": "carry manure away from the barn", 
+                "language": "en", 
+                "term": "/c/en/carry_manure_away_from_barn"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelbarrow", 
+                "@type": "Node", 
+                "label": "a wheelbarrow", 
+                "language": "en", 
+                "term": "/c/en/wheelbarrow"
+            }, 
+            "surfaceText": "You can use [[a wheelbarrow]] to [[carry manure away from the barn]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wheelbarrow/,/c/en/moving_heavy_loads/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/moving_heavy_loads", 
+                "@type": "Node", 
+                "label": "moving heavy loads", 
+                "language": "en", 
+                "term": "/c/en/moving_heavy_loads"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelbarrow", 
+                "@type": "Node", 
+                "label": "a wheelbarrow", 
+                "language": "en", 
+                "term": "/c/en/wheelbarrow"
+            }, 
+            "surfaceText": "[[a wheelbarrow]] is used for [[moving heavy loads]]", 
+            "weight": 1.0
+        }
+    ]
+}

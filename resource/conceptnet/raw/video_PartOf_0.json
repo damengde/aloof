@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/video&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/video/n/,/c/en/television/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/television/n", 
+                "@type": "Node", 
+                "label": "television", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/television"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video/n", 
+                "@type": "Node", 
+                "label": "video", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[video]] is a part of [[television]]", 
+            "weight": 2.0
+        }
+    ]
+}

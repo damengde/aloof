@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/water_cooler&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/socialising/,/c/en/water_cooler/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_cooler", 
+                "@type": "Node", 
+                "label": "the water cooler", 
+                "language": "en", 
+                "term": "/c/en/water_cooler"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/socialising", 
+                "@type": "Node", 
+                "label": "socialising", 
+                "language": "en", 
+                "term": "/c/en/socialising"
+            }, 
+            "surfaceText": "[[socialising]] is for [[the water cooler]]", 
+            "weight": 1.0
+        }
+    ]
+}

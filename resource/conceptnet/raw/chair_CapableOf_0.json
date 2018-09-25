@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chair&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chair/,/c/en/facing_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/facing_door", 
+                "@type": "Node", 
+                "label": "be facing a door", 
+                "language": "en", 
+                "term": "/c/en/facing_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "A chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[A chair]] can [[be facing a door]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chair/,/c/en/head_committee/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/head_committee", 
+                "@type": "Node", 
+                "label": "head a committee", 
+                "language": "en", 
+                "term": "/c/en/head_committee"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "A chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[A chair]] can [[head a committee]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chair/,/c/en/stand_alone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stand_alone", 
+                "@type": "Node", 
+                "label": "stand alone", 
+                "language": "en", 
+                "term": "/c/en/stand_alone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/egamma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/egamma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "A Chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[A Chair]] can [[stand alone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chair/,/c/en/touching_wall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/touching_wall", 
+                "@type": "Node", 
+                "label": "be touching the wall", 
+                "language": "en", 
+                "term": "/c/en/touching_wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "The chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[The chair]] can [[be touching the wall]]", 
+            "weight": 1.0
+        }
+    ]
+}

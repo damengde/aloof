@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mushroom&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mushroom/n/,/c/en/stuffed_mushroom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/stuffed_mushroom/n", 
+                "@type": "Node", 
+                "label": "stuffed mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stuffed_mushroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom/n", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "[[mushroom]] is a part of [[stuffed mushroom]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mushroom/,/c/en/saprobe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/saprobe/n", 
+                "@type": "Node", 
+                "label": "saprobe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/saprobe"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mushroom/,/c/en/saprotroph/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/saprotroph/n", 
+                "@type": "Node", 
+                "label": "saprotroph", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/saprotroph"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

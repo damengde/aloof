@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/screen&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/monitor_wall/,/c/en/screen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/screen", 
+                "@type": "Node", 
+                "label": "a screen", 
+                "language": "en", 
+                "term": "/c/en/screen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aussiesue/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aussiesue"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/monitor_wall", 
+                "@type": "Node", 
+                "label": "a monitor wall", 
+                "language": "en", 
+                "term": "/c/en/monitor_wall"
+            }, 
+            "surfaceText": "[[a monitor wall]] contains [[a screen]]", 
+            "weight": 1.0
+        }
+    ]
+}

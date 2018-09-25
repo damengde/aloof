@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sky&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/sky/,/c/en/clouds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clouds", 
+                "@type": "Node", 
+                "label": "clouds", 
+                "language": "en", 
+                "term": "/c/en/clouds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eddyb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eddyb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sky", 
+                "@type": "Node", 
+                "label": "the sky", 
+                "language": "en", 
+                "term": "/c/en/sky"
+            }, 
+            "surfaceText": "[[the sky]] contains [[clouds]]", 
+            "weight": 1.0
+        }
+    ]
+}

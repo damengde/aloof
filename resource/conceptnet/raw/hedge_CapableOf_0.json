@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hedge&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/hedge/,/c/en/fence_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fence_house", 
+                "@type": "Node", 
+                "label": "fence a house", 
+                "language": "en", 
+                "term": "/c/en/fence_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neuromancer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neuromancer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hedge", 
+                "@type": "Node", 
+                "label": "a hedge", 
+                "language": "en", 
+                "term": "/c/en/hedge"
+            }, 
+            "surfaceText": "[[a hedge]] can [[fence a house]]", 
+            "weight": 1.0
+        }
+    ]
+}

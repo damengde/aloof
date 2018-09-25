@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cube&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cube/,/c/en/play/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/play", 
+                "@type": "Node", 
+                "label": "play", 
+                "language": "en", 
+                "term": "/c/en/play"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/mythos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/mythos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cube", 
+                "@type": "Node", 
+                "label": "a cube", 
+                "language": "en", 
+                "term": "/c/en/cube"
+            }, 
+            "surfaceText": "[[a cube]] is for [[play]]", 
+            "weight": 1.0
+        }
+    ]
+}

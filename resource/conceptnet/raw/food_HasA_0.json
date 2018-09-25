@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/food&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/food/,/c/en/effect_of_suppressing_hunger/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/effect_of_suppressing_hunger", 
+                "@type": "Node", 
+                "label": "the effect of suppressing hunger", 
+                "language": "en", 
+                "term": "/c/en/effect_of_suppressing_hunger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/madvay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/madvay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] has [[the effect of suppressing hunger]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/kosher_deli_might/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kosher_deli_might", 
+                "@type": "Node", 
+                "label": "A kosher deli might", 
+                "language": "en", 
+                "term": "/c/en/kosher_deli_might"
+            }, 
+            "surfaceText": "[[A kosher deli might]] have [[food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/minibar/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/charliecss/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/charliecss"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/minibar", 
+                "@type": "Node", 
+                "label": "A minibar", 
+                "language": "en", 
+                "term": "/c/en/minibar"
+            }, 
+            "surfaceText": "[[A minibar]] contains [[food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/restaurant_and_theatre/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rah1977/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rah1977"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/restaurant_and_theatre", 
+                "@type": "Node", 
+                "label": "A restaurant and a theatre", 
+                "language": "en", 
+                "term": "/c/en/restaurant_and_theatre"
+            }, 
+            "surfaceText": "[[A restaurant and a theatre]] has [[food]]", 
+            "weight": 1.0
+        }
+    ]
+}

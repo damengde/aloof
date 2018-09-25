@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/archway&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/archway/,/c/en/rounded_at_top/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rounded_at_top", 
+                "@type": "Node", 
+                "label": "rounded at the top", 
+                "language": "en", 
+                "term": "/c/en/rounded_at_top"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/djaynewman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/djaynewman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/archway", 
+                "@type": "Node", 
+                "label": "An archway", 
+                "language": "en", 
+                "term": "/c/en/archway"
+            }, 
+            "surfaceText": "[[An archway]] is [[rounded at the top]]", 
+            "weight": 1.0
+        }
+    ]
+}

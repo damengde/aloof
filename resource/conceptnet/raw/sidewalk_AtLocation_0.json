@@ -1,0 +1,259 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sidewalk&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/old_gum/,/c/en/sidewalk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "the sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/msdny/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/msdny"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/old_gum", 
+                "@type": "Node", 
+                "label": "old gum", 
+                "language": "en", 
+                "term": "/c/en/old_gum"
+            }, 
+            "surfaceText": "*Something you find on [[the sidewalk]] is [[old gum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/curb/,/c/en/sidewalk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "the sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/maryann212/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/maryann212"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/curb", 
+                "@type": "Node", 
+                "label": "a curb", 
+                "language": "en", 
+                "term": "/c/en/curb"
+            }, 
+            "surfaceText": "You are likely to find [[a curb]] in [[the sidewalk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gum/,/c/en/sidewalk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/timeslicer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/timeslicer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gum", 
+                "@type": "Node", 
+                "label": "gum", 
+                "language": "en", 
+                "term": "/c/en/gum"
+            }, 
+            "surfaceText": "*Something you find on [[a sidewalk]] is [[gum]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sidewalk/,/c/en/ground/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ground", 
+                "@type": "Node", 
+                "label": "the ground", 
+                "language": "en", 
+                "term": "/c/en/ground"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk,", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "*Something you find on [[the ground]] is [[a sidewalk,]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sidewalk/,/c/en/most_towns_in_america/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/most_towns_in_america", 
+                "@type": "Node", 
+                "label": "most towns in America", 
+                "language": "en", 
+                "term": "/c/en/most_towns_in_america"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slurslee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slurslee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "You are likely to find [[a sidewalk]] in [[most towns in America]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sidewalk/,/c/en/nice_part_of_town/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nice_part_of_town", 
+                "@type": "Node", 
+                "label": "a nice part of town", 
+                "language": "en", 
+                "term": "/c/en/nice_part_of_town"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "You are likely to find [[a sidewalk]] in [[a nice part of town]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sidewalk/,/c/en/people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/people", 
+                "@type": "Node", 
+                "label": "people", 
+                "language": "en", 
+                "term": "/c/en/people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jcintra/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jcintra"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "You are likely to find [[a sidewalk]] in [[people]]", 
+            "weight": 1.0
+        }
+    ]
+}

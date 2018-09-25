@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spotlight&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spotlight/,/c/en/theater/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/theater", 
+                "@type": "Node", 
+                "label": "the theater", 
+                "language": "en", 
+                "term": "/c/en/theater"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kukral/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kukral"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spotlight", 
+                "@type": "Node", 
+                "label": "spotlight", 
+                "language": "en", 
+                "term": "/c/en/spotlight"
+            }, 
+            "surfaceText": "*Something you find at [[the theater]] is [[spotlight]]", 
+            "weight": 1.0
+        }
+    ]
+}

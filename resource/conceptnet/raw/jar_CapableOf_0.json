@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jar&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/jar/,/c/en/continue_to_leak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/continue_to_leak", 
+                "@type": "Node", 
+                "label": "continue to leak", 
+                "language": "en", 
+                "term": "/c/en/continue_to_leak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] can [[continue to leak]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/jar/,/c/en/hold_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_water", 
+                "@type": "Node", 
+                "label": "hold water", 
+                "language": "en", 
+                "term": "/c/en/hold_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rainqueen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rainqueen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] can [[hold water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/jar/,/c/en/store_harvest/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_harvest", 
+                "@type": "Node", 
+                "label": "store the harvest", 
+                "language": "en", 
+                "term": "/c/en/store_harvest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeeno/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeeno"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] can [[store the harvest]]", 
+            "weight": 1.0
+        }
+    ]
+}

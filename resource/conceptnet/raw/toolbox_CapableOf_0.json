@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toolbox&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toolbox/,/c/en/includes_screwdriver/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/includes_screwdriver", 
+                "@type": "Node", 
+                "label": "includes a screwdriver", 
+                "language": "en", 
+                "term": "/c/en/includes_screwdriver"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toolbox", 
+                "@type": "Node", 
+                "label": "A toolbox", 
+                "language": "en", 
+                "term": "/c/en/toolbox"
+            }, 
+            "surfaceText": "[[A toolbox]] often [[includes a screwdriver]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toolbox/,/c/en/store_tools/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_tools", 
+                "@type": "Node", 
+                "label": "store tools", 
+                "language": "en", 
+                "term": "/c/en/store_tools"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toolbox", 
+                "@type": "Node", 
+                "label": "toolbox", 
+                "language": "en", 
+                "term": "/c/en/toolbox"
+            }, 
+            "surfaceText": "[[toolbox]] can [[store tools]].", 
+            "weight": 1.0
+        }
+    ]
+}

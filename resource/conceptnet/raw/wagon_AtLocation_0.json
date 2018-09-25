@@ -1,0 +1,306 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wagon&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/toy_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy_store", 
+                "@type": "Node", 
+                "label": "a toy store", 
+                "language": "en", 
+                "term": "/c/en/toy_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/123321/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/123321"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/july/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/july"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/july/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/july"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a toy store]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/garage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garage", 
+                "@type": "Node", 
+                "label": "a garage", 
+                "language": "en", 
+                "term": "/c/en/garage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cosmik/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cosmik"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/asp742/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/asp742"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a garage]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/train_seat/,/c/en/wagon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/borris"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train_seat", 
+                "@type": "Node", 
+                "label": "a train seat", 
+                "language": "en", 
+                "term": "/c/en/train_seat"
+            }, 
+            "surfaceText": "You are likely to find [[a train seat]] in [[a wagon]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/backyard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backyard", 
+                "@type": "Node", 
+                "label": "someone's backyard", 
+                "language": "en", 
+                "term": "/c/en/backyard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[someone's backyard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/field", 
+                "@type": "Node", 
+                "label": "a field", 
+                "language": "en", 
+                "term": "/c/en/field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/morgan12x/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/morgan12x"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a field]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/kid's_back_yard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kid's_back_yard", 
+                "@type": "Node", 
+                "label": "a kid's back yard", 
+                "language": "en", 
+                "term": "/c/en/kid's_back_yard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a kid's back yard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/wagon_train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wagon_train", 
+                "@type": "Node", 
+                "label": "a wagon train", 
+                "language": "en", 
+                "term": "/c/en/wagon_train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a wagon train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wagon/,/c/en/yard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/yard", 
+                "@type": "Node", 
+                "label": "a yard", 
+                "language": "en", 
+                "term": "/c/en/yard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "You are likely to find [[a wagon]] in [[a yard]]", 
+            "weight": 1.0
+        }
+    ]
+}

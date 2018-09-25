@@ -1,0 +1,76 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wire&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wire/,/c/en/baltimore/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/baltimore", 
+                "@type": "Node", 
+                "label": "baltimore", 
+                "language": "en", 
+                "term": "/c/en/baltimore"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wire/,/c/en/maryland/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/maryland", 
+                "@type": "Node", 
+                "label": "maryland", 
+                "language": "en", 
+                "term": "/c/en/maryland"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

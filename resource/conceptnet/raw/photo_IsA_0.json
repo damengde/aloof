@@ -1,0 +1,337 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/photo&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo/,/c/en/photograph/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/photograph", 
+                "@type": "Node", 
+                "label": "A photograph", 
+                "language": "en", 
+                "term": "/c/en/photograph"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/czdurham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/czdurham"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jalanb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jalanb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo", 
+                "@type": "Node", 
+                "label": "A photo", 
+                "language": "en", 
+                "term": "/c/en/photo"
+            }, 
+            "surfaceText": "[[A photo]] is [[A photograph]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/celebrity_centerfold/n/,/c/en/photo/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/celebrity_centerfold/n", 
+                "@type": "Node", 
+                "label": "celebrity centerfold", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/celebrity_centerfold"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/centerfold_of_person/n/,/c/en/photo/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/centerfold_of_person/n", 
+                "@type": "Node", 
+                "label": "centerfold of person", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/centerfold_of_person"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photographic_art/n/,/c/en/photo/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photographic_art/n", 
+                "@type": "Node", 
+                "label": "photographic art", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photographic_art"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo/n/,/c/en/consumer_durable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/consumer_durable/n", 
+                "@type": "Node", 
+                "label": "consumer durable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/consumer_durable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo/n/,/c/en/graphic/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/graphic/n", 
+                "@type": "Node", 
+                "label": "graphic", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/graphic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo/n/,/c/en/hardcopy_of_image_sources/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/hardcopy_of_image_sources/n", 
+                "@type": "Node", 
+                "label": "hardcopy of image sources", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hardcopy_of_image_sources"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/photo/n/,/c/en/sheet_of_substance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/sheet_of_substance/n", 
+                "@type": "Node", 
+                "label": "sheet of substance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sheet_of_substance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/slide/n/,/c/en/photo/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/photo/n", 
+                "@type": "Node", 
+                "label": "photo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/photo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slide/n", 
+                "@type": "Node", 
+                "label": "slide", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slide"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

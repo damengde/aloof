@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/backpack&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/backpack/,/c/en/useful_for_camping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_camping", 
+                "@type": "Node", 
+                "label": "useful for camping", 
+                "language": "en", 
+                "term": "/c/en/useful_for_camping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dce23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dce23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "A backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "surfaceText": "[[A backpack]] is [[useful for camping]]", 
+            "weight": 1.0
+        }
+    ]
+}

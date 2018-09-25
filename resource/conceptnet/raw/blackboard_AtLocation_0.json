@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/blackboard&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/equations/,/c/en/blackboard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/blackboard", 
+                "@type": "Node", 
+                "label": "a blackboard", 
+                "language": "en", 
+                "term": "/c/en/blackboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/equations", 
+                "@type": "Node", 
+                "label": "equations", 
+                "language": "en", 
+                "term": "/c/en/equations"
+            }, 
+            "surfaceText": "*Something you find on [[a blackboard]] is [[equations]]", 
+            "weight": 1.0
+        }
+    ]
+}

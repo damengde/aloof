@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soup&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bowl/,/c/en/soup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bowl", 
+                "@type": "Node", 
+                "label": "a bowl", 
+                "language": "en", 
+                "term": "/c/en/bowl"
+            }, 
+            "surfaceText": "[[a bowl]] is for [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/satisfying_appetites_with_minimum_effort/,/c/en/soup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/satisfying_appetites_with_minimum_effort", 
+                "@type": "Node", 
+                "label": "satisfying appetites with minimum effort", 
+                "language": "en", 
+                "term": "/c/en/satisfying_appetites_with_minimum_effort"
+            }, 
+            "surfaceText": "[[satisfying appetites with minimum effort]] is for [[soup]]", 
+            "weight": 1.0
+        }
+    ]
+}

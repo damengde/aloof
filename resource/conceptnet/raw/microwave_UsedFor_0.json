@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/microwave&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/microwave/,/c/en/cooking_food_fast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_food_fast", 
+                "@type": "Node", 
+                "label": "cooking food fast", 
+                "language": "en", 
+                "term": "/c/en/cooking_food_fast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/microwave", 
+                "@type": "Node", 
+                "label": "a microwave", 
+                "language": "en", 
+                "term": "/c/en/microwave"
+            }, 
+            "surfaceText": "[[a microwave]] is for [[cooking food fast]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/microwave/,/c/en/make_popcorn/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_popcorn", 
+                "@type": "Node", 
+                "label": "make popcorn", 
+                "language": "en", 
+                "term": "/c/en/make_popcorn"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/thatweirdguy2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/thatweirdguy2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/microwave", 
+                "@type": "Node", 
+                "label": "a microwave", 
+                "language": "en", 
+                "term": "/c/en/microwave"
+            }, 
+            "surfaceText": "You can use [[a microwave]] to [[make popcorn]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/microwave/,/c/en/preparing_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/preparing_food", 
+                "@type": "Node", 
+                "label": "preparing food", 
+                "language": "en", 
+                "term": "/c/en/preparing_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cymbalhead/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cymbalhead"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/microwave", 
+                "@type": "Node", 
+                "label": "a microwave", 
+                "language": "en", 
+                "term": "/c/en/microwave"
+            }, 
+            "surfaceText": "[[a microwave]] is used for [[preparing food]]", 
+            "weight": 1.0
+        }
+    ]
+}

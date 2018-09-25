@@ -1,0 +1,211 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/knife&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/blade/,/c/en/knife/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/knife", 
+                "@type": "Node", 
+                "label": "a knife", 
+                "language": "en", 
+                "term": "/c/en/knife"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_608409230/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/20q_608409230"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blade", 
+                "@type": "Node", 
+                "label": "The blade", 
+                "language": "en", 
+                "term": "/c/en/blade"
+            }, 
+            "surfaceText": "[[The blade]] is part of [[a knife]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/blade/n/,/c/en/knife/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/knife/n", 
+                "@type": "Node", 
+                "label": "knife", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knife"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/blade/n", 
+                "@type": "Node", 
+                "label": "blade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/blade"
+            }, 
+            "surfaceText": "[[blade]] is a part of [[knife]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/haft/n/,/c/en/knife/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/knife/n", 
+                "@type": "Node", 
+                "label": "knife", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knife"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/haft/n", 
+                "@type": "Node", 
+                "label": "haft", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/haft"
+            }, 
+            "surfaceText": "[[haft]] is a part of [[knife]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knife_blade/n/,/c/en/knife/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/knife/n", 
+                "@type": "Node", 
+                "label": "knife", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knife"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knife_blade/n", 
+                "@type": "Node", 
+                "label": "knife blade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knife_blade"
+            }, 
+            "surfaceText": "[[knife blade]] is a part of [[knife]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/point/n/,/c/en/knife/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/knife/n", 
+                "@type": "Node", 
+                "label": "knife", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knife"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/point/n", 
+                "@type": "Node", 
+                "label": "point", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/point"
+            }, 
+            "surfaceText": "[[point]] is a part of [[knife]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tripod&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/leg/n/,/c/en/tripod/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tripod/n", 
+                "@type": "Node", 
+                "label": "tripod", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tripod"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/leg/n", 
+                "@type": "Node", 
+                "label": "leg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/leg"
+            }, 
+            "surfaceText": "[[leg]] is a part of [[tripod]]", 
+            "weight": 2.0
+        }
+    ]
+}

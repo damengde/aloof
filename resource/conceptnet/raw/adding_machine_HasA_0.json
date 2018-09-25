@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/adding_machine&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/adding_machine/,/c/en/roll_of_paper_tape/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/roll_of_paper_tape", 
+                "@type": "Node", 
+                "label": "a roll of paper tape", 
+                "language": "en", 
+                "term": "/c/en/roll_of_paper_tape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adding_machine", 
+                "@type": "Node", 
+                "label": "An adding machine", 
+                "language": "en", 
+                "term": "/c/en/adding_machine"
+            }, 
+            "surfaceText": "[[An adding machine]] has [[a roll of paper tape]]", 
+            "weight": 1.0
+        }
+    ]
+}

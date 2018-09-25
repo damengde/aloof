@@ -1,0 +1,265 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/gate&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gate/,/c/en/fence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fence", 
+                "@type": "Node", 
+                "label": "a fence", 
+                "language": "en", 
+                "term": "/c/en/fence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "You are likely to find [[a gate]] in [[a fence]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lock/,/c/en/gate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "You are likely to find [[a lock]] in [[gate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gate/,/c/en/apartment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/apartment", 
+                "@type": "Node", 
+                "label": "an apartment", 
+                "language": "en", 
+                "term": "/c/en/apartment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/martinlonewolf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/martinlonewolf"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "*Something you find at [[an apartment]] is [[a gate]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gate/,/c/en/backyard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backyard", 
+                "@type": "Node", 
+                "label": "a backyard", 
+                "language": "en", 
+                "term": "/c/en/backyard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nmeryash/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nmeryash"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "You are likely to find [[a gate]] in [[a backyard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gate/,/c/en/garden/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garden", 
+                "@type": "Node", 
+                "label": "a garden", 
+                "language": "en", 
+                "term": "/c/en/garden"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "You are likely to find [[a gate]] in [[a garden]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gate/,/c/en/heaven_and_guarded_by_st/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heaven_and_guarded_by_st", 
+                "@type": "Node", 
+                "label": "heaven, and guarded by St", 
+                "language": "en", 
+                "term": "/c/en/heaven_and_guarded_by_st"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/toddyosu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/toddyosu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "You are likely to find [[a gate]] in [[heaven, and guarded by St]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/horse/,/c/en/gate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "You are likely to find [[a horse]] in [[a gate]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trouser&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trouser/n/,/c/en/garment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/garment/n", 
+                "@type": "Node", 
+                "label": "garment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trouser/n", 
+                "@type": "Node", 
+                "label": "trouser", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trouser"
+            }, 
+            "surfaceText": "[[trouser]] is a type of [[garment]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trouser/,/c/en/garment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garment", 
+                "@type": "Node", 
+                "label": "garment", 
+                "language": "en", 
+                "term": "/c/en/garment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/dangiankit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/dangiankit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trouser", 
+                "@type": "Node", 
+                "label": "trouser", 
+                "language": "en", 
+                "term": "/c/en/trouser"
+            }, 
+            "surfaceText": "[[trouser]] is a [[garment]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mirror&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/clothing_store_changing_room/,/c/en/mirror/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mirror", 
+                "@type": "Node", 
+                "label": "a mirror", 
+                "language": "en", 
+                "term": "/c/en/mirror"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/habitty/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/habitty"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clothing_store_changing_room", 
+                "@type": "Node", 
+                "label": "a clothing store changing room", 
+                "language": "en", 
+                "term": "/c/en/clothing_store_changing_room"
+            }, 
+            "surfaceText": "[[a clothing store changing room]] has [[a mirror]]", 
+            "weight": 1.0
+        }
+    ]
+}

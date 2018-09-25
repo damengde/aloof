@@ -1,0 +1,187 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soap_dish&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soap_dish/n/,/c/en/fixture/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fixture/n", 
+                "@type": "Node", 
+                "label": "fixture", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fixture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish/n", 
+                "@type": "Node", 
+                "label": "soap dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": "[[soap dish]] is a type of [[fixture]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soap_dish/,/c/en/dish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dish", 
+                "@type": "Node", 
+                "label": "a dish", 
+                "language": "en", 
+                "term": "/c/en/dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alamais/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alamais"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish", 
+                "@type": "Node", 
+                "label": "A soap dish", 
+                "language": "en", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": "[[A soap dish]] is [[a dish]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soap_dish/n/,/c/en/housewares/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/housewares/n", 
+                "@type": "Node", 
+                "label": "housewares", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/housewares"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish/n", 
+                "@type": "Node", 
+                "label": "soap dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soap_dish/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish/n", 
+                "@type": "Node", 
+                "label": "soap dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soap_dish/n/,/c/en/storage_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/storage_device/n", 
+                "@type": "Node", 
+                "label": "storage device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/storage_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap_dish/n", 
+                "@type": "Node", 
+                "label": "soap dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soap_dish"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

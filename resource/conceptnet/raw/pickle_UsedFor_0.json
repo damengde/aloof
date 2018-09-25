@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pickle&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pickle/,/c/en/eating/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eating", 
+                "@type": "Node", 
+                "label": "eating", 
+                "language": "en", 
+                "term": "/c/en/eating"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pickle", 
+                "@type": "Node", 
+                "label": "A pickle", 
+                "language": "en", 
+                "term": "/c/en/pickle"
+            }, 
+            "surfaceText": "[[A pickle]] is for [[eating]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pickle/,/c/en/garnish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/garnish", 
+                "@type": "Node", 
+                "label": "a garnish", 
+                "language": "en", 
+                "term": "/c/en/garnish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/shesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/shesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pickle", 
+                "@type": "Node", 
+                "label": "A pickle", 
+                "language": "en", 
+                "term": "/c/en/pickle"
+            }, 
+            "surfaceText": "[[A pickle]] is used for [[a garnish]]", 
+            "weight": 1.0
+        }
+    ]
+}

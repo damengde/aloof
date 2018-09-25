@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/giraffe&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/giraffe/,/c/en/male/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/male", 
+                "@type": "Node", 
+                "label": "male", 
+                "language": "en", 
+                "term": "/c/en/male"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "A giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[A giraffe]] can be [[male]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/giraffe/,/c/en/female/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/female", 
+                "@type": "Node", 
+                "label": "female", 
+                "language": "en", 
+                "term": "/c/en/female"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "A giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[A giraffe]] can be [[female]]", 
+            "weight": 1.0
+        }
+    ]
+}

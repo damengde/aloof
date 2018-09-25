@@ -1,0 +1,811 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shoe&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sole/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "a shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sole", 
+                "@type": "Node", 
+                "label": "A sole", 
+                "language": "en", 
+                "term": "/c/en/sole"
+            }, 
+            "surfaceText": "[[A sole]] is part of [[a shoe]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/counter/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/counter/n", 
+                "@type": "Node", 
+                "label": "counter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/counter"
+            }, 
+            "surfaceText": "[[counter]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heel/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heel/n", 
+                "@type": "Node", 
+                "label": "heel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heel"
+            }, 
+            "surfaceText": "[[heel]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/insole/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/insole/n", 
+                "@type": "Node", 
+                "label": "insole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/insole"
+            }, 
+            "surfaceText": "[[insole]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/instep/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/instep/n", 
+                "@type": "Node", 
+                "label": "instep", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/instep"
+            }, 
+            "surfaceText": "[[instep]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lace/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lace/n", 
+                "@type": "Node", 
+                "label": "lace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lace"
+            }, 
+            "surfaceText": "[[lace]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/outsole/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/outsole/n", 
+                "@type": "Node", 
+                "label": "outsole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/outsole"
+            }, 
+            "surfaceText": "[[outsole]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/saddle/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/saddle/n", 
+                "@type": "Node", 
+                "label": "saddle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/saddle"
+            }, 
+            "surfaceText": "[[saddle]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoe_collar/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe_collar/n", 
+                "@type": "Node", 
+                "label": "shoe collar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe_collar"
+            }, 
+            "surfaceText": "[[shoe collar]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoelace/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "a shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mka001/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mka001"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoelace", 
+                "@type": "Node", 
+                "label": "A shoelace", 
+                "language": "en", 
+                "term": "/c/en/shoelace"
+            }, 
+            "surfaceText": "[[A shoelace]] is part of [[a shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoelace/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoelace/n", 
+                "@type": "Node", 
+                "label": "shoelace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoelace"
+            }, 
+            "surfaceText": "[[shoelace]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/spike/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spike/n", 
+                "@type": "Node", 
+                "label": "spike", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spike"
+            }, 
+            "surfaceText": "[[spike]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/throat/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/throat/n", 
+                "@type": "Node", 
+                "label": "throat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/throat"
+            }, 
+            "surfaceText": "[[throat]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/toe_box/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toe_box/n", 
+                "@type": "Node", 
+                "label": "toe box", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toe_box"
+            }, 
+            "surfaceText": "[[toe box]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/toecap/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toecap/n", 
+                "@type": "Node", 
+                "label": "toecap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toecap"
+            }, 
+            "surfaceText": "[[toecap]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tongue/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tongue/n", 
+                "@type": "Node", 
+                "label": "tongue", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tongue"
+            }, 
+            "surfaceText": "[[tongue]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/upper/n/,/c/en/shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoe/n", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/upper/n", 
+                "@type": "Node", 
+                "label": "upper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/upper"
+            }, 
+            "surfaceText": "[[upper]] is a part of [[shoe]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lace/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "a shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lace", 
+                "@type": "Node", 
+                "label": "A lace", 
+                "language": "en", 
+                "term": "/c/en/lace"
+            }, 
+            "surfaceText": "[[A lace]] is part of [[a shoe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoe/,/c/en/clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clothing", 
+                "@type": "Node", 
+                "label": "someone's clothing", 
+                "language": "en", 
+                "term": "/c/en/clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "A shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "surfaceText": "[[A shoe]] is part of [[someone's clothing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoe/,/c/en/person's_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/person's_clothing", 
+                "@type": "Node", 
+                "label": "a person's clothing", 
+                "language": "en", 
+                "term": "/c/en/person's_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "a shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "surfaceText": "[[a shoe]] is part of [[a person's clothing]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoe_lace/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ckerr115/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ckerr115"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe_lace", 
+                "@type": "Node", 
+                "label": "shoe lace", 
+                "language": "en", 
+                "term": "/c/en/shoe_lace"
+            }, 
+            "surfaceText": "[[shoe lace]] is part of [[shoe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shoe_string/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "a shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shoe_string", 
+                "@type": "Node", 
+                "label": "A shoe string", 
+                "language": "en", 
+                "term": "/c/en/shoe_string"
+            }, 
+            "surfaceText": "[[A shoe string]] is part of [[a shoe]]", 
+            "weight": 1.0
+        }
+    ]
+}

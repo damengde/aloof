@@ -1,0 +1,184 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/junk&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/junk/n/,/c/en/boat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/boat/n", 
+                "@type": "Node", 
+                "label": "boat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/junk/n", 
+                "@type": "Node", 
+                "label": "junk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/junk"
+            }, 
+            "surfaceText": "[[junk]] is a type of [[boat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/computer/,/c/en/junk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/junk", 
+                "@type": "Node", 
+                "label": "junk", 
+                "language": "en", 
+                "term": "/c/en/junk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/delaneybrian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/delaneybrian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer", 
+                "@type": "Node", 
+                "label": "this computer", 
+                "language": "en", 
+                "term": "/c/en/computer"
+            }, 
+            "surfaceText": "[[this computer]] is [[junk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_underwater/,/c/en/junk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/junk", 
+                "@type": "Node", 
+                "label": "junk", 
+                "language": "en", 
+                "term": "/c/en/junk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_underwater", 
+                "@type": "Node", 
+                "label": "Something you find underwater", 
+                "language": "en", 
+                "term": "/c/en/find_underwater"
+            }, 
+            "surfaceText": "[[Something you find underwater]] is [[junk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/junk/,/c/en/traditional_chinese_sailing_ship/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/traditional_chinese_sailing_ship", 
+                "@type": "Node", 
+                "label": "a traditional chinese sailing ship", 
+                "language": "en", 
+                "term": "/c/en/traditional_chinese_sailing_ship"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/junk", 
+                "@type": "Node", 
+                "label": "A junk", 
+                "language": "en", 
+                "term": "/c/en/junk"
+            }, 
+            "surfaceText": "[[A junk]] is [[a traditional chinese sailing ship]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trash/,/c/en/junk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/junk", 
+                "@type": "Node", 
+                "label": "junk", 
+                "language": "en", 
+                "term": "/c/en/junk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kipakuta/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kipakuta"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[trash]] is [[junk]]", 
+            "weight": 1.0
+        }
+    ]
+}

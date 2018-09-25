@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitchfork&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pitchfork/,/c/en/loft/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/loft", 
+                "@type": "Node", 
+                "label": "the loft", 
+                "language": "en", 
+                "term": "/c/en/loft"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitchfork", 
+                "@type": "Node", 
+                "label": "a pitchfork", 
+                "language": "en", 
+                "term": "/c/en/pitchfork"
+            }, 
+            "surfaceText": "*Something you find in [[the loft]] is [[a pitchfork]]", 
+            "weight": 1.0
+        }
+    ]
+}

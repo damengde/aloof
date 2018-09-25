@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fence&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/fence/,/c/en/posts/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/posts", 
+                "@type": "Node", 
+                "label": "posts", 
+                "language": "en", 
+                "term": "/c/en/posts"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wmichaux/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wmichaux"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fence", 
+                "@type": "Node", 
+                "label": "a fence", 
+                "language": "en", 
+                "term": "/c/en/fence"
+            }, 
+            "surfaceText": "[[a fence]] has [[posts]]", 
+            "weight": 1.0
+        }
+    ]
+}

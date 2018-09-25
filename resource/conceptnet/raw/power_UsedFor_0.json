@@ -1,0 +1,375 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/power&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/battery/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/czdurham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/czdurham"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/battery", 
+                "@type": "Node", 
+                "label": "a battery", 
+                "language": "en", 
+                "term": "/c/en/battery"
+            }, 
+            "surfaceText": "[[a battery]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/battery/n/,/c/en/power/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/power/v", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/battery/n", 
+                "@type": "Node", 
+                "label": "battery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/battery"
+            }, 
+            "surfaceText": "[[battery]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/conquering_nation/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/morgan12x/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/morgan12x"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/conquering_nation", 
+                "@type": "Node", 
+                "label": "conquering a nation", 
+                "language": "en", 
+                "term": "/c/en/conquering_nation"
+            }, 
+            "surfaceText": "[[conquering a nation]] is for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/engine/n/,/c/en/power/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/power/n", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/engine/n", 
+                "@type": "Node", 
+                "label": "engine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/engine"
+            }, 
+            "surfaceText": "[[engine]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/engine/n/,/c/en/power/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/power/v", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/engine/n", 
+                "@type": "Node", 
+                "label": "engine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/engine"
+            }, 
+            "surfaceText": "[[engine]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/locomotive/n/,/c/en/power/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/power/n", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/locomotive/n", 
+                "@type": "Node", 
+                "label": "locomotive", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/locomotive"
+            }, 
+            "surfaceText": "[[locomotive]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/locomotive/n/,/c/en/power/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/power/v", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/locomotive/n", 
+                "@type": "Node", 
+                "label": "locomotive", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/locomotive"
+            }, 
+            "surfaceText": "[[locomotive]] is used for [[power]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/disease/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/disease", 
+                "@type": "Node", 
+                "label": "a disease", 
+                "language": "en", 
+                "term": "/c/en/disease"
+            }, 
+            "surfaceText": "[[a disease]] is used for [[power]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fighting_war/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "Power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ptown/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ptown"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fighting_war", 
+                "@type": "Node", 
+                "label": "fighting war", 
+                "language": "en", 
+                "term": "/c/en/fighting_war"
+            }, 
+            "surfaceText": "[[fighting war]] is for [[Power]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/waging_war/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gabbrobreccia/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gabbrobreccia"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/waging_war", 
+                "@type": "Node", 
+                "label": "waging war", 
+                "language": "en", 
+                "term": "/c/en/waging_war"
+            }, 
+            "surfaceText": "[[waging war]] is for [[power]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sandwich&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sandwich/,/c/en/lunchbox/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lunchbox", 
+                "@type": "Node", 
+                "label": "a lunchbox", 
+                "language": "en", 
+                "term": "/c/en/lunchbox"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leester/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/leester"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sandwich", 
+                "@type": "Node", 
+                "label": "a sandwich", 
+                "language": "en", 
+                "term": "/c/en/sandwich"
+            }, 
+            "surfaceText": "You are likely to find [[a sandwich]] in [[a lunchbox]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bread/,/c/en/sandwich/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sandwich", 
+                "@type": "Node", 
+                "label": "a sandwich", 
+                "language": "en", 
+                "term": "/c/en/sandwich"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matrix29/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matrix29"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bread", 
+                "@type": "Node", 
+                "label": "bread", 
+                "language": "en", 
+                "term": "/c/en/bread"
+            }, 
+            "surfaceText": "You are likely to find [[bread]] in [[a sandwich]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mayonaise/,/c/en/sandwich/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sandwich", 
+                "@type": "Node", 
+                "label": "a sandwich", 
+                "language": "en", 
+                "term": "/c/en/sandwich"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bluerock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/bluerock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mayonaise", 
+                "@type": "Node", 
+                "label": "mayonaise", 
+                "language": "en", 
+                "term": "/c/en/mayonaise"
+            }, 
+            "surfaceText": "*Something you find on [[a sandwich]] is [[mayonaise]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sandwich/,/c/en/fridge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fridge", 
+                "@type": "Node", 
+                "label": "the fridge", 
+                "language": "en", 
+                "term": "/c/en/fridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sandwich", 
+                "@type": "Node", 
+                "label": "a sandwich", 
+                "language": "en", 
+                "term": "/c/en/sandwich"
+            }, 
+            "surfaceText": "Somewhere [[a sandwich]] can be is in [[the fridge]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sandwich/,/c/en/plate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plate", 
+                "@type": "Node", 
+                "label": "a plate", 
+                "language": "en", 
+                "term": "/c/en/plate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sandwich", 
+                "@type": "Node", 
+                "label": "a sandwich", 
+                "language": "en", 
+                "term": "/c/en/sandwich"
+            }, 
+            "surfaceText": "*Something you find on [[a plate]] is [[a sandwich]]", 
+            "weight": 1.0
+        }
+    ]
+}

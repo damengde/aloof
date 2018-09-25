@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ball&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ball/n/,/c/en/hand/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hand/n", 
+                "@type": "Node", 
+                "label": "hand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ball/n", 
+                "@type": "Node", 
+                "label": "ball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ball"
+            }, 
+            "surfaceText": "[[ball]] is a part of [[hand]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ball/n/,/c/en/sole/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sole/n", 
+                "@type": "Node", 
+                "label": "sole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sole"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ball/n", 
+                "@type": "Node", 
+                "label": "ball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ball"
+            }, 
+            "surfaceText": "[[ball]] is a part of [[sole]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/promenade/n/,/c/en/ball/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ball/n", 
+                "@type": "Node", 
+                "label": "ball", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ball"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/promenade/n", 
+                "@type": "Node", 
+                "label": "promenade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/promenade"
+            }, 
+            "surfaceText": "[[promenade]] is a part of [[ball]]", 
+            "weight": 2.0
+        }
+    ]
+}

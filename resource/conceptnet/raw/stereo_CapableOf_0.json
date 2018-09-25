@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stereo&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stereo/,/c/en/blaring/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/blaring", 
+                "@type": "Node", 
+                "label": "be blaring", 
+                "language": "en", 
+                "term": "/c/en/blaring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stereo", 
+                "@type": "Node", 
+                "label": "A stereo", 
+                "language": "en", 
+                "term": "/c/en/stereo"
+            }, 
+            "surfaceText": "[[A stereo]] can [[be blaring]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stereo/,/c/en/increase_it's_volume/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/increase_it's_volume", 
+                "@type": "Node", 
+                "label": "increase it's volume", 
+                "language": "en", 
+                "term": "/c/en/increase_it's_volume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stereo", 
+                "@type": "Node", 
+                "label": "a stereo", 
+                "language": "en", 
+                "term": "/c/en/stereo"
+            }, 
+            "surfaceText": "[[a stereo]] can [[increase it's volume]]", 
+            "weight": 1.0
+        }
+    ]
+}

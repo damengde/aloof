@@ -1,0 +1,534 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/menu&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/cafe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cafe", 
+                "@type": "Node", 
+                "label": "a cafe", 
+                "language": "en", 
+                "term": "/c/en/cafe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dblock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dblock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dblock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dblock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurt_woloch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/yoleus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/yoleus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a cafe]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/resturant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/resturant", 
+                "@type": "Node", 
+                "label": "a resturant", 
+                "language": "en", 
+                "term": "/c/en/resturant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yaheda/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/yaheda"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurt_woloch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "*Something you find at [[a resturant]] is [[a menu]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/border/,/c/en/menu/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/karmagrrl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/karmagrrl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/border", 
+                "@type": "Node", 
+                "label": "a border", 
+                "language": "en", 
+                "term": "/c/en/border"
+            }, 
+            "surfaceText": "You are likely to find [[a border]] in [[a menu]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/glass_of_milk/,/c/en/menu/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kukral/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kukral"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass_of_milk", 
+                "@type": "Node", 
+                "label": "a glass of milk", 
+                "language": "en", 
+                "term": "/c/en/glass_of_milk"
+            }, 
+            "surfaceText": "You are likely to find [[a glass of milk]] in [[a menu]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/advertisement/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/advertisement", 
+                "@type": "Node", 
+                "label": "an advertisement", 
+                "language": "en", 
+                "term": "/c/en/advertisement"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[an advertisement]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/bar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a bar]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/braille/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/braille", 
+                "@type": "Node", 
+                "label": "braille", 
+                "language": "en", 
+                "term": "/c/en/braille"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[braille]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/deli/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/deli", 
+                "@type": "Node", 
+                "label": "a deli", 
+                "language": "en", 
+                "term": "/c/en/deli"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/borris"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a deli]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/diner/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/diner", 
+                "@type": "Node", 
+                "label": "a diner", 
+                "language": "en", 
+                "term": "/c/en/diner"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a diner]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/financial_computer_program/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/financial_computer_program", 
+                "@type": "Node", 
+                "label": "a financial computer program", 
+                "language": "en", 
+                "term": "/c/en/financial_computer_program"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a financial computer program]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/internet_sites/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/internet_sites", 
+                "@type": "Node", 
+                "label": "some Internet sites", 
+                "language": "en", 
+                "term": "/c/en/internet_sites"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[some Internet sites]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/restaurant_diner_coffeeshop_or_snackbar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/restaurant_diner_coffeeshop_or_snackbar", 
+                "@type": "Node", 
+                "label": "a restaurant, diner, coffeeshop, or snackbar", 
+                "language": "en", 
+                "term": "/c/en/restaurant_diner_coffeeshop_or_snackbar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ksandre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ksandre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a restaurant, diner, coffeeshop, or snackbar]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "*Something you find on [[a table]] is [[a menu]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/menu/,/c/en/truck_stop's_restaurant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/truck_stop's_restaurant", 
+                "@type": "Node", 
+                "label": "a truck stop's restaurant", 
+                "language": "en", 
+                "term": "/c/en/truck_stop's_restaurant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You are likely to find [[a menu]] in [[a truck stop's restaurant]]", 
+            "weight": 1.0
+        }
+    ]
+}

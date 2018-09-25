@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bench&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bench/n/,/c/en/court/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/court/n", 
+                "@type": "Node", 
+                "label": "court", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/court"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bench/n", 
+                "@type": "Node", 
+                "label": "Bench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bench"
+            }, 
+            "surfaceText": "[[Bench]] is a part of [[court]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bench/n/,/c/en/team/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/team/n", 
+                "@type": "Node", 
+                "label": "team", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/team"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bench/n", 
+                "@type": "Node", 
+                "label": "bench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bench"
+            }, 
+            "surfaceText": "[[bench]] is a part of [[team]]", 
+            "weight": 2.0
+        }
+    ]
+}

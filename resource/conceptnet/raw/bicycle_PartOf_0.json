@@ -1,0 +1,455 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bicycle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wheel/,/c/en/bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "a bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/kmwade/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/kmwade"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/lauriab/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/lauriab"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/simonbagley/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/simonbagley"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheel", 
+                "@type": "Node", 
+                "label": "a wheel", 
+                "language": "en", 
+                "term": "/c/en/wheel"
+            }, 
+            "surfaceText": "[[a wheel]] is part of [[a bicycle]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bicycle_seat/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle_seat/n", 
+                "@type": "Node", 
+                "label": "bicycle seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_seat"
+            }, 
+            "surfaceText": "[[bicycle seat]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bicycle_wheel/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle_wheel/n", 
+                "@type": "Node", 
+                "label": "bicycle wheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_wheel"
+            }, 
+            "surfaceText": "[[bicycle wheel]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chain/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chain/n", 
+                "@type": "Node", 
+                "label": "chain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chain"
+            }, 
+            "surfaceText": "[[chain]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/coaster_brake/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coaster_brake/n", 
+                "@type": "Node", 
+                "label": "coaster brake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coaster_brake"
+            }, 
+            "surfaceText": "[[coaster brake]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handlebar/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handlebar/n", 
+                "@type": "Node", 
+                "label": "handlebar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handlebar"
+            }, 
+            "surfaceText": "[[handlebar]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/kickstand/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kickstand/n", 
+                "@type": "Node", 
+                "label": "kickstand", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kickstand"
+            }, 
+            "surfaceText": "[[kickstand]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mudguard/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mudguard/n", 
+                "@type": "Node", 
+                "label": "mudguard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mudguard"
+            }, 
+            "surfaceText": "[[mudguard]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pedal/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedal/n", 
+                "@type": "Node", 
+                "label": "pedal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pedal"
+            }, 
+            "surfaceText": "[[pedal]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sprocket/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sprocket/n", 
+                "@type": "Node", 
+                "label": "sprocket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sprocket"
+            }, 
+            "surfaceText": "[[sprocket]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bicycle_chain/,/c/en/bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "a bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle_chain", 
+                "@type": "Node", 
+                "label": "a bicycle chain", 
+                "language": "en", 
+                "term": "/c/en/bicycle_chain"
+            }, 
+            "surfaceText": "[[a bicycle chain]] is part of [[a bicycle]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sprocket/,/c/en/bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sprocket", 
+                "@type": "Node", 
+                "label": "a sprocket", 
+                "language": "en", 
+                "term": "/c/en/sprocket"
+            }, 
+            "surfaceText": "[[a sprocket]] is part of [[bicycle]]", 
+            "weight": 1.0
+        }
+    ]
+}

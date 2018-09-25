@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/boat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/boat_whistle/n/,/c/en/boat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/boat/n", 
+                "@type": "Node", 
+                "label": "boat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat_whistle/n", 
+                "@type": "Node", 
+                "label": "boat whistle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/boat_whistle"
+            }, 
+            "surfaceText": "[[boat whistle]] is a part of [[boat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/hull/,/c/en/boat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/adeena/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/adeena"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hull", 
+                "@type": "Node", 
+                "label": "hull", 
+                "language": "en", 
+                "term": "/c/en/hull"
+            }, 
+            "surfaceText": "[[hull]] is part of [[a boat]].", 
+            "weight": 1.0
+        }
+    ]
+}

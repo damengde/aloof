@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cooking_pot&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wok/,/c/en/cooking_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_pot", 
+                "@type": "Node", 
+                "label": "a cooking pot", 
+                "language": "en", 
+                "term": "/c/en/cooking_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wok", 
+                "@type": "Node", 
+                "label": "A wok", 
+                "language": "en", 
+                "term": "/c/en/wok"
+            }, 
+            "surfaceText": "[[A wok]] is [[a cooking pot]]", 
+            "weight": 2.0
+        }
+    ]
+}

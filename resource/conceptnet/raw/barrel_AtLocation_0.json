@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/barrel&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/monkey/,/c/en/barrel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/barrel", 
+                "@type": "Node", 
+                "label": "a barrel", 
+                "language": "en", 
+                "term": "/c/en/barrel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wergel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wergel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/monkey", 
+                "@type": "Node", 
+                "label": "a monkey", 
+                "language": "en", 
+                "term": "/c/en/monkey"
+            }, 
+            "surfaceText": "You are likely to find [[a monkey]] in [[a barrel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/barrel/,/c/en/market/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/market", 
+                "@type": "Node", 
+                "label": "the market", 
+                "language": "en", 
+                "term": "/c/en/market"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barrel", 
+                "@type": "Node", 
+                "label": "a barrel", 
+                "language": "en", 
+                "term": "/c/en/barrel"
+            }, 
+            "surfaceText": "*Something you find at [[the market]] is [[a barrel]]", 
+            "weight": 1.0
+        }
+    ]
+}

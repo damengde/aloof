@@ -1,0 +1,394 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitcher&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/throw_fast_ball/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throw_fast_ball", 
+                "@type": "Node", 
+                "label": "throw a fast ball", 
+                "language": "en", 
+                "term": "/c/en/throw_fast_ball"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/graylady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/graylady"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/graylady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/graylady"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mrjaime/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mrjaime"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[throw a fast ball]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/jog_to_pitching_mound/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jog_to_pitching_mound", 
+                "@type": "Node", 
+                "label": "jog to the pitching mound", 
+                "language": "en", 
+                "term": "/c/en/jog_to_pitching_mound"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mrjaime/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mrjaime"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[jog to the pitching mound]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/strike_out_baseball_hitter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/strike_out_baseball_hitter", 
+                "@type": "Node", 
+                "label": "strike out a baseball hitter", 
+                "language": "en", 
+                "term": "/c/en/strike_out_baseball_hitter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mrjaime/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mrjaime"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[strike out a baseball hitter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "be a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slong"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "a pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[a pitcher]] can [[be a container]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/hold_iced_tea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_iced_tea", 
+                "@type": "Node", 
+                "label": "hold iced tea", 
+                "language": "en", 
+                "term": "/c/en/hold_iced_tea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "a pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[a pitcher]] can [[hold iced tea]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/strike_batter_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/strike_batter_out", 
+                "@type": "Node", 
+                "label": "strike a batter out", 
+                "language": "en", 
+                "term": "/c/en/strike_batter_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ephigraph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ephigraph"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "a pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[a pitcher]] can [[strike a batter out]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/throw_ball_over_home_plate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throw_ball_over_home_plate", 
+                "@type": "Node", 
+                "label": "throw a ball over home plate", 
+                "language": "en", 
+                "term": "/c/en/throw_ball_over_home_plate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[throw a ball over home plate]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/throw_curve/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throw_curve", 
+                "@type": "Node", 
+                "label": "throw a curve", 
+                "language": "en", 
+                "term": "/c/en/throw_curve"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yottzumm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/yottzumm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[throw a curve]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/throw_fastball/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throw_fastball", 
+                "@type": "Node", 
+                "label": "throw a fastball", 
+                "language": "en", 
+                "term": "/c/en/throw_fastball"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smchure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smchure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[throw a fastball]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pitcher/,/c/en/throw_hard_and_fast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throw_hard_and_fast", 
+                "@type": "Node", 
+                "label": "throw hard and fast", 
+                "language": "en", 
+                "term": "/c/en/throw_hard_and_fast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/warrakkk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/warrakkk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "A pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[A pitcher]] can [[throw hard and fast]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/text&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/text/,/c/en/book/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "be a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rambled/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rambled"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "a text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[a text]] can [[be a book]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/text/,/c/en/fade/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fade", 
+                "@type": "Node", 
+                "label": "fade", 
+                "language": "en", 
+                "term": "/c/en/fade"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/kurt_woloch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/kurt_woloch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] can [[fade]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/text/,/c/en/include_letters_numbers_or_printable_symbols/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/include_letters_numbers_or_printable_symbols", 
+                "@type": "Node", 
+                "label": "include letters, numbers, or printable symbols", 
+                "language": "en", 
+                "term": "/c/en/include_letters_numbers_or_printable_symbols"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "Text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[Text]] can [[include letters, numbers, or printable symbols]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/text/,/c/en/sequence_of_words/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sequence_of_words", 
+                "@type": "Node", 
+                "label": "be a sequence of words", 
+                "language": "en", 
+                "term": "/c/en/sequence_of_words"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ligurdragon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ligurdragon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "a text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[a text]] can [[be a sequence of words]]", 
+            "weight": 1.0
+        }
+    ]
+}

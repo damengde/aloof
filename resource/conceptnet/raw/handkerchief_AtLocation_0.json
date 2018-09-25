@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/handkerchief&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/handkerchief/,/c/en/purse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "the purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handkerchief", 
+                "@type": "Node", 
+                "label": "a handkerchief", 
+                "language": "en", 
+                "term": "/c/en/handkerchief"
+            }, 
+            "surfaceText": "*Something you find in [[the purse]] is [[a handkerchief]]", 
+            "weight": 1.0
+        }
+    ]
+}

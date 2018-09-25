@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electrical_appliance&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fan/,/c/en/electrical_appliance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electrical_appliance", 
+                "@type": "Node", 
+                "label": "an electrical appliance", 
+                "language": "en", 
+                "term": "/c/en/electrical_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/jonmatthews617/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/jonmatthews617"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fan", 
+                "@type": "Node", 
+                "label": "a fan", 
+                "language": "en", 
+                "term": "/c/en/fan"
+            }, 
+            "surfaceText": "[[a fan]] is [[an electrical appliance]]", 
+            "weight": 1.0
+        }
+    ]
+}

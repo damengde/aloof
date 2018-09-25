@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/doily&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/doily/n/,/c/en/linen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/linen/n", 
+                "@type": "Node", 
+                "label": "linen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/linen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doily/n", 
+                "@type": "Node", 
+                "label": "doily", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doily"
+            }, 
+            "surfaceText": "[[doily]] is a type of [[linen]]", 
+            "weight": 2.0
+        }
+    ]
+}

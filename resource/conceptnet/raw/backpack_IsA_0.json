@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/backpack&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/backpack/n/,/c/en/bag/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bag/n", 
+                "@type": "Node", 
+                "label": "bag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/backpack/n", 
+                "@type": "Node", 
+                "label": "backpack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/backpack"
+            }, 
+            "surfaceText": "[[backpack]] is a type of [[bag]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kitbag/n/,/c/en/backpack/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/backpack/n", 
+                "@type": "Node", 
+                "label": "backpack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/backpack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitbag/n", 
+                "@type": "Node", 
+                "label": "kitbag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitbag"
+            }, 
+            "surfaceText": "[[kitbag]] is a type of [[backpack]]", 
+            "weight": 2.0
+        }
+    ]
+}

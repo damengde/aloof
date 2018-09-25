@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/giraffe&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/giraffe/,/c/en/long_neck/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_neck", 
+                "@type": "Node", 
+                "label": "long neck", 
+                "language": "en", 
+                "term": "/c/en/long_neck"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ovan4/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ovan4"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[giraffe]] has [[long neck]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/giraffe/,/c/en/nose/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nose", 
+                "@type": "Node", 
+                "label": "a nose", 
+                "language": "en", 
+                "term": "/c/en/nose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "A giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[A giraffe]] has [[a nose]]", 
+            "weight": 1.0
+        }
+    ]
+}

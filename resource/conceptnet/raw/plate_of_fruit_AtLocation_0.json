@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plate_of_fruit&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/grape/,/c/en/plate_of_fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plate_of_fruit", 
+                "@type": "Node", 
+                "label": "a plate of fruit", 
+                "language": "en", 
+                "term": "/c/en/plate_of_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grape", 
+                "@type": "Node", 
+                "label": "a grape", 
+                "language": "en", 
+                "term": "/c/en/grape"
+            }, 
+            "surfaceText": "You are likely to find [[a grape]] in [[a plate of fruit]]", 
+            "weight": 1.0
+        }
+    ]
+}

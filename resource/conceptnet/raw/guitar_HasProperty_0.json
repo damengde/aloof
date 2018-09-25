@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/guitar&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/guitar/,/c/en/difficult_to_play/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/difficult_to_play", 
+                "@type": "Node", 
+                "label": "difficult to play", 
+                "language": "en", 
+                "term": "/c/en/difficult_to_play"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bungleman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bungleman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[a guitar]] is [[difficult to play]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/guitar/,/c/en/one_kind_of_stringed_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_kind_of_stringed_instrument", 
+                "@type": "Node", 
+                "label": "one kind of stringed instrument", 
+                "language": "en", 
+                "term": "/c/en/one_kind_of_stringed_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "A guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[A guitar]] is [[one kind of stringed instrument]]", 
+            "weight": 1.0
+        }
+    ]
+}

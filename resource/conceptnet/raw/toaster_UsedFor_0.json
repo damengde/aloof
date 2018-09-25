@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toaster&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/toaster/,/c/en/making_toast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_toast", 
+                "@type": "Node", 
+                "label": "making toast", 
+                "language": "en", 
+                "term": "/c/en/making_toast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster", 
+                "@type": "Node", 
+                "label": "A toaster", 
+                "language": "en", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[A toaster]] is for [[making toast]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/toaster/,/c/en/toasting_bread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toasting_bread", 
+                "@type": "Node", 
+                "label": "toasting bread", 
+                "language": "en", 
+                "term": "/c/en/toasting_bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster", 
+                "@type": "Node", 
+                "label": "a toaster", 
+                "language": "en", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[a toaster]] is for [[toasting bread]]", 
+            "weight": 1.0
+        }
+    ]
+}

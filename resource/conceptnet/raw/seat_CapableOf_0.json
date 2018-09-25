@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/seat&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/seat/,/c/en/on_airplane/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/on_airplane", 
+                "@type": "Node", 
+                "label": "be on an airplane", 
+                "language": "en", 
+                "term": "/c/en/on_airplane"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wildhare/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wildhare"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat", 
+                "@type": "Node", 
+                "label": "a seat", 
+                "language": "en", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[a seat]] may [[be on an airplane]]", 
+            "weight": 1.0
+        }
+    ]
+}

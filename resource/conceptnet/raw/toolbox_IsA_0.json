@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toolbox&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toolbox/n/,/c/en/chest/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chest/n", 
+                "@type": "Node", 
+                "label": "chest", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toolbox/n", 
+                "@type": "Node", 
+                "label": "toolbox", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toolbox"
+            }, 
+            "surfaceText": "[[toolbox]] is a type of [[chest]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toolbox/n/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toolbox/n", 
+                "@type": "Node", 
+                "label": "toolbox", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toolbox"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

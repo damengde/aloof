@@ -1,0 +1,924 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lock&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/securing_door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/securing_door", 
+                "@type": "Node", 
+                "label": "securing a door", 
+                "language": "en", 
+                "term": "/c/en/securing_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used for [[securing a door]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/key/n/,/c/en/lock/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lock/v", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/lock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/key/n", 
+                "@type": "Node", 
+                "label": "key", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/key"
+            }, 
+            "surfaceText": "[[key]] is used for [[lock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/privacy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/privacy", 
+                "@type": "Node", 
+                "label": "privacy", 
+                "language": "en", 
+                "term": "/c/en/privacy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[privacy]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/protecting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting", 
+                "@type": "Node", 
+                "label": "protecting", 
+                "language": "en", 
+                "term": "/c/en/protecting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jake/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jake"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[protecting]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/protecting_valuables/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting_valuables", 
+                "@type": "Node", 
+                "label": "protecting your valuables", 
+                "language": "en", 
+                "term": "/c/en/protecting_valuables"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[protecting your valuables]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/securing_valuables/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/securing_valuables", 
+                "@type": "Node", 
+                "label": "securing your valuables", 
+                "language": "en", 
+                "term": "/c/en/securing_valuables"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/frogface63/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/frogface63"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[securing your valuables]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/n/,/c/en/close/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/close/v", 
+                "@type": "Node", 
+                "label": "close", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/close"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is used for [[close]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/n/,/c/en/fasten/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fasten/v", 
+                "@type": "Node", 
+                "label": "fasten", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fasten"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is used for [[fasten]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/n/,/c/en/lock/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lock/v", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/lock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is used for [[lock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/n/,/c/en/protection/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/protection/n", 
+                "@type": "Node", 
+                "label": "protection", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/protection"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is used for [[protection]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/controlling_access/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/controlling_access", 
+                "@type": "Node", 
+                "label": "controlling access", 
+                "language": "en", 
+                "term": "/c/en/controlling_access"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used for [[controlling access]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/controlling_whether_door_opened/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/controlling_whether_door_opened", 
+                "@type": "Node", 
+                "label": "controlling whether a door is opened", 
+                "language": "en", 
+                "term": "/c/en/controlling_whether_door_opened"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "A lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[A lock]] is used for [[controlling whether a door is opened]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/keep_cloesd/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_cloesd", 
+                "@type": "Node", 
+                "label": "keep something cloesd", 
+                "language": "en", 
+                "term": "/c/en/keep_cloesd"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/frnor/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/frnor"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] can be used to [[keep something cloesd]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/keep_door_closed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_door_closed", 
+                "@type": "Node", 
+                "label": "keep a door closed", 
+                "language": "en", 
+                "term": "/c/en/keep_door_closed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "You can use [[a lock]] to [[keep a door closed]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/keeping_items_secure/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_items_secure", 
+                "@type": "Node", 
+                "label": "keeping items secure", 
+                "language": "en", 
+                "term": "/c/en/keeping_items_secure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used for [[keeping items secure]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/keeping_others_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_others_out", 
+                "@type": "Node", 
+                "label": "keeping others out", 
+                "language": "en", 
+                "term": "/c/en/keeping_others_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[keeping others out]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/keeping_people_out_of/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_people_out_of", 
+                "@type": "Node", 
+                "label": "keeping people out of something", 
+                "language": "en", 
+                "term": "/c/en/keeping_people_out_of"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[keeping people out of something]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/preventing_from_getting_stolen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/preventing_from_getting_stolen", 
+                "@type": "Node", 
+                "label": "preventing something from getting stolen", 
+                "language": "en", 
+                "term": "/c/en/preventing_from_getting_stolen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[preventing something from getting stolen]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/protecting_property/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting_property", 
+                "@type": "Node", 
+                "label": "protecting your property", 
+                "language": "en", 
+                "term": "/c/en/protecting_property"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[protecting your property]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/provide_security/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/provide_security", 
+                "@type": "Node", 
+                "label": "provide security", 
+                "language": "en", 
+                "term": "/c/en/provide_security"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used to [[provide security]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/secure_valuables/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/secure_valuables", 
+                "@type": "Node", 
+                "label": "secure your valuables", 
+                "language": "en", 
+                "term": "/c/en/secure_valuables"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "You can use [[a lock]] to [[secure your valuables]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/securing_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/securing_building", 
+                "@type": "Node", 
+                "label": "securing a building", 
+                "language": "en", 
+                "term": "/c/en/securing_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dugbob/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dugbob"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used for [[securing a building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/securing_home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/securing_home", 
+                "@type": "Node", 
+                "label": "securing a home", 
+                "language": "en", 
+                "term": "/c/en/securing_home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[securing a home]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/security/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/security", 
+                "@type": "Node", 
+                "label": "security", 
+                "language": "en", 
+                "term": "/c/en/security"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is used for [[security]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lock/,/c/en/storing_valuables/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_valuables", 
+                "@type": "Node", 
+                "label": "storing valuables", 
+                "language": "en", 
+                "term": "/c/en/storing_valuables"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is for [[storing valuables]]", 
+            "weight": 1.0
+        }
+    ]
+}

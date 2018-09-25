@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_conditioner&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/air_conditioner/,/c/en/cool_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_car", 
+                "@type": "Node", 
+                "label": "cool your car", 
+                "language": "en", 
+                "term": "/c/en/cool_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "an air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "[[an air conditioner]] can [[cool your car]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/air_conditioner/,/c/en/cool_or_warm_air/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_or_warm_air", 
+                "@type": "Node", 
+                "label": "cool or warm the air", 
+                "language": "en", 
+                "term": "/c/en/cool_or_warm_air"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mif/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mif"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_conditioner", 
+                "@type": "Node", 
+                "label": "An air conditioner", 
+                "language": "en", 
+                "term": "/c/en/air_conditioner"
+            }, 
+            "surfaceText": "[[An air conditioner]] can [[cool or warm the air]]", 
+            "weight": 1.0
+        }
+    ]
+}

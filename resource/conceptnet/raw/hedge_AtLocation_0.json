@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hedge&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hedge/,/c/en/backyard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/backyard", 
+                "@type": "Node", 
+                "label": "a backyard", 
+                "language": "en", 
+                "term": "/c/en/backyard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/fable/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/fable"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hedge", 
+                "@type": "Node", 
+                "label": "a hedge", 
+                "language": "en", 
+                "term": "/c/en/hedge"
+            }, 
+            "surfaceText": "You are likely to find [[a hedge]] in [[a backyard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hedge/,/c/en/countryside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/countryside", 
+                "@type": "Node", 
+                "label": "the countryside", 
+                "language": "en", 
+                "term": "/c/en/countryside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hedge", 
+                "@type": "Node", 
+                "label": "a hedge", 
+                "language": "en", 
+                "term": "/c/en/hedge"
+            }, 
+            "surfaceText": "*Something you find in [[the countryside]] is [[a hedge]]", 
+            "weight": 1.0
+        }
+    ]
+}

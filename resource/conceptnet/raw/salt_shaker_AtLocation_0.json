@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/salt_shaker&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/salt_shaker/,/c/en/fast_food_restaurant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fast_food_restaurant", 
+                "@type": "Node", 
+                "label": "a fast-food restaurant", 
+                "language": "en", 
+                "term": "/c/en/fast_food_restaurant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/flyboi2003/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/flyboi2003"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jalonso/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jalonso"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_shaker", 
+                "@type": "Node", 
+                "label": "a salt shaker", 
+                "language": "en", 
+                "term": "/c/en/salt_shaker"
+            }, 
+            "surfaceText": "*Something you find at [[a fast-food restaurant]] is [[a salt shaker]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/salt_shaker/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_shaker", 
+                "@type": "Node", 
+                "label": "a salt shaker", 
+                "language": "en", 
+                "term": "/c/en/salt_shaker"
+            }, 
+            "surfaceText": "*Something you find on [[a table]] is [[a salt shaker]]", 
+            "weight": 1.0
+        }
+    ]
+}

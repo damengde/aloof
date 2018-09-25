@@ -1,0 +1,295 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sailboat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/centerboard/n/,/c/en/sailboat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sailboat/n", 
+                "@type": "Node", 
+                "label": "sailboat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/centerboard/n", 
+                "@type": "Node", 
+                "label": "centerboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/centerboard"
+            }, 
+            "surfaceText": "[[centerboard]] is a part of [[sailboat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sailboat/,/c/en/regatta/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/regatta", 
+                "@type": "Node", 
+                "label": "a regatta", 
+                "language": "en", 
+                "term": "/c/en/regatta"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "surfaceText": "[[sailboat]] is part of [[a regatta]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bow/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow", 
+                "@type": "Node", 
+                "label": "a bow", 
+                "language": "en", 
+                "term": "/c/en/bow"
+            }, 
+            "surfaceText": "[[a bow]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/hull/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hull", 
+                "@type": "Node", 
+                "label": "a hull", 
+                "language": "en", 
+                "term": "/c/en/hull"
+            }, 
+            "surfaceText": "[[a hull]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mast/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mast", 
+                "@type": "Node", 
+                "label": "a mast", 
+                "language": "en", 
+                "term": "/c/en/mast"
+            }, 
+            "surfaceText": "[[a mast]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/rudder/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rudder", 
+                "@type": "Node", 
+                "label": "a rudder", 
+                "language": "en", 
+                "term": "/c/en/rudder"
+            }, 
+            "surfaceText": "[[a rudder]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sail/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sail", 
+                "@type": "Node", 
+                "label": "a sail", 
+                "language": "en", 
+                "term": "/c/en/sail"
+            }, 
+            "surfaceText": "[[a sail]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/stern/,/c/en/sailboat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stern", 
+                "@type": "Node", 
+                "label": "the stern", 
+                "language": "en", 
+                "term": "/c/en/stern"
+            }, 
+            "surfaceText": "[[the stern]] is part of [[a sailboat]]", 
+            "weight": 1.0
+        }
+    ]
+}

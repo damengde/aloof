@@ -1,0 +1,636 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitcher&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amyjrose/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/amyjrose"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nshaner/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/nshaner"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/slong"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "a pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[a pitcher]] is [[a container]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cream_pitcher/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cream_pitcher/n", 
+                "@type": "Node", 
+                "label": "cream pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cream_pitcher"
+            }, 
+            "surfaceText": "[[cream pitcher]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/left_handed_pitcher/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/left_handed_pitcher/n", 
+                "@type": "Node", 
+                "label": "left-handed pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/left_handed_pitcher"
+            }, 
+            "surfaceText": "[[left-handed pitcher]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/ballplayer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ballplayer/n", 
+                "@type": "Node", 
+                "label": "ballplayer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ballplayer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[ballplayer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/containerful/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/containerful/n", 
+                "@type": "Node", 
+                "label": "containerful", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/containerful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[containerful]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/leaf/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/leaf/n", 
+                "@type": "Node", 
+                "label": "leaf", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/leaf"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[leaf]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/position/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/position/n", 
+                "@type": "Node", 
+                "label": "position", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/position"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[position]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/thrower/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/thrower/n", 
+                "@type": "Node", 
+                "label": "thrower", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thrower"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[thrower]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/vessel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vessel/n", 
+                "@type": "Node", 
+                "label": "vessel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vessel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[pitcher]] is a type of [[vessel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/reliever/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reliever/n", 
+                "@type": "Node", 
+                "label": "reliever", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/reliever"
+            }, 
+            "surfaceText": "[[reliever]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/right_handed_pitcher/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/right_handed_pitcher/n", 
+                "@type": "Node", 
+                "label": "right-handed pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/right_handed_pitcher"
+            }, 
+            "surfaceText": "[[right-handed pitcher]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/screwballer/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screwballer/n", 
+                "@type": "Node", 
+                "label": "screwballer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/screwballer"
+            }, 
+            "surfaceText": "[[screwballer]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/starting_pitcher/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/starting_pitcher/n", 
+                "@type": "Node", 
+                "label": "starting pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/starting_pitcher"
+            }, 
+            "surfaceText": "[[starting pitcher]] is a type of [[pitcher]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/creamer/n/,/c/en/pitcher/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/creamer/n", 
+                "@type": "Node", 
+                "label": "creamer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/creamer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ewer/n/,/c/en/pitcher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ewer/n", 
+                "@type": "Node", 
+                "label": "ewer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ewer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/,/c/en/player/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/player", 
+                "@type": "Node", 
+                "label": "a player", 
+                "language": "en", 
+                "term": "/c/en/player"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kargin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kargin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher", 
+                "@type": "Node", 
+                "label": "a pitcher", 
+                "language": "en", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": "[[a pitcher]] is [[a player]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitcher/n/,/c/en/serving_dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/serving_dish/n", 
+                "@type": "Node", 
+                "label": "serving dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/serving_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitcher/n", 
+                "@type": "Node", 
+                "label": "pitcher", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitcher"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

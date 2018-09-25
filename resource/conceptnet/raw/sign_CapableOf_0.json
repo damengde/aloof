@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sign&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/sign/,/c/en/sign_to_direct/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sign_to_direct", 
+                "@type": "Node", 
+                "label": "sign to direct", 
+                "language": "en", 
+                "term": "/c/en/sign_to_direct"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/spadger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/spadger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sign", 
+                "@type": "Node", 
+                "label": "sign", 
+                "language": "en", 
+                "term": "/c/en/sign"
+            }, 
+            "surfaceText": "[[sign]] can [[sign to direct]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/sign/,/c/en/sign_way/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sign_way", 
+                "@type": "Node", 
+                "label": "sign the way", 
+                "language": "en", 
+                "term": "/c/en/sign_way"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/googoo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/googoo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sign", 
+                "@type": "Node", 
+                "label": "A sign", 
+                "language": "en", 
+                "term": "/c/en/sign"
+            }, 
+            "surfaceText": "[[A sign]] can [[sign the way]]", 
+            "weight": 1.0
+        }
+    ]
+}

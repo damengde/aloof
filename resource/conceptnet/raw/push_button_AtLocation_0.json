@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/push_button&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/push_button/n/,/c/en/machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/machine/n", 
+                "@type": "Node", 
+                "label": "machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/push_button/n", 
+                "@type": "Node", 
+                "label": "push button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button"
+            }, 
+            "surfaceText": "[[push button]] is located in [[machine]]", 
+            "weight": 2.0
+        }
+    ]
+}

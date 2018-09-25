@@ -1,0 +1,446 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dishwasher&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cup/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cup", 
+                "@type": "Node", 
+                "label": "a cup", 
+                "language": "en", 
+                "term": "/c/en/cup"
+            }, 
+            "surfaceText": "You are likely to find [[a cup]] in [[a dishwasher]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dishwasher/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "a kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffmuir"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "surfaceText": "You are likely to find [[a dishwasher]] in [[a kitchen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bowl/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bowl", 
+                "@type": "Node", 
+                "label": "a bowl", 
+                "language": "en", 
+                "term": "/c/en/bowl"
+            }, 
+            "surfaceText": "You are likely to find [[a bowl]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dirty_dishes/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/merleen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/merleen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dirty_dishes", 
+                "@type": "Node", 
+                "label": "dirty dishes", 
+                "language": "en", 
+                "term": "/c/en/dirty_dishes"
+            }, 
+            "surfaceText": "You are likely to find [[dirty dishes]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dishwasher/,/c/en/apartment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/apartment", 
+                "@type": "Node", 
+                "label": "an apartment", 
+                "language": "en", 
+                "term": "/c/en/apartment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcarey1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "surfaceText": "*Something you find at [[an apartment]] is [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dishwasher/,/c/en/resturant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/resturant", 
+                "@type": "Node", 
+                "label": "a resturant", 
+                "language": "en", 
+                "term": "/c/en/resturant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "surfaceText": "*Something you find at [[a resturant]] is [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/frying_pan/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mevans/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mevans"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frying_pan", 
+                "@type": "Node", 
+                "label": "a frying pan", 
+                "language": "en", 
+                "term": "/c/en/frying_pan"
+            }, 
+            "surfaceText": "You are likely to find [[a frying pan]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/glass/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glass", 
+                "@type": "Node", 
+                "label": "a glass", 
+                "language": "en", 
+                "term": "/c/en/glass"
+            }, 
+            "surfaceText": "You are likely to find [[a glass]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/kitchen_utensil/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "You are likely to find [[a kitchen utensil]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/plate/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plate", 
+                "@type": "Node", 
+                "label": "a plate", 
+                "language": "en", 
+                "term": "/c/en/plate"
+            }, 
+            "surfaceText": "You are likely to find [[a plate]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/salad_bowl/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/salyre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/salyre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salad_bowl", 
+                "@type": "Node", 
+                "label": "a salad bowl", 
+                "language": "en", 
+                "term": "/c/en/salad_bowl"
+            }, 
+            "surfaceText": "You are likely to find [[a salad bowl]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spoon/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "a dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "a spoon", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "You are likely to find [[a spoon]] in [[a dishwasher]]", 
+            "weight": 1.0
+        }
+    ]
+}

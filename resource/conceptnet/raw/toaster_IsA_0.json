@@ -1,0 +1,299 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toaster&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/,/c/en/machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/machine", 
+                "@type": "Node", 
+                "label": "a machine", 
+                "language": "en", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kwitzel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kwitzel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster", 
+                "@type": "Node", 
+                "label": "a toaster", 
+                "language": "en", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[a toaster]] is [[a machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/n/,/c/en/kitchen_appliance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/kitchen_appliance/n", 
+                "@type": "Node", 
+                "label": "kitchen appliance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster/n", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[toaster]] is a type of [[kitchen appliance]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/n/,/c/en/supporter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/supporter/n", 
+                "@type": "Node", 
+                "label": "supporter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/supporter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster/n", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[toaster]] is a type of [[supporter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/,/c/en/electrical_device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electrical_device", 
+                "@type": "Node", 
+                "label": "electrical device", 
+                "language": "en", 
+                "term": "/c/en/electrical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/moin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/moin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[toaster]] is a kind of [[electrical device]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/,/c/en/electric_appliance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electric_appliance", 
+                "@type": "Node", 
+                "label": "an electric appliance", 
+                "language": "en", 
+                "term": "/c/en/electric_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster", 
+                "@type": "Node", 
+                "label": "A toaster", 
+                "language": "en", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": "[[A toaster]] is [[an electric appliance]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/n/,/c/en/electrical_household_appliance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/electrical_household_appliance/n", 
+                "@type": "Node", 
+                "label": "electrical household appliance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electrical_household_appliance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster/n", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster/n/,/c/en/kitchen_tool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/kitchen_tool/n", 
+                "@type": "Node", 
+                "label": "kitchen tool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster/n", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toaster_oven/n/,/c/en/toaster/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/toaster/n", 
+                "@type": "Node", 
+                "label": "toaster", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toaster_oven/n", 
+                "@type": "Node", 
+                "label": "toaster oven", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toaster_oven"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

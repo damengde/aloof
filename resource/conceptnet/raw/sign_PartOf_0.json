@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sign&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sign/n/,/c/en/disease/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/disease/n", 
+                "@type": "Node", 
+                "label": "disease", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/disease"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sign/n", 
+                "@type": "Node", 
+                "label": "sign", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sign"
+            }, 
+            "surfaceText": "[[sign]] is a part of [[disease]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sign/n/,/c/en/sign_language/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sign_language/n", 
+                "@type": "Node", 
+                "label": "sign language", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sign_language"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sign/n", 
+                "@type": "Node", 
+                "label": "sign", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sign"
+            }, 
+            "surfaceText": "[[sign]] is a part of [[sign language]]", 
+            "weight": 2.0
+        }
+    ]
+}

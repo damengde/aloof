@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/molding&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/molding/n/,/c/en/picture_frame/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/picture_frame/n", 
+                "@type": "Node", 
+                "label": "picture frame", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/picture_frame"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/molding/n", 
+                "@type": "Node", 
+                "label": "molding", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/molding"
+            }, 
+            "surfaceText": "[[molding]] is a part of [[picture frame]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cook_book&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cook_book/,/c/en/bookstore/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bookstore", 
+                "@type": "Node", 
+                "label": "a bookstore", 
+                "language": "en", 
+                "term": "/c/en/bookstore"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cook_book", 
+                "@type": "Node", 
+                "label": "a cook book", 
+                "language": "en", 
+                "term": "/c/en/cook_book"
+            }, 
+            "surfaceText": "*Something you find at [[a bookstore]] is [[a cook book]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cook_book/,/c/en/library/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/library", 
+                "@type": "Node", 
+                "label": "the library", 
+                "language": "en", 
+                "term": "/c/en/library"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cook_book", 
+                "@type": "Node", 
+                "label": "a cook book", 
+                "language": "en", 
+                "term": "/c/en/cook_book"
+            }, 
+            "surfaceText": "*Something you find at [[the library]] is [[a cook book]]", 
+            "weight": 1.0
+        }
+    ]
+}

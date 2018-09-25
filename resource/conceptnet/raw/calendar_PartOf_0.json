@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/calendar&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/embolism/n/,/c/en/calendar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/calendar/n", 
+                "@type": "Node", 
+                "label": "calendar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/calendar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/embolism/n", 
+                "@type": "Node", 
+                "label": "embolism", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/embolism"
+            }, 
+            "surfaceText": "[[embolism]] is a part of [[calendar]]", 
+            "weight": 2.0
+        }
+    ]
+}

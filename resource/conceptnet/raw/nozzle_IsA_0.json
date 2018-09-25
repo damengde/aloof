@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/nozzle&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/nozzle/n/,/c/en/spout/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/spout/n", 
+                "@type": "Node", 
+                "label": "spout", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spout"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/nozzle/n", 
+                "@type": "Node", 
+                "label": "nozzle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/nozzle"
+            }, 
+            "surfaceText": "[[nozzle]] is a type of [[spout]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/showerhead/n/,/c/en/nozzle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/nozzle/n", 
+                "@type": "Node", 
+                "label": "nozzle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/nozzle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/showerhead/n", 
+                "@type": "Node", 
+                "label": "showerhead", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/showerhead"
+            }, 
+            "surfaceText": "[[showerhead]] is a type of [[nozzle]]", 
+            "weight": 2.0
+        }
+    ]
+}

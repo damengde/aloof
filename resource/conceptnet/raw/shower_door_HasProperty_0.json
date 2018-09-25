@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_door&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/shower_door/,/c/en/hard_to_touch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hard_to_touch", 
+                "@type": "Node", 
+                "label": "hard to the touch", 
+                "language": "en", 
+                "term": "/c/en/hard_to_touch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_door", 
+                "@type": "Node", 
+                "label": "a shower door", 
+                "language": "en", 
+                "term": "/c/en/shower_door"
+            }, 
+            "surfaceText": "[[a shower door]] is [[hard to the touch]]", 
+            "weight": 1.0
+        }
+    ]
+}

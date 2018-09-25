@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rope&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bight/n/,/c/en/rope/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rope/n", 
+                "@type": "Node", 
+                "label": "rope", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rope"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bight/n", 
+                "@type": "Node", 
+                "label": "bight", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bight"
+            }, 
+            "surfaceText": "[[bight]] is a part of [[rope]]", 
+            "weight": 2.0
+        }
+    ]
+}

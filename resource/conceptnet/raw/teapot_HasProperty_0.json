@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teapot&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/teapot/,/c/en/only_for_making_tea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/only_for_making_tea", 
+                "@type": "Node", 
+                "label": "only for making tea", 
+                "language": "en", 
+                "term": "/c/en/only_for_making_tea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teapot", 
+                "@type": "Node", 
+                "label": "A teapot", 
+                "language": "en", 
+                "term": "/c/en/teapot"
+            }, 
+            "surfaceText": "[[A teapot]] is [[only for making tea]]", 
+            "weight": 1.0
+        }
+    ]
+}

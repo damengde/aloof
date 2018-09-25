@@ -1,0 +1,370 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/heart&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart/,/c/en/body/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/body", 
+                "@type": "Node", 
+                "label": "the body", 
+                "language": "en", 
+                "term": "/c/en/body"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/commonsense/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/commonsense"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/moocreature/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/moocreature"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moocreature/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moocreature"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "The heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[The heart]] is part of [[the body]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart/,/c/en/human_body/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/human_body", 
+                "@type": "Node", 
+                "label": "a human body", 
+                "language": "en", 
+                "term": "/c/en/human_body"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/rainbowjar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/rainbowjar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ianozsvald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ianozsvald"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jkeats3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jkeats3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jmoeller/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jmoeller"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "the heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[the heart]] is part of [[a human body]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cardiac_muscle/n/,/c/en/heart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cardiac_muscle/n", 
+                "@type": "Node", 
+                "label": "cardiac muscle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cardiac_muscle"
+            }, 
+            "surfaceText": "[[cardiac muscle]] is a part of [[heart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/coronary_artery/n/,/c/en/heart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coronary_artery/n", 
+                "@type": "Node", 
+                "label": "coronary artery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coronary_artery"
+            }, 
+            "surfaceText": "[[coronary artery]] is a part of [[heart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart/,/c/en/circulatory_system/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/circulatory_system", 
+                "@type": "Node", 
+                "label": "the circulatory system", 
+                "language": "en", 
+                "term": "/c/en/circulatory_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/anita93/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/anita93"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "The heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[The heart]] is part of [[the circulatory system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart/n/,/c/en/circulatory_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/circulatory_system/n", 
+                "@type": "Node", 
+                "label": "circulatory system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/circulatory_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[heart]] is a part of [[circulatory system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart_valve/n/,/c/en/heart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart_valve/n", 
+                "@type": "Node", 
+                "label": "heart valve", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart_valve"
+            }, 
+            "surfaceText": "[[heart valve]] is a part of [[heart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/valve/n/,/c/en/heart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heart/n", 
+                "@type": "Node", 
+                "label": "heart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve/n", 
+                "@type": "Node", 
+                "label": "valve", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[valve]] is a part of [[heart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/heart/,/c/en/humab_body/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/humab_body", 
+                "@type": "Node", 
+                "label": "the humab body", 
+                "language": "en", 
+                "term": "/c/en/humab_body"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "A heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[A heart]] is part of [[the humab body]]", 
+            "weight": 1.0
+        }
+    ]
+}

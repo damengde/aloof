@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plug&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/plug/,/c/en/similar_or_identical_to_ad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/similar_or_identical_to_ad", 
+                "@type": "Node", 
+                "label": "similar or identical to an ad", 
+                "language": "en", 
+                "term": "/c/en/similar_or_identical_to_ad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plug", 
+                "@type": "Node", 
+                "label": "A plug", 
+                "language": "en", 
+                "term": "/c/en/plug"
+            }, 
+            "surfaceText": "[[A plug]] is [[similar or identical to an ad]]", 
+            "weight": 1.0
+        }
+    ]
+}

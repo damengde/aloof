@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/leather&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/leather/,/c/en/smell_like_sex/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/smell_like_sex", 
+                "@type": "Node", 
+                "label": "smell like sex", 
+                "language": "en", 
+                "term": "/c/en/smell_like_sex"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rmattc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rmattc"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/leather", 
+                "@type": "Node", 
+                "label": "Leather", 
+                "language": "en", 
+                "term": "/c/en/leather"
+            }, 
+            "surfaceText": "[[Leather]] can [[smell like sex]]", 
+            "weight": 1.0
+        }
+    ]
+}

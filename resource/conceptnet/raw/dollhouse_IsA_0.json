@@ -1,0 +1,150 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dollhouse&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dollhouse/n/,/c/en/house/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/house/n", 
+                "@type": "Node", 
+                "label": "house", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dollhouse/n", 
+                "@type": "Node", 
+                "label": "dollhouse", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dollhouse"
+            }, 
+            "surfaceText": "[[dollhouse]] is a type of [[house]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dollhouse/n/,/c/en/plaything/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plaything/n", 
+                "@type": "Node", 
+                "label": "plaything", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plaything"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dollhouse/n", 
+                "@type": "Node", 
+                "label": "dollhouse", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dollhouse"
+            }, 
+            "surfaceText": "[[dollhouse]] is a type of [[plaything]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dollhouse/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dollhouse", 
+                "@type": "Node", 
+                "label": "a dollhouse", 
+                "language": "en", 
+                "term": "/c/en/dollhouse"
+            }, 
+            "surfaceText": "[[a dollhouse]] is [[a house]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dollhouse/,/c/en/tiny_house_for_dolls/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tiny_house_for_dolls", 
+                "@type": "Node", 
+                "label": "a tiny house for dolls", 
+                "language": "en", 
+                "term": "/c/en/tiny_house_for_dolls"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dollhouse", 
+                "@type": "Node", 
+                "label": "A dollhouse", 
+                "language": "en", 
+                "term": "/c/en/dollhouse"
+            }, 
+            "surfaceText": "[[A dollhouse]] is [[a tiny house for dolls]]", 
+            "weight": 1.0
+        }
+    ]
+}

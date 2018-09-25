@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spice&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/spice/,/c/en/season_dish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/season_dish", 
+                "@type": "Node", 
+                "label": "season a dish", 
+                "language": "en", 
+                "term": "/c/en/season_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ohyeah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ohyeah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spice", 
+                "@type": "Node", 
+                "label": "Spice", 
+                "language": "en", 
+                "term": "/c/en/spice"
+            }, 
+            "surfaceText": "[[Spice]] can [[season a dish]]", 
+            "weight": 1.0
+        }
+    ]
+}

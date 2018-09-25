@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dining_table&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/dining_table/,/c/en/paired_with_chairs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/paired_with_chairs", 
+                "@type": "Node", 
+                "label": "paired with chairs", 
+                "language": "en", 
+                "term": "/c/en/paired_with_chairs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dining_table", 
+                "@type": "Node", 
+                "label": "A dining table", 
+                "language": "en", 
+                "term": "/c/en/dining_table"
+            }, 
+            "surfaceText": "[[A dining table]] is [[paired with chairs]]", 
+            "weight": 1.0
+        }
+    ]
+}

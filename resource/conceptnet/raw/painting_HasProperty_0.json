@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/painting&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/painting/,/c/en/decorative/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decorative", 
+                "@type": "Node", 
+                "label": "decorative", 
+                "language": "en", 
+                "term": "/c/en/decorative"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nexus6/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nexus6"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[painting]] is [[decorative]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/painting/,/c/en/one_kind_of_artistic_expression/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/one_kind_of_artistic_expression", 
+                "@type": "Node", 
+                "label": "one kind of artistic expression", 
+                "language": "en", 
+                "term": "/c/en/one_kind_of_artistic_expression"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "A painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[A painting]] is [[one kind of artistic expression]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/painting/,/c/en/two_dimensional/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/two_dimensional", 
+                "@type": "Node", 
+                "label": "two-dimensional", 
+                "language": "en", 
+                "term": "/c/en/two_dimensional"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "a painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[a painting]] is [[two-dimensional]]", 
+            "weight": 1.0
+        }
+    ]
+}

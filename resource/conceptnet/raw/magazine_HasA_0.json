@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/magazine&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/magazine/,/c/en/articles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/articles", 
+                "@type": "Node", 
+                "label": "articles", 
+                "language": "en", 
+                "term": "/c/en/articles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurros"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[a magazine]] contains [[articles]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/magazine/,/c/en/pages/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pages", 
+                "@type": "Node", 
+                "label": "pages", 
+                "language": "en", 
+                "term": "/c/en/pages"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "A magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[A magazine]] has [[pages]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/magazine/,/c/en/pictures_and_text/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pictures_and_text", 
+                "@type": "Node", 
+                "label": "pictures and text", 
+                "language": "en", 
+                "term": "/c/en/pictures_and_text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/germuska/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/germuska"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "[[a magazine]] contains [[pictures and text]]", 
+            "weight": 1.0
+        }
+    ]
+}

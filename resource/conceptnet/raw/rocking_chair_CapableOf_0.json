@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rocking_chair&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rocking_chair/,/c/en/squeak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/squeak", 
+                "@type": "Node", 
+                "label": "squeak", 
+                "language": "en", 
+                "term": "/c/en/squeak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rainqueen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rainqueen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rocking_chair", 
+                "@type": "Node", 
+                "label": "a rocking chair", 
+                "language": "en", 
+                "term": "/c/en/rocking_chair"
+            }, 
+            "surfaceText": "[[a rocking chair]] can [[squeak]]", 
+            "weight": 1.0
+        }
+    ]
+}

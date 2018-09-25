@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sidewalk&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/sidewalk/,/c/en/getting_hot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_hot", 
+                "@type": "Node", 
+                "label": "be getting hot", 
+                "language": "en", 
+                "term": "/c/en/getting_hot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joycef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joycef"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "A sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[A sidewalk]] can [[be getting hot]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/gas_stove&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/gas_stove/,/c/en/heat_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_water", 
+                "@type": "Node", 
+                "label": "heat water", 
+                "language": "en", 
+                "term": "/c/en/heat_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gas_stove", 
+                "@type": "Node", 
+                "label": "a gas stove", 
+                "language": "en", 
+                "term": "/c/en/gas_stove"
+            }, 
+            "surfaceText": "[[a gas stove]] can [[heat water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/gas_stove/,/c/en/warm_kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_kitchen", 
+                "@type": "Node", 
+                "label": "warm the kitchen", 
+                "language": "en", 
+                "term": "/c/en/warm_kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gas_stove", 
+                "@type": "Node", 
+                "label": "a gas stove", 
+                "language": "en", 
+                "term": "/c/en/gas_stove"
+            }, 
+            "surfaceText": "[[a gas stove]] can [[warm the kitchen]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/gas_stove/,/c/en/warm_pan_of_cocoa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_pan_of_cocoa", 
+                "@type": "Node", 
+                "label": "warm a pan of cocoa", 
+                "language": "en", 
+                "term": "/c/en/warm_pan_of_cocoa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gas_stove", 
+                "@type": "Node", 
+                "label": "A gas stove", 
+                "language": "en", 
+                "term": "/c/en/gas_stove"
+            }, 
+            "surfaceText": "[[A gas stove]] can [[warm a pan of cocoa]]", 
+            "weight": 1.0
+        }
+    ]
+}

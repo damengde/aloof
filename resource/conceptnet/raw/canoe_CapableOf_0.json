@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/canoe&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/canoe/,/c/en/bottom_out_in_swamp/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottom_out_in_swamp", 
+                "@type": "Node", 
+                "label": "bottom out in a swamp", 
+                "language": "en", 
+                "term": "/c/en/bottom_out_in_swamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canoe", 
+                "@type": "Node", 
+                "label": "a canoe", 
+                "language": "en", 
+                "term": "/c/en/canoe"
+            }, 
+            "surfaceText": "[[a canoe]] can [[bottom out in a swamp]]", 
+            "weight": 1.0
+        }
+    ]
+}

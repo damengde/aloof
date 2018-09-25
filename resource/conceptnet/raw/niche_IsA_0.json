@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/niche&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/niche/n/,/c/en/condition/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/condition/n", 
+                "@type": "Node", 
+                "label": "condition", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/condition"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/niche/n", 
+                "@type": "Node", 
+                "label": "niche", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/niche"
+            }, 
+            "surfaceText": "[[niche]] is a type of [[condition]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/niche/n/,/c/en/place/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/place/n", 
+                "@type": "Node", 
+                "label": "place", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/place"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/niche/n", 
+                "@type": "Node", 
+                "label": "niche", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/niche"
+            }, 
+            "surfaceText": "[[niche]] is a type of [[place]]", 
+            "weight": 2.0
+        }
+    ]
+}

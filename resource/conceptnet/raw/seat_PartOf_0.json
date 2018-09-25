@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/seat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/seat/n/,/c/en/pair_of_trousers/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pair_of_trousers/n", 
+                "@type": "Node", 
+                "label": "pair of trousers", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pair_of_trousers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[seat]] is a part of [[pair of trousers]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/seat/n/,/c/en/seat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[seat]] is a part of [[seat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/seat/n/,/c/en/skirt/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/skirt/n", 
+                "@type": "Node", 
+                "label": "skirt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/skirt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[seat]] is a part of [[skirt]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/upholstery/n/,/c/en/seat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/upholstery/n", 
+                "@type": "Node", 
+                "label": "upholstery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/upholstery"
+            }, 
+            "surfaceText": "[[upholstery]] is a part of [[seat]]", 
+            "weight": 2.0
+        }
+    ]
+}

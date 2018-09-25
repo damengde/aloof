@@ -1,0 +1,440 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/door&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/,/c/en/door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/rainbowjar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/rainbowjar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/thayne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/thayne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/awp2222/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/awp2222"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ianozsvald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ianozsvald"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "A handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[A handle]] is part of [[a door]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/doorknob/,/c/en/door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/doorknob", 
+                "@type": "Node", 
+                "label": "doorknob", 
+                "language": "en", 
+                "term": "/c/en/doorknob"
+            }, 
+            "surfaceText": "[[doorknob]] is part of [[door]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/door/n/,/c/en/doorway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/doorway/n", 
+                "@type": "Node", 
+                "label": "doorway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[door]] is a part of [[doorway]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lock/n/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is a part of [[door]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/door/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/andre_obueno/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/andre_obueno"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[door]] is part of [[house]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/door/,/c/en/transportation_vehicle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transportation_vehicle", 
+                "@type": "Node", 
+                "label": "a transportation vehicle", 
+                "language": "en", 
+                "term": "/c/en/transportation_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thoughttreasure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thoughttreasure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "A door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "surfaceText": "[[A door]] is part of [[a transportation vehicle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/keyhole/,/c/en/door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyhole", 
+                "@type": "Node", 
+                "label": "a keyhole", 
+                "language": "en", 
+                "term": "/c/en/keyhole"
+            }, 
+            "surfaceText": "[[a keyhole]] is part of [[a door]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/latch/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/latch", 
+                "@type": "Node", 
+                "label": "latch", 
+                "language": "en", 
+                "term": "/c/en/latch"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lock/,/c/en/door/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/door", 
+                "@type": "Node", 
+                "label": "a door", 
+                "language": "en", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] is part of [[a door]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lock/,/c/en/door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/door/n", 
+                "@type": "Node", 
+                "label": "door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/door"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

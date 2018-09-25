@@ -1,0 +1,218 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/book&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/book/,/c/en/include_index/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/include_index", 
+                "@type": "Node", 
+                "label": "include an index", 
+                "language": "en", 
+                "term": "/c/en/include_index"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alcinoe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alcinoe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[a book]] can [[include an index]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/book/,/c/en/include_table_of_contents/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/include_table_of_contents", 
+                "@type": "Node", 
+                "label": "include a table of contents", 
+                "language": "en", 
+                "term": "/c/en/include_table_of_contents"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] can [[include a table of contents]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/book/,/c/en/teach_earth_round/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/teach_earth_round", 
+                "@type": "Node", 
+                "label": "teach that the earth is round", 
+                "language": "en", 
+                "term": "/c/en/teach_earth_round"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] can [[teach that the earth is round]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/book/,/c/en/teach_person_to_sing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/teach_person_to_sing", 
+                "@type": "Node", 
+                "label": "teach a person to sing", 
+                "language": "en", 
+                "term": "/c/en/teach_person_to_sing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dreamermatt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dreamermatt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "A book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "surfaceText": "[[A book]] can [[teach a person to sing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/text/,/c/en/book/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "be a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rambled/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rambled"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "a text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[a text]] can [[be a book]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tv_guide/,/c/en/book/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/book", 
+                "@type": "Node", 
+                "label": "be a book", 
+                "language": "en", 
+                "term": "/c/en/book"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tv_guide", 
+                "@type": "Node", 
+                "label": "A TV Guide", 
+                "language": "en", 
+                "term": "/c/en/tv_guide"
+            }, 
+            "surfaceText": "[[A TV Guide]] can [[be a book]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/decorative_object&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/yellow_ribbon/,/c/en/decorative_object/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decorative_object", 
+                "@type": "Node", 
+                "label": "a decorative object", 
+                "language": "en", 
+                "term": "/c/en/decorative_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/nadia/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/nadia"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/yellow_ribbon", 
+                "@type": "Node", 
+                "label": "A yellow ribbon", 
+                "language": "en", 
+                "term": "/c/en/yellow_ribbon"
+            }, 
+            "surfaceText": "[[A yellow ribbon]] is [[a decorative object]]", 
+            "weight": 1.0
+        }
+    ]
+}

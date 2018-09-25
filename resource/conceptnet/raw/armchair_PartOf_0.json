@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/armchair&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/arm/n/,/c/en/armchair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/armchair/n", 
+                "@type": "Node", 
+                "label": "armchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/armchair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arm/n", 
+                "@type": "Node", 
+                "label": "arm", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/arm"
+            }, 
+            "surfaceText": "[[arm]] is a part of [[armchair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/arm/,/c/en/armchair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/armchair/n", 
+                "@type": "Node", 
+                "label": "armchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/armchair"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arm", 
+                "@type": "Node", 
+                "label": "arm", 
+                "language": "en", 
+                "term": "/c/en/arm"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

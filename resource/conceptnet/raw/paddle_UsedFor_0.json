@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/paddle&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/paddle/,/c/en/propel_canoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/propel_canoe", 
+                "@type": "Node", 
+                "label": "propel a canoe", 
+                "language": "en", 
+                "term": "/c/en/propel_canoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paddle", 
+                "@type": "Node", 
+                "label": "a paddle", 
+                "language": "en", 
+                "term": "/c/en/paddle"
+            }, 
+            "surfaceText": "You can use [[a paddle]] to [[propel a canoe]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitchfork&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tine/n/,/c/en/pitchfork/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pitchfork/n", 
+                "@type": "Node", 
+                "label": "pitchfork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitchfork"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tine/n", 
+                "@type": "Node", 
+                "label": "tine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tine"
+            }, 
+            "surfaceText": "[[tine]] is a part of [[pitchfork]]", 
+            "weight": 2.0
+        }
+    ]
+}

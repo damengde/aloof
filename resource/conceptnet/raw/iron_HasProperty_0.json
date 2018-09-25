@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/iron&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/iron/,/c/en/heavy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heavy", 
+                "@type": "Node", 
+                "label": "heavy", 
+                "language": "en", 
+                "term": "/c/en/heavy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eagleon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/eagleon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/iron", 
+                "@type": "Node", 
+                "label": "iron", 
+                "language": "en", 
+                "term": "/c/en/iron"
+            }, 
+            "surfaceText": "[[iron]] is [[heavy]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/iron/,/c/en/harder_than_gold/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/harder_than_gold", 
+                "@type": "Node", 
+                "label": "harder than gold", 
+                "language": "en", 
+                "term": "/c/en/harder_than_gold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/iron", 
+                "@type": "Node", 
+                "label": "Iron", 
+                "language": "en", 
+                "term": "/c/en/iron"
+            }, 
+            "surfaceText": "[[Iron]] is [[harder than gold]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/iron/,/c/en/harder_than_wood/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/harder_than_wood", 
+                "@type": "Node", 
+                "label": "harder than wood", 
+                "language": "en", 
+                "term": "/c/en/harder_than_wood"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/iron", 
+                "@type": "Node", 
+                "label": "iron", 
+                "language": "en", 
+                "term": "/c/en/iron"
+            }, 
+            "surfaceText": "[[iron]] is [[harder than wood]]", 
+            "weight": 1.0
+        }
+    ]
+}

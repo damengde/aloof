@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/backpack&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/backpack/,/c/en/carry_load/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_load", 
+                "@type": "Node", 
+                "label": "carry a load", 
+                "language": "en", 
+                "term": "/c/en/carry_load"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yottzumm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/yottzumm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "A backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "surfaceText": "[[A backpack]] can [[carry a load]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/backpack/,/c/en/free_hands_while_walking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/free_hands_while_walking", 
+                "@type": "Node", 
+                "label": "free your hands while walking", 
+                "language": "en", 
+                "term": "/c/en/free_hands_while_walking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/backpack", 
+                "@type": "Node", 
+                "label": "a backpack", 
+                "language": "en", 
+                "term": "/c/en/backpack"
+            }, 
+            "surfaceText": "[[a backpack]] can [[free your hands while walking]]", 
+            "weight": 1.0
+        }
+    ]
+}

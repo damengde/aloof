@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plant_pot&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/plant_pot/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant_pot", 
+                "@type": "Node", 
+                "label": "a plant pot", 
+                "language": "en", 
+                "term": "/c/en/plant_pot"
+            }, 
+            "surfaceText": "[[a plant pot]] is [[a container]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/plant_pot/,/c/en/container_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container_in", 
+                "@type": "Node", 
+                "label": "a container in", 
+                "language": "en", 
+                "term": "/c/en/container_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant_pot", 
+                "@type": "Node", 
+                "label": "A plant pot", 
+                "language": "en", 
+                "term": "/c/en/plant_pot"
+            }, 
+            "surfaceText": "[[A plant pot]] is [[a container in]]", 
+            "weight": 1.0
+        }
+    ]
+}

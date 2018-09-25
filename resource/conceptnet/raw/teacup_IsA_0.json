@@ -1,0 +1,150 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teacup&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teacup/n/,/c/en/containerful/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/containerful/n", 
+                "@type": "Node", 
+                "label": "containerful", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/containerful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teacup/n", 
+                "@type": "Node", 
+                "label": "teacup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teacup"
+            }, 
+            "surfaceText": "[[teacup]] is a type of [[containerful]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teacup/n/,/c/en/cup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cup/n", 
+                "@type": "Node", 
+                "label": "cup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teacup/n", 
+                "@type": "Node", 
+                "label": "teacup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teacup"
+            }, 
+            "surfaceText": "[[teacup]] is a type of [[cup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teacup/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/garbhoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/garbhoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teacup", 
+                "@type": "Node", 
+                "label": "a teacup", 
+                "language": "en", 
+                "term": "/c/en/teacup"
+            }, 
+            "surfaceText": "[[a teacup]] is [[a container]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teacup/,/c/en/dish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dish", 
+                "@type": "Node", 
+                "label": "a dish", 
+                "language": "en", 
+                "term": "/c/en/dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teacup", 
+                "@type": "Node", 
+                "label": "A teacup", 
+                "language": "en", 
+                "term": "/c/en/teacup"
+            }, 
+            "surfaceText": "[[A teacup]] is [[a dish]]", 
+            "weight": 1.0
+        }
+    ]
+}

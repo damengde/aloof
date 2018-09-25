@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bottle&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bottle/,/c/en/standing_on_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/standing_on_table", 
+                "@type": "Node", 
+                "label": "standing on the table", 
+                "language": "en", 
+                "term": "/c/en/standing_on_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cptjumbo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cptjumbo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "a bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "surfaceText": "[[a bottle]] can be [[standing on the table]]", 
+            "weight": 1.0
+        }
+    ]
+}

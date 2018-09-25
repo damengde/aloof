@@ -1,0 +1,385 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bin&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bin/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/katyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/katyte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bin", 
+                "@type": "Node", 
+                "label": "A bin", 
+                "language": "en", 
+                "term": "/c/en/bin"
+            }, 
+            "surfaceText": "[[A bin]] is [[a container]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ashcan/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ashcan/n", 
+                "@type": "Node", 
+                "label": "ashcan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ashcan"
+            }, 
+            "surfaceText": "[[ashcan]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bin/n/,/c/en/containerful/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/containerful/n", 
+                "@type": "Node", 
+                "label": "containerful", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/containerful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "surfaceText": "[[bin]] is a type of [[containerful]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bin/n/,/c/en/container/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/container/n", 
+                "@type": "Node", 
+                "label": "container", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "surfaceText": "[[bin]] is a type of [[container]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coalbin/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coalbin/n", 
+                "@type": "Node", 
+                "label": "coalbin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coalbin"
+            }, 
+            "surfaceText": "[[coalbin]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/crib/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crib/n", 
+                "@type": "Node", 
+                "label": "crib", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/crib"
+            }, 
+            "surfaceText": "[[crib]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flour_bin/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flour_bin/n", 
+                "@type": "Node", 
+                "label": "flour bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flour_bin"
+            }, 
+            "surfaceText": "[[flour bin]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/litterbin/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/litterbin/n", 
+                "@type": "Node", 
+                "label": "litterbin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/litterbin"
+            }, 
+            "surfaceText": "[[litterbin]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/parts_bin/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/parts_bin/n", 
+                "@type": "Node", 
+                "label": "parts bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/parts_bin"
+            }, 
+            "surfaceText": "[[parts bin]] is a type of [[bin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/recycling_bin/n/,/c/en/bin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/recycling_bin/n", 
+                "@type": "Node", 
+                "label": "recycling bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/recycling_bin"
+            }, 
+            "surfaceText": "[[recycling bin]] is a type of [[bin]]", 
+            "weight": 2.0
+        }
+    ]
+}

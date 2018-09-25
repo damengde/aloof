@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/switch&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/switch/,/c/en/electrical_circuit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/electrical_circuit", 
+                "@type": "Node", 
+                "label": "an electrical circuit", 
+                "language": "en", 
+                "term": "/c/en/electrical_circuit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/switch", 
+                "@type": "Node", 
+                "label": "A switch", 
+                "language": "en", 
+                "term": "/c/en/switch"
+            }, 
+            "surfaceText": "[[A switch]] is part of [[an electrical circuit]]", 
+            "weight": 1.0
+        }
+    ]
+}

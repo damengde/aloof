@@ -1,0 +1,459 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toothbrush&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush_bristle/,/c/en/toothbrush/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "your toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/circe3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/circe3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steveh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/steveh"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/petersaj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/petersaj"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/steveh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/steveh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush_bristle", 
+                "@type": "Node", 
+                "label": "a toothbrush bristle", 
+                "language": "en", 
+                "term": "/c/en/toothbrush_bristle"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush bristle]] in [[your toothbrush]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/suitcase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/suitcase", 
+                "@type": "Node", 
+                "label": "a suitcase", 
+                "language": "en", 
+                "term": "/c/en/suitcase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shark286/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shark286"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenith"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shark286/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shark286"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zenith"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "*Something you find in [[a suitcase]] is [[a toothbrush]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/dentist/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dentist", 
+                "@type": "Node", 
+                "label": "the dentist", 
+                "language": "en", 
+                "term": "/c/en/dentist"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kristianhuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kristianhuber"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tcphk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tcphk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "*Something you find at [[the dentist]] is [[toothbrush]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/mouth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mouth", 
+                "@type": "Node", 
+                "label": "your mouth", 
+                "language": "en", 
+                "term": "/c/en/mouth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/unrealtor/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/unrealtor"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[your mouth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/bathroom_cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathroom_cabinet", 
+                "@type": "Node", 
+                "label": "a bathroom cabinet", 
+                "language": "en", 
+                "term": "/c/en/bathroom_cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[a bathroom cabinet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/bedroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bedroom", 
+                "@type": "Node", 
+                "label": "a bedroom", 
+                "language": "en", 
+                "term": "/c/en/bedroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steven/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/steven"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "*Something you find in [[a bedroom]] is [[a toothbrush]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/cabinet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cabinet", 
+                "@type": "Node", 
+                "label": "a cabinet", 
+                "language": "en", 
+                "term": "/c/en/cabinet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "*Something you find in [[a cabinet]] is [[a toothbrush]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/dentist_office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dentist_office", 
+                "@type": "Node", 
+                "label": "a dentist office", 
+                "language": "en", 
+                "term": "/c/en/dentist_office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/acapnotic/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/acapnotic"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[a dentist office]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/drug_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drug_store", 
+                "@type": "Node", 
+                "label": "a drug store", 
+                "language": "en", 
+                "term": "/c/en/drug_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[a drug store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/grocery_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grocery_store", 
+                "@type": "Node", 
+                "label": "a grocery store", 
+                "language": "en", 
+                "term": "/c/en/grocery_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[a grocery store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toothbrush/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/strider2112/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/strider2112"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "a toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[a toothbrush]] in [[a store]]", 
+            "weight": 1.0
+        }
+    ]
+}

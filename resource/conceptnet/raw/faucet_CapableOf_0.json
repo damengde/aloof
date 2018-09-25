@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/faucet&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/faucet/,/c/en/break/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/break", 
+                "@type": "Node", 
+                "label": "break", 
+                "language": "en", 
+                "term": "/c/en/break"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/faucet", 
+                "@type": "Node", 
+                "label": "a faucet", 
+                "language": "en", 
+                "term": "/c/en/faucet"
+            }, 
+            "surfaceText": "[[a faucet]] can [[break]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/faucet/,/c/en/wet_sink/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wet_sink", 
+                "@type": "Node", 
+                "label": "wet a sink", 
+                "language": "en", 
+                "term": "/c/en/wet_sink"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cerewa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cerewa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/faucet", 
+                "@type": "Node", 
+                "label": "A faucet", 
+                "language": "en", 
+                "term": "/c/en/faucet"
+            }, 
+            "surfaceText": "[[A faucet]] can [[wet a sink]]", 
+            "weight": 1.0
+        }
+    ]
+}

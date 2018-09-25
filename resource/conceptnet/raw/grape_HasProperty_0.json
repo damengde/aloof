@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grape&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/grape/,/c/en/green/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/green", 
+                "@type": "Node", 
+                "label": "green", 
+                "language": "en", 
+                "term": "/c/en/green"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mubassher/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mubassher"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grape", 
+                "@type": "Node", 
+                "label": "grape", 
+                "language": "en", 
+                "term": "/c/en/grape"
+            }, 
+            "surfaceText": "[[grape]] is generally [[green]]", 
+            "weight": 1.0
+        }
+    ]
+}

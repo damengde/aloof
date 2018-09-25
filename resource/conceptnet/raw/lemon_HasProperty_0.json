@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lemon&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/lemon/,/c/en/citrus/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/citrus", 
+                "@type": "Node", 
+                "label": "citrus", 
+                "language": "en", 
+                "term": "/c/en/citrus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "[[lemon]] is [[citrus]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/lemon/,/c/en/similar_to_orange/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/similar_to_orange", 
+                "@type": "Node", 
+                "label": "similar to an orange", 
+                "language": "en", 
+                "term": "/c/en/similar_to_orange"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/soas/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/soas"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "A lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "[[A lemon]] is [[similar to an orange]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/lemon/,/c/en/sour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sour", 
+                "@type": "Node", 
+                "label": "sour", 
+                "language": "en", 
+                "term": "/c/en/sour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mubassher/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mubassher"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "[[lemon]] is [[sour]]", 
+            "weight": 1.0
+        }
+    ]
+}

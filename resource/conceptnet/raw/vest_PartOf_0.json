@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vest&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/vest/n/,/c/en/three_piece_suit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/three_piece_suit/n", 
+                "@type": "Node", 
+                "label": "three-piece suit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/three_piece_suit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vest/n", 
+                "@type": "Node", 
+                "label": "vest", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vest"
+            }, 
+            "surfaceText": "[[vest]] is a part of [[three-piece suit]]", 
+            "weight": 2.0
+        }
+    ]
+}

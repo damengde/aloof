@@ -1,0 +1,739 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tie&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/,/c/en/neckwear/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/neckwear", 
+                "@type": "Node", 
+                "label": "neckwear", 
+                "language": "en", 
+                "term": "/c/en/neckwear"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "A tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[A tie]] is [[neckwear]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/deuce/n/,/c/en/tie/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deuce/n", 
+                "@type": "Node", 
+                "label": "deuce", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/deuce"
+            }, 
+            "surfaceText": "[[deuce]] is a type of [[tie]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/drawstring/n/,/c/en/tie/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drawstring/n", 
+                "@type": "Node", 
+                "label": "drawstring", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drawstring"
+            }, 
+            "surfaceText": "[[drawstring]] is a type of [[tie]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/beam/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/beam/n", 
+                "@type": "Node", 
+                "label": "beam", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beam"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a type of [[beam]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/brace/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/brace/n", 
+                "@type": "Node", 
+                "label": "brace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/brace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a type of [[brace]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/cord/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cord/n", 
+                "@type": "Node", 
+                "label": "cord", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cord"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a type of [[cord]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/equality/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/equality/n", 
+                "@type": "Node", 
+                "label": "equality", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/equality"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a type of [[equality]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/slur/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/slur/n", 
+                "@type": "Node", 
+                "label": "slur", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slur"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a type of [[slur]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bowtie/,/c/en/tie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bowtie", 
+                "@type": "Node", 
+                "label": "a bowtie", 
+                "language": "en", 
+                "term": "/c/en/bowtie"
+            }, 
+            "surfaceText": "[[a bowtie]] is a kind of [[tie]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bow_tie/n/,/c/en/tie/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow_tie/n", 
+                "@type": "Node", 
+                "label": "bow tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bow_tie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/necktie/n/,/c/en/tie/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/necktie/n", 
+                "@type": "Node", 
+                "label": "necktie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/necktie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/string_tie/n/,/c/en/tie/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/string_tie/n", 
+                "@type": "Node", 
+                "label": "string tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/string_tie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/,/c/en/band_of_fabric/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/band_of_fabric", 
+                "@type": "Node", 
+                "label": "a band of fabric", 
+                "language": "en", 
+                "term": "/c/en/band_of_fabric"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "a tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[a tie]] is [[a band of fabric]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/,/c/en/clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clothing", 
+                "@type": "Node", 
+                "label": "clothing", 
+                "language": "en", 
+                "term": "/c/en/clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "a tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[a tie]] is a kind of [[clothing]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/,/c/en/narrow_band_of_fabric/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/narrow_band_of_fabric", 
+                "@type": "Node", 
+                "label": "a narrow band of fabric", 
+                "language": "en", 
+                "term": "/c/en/narrow_band_of_fabric"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "A tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[A tie]] is [[a narrow band of fabric]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/,/c/en/piece_of_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piece_of_clothing", 
+                "@type": "Node", 
+                "label": "a piece of clothing", 
+                "language": "en", 
+                "term": "/c/en/piece_of_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glenbrowning/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/glenbrowning"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "a tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[a tie]] is [[a piece of clothing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/accessory/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/accessory/n", 
+                "@type": "Node", 
+                "label": "accessory", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/accessory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/competition/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/competition/n", 
+                "@type": "Node", 
+                "label": "competition", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/competition"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tie/n/,/c/en/men's_clothing_accessory/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/men's_clothing_accessory/n", 
+                "@type": "Node", 
+                "label": "men's clothing accessory", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/men's_clothing_accessory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wear/,/c/en/tie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "a tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/madvay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/madvay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wear", 
+                "@type": "Node", 
+                "label": "Something you wear", 
+                "language": "en", 
+                "term": "/c/en/wear"
+            }, 
+            "surfaceText": "[[Something you wear]] is [[a tie]]", 
+            "weight": 1.0
+        }
+    ]
+}

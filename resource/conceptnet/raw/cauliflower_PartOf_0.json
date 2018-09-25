@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cauliflower&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cauliflower/n/,/c/en/cauliflower/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cauliflower/n", 
+                "@type": "Node", 
+                "label": "cauliflower", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower/n", 
+                "@type": "Node", 
+                "label": "cauliflower", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[cauliflower]] is a part of [[cauliflower]]", 
+            "weight": 2.0
+        }
+    ]
+}

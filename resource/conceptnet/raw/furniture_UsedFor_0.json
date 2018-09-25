@@ -1,0 +1,184 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/furniture&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/furniture/n/,/c/en/furnish/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/furnish/v", 
+                "@type": "Node", 
+                "label": "furnish", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/furnish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/furniture/n", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furniture"
+            }, 
+            "surfaceText": "[[furniture]] is used for [[furnish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/couch/,/c/en/furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/snoopy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/snoopy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "a couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[a couch]] is for [[furniture]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/room/,/c/en/furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rsarr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rsarr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/room", 
+                "@type": "Node", 
+                "label": "a room", 
+                "language": "en", 
+                "term": "/c/en/room"
+            }, 
+            "surfaceText": "[[a room]] is for [[furniture]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/sofa_hide_bed/,/c/en/furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa_hide_bed", 
+                "@type": "Node", 
+                "label": "a sofa hide a bed", 
+                "language": "en", 
+                "term": "/c/en/sofa_hide_bed"
+            }, 
+            "surfaceText": "[[a sofa hide a bed]] is used for [[furniture]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/table/,/c/en/furniture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furniture", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/snoopy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/snoopy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "surfaceText": "[[a table]] is for [[furniture]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lantern&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lantern/,/c/en/light_way/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/light_way", 
+                "@type": "Node", 
+                "label": "light your way", 
+                "language": "en", 
+                "term": "/c/en/light_way"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lantern", 
+                "@type": "Node", 
+                "label": "a lantern", 
+                "language": "en", 
+                "term": "/c/en/lantern"
+            }, 
+            "surfaceText": "[[a lantern]] can [[light your way]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lantern/,/c/en/tip_over_and_start_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tip_over_and_start_fire", 
+                "@type": "Node", 
+                "label": "tip over and start a fire", 
+                "language": "en", 
+                "term": "/c/en/tip_over_and_start_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/patricia007/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/patricia007"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lantern", 
+                "@type": "Node", 
+                "label": "a lantern", 
+                "language": "en", 
+                "term": "/c/en/lantern"
+            }, 
+            "surfaceText": "[[a lantern]] can [[tip over and start a fire]]", 
+            "weight": 1.0
+        }
+    ]
+}

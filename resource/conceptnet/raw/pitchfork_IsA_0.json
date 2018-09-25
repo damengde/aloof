@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pitchfork&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pitchfork/n/,/c/en/hand_tool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hand_tool/n", 
+                "@type": "Node", 
+                "label": "hand tool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hand_tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pitchfork/n", 
+                "@type": "Node", 
+                "label": "pitchfork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pitchfork"
+            }, 
+            "surfaceText": "[[pitchfork]] is a type of [[hand tool]]", 
+            "weight": 2.0
+        }
+    ]
+}

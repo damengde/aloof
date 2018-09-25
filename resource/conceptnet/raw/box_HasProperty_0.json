@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/box&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/box/,/c/en/good_to_ship_things_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_to_ship_things_in", 
+                "@type": "Node", 
+                "label": "good to ship things in", 
+                "language": "en", 
+                "term": "/c/en/good_to_ship_things_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/reisee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/reisee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "surfaceText": "[[a box]] is [[good to ship things in]]", 
+            "weight": 1.0
+        }
+    ]
+}

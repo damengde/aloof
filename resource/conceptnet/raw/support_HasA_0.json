@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/support&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/support/,/c/en/come_from_unions_and_newspaper_columnists/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/come_from_unions_and_newspaper_columnists", 
+                "@type": "Node", 
+                "label": "come from unions and newspaper columnists", 
+                "language": "en", 
+                "term": "/c/en/come_from_unions_and_newspaper_columnists"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/support", 
+                "@type": "Node", 
+                "label": "Support", 
+                "language": "en", 
+                "term": "/c/en/support"
+            }, 
+            "surfaceText": "[[Support]] has [[come from unions and newspaper columnists]]", 
+            "weight": 1.0
+        }
+    ]
+}

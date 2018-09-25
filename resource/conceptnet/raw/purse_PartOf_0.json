@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/purse&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/purse_string/n/,/c/en/purse/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/purse/n", 
+                "@type": "Node", 
+                "label": "purse", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/purse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purse_string/n", 
+                "@type": "Node", 
+                "label": "purse string", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/purse_string"
+            }, 
+            "surfaceText": "[[purse string]] is a part of [[purse]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/strap/,/c/en/purse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "a purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/thayne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/thayne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/strap", 
+                "@type": "Node", 
+                "label": "A strap", 
+                "language": "en", 
+                "term": "/c/en/strap"
+            }, 
+            "surfaceText": "[[A strap]] is part of [[a purse]]", 
+            "weight": 1.0
+        }
+    ]
+}

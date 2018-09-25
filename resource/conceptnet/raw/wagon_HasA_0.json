@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wagon&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/wagon/,/c/en/wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheels", 
+                "@type": "Node", 
+                "label": "wheels", 
+                "language": "en", 
+                "term": "/c/en/wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "A wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "[[A wagon]] has [[wheels]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/wagon/,/c/en/four_wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/four_wheels", 
+                "@type": "Node", 
+                "label": "four wheels", 
+                "language": "en", 
+                "term": "/c/en/four_wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "a wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "[[a wagon]] has [[four wheels]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/wagon/,/c/en/wheels_and_carries_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheels_and_carries_things", 
+                "@type": "Node", 
+                "label": "wheels and carries things", 
+                "language": "en", 
+                "term": "/c/en/wheels_and_carries_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "A wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "[[A wagon]] has [[wheels and carries things]]", 
+            "weight": 1.0
+        }
+    ]
+}

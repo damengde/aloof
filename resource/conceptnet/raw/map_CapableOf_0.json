@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/map&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/map/,/c/en/guide_traveler/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guide_traveler", 
+                "@type": "Node", 
+                "label": "guide a traveler", 
+                "language": "en", 
+                "term": "/c/en/guide_traveler"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joangg/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joangg"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "A map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "surfaceText": "[[A map]] can [[guide a traveler]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/map/,/c/en/help_find_way/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/help_find_way", 
+                "@type": "Node", 
+                "label": "help you find your way", 
+                "language": "en", 
+                "term": "/c/en/help_find_way"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "A map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "surfaceText": "[[A map]] can [[help you find your way]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/map/,/c/en/tell_where/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tell_where", 
+                "@type": "Node", 
+                "label": "tell you where you are", 
+                "language": "en", 
+                "term": "/c/en/tell_where"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kemcmanus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kemcmanus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "a map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "surfaceText": "[[a map]] can [[tell you where you are]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/photographs/,/c/en/map/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/map", 
+                "@type": "Node", 
+                "label": "map", 
+                "language": "en", 
+                "term": "/c/en/map"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photographs", 
+                "@type": "Node", 
+                "label": "Photographs", 
+                "language": "en", 
+                "term": "/c/en/photographs"
+            }, 
+            "surfaceText": "[[Photographs]] can [[map]]", 
+            "weight": 1.0
+        }
+    ]
+}

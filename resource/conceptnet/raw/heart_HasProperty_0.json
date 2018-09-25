@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/heart&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/heart/,/c/en/natural_or_artificial/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/natural_or_artificial", 
+                "@type": "Node", 
+                "label": "natural or artificial", 
+                "language": "en", 
+                "term": "/c/en/natural_or_artificial"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/acha11/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/acha11"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "A heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[A heart]] can be [[natural or artificial]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/heart/,/c/en/pumps_blood_around_body_by_contracton_and_relaxation_of_muscles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pumps_blood_around_body_by_contracton_and_relaxation_of_muscles", 
+                "@type": "Node", 
+                "label": "pumps blood around the body by contracton and relaxation of its muscles", 
+                "language": "en", 
+                "term": "/c/en/pumps_blood_around_body_by_contracton_and_relaxation_of_muscles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/anita93/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/anita93"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heart", 
+                "@type": "Node", 
+                "label": "A heart", 
+                "language": "en", 
+                "term": "/c/en/heart"
+            }, 
+            "surfaceText": "[[A heart]] can be [[pumps blood around the body by contracton and relaxation of its muscles]]", 
+            "weight": 1.0
+        }
+    ]
+}

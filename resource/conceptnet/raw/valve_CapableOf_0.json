@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/valve&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/valve/,/c/en/allow_water_to_flow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/allow_water_to_flow", 
+                "@type": "Node", 
+                "label": "allow water to flow", 
+                "language": "en", 
+                "term": "/c/en/allow_water_to_flow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qubit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qubit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve", 
+                "@type": "Node", 
+                "label": "a valve", 
+                "language": "en", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[a valve]] can [[allow water to flow]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/valve/,/c/en/let_out_air_from_tire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/let_out_air_from_tire", 
+                "@type": "Node", 
+                "label": "let out air from a tire", 
+                "language": "en", 
+                "term": "/c/en/let_out_air_from_tire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve", 
+                "@type": "Node", 
+                "label": "A valve", 
+                "language": "en", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[A valve]] can [[let out air from a tire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/valve/,/c/en/seat_improperly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/seat_improperly", 
+                "@type": "Node", 
+                "label": "seat improperly", 
+                "language": "en", 
+                "term": "/c/en/seat_improperly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/valve", 
+                "@type": "Node", 
+                "label": "a valve", 
+                "language": "en", 
+                "term": "/c/en/valve"
+            }, 
+            "surfaceText": "[[a valve]] can [[seat improperly]]", 
+            "weight": 1.0
+        }
+    ]
+}

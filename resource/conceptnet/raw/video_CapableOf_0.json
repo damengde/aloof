@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/video&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/video/,/c/en/stream_across_network/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stream_across_network", 
+                "@type": "Node", 
+                "label": "stream Across a network", 
+                "language": "en", 
+                "term": "/c/en/stream_across_network"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sparlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sparlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video", 
+                "@type": "Node", 
+                "label": "VIdeo", 
+                "language": "en", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[VIdeo]] can [[stream Across a network]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/video/,/c/en/streaming_over_internet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/streaming_over_internet", 
+                "@type": "Node", 
+                "label": "be streaming over the internet", 
+                "language": "en", 
+                "term": "/c/en/streaming_over_internet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ghawkey/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ghawkey"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video", 
+                "@type": "Node", 
+                "label": "Video", 
+                "language": "en", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[Video]] can [[be streaming over the internet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/video/,/c/en/stream_through_internet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stream_through_internet", 
+                "@type": "Node", 
+                "label": "stream through the internet", 
+                "language": "en", 
+                "term": "/c/en/stream_through_internet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrtj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrtj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video", 
+                "@type": "Node", 
+                "label": "Video", 
+                "language": "en", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[Video]] can [[stream through the internet]]", 
+            "weight": 1.0
+        }
+    ]
+}

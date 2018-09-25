@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffee_maker&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_maker/,/c/en/internet_cafe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/internet_cafe", 
+                "@type": "Node", 
+                "label": "a internet cafe", 
+                "language": "en", 
+                "term": "/c/en/internet_cafe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anotherbackache/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anotherbackache"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_maker", 
+                "@type": "Node", 
+                "label": "a coffee maker", 
+                "language": "en", 
+                "term": "/c/en/coffee_maker"
+            }, 
+            "surfaceText": "*Something you find at [[a internet cafe]] is [[a coffee maker]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_maker/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "the kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hurkle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hurkle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_maker", 
+                "@type": "Node", 
+                "label": "a coffee maker", 
+                "language": "en", 
+                "term": "/c/en/coffee_maker"
+            }, 
+            "surfaceText": "*Something you find in [[the kitchen]] is [[a coffee maker]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coffee_maker/,/c/en/office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/office", 
+                "@type": "Node", 
+                "label": "the office", 
+                "language": "en", 
+                "term": "/c/en/office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coffee_maker", 
+                "@type": "Node", 
+                "label": "a coffee maker", 
+                "language": "en", 
+                "term": "/c/en/coffee_maker"
+            }, 
+            "surfaceText": "*Something you find at [[the office]] is [[a coffee maker]]", 
+            "weight": 1.0
+        }
+    ]
+}

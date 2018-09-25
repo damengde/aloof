@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tile&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tile/n/,/c/en/tile_roof/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tile_roof/n", 
+                "@type": "Node", 
+                "label": "tile roof", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tile_roof"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tile/n", 
+                "@type": "Node", 
+                "label": "tile", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tile"
+            }, 
+            "surfaceText": "[[tile]] is a part of [[tile roof]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tile/,/c/en/roof/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/roof", 
+                "@type": "Node", 
+                "label": "a roof", 
+                "language": "en", 
+                "term": "/c/en/roof"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tile", 
+                "@type": "Node", 
+                "label": "a tile", 
+                "language": "en", 
+                "term": "/c/en/tile"
+            }, 
+            "surfaceText": "[[a tile]] is part of [[a roof]]", 
+            "weight": 1.0
+        }
+    ]
+}

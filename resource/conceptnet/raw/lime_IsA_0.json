@@ -1,0 +1,295 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lime&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/key_lime/n/,/c/en/lime/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/key_lime/n", 
+                "@type": "Node", 
+                "label": "key lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/key_lime"
+            }, 
+            "surfaceText": "[[key lime]] is a type of [[lime]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/citrus/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/citrus/n", 
+                "@type": "Node", 
+                "label": "citrus", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/citrus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": "[[lime]] is a type of [[citrus]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/,/c/en/citrus_fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/citrus_fruit", 
+                "@type": "Node", 
+                "label": "a citrus fruit", 
+                "language": "en", 
+                "term": "/c/en/citrus_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime", 
+                "@type": "Node", 
+                "label": "a lime", 
+                "language": "en", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": "[[a lime]] is [[a citrus fruit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/citrus_fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/citrus_fruit/n", 
+                "@type": "Node", 
+                "label": "citrus fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/citrus_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/living_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/living_thing/n", 
+                "@type": "Node", 
+                "label": "living thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/living_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/solid_food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/solid_food/n", 
+                "@type": "Node", 
+                "label": "solid food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/solid_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/tangible_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tangible_thing/n", 
+                "@type": "Node", 
+                "label": "tangible thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tangible_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lime/n/,/c/en/colour/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/colour/n", 
+                "@type": "Node", 
+                "label": "colour", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/colour"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lime/n", 
+                "@type": "Node", 
+                "label": "lime", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lime"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

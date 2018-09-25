@@ -1,0 +1,492 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bucket&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bucket/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/elptr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/elptr"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kanef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kanef"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is [[a container]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bucket/n/,/c/en/containerful/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/containerful/n", 
+                "@type": "Node", 
+                "label": "containerful", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/containerful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[bucket]] is a type of [[containerful]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bucket/n/,/c/en/vessel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vessel/n", 
+                "@type": "Node", 
+                "label": "vessel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vessel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[bucket]] is a type of [[vessel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cannikin/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cannikin/n", 
+                "@type": "Node", 
+                "label": "cannikin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cannikin"
+            }, 
+            "surfaceText": "[[cannikin]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dinner_pail/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dinner_pail/n", 
+                "@type": "Node", 
+                "label": "dinner pail", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dinner_pail"
+            }, 
+            "surfaceText": "[[dinner pail]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dredging_bucket/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dredging_bucket/n", 
+                "@type": "Node", 
+                "label": "dredging bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dredging_bucket"
+            }, 
+            "surfaceText": "[[dredging bucket]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/kibble/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kibble/n", 
+                "@type": "Node", 
+                "label": "kibble", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kibble"
+            }, 
+            "surfaceText": "[[kibble]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pail/,/c/en/bucket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pail", 
+                "@type": "Node", 
+                "label": "A pail", 
+                "language": "en", 
+                "term": "/c/en/pail"
+            }, 
+            "surfaceText": "[[A pail]] is [[a bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/slop_pail/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slop_pail/n", 
+                "@type": "Node", 
+                "label": "slop pail", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slop_pail"
+            }, 
+            "surfaceText": "[[slop pail]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wine_bucket/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wine_bucket/n", 
+                "@type": "Node", 
+                "label": "wine bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wine_bucket"
+            }, 
+            "surfaceText": "[[wine bucket]] is a type of [[bucket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bucket/n/,/c/de/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/container", 
+                "@type": "Node", 
+                "label": "container", 
+                "language": "de", 
+                "term": "/c/de/container"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bucket/n/,/c/en/container_product/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/container_product/n", 
+                "@type": "Node", 
+                "label": "container product", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/container_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ice_bucket/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ice_bucket/n", 
+                "@type": "Node", 
+                "label": "ice bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ice_bucket"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

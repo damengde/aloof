@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/step&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_book/,/c/en/step/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/step", 
+                "@type": "Node", 
+                "label": "step", 
+                "language": "en", 
+                "term": "/c/en/step"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bradvl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bradvl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_book", 
+                "@type": "Node", 
+                "label": "a telephone book", 
+                "language": "en", 
+                "term": "/c/en/telephone_book"
+            }, 
+            "surfaceText": "[[a telephone book]] is for [[step]]", 
+            "weight": 1.0
+        }
+    ]
+}

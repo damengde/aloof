@@ -1,0 +1,1639 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chair&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/armchair/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/swordfishdata"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/v6stang/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/v6stang"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/armchair", 
+                "@type": "Node", 
+                "label": "An armchair", 
+                "language": "en", 
+                "term": "/c/en/armchair"
+            }, 
+            "surfaceText": "[[An armchair]] is [[a chair]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeeweeman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeeweeman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair", 
+                "@type": "Node", 
+                "label": "a wheelchair", 
+                "language": "en", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": "[[a wheelchair]] is [[a chair]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barber_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barber_chair/n", 
+                "@type": "Node", 
+                "label": "barber chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barber_chair"
+            }, 
+            "surfaceText": "[[barber chair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chairman/n/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }, 
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chairman/n", 
+                "@type": "Node", 
+                "label": "chairman", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chairman"
+            }, 
+            "surfaceText": null, 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair_of_state/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair_of_state/n", 
+                "@type": "Node", 
+                "label": "chair of state", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair_of_state"
+            }, 
+            "surfaceText": "[[chair of state]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chaise_longue/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chaise_longue/n", 
+                "@type": "Node", 
+                "label": "chaise longue", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chaise_longue"
+            }, 
+            "surfaceText": "[[chaise longue]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/eames_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/eames_chair/n", 
+                "@type": "Node", 
+                "label": "Eames chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/eames_chair"
+            }, 
+            "surfaceText": "[[Eames chair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fighting_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fighting_chair/n", 
+                "@type": "Node", 
+                "label": "fighting chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fighting_chair"
+            }, 
+            "surfaceText": "[[fighting chair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ladder_back/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ladder_back/n", 
+                "@type": "Node", 
+                "label": "ladder-back", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ladder_back"
+            }, 
+            "surfaceText": "[[ladder-back]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sofa/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/barraq/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/barraq"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/barraq/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/barraq"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "[[a sofa]] is a kind of [[a chair]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/straight_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/straight_chair/n", 
+                "@type": "Node", 
+                "label": "straight chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/straight_chair"
+            }, 
+            "surfaceText": "[[straight chair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tablet_armed_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tablet_armed_chair/n", 
+                "@type": "Node", 
+                "label": "tablet-armed chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tablet_armed_chair"
+            }, 
+            "surfaceText": "[[tablet-armed chair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": "[[wheelchair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/armchair/n/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/armchair/n", 
+                "@type": "Node", 
+                "label": "armchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/armchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/armchair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/armchair/n", 
+                "@type": "Node", 
+                "label": "armchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/armchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/beach_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/beach_chair/n", 
+                "@type": "Node", 
+                "label": "beach chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beach_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/,/c/en/better_than_what_use/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/better_than_what_use", 
+                "@type": "Node", 
+                "label": "better than what I use", 
+                "language": "en", 
+                "term": "/c/en/better_than_what_use"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ttt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ttt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "That chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[That chair]] is [[better than what I use]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/,/c/en/commortable_to_sit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/commortable_to_sit", 
+                "@type": "Node", 
+                "label": "commortable to sit", 
+                "language": "en", 
+                "term": "/c/en/commortable_to_sit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/khilska/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/khilska"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "the chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[the chair]] is [[commortable to sit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/,/c/en/place/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place", 
+                "@type": "Node", 
+                "label": "a place", 
+                "language": "en", 
+                "term": "/c/en/place"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurros/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurros"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pupeluv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pupeluv"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is [[a place]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/,/c/en/stool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stool", 
+                "@type": "Node", 
+                "label": "a stool", 
+                "language": "en", 
+                "term": "/c/en/stool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/moriarty/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/moriarty"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] is [[a stool]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/n/,/c/en/furniture_market_category/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/furniture_market_category/n", 
+                "@type": "Node", 
+                "label": "furniture market category", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furniture_market_category"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/n/,/c/en/furniture/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/furniture/n", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/n/,/c/en/hexalateral_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/hexalateral_object/n", 
+                "@type": "Node", 
+                "label": "hexalateral object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hexalateral_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chair/n/,/c/en/seat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chairwoman/n/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chairwoman/n", 
+                "@type": "Node", 
+                "label": "chairwoman", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chairwoman"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/comforter/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wtgee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wtgee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/comforter", 
+                "@type": "Node", 
+                "label": "A comforter", 
+                "language": "en", 
+                "term": "/c/en/comforter"
+            }, 
+            "surfaceText": "[[A comforter]] is a type of [[chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dental_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dental_chair/n", 
+                "@type": "Node", 
+                "label": "dental chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dental_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dining_room_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dining_room_chair/n", 
+                "@type": "Node", 
+                "label": "dining room chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dining_room_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ergonomic_chair/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ergonomic_chair", 
+                "@type": "Node", 
+                "label": "An ergonomic chair", 
+                "language": "en", 
+                "term": "/c/en/ergonomic_chair"
+            }, 
+            "surfaceText": "[[An ergonomic chair]] is [[a chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_downstairs/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_downstairs", 
+                "@type": "Node", 
+                "label": "Something you find downstairs", 
+                "language": "en", 
+                "term": "/c/en/find_downstairs"
+            }, 
+            "surfaceText": "[[Something you find downstairs]] is [[a chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_inside/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/karthik/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/karthik"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_inside", 
+                "@type": "Node", 
+                "label": "Something you find inside", 
+                "language": "en", 
+                "term": "/c/en/find_inside"
+            }, 
+            "surfaceText": "[[Something you find inside]] is [[a chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fixed_theater_seat/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fixed_theater_seat/n", 
+                "@type": "Node", 
+                "label": "fixed theater seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fixed_theater_seat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/folding_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_chair/n", 
+                "@type": "Node", 
+                "label": "folding chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/folding_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/glider_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glider_chair/n", 
+                "@type": "Node", 
+                "label": "glider chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/glider_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/highchair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/highchair/n", 
+                "@type": "Node", 
+                "label": "highchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/highchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lawn_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lawn_chair/n", 
+                "@type": "Node", 
+                "label": "lawn chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lawn_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/posture_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/posture_chair/n", 
+                "@type": "Node", 
+                "label": "posture chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/posture_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/recliner/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/recliner", 
+                "@type": "Node", 
+                "label": "a recliner", 
+                "language": "en", 
+                "term": "/c/en/recliner"
+            }, 
+            "surfaceText": "[[a recliner]] is a type of [[chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rocking_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rocking_chair/n", 
+                "@type": "Node", 
+                "label": "rocking chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rocking_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/seat/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/seat", 
+                "@type": "Node", 
+                "label": "a seat", 
+                "language": "en", 
+                "term": "/c/en/seat"
+            }, 
+            "surfaceText": "[[a seat]] is [[a chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/swivel_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swivel_chair/n", 
+                "@type": "Node", 
+                "label": "swivel chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swivel_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/throne/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/throne/n", 
+                "@type": "Node", 
+                "label": "throne", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/throne"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wooden_chair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wooden_chair/n", 
+                "@type": "Node", 
+                "label": "wooden chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wooden_chair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

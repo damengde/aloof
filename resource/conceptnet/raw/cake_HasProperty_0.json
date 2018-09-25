@@ -1,0 +1,254 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cake&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/sweet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sweet", 
+                "@type": "Node", 
+                "label": "sweet", 
+                "language": "en", 
+                "term": "/c/en/sweet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/freshmanmom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/freshmanmom"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ochuckles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ochuckles"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rspeer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/wwight/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/wwight"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "Cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[Cake]] is [[sweet]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/good_for_dessert/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_for_dessert", 
+                "@type": "Node", 
+                "label": "good for dessert", 
+                "language": "en", 
+                "term": "/c/en/good_for_dessert"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vankakka/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/vankakka"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "a cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[a cake]] is [[good for dessert]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/false/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/false", 
+                "@type": "Node", 
+                "label": "false", 
+                "language": "en", 
+                "term": "/c/en/false"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/noahbedford/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/noahbedford"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[cake]] is [[false]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/nice_to_eat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nice_to_eat", 
+                "@type": "Node", 
+                "label": "nice to eat", 
+                "language": "en", 
+                "term": "/c/en/nice_to_eat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "a cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[a cake]] is [[nice to eat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/spongy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spongy", 
+                "@type": "Node", 
+                "label": "spongy", 
+                "language": "en", 
+                "term": "/c/en/spongy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "Cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[Cake]] is [[spongy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cake/,/c/en/yummy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/yummy", 
+                "@type": "Node", 
+                "label": "yummy", 
+                "language": "en", 
+                "term": "/c/en/yummy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/ochuckles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/ochuckles"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cake", 
+                "@type": "Node", 
+                "label": "cake", 
+                "language": "en", 
+                "term": "/c/en/cake"
+            }, 
+            "surfaceText": "[[cake]] is [[yummy]]", 
+            "weight": 1.0
+        }
+    ]
+}

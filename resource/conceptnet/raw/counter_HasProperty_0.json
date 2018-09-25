@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/counter&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/counter/,/c/en/likely_to_hold_cash_register/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/likely_to_hold_cash_register", 
+                "@type": "Node", 
+                "label": "likely to hold a cash register", 
+                "language": "en", 
+                "term": "/c/en/likely_to_hold_cash_register"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/counter", 
+                "@type": "Node", 
+                "label": "A counter", 
+                "language": "en", 
+                "term": "/c/en/counter"
+            }, 
+            "surfaceText": "[[A counter]] is [[likely to hold a cash register]]", 
+            "weight": 1.0
+        }
+    ]
+}

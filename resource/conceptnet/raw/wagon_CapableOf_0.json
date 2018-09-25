@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wagon&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wagon/,/c/en/pulling_child/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pulling_child", 
+                "@type": "Node", 
+                "label": "be pulling a child", 
+                "language": "en", 
+                "term": "/c/en/pulling_child"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/li1ypad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/li1ypad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wagon", 
+                "@type": "Node", 
+                "label": "A wagon", 
+                "language": "en", 
+                "term": "/c/en/wagon"
+            }, 
+            "surfaceText": "[[A wagon]] can [[be pulling a child]]", 
+            "weight": 1.0
+        }
+    ]
+}

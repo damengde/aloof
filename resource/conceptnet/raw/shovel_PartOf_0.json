@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shovel&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/,/c/en/shovel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shovel", 
+                "@type": "Node", 
+                "label": "a shovel", 
+                "language": "en", 
+                "term": "/c/en/shovel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "The handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[The handle]] is part of [[a shovel]]", 
+            "weight": 1.0
+        }
+    ]
+}

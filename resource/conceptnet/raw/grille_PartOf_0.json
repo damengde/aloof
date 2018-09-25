@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grille&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grille/n/,/c/en/car/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/car/n", 
+                "@type": "Node", 
+                "label": "car", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grille/n", 
+                "@type": "Node", 
+                "label": "grille", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grille"
+            }, 
+            "surfaceText": "[[grille]] is a part of [[car]]", 
+            "weight": 2.0
+        }
+    ]
+}

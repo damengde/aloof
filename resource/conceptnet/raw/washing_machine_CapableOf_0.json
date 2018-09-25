@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/washing_machine&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/washing_machine/,/c/en/clean_dishes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clean_dishes", 
+                "@type": "Node", 
+                "label": "clean dishes", 
+                "language": "en", 
+                "term": "/c/en/clean_dishes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mleaf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mleaf"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "surfaceText": "[[a washing machine]] can [[clean dishes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/washing_machine/,/c/en/wash_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wash_clothes", 
+                "@type": "Node", 
+                "label": "wash my clothes", 
+                "language": "en", 
+                "term": "/c/en/wash_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/staley/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/staley"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "surfaceText": "[[a washing machine]] can [[wash my clothes]]", 
+            "weight": 1.0
+        }
+    ]
+}

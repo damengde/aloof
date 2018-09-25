@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sidewalk&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sidewalk/,/c/en/street/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/street", 
+                "@type": "Node", 
+                "label": "the street", 
+                "language": "en", 
+                "term": "/c/en/street"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/judy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/judy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "The sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[The sidewalk]] is part of [[the street]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/motor&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/motor/,/c/en/power_motorized_vehicle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power_motorized_vehicle", 
+                "@type": "Node", 
+                "label": "power a motorized vehicle", 
+                "language": "en", 
+                "term": "/c/en/power_motorized_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "a motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "surfaceText": "[[a motor]] can [[power a motorized vehicle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/motor/,/c/en/turn_propeller/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turn_propeller", 
+                "@type": "Node", 
+                "label": "turn a propeller", 
+                "language": "en", 
+                "term": "/c/en/turn_propeller"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kemcmanus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kemcmanus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "A motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "surfaceText": "[[A motor]] can [[turn a propeller]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/motor/,/c/en/turn_wheel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turn_wheel", 
+                "@type": "Node", 
+                "label": "turn a wheel", 
+                "language": "en", 
+                "term": "/c/en/turn_wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kemcmanus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kemcmanus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motor", 
+                "@type": "Node", 
+                "label": "a motor", 
+                "language": "en", 
+                "term": "/c/en/motor"
+            }, 
+            "surfaceText": "[[a motor]] can [[turn a wheel]]", 
+            "weight": 1.0
+        }
+    ]
+}

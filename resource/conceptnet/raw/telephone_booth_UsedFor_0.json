@@ -1,0 +1,592 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone_booth&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_telephone_call/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_telephone_call", 
+                "@type": "Node", 
+                "label": "making a telephone call", 
+                "language": "en", 
+                "term": "/c/en/making_telephone_call"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[making a telephone call]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/make_phone_call/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_phone_call", 
+                "@type": "Node", 
+                "label": "make a phone call", 
+                "language": "en", 
+                "term": "/c/en/make_phone_call"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[make a phone call]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/call/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/call", 
+                "@type": "Node", 
+                "label": "call someone", 
+                "language": "en", 
+                "term": "/c/en/call"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lilydog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lilydog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[call someone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/call_people_or_services/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/call_people_or_services", 
+                "@type": "Node", 
+                "label": "call people or services", 
+                "language": "en", 
+                "term": "/c/en/call_people_or_services"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/agamemnus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/agamemnus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[call people or services]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/change_into_superman_costume/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/change_into_superman_costume", 
+                "@type": "Node", 
+                "label": "change into a superman costume", 
+                "language": "en", 
+                "term": "/c/en/change_into_superman_costume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[change into a superman costume]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/changing_into_superman_costume/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/changing_into_superman_costume", 
+                "@type": "Node", 
+                "label": "changing into your Superman costume", 
+                "language": "en", 
+                "term": "/c/en/changing_into_superman_costume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[changing into your Superman costume]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_call/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_call", 
+                "@type": "Node", 
+                "label": "making a call", 
+                "language": "en", 
+                "term": "/c/en/making_call"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is for [[making a call]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_phone_call/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_phone_call", 
+                "@type": "Node", 
+                "label": "making a phone call", 
+                "language": "en", 
+                "term": "/c/en/making_phone_call"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[making a phone call]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_phone_calls/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_phone_calls", 
+                "@type": "Node", 
+                "label": "making phone calls", 
+                "language": "en", 
+                "term": "/c/en/making_phone_calls"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[making phone calls]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_telephone_call_in_provacy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_telephone_call_in_provacy", 
+                "@type": "Node", 
+                "label": "making a telephone call in provacy", 
+                "language": "en", 
+                "term": "/c/en/making_telephone_call_in_provacy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[making a telephone call in provacy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/making_telephone_calls/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_telephone_calls", 
+                "@type": "Node", 
+                "label": "making telephone calls", 
+                "language": "en", 
+                "term": "/c/en/making_telephone_calls"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[making telephone calls]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/phonecalls/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/phonecalls", 
+                "@type": "Node", 
+                "label": "phonecalls", 
+                "language": "en", 
+                "term": "/c/en/phonecalls"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[phonecalls]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/protection_from_weather/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protection_from_weather", 
+                "@type": "Node", 
+                "label": "protection from the weather", 
+                "language": "en", 
+                "term": "/c/en/protection_from_weather"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is for [[protection from the weather]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/speak_in_privacy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/speak_in_privacy", 
+                "@type": "Node", 
+                "label": "speak in privacy", 
+                "language": "en", 
+                "term": "/c/en/speak_in_privacy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[speak in privacy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/superman_to_change_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/superman_to_change_clothes", 
+                "@type": "Node", 
+                "label": "superman to change clothes", 
+                "language": "en", 
+                "term": "/c/en/superman_to_change_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aww/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aww"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[a telephone booth]] is used for [[superman to change clothes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/telephone_booth/,/c/en/talk_over_phone_in_private/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/talk_over_phone_in_private", 
+                "@type": "Node", 
+                "label": "talk over the phone in private", 
+                "language": "en", 
+                "term": "/c/en/talk_over_phone_in_private"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pat01/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pat01"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "a telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "You can use [[a telephone booth]] to [[talk over the phone in private]]", 
+            "weight": 1.0
+        }
+    ]
+}

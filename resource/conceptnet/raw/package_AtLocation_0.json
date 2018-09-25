@@ -1,0 +1,160 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/package&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/package/,/c/en/mail/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mail", 
+                "@type": "Node", 
+                "label": "the mail", 
+                "language": "en", 
+                "term": "/c/en/mail"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sanschag/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sanschag"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/package", 
+                "@type": "Node", 
+                "label": "a package", 
+                "language": "en", 
+                "term": "/c/en/package"
+            }, 
+            "surfaceText": "*Something you find in [[the mail]] is [[a package]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/package/,/c/en/mail_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mail_box", 
+                "@type": "Node", 
+                "label": "the mail box", 
+                "language": "en", 
+                "term": "/c/en/mail_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tzoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tzoot"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/strider2112/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/strider2112"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/package", 
+                "@type": "Node", 
+                "label": "a package", 
+                "language": "en", 
+                "term": "/c/en/package"
+            }, 
+            "surfaceText": "*Something you find in [[the mail box]] is [[a package]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/condom/,/c/en/package/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/package", 
+                "@type": "Node", 
+                "label": "its package", 
+                "language": "en", 
+                "term": "/c/en/package"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/condom", 
+                "@type": "Node", 
+                "label": "a condom", 
+                "language": "en", 
+                "term": "/c/en/condom"
+            }, 
+            "surfaceText": "You are likely to find [[a condom]] in [[its package]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/meat/,/c/en/package/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/package", 
+                "@type": "Node", 
+                "label": "a package", 
+                "language": "en", 
+                "term": "/c/en/package"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/meat", 
+                "@type": "Node", 
+                "label": "meat", 
+                "language": "en", 
+                "term": "/c/en/meat"
+            }, 
+            "surfaceText": "You are likely to find [[meat]] in [[a package]]", 
+            "weight": 1.0
+        }
+    ]
+}

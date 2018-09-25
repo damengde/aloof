@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/doorway&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/entance/,/c/en/doorway/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/doorway", 
+                "@type": "Node", 
+                "label": "be a doorway", 
+                "language": "en", 
+                "term": "/c/en/doorway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/entance", 
+                "@type": "Node", 
+                "label": "An entance", 
+                "language": "en", 
+                "term": "/c/en/entance"
+            }, 
+            "surfaceText": "[[An entance]] can [[be a doorway]]", 
+            "weight": 1.0
+        }
+    ]
+}

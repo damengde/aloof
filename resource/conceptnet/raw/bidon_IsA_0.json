@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bidon&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bidon/,/c/en/water_bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/water_bottle/n", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bidon", 
+                "@type": "Node", 
+                "label": "bidon", 
+                "language": "en", 
+                "term": "/c/en/bidon"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bidon/n/,/c/en/sports_bottle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/sports_bottle", 
+                "@type": "Node", 
+                "label": "sports bottle", 
+                "language": "en", 
+                "term": "/c/en/sports_bottle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bidon/n", 
+                "@type": "Node", 
+                "label": "bidon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bidon"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

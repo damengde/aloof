@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tub&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tub/,/c/en/hold_water_for_bath/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_water_for_bath", 
+                "@type": "Node", 
+                "label": "hold water for a bath", 
+                "language": "en", 
+                "term": "/c/en/hold_water_for_bath"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tub", 
+                "@type": "Node", 
+                "label": "A tub", 
+                "language": "en", 
+                "term": "/c/en/tub"
+            }, 
+            "surfaceText": "[[A tub]] can [[hold water for a bath]]", 
+            "weight": 1.0
+        }
+    ]
+}

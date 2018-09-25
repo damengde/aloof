@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/razor&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/razor/,/c/en/need_new_blade/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/need_new_blade", 
+                "@type": "Node", 
+                "label": "need a new blade", 
+                "language": "en", 
+                "term": "/c/en/need_new_blade"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thevieve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thevieve"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/correlon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/correlon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/razor", 
+                "@type": "Node", 
+                "label": "A razor", 
+                "language": "en", 
+                "term": "/c/en/razor"
+            }, 
+            "surfaceText": "[[A razor]] can [[need a new blade]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/razor/,/c/en/become_dull/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/become_dull", 
+                "@type": "Node", 
+                "label": "become dull", 
+                "language": "en", 
+                "term": "/c/en/become_dull"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/razor", 
+                "@type": "Node", 
+                "label": "a razor", 
+                "language": "en", 
+                "term": "/c/en/razor"
+            }, 
+            "surfaceText": "[[a razor]] can [[become dull]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/razor/,/c/en/cut_blood_veins/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cut_blood_veins", 
+                "@type": "Node", 
+                "label": "cut blood veins", 
+                "language": "en", 
+                "term": "/c/en/cut_blood_veins"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phaysis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phaysis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/razor", 
+                "@type": "Node", 
+                "label": "A razor", 
+                "language": "en", 
+                "term": "/c/en/razor"
+            }, 
+            "surfaceText": "[[A razor]] can [[cut blood veins]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/man&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/adult_male_body/n/,/c/en/man/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/man/n", 
+                "@type": "Node", 
+                "label": "man", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/man"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adult_male_body/n", 
+                "@type": "Node", 
+                "label": "adult male body", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/adult_male_body"
+            }, 
+            "surfaceText": "[[adult male body]] is a part of [[man]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/man/n/,/c/en/british_isles/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/british_isles/n", 
+                "@type": "Node", 
+                "label": "British Isles", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/british_isles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/man/n", 
+                "@type": "Node", 
+                "label": "Man", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/man"
+            }, 
+            "surfaceText": "[[Man]] is a part of [[British Isles]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/man/,/c/en/checkers/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/checkers/n", 
+                "@type": "Node", 
+                "label": "checkers", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/checkers"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/man", 
+                "@type": "Node", 
+                "label": "man", 
+                "language": "en", 
+                "term": "/c/en/man"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/man/,/c/en/draughts/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/draughts/n", 
+                "@type": "Node", 
+                "label": "draughts", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/draughts"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/man", 
+                "@type": "Node", 
+                "label": "man", 
+                "language": "en", 
+                "term": "/c/en/man"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/folder&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/folder/,/c/en/separate_papers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separate_papers", 
+                "@type": "Node", 
+                "label": "separate papers", 
+                "language": "en", 
+                "term": "/c/en/separate_papers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neuromancer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neuromancer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folder", 
+                "@type": "Node", 
+                "label": "a folder", 
+                "language": "en", 
+                "term": "/c/en/folder"
+            }, 
+            "surfaceText": "[[a folder]] can [[separate papers]]", 
+            "weight": 1.0
+        }
+    ]
+}

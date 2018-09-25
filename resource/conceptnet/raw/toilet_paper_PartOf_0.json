@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toilet_paper&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/toilet_paper/n/,/c/en/south_park/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/south_park", 
+                "@type": "Node", 
+                "label": "south park", 
+                "language": "en", 
+                "term": "/c/en/south_park"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toilet_paper/n", 
+                "@type": "Node", 
+                "label": "toilet paper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toilet_paper"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

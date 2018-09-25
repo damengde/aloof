@@ -1,0 +1,312 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/card&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/deck/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/deck", 
+                "@type": "Node", 
+                "label": "a deck", 
+                "language": "en", 
+                "term": "/c/en/deck"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rojabuck/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rojabuck"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/fable/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/fable"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kaotika/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kaotika"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/modilion/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/modilion"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rojabuck/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rojabuck"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[a deck]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/card_game/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/card_game", 
+                "@type": "Node", 
+                "label": "a card game", 
+                "language": "en", 
+                "term": "/c/en/card_game"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "Somewhere [[a card]] can be is in [[a card game]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/envelop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/envelop", 
+                "@type": "Node", 
+                "label": "an envelop", 
+                "language": "en", 
+                "term": "/c/en/envelop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfronte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfronte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[an envelop]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/mailbox/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mailbox", 
+                "@type": "Node", 
+                "label": "the mailbox", 
+                "language": "en", 
+                "term": "/c/en/mailbox"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[the mailbox]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/pocket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pocket", 
+                "@type": "Node", 
+                "label": "your pocket", 
+                "language": "en", 
+                "term": "/c/en/pocket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mindnomad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mindnomad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[your pocket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/poker_deck/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/poker_deck", 
+                "@type": "Node", 
+                "label": "a poker deck", 
+                "language": "en", 
+                "term": "/c/en/poker_deck"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[a poker deck]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/stationery_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stationery_store", 
+                "@type": "Node", 
+                "label": "a stationery store", 
+                "language": "en", 
+                "term": "/c/en/stationery_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[a stationery store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/card/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/card", 
+                "@type": "Node", 
+                "label": "a card", 
+                "language": "en", 
+                "term": "/c/en/card"
+            }, 
+            "surfaceText": "You are likely to find [[a card]] in [[a store]]", 
+            "weight": 1.0
+        }
+    ]
+}

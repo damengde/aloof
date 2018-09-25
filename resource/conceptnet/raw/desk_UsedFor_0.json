@@ -1,0 +1,880 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/desk&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/working/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/working", 
+                "@type": "Node", 
+                "label": "working", 
+                "language": "en", 
+                "term": "/c/en/working"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jarling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jarling"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kfsone/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kfsone"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markp/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/markp"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[working]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/n/,/c/en/work/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/work/v", 
+                "@type": "Node", 
+                "label": "work", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk/n", 
+                "@type": "Node", 
+                "label": "desk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[desk]] is used for [[work]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/n/,/c/en/write/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/write/v", 
+                "@type": "Node", 
+                "label": "write", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/write"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk/n", 
+                "@type": "Node", 
+                "label": "desk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[desk]] is used for [[write]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/computer_use/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/computer_use", 
+                "@type": "Node", 
+                "label": "computer use", 
+                "language": "en", 
+                "term": "/c/en/computer_use"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[computer use]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/drafting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drafting", 
+                "@type": "Node", 
+                "label": "drafting", 
+                "language": "en", 
+                "term": "/c/en/drafting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sgroppenbecker/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sgroppenbecker"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[drafting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/filing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/filing", 
+                "@type": "Node", 
+                "label": "filing", 
+                "language": "en", 
+                "term": "/c/en/filing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[filing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/make_people_think_work/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_people_think_work", 
+                "@type": "Node", 
+                "label": "make people think you work", 
+                "language": "en", 
+                "term": "/c/en/make_people_think_work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/karlsson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/karlsson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "You can use [[a desk]] to [[make people think you work]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/place_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place_on", 
+                "@type": "Node", 
+                "label": "place something on it", 
+                "language": "en", 
+                "term": "/c/en/place_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/agamemnus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/agamemnus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "You can use [[a desk]] to [[place something on it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/putting_computer_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/putting_computer_on", 
+                "@type": "Node", 
+                "label": "putting your computer on it", 
+                "language": "en", 
+                "term": "/c/en/putting_computer_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[putting your computer on it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/putting_documents_in_drawers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/putting_documents_in_drawers", 
+                "@type": "Node", 
+                "label": "putting documents in its drawers", 
+                "language": "en", 
+                "term": "/c/en/putting_documents_in_drawers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[putting documents in its drawers]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/reading_at/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reading_at", 
+                "@type": "Node", 
+                "label": "reading at", 
+                "language": "en", 
+                "term": "/c/en/reading_at"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajnewbold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[reading at]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/sitting_at/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sitting_at", 
+                "@type": "Node", 
+                "label": "sitting at", 
+                "language": "en", 
+                "term": "/c/en/sitting_at"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajnewbold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[sitting at]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/sitting_at_in_school/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sitting_at_in_school", 
+                "@type": "Node", 
+                "label": "sitting at it in school", 
+                "language": "en", 
+                "term": "/c/en/sitting_at_in_school"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[sitting at it in school]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/spilling_coffee_over/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spilling_coffee_over", 
+                "@type": "Node", 
+                "label": "spilling coffee over it", 
+                "language": "en", 
+                "term": "/c/en/spilling_coffee_over"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[spilling coffee over it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/storing_and_working_with_papers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_and_working_with_papers", 
+                "@type": "Node", 
+                "label": "storing and working with papers", 
+                "language": "en", 
+                "term": "/c/en/storing_and_working_with_papers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[storing and working with papers]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/storing_computer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_computer", 
+                "@type": "Node", 
+                "label": "storing your computer", 
+                "language": "en", 
+                "term": "/c/en/storing_computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sgroppenbecker/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sgroppenbecker"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[storing your computer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/supporting_somputer_system/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/supporting_somputer_system", 
+                "@type": "Node", 
+                "label": "supporting a somputer system", 
+                "language": "en", 
+                "term": "/c/en/supporting_somputer_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[supporting a somputer system]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/surface_area_to_do_paperwork/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/surface_area_to_do_paperwork", 
+                "@type": "Node", 
+                "label": "surface area to do paperwork", 
+                "language": "en", 
+                "term": "/c/en/surface_area_to_do_paperwork"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[surface area to do paperwork]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/typing_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/typing_on", 
+                "@type": "Node", 
+                "label": "typing on", 
+                "language": "en", 
+                "term": "/c/en/typing_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[typing on]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/work/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work", 
+                "@type": "Node", 
+                "label": "work", 
+                "language": "en", 
+                "term": "/c/en/work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[work]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/work_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work_on", 
+                "@type": "Node", 
+                "label": "work on", 
+                "language": "en", 
+                "term": "/c/en/work_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kfsone/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kfsone"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "You can use [[a desk]] to [[work on]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/work_sitting_down/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work_sitting_down", 
+                "@type": "Node", 
+                "label": "work sitting down", 
+                "language": "en", 
+                "term": "/c/en/work_sitting_down"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "You can use [[a desk]] to [[work sitting down]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/writing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/writing", 
+                "@type": "Node", 
+                "label": "writing", 
+                "language": "en", 
+                "term": "/c/en/writing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[writing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk/,/c/en/writing_upon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/writing_upon", 
+                "@type": "Node", 
+                "label": "writing upon", 
+                "language": "en", 
+                "term": "/c/en/writing_upon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ajnewbold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ajnewbold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "surfaceText": "[[a desk]] is for [[writing upon]]", 
+            "weight": 1.0
+        }
+    ]
+}

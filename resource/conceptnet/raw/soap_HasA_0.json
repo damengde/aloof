@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soap&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/soap/,/c/en/degreasing_action/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/degreasing_action", 
+                "@type": "Node", 
+                "label": "some degreasing action", 
+                "language": "en", 
+                "term": "/c/en/degreasing_action"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "Soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "[[Soap]] has [[some degreasing action]]", 
+            "weight": 1.0
+        }
+    ]
+}

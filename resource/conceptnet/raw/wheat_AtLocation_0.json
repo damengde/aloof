@@ -1,0 +1,318 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheat&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/field", 
+                "@type": "Node", 
+                "label": "a field", 
+                "language": "en", 
+                "term": "/c/en/field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffmuir"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarajeansamson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sarajeansamson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/swordfishdata/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/swordfishdata"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "*Something you find in [[a field]] is [[wheat]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/bread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bread", 
+                "@type": "Node", 
+                "label": "bread", 
+                "language": "en", 
+                "term": "/c/en/bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[bread]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/cereal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cereal", 
+                "@type": "Node", 
+                "label": "cereal", 
+                "language": "en", 
+                "term": "/c/en/cereal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kacjf73/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kacjf73"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[cereal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/cereal_packets/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cereal_packets", 
+                "@type": "Node", 
+                "label": "cereal packets", 
+                "language": "en", 
+                "term": "/c/en/cereal_packets"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thomashayes/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thomashayes"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[cereal packets]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/countryside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/countryside", 
+                "@type": "Node", 
+                "label": "the countryside", 
+                "language": "en", 
+                "term": "/c/en/countryside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qweww/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qweww"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "*Something you find in [[the countryside]] is [[wheat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/farmer's_field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/farmer's_field", 
+                "@type": "Node", 
+                "label": "a farmer's field", 
+                "language": "en", 
+                "term": "/c/en/farmer's_field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[a farmer's field]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/mill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mill", 
+                "@type": "Node", 
+                "label": "a mill", 
+                "language": "en", 
+                "term": "/c/en/mill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[a mill]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wheat/,/c/en/wheat_field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheat_field", 
+                "@type": "Node", 
+                "label": "a wheat field", 
+                "language": "en", 
+                "term": "/c/en/wheat_field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ptbnj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ptbnj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "You are likely to find [[wheat]] in [[a wheat field]]", 
+            "weight": 1.0
+        }
+    ]
+}

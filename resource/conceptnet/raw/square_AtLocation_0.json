@@ -1,0 +1,265 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/square&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/,/c/en/geometry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/geometry", 
+                "@type": "Node", 
+                "label": "geometry", 
+                "language": "en", 
+                "term": "/c/en/geometry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mycorner/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mycorner"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "You are likely to find [[a square]] in [[geometry]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/,/c/en/town_center/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/town_center", 
+                "@type": "Node", 
+                "label": "the town center", 
+                "language": "en", 
+                "term": "/c/en/town_center"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rowanf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rowanf"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "You are likely to find [[a square]] in [[the town center]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/line/,/c/en/square/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ppinheiro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ppinheiro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/line", 
+                "@type": "Node", 
+                "label": "a line", 
+                "language": "en", 
+                "term": "/c/en/line"
+            }, 
+            "surfaceText": "You are likely to find [[a line]] in [[a square]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/,/c/en/carpenter's_tool_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carpenter's_tool_box", 
+                "@type": "Node", 
+                "label": "a carpenter's tool box", 
+                "language": "en", 
+                "term": "/c/en/carpenter's_tool_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "You are likely to find [[a square]] in [[a carpenter's tool box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/,/c/en/fifties/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fifties", 
+                "@type": "Node", 
+                "label": "the fifties", 
+                "language": "en", 
+                "term": "/c/en/fifties"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jonnyjons/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jonnyjons"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "You are likely to find [[a square]] in [[the fifties]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/,/c/en/town/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/town", 
+                "@type": "Node", 
+                "label": "a town", 
+                "language": "en", 
+                "term": "/c/en/town"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/luminosity/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/luminosity"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square", 
+                "@type": "Node", 
+                "label": "a square", 
+                "language": "en", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "You are likely to find [[a square]] in [[a town]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/square/n/,/c/en/tokyo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/tokyo", 
+                "@type": "Node", 
+                "label": "tokyo", 
+                "language": "en", 
+                "term": "/c/en/tokyo"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square/n", 
+                "@type": "Node", 
+                "label": "square", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

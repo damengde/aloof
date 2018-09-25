@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pepper&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pepper/n/,/c/en/capsicum/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/capsicum/n", 
+                "@type": "Node", 
+                "label": "capsicum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/capsicum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is a part of [[capsicum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is a part of [[pepper]]", 
+            "weight": 2.0
+        }
+    ]
+}

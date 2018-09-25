@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cupboard&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cupboard/,/c/en/store_cups/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_cups", 
+                "@type": "Node", 
+                "label": "store cups", 
+                "language": "en", 
+                "term": "/c/en/store_cups"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "a cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "surfaceText": "[[a cupboard]] can [[store cups]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cupboard/,/c/en/store_many_different_items/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_many_different_items", 
+                "@type": "Node", 
+                "label": "store many different items", 
+                "language": "en", 
+                "term": "/c/en/store_many_different_items"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xamen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xamen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "a cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "surfaceText": "[[a cupboard]] can [[store many different items]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cupboard/,/c/en/store_pots_and_pans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_pots_and_pans", 
+                "@type": "Node", 
+                "label": "store pots and pans", 
+                "language": "en", 
+                "term": "/c/en/store_pots_and_pans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/markfarrar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/markfarrar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cupboard", 
+                "@type": "Node", 
+                "label": "A cupboard", 
+                "language": "en", 
+                "term": "/c/en/cupboard"
+            }, 
+            "surfaceText": "[[A cupboard]] can [[store pots and pans]]", 
+            "weight": 1.0
+        }
+    ]
+}

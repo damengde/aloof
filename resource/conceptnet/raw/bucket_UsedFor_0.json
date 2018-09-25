@@ -1,0 +1,745 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bucket&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carrying_liquids/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carrying_liquids", 
+                "@type": "Node", 
+                "label": "carrying liquids", 
+                "language": "en", 
+                "term": "/c/en/carrying_liquids"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dickeynh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dickeynh"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/chloe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/chloe"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hurkle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/hurkle"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is used for [[carrying liquids]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carry_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_water", 
+                "@type": "Node", 
+                "label": "carry water", 
+                "language": "en", 
+                "term": "/c/en/carry_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/karlsson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/karlsson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/karlsson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/karlsson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is used to [[carry water]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/n/,/c/en/hold/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hold/v", 
+                "@type": "Node", 
+                "label": "hold", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/hold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[bucket]] is used for [[hold]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/bail_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bail_water", 
+                "@type": "Node", 
+                "label": "bail water", 
+                "language": "en", 
+                "term": "/c/en/bail_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nanonow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nanonow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[bail water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carry_dirt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_dirt", 
+                "@type": "Node", 
+                "label": "carry dirt", 
+                "language": "en", 
+                "term": "/c/en/carry_dirt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[carry dirt]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carry_horse_feed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_horse_feed", 
+                "@type": "Node", 
+                "label": "carry horse feed", 
+                "language": "en", 
+                "term": "/c/en/carry_horse_feed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dingbat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dingbat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[carry horse feed]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carrying_small_objects/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carrying_small_objects", 
+                "@type": "Node", 
+                "label": "carrying small objects", 
+                "language": "en", 
+                "term": "/c/en/carrying_small_objects"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chloe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chloe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[carrying small objects]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carrying_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carrying_things", 
+                "@type": "Node", 
+                "label": "carrying things", 
+                "language": "en", 
+                "term": "/c/en/carrying_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is used for [[carrying things]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/carry_liquids/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_liquids", 
+                "@type": "Node", 
+                "label": "carry liquids", 
+                "language": "en", 
+                "term": "/c/en/carry_liquids"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hurkle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hurkle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] can be used to [[carry liquids]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/gather_sand_at_sea_shore/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gather_sand_at_sea_shore", 
+                "@type": "Node", 
+                "label": "gather sand at the sea shore", 
+                "language": "en", 
+                "term": "/c/en/gather_sand_at_sea_shore"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[gather sand at the sea shore]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/hold_ice_to_chill_bottle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_ice_to_chill_bottle", 
+                "@type": "Node", 
+                "label": "hold ice to chill a bottle", 
+                "language": "en", 
+                "term": "/c/en/hold_ice_to_chill_bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[hold ice to chill a bottle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/holding_milk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_milk", 
+                "@type": "Node", 
+                "label": "holding milk", 
+                "language": "en", 
+                "term": "/c/en/holding_milk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[holding milk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/holding_nails_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_nails_in", 
+                "@type": "Node", 
+                "label": "holding nails in", 
+                "language": "en", 
+                "term": "/c/en/holding_nails_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vud/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vud"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is used for [[holding nails in]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/holding_sand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_sand", 
+                "@type": "Node", 
+                "label": "holding sand", 
+                "language": "en", 
+                "term": "/c/en/holding_sand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[holding sand]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/holding_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_water", 
+                "@type": "Node", 
+                "label": "holding water", 
+                "language": "en", 
+                "term": "/c/en/holding_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[holding water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/making_bucket_line/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_bucket_line", 
+                "@type": "Node", 
+                "label": "making a bucket-line", 
+                "language": "en", 
+                "term": "/c/en/making_bucket_line"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[making a bucket-line]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/making_sand_castles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_sand_castles", 
+                "@type": "Node", 
+                "label": "making sand castles", 
+                "language": "en", 
+                "term": "/c/en/making_sand_castles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[making sand castles]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/mix_cement/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mix_cement", 
+                "@type": "Node", 
+                "label": "mix cement", 
+                "language": "en", 
+                "term": "/c/en/mix_cement"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "You can use [[a bucket]] to [[mix cement]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/protecting_head/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting_head", 
+                "@type": "Node", 
+                "label": "protecting your head", 
+                "language": "en", 
+                "term": "/c/en/protecting_head"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oxidation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oxidation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[protecting your head]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bucket/,/c/en/taking_water_to_fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taking_water_to_fire", 
+                "@type": "Node", 
+                "label": "taking water to the fire", 
+                "language": "en", 
+                "term": "/c/en/taking_water_to_fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] is for [[taking water to the fire]]", 
+            "weight": 1.0
+        }
+    ]
+}

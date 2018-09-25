@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/slipper&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/slipper/,/c/en/protecting_feet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/protecting_feet", 
+                "@type": "Node", 
+                "label": "protecting your feet", 
+                "language": "en", 
+                "term": "/c/en/protecting_feet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slipper", 
+                "@type": "Node", 
+                "label": "A slipper", 
+                "language": "en", 
+                "term": "/c/en/slipper"
+            }, 
+            "surfaceText": "[[A slipper]] is used for [[protecting your feet]]", 
+            "weight": 1.0
+        }
+    ]
+}

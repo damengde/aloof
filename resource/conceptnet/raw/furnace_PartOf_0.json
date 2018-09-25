@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/furnace&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grate/n/,/c/en/furnace/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/furnace/n", 
+                "@type": "Node", 
+                "label": "furnace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furnace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grate/n", 
+                "@type": "Node", 
+                "label": "grate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grate"
+            }, 
+            "surfaceText": "[[grate]] is a part of [[furnace]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/register/n/,/c/en/furnace/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/furnace/n", 
+                "@type": "Node", 
+                "label": "furnace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furnace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/register/n", 
+                "@type": "Node", 
+                "label": "register", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/register"
+            }, 
+            "surfaceText": "[[register]] is a part of [[furnace]]", 
+            "weight": 2.0
+        }
+    ]
+}

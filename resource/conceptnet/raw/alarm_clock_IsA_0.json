@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/alarm_clock&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/alarm_clock/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/alarm_clock/n/,/c/en/clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/clock/n", 
+                "@type": "Node", 
+                "label": "clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alarm_clock/n", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_alarm_clock/n/,/c/en/alarm_clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/alarm_clock/n", 
+                "@type": "Node", 
+                "label": "alarm clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alarm_clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_alarm_clock/n", 
+                "@type": "Node", 
+                "label": "electric alarm clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_alarm_clock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

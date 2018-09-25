@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bike&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/bike/,/c/en/two_wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/two_wheels", 
+                "@type": "Node", 
+                "label": "two wheels", 
+                "language": "en", 
+                "term": "/c/en/two_wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dimona/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dimona"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dimona/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dimona"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hawkeye/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/hawkeye"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/xavier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/xavier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] has [[two wheels]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/bike/,/c/en/2_tires/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/2_tires", 
+                "@type": "Node", 
+                "label": "2 tires", 
+                "language": "en", 
+                "term": "/c/en/2_tires"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cgause/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cgause"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "A bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[A bike]] has [[2 tires]]", 
+            "weight": 1.0
+        }
+    ]
+}

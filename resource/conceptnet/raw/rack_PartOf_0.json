@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rack&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/spit/n/,/c/en/rack/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rack/n", 
+                "@type": "Node", 
+                "label": "rack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spit/n", 
+                "@type": "Node", 
+                "label": "spit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spit"
+            }, 
+            "surfaceText": "[[spit]] is a part of [[rack]]", 
+            "weight": 2.0
+        }
+    ]
+}

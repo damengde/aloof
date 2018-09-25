@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/turtle&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hard_shell/,/c/en/turtle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "a turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dvz2333/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dvz2333"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hard_shell", 
+                "@type": "Node", 
+                "label": "a hard shell", 
+                "language": "en", 
+                "term": "/c/en/hard_shell"
+            }, 
+            "surfaceText": "*Something you find on [[a turtle]] is [[a hard shell]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/turtle/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/meowmiller/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/meowmiller"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "a turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "*Something you find in [[a box]] is [[a turtle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/turtle/,/c/en/water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "a turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "*Something you find under [[water]] is [[a turtle]]", 
+            "weight": 1.0
+        }
+    ]
+}

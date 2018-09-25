@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pottery&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pottery/,/c/en/hold_things_and_as_decoration/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_things_and_as_decoration", 
+                "@type": "Node", 
+                "label": "hold things and as decoration", 
+                "language": "en", 
+                "term": "/c/en/hold_things_and_as_decoration"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ohyeah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ohyeah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pottery", 
+                "@type": "Node", 
+                "label": "Pottery", 
+                "language": "en", 
+                "term": "/c/en/pottery"
+            }, 
+            "surfaceText": "[[Pottery]] is used to [[hold things and as decoration]]", 
+            "weight": 1.0
+        }
+    ]
+}

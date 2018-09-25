@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/shower/,/c/en/rainfall_of_short_duration/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rainfall_of_short_duration", 
+                "@type": "Node", 
+                "label": "be a rainfall of short duration", 
+                "language": "en", 
+                "term": "/c/en/rainfall_of_short_duration"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bhunt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower", 
+                "@type": "Node", 
+                "label": "A shower", 
+                "language": "en", 
+                "term": "/c/en/shower"
+            }, 
+            "surfaceText": "[[A shower]] can [[be a rainfall of short duration]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/shower/,/c/en/streaming_with_fine_needles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/streaming_with_fine_needles", 
+                "@type": "Node", 
+                "label": "be streaming with fine needles", 
+                "language": "en", 
+                "term": "/c/en/streaming_with_fine_needles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower", 
+                "@type": "Node", 
+                "label": "A shower", 
+                "language": "en", 
+                "term": "/c/en/shower"
+            }, 
+            "surfaceText": "[[A shower]] can [[be streaming with fine needles]]", 
+            "weight": 1.0
+        }
+    ]
+}

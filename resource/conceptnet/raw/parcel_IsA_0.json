@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/parcel&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/parcel/n/,/c/en/allotment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/allotment/n", 
+                "@type": "Node", 
+                "label": "allotment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/allotment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/parcel/n", 
+                "@type": "Node", 
+                "label": "parcel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/parcel"
+            }, 
+            "surfaceText": "[[parcel]] is a type of [[allotment]]", 
+            "weight": 2.0
+        }
+    ]
+}

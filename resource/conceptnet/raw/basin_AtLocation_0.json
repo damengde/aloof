@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/basin&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/atlantic_ocean/,/c/en/basin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/basin", 
+                "@type": "Node", 
+                "label": "a basin", 
+                "language": "en", 
+                "term": "/c/en/basin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schickel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schickel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/atlantic_ocean", 
+                "@type": "Node", 
+                "label": "the Atlantic Ocean", 
+                "language": "en", 
+                "term": "/c/en/atlantic_ocean"
+            }, 
+            "surfaceText": "You are likely to find [[the Atlantic Ocean]] in [[a basin]]", 
+            "weight": 1.0
+        }
+    ]
+}

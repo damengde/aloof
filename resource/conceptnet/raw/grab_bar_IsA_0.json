@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grab_bar&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grab_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grab_bar/n", 
+                "@type": "Node", 
+                "label": "grab bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grab_bar"
+            }, 
+            "surfaceText": "[[grab bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }
+    ]
+}

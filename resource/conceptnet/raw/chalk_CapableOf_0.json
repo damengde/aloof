@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chalk&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chalk/,/c/en/break/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/break", 
+                "@type": "Node", 
+                "label": "break", 
+                "language": "en", 
+                "term": "/c/en/break"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chalk", 
+                "@type": "Node", 
+                "label": "that chalk", 
+                "language": "en", 
+                "term": "/c/en/chalk"
+            }, 
+            "surfaceText": "An activity [[that chalk]] can do is [[break]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chalk/,/c/en/mark_sidewalk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mark_sidewalk", 
+                "@type": "Node", 
+                "label": "mark the sidewalk", 
+                "language": "en", 
+                "term": "/c/en/mark_sidewalk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chalk", 
+                "@type": "Node", 
+                "label": "Chalk", 
+                "language": "en", 
+                "term": "/c/en/chalk"
+            }, 
+            "surfaceText": "[[Chalk]] can [[mark the sidewalk]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jacket&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/jacket/,/c/en/double_as_pillow_when_camping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/double_as_pillow_when_camping", 
+                "@type": "Node", 
+                "label": "double as a pillow when camping", 
+                "language": "en", 
+                "term": "/c/en/double_as_pillow_when_camping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hn51/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hn51"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "A jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "[[A jacket]] can [[double as a pillow when camping]]", 
+            "weight": 1.0
+        }
+    ]
+}

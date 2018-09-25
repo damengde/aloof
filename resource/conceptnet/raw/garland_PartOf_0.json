@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/garland&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/garland/n/,/c/en/texas/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/texas/n", 
+                "@type": "Node", 
+                "label": "Texas", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/texas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garland/n", 
+                "@type": "Node", 
+                "label": "Garland", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garland"
+            }, 
+            "surfaceText": "[[Garland]] is a part of [[Texas]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/garland/,/c/en/texas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/texas", 
+                "@type": "Node", 
+                "label": "Texas", 
+                "language": "en", 
+                "term": "/c/en/texas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thoughttreasure/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thoughttreasure"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garland", 
+                "@type": "Node", 
+                "label": "Garland", 
+                "language": "en", 
+                "term": "/c/en/garland"
+            }, 
+            "surfaceText": "[[Garland]] is part of [[Texas]]", 
+            "weight": 1.0
+        }
+    ]
+}

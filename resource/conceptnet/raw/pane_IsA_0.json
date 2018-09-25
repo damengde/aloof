@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pane&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pane/n/,/c/en/plate_glass/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plate_glass/n", 
+                "@type": "Node", 
+                "label": "plate glass", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plate_glass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane/n", 
+                "@type": "Node", 
+                "label": "pane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[pane]] is a type of [[plate glass]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/windowpane/n/,/c/en/pane/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pane/n", 
+                "@type": "Node", 
+                "label": "pane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pane"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/windowpane/n", 
+                "@type": "Node", 
+                "label": "windowpane", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/windowpane"
+            }, 
+            "surfaceText": "[[windowpane]] is a type of [[pane]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pane/,/c/en/sheet_of_glass/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sheet_of_glass", 
+                "@type": "Node", 
+                "label": "a sheet of glass", 
+                "language": "en", 
+                "term": "/c/en/sheet_of_glass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pane", 
+                "@type": "Node", 
+                "label": "a pane", 
+                "language": "en", 
+                "term": "/c/en/pane"
+            }, 
+            "surfaceText": "[[a pane]] is [[a sheet of glass]]", 
+            "weight": 1.0
+        }
+    ]
+}

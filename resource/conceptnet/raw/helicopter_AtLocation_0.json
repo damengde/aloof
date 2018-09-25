@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helicopter&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/helicopter/,/c/en/air/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/air", 
+                "@type": "Node", 
+                "label": "the air", 
+                "language": "en", 
+                "term": "/c/en/air"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "a helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "*Something you find in [[the air]] is [[a helicopter]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/helicopter/,/c/en/airport/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/airport", 
+                "@type": "Node", 
+                "label": "an airport", 
+                "language": "en", 
+                "term": "/c/en/airport"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dollery/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dollery"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter", 
+                "@type": "Node", 
+                "label": "a helicopter", 
+                "language": "en", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "*Something you find at [[an airport]] is [[a helicopter]]", 
+            "weight": 1.0
+        }
+    ]
+}

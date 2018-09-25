@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/window_frame&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/window_frame/n/,/c/en/framework/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/framework/n", 
+                "@type": "Node", 
+                "label": "framework", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/framework"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/window_frame/n", 
+                "@type": "Node", 
+                "label": "window frame", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/window_frame"
+            }, 
+            "surfaceText": "[[window frame]] is a type of [[framework]]", 
+            "weight": 2.0
+        }
+    ]
+}

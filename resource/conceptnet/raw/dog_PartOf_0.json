@@ -1,0 +1,114 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dog&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/flag/n/,/c/en/dog/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dog/n", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flag/n", 
+                "@type": "Node", 
+                "label": "flag", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flag"
+            }, 
+            "surfaceText": "[[flag]] is a part of [[dog]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/dog/,/c/en/animal_kingdom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/animal_kingdom", 
+                "@type": "Node", 
+                "label": "the animal kingdom", 
+                "language": "en", 
+                "term": "/c/en/animal_kingdom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/terrisilvers/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/terrisilvers"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "a dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "surfaceText": "[[a dog]] is part of [[the animal kingdom]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/legs/,/c/en/dog/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog", 
+                "@type": "Node", 
+                "label": "dog", 
+                "language": "en", 
+                "term": "/c/en/dog"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/junco/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/junco"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/legs", 
+                "@type": "Node", 
+                "label": "legs", 
+                "language": "en", 
+                "term": "/c/en/legs"
+            }, 
+            "surfaceText": "*[[dog]] has [[legs]]", 
+            "weight": 1.0
+        }
+    ]
+}

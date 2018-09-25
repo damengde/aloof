@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scenery&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/scenery/,/c/en/beautiful/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beautiful", 
+                "@type": "Node", 
+                "label": "beautiful", 
+                "language": "en", 
+                "term": "/c/en/beautiful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjduda/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjduda"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scenery", 
+                "@type": "Node", 
+                "label": "Scenery", 
+                "language": "en", 
+                "term": "/c/en/scenery"
+            }, 
+            "surfaceText": "[[Scenery]] can be [[beautiful]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/scenery/,/c/en/romantic/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/romantic", 
+                "@type": "Node", 
+                "label": "romantic", 
+                "language": "en", 
+                "term": "/c/en/romantic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/9iron/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/9iron"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scenery", 
+                "@type": "Node", 
+                "label": "scenery", 
+                "language": "en", 
+                "term": "/c/en/scenery"
+            }, 
+            "surfaceText": "[[scenery]] can be [[romantic]]", 
+            "weight": 1.0
+        }
+    ]
+}

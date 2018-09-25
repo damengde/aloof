@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/loudspeaker&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/loudspeaker/,/c/en/produce_sound/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/produce_sound", 
+                "@type": "Node", 
+                "label": "produce sound", 
+                "language": "en", 
+                "term": "/c/en/produce_sound"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fcueto/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fcueto"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/loudspeaker", 
+                "@type": "Node", 
+                "label": "a loudspeaker", 
+                "language": "en", 
+                "term": "/c/en/loudspeaker"
+            }, 
+            "surfaceText": "[[a loudspeaker]] can [[produce sound]]", 
+            "weight": 1.0
+        }
+    ]
+}

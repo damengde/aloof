@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toy_car&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toy_car/,/c/en/go_putt_putt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_putt_putt", 
+                "@type": "Node", 
+                "label": "go putt putt", 
+                "language": "en", 
+                "term": "/c/en/go_putt_putt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy_car", 
+                "@type": "Node", 
+                "label": "A toy car", 
+                "language": "en", 
+                "term": "/c/en/toy_car"
+            }, 
+            "surfaceText": "[[A toy car]] can [[go putt putt]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/toy_car/,/c/en/real_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/real_car", 
+                "@type": "Node", 
+                "label": "be a real car", 
+                "language": "en", 
+                "term": "/c/en/real_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy_car", 
+                "@type": "Node", 
+                "label": "a toy car", 
+                "language": "en", 
+                "term": "/c/en/toy_car"
+            }, 
+            "surfaceText": "[[a toy car]] can [[be a real car]]", 
+            "weight": 1.0
+        }
+    ]
+}

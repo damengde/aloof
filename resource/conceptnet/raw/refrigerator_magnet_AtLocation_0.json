@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/refrigerator_magnet&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/refrigerator_magnet/,/c/en/fridge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fridge", 
+                "@type": "Node", 
+                "label": "the fridge", 
+                "language": "en", 
+                "term": "/c/en/fridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nsiciliano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nsiciliano"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hawthro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/hawthro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigerator_magnet", 
+                "@type": "Node", 
+                "label": "a refrigerator magnet", 
+                "language": "en", 
+                "term": "/c/en/refrigerator_magnet"
+            }, 
+            "surfaceText": "*Something you find on [[the fridge]] is [[a refrigerator magnet]]", 
+            "weight": 2.0
+        }
+    ]
+}

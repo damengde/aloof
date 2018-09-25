@@ -1,0 +1,188 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/phonebook&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/phonebook/n/,/c/en/directory/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/directory/n", 
+                "@type": "Node", 
+                "label": "directory", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/directory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phonebook/n", 
+                "@type": "Node", 
+                "label": "phonebook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phonebook"
+            }, 
+            "surfaceText": "[[phonebook]] is a type of [[directory]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/white_pages/n/,/c/en/phonebook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/phonebook/n", 
+                "@type": "Node", 
+                "label": "phonebook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/white_pages/n", 
+                "@type": "Node", 
+                "label": "white pages", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/white_pages"
+            }, 
+            "surfaceText": "[[white pages]] is a type of [[phonebook]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/yellow_pages/n/,/c/en/phonebook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/phonebook/n", 
+                "@type": "Node", 
+                "label": "phonebook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/yellow_pages/n", 
+                "@type": "Node", 
+                "label": "yellow pages", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/yellow_pages"
+            }, 
+            "surfaceText": "[[yellow pages]] is a type of [[phonebook]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/white_pages/,/c/en/phonebook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/phonebook/n", 
+                "@type": "Node", 
+                "label": "phonebook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/white_pages", 
+                "@type": "Node", 
+                "label": "white pages", 
+                "language": "en", 
+                "term": "/c/en/white_pages"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/yellow_pages/,/c/en/phonebook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/phonebook/n", 
+                "@type": "Node", 
+                "label": "phonebook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phonebook"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/yellow_pages", 
+                "@type": "Node", 
+                "label": "yellow pages", 
+                "language": "en", 
+                "term": "/c/en/yellow_pages"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

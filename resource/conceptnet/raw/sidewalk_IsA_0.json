@@ -1,0 +1,436 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sidewalk&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/,/c/en/not_for_sex/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/not_for_sex", 
+                "@type": "Node", 
+                "label": "not for sex", 
+                "language": "en", 
+                "term": "/c/en/not_for_sex"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/flawedcomputation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/flawedcomputation"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pacslim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pacslim"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "A sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[A sidewalk]] is [[not for sex]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/,/c/en/walkway/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/walkway", 
+                "@type": "Node", 
+                "label": "walkway", 
+                "language": "en", 
+                "term": "/c/en/walkway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[a sidewalk]] is a kind of [[walkway]].", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/,/c/en/concrete_path/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/concrete_path", 
+                "@type": "Node", 
+                "label": "a concrete path", 
+                "language": "en", 
+                "term": "/c/en/concrete_path"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[a sidewalk]] is [[a concrete path]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/walk/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/walk/n", 
+                "@type": "Node", 
+                "label": "walk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/walk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[sidewalk]] is a type of [[walk]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/,/c/en/narrower_than_road_for_cars/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/narrower_than_road_for_cars", 
+                "@type": "Node", 
+                "label": "narrower than a road for cars", 
+                "language": "en", 
+                "term": "/c/en/narrower_than_road_for_cars"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk", 
+                "@type": "Node", 
+                "label": "a sidewalk", 
+                "language": "en", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": "[[a sidewalk]] is [[narrower than a road for cars]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/cement/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/cement/n", 
+                "@type": "Node", 
+                "label": "cement", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cement"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/fixed_freestanding_structure/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/fixed_freestanding_structure/n", 
+                "@type": "Node", 
+                "label": "fixed freestanding structure", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fixed_freestanding_structure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/flat_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/flat_thing/n", 
+                "@type": "Node", 
+                "label": "flat thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flat_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/outdoor_location/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/outdoor_location/n", 
+                "@type": "Node", 
+                "label": "outdoor location", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/outdoor_location"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/public_property/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/public_property/n", 
+                "@type": "Node", 
+                "label": "public property", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/public_property"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sidewalk/n/,/c/en/walkway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/walkway/n", 
+                "@type": "Node", 
+                "label": "walkway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/walkway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sidewalk/n", 
+                "@type": "Node", 
+                "label": "sidewalk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sidewalk"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/racket&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/face/n/,/c/en/racket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/racket/n", 
+                "@type": "Node", 
+                "label": "racket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/racket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/face/n", 
+                "@type": "Node", 
+                "label": "face", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/face"
+            }, 
+            "surfaceText": "[[face]] is a part of [[racket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/n/,/c/en/racket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/racket/n", 
+                "@type": "Node", 
+                "label": "racket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/racket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle/n", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[handle]] is a part of [[racket]]", 
+            "weight": 2.0
+        }
+    ]
+}

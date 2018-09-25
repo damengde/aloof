@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spoon&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/spoon/,/c/en/cupped_end_and_handle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cupped_end_and_handle", 
+                "@type": "Node", 
+                "label": "a cupped end and a handle", 
+                "language": "en", 
+                "term": "/c/en/cupped_end_and_handle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vuo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vuo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "A spoon", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "[[A spoon]] has [[a cupped end and a handle]]", 
+            "weight": 1.0
+        }
+    ]
+}

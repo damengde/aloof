@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hammock&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hammock/,/c/en/porch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/porch", 
+                "@type": "Node", 
+                "label": "the porch", 
+                "language": "en", 
+                "term": "/c/en/porch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leangal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leangal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hammock", 
+                "@type": "Node", 
+                "label": "a hammock", 
+                "language": "en", 
+                "term": "/c/en/hammock"
+            }, 
+            "surfaceText": "*Something you find on [[the porch]] is [[a hammock]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/loaf/,/c/en/hammock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hammock", 
+                "@type": "Node", 
+                "label": "hammock", 
+                "language": "en", 
+                "term": "/c/en/hammock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/loaf", 
+                "@type": "Node", 
+                "label": "loaf", 
+                "language": "en", 
+                "term": "/c/en/loaf"
+            }, 
+            "surfaceText": "You are likely to find [[loaf]] in [[hammock]]", 
+            "weight": 1.0
+        }
+    ]
+}

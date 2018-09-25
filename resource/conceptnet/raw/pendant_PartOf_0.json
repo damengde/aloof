@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pendant&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pendant/n/,/c/en/necklace/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/necklace/n", 
+                "@type": "Node", 
+                "label": "necklace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/necklace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pendant/n", 
+                "@type": "Node", 
+                "label": "pendant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pendant"
+            }, 
+            "surfaceText": "[[pendant]] is a part of [[necklace]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pendant/n/,/c/en/pendant_earring/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pendant_earring/n", 
+                "@type": "Node", 
+                "label": "pendant earring", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pendant_earring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pendant/n", 
+                "@type": "Node", 
+                "label": "pendant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pendant"
+            }, 
+            "surfaceText": "[[pendant]] is a part of [[pendant earring]]", 
+            "weight": 2.0
+        }
+    ]
+}

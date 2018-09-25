@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dog_bed&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wiener_dog/,/c/en/dog_bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dog_bed", 
+                "@type": "Node", 
+                "label": "a dog bed", 
+                "language": "en", 
+                "term": "/c/en/dog_bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wiener_dog", 
+                "@type": "Node", 
+                "label": "a wiener dog", 
+                "language": "en", 
+                "term": "/c/en/wiener_dog"
+            }, 
+            "surfaceText": "You are likely to find [[a wiener dog]] in [[a dog bed]]", 
+            "weight": 1.0
+        }
+    ]
+}

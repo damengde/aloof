@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teapot&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teapot/n/,/c/en/pot/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pot/n", 
+                "@type": "Node", 
+                "label": "pot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teapot/n", 
+                "@type": "Node", 
+                "label": "teapot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teapot"
+            }, 
+            "surfaceText": "[[teapot]] is a type of [[pot]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teapot/n/,/c/en/serving_dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/serving_dish/n", 
+                "@type": "Node", 
+                "label": "serving dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/serving_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teapot/n", 
+                "@type": "Node", 
+                "label": "teapot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teapot"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

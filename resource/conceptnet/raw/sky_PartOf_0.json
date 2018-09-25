@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sky&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cloud/n/,/c/en/sky/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sky/n", 
+                "@type": "Node", 
+                "label": "sky", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cloud/n", 
+                "@type": "Node", 
+                "label": "cloud", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cloud"
+            }, 
+            "surfaceText": "[[cloud]] is a part of [[sky]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/rainbow/n/,/c/en/sky/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sky/n", 
+                "@type": "Node", 
+                "label": "sky", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rainbow/n", 
+                "@type": "Node", 
+                "label": "rainbow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rainbow"
+            }, 
+            "surfaceText": "[[rainbow]] is a part of [[sky]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sky/n/,/c/en/earth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/earth/n", 
+                "@type": "Node", 
+                "label": "Earth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sky/n", 
+                "@type": "Node", 
+                "label": "sky", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sky"
+            }, 
+            "surfaceText": "[[sky]] is a part of [[Earth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/atmosphere/,/c/en/sky/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sky", 
+                "@type": "Node", 
+                "label": "the sky", 
+                "language": "en", 
+                "term": "/c/en/sky"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/747nomad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/747nomad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/atmosphere", 
+                "@type": "Node", 
+                "label": "...atmosphere", 
+                "language": "en", 
+                "term": "/c/en/atmosphere"
+            }, 
+            "surfaceText": "[[...atmosphere]] is part of [[the sky]].", 
+            "weight": 1.0
+        }
+    ]
+}

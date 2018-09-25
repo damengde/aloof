@@ -1,0 +1,475 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chef&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/n/,/c/en/cook/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cook/n", 
+                "@type": "Node", 
+                "label": "cook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": "[[chef]] is a type of [[cook]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cordon_bleu/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cordon_bleu/n", 
+                "@type": "Node", 
+                "label": "cordon bleu", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cordon_bleu"
+            }, 
+            "surfaceText": "[[cordon bleu]] is a type of [[chef]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pastry_cook/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pastry_cook/n", 
+                "@type": "Node", 
+                "label": "pastry cook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pastry_cook"
+            }, 
+            "surfaceText": "[[pastry cook]] is a type of [[chef]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/,/c/en/who_cooks_as_job/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/who_cooks_as_job", 
+                "@type": "Node", 
+                "label": "someone who cooks as a job", 
+                "language": "en", 
+                "term": "/c/en/who_cooks_as_job"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef", 
+                "@type": "Node", 
+                "label": "A chef", 
+                "language": "en", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": "[[A chef]] is [[someone who cooks as a job]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef_de_cuisine/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef_de_cuisine/n", 
+                "@type": "Node", 
+                "label": "chef de cuisine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef_de_cuisine"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/n/,/c/en/chef_de_cuisine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef_de_cuisine/n", 
+                "@type": "Node", 
+                "label": "chef de cuisine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef_de_cuisine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/n/,/c/en/food_worker/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_worker/n", 
+                "@type": "Node", 
+                "label": "food worker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_worker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/executive_chef/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/executive_chef/n", 
+                "@type": "Node", 
+                "label": "executive chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/executive_chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fast_food_cook/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fast_food_cook/n", 
+                "@type": "Node", 
+                "label": "fast food cook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fast_food_cook"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/short_order_cook/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/short_order_cook/n", 
+                "@type": "Node", 
+                "label": "short order cook", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/short_order_cook"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sous_chef/n/,/c/en/chef/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sous_chef/n", 
+                "@type": "Node", 
+                "label": "sous chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sous_chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/n/,/c/en/fictional_character/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/fictional_character/n", 
+                "@type": "Node", 
+                "label": "fictional character", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fictional_character"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chef/n/,/c/en/software/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/software/n", 
+                "@type": "Node", 
+                "label": "software", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/software"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chef/n", 
+                "@type": "Node", 
+                "label": "chef", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chef"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

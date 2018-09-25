@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/laptop&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/laptop/n/,/c/en/portable_computer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/portable_computer/n", 
+                "@type": "Node", 
+                "label": "portable computer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/portable_computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/laptop/n", 
+                "@type": "Node", 
+                "label": "laptop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/laptop"
+            }, 
+            "surfaceText": "[[laptop]] is a type of [[portable computer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/macbook/,/c/en/laptop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/laptop", 
+                "@type": "Node", 
+                "label": "laptop", 
+                "language": "en", 
+                "term": "/c/en/laptop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/macbook", 
+                "@type": "Node", 
+                "label": "a macbook", 
+                "language": "en", 
+                "term": "/c/en/macbook"
+            }, 
+            "surfaceText": "[[a macbook]] is a kind of [[laptop]]", 
+            "weight": 1.0
+        }
+    ]
+}

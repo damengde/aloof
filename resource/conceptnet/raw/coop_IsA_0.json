@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coop&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chicken_coop/,/c/en/coop/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/coop/n", 
+                "@type": "Node", 
+                "label": "coop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coop"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken_coop", 
+                "@type": "Node", 
+                "label": "chicken coop", 
+                "language": "en", 
+                "term": "/c/en/chicken_coop"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/coop/n/,/c/en/company/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/company/n", 
+                "@type": "Node", 
+                "label": "company", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/company"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coop/n", 
+                "@type": "Node", 
+                "label": "coop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coop"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

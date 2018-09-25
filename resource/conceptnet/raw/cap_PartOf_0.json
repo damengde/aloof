@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cap&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cap/n/,/c/en/fungus/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fungus/n", 
+                "@type": "Node", 
+                "label": "fungus", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fungus"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cap/n", 
+                "@type": "Node", 
+                "label": "cap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cap"
+            }, 
+            "surfaceText": "[[cap]] is a part of [[fungus]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/earflap/n/,/c/en/cap/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cap/n", 
+                "@type": "Node", 
+                "label": "cap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cap"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/earflap/n", 
+                "@type": "Node", 
+                "label": "earflap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/earflap"
+            }, 
+            "surfaceText": "[[earflap]] is a part of [[cap]]", 
+            "weight": 2.0
+        }
+    ]
+}

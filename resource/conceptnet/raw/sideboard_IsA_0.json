@@ -1,0 +1,114 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sideboard&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sideboard/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard/n", 
+                "@type": "Node", 
+                "label": "sideboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "[[sideboard]] is a type of [[board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sideboard/,/c/en/piece_of_wood/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piece_of_wood", 
+                "@type": "Node", 
+                "label": "a piece of wood", 
+                "language": "en", 
+                "term": "/c/en/piece_of_wood"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/reisee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/reisee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "a sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "[[a sideboard]] is [[a piece of wood]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sideboard/,/c/en/typically/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/typically", 
+                "@type": "Node", 
+                "label": "typically", 
+                "language": "en", 
+                "term": "/c/en/typically"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sideboard", 
+                "@type": "Node", 
+                "label": "A sideboard", 
+                "language": "en", 
+                "term": "/c/en/sideboard"
+            }, 
+            "surfaceText": "[[A sideboard]] is [[typically]]", 
+            "weight": 1.0
+        }
+    ]
+}

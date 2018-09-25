@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vacuum_cleaner&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/vacuum_cleaner/,/c/en/suck_up_flies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/suck_up_flies", 
+                "@type": "Node", 
+                "label": "suck up flies", 
+                "language": "en", 
+                "term": "/c/en/suck_up_flies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vacuum_cleaner", 
+                "@type": "Node", 
+                "label": "a vacuum cleaner", 
+                "language": "en", 
+                "term": "/c/en/vacuum_cleaner"
+            }, 
+            "surfaceText": "You can use [[a vacuum cleaner]] to [[suck up flies]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/vacuum_cleaner/,/c/en/vacumming/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vacumming", 
+                "@type": "Node", 
+                "label": "vacumming", 
+                "language": "en", 
+                "term": "/c/en/vacumming"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vacuum_cleaner", 
+                "@type": "Node", 
+                "label": "vacuum cleaner", 
+                "language": "en", 
+                "term": "/c/en/vacuum_cleaner"
+            }, 
+            "surfaceText": "[[vacuum cleaner]] is used for [[vacumming]].", 
+            "weight": 1.0
+        }
+    ]
+}

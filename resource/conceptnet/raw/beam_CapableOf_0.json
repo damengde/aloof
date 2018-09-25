@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/beam&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/beam/,/c/en/ray_of_light/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ray_of_light", 
+                "@type": "Node", 
+                "label": "be a ray of light", 
+                "language": "en", 
+                "term": "/c/en/ray_of_light"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/moreland/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/moreland"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/beam", 
+                "@type": "Node", 
+                "label": "A beam", 
+                "language": "en", 
+                "term": "/c/en/beam"
+            }, 
+            "surfaceText": "[[A beam]] can [[be a ray of light]]", 
+            "weight": 1.0
+        }
+    ]
+}

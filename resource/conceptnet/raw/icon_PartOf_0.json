@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/icon&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/icon/n/,/c/en/graphical_user_interface/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/graphical_user_interface/n", 
+                "@type": "Node", 
+                "label": "graphical user interface", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/graphical_user_interface"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/icon/n", 
+                "@type": "Node", 
+                "label": "icon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/icon"
+            }, 
+            "surfaceText": "[[icon]] is a part of [[graphical user interface]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/barbecue&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/barbecue/,/c/en/mushy_if_overcooked/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mushy_if_overcooked", 
+                "@type": "Node", 
+                "label": "mushy if overcooked", 
+                "language": "en", 
+                "term": "/c/en/mushy_if_overcooked"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrguy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrguy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "Barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[Barbecue]] can be [[mushy if overcooked]]", 
+            "weight": 1.0
+        }
+    ]
+}

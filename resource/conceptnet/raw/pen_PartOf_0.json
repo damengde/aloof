@@ -1,0 +1,85 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pen&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ink/,/c/en/pen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pen", 
+                "@type": "Node", 
+                "label": "a pen", 
+                "language": "en", 
+                "term": "/c/en/pen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/yoseph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/yoseph"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ink", 
+                "@type": "Node", 
+                "label": "Ink", 
+                "language": "en", 
+                "term": "/c/en/ink"
+            }, 
+            "surfaceText": "[[Ink]] is part of [[a pen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/nib/n/,/c/en/pen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pen/n", 
+                "@type": "Node", 
+                "label": "pen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/nib/n", 
+                "@type": "Node", 
+                "label": "nib", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/nib"
+            }, 
+            "surfaceText": "[[nib]] is a part of [[pen]]", 
+            "weight": 2.0
+        }
+    ]
+}

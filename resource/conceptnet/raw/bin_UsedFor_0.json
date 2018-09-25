@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bin&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bin/n/,/c/en/hold/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hold/v", 
+                "@type": "Node", 
+                "label": "hold", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/hold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bin/n", 
+                "@type": "Node", 
+                "label": "bin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bin"
+            }, 
+            "surfaceText": "[[bin]] is used for [[hold]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bin/,/c/en/rubbish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rubbish", 
+                "@type": "Node", 
+                "label": "rubbish", 
+                "language": "en", 
+                "term": "/c/en/rubbish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bin", 
+                "@type": "Node", 
+                "label": "a bin", 
+                "language": "en", 
+                "term": "/c/en/bin"
+            }, 
+            "surfaceText": "[[a bin]] is used for [[rubbish]].", 
+            "weight": 1.0
+        }
+    ]
+}

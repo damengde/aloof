@@ -1,0 +1,179 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mouse&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouse/,/c/en/computer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/computer", 
+                "@type": "Node", 
+                "label": "a computer", 
+                "language": "en", 
+                "term": "/c/en/computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jview12/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jview12"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kingjo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kingjo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/scyu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/scyu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "A mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "surfaceText": "[[A mouse]] is part of [[a computer]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouse_button/n/,/c/en/mouse/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mouse/n", 
+                "@type": "Node", 
+                "label": "mouse", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mouse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse_button/n", 
+                "@type": "Node", 
+                "label": "mouse button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mouse_button"
+            }, 
+            "surfaceText": "[[mouse button]] is a part of [[mouse]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouse/,/c/en/rodent_family/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rodent_family", 
+                "@type": "Node", 
+                "label": "the rodent family", 
+                "language": "en", 
+                "term": "/c/en/rodent_family"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/gak357/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/gak357"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "a mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "surfaceText": "[[a mouse]] is part of [[the rodent family]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouse_wheel/,/c/en/mouse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "a mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/rspeer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/rspeer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse_wheel", 
+                "@type": "Node", 
+                "label": "a mouse wheel", 
+                "language": "en", 
+                "term": "/c/en/mouse_wheel"
+            }, 
+            "surfaceText": "[[a mouse wheel]] is part of [[a mouse]].", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,571 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jar&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/n/,/c/en/hold/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hold/v", 
+                "@type": "Node", 
+                "label": "hold", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/hold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[jar]] is used for [[hold]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/n/,/c/en/jar/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jar/v", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[jar]] is used for [[jar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/n/,/c/en/keep/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/keep/v", 
+                "@type": "Node", 
+                "label": "keep", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/keep"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[jar]] is used for [[keep]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/can_beans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/can_beans", 
+                "@type": "Node", 
+                "label": "can beans", 
+                "language": "en", 
+                "term": "/c/en/can_beans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "You can use [[a jar]] to [[can beans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/hold_fireflies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_fireflies", 
+                "@type": "Node", 
+                "label": "hold fireflies", 
+                "language": "en", 
+                "term": "/c/en/hold_fireflies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "You can use [[a jar]] to [[hold fireflies]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/holding_applesauce/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_applesauce", 
+                "@type": "Node", 
+                "label": "holding applesauce", 
+                "language": "en", 
+                "term": "/c/en/holding_applesauce"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/barbarajg/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/barbarajg"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is for [[holding applesauce]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/holding_liquids/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_liquids", 
+                "@type": "Node", 
+                "label": "holding liquids", 
+                "language": "en", 
+                "term": "/c/en/holding_liquids"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "A jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[A jar]] is used for [[holding liquids]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/holding_pickles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_pickles", 
+                "@type": "Node", 
+                "label": "holding pickles", 
+                "language": "en", 
+                "term": "/c/en/holding_pickles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[holding pickles]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/hold_things_inside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_things_inside", 
+                "@type": "Node", 
+                "label": "hold things inside", 
+                "language": "en", 
+                "term": "/c/en/hold_things_inside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "You can use [[a jar]] to [[hold things inside]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/pickles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pickles", 
+                "@type": "Node", 
+                "label": "pickles", 
+                "language": "en", 
+                "term": "/c/en/pickles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[pickles]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/storage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storage", 
+                "@type": "Node", 
+                "label": "storage", 
+                "language": "en", 
+                "term": "/c/en/storage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[storage]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/storage_or_protection/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storage_or_protection", 
+                "@type": "Node", 
+                "label": "storage or protection", 
+                "language": "en", 
+                "term": "/c/en/storage_or_protection"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[storage or protection]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/store_flour/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_flour", 
+                "@type": "Node", 
+                "label": "store flour", 
+                "language": "en", 
+                "term": "/c/en/store_flour"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "You can use [[a jar]] to [[store flour]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/store_fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_fruit", 
+                "@type": "Node", 
+                "label": "store fruit", 
+                "language": "en", 
+                "term": "/c/en/store_fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rickcaborn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rickcaborn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "You can use [[a jar]] to [[store fruit]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/storing_perishables/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_perishables", 
+                "@type": "Node", 
+                "label": "storing perishables", 
+                "language": "en", 
+                "term": "/c/en/storing_perishables"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[storing perishables]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jar/,/c/en/storing_powders_or_liquids/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_powders_or_liquids", 
+                "@type": "Node", 
+                "label": "storing powders or liquids", 
+                "language": "en", 
+                "term": "/c/en/storing_powders_or_liquids"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mleaf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mleaf"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "surfaceText": "[[a jar]] is used for [[storing powders or liquids]]", 
+            "weight": 1.0
+        }
+    ]
+}

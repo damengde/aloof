@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/refrigerator&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/drip_pan/n/,/c/en/refrigerator/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/refrigerator/n", 
+                "@type": "Node", 
+                "label": "refrigerator", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drip_pan/n", 
+                "@type": "Node", 
+                "label": "drip pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drip_pan"
+            }, 
+            "surfaceText": "[[drip pan]] is a part of [[refrigerator]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/refrigeration_system/n/,/c/en/refrigerator/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/refrigerator/n", 
+                "@type": "Node", 
+                "label": "refrigerator", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/refrigeration_system/n", 
+                "@type": "Node", 
+                "label": "refrigeration system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/refrigeration_system"
+            }, 
+            "surfaceText": "[[refrigeration system]] is a part of [[refrigerator]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/icemaker/,/c/en/refrigerator/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "a refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/icemaker", 
+                "@type": "Node", 
+                "label": "An icemaker", 
+                "language": "en", 
+                "term": "/c/en/icemaker"
+            }, 
+            "surfaceText": "[[An icemaker]] is part of [[a refrigerator]]", 
+            "weight": 1.0
+        }
+    ]
+}

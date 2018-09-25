@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/laptop&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/laptop/,/c/en/desk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "your desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ludvig/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ludvig"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/laptop", 
+                "@type": "Node", 
+                "label": "a laptop", 
+                "language": "en", 
+                "term": "/c/en/laptop"
+            }, 
+            "surfaceText": "*Something you find on [[your desk]] is [[a laptop]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/laptop/,/c/en/internet_cafe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/internet_cafe", 
+                "@type": "Node", 
+                "label": "a internet cafe", 
+                "language": "en", 
+                "term": "/c/en/internet_cafe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/laptop", 
+                "@type": "Node", 
+                "label": "a laptop", 
+                "language": "en", 
+                "term": "/c/en/laptop"
+            }, 
+            "surfaceText": "*Something you find at [[a internet cafe]] is [[a laptop]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/screen/,/c/en/laptop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/laptop", 
+                "@type": "Node", 
+                "label": "a laptop", 
+                "language": "en", 
+                "term": "/c/en/laptop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screen", 
+                "@type": "Node", 
+                "label": "a screen", 
+                "language": "en", 
+                "term": "/c/en/screen"
+            }, 
+            "surfaceText": "You are likely to find [[a screen]] in [[a laptop]]", 
+            "weight": 1.0
+        }
+    ]
+}

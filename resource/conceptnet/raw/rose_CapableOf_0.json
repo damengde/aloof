@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rose&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rose/,/c/en/flower_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flower_room", 
+                "@type": "Node", 
+                "label": "flower a room", 
+                "language": "en", 
+                "term": "/c/en/flower_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/luisbrudna/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/luisbrudna"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rose", 
+                "@type": "Node", 
+                "label": "a rose", 
+                "language": "en", 
+                "term": "/c/en/rose"
+            }, 
+            "surfaceText": "[[a rose]] can [[flower a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rose/,/c/en/smell_nice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/smell_nice", 
+                "@type": "Node", 
+                "label": "smell nice", 
+                "language": "en", 
+                "term": "/c/en/smell_nice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/porcupine8/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/porcupine8"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rose", 
+                "@type": "Node", 
+                "label": "A rose", 
+                "language": "en", 
+                "term": "/c/en/rose"
+            }, 
+            "surfaceText": "[[A rose]] can [[smell nice]]", 
+            "weight": 1.0
+        }
+    ]
+}

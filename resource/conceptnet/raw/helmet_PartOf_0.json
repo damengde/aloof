@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helmet&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/beaver/n/,/c/en/helmet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/helmet/n", 
+                "@type": "Node", 
+                "label": "helmet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helmet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/beaver/n", 
+                "@type": "Node", 
+                "label": "beaver", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beaver"
+            }, 
+            "surfaceText": "[[beaver]] is a part of [[helmet]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/helmet/n/,/c/en/body_armor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/body_armor/n", 
+                "@type": "Node", 
+                "label": "body armor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/body_armor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helmet/n", 
+                "@type": "Node", 
+                "label": "helmet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helmet"
+            }, 
+            "surfaceText": "[[helmet]] is a part of [[body armor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/visor/n/,/c/en/helmet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/helmet/n", 
+                "@type": "Node", 
+                "label": "helmet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helmet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/visor/n", 
+                "@type": "Node", 
+                "label": "visor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/visor"
+            }, 
+            "surfaceText": "[[visor]] is a part of [[helmet]]", 
+            "weight": 2.0
+        }
+    ]
+}

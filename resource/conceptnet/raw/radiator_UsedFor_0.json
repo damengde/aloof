@@ -1,0 +1,458 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/radiator&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/heat_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_room", 
+                "@type": "Node", 
+                "label": "heat a room", 
+                "language": "en", 
+                "term": "/c/en/heat_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/beruang/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/beruang"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "You can use [[a radiator]] to [[heat a room]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/heating_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heating_room", 
+                "@type": "Node", 
+                "label": "heating a room", 
+                "language": "en", 
+                "term": "/c/en/heating_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/beruang/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/beruang"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is used for [[heating a room]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/cool_car_engine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cool_car_engine", 
+                "@type": "Node", 
+                "label": "cool a car engine", 
+                "language": "en", 
+                "term": "/c/en/cool_car_engine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "You can use [[a radiator]] to [[cool a car engine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/cooling_truck_engine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooling_truck_engine", 
+                "@type": "Node", 
+                "label": "cooling a truck engine", 
+                "language": "en", 
+                "term": "/c/en/cooling_truck_engine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is used for [[cooling a truck engine]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/creating_comfortable_environment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/creating_comfortable_environment", 
+                "@type": "Node", 
+                "label": "creating a comfortable environment", 
+                "language": "en", 
+                "term": "/c/en/creating_comfortable_environment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is for [[creating a comfortable environment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/generating_warmth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/generating_warmth", 
+                "@type": "Node", 
+                "label": "generating warmth", 
+                "language": "en", 
+                "term": "/c/en/generating_warmth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is for [[generating warmth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/get_steam_heat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_steam_heat", 
+                "@type": "Node", 
+                "label": "get steam heat", 
+                "language": "en", 
+                "term": "/c/en/get_steam_heat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "You can use [[a radiator]] to [[get steam heat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/keep_car_running/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_car_running", 
+                "@type": "Node", 
+                "label": "keep your car running", 
+                "language": "en", 
+                "term": "/c/en/keep_car_running"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "You can use [[a radiator]] to [[keep your car running]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/manipulating_temperature_of_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/manipulating_temperature_of_room", 
+                "@type": "Node", 
+                "label": "manipulating the temperature of a room", 
+                "language": "en", 
+                "term": "/c/en/manipulating_temperature_of_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is for [[manipulating the temperature of a room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/providing_heat_in_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/providing_heat_in_building", 
+                "@type": "Node", 
+                "label": "providing heat in a building", 
+                "language": "en", 
+                "term": "/c/en/providing_heat_in_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is for [[providing heat in a building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/radiating_heat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radiating_heat", 
+                "@type": "Node", 
+                "label": "radiating heat", 
+                "language": "en", 
+                "term": "/c/en/radiating_heat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cerewa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cerewa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "a radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[a radiator]] is for [[radiating heat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/radiator/,/c/en/warming_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warming_room", 
+                "@type": "Node", 
+                "label": "warming a room", 
+                "language": "en", 
+                "term": "/c/en/warming_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tzoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tzoot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiator", 
+                "@type": "Node", 
+                "label": "A radiator", 
+                "language": "en", 
+                "term": "/c/en/radiator"
+            }, 
+            "surfaceText": "[[A radiator]] is for [[warming a room]]", 
+            "weight": 1.0
+        }
+    ]
+}

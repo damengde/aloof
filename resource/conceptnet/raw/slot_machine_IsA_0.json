@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/slot_machine&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/slot_machine/n/,/c/en/machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/machine/n", 
+                "@type": "Node", 
+                "label": "machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slot_machine/n", 
+                "@type": "Node", 
+                "label": "slot machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot_machine"
+            }, 
+            "surfaceText": "[[slot machine]] is a type of [[machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/slot/n/,/c/en/slot_machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/slot_machine/n", 
+                "@type": "Node", 
+                "label": "slot machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slot/n", 
+                "@type": "Node", 
+                "label": "slot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot"
+            }, 
+            "surfaceText": "[[slot]] is a type of [[slot machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vending_machine/n/,/c/en/slot_machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/slot_machine/n", 
+                "@type": "Node", 
+                "label": "slot machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vending_machine/n", 
+                "@type": "Node", 
+                "label": "vending machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vending_machine"
+            }, 
+            "surfaceText": "[[vending machine]] is a type of [[slot machine]]", 
+            "weight": 2.0
+        }
+    ]
+}

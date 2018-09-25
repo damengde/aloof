@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tape&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tape/,/c/en/tape/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tape", 
+                "@type": "Node", 
+                "label": "tape", 
+                "language": "en", 
+                "term": "/c/en/tape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/meros/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/meros"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/orangefrog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/orangefrog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tape", 
+                "@type": "Node", 
+                "label": "tape", 
+                "language": "en", 
+                "term": "/c/en/tape"
+            }, 
+            "surfaceText": "You can use [[tape]] to [[tape]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/desk_drawer/,/c/en/tape/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tape", 
+                "@type": "Node", 
+                "label": "tape", 
+                "language": "en", 
+                "term": "/c/en/tape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/heatherjay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/heatherjay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk_drawer", 
+                "@type": "Node", 
+                "label": "a desk drawer", 
+                "language": "en", 
+                "term": "/c/en/desk_drawer"
+            }, 
+            "surfaceText": "[[a desk drawer]] is for [[tape]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/tape/,/c/en/stick_things_together/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stick_things_together", 
+                "@type": "Node", 
+                "label": "stick things together", 
+                "language": "en", 
+                "term": "/c/en/stick_things_together"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bobbodian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/bobbodian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tape", 
+                "@type": "Node", 
+                "label": "tape", 
+                "language": "en", 
+                "term": "/c/en/tape"
+            }, 
+            "surfaceText": "You can use [[tape]] to [[stick things together]]", 
+            "weight": 1.0
+        }
+    ]
+}

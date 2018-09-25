@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/staircase&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/kickboard/,/c/en/staircase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/fasmith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/fasmith"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kickboard", 
+                "@type": "Node", 
+                "label": "a kickboard", 
+                "language": "en", 
+                "term": "/c/en/kickboard"
+            }, 
+            "surfaceText": "[[a kickboard]] is part of [[a staircase]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tread/,/c/en/staircase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/fasmith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/fasmith"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tread", 
+                "@type": "Node", 
+                "label": "a tread", 
+                "language": "en", 
+                "term": "/c/en/tread"
+            }, 
+            "surfaceText": "[[a tread]] is part of [[a staircase]].", 
+            "weight": 1.0
+        }
+    ]
+}

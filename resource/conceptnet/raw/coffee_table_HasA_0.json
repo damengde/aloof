@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffee_table&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/typical_livingroom/,/c/en/coffee_table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/coffee_table", 
+                "@type": "Node", 
+                "label": "a coffee table", 
+                "language": "en", 
+                "term": "/c/en/coffee_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/typical_livingroom", 
+                "@type": "Node", 
+                "label": "a typical livingroom", 
+                "language": "en", 
+                "term": "/c/en/typical_livingroom"
+            }, 
+            "surfaceText": "[[a typical livingroom]] contains [[a coffee table]]", 
+            "weight": 1.0
+        }
+    ]
+}

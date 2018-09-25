@@ -1,0 +1,414 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheelchair&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/,/c/en/chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeeweeman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeeweeman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair", 
+                "@type": "Node", 
+                "label": "a wheelchair", 
+                "language": "en", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": "[[a wheelchair]] is [[a chair]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bath_chair/n/,/c/en/wheelchair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath_chair/n", 
+                "@type": "Node", 
+                "label": "bath chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bath_chair"
+            }, 
+            "surfaceText": "[[bath chair]] is a type of [[wheelchair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/motorized_wheelchair/n/,/c/en/wheelchair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/motorized_wheelchair/n", 
+                "@type": "Node", 
+                "label": "motorized wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/motorized_wheelchair"
+            }, 
+            "surfaceText": "[[motorized wheelchair]] is a type of [[wheelchair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chair/n", 
+                "@type": "Node", 
+                "label": "chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": "[[wheelchair]] is a type of [[chair]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_wheelchair/n/,/c/en/wheelchair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_wheelchair/n", 
+                "@type": "Node", 
+                "label": "electric wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/,/c/en/chair_with_wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chair_with_wheels", 
+                "@type": "Node", 
+                "label": "a chair with wheels", 
+                "language": "en", 
+                "term": "/c/en/chair_with_wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeeweeman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeeweeman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair", 
+                "@type": "Node", 
+                "label": "a wheelchair", 
+                "language": "en", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": "[[a wheelchair]] is [[a chair with wheels]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/mobility_aid/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mobility_aid/n", 
+                "@type": "Node", 
+                "label": "mobility aid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mobility_aid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/seat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/single_passenger_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/single_passenger_vehicle/n", 
+                "@type": "Node", 
+                "label": "single passenger vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/single_passenger_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/user_guided_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/user_guided_device/n", 
+                "@type": "Node", 
+                "label": "user guided device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/user_guided_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelchair/n/,/c/en/wheeled_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/wheeled_vehicle/n", 
+                "@type": "Node", 
+                "label": "wheeled vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheeled_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelchair/n", 
+                "@type": "Node", 
+                "label": "wheelchair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheelchair"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

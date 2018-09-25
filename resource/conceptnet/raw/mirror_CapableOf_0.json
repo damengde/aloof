@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mirror&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/mirror/,/c/en/reflect_images/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reflect_images", 
+                "@type": "Node", 
+                "label": "reflect images", 
+                "language": "en", 
+                "term": "/c/en/reflect_images"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/rainbowjar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/rainbowjar"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ianozsvald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ianozsvald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mirror", 
+                "@type": "Node", 
+                "label": "A mirror", 
+                "language": "en", 
+                "term": "/c/en/mirror"
+            }, 
+            "surfaceText": "[[A mirror]] can [[reflect images]]", 
+            "weight": 2.0
+        }
+    ]
+}

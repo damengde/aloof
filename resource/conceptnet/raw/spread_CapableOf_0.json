@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spread&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cancer/,/c/en/spread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spread", 
+                "@type": "Node", 
+                "label": "spread", 
+                "language": "en", 
+                "term": "/c/en/spread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/gabbrobreccia/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/gabbrobreccia"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cancer", 
+                "@type": "Node", 
+                "label": "cancer", 
+                "language": "en", 
+                "term": "/c/en/cancer"
+            }, 
+            "surfaceText": "An activity [[cancer]] can do is [[spread]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/happiness/,/c/en/spread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spread", 
+                "@type": "Node", 
+                "label": "spread", 
+                "language": "en", 
+                "term": "/c/en/spread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lordprotectorguy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lordprotectorguy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/happiness", 
+                "@type": "Node", 
+                "label": "Happiness", 
+                "language": "en", 
+                "term": "/c/en/happiness"
+            }, 
+            "surfaceText": "[[Happiness]] can [[spread]]", 
+            "weight": 1.0
+        }
+    ]
+}

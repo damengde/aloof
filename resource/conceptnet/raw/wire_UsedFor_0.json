@@ -1,0 +1,192 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wire&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wire/,/c/en/conducting_electricity/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/conducting_electricity", 
+                "@type": "Node", 
+                "label": "conducting electricity", 
+                "language": "en", 
+                "term": "/c/en/conducting_electricity"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ricardo_andres_guzman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ricardo_andres_guzman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire", 
+                "@type": "Node", 
+                "label": "a wire", 
+                "language": "en", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": "[[a wire]] is for [[conducting electricity]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wire/n/,/c/en/fastener/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fastener/n", 
+                "@type": "Node", 
+                "label": "fastener", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fastener"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire/n", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": "[[wire]] is used for [[fastener]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wire/n/,/c/en/fasten/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fasten/v", 
+                "@type": "Node", 
+                "label": "fasten", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fasten"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire/n", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": "[[wire]] is used for [[fasten]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/wire/n/,/c/en/shape/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shape/v", 
+                "@type": "Node", 
+                "label": "shape", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/shape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wire/n", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wire"
+            }, 
+            "surfaceText": "[[wire]] is used for [[shape]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/coil/,/c/en/wire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wire", 
+                "@type": "Node", 
+                "label": "wire", 
+                "language": "en", 
+                "term": "/c/en/wire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coil", 
+                "@type": "Node", 
+                "label": "a coil", 
+                "language": "en", 
+                "term": "/c/en/coil"
+            }, 
+            "surfaceText": "[[a coil]] is for [[wire]]", 
+            "weight": 1.0
+        }
+    ]
+}

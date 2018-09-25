@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/treadmill&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mouse/,/c/en/treadmill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/treadmill", 
+                "@type": "Node", 
+                "label": "a treadmill", 
+                "language": "en", 
+                "term": "/c/en/treadmill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mezust/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mezust"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "a mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "surfaceText": "You are likely to find [[a mouse]] in [[a treadmill]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/treadmill/,/c/en/gy_mnasiu_m/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gy_mnasiu_m", 
+                "@type": "Node", 
+                "label": "a gy (mnasiu) m", 
+                "language": "en", 
+                "term": "/c/en/gy_mnasiu_m"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/treadmill", 
+                "@type": "Node", 
+                "label": "a treadmill", 
+                "language": "en", 
+                "term": "/c/en/treadmill"
+            }, 
+            "surfaceText": "You are likely to find [[a treadmill]] in [[a gy (mnasiu) m]]", 
+            "weight": 1.0
+        }
+    ]
+}

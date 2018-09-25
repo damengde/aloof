@@ -1,0 +1,245 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/water_vapor&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/clouds/,/c/en/water_vapor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_vapor", 
+                "@type": "Node", 
+                "label": "water vapor", 
+                "language": "en", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/axis101a/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/axis101a"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/koralt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/koralt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mikal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mikal"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/koralt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/koralt"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mikal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mikal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/clouds", 
+                "@type": "Node", 
+                "label": "The clouds", 
+                "language": "en", 
+                "term": "/c/en/clouds"
+            }, 
+            "surfaceText": "[[The clouds]] are [[water vapor]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spray/n/,/c/en/water_vapor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/water_vapor/n", 
+                "@type": "Node", 
+                "label": "water vapor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spray/n", 
+                "@type": "Node", 
+                "label": "spray", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spray"
+            }, 
+            "surfaceText": "[[spray]] is a type of [[water vapor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_vapor/n/,/c/en/vapor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vapor/n", 
+                "@type": "Node", 
+                "label": "vapor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vapor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_vapor/n", 
+                "@type": "Node", 
+                "label": "water vapor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "surfaceText": "[[water vapor]] is a type of [[vapor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_vapor/,/c/en/gas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gas", 
+                "@type": "Node", 
+                "label": "a gas", 
+                "language": "en", 
+                "term": "/c/en/gas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_vapor", 
+                "@type": "Node", 
+                "label": "Water vapor", 
+                "language": "en", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "surfaceText": "[[Water vapor]] is [[a gas]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_vapor/,/c/en/greenhouse_gas/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/greenhouse_gas/n", 
+                "@type": "Node", 
+                "label": "greenhouse gas", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/greenhouse_gas"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_vapor", 
+                "@type": "Node", 
+                "label": "water vapor", 
+                "language": "en", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_vapor/,/c/en/tiny_droplets_of_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tiny_droplets_of_water", 
+                "@type": "Node", 
+                "label": "tiny droplets of water", 
+                "language": "en", 
+                "term": "/c/en/tiny_droplets_of_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_vapor", 
+                "@type": "Node", 
+                "label": "Water vapor", 
+                "language": "en", 
+                "term": "/c/en/water_vapor"
+            }, 
+            "surfaceText": "[[Water vapor]] is [[tiny droplets of water]]", 
+            "weight": 1.0
+        }
+    ]
+}

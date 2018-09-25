@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/text&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/text/,/c/en/readable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/readable", 
+                "@type": "Node", 
+                "label": "readable", 
+                "language": "en", 
+                "term": "/c/en/readable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] is [[readable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/text/,/c/en/typed_on_computer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/typed_on_computer", 
+                "@type": "Node", 
+                "label": "typed on a computer", 
+                "language": "en", 
+                "term": "/c/en/typed_on_computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[text]] can be [[typed on a computer]]", 
+            "weight": 1.0
+        }
+    ]
+}

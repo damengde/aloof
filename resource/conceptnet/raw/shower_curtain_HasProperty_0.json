@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_curtain&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/shower_curtain/,/c/en/very_lightweight/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_lightweight", 
+                "@type": "Node", 
+                "label": "very lightweight", 
+                "language": "en", 
+                "term": "/c/en/very_lightweight"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain", 
+                "@type": "Node", 
+                "label": "a shower curtain", 
+                "language": "en", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": "[[a shower curtain]] is [[very lightweight]]", 
+            "weight": 1.0
+        }
+    ]
+}

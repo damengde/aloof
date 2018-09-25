@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/board&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knothole/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knothole/n", 
+                "@type": "Node", 
+                "label": "knothole", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knothole"
+            }, 
+            "surfaceText": "[[knothole]] is a part of [[board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knot/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knot/n", 
+                "@type": "Node", 
+                "label": "knot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knot"
+            }, 
+            "surfaceText": "[[knot]] is a part of [[board]]", 
+            "weight": 2.0
+        }
+    ]
+}

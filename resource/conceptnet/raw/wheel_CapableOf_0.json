@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wheel/,/c/en/circle_when_moving/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/circle_when_moving", 
+                "@type": "Node", 
+                "label": "circle when moving", 
+                "language": "en", 
+                "term": "/c/en/circle_when_moving"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheel", 
+                "@type": "Node", 
+                "label": "a wheel", 
+                "language": "en", 
+                "term": "/c/en/wheel"
+            }, 
+            "surfaceText": "[[a wheel]] may [[circle when moving]]", 
+            "weight": 1.0
+        }
+    ]
+}

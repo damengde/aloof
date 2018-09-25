@@ -1,0 +1,757 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bar&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/getting_drunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_drunk", 
+                "@type": "Node", 
+                "label": "getting drunk", 
+                "language": "en", 
+                "term": "/c/en/getting_drunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daemon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/daemon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daemon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/daemon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is used for [[getting drunk]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/n/,/c/en/protect/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/protect/v", 
+                "@type": "Node", 
+                "label": "protect", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/protect"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is used for [[protect]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/n/,/c/en/separate/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/separate/v", 
+                "@type": "Node", 
+                "label": "separate", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/separate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is used for [[separate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/dancers_when_stretching/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dancers_when_stretching", 
+                "@type": "Node", 
+                "label": "dancers when they are stretching", 
+                "language": "en", 
+                "term": "/c/en/dancers_when_stretching"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[dancers when they are stretching]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/dancing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dancing", 
+                "@type": "Node", 
+                "label": "dancing", 
+                "language": "en", 
+                "term": "/c/en/dancing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[dancing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/drinking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drinking", 
+                "@type": "Node", 
+                "label": "drinking", 
+                "language": "en", 
+                "term": "/c/en/drinking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/buzzy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/buzzy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is used for [[drinking]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/drinking_alcohol/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drinking_alcohol", 
+                "@type": "Node", 
+                "label": "drinking alcohol", 
+                "language": "en", 
+                "term": "/c/en/drinking_alcohol"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[drinking alcohol]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/get_drunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_drunk", 
+                "@type": "Node", 
+                "label": "get drunk", 
+                "language": "en", 
+                "term": "/c/en/get_drunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[get drunk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/hang_by_hands/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hang_by_hands", 
+                "@type": "Node", 
+                "label": "hang by your hands", 
+                "language": "en", 
+                "term": "/c/en/hang_by_hands"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[hang by your hands]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/having_fun_with_friends/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/having_fun_with_friends", 
+                "@type": "Node", 
+                "label": "having fun with friends", 
+                "language": "en", 
+                "term": "/c/en/having_fun_with_friends"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[having fun with friends]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/helping_people_stay_in_line/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/helping_people_stay_in_line", 
+                "@type": "Node", 
+                "label": "helping people stay in line", 
+                "language": "en", 
+                "term": "/c/en/helping_people_stay_in_line"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[helping people stay in line]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/make_brace/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_brace", 
+                "@type": "Node", 
+                "label": "make a brace", 
+                "language": "en", 
+                "term": "/c/en/make_brace"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[make a brace]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/meeting_new_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/meeting_new_people", 
+                "@type": "Node", 
+                "label": "meeting new people", 
+                "language": "en", 
+                "term": "/c/en/meeting_new_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[meeting new people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/meet_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/meet_people", 
+                "@type": "Node", 
+                "label": "meet people", 
+                "language": "en", 
+                "term": "/c/en/meet_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vdoma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vdoma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[meet people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/pry_open/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pry_open", 
+                "@type": "Node", 
+                "label": "pry something open", 
+                "language": "en", 
+                "term": "/c/en/pry_open"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/szoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/szoth"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[pry something open]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/pry_window_open/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pry_window_open", 
+                "@type": "Node", 
+                "label": "pry a window open", 
+                "language": "en", 
+                "term": "/c/en/pry_window_open"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You can use [[a bar]] to [[pry a window open]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/relaxing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/relaxing", 
+                "@type": "Node", 
+                "label": "relaxing", 
+                "language": "en", 
+                "term": "/c/en/relaxing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[relaxing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/restraining_people_from_dangerous_fall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/restraining_people_from_dangerous_fall", 
+                "@type": "Node", 
+                "label": "restraining people from a dangerous fall", 
+                "language": "en", 
+                "term": "/c/en/restraining_people_from_dangerous_fall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[restraining people from a dangerous fall]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/serving_and_imbibing_alcoholic_drinks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/serving_and_imbibing_alcoholic_drinks", 
+                "@type": "Node", 
+                "label": "serving and imbibing alcoholic drinks", 
+                "language": "en", 
+                "term": "/c/en/serving_and_imbibing_alcoholic_drinks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[serving and imbibing alcoholic drinks]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/serving_drinks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/serving_drinks", 
+                "@type": "Node", 
+                "label": "serving drinks", 
+                "language": "en", 
+                "term": "/c/en/serving_drinks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/spacecadette/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/spacecadette"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is used for [[serving drinks]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bar/,/c/en/viewing_sushi_chef/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/viewing_sushi_chef", 
+                "@type": "Node", 
+                "label": "viewing the sushi chef", 
+                "language": "en", 
+                "term": "/c/en/viewing_sushi_chef"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is for [[viewing the sushi chef]]", 
+            "weight": 1.0
+        }
+    ]
+}

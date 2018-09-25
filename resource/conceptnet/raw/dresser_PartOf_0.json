@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dresser&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/drawer/,/c/en/dresser/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rambled/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rambled"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drawer", 
+                "@type": "Node", 
+                "label": "a drawer", 
+                "language": "en", 
+                "term": "/c/en/drawer"
+            }, 
+            "surfaceText": "[[a drawer]] is part of [[a dresser]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/newspaper&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/weather_prediction/,/c/en/newspaper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "the newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/merleen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/merleen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/weather_prediction", 
+                "@type": "Node", 
+                "label": "a weather prediction", 
+                "language": "en", 
+                "term": "/c/en/weather_prediction"
+            }, 
+            "surfaceText": "*Something you find in [[the newspaper]] is [[a weather prediction]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/written_articles/,/c/en/newspaper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/newspaper", 
+                "@type": "Node", 
+                "label": "the newspaper", 
+                "language": "en", 
+                "term": "/c/en/newspaper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/written_articles", 
+                "@type": "Node", 
+                "label": "written articles", 
+                "language": "en", 
+                "term": "/c/en/written_articles"
+            }, 
+            "surfaceText": "*Something you find in [[the newspaper]] is [[written articles]]", 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/newspaper&rel=/r/AtLocation&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "firstPage": "/query?node=/c/en/newspaper&rel=/r/AtLocation&offset=0&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/newspaper&rel=/r/AtLocation&offset=0&limit=100"
+    }
+}

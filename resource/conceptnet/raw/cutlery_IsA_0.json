@@ -1,0 +1,188 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cutlery&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cutlery/n/,/c/en/tableware/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tableware/n", 
+                "@type": "Node", 
+                "label": "tableware", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tableware"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cutlery/n", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cutlery"
+            }, 
+            "surfaceText": "[[cutlery]] is a type of [[tableware]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fork/n/,/c/en/cutlery/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cutlery/n", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cutlery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork/n", 
+                "@type": "Node", 
+                "label": "fork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": "[[fork]] is a type of [[cutlery]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spoon/n/,/c/en/cutlery/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cutlery/n", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cutlery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon/n", 
+                "@type": "Node", 
+                "label": "spoon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "[[spoon]] is a type of [[cutlery]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/table_knife/n/,/c/en/cutlery/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cutlery/n", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cutlery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table_knife/n", 
+                "@type": "Node", 
+                "label": "table knife", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table_knife"
+            }, 
+            "surfaceText": "[[table knife]] is a type of [[cutlery]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fork/n/,/c/en/cutlery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/cutlery", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "term": "/c/en/cutlery"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fork/n", 
+                "@type": "Node", 
+                "label": "fork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fork"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

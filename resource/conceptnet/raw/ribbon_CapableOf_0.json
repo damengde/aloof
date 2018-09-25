@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ribbon&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ribbon/,/c/en/color/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/color", 
+                "@type": "Node", 
+                "label": "be any color", 
+                "language": "en", 
+                "term": "/c/en/color"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neograv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neograv"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/schickel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/schickel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ribbon", 
+                "@type": "Node", 
+                "label": "a ribbon", 
+                "language": "en", 
+                "term": "/c/en/ribbon"
+            }, 
+            "surfaceText": "[[a ribbon]] can [[be any color]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/ribbon/,/c/en/used_to_tie_hair.l/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/used_to_tie_hair.l", 
+                "@type": "Node", 
+                "label": "used to tie hair.l", 
+                "language": "en", 
+                "term": "/c/en/used_to_tie_hair.l"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ribbon", 
+                "@type": "Node", 
+                "label": "A ribbon", 
+                "language": "en", 
+                "term": "/c/en/ribbon"
+            }, 
+            "surfaceText": "[[A ribbon]] may [[used to tie hair.l]]", 
+            "weight": 1.0
+        }
+    ]
+}

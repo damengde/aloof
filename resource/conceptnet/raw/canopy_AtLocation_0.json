@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/canopy&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/canopy/,/c/en/sporting_goods_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sporting_goods_store", 
+                "@type": "Node", 
+                "label": "a sporting goods store", 
+                "language": "en", 
+                "term": "/c/en/sporting_goods_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canopy", 
+                "@type": "Node", 
+                "label": "a canopy", 
+                "language": "en", 
+                "term": "/c/en/canopy"
+            }, 
+            "surfaceText": "*Something you find in [[a sporting goods store]] is [[a canopy]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,1112 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pepper&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/,/c/en/spice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spice", 
+                "@type": "Node", 
+                "label": "a spice", 
+                "language": "en", 
+                "term": "/c/en/spice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/albedo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/albedo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/andrew887/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/andrew887"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/albedo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/albedo"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/daroof/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/daroof"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kenmkuhl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kenmkuhl"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is [[a spice]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/black_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/black_pepper/n", 
+                "@type": "Node", 
+                "label": "black pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/black_pepper"
+            }, 
+            "surfaceText": "[[black pepper]] is a type of [[pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hot_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hot_pepper/n", 
+                "@type": "Node", 
+                "label": "hot pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hot_pepper"
+            }, 
+            "surfaceText": "[[hot pepper]] is a type of [[pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/flavorer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/flavorer/n", 
+                "@type": "Node", 
+                "label": "flavorer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flavorer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is a type of [[flavorer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/solanaceous_vegetable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/solanaceous_vegetable/n", 
+                "@type": "Node", 
+                "label": "solanaceous vegetable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/solanaceous_vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is a type of [[solanaceous vegetable]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/true_pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/true_pepper/n", 
+                "@type": "Node", 
+                "label": "true pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/true_pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is a type of [[true pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sweet_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sweet_pepper/n", 
+                "@type": "Node", 
+                "label": "sweet pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sweet_pepper"
+            }, 
+            "surfaceText": "[[sweet pepper]] is a type of [[pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/white_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/white_pepper/n", 
+                "@type": "Node", 
+                "label": "white pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/white_pepper"
+            }, 
+            "surfaceText": "[[white pepper]] is a type of [[pepper]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bell_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bell_pepper", 
+                "@type": "Node", 
+                "label": "bell pepper", 
+                "language": "en", 
+                "term": "/c/en/bell_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bell_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bell_pepper/n", 
+                "@type": "Node", 
+                "label": "bell pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bell_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chile_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chile_pepper", 
+                "@type": "Node", 
+                "label": "chile pepper", 
+                "language": "en", 
+                "term": "/c/en/chile_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chili/,/c/en/pepper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "a pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rmattc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rmattc"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chili", 
+                "@type": "Node", 
+                "label": "Chili", 
+                "language": "en", 
+                "term": "/c/en/chili"
+            }, 
+            "surfaceText": "[[Chili]] is [[a pepper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chili_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chili_pepper/n", 
+                "@type": "Node", 
+                "label": "chili pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chili_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chilli/,/c/en/pepper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/yottzumm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/yottzumm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chilli", 
+                "@type": "Node", 
+                "label": "Chilli", 
+                "language": "en", 
+                "term": "/c/en/chilli"
+            }, 
+            "surfaceText": "[[Chilli]] is a type of [[pepper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fresh_chile/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fresh_chile/n", 
+                "@type": "Node", 
+                "label": "fresh chile", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fresh_chile"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/green_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/green_pepper", 
+                "@type": "Node", 
+                "label": "green pepper", 
+                "language": "en", 
+                "term": "/c/en/green_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jalapeno_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jalapeno_pepper/n", 
+                "@type": "Node", 
+                "label": "jalapeno pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jalapeno_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/,/c/en/condiment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/condiment", 
+                "@type": "Node", 
+                "label": "a condiment", 
+                "language": "en", 
+                "term": "/c/en/condiment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/albedo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/albedo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is [[a condiment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/,/c/en/season/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/season/v", 
+                "@type": "Node", 
+                "label": "season", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/season"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/,/c/en/spicey/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spicey", 
+                "@type": "Node", 
+                "label": "spicey", 
+                "language": "en", 
+                "term": "/c/en/spicey"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ivanjohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ivanjohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is [[spicey]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/,/c/en/vegetable_aswell_as_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vegetable_aswell_as_food", 
+                "@type": "Node", 
+                "label": "a vegetable aswell as food", 
+                "language": "en", 
+                "term": "/c/en/vegetable_aswell_as_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/lisawhirl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/lisawhirl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "a pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[a pepper]] is [[a vegetable aswell as food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/peppercorn/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/peppercorn", 
+                "@type": "Node", 
+                "label": "peppercorn", 
+                "language": "en", 
+                "term": "/c/en/peppercorn"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/condiment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/condiment/n", 
+                "@type": "Node", 
+                "label": "condiment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/condiment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/fruit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/fruit/n", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/spice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/spice", 
+                "@type": "Node", 
+                "label": "spice", 
+                "language": "en", 
+                "term": "/c/en/spice"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/spice/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/spice/n", 
+                "@type": "Node", 
+                "label": "spice", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper/n/,/c/en/vegetable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/vegetable/n", 
+                "@type": "Node", 
+                "label": "vegetable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/red_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/red_pepper", 
+                "@type": "Node", 
+                "label": "red pepper", 
+                "language": "en", 
+                "term": "/c/en/red_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spicy_pepper/n/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spicy_pepper/n", 
+                "@type": "Node", 
+                "label": "spicy pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spicy_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sweet_pepper/,/c/en/pepper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/pepper/n", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sweet_pepper", 
+                "@type": "Node", 
+                "label": "sweet pepper", 
+                "language": "en", 
+                "term": "/c/en/sweet_pepper"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

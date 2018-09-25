@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cooking_pot&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/crab/,/c/en/cooking_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_pot", 
+                "@type": "Node", 
+                "label": "a cooking pot", 
+                "language": "en", 
+                "term": "/c/en/cooking_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crab", 
+                "@type": "Node", 
+                "label": "a crab", 
+                "language": "en", 
+                "term": "/c/en/crab"
+            }, 
+            "surfaceText": "You are likely to find [[a crab]] in [[a cooking pot]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bean/,/c/en/cooking_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_pot", 
+                "@type": "Node", 
+                "label": "a cooking pot", 
+                "language": "en", 
+                "term": "/c/en/cooking_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bean", 
+                "@type": "Node", 
+                "label": "a bean", 
+                "language": "en", 
+                "term": "/c/en/bean"
+            }, 
+            "surfaceText": "You are likely to find [[a bean]] in [[a cooking pot]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/potato/,/c/en/cooking_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_pot", 
+                "@type": "Node", 
+                "label": "a cooking pot", 
+                "language": "en", 
+                "term": "/c/en/cooking_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potato", 
+                "@type": "Node", 
+                "label": "a potato", 
+                "language": "en", 
+                "term": "/c/en/potato"
+            }, 
+            "surfaceText": "You are likely to find [[a potato]] in [[a cooking pot]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,720 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/menu&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/ordering_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ordering_food", 
+                "@type": "Node", 
+                "label": "ordering food", 
+                "language": "en", 
+                "term": "/c/en/ordering_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/hazn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/hazn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kurt_woloch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kurt_woloch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[ordering food]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/choose_action/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/choose_action", 
+                "@type": "Node", 
+                "label": "choose an action", 
+                "language": "en", 
+                "term": "/c/en/choose_action"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mif/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mif"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[choose an action]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/choose_option/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/choose_option", 
+                "@type": "Node", 
+                "label": "choose an option", 
+                "language": "en", 
+                "term": "/c/en/choose_option"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[choose an option]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/customer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/customer", 
+                "@type": "Node", 
+                "label": "a customer", 
+                "language": "en", 
+                "term": "/c/en/customer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "A menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[A menu]] is for [[a customer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/decide_what_to_order/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decide_what_to_order", 
+                "@type": "Node", 
+                "label": "decide what to order", 
+                "language": "en", 
+                "term": "/c/en/decide_what_to_order"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[decide what to order]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/deciding_what_to_eat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/deciding_what_to_eat", 
+                "@type": "Node", 
+                "label": "deciding what to eat", 
+                "language": "en", 
+                "term": "/c/en/deciding_what_to_eat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/papayaimee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/papayaimee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[deciding what to eat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/describing_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/describing_food", 
+                "@type": "Node", 
+                "label": "describing food", 
+                "language": "en", 
+                "term": "/c/en/describing_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[describing food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/describing_wine_selection/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/describing_wine_selection", 
+                "@type": "Node", 
+                "label": "describing the wine selection", 
+                "language": "en", 
+                "term": "/c/en/describing_wine_selection"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[describing the wine selection]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/displaying_choices/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/displaying_choices", 
+                "@type": "Node", 
+                "label": "displaying choices", 
+                "language": "en", 
+                "term": "/c/en/displaying_choices"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[displaying choices]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/find_more_quickly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/find_more_quickly", 
+                "@type": "Node", 
+                "label": "find something more quickly", 
+                "language": "en", 
+                "term": "/c/en/find_more_quickly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[find something more quickly]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/interfacing_with_computer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/interfacing_with_computer", 
+                "@type": "Node", 
+                "label": "interfacing with a computer", 
+                "language": "en", 
+                "term": "/c/en/interfacing_with_computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[interfacing with a computer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/learn_about_options/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/learn_about_options", 
+                "@type": "Node", 
+                "label": "learn about options", 
+                "language": "en", 
+                "term": "/c/en/learn_about_options"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gaetanomontante/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gaetanomontante"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[learn about options]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/listing_choices_available/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/listing_choices_available", 
+                "@type": "Node", 
+                "label": "listing choices available", 
+                "language": "en", 
+                "term": "/c/en/listing_choices_available"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "A menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[A menu]] is used for [[listing choices available]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/listing_entrees/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/listing_entrees", 
+                "@type": "Node", 
+                "label": "listing entrees", 
+                "language": "en", 
+                "term": "/c/en/listing_entrees"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[listing entrees]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/listing_ingredients/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/listing_ingredients", 
+                "@type": "Node", 
+                "label": "listing ingredients", 
+                "language": "en", 
+                "term": "/c/en/listing_ingredients"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[listing ingredients]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/listing_items_in_course/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/listing_items_in_course", 
+                "@type": "Node", 
+                "label": "listing the items in a course", 
+                "language": "en", 
+                "term": "/c/en/listing_items_in_course"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[listing the items in a course]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/making_choices/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/making_choices", 
+                "@type": "Node", 
+                "label": "making choices", 
+                "language": "en", 
+                "term": "/c/en/making_choices"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "[[a menu]] is for [[making choices]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/order_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/order_food", 
+                "@type": "Node", 
+                "label": "order food", 
+                "language": "en", 
+                "term": "/c/en/order_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/hazn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/hazn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[order food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/order_food_at_restaurant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/order_food_at_restaurant", 
+                "@type": "Node", 
+                "label": "order food at a restaurant", 
+                "language": "en", 
+                "term": "/c/en/order_food_at_restaurant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/norman314/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/norman314"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[order food at a restaurant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/menu/,/c/en/order_lunch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/order_lunch", 
+                "@type": "Node", 
+                "label": "order lunch", 
+                "language": "en", 
+                "term": "/c/en/order_lunch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/menu", 
+                "@type": "Node", 
+                "label": "a menu", 
+                "language": "en", 
+                "term": "/c/en/menu"
+            }, 
+            "surfaceText": "You can use [[a menu]] to [[order lunch]]", 
+            "weight": 1.0
+        }
+    ]
+}

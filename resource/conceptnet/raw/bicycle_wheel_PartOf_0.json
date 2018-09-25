@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bicycle_wheel&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bicycle_wheel/n/,/c/en/bicycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle/n", 
+                "@type": "Node", 
+                "label": "bicycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle_wheel/n", 
+                "@type": "Node", 
+                "label": "bicycle wheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_wheel"
+            }, 
+            "surfaceText": "[[bicycle wheel]] is a part of [[bicycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pneumatic_tire/n/,/c/en/bicycle_wheel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle_wheel/n", 
+                "@type": "Node", 
+                "label": "bicycle wheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pneumatic_tire/n", 
+                "@type": "Node", 
+                "label": "pneumatic tire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pneumatic_tire"
+            }, 
+            "surfaceText": "[[pneumatic tire]] is a part of [[bicycle wheel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/spoke/n/,/c/en/bicycle_wheel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bicycle_wheel/n", 
+                "@type": "Node", 
+                "label": "bicycle wheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bicycle_wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoke/n", 
+                "@type": "Node", 
+                "label": "spoke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spoke"
+            }, 
+            "surfaceText": "[[spoke]] is a part of [[bicycle wheel]]", 
+            "weight": 2.0
+        }
+    ]
+}

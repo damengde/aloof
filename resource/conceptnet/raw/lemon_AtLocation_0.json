@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lemon&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lemon/,/c/en/fridge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fridge", 
+                "@type": "Node", 
+                "label": "the fridge", 
+                "language": "en", 
+                "term": "/c/en/fridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/rachey_girl20/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/rachey_girl20"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "a lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "You are likely to find [[a lemon]] in [[the fridge]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lemon/,/c/en/refrigerator/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/refrigerator", 
+                "@type": "Node", 
+                "label": "the refrigerator", 
+                "language": "en", 
+                "term": "/c/en/refrigerator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "a lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "*Something you find in [[the refrigerator]] is [[a lemon]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ottoman&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ottoman/n/,/c/en/dynasty/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dynasty/n", 
+                "@type": "Node", 
+                "label": "dynasty", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dynasty"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ottoman/n", 
+                "@type": "Node", 
+                "label": "Ottoman", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ottoman"
+            }, 
+            "surfaceText": "[[Ottoman]] is a type of [[dynasty]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ottoman/n/,/c/en/seat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/seat/n", 
+                "@type": "Node", 
+                "label": "seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ottoman/n", 
+                "@type": "Node", 
+                "label": "ottoman", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ottoman"
+            }, 
+            "surfaceText": "[[ottoman]] is a type of [[seat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/another_word_for_footstool/,/c/en/ottoman/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ottoman", 
+                "@type": "Node", 
+                "label": "ottoman", 
+                "language": "en", 
+                "term": "/c/en/ottoman"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/another_word_for_footstool", 
+                "@type": "Node", 
+                "label": "another word for footstool", 
+                "language": "en", 
+                "term": "/c/en/another_word_for_footstool"
+            }, 
+            "surfaceText": "[[another word for footstool]] is [[ottoman]]", 
+            "weight": 1.0
+        }
+    ]
+}

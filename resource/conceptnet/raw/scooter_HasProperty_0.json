@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scooter&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/scooter/,/c/en/cheap_to_buy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cheap_to_buy", 
+                "@type": "Node", 
+                "label": "cheap to buy", 
+                "language": "en", 
+                "term": "/c/en/cheap_to_buy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scooter", 
+                "@type": "Node", 
+                "label": "A scooter", 
+                "language": "en", 
+                "term": "/c/en/scooter"
+            }, 
+            "surfaceText": "[[A scooter]] is [[cheap to buy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/scooter/,/c/en/cheap_to_run/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cheap_to_run", 
+                "@type": "Node", 
+                "label": "cheap to run", 
+                "language": "en", 
+                "term": "/c/en/cheap_to_run"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scooter", 
+                "@type": "Node", 
+                "label": "A scooter", 
+                "language": "en", 
+                "term": "/c/en/scooter"
+            }, 
+            "surfaceText": "[[A scooter]] is [[cheap to run]]", 
+            "weight": 1.0
+        }
+    ]
+}

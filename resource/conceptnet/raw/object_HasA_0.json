@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/object&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/object/,/c/en/surface/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/surface", 
+                "@type": "Node", 
+                "label": "a surface", 
+                "language": "en", 
+                "term": "/c/en/surface"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dnaber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dnaber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/object", 
+                "@type": "Node", 
+                "label": "object", 
+                "language": "en", 
+                "term": "/c/en/object"
+            }, 
+            "surfaceText": "[[object]] have [[a surface]]", 
+            "weight": 1.0
+        }
+    ]
+}

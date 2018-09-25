@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stereo&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/amplifier/n/,/c/en/stereo/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/stereo/n", 
+                "@type": "Node", 
+                "label": "stereo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stereo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/amplifier/n", 
+                "@type": "Node", 
+                "label": "amplifier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/amplifier"
+            }, 
+            "surfaceText": "[[amplifier]] is a part of [[stereo]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/speaker/,/c/en/stereo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stereo", 
+                "@type": "Node", 
+                "label": "stereo", 
+                "language": "en", 
+                "term": "/c/en/stereo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/thayne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/thayne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/speaker", 
+                "@type": "Node", 
+                "label": "A speaker", 
+                "language": "en", 
+                "term": "/c/en/speaker"
+            }, 
+            "surfaceText": "[[A speaker]] is part of [[stereo]]", 
+            "weight": 1.0
+        }
+    ]
+}

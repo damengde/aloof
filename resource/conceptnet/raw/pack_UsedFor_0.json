@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pack&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/baggage_trunk/,/c/en/pack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pack", 
+                "@type": "Node", 
+                "label": "pack", 
+                "language": "en", 
+                "term": "/c/en/pack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baggage_trunk", 
+                "@type": "Node", 
+                "label": "a baggage trunk", 
+                "language": "en", 
+                "term": "/c/en/baggage_trunk"
+            }, 
+            "surfaceText": "You can use [[a baggage trunk]] to [[pack]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/flight_bag/,/c/en/pack/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pack", 
+                "@type": "Node", 
+                "label": "pack", 
+                "language": "en", 
+                "term": "/c/en/pack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flight_bag", 
+                "@type": "Node", 
+                "label": "a flight bag", 
+                "language": "en", 
+                "term": "/c/en/flight_bag"
+            }, 
+            "surfaceText": "You can use [[a flight bag]] to [[pack]]", 
+            "weight": 1.0
+        }
+    ]
+}

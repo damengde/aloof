@@ -1,0 +1,184 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/train&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/train/n/,/c/en/gown/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/gown/n", 
+                "@type": "Node", 
+                "label": "gown", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gown"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train/n", 
+                "@type": "Node", 
+                "label": "train", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[train]] is a part of [[gown]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/caboose/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/caboose", 
+                "@type": "Node", 
+                "label": "A caboose", 
+                "language": "en", 
+                "term": "/c/en/caboose"
+            }, 
+            "surfaceText": "[[A caboose]] is part of [[a train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/car/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/car", 
+                "@type": "Node", 
+                "label": "A car", 
+                "language": "en", 
+                "term": "/c/en/car"
+            }, 
+            "surfaceText": "[[A car]] is part of [[a train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/engine/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/engine", 
+                "@type": "Node", 
+                "label": "An engine", 
+                "language": "en", 
+                "term": "/c/en/engine"
+            }, 
+            "surfaceText": "[[An engine]] is part of [[a train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/train_car/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train_car", 
+                "@type": "Node", 
+                "label": "train car", 
+                "language": "en", 
+                "term": "/c/en/train_car"
+            }, 
+            "surfaceText": "[[train car]] is part of [[train]].", 
+            "weight": 1.0
+        }
+    ]
+}

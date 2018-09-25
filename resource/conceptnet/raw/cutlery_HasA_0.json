@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cutlery&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cutlery_drawer/,/c/en/cutlery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cutlery", 
+                "@type": "Node", 
+                "label": "cutlery", 
+                "language": "en", 
+                "term": "/c/en/cutlery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/majordecoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/majordecoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cutlery_drawer", 
+                "@type": "Node", 
+                "label": "a cutlery drawer", 
+                "language": "en", 
+                "term": "/c/en/cutlery_drawer"
+            }, 
+            "surfaceText": "[[a cutlery drawer]] contains [[cutlery]]", 
+            "weight": 1.0
+        }
+    ]
+}

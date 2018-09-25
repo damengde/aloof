@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fruit&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/orange/,/c/en/fruit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fruit", 
+                "@type": "Node", 
+                "label": "fruit", 
+                "language": "en", 
+                "term": "/c/en/fruit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/tracenic/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/tracenic"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/orange", 
+                "@type": "Node", 
+                "label": "orange ", 
+                "language": "en", 
+                "term": "/c/en/orange"
+            }, 
+            "surfaceText": "[[orange ]] is part of [[fruit]]", 
+            "weight": 1.0
+        }
+    ]
+}

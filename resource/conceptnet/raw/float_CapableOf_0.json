@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/float&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/balloon_filled_with_helium/,/c/en/float/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/float", 
+                "@type": "Node", 
+                "label": "float", 
+                "language": "en", 
+                "term": "/c/en/float"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jd204c/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jd204c"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balloon_filled_with_helium", 
+                "@type": "Node", 
+                "label": "A balloon filled with helium", 
+                "language": "en", 
+                "term": "/c/en/balloon_filled_with_helium"
+            }, 
+            "surfaceText": "[[A balloon filled with helium]] can [[float]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/dead_fish/,/c/en/float/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/float", 
+                "@type": "Node", 
+                "label": "float", 
+                "language": "en", 
+                "term": "/c/en/float"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dead_fish", 
+                "@type": "Node", 
+                "label": "a dead fish", 
+                "language": "en", 
+                "term": "/c/en/dead_fish"
+            }, 
+            "surfaceText": "[[a dead fish]] can [[float]]", 
+            "weight": 1.0
+        }
+    ]
+}

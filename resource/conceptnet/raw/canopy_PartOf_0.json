@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/canopy&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/canopy/n/,/c/en/cockpit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cockpit/n", 
+                "@type": "Node", 
+                "label": "cockpit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cockpit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canopy/n", 
+                "@type": "Node", 
+                "label": "canopy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canopy"
+            }, 
+            "surfaceText": "[[canopy]] is a part of [[cockpit]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/canopy/n/,/c/en/parachute/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/parachute/n", 
+                "@type": "Node", 
+                "label": "parachute", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/parachute"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/canopy/n", 
+                "@type": "Node", 
+                "label": "canopy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canopy"
+            }, 
+            "surfaceText": "[[canopy]] is a part of [[parachute]]", 
+            "weight": 2.0
+        }
+    ]
+}

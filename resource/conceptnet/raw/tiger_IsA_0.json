@@ -1,0 +1,873 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tiger&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/,/c/en/animal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/animal", 
+                "@type": "Node", 
+                "label": "an animal", 
+                "language": "en", 
+                "term": "/c/en/animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/darkshadow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/darkshadow"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ninjamatt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ninjamatt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "A tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[A tiger]] is [[an animal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger_cub/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger_cub/n", 
+                "@type": "Node", 
+                "label": "tiger cub", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger_cub"
+            }, 
+            "surfaceText": "[[tiger cub]] is a type of [[tiger]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/n/,/c/en/big_cat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/big_cat/n", 
+                "@type": "Node", 
+                "label": "big cat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/big_cat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[tiger]] is a type of [[big cat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/n/,/c/en/person/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/person/n", 
+                "@type": "Node", 
+                "label": "person", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[tiger]] is a type of [[person]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tigress/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tigress/n", 
+                "@type": "Node", 
+                "label": "tigress", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tigress"
+            }, 
+            "surfaceText": "[[tigress]] is a type of [[tiger]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/adult_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/adult_tiger/n", 
+                "@type": "Node", 
+                "label": "adult tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/adult_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bali_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bali_tiger/n", 
+                "@type": "Node", 
+                "label": "bali tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bali_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bengal_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bengal_tiger/n", 
+                "@type": "Node", 
+                "label": "bengal tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bengal_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/caspian_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/caspian_tiger/n", 
+                "@type": "Node", 
+                "label": "caspian tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/caspian_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/indochinese_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/indochinese_tiger/n", 
+                "@type": "Node", 
+                "label": "indochinese tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/indochinese_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/javan_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/javan_tiger/n", 
+                "@type": "Node", 
+                "label": "javan tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/javan_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/malayan_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/malayan_tiger/n", 
+                "@type": "Node", 
+                "label": "malayan tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/malayan_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/maltese_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/maltese_tiger/n", 
+                "@type": "Node", 
+                "label": "maltese tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/maltese_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/siberian_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/siberian_tiger/n", 
+                "@type": "Node", 
+                "label": "siberian tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/siberian_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/south_china_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/south_china_tiger/n", 
+                "@type": "Node", 
+                "label": "south china tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/south_china_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sumatran_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sumatran_tiger/n", 
+                "@type": "Node", 
+                "label": "sumatran tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sumatran_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/,/c/en/big_cat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/big_cat", 
+                "@type": "Node", 
+                "label": "a big cat", 
+                "language": "en", 
+                "term": "/c/en/big_cat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/darkshadow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/darkshadow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "A tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[A tiger]] is [[a big cat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/,/c/en/carnivore/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carnivore", 
+                "@type": "Node", 
+                "label": "a carnivore", 
+                "language": "en", 
+                "term": "/c/en/carnivore"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "A tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[A tiger]] is [[a carnivore]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/,/c/en/cat_family/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cat_family", 
+                "@type": "Node", 
+                "label": "cat family", 
+                "language": "en", 
+                "term": "/c/en/cat_family"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/digba121/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/digba121"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "Tiger ", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": "[[Tiger ]] is a [[cat family]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/n/,/c/en/felid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/felid", 
+                "@type": "Node", 
+                "label": "felid", 
+                "language": "en", 
+                "term": "/c/en/felid"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/n/,/c/en/feline/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/feline/n", 
+                "@type": "Node", 
+                "label": "feline", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/feline"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trinil_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trinil_tiger/n", 
+                "@type": "Node", 
+                "label": "trinil tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trinil_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/white_tiger/n/,/c/en/tiger/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tiger/n", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tiger"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/white_tiger/n", 
+                "@type": "Node", 
+                "label": "white tiger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/white_tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tiger/,/c/en/mammal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/mammal/n", 
+                "@type": "Node", 
+                "label": "mammal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mammal"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tiger", 
+                "@type": "Node", 
+                "label": "tiger", 
+                "language": "en", 
+                "term": "/c/en/tiger"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

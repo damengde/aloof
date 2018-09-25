@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/elephant&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/proboscis/n/,/c/en/elephant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/elephant/n", 
+                "@type": "Node", 
+                "label": "elephant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/elephant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/proboscis/n", 
+                "@type": "Node", 
+                "label": "proboscis", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/proboscis"
+            }, 
+            "surfaceText": "[[proboscis]] is a part of [[elephant]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tusk/n/,/c/en/elephant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/elephant/n", 
+                "@type": "Node", 
+                "label": "elephant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/elephant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tusk/n", 
+                "@type": "Node", 
+                "label": "tusk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tusk"
+            }, 
+            "surfaceText": "[[tusk]] is a part of [[elephant]]", 
+            "weight": 2.0
+        }
+    ]
+}

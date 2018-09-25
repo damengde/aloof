@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pine_cone&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/pine_cone/,/c/en/many_seeds_from_pine_tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_seeds_from_pine_tree", 
+                "@type": "Node", 
+                "label": "many seeds from a pine tree", 
+                "language": "en", 
+                "term": "/c/en/many_seeds_from_pine_tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pine_cone", 
+                "@type": "Node", 
+                "label": "A pine cone", 
+                "language": "en", 
+                "term": "/c/en/pine_cone"
+            }, 
+            "surfaceText": "[[A pine cone]] contains [[many seeds from a pine tree]]", 
+            "weight": 1.0
+        }
+    ]
+}

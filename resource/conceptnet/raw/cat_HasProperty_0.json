@@ -1,0 +1,295 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cat&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/feline/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/feline", 
+                "@type": "Node", 
+                "label": "a feline", 
+                "language": "en", 
+                "term": "/c/en/feline"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fable/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fable"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bagsc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bagsc"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/christophe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/christophe"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dave/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dave"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "A cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[A cat]] is [[a feline]]", 
+            "weight": 4.47213595499958
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/hungry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hungry", 
+                "@type": "Node", 
+                "label": "hungry", 
+                "language": "en", 
+                "term": "/c/en/hungry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/riikkah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/riikkah"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jdw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jdw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "The cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[The cat]] is [[hungry]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/a/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/a", 
+                "@type": "Node", 
+                "label": "a", 
+                "language": "en", 
+                "term": "/c/en/a"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chouck/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chouck"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "a cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[a cat]] is [[a]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/difficult_to_wash_in_bath/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/difficult_to_wash_in_bath", 
+                "@type": "Node", 
+                "label": "difficult to wash in the bath", 
+                "language": "en", 
+                "term": "/c/en/difficult_to_wash_in_bath"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "A cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[A cat]] can be [[difficult to wash in the bath]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/mammal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mammal", 
+                "@type": "Node", 
+                "label": "a mammal", 
+                "language": "en", 
+                "term": "/c/en/mammal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/amruta_01/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/amruta_01"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "A cat ", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[A cat ]] is [[a mammal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/running_after_mouse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/running_after_mouse", 
+                "@type": "Node", 
+                "label": "running after a mouse", 
+                "language": "en", 
+                "term": "/c/en/running_after_mouse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gtg805h/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gtg805h"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "a cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[a cat]] can be [[running after a mouse]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/cat/,/c/en/thirsty/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/thirsty", 
+                "@type": "Node", 
+                "label": "thirsty", 
+                "language": "en", 
+                "term": "/c/en/thirsty"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/naninyqz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/naninyqz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "The cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "[[The cat]] is [[thirsty]]", 
+            "weight": 1.0
+        }
+    ]
+}

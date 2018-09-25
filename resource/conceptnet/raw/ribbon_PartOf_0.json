@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ribbon&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ribbon/n/,/c/en/typewriter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/typewriter/n", 
+                "@type": "Node", 
+                "label": "typewriter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/typewriter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ribbon/n", 
+                "@type": "Node", 
+                "label": "ribbon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ribbon"
+            }, 
+            "surfaceText": "[[ribbon]] is a part of [[typewriter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ribbon/,/c/en/tyepwriter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tyepwriter", 
+                "@type": "Node", 
+                "label": "a tyepwriter", 
+                "language": "en", 
+                "term": "/c/en/tyepwriter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jimmer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jimmer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ribbon", 
+                "@type": "Node", 
+                "label": "A ribbon", 
+                "language": "en", 
+                "term": "/c/en/ribbon"
+            }, 
+            "surfaceText": "[[A ribbon]] is part of [[a tyepwriter]]", 
+            "weight": 1.0
+        }
+    ]
+}

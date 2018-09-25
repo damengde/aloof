@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bolt&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bolt/n/,/c/en/fasten/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fasten/v", 
+                "@type": "Node", 
+                "label": "fasten", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fasten"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt/n", 
+                "@type": "Node", 
+                "label": "bolt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[bolt]] is used for [[fasten]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bolt/n/,/c/en/screw/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/screw/v", 
+                "@type": "Node", 
+                "label": "screw", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/screw"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt/n", 
+                "@type": "Node", 
+                "label": "bolt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[bolt]] is used for [[screw]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bolt/,/c/en/securing_things_to_large_objects/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/securing_things_to_large_objects", 
+                "@type": "Node", 
+                "label": "securing things to large objects", 
+                "language": "en", 
+                "term": "/c/en/securing_things_to_large_objects"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt", 
+                "@type": "Node", 
+                "label": "A bolt", 
+                "language": "en", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[A bolt]] is used for [[securing things to large objects]]", 
+            "weight": 1.0
+        }
+    ]
+}

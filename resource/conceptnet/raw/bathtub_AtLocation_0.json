@@ -1,0 +1,580 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bathtub&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bar_of_soap/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/msdny/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/msdny"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar_of_soap", 
+                "@type": "Node", 
+                "label": "a bar of soap", 
+                "language": "en", 
+                "term": "/c/en/bar_of_soap"
+            }, 
+            "surfaceText": "*Something you find in [[a bathtub]] is [[a bar of soap]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bathtub/,/c/en/motel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/motel", 
+                "@type": "Node", 
+                "label": "a motel", 
+                "language": "en", 
+                "term": "/c/en/motel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "surfaceText": "You are likely to find [[a bathtub]] in [[a motel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/human/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aww/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aww"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/human", 
+                "@type": "Node", 
+                "label": "a human", 
+                "language": "en", 
+                "term": "/c/en/human"
+            }, 
+            "surfaceText": "You are likely to find [[a human]] in [[a bathtub]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/action_figure/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/action_figure", 
+                "@type": "Node", 
+                "label": "an action figure", 
+                "language": "en", 
+                "term": "/c/en/action_figure"
+            }, 
+            "surfaceText": "You are likely to find [[an action figure]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bath_shower/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath_shower", 
+                "@type": "Node", 
+                "label": "a bath shower", 
+                "language": "en", 
+                "term": "/c/en/bath_shower"
+            }, 
+            "surfaceText": "You are likely to find [[a bath shower]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bathtub/,/c/en/building_supply_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building_supply_store", 
+                "@type": "Node", 
+                "label": "a building supply store", 
+                "language": "en", 
+                "term": "/c/en/building_supply_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "surfaceText": "You are likely to find [[a bathtub]] in [[a building supply store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bathtub/,/c/en/expensive_hotel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/expensive_hotel", 
+                "@type": "Node", 
+                "label": "an expensive hotel", 
+                "language": "en", 
+                "term": "/c/en/expensive_hotel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "surfaceText": "You are likely to find [[a bathtub]] in [[an expensive hotel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bathtub/,/c/en/home_improvement_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home_improvement_store", 
+                "@type": "Node", 
+                "label": "a home improvement store", 
+                "language": "en", 
+                "term": "/c/en/home_improvement_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "surfaceText": "You are likely to find [[a bathtub]] in [[a home improvement store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/ring/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "the bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/robbjt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/robbjt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ring", 
+                "@type": "Node", 
+                "label": "a ring", 
+                "language": "en", 
+                "term": "/c/en/ring"
+            }, 
+            "surfaceText": "You are likely to find [[a ring]] in [[the bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shampoo_and_conditioner/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/godwasamonkey/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/godwasamonkey"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shampoo_and_conditioner", 
+                "@type": "Node", 
+                "label": "a shampoo and conditioner", 
+                "language": "en", 
+                "term": "/c/en/shampoo_and_conditioner"
+            }, 
+            "surfaceText": "You are likely to find [[a shampoo and conditioner]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_curtain/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rickyro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rickyro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain", 
+                "@type": "Node", 
+                "label": "a shower curtain", 
+                "language": "en", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": "You are likely to find [[a shower curtain]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spout/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spout", 
+                "@type": "Node", 
+                "label": "a spout", 
+                "language": "en", 
+                "term": "/c/en/spout"
+            }, 
+            "surfaceText": "You are likely to find [[a spout]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stop/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "the bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tbrdboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tbrdboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stop", 
+                "@type": "Node", 
+                "label": "a stop", 
+                "language": "en", 
+                "term": "/c/en/stop"
+            }, 
+            "surfaceText": "You are likely to find [[a stop]] in [[the bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tap/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tap", 
+                "@type": "Node", 
+                "label": "a tap", 
+                "language": "en", 
+                "term": "/c/en/tap"
+            }, 
+            "surfaceText": "You are likely to find [[a tap]] in [[a bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wash_cloth/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "the bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diantell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diantell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wash_cloth", 
+                "@type": "Node", 
+                "label": "a wash cloth", 
+                "language": "en", 
+                "term": "/c/en/wash_cloth"
+            }, 
+            "surfaceText": "You are likely to find [[a wash cloth]] in [[the bathtub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/water/,/c/en/bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathtub", 
+                "@type": "Node", 
+                "label": "a bathtub", 
+                "language": "en", 
+                "term": "/c/en/bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matrix29/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matrix29"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water", 
+                "@type": "Node", 
+                "label": "water", 
+                "language": "en", 
+                "term": "/c/en/water"
+            }, 
+            "surfaceText": "You are likely to find [[water]] in [[a bathtub]]", 
+            "weight": 1.0
+        }
+    ]
+}

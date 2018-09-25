@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stable&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/stable/,/c/en/holding_horses/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holding_horses", 
+                "@type": "Node", 
+                "label": "holding horses", 
+                "language": "en", 
+                "term": "/c/en/holding_horses"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable", 
+                "@type": "Node", 
+                "label": "A stable", 
+                "language": "en", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": "[[A stable]] is used for [[holding horses]]", 
+            "weight": 1.0
+        }
+    ]
+}

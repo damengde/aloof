@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/easel&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/easel/,/c/en/art_show/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/art_show", 
+                "@type": "Node", 
+                "label": "an art show", 
+                "language": "en", 
+                "term": "/c/en/art_show"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jennifer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jennifer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/easel", 
+                "@type": "Node", 
+                "label": "an easel", 
+                "language": "en", 
+                "term": "/c/en/easel"
+            }, 
+            "surfaceText": "*Something you find at [[an art show]] is [[an easel]]", 
+            "weight": 1.0
+        }
+    ]
+}

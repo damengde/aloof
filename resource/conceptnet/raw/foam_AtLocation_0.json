@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/foam&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/foam/,/c/en/fire_extinguisher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire_extinguisher", 
+                "@type": "Node", 
+                "label": "a fire extinguisher", 
+                "language": "en", 
+                "term": "/c/en/fire_extinguisher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/foam", 
+                "@type": "Node", 
+                "label": "foam", 
+                "language": "en", 
+                "term": "/c/en/foam"
+            }, 
+            "surfaceText": "You are likely to find [[foam]] in [[a fire extinguisher]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/foam/,/c/en/waterfall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/waterfall", 
+                "@type": "Node", 
+                "label": "a waterfall", 
+                "language": "en", 
+                "term": "/c/en/waterfall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ovan4/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ovan4"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/foam", 
+                "@type": "Node", 
+                "label": "foam", 
+                "language": "en", 
+                "term": "/c/en/foam"
+            }, 
+            "surfaceText": "*Something you find at [[a waterfall]] is [[foam]]", 
+            "weight": 1.0
+        }
+    ]
+}

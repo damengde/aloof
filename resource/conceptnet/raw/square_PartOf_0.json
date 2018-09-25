@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/square&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/square/n/,/c/en/checkerboard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/checkerboard/n", 
+                "@type": "Node", 
+                "label": "checkerboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/checkerboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/square/n", 
+                "@type": "Node", 
+                "label": "square", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/square"
+            }, 
+            "surfaceText": "[[square]] is a part of [[checkerboard]]", 
+            "weight": 2.0
+        }
+    ]
+}

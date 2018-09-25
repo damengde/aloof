@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fax_machine&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fax_machine/,/c/en/office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/office", 
+                "@type": "Node", 
+                "label": "the office", 
+                "language": "en", 
+                "term": "/c/en/office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/takemoto/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/takemoto"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fax_machine", 
+                "@type": "Node", 
+                "label": "a fax machine", 
+                "language": "en", 
+                "term": "/c/en/fax_machine"
+            }, 
+            "surfaceText": "*Something you find at [[the office]] is [[a fax machine]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fax_machine/,/c/en/work/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work", 
+                "@type": "Node", 
+                "label": "work", 
+                "language": "en", 
+                "term": "/c/en/work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amphibian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amphibian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fax_machine", 
+                "@type": "Node", 
+                "label": "a fax machine", 
+                "language": "en", 
+                "term": "/c/en/fax_machine"
+            }, 
+            "surfaceText": "*Something you find at [[work]] is [[a fax machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

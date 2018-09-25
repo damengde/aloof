@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tatami&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tatami/,/c/en/floor_covering/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/floor_covering", 
+                "@type": "Node", 
+                "label": "floor covering", 
+                "language": "en", 
+                "term": "/c/en/floor_covering"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/eturner/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/eturner"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tatami", 
+                "@type": "Node", 
+                "label": "tatami", 
+                "language": "en", 
+                "term": "/c/en/tatami"
+            }, 
+            "surfaceText": "[[tatami]] is a type of [[floor covering]].", 
+            "weight": 1.0
+        }
+    ]
+}

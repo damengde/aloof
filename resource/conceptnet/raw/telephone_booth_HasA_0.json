@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone_booth&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/telephone_booth/,/c/en/pay_telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pay_telephone", 
+                "@type": "Node", 
+                "label": "a pay telephone", 
+                "language": "en", 
+                "term": "/c/en/pay_telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "A telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[A telephone booth]] contains [[a pay telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/telephone_booth/,/c/en/public_telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/public_telephone", 
+                "@type": "Node", 
+                "label": "a public telephone", 
+                "language": "en", 
+                "term": "/c/en/public_telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary47/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary47"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_booth", 
+                "@type": "Node", 
+                "label": "A telephone booth", 
+                "language": "en", 
+                "term": "/c/en/telephone_booth"
+            }, 
+            "surfaceText": "[[A telephone booth]] contains [[a public telephone]]", 
+            "weight": 1.0
+        }
+    ]
+}

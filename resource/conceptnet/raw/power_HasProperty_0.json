@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/power&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/knowledge/,/c/en/power/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/neqsus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/neqsus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knowledge", 
+                "@type": "Node", 
+                "label": "knowledge", 
+                "language": "en", 
+                "term": "/c/en/knowledge"
+            }, 
+            "surfaceText": "[[knowledge]] is [[power]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/power/,/c/en/fleeting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fleeting", 
+                "@type": "Node", 
+                "label": "fleeting", 
+                "language": "en", 
+                "term": "/c/en/fleeting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/power", 
+                "@type": "Node", 
+                "label": "Power", 
+                "language": "en", 
+                "term": "/c/en/power"
+            }, 
+            "surfaceText": "[[Power]] is [[fleeting]]", 
+            "weight": 1.0
+        }
+    ]
+}

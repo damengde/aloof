@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/test&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hard_questions/,/c/en/test/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "a test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hard_questions", 
+                "@type": "Node", 
+                "label": "hard questions", 
+                "language": "en", 
+                "term": "/c/en/hard_questions"
+            }, 
+            "surfaceText": "*Something you find on [[a test]] is [[hard questions]]", 
+            "weight": 1.0
+        }
+    ]
+}

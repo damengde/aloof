@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plant&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/plant/,/c/en/alive/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/alive", 
+                "@type": "Node", 
+                "label": "alive", 
+                "language": "en", 
+                "term": "/c/en/alive"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/czdurham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/czdurham"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djuber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/djuber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "a plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "surfaceText": "[[a plant]] is [[alive]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/plant/,/c/en/growing_taller/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/growing_taller", 
+                "@type": "Node", 
+                "label": "growing taller", 
+                "language": "en", 
+                "term": "/c/en/growing_taller"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrtj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrtj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plant", 
+                "@type": "Node", 
+                "label": "A plant", 
+                "language": "en", 
+                "term": "/c/en/plant"
+            }, 
+            "surfaceText": "[[A plant]] can be [[growing taller]]", 
+            "weight": 1.0
+        }
+    ]
+}

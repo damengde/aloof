@@ -1,0 +1,188 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/water_bottle&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lota/n/,/c/en/water_bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/water_bottle/n", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lota/n", 
+                "@type": "Node", 
+                "label": "lota", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lota"
+            }, 
+            "surfaceText": "[[lota]] is a type of [[water bottle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bidon/,/c/en/water_bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/water_bottle/n", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bidon", 
+                "@type": "Node", 
+                "label": "bidon", 
+                "language": "en", 
+                "term": "/c/en/bidon"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sports_bottle/,/c/en/water_bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/water_bottle/n", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sports_bottle", 
+                "@type": "Node", 
+                "label": "sports bottle", 
+                "language": "en", 
+                "term": "/c/en/sports_bottle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_bottle/,/c/en/bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/bottle/n", 
+                "@type": "Node", 
+                "label": "bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_bottle", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_bottle/n/,/c/en/bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bottle/n", 
+                "@type": "Node", 
+                "label": "bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_bottle/n", 
+                "@type": "Node", 
+                "label": "water bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_bottle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

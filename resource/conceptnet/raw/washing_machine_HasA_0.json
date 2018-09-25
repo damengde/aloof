@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/washing_machine&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/house/,/c/en/washing_machine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_machine", 
+                "@type": "Node", 
+                "label": "a washing machine", 
+                "language": "en", 
+                "term": "/c/en/washing_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cklaene/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cklaene"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "A house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "surfaceText": "[[A house]] has [[a washing machine]]", 
+            "weight": 1.0
+        }
+    ]
+}

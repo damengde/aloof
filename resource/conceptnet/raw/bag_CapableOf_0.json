@@ -1,0 +1,230 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bag&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/carry_groceries/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_groceries", 
+                "@type": "Node", 
+                "label": "carry groceries", 
+                "language": "en", 
+                "term": "/c/en/carry_groceries"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/waltglass/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/waltglass"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "a bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[a bag]] can [[carry groceries]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/carry_groceries_in/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_groceries_in", 
+                "@type": "Node", 
+                "label": "carry groceries in it", 
+                "language": "en", 
+                "term": "/c/en/carry_groceries_in"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amoffit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amoffit"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/waltglass/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/waltglass"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "a bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[a bag]] can [[carry groceries in it]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/carry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry", 
+                "@type": "Node", 
+                "label": "carry something", 
+                "language": "en", 
+                "term": "/c/en/carry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0210420/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0210420"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "a bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[a bag]] can [[carry something]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/goal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/goal", 
+                "@type": "Node", 
+                "label": "be a goal", 
+                "language": "en", 
+                "term": "/c/en/goal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wildhare/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wildhare"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "a bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[a bag]] can [[be a goal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/hold_other_bags/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_other_bags", 
+                "@type": "Node", 
+                "label": "hold other bags", 
+                "language": "en", 
+                "term": "/c/en/hold_other_bags"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "A bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[A bag]] can [[hold other bags]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bag/,/c/en/springing_leak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/springing_leak", 
+                "@type": "Node", 
+                "label": "be springing a leak", 
+                "language": "en", 
+                "term": "/c/en/springing_leak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cerewa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cerewa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bag", 
+                "@type": "Node", 
+                "label": "A bag", 
+                "language": "en", 
+                "term": "/c/en/bag"
+            }, 
+            "surfaceText": "[[A bag]] can [[be springing a leak]]", 
+            "weight": 1.0
+        }
+    ]
+}

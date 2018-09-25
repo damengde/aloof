@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wash_cloth&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/towel/,/c/en/wash_cloth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wash_cloth", 
+                "@type": "Node", 
+                "label": "a wash cloth", 
+                "language": "en", 
+                "term": "/c/en/wash_cloth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/rosa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/rosa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/towel", 
+                "@type": "Node", 
+                "label": "Towel", 
+                "language": "en", 
+                "term": "/c/en/towel"
+            }, 
+            "surfaceText": "[[Towel]] is [[a wash cloth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wash_cloth/,/c/en/smaller_than_hand_towel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/smaller_than_hand_towel", 
+                "@type": "Node", 
+                "label": "smaller than a hand towel", 
+                "language": "en", 
+                "term": "/c/en/smaller_than_hand_towel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wash_cloth", 
+                "@type": "Node", 
+                "label": "a wash cloth", 
+                "language": "en", 
+                "term": "/c/en/wash_cloth"
+            }, 
+            "surfaceText": "[[a wash cloth]] is [[smaller than a hand towel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wash_cloth/,/c/en/small_towel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/small_towel", 
+                "@type": "Node", 
+                "label": "a small towel", 
+                "language": "en", 
+                "term": "/c/en/small_towel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/szoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/szoth"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wash_cloth", 
+                "@type": "Node", 
+                "label": "a wash cloth", 
+                "language": "en", 
+                "term": "/c/en/wash_cloth"
+            }, 
+            "surfaceText": "[[a wash cloth]] is [[a small towel]]", 
+            "weight": 1.0
+        }
+    ]
+}

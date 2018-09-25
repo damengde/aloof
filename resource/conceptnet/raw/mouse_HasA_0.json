@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mouse&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/mouse/,/c/en/short_lifespan/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/short_lifespan", 
+                "@type": "Node", 
+                "label": "a short lifespan", 
+                "language": "en", 
+                "term": "/c/en/short_lifespan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "A mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "surfaceText": "[[A mouse]] has [[a short lifespan]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/computer/,/c/en/mouse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "a mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/computer", 
+                "@type": "Node", 
+                "label": "a computer", 
+                "language": "en", 
+                "term": "/c/en/computer"
+            }, 
+            "surfaceText": "[[a computer]] has [[a mouse]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/mouse/,/c/en/whiskers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/whiskers", 
+                "@type": "Node", 
+                "label": "whiskers", 
+                "language": "en", 
+                "term": "/c/en/whiskers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mfox/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mfox"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouse", 
+                "@type": "Node", 
+                "label": "a mouse", 
+                "language": "en", 
+                "term": "/c/en/mouse"
+            }, 
+            "surfaceText": "[[a mouse]] has [[whiskers]]", 
+            "weight": 1.0
+        }
+    ]
+}

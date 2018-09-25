@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tank&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tank/,/c/en/advance_on_enemy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/advance_on_enemy", 
+                "@type": "Node", 
+                "label": "advance on the enemy", 
+                "language": "en", 
+                "term": "/c/en/advance_on_enemy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "A tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "surfaceText": "[[A tank]] can [[advance on the enemy]]", 
+            "weight": 1.0
+        }
+    ]
+}

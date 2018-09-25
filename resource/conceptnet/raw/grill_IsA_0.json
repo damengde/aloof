@@ -1,0 +1,397 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grill&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/n/,/c/en/framework/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/framework/n", 
+                "@type": "Node", 
+                "label": "framework", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/framework"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill/n", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[grill]] is a type of [[framework]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bbq/,/c/en/grill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qubit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qubit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bbq", 
+                "@type": "Node", 
+                "label": "A BBQ", 
+                "language": "en", 
+                "term": "/c/en/bbq"
+            }, 
+            "surfaceText": "[[A BBQ]] is a type of [[grill]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cooking_grid/n/,/c/en/grill/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/grill/n", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cooking_grid/n", 
+                "@type": "Node", 
+                "label": "cooking grid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooking_grid"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dishwasher_rack/n/,/c/en/grill/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/grill/n", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dishwasher_rack/n", 
+                "@type": "Node", 
+                "label": "dishwasher rack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dishwasher_rack"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/,/c/en/form_of_cooking_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_cooking_food", 
+                "@type": "Node", 
+                "label": "a form of cooking food", 
+                "language": "en", 
+                "term": "/c/en/form_of_cooking_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/heatherjay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/heatherjay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[grill]] is [[a form of cooking food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/,/c/en/metal_lattice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/metal_lattice", 
+                "@type": "Node", 
+                "label": "a metal lattice", 
+                "language": "en", 
+                "term": "/c/en/metal_lattice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/walterbauer2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/walterbauer2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "A grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[A grill]] is [[a metal lattice]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/,/c/en/place/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place", 
+                "@type": "Node", 
+                "label": "a place", 
+                "language": "en", 
+                "term": "/c/en/place"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobs/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobs"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "a grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[a grill]] is [[a place]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/,/c/en/stove/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stove", 
+                "@type": "Node", 
+                "label": "stove", 
+                "language": "en", 
+                "term": "/c/en/stove"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "a grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[a grill]] is a kind of [[stove]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/,/c/en/way_of_cooking_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/way_of_cooking_food", 
+                "@type": "Node", 
+                "label": "a way of cooking food", 
+                "language": "en", 
+                "term": "/c/en/way_of_cooking_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "Grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[Grill]] is [[a way of cooking food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grill/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill/n", 
+                "@type": "Node", 
+                "label": "grill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/one_way_to_cook_meat/,/c/en/grill/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "to grill it", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gtadda17/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gtadda17"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/one_way_to_cook_meat", 
+                "@type": "Node", 
+                "label": "One way to cook meat", 
+                "language": "en", 
+                "term": "/c/en/one_way_to_cook_meat"
+            }, 
+            "surfaceText": "[[One way to cook meat]] is [[to grill it]]", 
+            "weight": 1.0
+        }
+    ]
+}

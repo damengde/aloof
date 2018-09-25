@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wheat_berry/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_berry/n", 
+                "@type": "Node", 
+                "label": "wheat berry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat_berry"
+            }, 
+            "surfaceText": "[[wheat berry]] is a part of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wheat_germ/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_germ/n", 
+                "@type": "Node", 
+                "label": "wheat germ", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat_germ"
+            }, 
+            "surfaceText": "[[wheat germ]] is a part of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wheat/n/,/c/en/common_wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/common_wheat/n", 
+                "@type": "Node", 
+                "label": "common wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/common_wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is a part of [[common wheat]]", 
+            "weight": 2.0
+        }
+    ]
+}

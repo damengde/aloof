@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grill&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/grill/,/c/en/barbeque_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/barbeque_food", 
+                "@type": "Node", 
+                "label": "barbeque food", 
+                "language": "en", 
+                "term": "/c/en/barbeque_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jd204c/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jd204c"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "A grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[A grill]] can [[barbeque food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/grill/,/c/en/warm_toast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/warm_toast", 
+                "@type": "Node", 
+                "label": "warm toast", 
+                "language": "en", 
+                "term": "/c/en/warm_toast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davewil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davewil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grill", 
+                "@type": "Node", 
+                "label": "a grill", 
+                "language": "en", 
+                "term": "/c/en/grill"
+            }, 
+            "surfaceText": "[[a grill]] can [[warm toast]]", 
+            "weight": 1.0
+        }
+    ]
+}

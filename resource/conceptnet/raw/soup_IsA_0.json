@@ -1,0 +1,2203 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soup&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fracture/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fracture"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fracture/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/fracture"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[soup]] is [[food]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/alphabet_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/alphabet_soup/n", 
+                "@type": "Node", 
+                "label": "alphabet soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/alphabet_soup"
+            }, 
+            "surfaceText": "[[alphabet soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/billibi/,/c/en/soup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "a soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/billibi", 
+                "@type": "Node", 
+                "label": "Billibi", 
+                "language": "en", 
+                "term": "/c/en/billibi"
+            }, 
+            "surfaceText": "[[Billibi]] is [[a soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/borsch/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/borsch/n", 
+                "@type": "Node", 
+                "label": "borsch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/borsch"
+            }, 
+            "surfaceText": "[[borsch]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/broth/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broth/n", 
+                "@type": "Node", 
+                "label": "broth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/broth"
+            }, 
+            "surfaceText": "[[broth]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock_leekie/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock_leekie/n", 
+                "@type": "Node", 
+                "label": "cock-a-leekie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock_leekie"
+            }, 
+            "surfaceText": "[[cock-a-leekie]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/consomme/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/consomme/n", 
+                "@type": "Node", 
+                "label": "consomme", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/consomme"
+            }, 
+            "surfaceText": "[[consomme]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/eggdrop_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/eggdrop_soup/n", 
+                "@type": "Node", 
+                "label": "eggdrop soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/eggdrop_soup"
+            }, 
+            "surfaceText": "[[eggdrop soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gazpacho/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gazpacho/n", 
+                "@type": "Node", 
+                "label": "gazpacho", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gazpacho"
+            }, 
+            "surfaceText": "[[gazpacho]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/green_pea_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/green_pea_soup/n", 
+                "@type": "Node", 
+                "label": "green pea soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/green_pea_soup"
+            }, 
+            "surfaceText": "[[green pea soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gumbo/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gumbo/n", 
+                "@type": "Node", 
+                "label": "gumbo", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gumbo"
+            }, 
+            "surfaceText": "[[gumbo]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/julienne/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/julienne/n", 
+                "@type": "Node", 
+                "label": "julienne", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/julienne"
+            }, 
+            "surfaceText": "[[julienne]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lentil_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lentil_soup/n", 
+                "@type": "Node", 
+                "label": "lentil soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lentil_soup"
+            }, 
+            "surfaceText": "[[lentil soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/marmite/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/marmite/n", 
+                "@type": "Node", 
+                "label": "marmite", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/marmite"
+            }, 
+            "surfaceText": "[[marmite]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mock_turtle_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mock_turtle_soup/n", 
+                "@type": "Node", 
+                "label": "mock turtle soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mock_turtle_soup"
+            }, 
+            "surfaceText": "[[mock turtle soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mulligatawny/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mulligatawny/n", 
+                "@type": "Node", 
+                "label": "mulligatawny", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mulligatawny"
+            }, 
+            "surfaceText": "[[mulligatawny]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/oxtail_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/oxtail_soup/n", 
+                "@type": "Node", 
+                "label": "oxtail soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oxtail_soup"
+            }, 
+            "surfaceText": "[[oxtail soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pea_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pea_soup/n", 
+                "@type": "Node", 
+                "label": "pea soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pea_soup"
+            }, 
+            "surfaceText": "[[pea soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper_pot/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper_pot/n", 
+                "@type": "Node", 
+                "label": "pepper pot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper_pot"
+            }, 
+            "surfaceText": "[[pepper pot]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/petite_marmite/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/petite_marmite/n", 
+                "@type": "Node", 
+                "label": "petite marmite", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/petite_marmite"
+            }, 
+            "surfaceText": "[[petite marmite]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/potage/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/potage/n", 
+                "@type": "Node", 
+                "label": "potage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/potage"
+            }, 
+            "surfaceText": "[[potage]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scotch_broth/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scotch_broth/n", 
+                "@type": "Node", 
+                "label": "Scotch broth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scotch_broth"
+            }, 
+            "surfaceText": "[[Scotch broth]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/,/c/en/light_meal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/light_meal", 
+                "@type": "Node", 
+                "label": "a light meal", 
+                "language": "en", 
+                "term": "/c/en/light_meal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/push"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "Soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[Soup]] is [[a light meal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup_du_jour/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup_du_jour/n", 
+                "@type": "Node", 
+                "label": "soup du jour", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup_du_jour"
+            }, 
+            "surfaceText": "[[soup du jour]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/composition/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/composition/n", 
+                "@type": "Node", 
+                "label": "composition", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/composition"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[soup]] is a type of [[composition]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dish/n", 
+                "@type": "Node", 
+                "label": "dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[soup]] is a type of [[dish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/situation/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/situation/n", 
+                "@type": "Node", 
+                "label": "situation", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/situation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[soup]] is a type of [[situation]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/split_pea_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/split_pea_soup/n", 
+                "@type": "Node", 
+                "label": "split-pea soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/split_pea_soup"
+            }, 
+            "surfaceText": "[[split-pea soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/turtle_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle_soup/n", 
+                "@type": "Node", 
+                "label": "turtle soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/turtle_soup"
+            }, 
+            "surfaceText": "[[turtle soup]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vichyssoise/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vichyssoise/n", 
+                "@type": "Node", 
+                "label": "vichyssoise", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vichyssoise"
+            }, 
+            "surfaceText": "[[vichyssoise]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/won_ton/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/won_ton/n", 
+                "@type": "Node", 
+                "label": "won ton", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/won_ton"
+            }, 
+            "surfaceText": "[[won ton]] is a type of [[soup]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bisque/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bisque", 
+                "@type": "Node", 
+                "label": "bisque", 
+                "language": "en", 
+                "term": "/c/en/bisque"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bisque/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bisque/n", 
+                "@type": "Node", 
+                "label": "bisque", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bisque"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bouillon/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bouillon", 
+                "@type": "Node", 
+                "label": "bouillon", 
+                "language": "en", 
+                "term": "/c/en/bouillon"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/broth/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broth", 
+                "@type": "Node", 
+                "label": "broth", 
+                "language": "en", 
+                "term": "/c/en/broth"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/campbell_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/campbell_soup/n", 
+                "@type": "Node", 
+                "label": "campbell soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/campbell_soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chicken_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken_soup/n", 
+                "@type": "Node", 
+                "label": "chicken soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chicken_soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chilled_sweet_corn_soup/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chilled_sweet_corn_soup/n", 
+                "@type": "Node", 
+                "label": "chilled sweet corn soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chilled_sweet_corn_soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chowder/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chowder", 
+                "@type": "Node", 
+                "label": "chowder", 
+                "language": "en", 
+                "term": "/c/en/chowder"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chowder/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chowder/n", 
+                "@type": "Node", 
+                "label": "chowder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chowder"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/consomm\u00e9/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/consomm\u00e9", 
+                "@type": "Node", 
+                "label": "consomm\u00e9", 
+                "language": "en", 
+                "term": "/c/en/consomm\u00e9"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cream_soup/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cream_soup", 
+                "@type": "Node", 
+                "label": "cream soup", 
+                "language": "en", 
+                "term": "/c/en/cream_soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gazpacho/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gazpacho", 
+                "@type": "Node", 
+                "label": "gazpacho", 
+                "language": "en", 
+                "term": "/c/en/gazpacho"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gruel/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gruel", 
+                "@type": "Node", 
+                "label": "gruel", 
+                "language": "en", 
+                "term": "/c/en/gruel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/karl_tries_to_drink/,/c/en/soup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/karl_tries_to_drink", 
+                "@type": "Node", 
+                "label": "Karl tries to drink", 
+                "language": "en", 
+                "term": "/c/en/karl_tries_to_drink"
+            }, 
+            "surfaceText": "[[Karl tries to drink]] is [[soup]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pho/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pho/n", 
+                "@type": "Node", 
+                "label": "pho", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pho"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/porridge/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/porridge", 
+                "@type": "Node", 
+                "label": "porridge", 
+                "language": "en", 
+                "term": "/c/en/porridge"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pur\u00e9e/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pur\u00e9e", 
+                "@type": "Node", 
+                "label": "pur\u00e9e", 
+                "language": "en", 
+                "term": "/c/en/pur\u00e9e"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ramen/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ramen/n", 
+                "@type": "Node", 
+                "label": "ramen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ramen"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/,/c/en/commonly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/commonly", 
+                "@type": "Node", 
+                "label": "commonly", 
+                "language": "en", 
+                "term": "/c/en/commonly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[soup]] is [[commonly]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/,/c/en/good_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_food", 
+                "@type": "Node", 
+                "label": "good food", 
+                "language": "en", 
+                "term": "/c/en/good_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "Soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": "[[Soup]] is [[good food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/course/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/course/n", 
+                "@type": "Node", 
+                "label": "course", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/course"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/food_composite/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_composite/n", 
+                "@type": "Node", 
+                "label": "food composite", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_composite"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/food_item/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_item/n", 
+                "@type": "Node", 
+                "label": "food item", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_item"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/n/,/c/en/liquid/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/liquid/n", 
+                "@type": "Node", 
+                "label": "liquid", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup_stock/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup_stock/n", 
+                "@type": "Node", 
+                "label": "soup stock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup_stock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stew/n/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stew/n", 
+                "@type": "Node", 
+                "label": "stew", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stew"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/summer_soup/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/summer_soup", 
+                "@type": "Node", 
+                "label": "summer soup", 
+                "language": "en", 
+                "term": "/c/en/summer_soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/velout\u00e9/,/c/en/soup/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/soup/n", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soup"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/velout\u00e9", 
+                "@type": "Node", 
+                "label": "velout\u00e9", 
+                "language": "en", 
+                "term": "/c/en/velout\u00e9"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soup/,/c/en/food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/food/n", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soup", 
+                "@type": "Node", 
+                "label": "soup", 
+                "language": "en", 
+                "term": "/c/en/soup"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

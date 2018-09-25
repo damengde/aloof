@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mantle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lower_mantle/n/,/c/en/mantle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mantle/n", 
+                "@type": "Node", 
+                "label": "mantle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mantle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lower_mantle/n", 
+                "@type": "Node", 
+                "label": "lower mantle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lower_mantle"
+            }, 
+            "surfaceText": "[[lower mantle]] is a part of [[mantle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mantle/n/,/c/en/lithosphere/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lithosphere/n", 
+                "@type": "Node", 
+                "label": "lithosphere", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lithosphere"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mantle/n", 
+                "@type": "Node", 
+                "label": "mantle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mantle"
+            }, 
+            "surfaceText": "[[mantle]] is a part of [[lithosphere]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/upper_mantle/n/,/c/en/mantle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mantle/n", 
+                "@type": "Node", 
+                "label": "mantle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mantle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/upper_mantle/n", 
+                "@type": "Node", 
+                "label": "upper mantle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/upper_mantle"
+            }, 
+            "surfaceText": "[[upper mantle]] is a part of [[mantle]]", 
+            "weight": 2.0
+        }
+    ]
+}

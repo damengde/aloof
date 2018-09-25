@@ -1,0 +1,157 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/push_button&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/finger/,/c/en/push_button/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/push_button", 
+                "@type": "Node", 
+                "label": "push a button", 
+                "language": "en", 
+                "term": "/c/en/push_button"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alxb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alxb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/finger", 
+                "@type": "Node", 
+                "label": "a finger", 
+                "language": "en", 
+                "term": "/c/en/finger"
+            }, 
+            "surfaceText": "You can use [[a finger]] to [[push a button]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/push_button/n/,/c/en/detonate/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/detonate/v", 
+                "@type": "Node", 
+                "label": "detonate", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/detonate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/push_button/n", 
+                "@type": "Node", 
+                "label": "push button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button"
+            }, 
+            "surfaceText": "[[push button]] is used for [[detonate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/push_button/n/,/c/en/operate/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/operate/v", 
+                "@type": "Node", 
+                "label": "operate", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/operate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/push_button/n", 
+                "@type": "Node", 
+                "label": "push button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button"
+            }, 
+            "surfaceText": "[[push button]] is used for [[operate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/push_button/n/,/c/en/trip/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/trip/v", 
+                "@type": "Node", 
+                "label": "trip", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/trip"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/push_button/n", 
+                "@type": "Node", 
+                "label": "push button", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/push_button"
+            }, 
+            "surfaceText": "[[push button]] is used for [[trip]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/freezer&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/freezer/,/c/en/cold_enough_to_freeze_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cold_enough_to_freeze_water", 
+                "@type": "Node", 
+                "label": "cold enough to freeze water", 
+                "language": "en", 
+                "term": "/c/en/cold_enough_to_freeze_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rkulow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rkulow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/freezer", 
+                "@type": "Node", 
+                "label": "A freezer", 
+                "language": "en", 
+                "term": "/c/en/freezer"
+            }, 
+            "surfaceText": "[[A freezer]] is [[cold enough to freeze water]]", 
+            "weight": 1.0
+        }
+    ]
+}

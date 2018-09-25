@@ -1,0 +1,157 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shell&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shell/,/c/en/egg/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mobolajiolawumi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mobolajiolawumi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/strand/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/strand"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "surfaceText": "*[[egg]] has [[shell]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shell/n/,/c/en/egg/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/egg/n", 
+                "@type": "Node", 
+                "label": "egg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/egg"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shell/n", 
+                "@type": "Node", 
+                "label": "shell", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shell"
+            }, 
+            "surfaceText": "[[shell]] is a part of [[egg]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shell/n/,/c/en/grandfather_clock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grandfather_clock/n", 
+                "@type": "Node", 
+                "label": "grandfather clock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grandfather_clock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shell/n", 
+                "@type": "Node", 
+                "label": "shell", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shell"
+            }, 
+            "surfaceText": "[[shell]] is a part of [[grandfather clock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sliding_seat/n/,/c/en/shell/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shell/n", 
+                "@type": "Node", 
+                "label": "shell", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sliding_seat/n", 
+                "@type": "Node", 
+                "label": "sliding seat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sliding_seat"
+            }, 
+            "surfaceText": "[[sliding seat]] is a part of [[shell]]", 
+            "weight": 2.0
+        }
+    ]
+}

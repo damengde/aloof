@@ -1,0 +1,343 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hen&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hen/,/c/en/chicken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "a chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/morgoth/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/morgoth"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/papayaimee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/papayaimee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hen", 
+                "@type": "Node", 
+                "label": "a hen", 
+                "language": "en", 
+                "term": "/c/en/hen"
+            }, 
+            "surfaceText": "[[a hen]] is [[a chicken]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/brood_hen/n/,/c/en/hen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/brood_hen/n", 
+                "@type": "Node", 
+                "label": "brood hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/brood_hen"
+            }, 
+            "surfaceText": "[[brood hen]] is a type of [[hen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cackler/n/,/c/en/hen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cackler/n", 
+                "@type": "Node", 
+                "label": "cackler", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cackler"
+            }, 
+            "surfaceText": "[[cackler]] is a type of [[hen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hen/n/,/c/en/bird/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bird/n", 
+                "@type": "Node", 
+                "label": "bird", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bird"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "surfaceText": "[[hen]] is a type of [[bird]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hen/n/,/c/en/chicken/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chicken/n", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "surfaceText": "[[hen]] is a type of [[chicken]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hen/n/,/c/en/female/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/female/n", 
+                "@type": "Node", 
+                "label": "female", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/female"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "surfaceText": "[[hen]] is a type of [[female]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/layer/n/,/c/en/hen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/layer/n", 
+                "@type": "Node", 
+                "label": "layer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/layer"
+            }, 
+            "surfaceText": "[[layer]] is a type of [[hen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mother_hen/n/,/c/en/hen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mother_hen/n", 
+                "@type": "Node", 
+                "label": "mother hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mother_hen"
+            }, 
+            "surfaceText": "[[mother hen]] is a type of [[hen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pullet/n/,/c/en/hen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hen/n", 
+                "@type": "Node", 
+                "label": "hen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pullet/n", 
+                "@type": "Node", 
+                "label": "pullet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pullet"
+            }, 
+            "surfaceText": "[[pullet]] is a type of [[hen]]", 
+            "weight": 2.0
+        }
+    ]
+}

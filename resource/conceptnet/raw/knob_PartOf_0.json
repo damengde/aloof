@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/knob&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knob/n/,/c/en/hilt/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hilt/n", 
+                "@type": "Node", 
+                "label": "hilt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hilt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knob/n", 
+                "@type": "Node", 
+                "label": "knob", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/knob"
+            }, 
+            "surfaceText": "[[knob]] is a part of [[hilt]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knob/,/c/en/radio/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knob", 
+                "@type": "Node", 
+                "label": "knob", 
+                "language": "en", 
+                "term": "/c/en/knob"
+            }, 
+            "surfaceText": "[[knob]] is part of [[radio]].", 
+            "weight": 1.0
+        }
+    ]
+}

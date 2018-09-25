@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/star&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/star/,/c/en/guidance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guidance", 
+                "@type": "Node", 
+                "label": "guidance", 
+                "language": "en", 
+                "term": "/c/en/guidance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "a star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[a star]] is used for [[guidance]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/star/,/c/en/navigate_boat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/navigate_boat", 
+                "@type": "Node", 
+                "label": "navigate a boat", 
+                "language": "en", 
+                "term": "/c/en/navigate_boat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jennifer13/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jennifer13"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "a star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "You can use [[a star]] to [[navigate a boat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/star/,/c/en/recognizing_excellence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/recognizing_excellence", 
+                "@type": "Node", 
+                "label": "recognizing excellence", 
+                "language": "en", 
+                "term": "/c/en/recognizing_excellence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/star", 
+                "@type": "Node", 
+                "label": "a star", 
+                "language": "en", 
+                "term": "/c/en/star"
+            }, 
+            "surfaceText": "[[a star]] is used for [[recognizing excellence]]", 
+            "weight": 1.0
+        }
+    ]
+}

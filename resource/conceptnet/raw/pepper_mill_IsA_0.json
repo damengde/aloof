@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pepper_mill&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepper_mill/n/,/c/en/mill/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mill/n", 
+                "@type": "Node", 
+                "label": "mill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mill"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper_mill/n", 
+                "@type": "Node", 
+                "label": "pepper mill", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepper_mill"
+            }, 
+            "surfaceText": "[[pepper mill]] is a type of [[mill]]", 
+            "weight": 2.0
+        }
+    ]
+}

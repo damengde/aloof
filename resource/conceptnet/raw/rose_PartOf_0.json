@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rose&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/hip/n/,/c/en/rose/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rose/n", 
+                "@type": "Node", 
+                "label": "rose", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hip/n", 
+                "@type": "Node", 
+                "label": "hip", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hip"
+            }, 
+            "surfaceText": "[[hip]] is a part of [[rose]]", 
+            "weight": 2.0
+        }
+    ]
+}

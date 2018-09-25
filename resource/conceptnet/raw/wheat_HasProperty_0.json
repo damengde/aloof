@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheat&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/wheat/,/c/en/baked_into_bread/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/baked_into_bread", 
+                "@type": "Node", 
+                "label": "baked into bread", 
+                "language": "en", 
+                "term": "/c/en/baked_into_bread"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nlhelper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nlhelper"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] can be [[baked into bread]]", 
+            "weight": 1.0
+        }
+    ]
+}

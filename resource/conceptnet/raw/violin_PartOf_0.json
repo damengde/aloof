@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/violin&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chin_rest/n/,/c/en/violin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/violin/n", 
+                "@type": "Node", 
+                "label": "violin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/violin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chin_rest/n", 
+                "@type": "Node", 
+                "label": "chin rest", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chin_rest"
+            }, 
+            "surfaceText": "[[chin rest]] is a part of [[violin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fiddlestick/n/,/c/en/violin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/violin/n", 
+                "@type": "Node", 
+                "label": "violin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/violin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fiddlestick/n", 
+                "@type": "Node", 
+                "label": "fiddlestick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fiddlestick"
+            }, 
+            "surfaceText": "[[fiddlestick]] is a part of [[violin]]", 
+            "weight": 2.0
+        }
+    ]
+}

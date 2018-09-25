@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/deck_chair&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/deck_chair/n/,/c/en/folding_chair/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/folding_chair/n", 
+                "@type": "Node", 
+                "label": "folding chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/folding_chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deck_chair/n", 
+                "@type": "Node", 
+                "label": "deck chair", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/deck_chair"
+            }, 
+            "surfaceText": "[[deck chair]] is a type of [[folding chair]]", 
+            "weight": 2.0
+        }
+    ]
+}

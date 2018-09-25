@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/giraffe&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/giraffe/,/c/en/drink_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drink_water", 
+                "@type": "Node", 
+                "label": "drink water", 
+                "language": "en", 
+                "term": "/c/en/drink_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/surgchen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/surgchen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/giraffe", 
+                "@type": "Node", 
+                "label": "a giraffe", 
+                "language": "en", 
+                "term": "/c/en/giraffe"
+            }, 
+            "surfaceText": "[[a giraffe]] can [[drink water]]", 
+            "weight": 1.0
+        }
+    ]
+}

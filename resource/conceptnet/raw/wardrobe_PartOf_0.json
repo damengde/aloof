@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wardrobe&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wardrobe/n/,/c/en/clothing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clothing/n", 
+                "@type": "Node", 
+                "label": "clothing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe/n", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "[[wardrobe]] is a part of [[clothing]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wardrobe/n/,/c/en/costume/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/costume/n", 
+                "@type": "Node", 
+                "label": "costume", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/costume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe/n", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "[[wardrobe]] is a part of [[costume]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shirt/,/c/en/wardrobe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shirt", 
+                "@type": "Node", 
+                "label": "shirt", 
+                "language": "en", 
+                "term": "/c/en/shirt"
+            }, 
+            "surfaceText": "[[shirt]] is part of [[wardrobe]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wardrobe/,/c/en/furniture/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/furniture/n", 
+                "@type": "Node", 
+                "label": "furniture", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furniture"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electric_razor&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/electric_razor/,/c/en/more_convenient_than_disposable_razor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/more_convenient_than_disposable_razor", 
+                "@type": "Node", 
+                "label": "more convenient than a disposable razor", 
+                "language": "en", 
+                "term": "/c/en/more_convenient_than_disposable_razor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_razor", 
+                "@type": "Node", 
+                "label": "An electric razor", 
+                "language": "en", 
+                "term": "/c/en/electric_razor"
+            }, 
+            "surfaceText": "[[An electric razor]] is [[more convenient than a disposable razor]]", 
+            "weight": 1.0
+        }
+    ]
+}

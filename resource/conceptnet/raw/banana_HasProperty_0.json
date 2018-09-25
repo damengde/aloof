@@ -1,0 +1,102 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/banana&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/banana/,/c/en/yellow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/yellow", 
+                "@type": "Node", 
+                "label": "yellow", 
+                "language": "en", 
+                "term": "/c/en/yellow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/morgan12x/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/morgan12x"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/davidac897/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/davidac897"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/havasi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/havasi"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sparlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sparlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana", 
+                "@type": "Node", 
+                "label": "A banana", 
+                "language": "en", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "[[A banana]] is [[yellow]]", 
+            "weight": 4.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/banana/,/c/en/good_to_eat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_to_eat", 
+                "@type": "Node", 
+                "label": "good to eat", 
+                "language": "en", 
+                "term": "/c/en/good_to_eat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/isylph/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/isylph"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana", 
+                "@type": "Node", 
+                "label": "A banana", 
+                "language": "en", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "[[A banana]] is [[good to eat]]", 
+            "weight": 1.0
+        }
+    ]
+}

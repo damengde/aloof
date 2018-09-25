@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/exit_sign&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/exit_sign/,/c/en/freeway/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/freeway", 
+                "@type": "Node", 
+                "label": "a freeway", 
+                "language": "en", 
+                "term": "/c/en/freeway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eebaum/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eebaum"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/exit_sign", 
+                "@type": "Node", 
+                "label": "an exit sign", 
+                "language": "en", 
+                "term": "/c/en/exit_sign"
+            }, 
+            "surfaceText": "*Something you find on [[a freeway]] is [[an exit sign]]", 
+            "weight": 1.0
+        }
+    ]
+}

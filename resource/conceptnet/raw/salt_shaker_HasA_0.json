@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/salt_shaker&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/salt_shaker/,/c/en/thousands_of_grains_of_salt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/thousands_of_grains_of_salt", 
+                "@type": "Node", 
+                "label": "thousands of grains of salt", 
+                "language": "en", 
+                "term": "/c/en/thousands_of_grains_of_salt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/awp2222/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/awp2222"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_shaker", 
+                "@type": "Node", 
+                "label": "A salt shaker", 
+                "language": "en", 
+                "term": "/c/en/salt_shaker"
+            }, 
+            "surfaceText": "[[A salt shaker]] contains [[thousands of grains of salt]]", 
+            "weight": 1.0
+        }
+    ]
+}

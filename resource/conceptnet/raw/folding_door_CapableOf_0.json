@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/folding_door&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/folding_door/,/c/en/fold/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fold", 
+                "@type": "Node", 
+                "label": "fold", 
+                "language": "en", 
+                "term": "/c/en/fold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lordprotectorguy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lordprotectorguy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "A folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[A folding door]] can [[fold]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pot&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pot/,/c/en/cloud_memory/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cloud_memory", 
+                "@type": "Node", 
+                "label": "cloud your memory", 
+                "language": "en", 
+                "term": "/c/en/cloud_memory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joschi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joschi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pot", 
+                "@type": "Node", 
+                "label": "Pot", 
+                "language": "en", 
+                "term": "/c/en/pot"
+            }, 
+            "surfaceText": "[[Pot]] can [[cloud your memory]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pot/,/c/en/cloud_minds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cloud_minds", 
+                "@type": "Node", 
+                "label": "cloud minds", 
+                "language": "en", 
+                "term": "/c/en/cloud_minds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/flawedcomputation/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/flawedcomputation"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pot", 
+                "@type": "Node", 
+                "label": "pot", 
+                "language": "en", 
+                "term": "/c/en/pot"
+            }, 
+            "surfaceText": "[[pot]] can [[cloud minds]]", 
+            "weight": 1.0
+        }
+    ]
+}

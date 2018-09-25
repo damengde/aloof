@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/garlic&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/garlic/n/,/c/en/garlic/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/garlic/n", 
+                "@type": "Node", 
+                "label": "garlic", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garlic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/garlic/n", 
+                "@type": "Node", 
+                "label": "garlic", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garlic"
+            }, 
+            "surfaceText": "[[garlic]] is a part of [[garlic]]", 
+            "weight": 2.0
+        }
+    ]
+}

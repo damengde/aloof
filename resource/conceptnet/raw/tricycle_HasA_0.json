@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tricycle&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/tricycle/,/c/en/three_wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/three_wheels", 
+                "@type": "Node", 
+                "label": "three wheels", 
+                "language": "en", 
+                "term": "/c/en/three_wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tricycle", 
+                "@type": "Node", 
+                "label": "A tricycle", 
+                "language": "en", 
+                "term": "/c/en/tricycle"
+            }, 
+            "surfaceText": "[[A tricycle]] has [[three wheels]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/tricycle/,/c/en/wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheels", 
+                "@type": "Node", 
+                "label": "wheels", 
+                "language": "en", 
+                "term": "/c/en/wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tricycle", 
+                "@type": "Node", 
+                "label": "Tricycle", 
+                "language": "en", 
+                "term": "/c/en/tricycle"
+            }, 
+            "surfaceText": "[[Tricycle]] has [[wheels]]", 
+            "weight": 1.0
+        }
+    ]
+}

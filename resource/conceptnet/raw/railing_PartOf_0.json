@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/railing&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ledger_board/n/,/c/en/railing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/railing/n", 
+                "@type": "Node", 
+                "label": "railing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/railing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ledger_board/n", 
+                "@type": "Node", 
+                "label": "ledger board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ledger_board"
+            }, 
+            "surfaceText": "[[ledger board]] is a part of [[railing]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/railing/n/,/c/en/bannister/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bannister/n", 
+                "@type": "Node", 
+                "label": "bannister", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bannister"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/railing/n", 
+                "@type": "Node", 
+                "label": "railing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/railing"
+            }, 
+            "surfaceText": "[[railing]] is a part of [[bannister]]", 
+            "weight": 2.0
+        }
+    ]
+}

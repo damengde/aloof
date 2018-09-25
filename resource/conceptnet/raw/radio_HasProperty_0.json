@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/radio&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/radio/,/c/en/useful_for_listening_to_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_listening_to_music", 
+                "@type": "Node", 
+                "label": "useful for listening to music", 
+                "language": "en", 
+                "term": "/c/en/useful_for_listening_to_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pbassgrrl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pbassgrrl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "The radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[The radio]] is [[useful for listening to music]]", 
+            "weight": 1.0
+        }
+    ]
+}

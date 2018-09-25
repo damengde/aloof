@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chain&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/chain/,/c/en/unable_to_unlock_self/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/unable_to_unlock_self", 
+                "@type": "Node", 
+                "label": "unable to unlock its self", 
+                "language": "en", 
+                "term": "/c/en/unable_to_unlock_self"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chain", 
+                "@type": "Node", 
+                "label": "a chain", 
+                "language": "en", 
+                "term": "/c/en/chain"
+            }, 
+            "surfaceText": "[[a chain]] is [[unable to unlock its self]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/chain/,/c/en/very_difficult_to_cut/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_difficult_to_cut", 
+                "@type": "Node", 
+                "label": "very difficult to cut", 
+                "language": "en", 
+                "term": "/c/en/very_difficult_to_cut"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chain", 
+                "@type": "Node", 
+                "label": "a chain", 
+                "language": "en", 
+                "term": "/c/en/chain"
+            }, 
+            "surfaceText": "[[a chain]] is [[very difficult to cut]]", 
+            "weight": 1.0
+        }
+    ]
+}

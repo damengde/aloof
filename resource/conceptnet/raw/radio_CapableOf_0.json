@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/radio&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/radio/,/c/en/blaring/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/blaring", 
+                "@type": "Node", 
+                "label": "be blaring", 
+                "language": "en", 
+                "term": "/c/en/blaring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "A radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[A radio]] can [[be blaring]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/radio/,/c/en/play_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/play_music", 
+                "@type": "Node", 
+                "label": "play music", 
+                "language": "en", 
+                "term": "/c/en/play_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jd204c/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jd204c"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "A radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[A radio]] can [[play music]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/radio/,/c/en/tells_news/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tells_news", 
+                "@type": "Node", 
+                "label": "tells the news", 
+                "language": "en", 
+                "term": "/c/en/tells_news"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/madvay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/madvay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "The radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[The radio]] often [[tells the news]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/radio/,/c/en/turn_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/turn_on", 
+                "@type": "Node", 
+                "label": "turn on", 
+                "language": "en", 
+                "term": "/c/en/turn_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neuromancer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neuromancer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "a radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[a radio]] can [[turn on]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/instrument&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/instrument/,/c/en/make_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_music", 
+                "@type": "Node", 
+                "label": "make music", 
+                "language": "en", 
+                "term": "/c/en/make_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joycef/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joycef"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/barbarbar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/barbarbar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/instrument", 
+                "@type": "Node", 
+                "label": "an instrument", 
+                "language": "en", 
+                "term": "/c/en/instrument"
+            }, 
+            "surfaceText": "[[an instrument]] can [[make music]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/instrument/,/c/en/play_lots_of_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/play_lots_of_music", 
+                "@type": "Node", 
+                "label": "play lots of music", 
+                "language": "en", 
+                "term": "/c/en/play_lots_of_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/katarnsurfer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/katarnsurfer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/instrument", 
+                "@type": "Node", 
+                "label": "An instrument", 
+                "language": "en", 
+                "term": "/c/en/instrument"
+            }, 
+            "surfaceText": "[[An instrument]] can [[play lots of music]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/instrument/,/c/en/tell_reading/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tell_reading", 
+                "@type": "Node", 
+                "label": "tell a reading", 
+                "language": "en", 
+                "term": "/c/en/tell_reading"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/instrument", 
+                "@type": "Node", 
+                "label": "An instrument", 
+                "language": "en", 
+                "term": "/c/en/instrument"
+            }, 
+            "surfaceText": "[[An instrument]] can [[tell a reading]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sprinkler&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/sprinkler/,/c/en/water_lawn/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_lawn", 
+                "@type": "Node", 
+                "label": "water the lawn", 
+                "language": "en", 
+                "term": "/c/en/water_lawn"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/erikglenn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/erikglenn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sprinkler", 
+                "@type": "Node", 
+                "label": "A sprinkler", 
+                "language": "en", 
+                "term": "/c/en/sprinkler"
+            }, 
+            "surfaceText": "[[A sprinkler]] can [[water the lawn]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/sprinkler/,/c/en/wet_garden/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wet_garden", 
+                "@type": "Node", 
+                "label": "wet the garden", 
+                "language": "en", 
+                "term": "/c/en/wet_garden"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sprinkler", 
+                "@type": "Node", 
+                "label": "A sprinkler", 
+                "language": "en", 
+                "term": "/c/en/sprinkler"
+            }, 
+            "surfaceText": "[[A sprinkler]] can [[wet the garden]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/notepad&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/notepad/,/c/en/paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/paper", 
+                "@type": "Node", 
+                "label": "paper", 
+                "language": "en", 
+                "term": "/c/en/paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "A notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[A notepad]] contains [[paper]]", 
+            "weight": 1.0
+        }
+    ]
+}

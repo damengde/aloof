@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lamp&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/lamp/,/c/en/bright/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bright", 
+                "@type": "Node", 
+                "label": "bright", 
+                "language": "en", 
+                "term": "/c/en/bright"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/ward6e/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/ward6e"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lamp", 
+                "@type": "Node", 
+                "label": "lamp", 
+                "language": "en", 
+                "term": "/c/en/lamp"
+            }, 
+            "surfaceText": "[[lamp]] is [[bright]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/monitor&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/monitor/,/c/en/display_images/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/display_images", 
+                "@type": "Node", 
+                "label": "display images", 
+                "language": "en", 
+                "term": "/c/en/display_images"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/monitor", 
+                "@type": "Node", 
+                "label": "a monitor", 
+                "language": "en", 
+                "term": "/c/en/monitor"
+            }, 
+            "surfaceText": "[[a monitor]] can [[display images]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/monitor/,/c/en/view_bluescreen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/view_bluescreen", 
+                "@type": "Node", 
+                "label": "view bluescreen", 
+                "language": "en", 
+                "term": "/c/en/view_bluescreen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dfluke/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dfluke"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/monitor", 
+                "@type": "Node", 
+                "label": "monitor", 
+                "language": "en", 
+                "term": "/c/en/monitor"
+            }, 
+            "surfaceText": "[[monitor]] can [[view bluescreen]]", 
+            "weight": 1.0
+        }
+    ]
+}

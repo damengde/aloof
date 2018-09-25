@@ -1,0 +1,878 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/staircase&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/going_upstairs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/going_upstairs", 
+                "@type": "Node", 
+                "label": "going upstairs", 
+                "language": "en", 
+                "term": "/c/en/going_upstairs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ethanhello/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ethanhello"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leighman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/leighman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[going upstairs]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/climb/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climb", 
+                "@type": "Node", 
+                "label": "climb", 
+                "language": "en", 
+                "term": "/c/en/climb"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rschram/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rschram"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "You can use [[a staircase]] to [[climb]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/getting_to_next_level/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_to_next_level", 
+                "@type": "Node", 
+                "label": "getting to the next level", 
+                "language": "en", 
+                "term": "/c/en/getting_to_next_level"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/yoleus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/yoleus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[getting to the next level]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/accessing_seats_in_theatre/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/accessing_seats_in_theatre", 
+                "@type": "Node", 
+                "label": "accessing seats in a theatre", 
+                "language": "en", 
+                "term": "/c/en/accessing_seats_in_theatre"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lyrie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lyrie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[accessing seats in a theatre]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/access_to_different_level/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/access_to_different_level", 
+                "@type": "Node", 
+                "label": "access to a different level", 
+                "language": "en", 
+                "term": "/c/en/access_to_different_level"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/fasmith/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/fasmith"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[access to a different level]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/alternative_to_elevator/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/alternative_to_elevator", 
+                "@type": "Node", 
+                "label": "an alternative to an elevator", 
+                "language": "en", 
+                "term": "/c/en/alternative_to_elevator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[an alternative to an elevator]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/alternative_to_escalator/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/alternative_to_escalator", 
+                "@type": "Node", 
+                "label": "an alternative to an escalator", 
+                "language": "en", 
+                "term": "/c/en/alternative_to_escalator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[an alternative to an escalator]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/ascending/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ascending", 
+                "@type": "Node", 
+                "label": "ascending", 
+                "language": "en", 
+                "term": "/c/en/ascending"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[ascending]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/ascend_to_first_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ascend_to_first_floor", 
+                "@type": "Node", 
+                "label": "ascend to the first floor", 
+                "language": "en", 
+                "term": "/c/en/ascend_to_first_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/comdotatdotcom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/comdotatdotcom"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "You can use [[a staircase]] to [[ascend to the first floor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/climbing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climbing", 
+                "@type": "Node", 
+                "label": "climbing", 
+                "language": "en", 
+                "term": "/c/en/climbing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "A staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[A staircase]] is used for [[climbing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/climbing_from_one_floor_to_another/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climbing_from_one_floor_to_another", 
+                "@type": "Node", 
+                "label": "climbing from one floor to another", 
+                "language": "en", 
+                "term": "/c/en/climbing_from_one_floor_to_another"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tedswart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tedswart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[climbing from one floor to another]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/climbing_out_of_pool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/climbing_out_of_pool", 
+                "@type": "Node", 
+                "label": "climbing out of a pool", 
+                "language": "en", 
+                "term": "/c/en/climbing_out_of_pool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lyrie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lyrie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[climbing out of a pool]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/emergency_evacuation_in_highrise_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/emergency_evacuation_in_highrise_building", 
+                "@type": "Node", 
+                "label": "emergency evacuation in a highrise building", 
+                "language": "en", 
+                "term": "/c/en/emergency_evacuation_in_highrise_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[emergency evacuation in a highrise building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/exercise/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/exercise", 
+                "@type": "Node", 
+                "label": "exercise", 
+                "language": "en", 
+                "term": "/c/en/exercise"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lyrie/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lyrie"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[exercise]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/getting_upstairs_to_second_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_upstairs_to_second_floor", 
+                "@type": "Node", 
+                "label": "getting upstairs to the second floor", 
+                "language": "en", 
+                "term": "/c/en/getting_upstairs_to_second_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[getting upstairs to the second floor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/get_to_another_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_to_another_floor", 
+                "@type": "Node", 
+                "label": "get to another floor", 
+                "language": "en", 
+                "term": "/c/en/get_to_another_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "You can use [[a staircase]] to [[get to another floor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/going_downstairs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/going_downstairs", 
+                "@type": "Node", 
+                "label": "going downstairs", 
+                "language": "en", 
+                "term": "/c/en/going_downstairs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[going downstairs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/going_up_and_down_stairs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/going_up_and_down_stairs", 
+                "@type": "Node", 
+                "label": "going up and down stairs", 
+                "language": "en", 
+                "term": "/c/en/going_up_and_down_stairs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eddyb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eddyb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[going up and down stairs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/keeping_fit_by_climbing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_fit_by_climbing", 
+                "@type": "Node", 
+                "label": "keeping fit by climbing", 
+                "language": "en", 
+                "term": "/c/en/keeping_fit_by_climbing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[keeping fit by climbing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/move_from_one_floor_to_another/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/move_from_one_floor_to_another", 
+                "@type": "Node", 
+                "label": "move from one floor to another", 
+                "language": "en", 
+                "term": "/c/en/move_from_one_floor_to_another"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jake512/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jake512"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "A staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[A staircase]] is used to [[move from one floor to another]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/moving_between_floors_in_building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/moving_between_floors_in_building", 
+                "@type": "Node", 
+                "label": "moving between floors in a building", 
+                "language": "en", 
+                "term": "/c/en/moving_between_floors_in_building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[moving between floors in a building]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/reaching_stars/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/reaching_stars", 
+                "@type": "Node", 
+                "label": "reaching the stars", 
+                "language": "en", 
+                "term": "/c/en/reaching_stars"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used for [[reaching the stars]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/taking_when_elevator_broken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taking_when_elevator_broken", 
+                "@type": "Node", 
+                "label": "taking when the elevator is broken", 
+                "language": "en", 
+                "term": "/c/en/taking_when_elevator_broken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/slf67/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/slf67"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is for [[taking when the elevator is broken]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/staircase/,/c/en/walk_up_and_down_levels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/walk_up_and_down_levels", 
+                "@type": "Node", 
+                "label": "walk up and down levels", 
+                "language": "en", 
+                "term": "/c/en/walk_up_and_down_levels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/marnoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/marnoot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/staircase", 
+                "@type": "Node", 
+                "label": "a staircase", 
+                "language": "en", 
+                "term": "/c/en/staircase"
+            }, 
+            "surfaceText": "[[a staircase]] is used to [[walk up and down levels]]", 
+            "weight": 1.0
+        }
+    ]
+}

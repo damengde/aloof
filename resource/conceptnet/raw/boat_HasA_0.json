@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/boat&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/boat/,/c/en/sails/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sails", 
+                "@type": "Node", 
+                "label": "sails", 
+                "language": "en", 
+                "term": "/c/en/sails"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leeconte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leeconte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gros0468/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gros0468"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] has [[sails]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/boat/,/c/en/flipped_over_has_capsized/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flipped_over_has_capsized", 
+                "@type": "Node", 
+                "label": "flipped over has capsized", 
+                "language": "en", 
+                "term": "/c/en/flipped_over_has_capsized"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat that", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat that]] has [[flipped over has capsized]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/boat/,/c/en/propellor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/propellor", 
+                "@type": "Node", 
+                "label": "a propellor", 
+                "language": "en", 
+                "term": "/c/en/propellor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boat", 
+                "@type": "Node", 
+                "label": "a boat", 
+                "language": "en", 
+                "term": "/c/en/boat"
+            }, 
+            "surfaceText": "[[a boat]] has [[a propellor]]", 
+            "weight": 1.0
+        }
+    ]
+}

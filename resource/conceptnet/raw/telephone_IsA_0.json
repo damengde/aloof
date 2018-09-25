@@ -1,0 +1,970 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone/,/c/en/communication_device/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/communication_device", 
+                "@type": "Node", 
+                "label": "a communication device", 
+                "language": "en", 
+                "term": "/c/en/communication_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/azajac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/azajac"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cheese/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cheese"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jeffmuir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jeffmuir"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kcarnold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kcarnold"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phallout/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phallout"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "A telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[A telephone]] is [[a communication device]]", 
+            "weight": 5.656854249492381
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cell_phone/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/20q_1166872243/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/20q_1166872243"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/essent/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/essent"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/vi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "a cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "surfaceText": "[[a cell phone]] is [[a telephone]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/call_forwarding/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/call_forwarding/n", 
+                "@type": "Node", 
+                "label": "call forwarding", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/call_forwarding"
+            }, 
+            "surfaceText": "[[call forwarding]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/call/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/call/n", 
+                "@type": "Node", 
+                "label": "call", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/call"
+            }, 
+            "surfaceText": "[[call]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/call_waiting/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/call_waiting/n", 
+                "@type": "Node", 
+                "label": "call waiting", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/call_waiting"
+            }, 
+            "surfaceText": "[[call waiting]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/desk_phone/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk_phone/n", 
+                "@type": "Node", 
+                "label": "desk phone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/desk_phone"
+            }, 
+            "surfaceText": "[[desk phone]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dial_telephone/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dial_telephone/n", 
+                "@type": "Node", 
+                "label": "dial telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dial_telephone"
+            }, 
+            "surfaceText": "[[dial telephone]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/extension/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/extension/n", 
+                "@type": "Node", 
+                "label": "extension", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/extension"
+            }, 
+            "surfaceText": "[[extension]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/handset/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handset/n", 
+                "@type": "Node", 
+                "label": "handset", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handset"
+            }, 
+            "surfaceText": "[[handset]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pay_phone/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pay_phone/n", 
+                "@type": "Node", 
+                "label": "pay-phone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pay_phone"
+            }, 
+            "surfaceText": "[[pay-phone]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/radiotelephone/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radiotelephone/n", 
+                "@type": "Node", 
+                "label": "radiotelephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radiotelephone"
+            }, 
+            "surfaceText": "[[radiotelephone]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/speakerphone/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/speakerphone/n", 
+                "@type": "Node", 
+                "label": "speakerphone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/speakerphone"
+            }, 
+            "surfaceText": "[[speakerphone]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone/n/,/c/en/electronic_equipment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/electronic_equipment/n", 
+                "@type": "Node", 
+                "label": "electronic equipment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electronic_equipment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[telephone]] is a type of [[electronic equipment]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone/n/,/c/en/telecommunication/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telecommunication/n", 
+                "@type": "Node", 
+                "label": "telecommunication", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telecommunication"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[telephone]] is a type of [[telecommunication]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/voice_mail/n/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/voice_mail/n", 
+                "@type": "Node", 
+                "label": "voice mail", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/voice_mail"
+            }, 
+            "surfaceText": "[[voice mail]] is a type of [[telephone]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cellular_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cellular_telephone", 
+                "@type": "Node", 
+                "label": "cellular telephone", 
+                "language": "en", 
+                "term": "/c/en/cellular_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cordless_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cordless_telephone", 
+                "@type": "Node", 
+                "label": "cordless telephone", 
+                "language": "en", 
+                "term": "/c/en/cordless_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/handset/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handset", 
+                "@type": "Node", 
+                "label": "handset", 
+                "language": "en", 
+                "term": "/c/en/handset"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mobile_phone/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mobile_phone", 
+                "@type": "Node", 
+                "label": "a mobile phone", 
+                "language": "en", 
+                "term": "/c/en/mobile_phone"
+            }, 
+            "surfaceText": "[[a mobile phone]] is [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mobile_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mobile_telephone", 
+                "@type": "Node", 
+                "label": "mobile telephone", 
+                "language": "en", 
+                "term": "/c/en/mobile_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/phone/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/czdurham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/czdurham"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "A phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[A phone]] is [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/public_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/public_telephone", 
+                "@type": "Node", 
+                "label": "public telephone", 
+                "language": "en", 
+                "term": "/c/en/public_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/satellite_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/satellite_telephone", 
+                "@type": "Node", 
+                "label": "satellite telephone", 
+                "language": "en", 
+                "term": "/c/en/satellite_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/telephone/v/,/c/en/communicate/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/communicate", 
+                "@type": "Node", 
+                "label": "communicate", 
+                "language": "en", 
+                "term": "/c/en/communicate"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone/v", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wireless_telephone/,/c/en/telephone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/telephone/n", 
+                "@type": "Node", 
+                "label": "telephone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wireless_telephone", 
+                "@type": "Node", 
+                "label": "wireless telephone", 
+                "language": "en", 
+                "term": "/c/en/wireless_telephone"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

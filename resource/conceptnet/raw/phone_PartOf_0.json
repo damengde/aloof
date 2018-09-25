@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/phone&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/phone/n/,/c/en/utterance/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/utterance/n", 
+                "@type": "Node", 
+                "label": "utterance", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/utterance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/phone/n", 
+                "@type": "Node", 
+                "label": "phone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/phone"
+            }, 
+            "surfaceText": "[[phone]] is a part of [[utterance]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/keypad/,/c/en/phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/phone", 
+                "@type": "Node", 
+                "label": "a phone", 
+                "language": "en", 
+                "term": "/c/en/phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keypad", 
+                "@type": "Node", 
+                "label": "A keypad", 
+                "language": "en", 
+                "term": "/c/en/keypad"
+            }, 
+            "surfaceText": "[[A keypad]] is part of [[a phone]]", 
+            "weight": 1.0
+        }
+    ]
+}

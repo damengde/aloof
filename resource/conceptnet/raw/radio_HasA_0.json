@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/radio&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/radio/,/c/en/tuner_circuit/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tuner_circuit", 
+                "@type": "Node", 
+                "label": "a tuner circuit", 
+                "language": "en", 
+                "term": "/c/en/tuner_circuit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eddyb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eddyb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "a radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "surfaceText": "[[a radio]] contains [[a tuner circuit]]", 
+            "weight": 1.0
+        }
+    ]
+}

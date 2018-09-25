@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chimney&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chimneystack/n/,/c/en/chimney/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chimney/n", 
+                "@type": "Node", 
+                "label": "chimney", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chimney"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chimneystack/n", 
+                "@type": "Node", 
+                "label": "chimneystack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chimneystack"
+            }, 
+            "surfaceText": "[[chimneystack]] is a part of [[chimney]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/damper/n/,/c/en/chimney/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chimney/n", 
+                "@type": "Node", 
+                "label": "chimney", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chimney"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/damper/n", 
+                "@type": "Node", 
+                "label": "damper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/damper"
+            }, 
+            "surfaceText": "[[damper]] is a part of [[chimney]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fireplace/n/,/c/en/chimney/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chimney/n", 
+                "@type": "Node", 
+                "label": "chimney", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chimney"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fireplace/n", 
+                "@type": "Node", 
+                "label": "fireplace", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fireplace"
+            }, 
+            "surfaceText": "[[fireplace]] is a part of [[chimney]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chimney/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chimney", 
+                "@type": "Node", 
+                "label": "a chimney", 
+                "language": "en", 
+                "term": "/c/en/chimney"
+            }, 
+            "surfaceText": "[[a chimney]] is part of [[a house]]", 
+            "weight": 1.0
+        }
+    ]
+}

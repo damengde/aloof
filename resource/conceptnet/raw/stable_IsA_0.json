@@ -1,0 +1,371 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stable&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/,/c/en/building/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building", 
+                "@type": "Node", 
+                "label": "a building", 
+                "language": "en", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daemon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/daemon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable", 
+                "@type": "Node", 
+                "label": "A stable", 
+                "language": "en", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": "[[A stable]] is [[a building]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/linux/,/c/en/stable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stable", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "term": "/c/en/stable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/henryxxll/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/henryxxll"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/linux", 
+                "@type": "Node", 
+                "label": "LINUX", 
+                "language": "en", 
+                "term": "/c/en/linux"
+            }, 
+            "surfaceText": "[[LINUX]] is [[stable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/,/c/en/home_for_horses/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home_for_horses", 
+                "@type": "Node", 
+                "label": "a home for horses", 
+                "language": "en", 
+                "term": "/c/en/home_for_horses"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable", 
+                "@type": "Node", 
+                "label": "A stable", 
+                "language": "en", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": "[[A stable]] is [[a home for horses]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/animal_container/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/animal_container/n", 
+                "@type": "Node", 
+                "label": "animal container", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/animal_container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/building/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/building/n", 
+                "@type": "Node", 
+                "label": "building", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/controlled_vocabulary_types/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/controlled_vocabulary_types/n", 
+                "@type": "Node", 
+                "label": "controlled vocabulary types", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/controlled_vocabulary_types"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/generic_artifact/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/generic_artifact/n", 
+                "@type": "Node", 
+                "label": "generic artifact", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/generic_artifact"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/illness/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/illness/n", 
+                "@type": "Node", 
+                "label": "illness", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/illness"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/medical_condition/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/medical_condition/n", 
+                "@type": "Node", 
+                "label": "medical condition", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/medical_condition"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stable/n/,/c/en/tangible_thing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tangible_thing/n", 
+                "@type": "Node", 
+                "label": "tangible thing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tangible_thing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stable/n", 
+                "@type": "Node", 
+                "label": "stable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stable"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

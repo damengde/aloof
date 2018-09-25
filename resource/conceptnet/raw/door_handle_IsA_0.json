@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/door_handle&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/door_handle/,/c/en/handle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/handle/n", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handle"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/door_handle", 
+                "@type": "Node", 
+                "label": "door handle", 
+                "language": "en", 
+                "term": "/c/en/door_handle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toilet&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/house_must/,/c/en/toilet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toilet", 
+                "@type": "Node", 
+                "label": "toilet", 
+                "language": "en", 
+                "term": "/c/en/toilet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/delaneybrian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/delaneybrian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/house_must", 
+                "@type": "Node", 
+                "label": "house must", 
+                "language": "en", 
+                "term": "/c/en/house_must"
+            }, 
+            "surfaceText": "[[house must]] have [[toilet]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dresser&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/dresser/,/c/en/cosist_of_many_drawers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cosist_of_many_drawers", 
+                "@type": "Node", 
+                "label": "cosist of many drawers", 
+                "language": "en", 
+                "term": "/c/en/cosist_of_many_drawers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dresser", 
+                "@type": "Node", 
+                "label": "a dresser", 
+                "language": "en", 
+                "term": "/c/en/dresser"
+            }, 
+            "surfaceText": "[[a dresser]] can [[cosist of many drawers]]", 
+            "weight": 1.0
+        }
+    ]
+}

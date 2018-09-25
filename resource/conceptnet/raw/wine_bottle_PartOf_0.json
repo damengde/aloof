@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wine_bottle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/cork/n/,/c/en/wine_bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wine_bottle/n", 
+                "@type": "Node", 
+                "label": "wine bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wine_bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cork/n", 
+                "@type": "Node", 
+                "label": "cork", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cork"
+            }, 
+            "surfaceText": "[[cork]] is a part of [[wine bottle]]", 
+            "weight": 2.0
+        }
+    ]
+}

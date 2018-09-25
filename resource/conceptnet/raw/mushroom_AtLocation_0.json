@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mushroom&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mushroom/,/c/en/tree/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tree", 
+                "@type": "Node", 
+                "label": "a tree", 
+                "language": "en", 
+                "term": "/c/en/tree"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fedge/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fedge"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mushroom", 
+                "@type": "Node", 
+                "label": "a mushroom", 
+                "language": "en", 
+                "term": "/c/en/mushroom"
+            }, 
+            "surfaceText": "*Something you find under [[a tree]] is [[a mushroom]]", 
+            "weight": 1.0
+        }
+    ]
+}

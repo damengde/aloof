@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/photo_album&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/photo_album/,/c/en/storing_photos/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/storing_photos", 
+                "@type": "Node", 
+                "label": "storing photos", 
+                "language": "en", 
+                "term": "/c/en/storing_photos"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/akshayubhat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/akshayubhat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/photo_album", 
+                "@type": "Node", 
+                "label": "A photo album", 
+                "language": "en", 
+                "term": "/c/en/photo_album"
+            }, 
+            "surfaceText": "[[A photo album]] is used for [[storing photos]]", 
+            "weight": 2.0
+        }
+    ]
+}

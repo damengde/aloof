@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vessel&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/vessel/,/c/en/multiple_meanings/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/multiple_meanings", 
+                "@type": "Node", 
+                "label": "multiple meanings", 
+                "language": "en", 
+                "term": "/c/en/multiple_meanings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vampy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vampy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vessel", 
+                "@type": "Node", 
+                "label": "A vessel", 
+                "language": "en", 
+                "term": "/c/en/vessel"
+            }, 
+            "surfaceText": "[[A vessel]] has [[multiple meanings]]", 
+            "weight": 1.0
+        }
+    ]
+}

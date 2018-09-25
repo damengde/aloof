@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/washbasin&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/washbasin/n/,/c/en/bathroom/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bathroom/n", 
+                "@type": "Node", 
+                "label": "bathroom", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bathroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/washbasin/n", 
+                "@type": "Node", 
+                "label": "washbasin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/washbasin"
+            }, 
+            "surfaceText": "[[washbasin]] is a part of [[bathroom]]", 
+            "weight": 2.0
+        }
+    ]
+}

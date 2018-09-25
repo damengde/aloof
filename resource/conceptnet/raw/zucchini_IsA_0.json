@@ -1,0 +1,400 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/zucchini&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/en/marrow/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/marrow/n", 
+                "@type": "Node", 
+                "label": "marrow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/marrow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[zucchini]] is a type of [[marrow]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/en/summer_squash/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/summer_squash/n", 
+                "@type": "Node", 
+                "label": "summer squash", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/summer_squash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[zucchini]] is a type of [[summer squash]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/,/c/en/squash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/squash", 
+                "@type": "Node", 
+                "label": "squash", 
+                "language": "en", 
+                "term": "/c/en/squash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini", 
+                "@type": "Node", 
+                "label": "Zucchini", 
+                "language": "en", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[Zucchini]] is a type of [[squash]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/,/c/en/type/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/type", 
+                "@type": "Node", 
+                "label": "a type", 
+                "language": "en", 
+                "term": "/c/en/type"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[zucchini]] is [[a type]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/,/c/en/vegetable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vegetable", 
+                "@type": "Node", 
+                "label": "a vegetable", 
+                "language": "en", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini", 
+                "@type": "Node", 
+                "label": "Zucchini", 
+                "language": "en", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": "[[Zucchini]] is [[a vegetable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/de/plant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/plant", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "de", 
+                "term": "/c/de/plant"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/de/squash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/squash", 
+                "@type": "Node", 
+                "label": "squash", 
+                "language": "de", 
+                "term": "/c/de/squash"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/en/squash/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/squash/n", 
+                "@type": "Node", 
+                "label": "squash", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/squash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/en/vegetable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/vegetable", 
+                "@type": "Node", 
+                "label": "vegetable", 
+                "language": "en", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/n/,/c/en/vegetable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/vegetable/n", 
+                "@type": "Node", 
+                "label": "vegetable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini/n", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/zucchini/,/c/en/cultivated_variety/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/cultivated_variety/n", 
+                "@type": "Node", 
+                "label": "cultivated variety", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cultivated_variety"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/zucchini", 
+                "@type": "Node", 
+                "label": "zucchini", 
+                "language": "en", 
+                "term": "/c/en/zucchini"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

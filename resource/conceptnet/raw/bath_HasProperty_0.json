@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bath&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bath/,/c/en/relaxing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/relaxing", 
+                "@type": "Node", 
+                "label": "relaxing", 
+                "language": "en", 
+                "term": "/c/en/relaxing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath", 
+                "@type": "Node", 
+                "label": "A bath", 
+                "language": "en", 
+                "term": "/c/en/bath"
+            }, 
+            "surfaceText": "[[A bath]] is [[relaxing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bath/,/c/en/relaxing_when_feel_stressed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/relaxing_when_feel_stressed", 
+                "@type": "Node", 
+                "label": "relaxing when you feel stressed", 
+                "language": "en", 
+                "term": "/c/en/relaxing_when_feel_stressed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bath", 
+                "@type": "Node", 
+                "label": "a bath", 
+                "language": "en", 
+                "term": "/c/en/bath"
+            }, 
+            "surfaceText": "[[a bath]] is [[relaxing when you feel stressed]]", 
+            "weight": 1.0
+        }
+    ]
+}

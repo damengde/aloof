@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/costume&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wardrobe/n/,/c/en/costume/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/costume/n", 
+                "@type": "Node", 
+                "label": "costume", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/costume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wardrobe/n", 
+                "@type": "Node", 
+                "label": "wardrobe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wardrobe"
+            }, 
+            "surfaceText": "[[wardrobe]] is a part of [[costume]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wig/,/c/en/costume/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/costume", 
+                "@type": "Node", 
+                "label": "a costume", 
+                "language": "en", 
+                "term": "/c/en/costume"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wig", 
+                "@type": "Node", 
+                "label": "A wig", 
+                "language": "en", 
+                "term": "/c/en/wig"
+            }, 
+            "surfaceText": "[[A wig]] is part of [[a costume]]", 
+            "weight": 1.0
+        }
+    ]
+}

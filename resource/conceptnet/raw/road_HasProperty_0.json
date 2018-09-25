@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/road&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/road/,/c/en/flat_long_and_narrow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flat_long_and_narrow", 
+                "@type": "Node", 
+                "label": "flat, long, and narrow", 
+                "language": "en", 
+                "term": "/c/en/flat_long_and_narrow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/road", 
+                "@type": "Node", 
+                "label": "a road", 
+                "language": "en", 
+                "term": "/c/en/road"
+            }, 
+            "surfaceText": "[[a road]] is [[flat, long, and narrow]]", 
+            "weight": 1.0
+        }
+    ]
+}

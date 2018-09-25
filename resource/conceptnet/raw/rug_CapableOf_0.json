@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rug&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/rug/,/c/en/make_room_seem_warmer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_room_seem_warmer", 
+                "@type": "Node", 
+                "label": "make a room seem warmer", 
+                "language": "en", 
+                "term": "/c/en/make_room_seem_warmer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rug", 
+                "@type": "Node", 
+                "label": "A rug", 
+                "language": "en", 
+                "term": "/c/en/rug"
+            }, 
+            "surfaceText": "[[A rug]] can [[make a room seem warmer]]", 
+            "weight": 1.0
+        }
+    ]
+}

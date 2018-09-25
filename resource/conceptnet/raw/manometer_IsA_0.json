@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/manometer&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/manometer/n/,/c/en/pressure_gauge/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pressure_gauge/n", 
+                "@type": "Node", 
+                "label": "pressure gauge", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pressure_gauge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/manometer/n", 
+                "@type": "Node", 
+                "label": "manometer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/manometer"
+            }, 
+            "surfaceText": "[[manometer]] is a type of [[pressure gauge]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tensimeter/n/,/c/en/manometer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/manometer/n", 
+                "@type": "Node", 
+                "label": "manometer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/manometer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tensimeter/n", 
+                "@type": "Node", 
+                "label": "tensimeter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tensimeter"
+            }, 
+            "surfaceText": "[[tensimeter]] is a type of [[manometer]]", 
+            "weight": 2.0
+        }
+    ]
+}

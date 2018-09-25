@@ -1,0 +1,1140 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wheat&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/grain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grain", 
+                "@type": "Node", 
+                "label": "a grain", 
+                "language": "en", 
+                "term": "/c/en/grain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annettew/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annettew"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/novalyte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/novalyte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annettew/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/annettew"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] is [[a grain]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bulgur/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulgur/n", 
+                "@type": "Node", 
+                "label": "bulgur", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulgur"
+            }, 
+            "surfaceText": "[[bulgur]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/common_wheat/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/common_wheat/n", 
+                "@type": "Node", 
+                "label": "common wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/common_wheat"
+            }, 
+            "surfaceText": "[[common wheat]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cracked_wheat/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cracked_wheat/n", 
+                "@type": "Node", 
+                "label": "cracked wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cracked_wheat"
+            }, 
+            "surfaceText": "[[cracked wheat]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/durum/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/durum/n", 
+                "@type": "Node", 
+                "label": "durum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/durum"
+            }, 
+            "surfaceText": "[[durum]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/emmer/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/emmer/n", 
+                "@type": "Node", 
+                "label": "emmer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/emmer"
+            }, 
+            "surfaceText": "[[emmer]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soft_wheat/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soft_wheat/n", 
+                "@type": "Node", 
+                "label": "soft wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soft_wheat"
+            }, 
+            "surfaceText": "[[soft wheat]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spelt/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spelt/n", 
+                "@type": "Node", 
+                "label": "spelt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spelt"
+            }, 
+            "surfaceText": "[[spelt]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/grass/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grass", 
+                "@type": "Node", 
+                "label": "grass", 
+                "language": "en", 
+                "term": "/c/en/grass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/marnoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/marnoot"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/marnoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/marnoot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is a kind of [[grass]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/n/,/c/en/cereal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cereal/n", 
+                "@type": "Node", 
+                "label": "cereal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cereal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is a type of [[cereal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/n/,/c/en/grain/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grain/n", 
+                "@type": "Node", 
+                "label": "grain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is a type of [[grain]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wild_wheat/n/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wild_wheat/n", 
+                "@type": "Node", 
+                "label": "wild wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wild_wheat"
+            }, 
+            "surfaceText": "[[wild wheat]] is a type of [[wheat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bread_wheat/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bread_wheat", 
+                "@type": "Node", 
+                "label": "bread wheat", 
+                "language": "en", 
+                "term": "/c/en/bread_wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/durum_wheat/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/durum_wheat", 
+                "@type": "Node", 
+                "label": "durum wheat", 
+                "language": "en", 
+                "term": "/c/en/durum_wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shredded_wheat/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shredded_wheat", 
+                "@type": "Node", 
+                "label": "shredded wheat", 
+                "language": "en", 
+                "term": "/c/en/shredded_wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spring_wheat/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spring_wheat", 
+                "@type": "Node", 
+                "label": "spring wheat", 
+                "language": "en", 
+                "term": "/c/en/spring_wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_beer/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_beer", 
+                "@type": "Node", 
+                "label": "wheat beer", 
+                "language": "en", 
+                "term": "/c/en/wheat_beer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_bran/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_bran", 
+                "@type": "Node", 
+                "label": "wheat bran", 
+                "language": "en", 
+                "term": "/c/en/wheat_bran"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/australia's_principal_crop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/australia's_principal_crop", 
+                "@type": "Node", 
+                "label": "Australia's principal crop", 
+                "language": "en", 
+                "term": "/c/en/australia's_principal_crop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] is [[Australia's principal crop]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/edible_grain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/edible_grain", 
+                "@type": "Node", 
+                "label": "an edible grain", 
+                "language": "en", 
+                "term": "/c/en/edible_grain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is [[an edible grain]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/form_of_grain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_grain", 
+                "@type": "Node", 
+                "label": "a form of grain", 
+                "language": "en", 
+                "term": "/c/en/form_of_grain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pokemondad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pokemondad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[wheat]] is [[a form of grain]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/species_of_grass/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/species_of_grass", 
+                "@type": "Node", 
+                "label": "a species of grass", 
+                "language": "en", 
+                "term": "/c/en/species_of_grass"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] is [[a species of grass]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/staple_in_most_diets/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/staple_in_most_diets", 
+                "@type": "Node", 
+                "label": "a staple in most diets", 
+                "language": "en", 
+                "term": "/c/en/staple_in_most_diets"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "Wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": "[[Wheat]] is [[a staple in most diets]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_flour/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_flour", 
+                "@type": "Node", 
+                "label": "wheat flour", 
+                "language": "en", 
+                "term": "/c/en/wheat_flour"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_germ/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_germ", 
+                "@type": "Node", 
+                "label": "wheat germ", 
+                "language": "en", 
+                "term": "/c/en/wheat_germ"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_germ_oil/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_germ_oil", 
+                "@type": "Node", 
+                "label": "wheat germ oil", 
+                "language": "en", 
+                "term": "/c/en/wheat_germ_oil"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/n/,/c/en/cereal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/cereal", 
+                "@type": "Node", 
+                "label": "cereal", 
+                "language": "en", 
+                "term": "/c/en/cereal"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_starch/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_starch", 
+                "@type": "Node", 
+                "label": "wheat starch", 
+                "language": "en", 
+                "term": "/c/en/wheat_starch"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat_straw/,/c/en/wheat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat_straw", 
+                "@type": "Node", 
+                "label": "wheat straw", 
+                "language": "en", 
+                "term": "/c/en/wheat_straw"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/,/c/en/plant/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/plant/n", 
+                "@type": "Node", 
+                "label": "plant", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plant"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheat/n/,/c/en/colour/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/colour/n", 
+                "@type": "Node", 
+                "label": "colour", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/colour"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheat/n", 
+                "@type": "Node", 
+                "label": "wheat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheat"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

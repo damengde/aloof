@@ -1,0 +1,784 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/food&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/cost_money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cost_money", 
+                "@type": "Node", 
+                "label": "cost money", 
+                "language": "en", 
+                "term": "/c/en/cost_money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/loiosh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/loiosh"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cypherpunks/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cypherpunks"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[cost money]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/chicken/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "be food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jakenelson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jakenelson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "Chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "[[Chicken]] can [[be food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/become_moldy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/become_moldy", 
+                "@type": "Node", 
+                "label": "become moldy", 
+                "language": "en", 
+                "term": "/c/en/become_moldy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/flykyrskysong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/flykyrskysong"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[become moldy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/cake_on_pans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cake_on_pans", 
+                "@type": "Node", 
+                "label": "cake on pans", 
+                "language": "en", 
+                "term": "/c/en/cake_on_pans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jsilberman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jsilberman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[cake on pans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/cooked_or_uncooked/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooked_or_uncooked", 
+                "@type": "Node", 
+                "label": "be cooked or uncooked", 
+                "language": "en", 
+                "term": "/c/en/cooked_or_uncooked"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[be cooked or uncooked]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/cost_lot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cost_lot", 
+                "@type": "Node", 
+                "label": "cost a lot", 
+                "language": "en", 
+                "term": "/c/en/cost_lot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ez123/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ez123"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[cost a lot]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/elevate_one's_mood/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/elevate_one's_mood", 
+                "@type": "Node", 
+                "label": "elevate one's mood", 
+                "language": "en", 
+                "term": "/c/en/elevate_one's_mood"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[elevate one's mood]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/feed_animals/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/feed_animals", 
+                "@type": "Node", 
+                "label": "feed animals", 
+                "language": "en", 
+                "term": "/c/en/feed_animals"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/schickel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/schickel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[feed animals]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/give_nourishment_to_hungry_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/give_nourishment_to_hungry_people", 
+                "@type": "Node", 
+                "label": "give nourishment to hungry people", 
+                "language": "en", 
+                "term": "/c/en/give_nourishment_to_hungry_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[give nourishment to hungry people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/go_rotten/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_rotten", 
+                "@type": "Node", 
+                "label": "go rotten", 
+                "language": "en", 
+                "term": "/c/en/go_rotten"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/donwulff/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/donwulff"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[go rotten]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/grow_moldy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grow_moldy", 
+                "@type": "Node", 
+                "label": "grow moldy", 
+                "language": "en", 
+                "term": "/c/en/grow_moldy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wtgee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wtgee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[grow moldy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/increase_in_price/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/increase_in_price", 
+                "@type": "Node", 
+                "label": "increase in price", 
+                "language": "en", 
+                "term": "/c/en/increase_in_price"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/surgchen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/surgchen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[increase in price]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/matter_more_than_sex/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/matter_more_than_sex", 
+                "@type": "Node", 
+                "label": "matter more than sex", 
+                "language": "en", 
+                "term": "/c/en/matter_more_than_sex"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmchenry/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmchenry"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[matter more than sex]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/mean_which_one_feeds_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mean_which_one_feeds_on", 
+                "@type": "Node", 
+                "label": "mean that which one feeds on", 
+                "language": "en", 
+                "term": "/c/en/mean_which_one_feeds_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[mean that which one feeds on]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/please_hungry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/please_hungry", 
+                "@type": "Node", 
+                "label": "please the hungry", 
+                "language": "en", 
+                "term": "/c/en/please_hungry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thinkertinker/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thinkertinker"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[please the hungry]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/please_hungry_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/please_hungry_person", 
+                "@type": "Node", 
+                "label": "please a hungry person", 
+                "language": "en", 
+                "term": "/c/en/please_hungry_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[please a hungry person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/prevent_starvation/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/prevent_starvation", 
+                "@type": "Node", 
+                "label": "prevent starvation", 
+                "language": "en", 
+                "term": "/c/en/prevent_starvation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[prevent starvation]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/provide_comfort/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/provide_comfort", 
+                "@type": "Node", 
+                "label": "provide comfort", 
+                "language": "en", 
+                "term": "/c/en/provide_comfort"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[provide comfort]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/rots_with_age/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rots_with_age", 
+                "@type": "Node", 
+                "label": "rots with age", 
+                "language": "en", 
+                "term": "/c/en/rots_with_age"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pooua/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pooua"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] sometimes [[rots with age]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/spilt_on_tablecloth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spilt_on_tablecloth", 
+                "@type": "Node", 
+                "label": "be spilt on a tablecloth", 
+                "language": "en", 
+                "term": "/c/en/spilt_on_tablecloth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/openpod/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/openpod"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] can [[be spilt on a tablecloth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/taste_salty/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taste_salty", 
+                "@type": "Node", 
+                "label": "taste salty", 
+                "language": "en", 
+                "term": "/c/en/taste_salty"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "Food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[Food]] can [[taste salty]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/food/,/c/en/tastes_better_with_salt/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tastes_better_with_salt", 
+                "@type": "Node", 
+                "label": "tastes better with salt", 
+                "language": "en", 
+                "term": "/c/en/tastes_better_with_salt"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bazzat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bazzat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "surfaceText": "[[food]] sometimes [[tastes better with salt]]", 
+            "weight": 1.0
+        }
+    ]
+}

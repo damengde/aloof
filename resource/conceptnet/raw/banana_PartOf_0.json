@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/banana&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/banana/n/,/c/en/dwarf_banana/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dwarf_banana/n", 
+                "@type": "Node", 
+                "label": "dwarf banana", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dwarf_banana"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana/n", 
+                "@type": "Node", 
+                "label": "banana", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "[[banana]] is a part of [[dwarf banana]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/banana/n/,/c/en/edible_banana/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/edible_banana/n", 
+                "@type": "Node", 
+                "label": "edible banana", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/edible_banana"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/banana/n", 
+                "@type": "Node", 
+                "label": "banana", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/banana"
+            }, 
+            "surfaceText": "[[banana]] is a part of [[edible banana]]", 
+            "weight": 2.0
+        }
+    ]
+}

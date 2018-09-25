@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wastepaper_basket&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/trash/,/c/en/wastepaper_basket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wastepaper_basket", 
+                "@type": "Node", 
+                "label": "a wastepaper basket", 
+                "language": "en", 
+                "term": "/c/en/wastepaper_basket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You are likely to find [[a trash]] in [[a wastepaper basket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/wastepaper_basket/,/c/en/desk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desk", 
+                "@type": "Node", 
+                "label": "a desk", 
+                "language": "en", 
+                "term": "/c/en/desk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wastepaper_basket", 
+                "@type": "Node", 
+                "label": "a wastepaper basket", 
+                "language": "en", 
+                "term": "/c/en/wastepaper_basket"
+            }, 
+            "surfaceText": "*Something you find under [[a desk]] is [[a wastepaper basket]]", 
+            "weight": 1.0
+        }
+    ]
+}

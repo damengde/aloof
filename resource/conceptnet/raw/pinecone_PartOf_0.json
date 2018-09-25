@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pinecone&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pinecone/n/,/c/en/pine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pine/n", 
+                "@type": "Node", 
+                "label": "pine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinecone/n", 
+                "@type": "Node", 
+                "label": "pinecone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinecone"
+            }, 
+            "surfaceText": "[[pinecone]] is a part of [[pine]]", 
+            "weight": 2.0
+        }
+    ]
+}

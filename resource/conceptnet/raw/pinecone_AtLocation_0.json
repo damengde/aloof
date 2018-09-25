@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pinecone&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pinecone/,/c/en/state_park/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/state_park", 
+                "@type": "Node", 
+                "label": "a state park", 
+                "language": "en", 
+                "term": "/c/en/state_park"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/salyre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/salyre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinecone", 
+                "@type": "Node", 
+                "label": "a pinecone", 
+                "language": "en", 
+                "term": "/c/en/pinecone"
+            }, 
+            "surfaceText": "*Something you find at [[a state park]] is [[a pinecone]]", 
+            "weight": 1.0
+        }
+    ]
+}

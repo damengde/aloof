@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dish_washer&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dish_washer/,/c/en/washing_cups_and_plates/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_cups_and_plates", 
+                "@type": "Node", 
+                "label": "washing cups and plates", 
+                "language": "en", 
+                "term": "/c/en/washing_cups_and_plates"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dish_washer", 
+                "@type": "Node", 
+                "label": "a dish washer", 
+                "language": "en", 
+                "term": "/c/en/dish_washer"
+            }, 
+            "surfaceText": "[[a dish washer]] is for [[washing cups and plates]]", 
+            "weight": 1.0
+        }
+    ]
+}

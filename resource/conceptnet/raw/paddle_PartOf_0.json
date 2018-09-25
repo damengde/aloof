@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/paddle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/paddle/n/,/c/en/millwheel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/millwheel/n", 
+                "@type": "Node", 
+                "label": "millwheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/millwheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paddle/n", 
+                "@type": "Node", 
+                "label": "paddle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/paddle"
+            }, 
+            "surfaceText": "[[paddle]] is a part of [[millwheel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/paddle/n/,/c/en/paddlewheel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/paddlewheel/n", 
+                "@type": "Node", 
+                "label": "paddlewheel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/paddlewheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paddle/n", 
+                "@type": "Node", 
+                "label": "paddle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/paddle"
+            }, 
+            "surfaceText": "[[paddle]] is a part of [[paddlewheel]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/test&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/climbing_mountain/,/c/en/test/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bradvl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bradvl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/climbing_mountain", 
+                "@type": "Node", 
+                "label": "climbing a mountain", 
+                "language": "en", 
+                "term": "/c/en/climbing_mountain"
+            }, 
+            "surfaceText": "[[climbing a mountain]] is for [[test]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/having_asthma_attack/,/c/en/test/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "a test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bajakmembajak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bajakmembajak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/having_asthma_attack", 
+                "@type": "Node", 
+                "label": "having an asthma attack", 
+                "language": "en", 
+                "term": "/c/en/having_asthma_attack"
+            }, 
+            "surfaceText": "[[having an asthma attack]] is for [[a test]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/test/,/c/en/find_out_what_people_know/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/find_out_what_people_know", 
+                "@type": "Node", 
+                "label": "find out what people know", 
+                "language": "en", 
+                "term": "/c/en/find_out_what_people_know"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/johngt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/johngt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "a test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[a test]] is used to [[find out what people know]]", 
+            "weight": 1.0
+        }
+    ]
+}

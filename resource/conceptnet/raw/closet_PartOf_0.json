@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/closet&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shelf/n/,/c/en/closet/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/closet/n", 
+                "@type": "Node", 
+                "label": "closet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shelf/n", 
+                "@type": "Node", 
+                "label": "shelf", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shelf"
+            }, 
+            "surfaceText": "[[shelf]] is a part of [[closet]]", 
+            "weight": 2.0
+        }
+    ]
+}

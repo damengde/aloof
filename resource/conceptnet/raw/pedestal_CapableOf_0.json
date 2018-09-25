@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pedestal&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pedestal/,/c/en/hold_plants_for_display/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_plants_for_display", 
+                "@type": "Node", 
+                "label": "hold plants for display", 
+                "language": "en", 
+                "term": "/c/en/hold_plants_for_display"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedestal", 
+                "@type": "Node", 
+                "label": "a pedestal", 
+                "language": "en", 
+                "term": "/c/en/pedestal"
+            }, 
+            "surfaceText": "[[a pedestal]] may [[hold plants for display]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pedestal/,/c/en/hold_sculpture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_sculpture", 
+                "@type": "Node", 
+                "label": "hold a sculpture", 
+                "language": "en", 
+                "term": "/c/en/hold_sculpture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedestal", 
+                "@type": "Node", 
+                "label": "a pedestal", 
+                "language": "en", 
+                "term": "/c/en/pedestal"
+            }, 
+            "surfaceText": "[[a pedestal]] may [[hold a sculpture]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cookie_jar&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cookie_jar/,/c/en/store_cookies/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_cookies", 
+                "@type": "Node", 
+                "label": "store cookies", 
+                "language": "en", 
+                "term": "/c/en/store_cookies"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie_jar", 
+                "@type": "Node", 
+                "label": "a cookie jar", 
+                "language": "en", 
+                "term": "/c/en/cookie_jar"
+            }, 
+            "surfaceText": "You can use [[a cookie jar]] to [[store cookies]]", 
+            "weight": 1.0
+        }
+    ]
+}

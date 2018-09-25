@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/joist&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/floor_joist/n/,/c/en/joist/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/joist/n", 
+                "@type": "Node", 
+                "label": "joist", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/joist"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor_joist/n", 
+                "@type": "Node", 
+                "label": "floor joist", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor_joist"
+            }, 
+            "surfaceText": "[[floor joist]] is a type of [[joist]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/joist/n/,/c/en/beam/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/beam/n", 
+                "@type": "Node", 
+                "label": "beam", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beam"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/joist/n", 
+                "@type": "Node", 
+                "label": "joist", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/joist"
+            }, 
+            "surfaceText": "[[joist]] is a type of [[beam]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trimmer/n/,/c/en/joist/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/joist/n", 
+                "@type": "Node", 
+                "label": "joist", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/joist"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trimmer/n", 
+                "@type": "Node", 
+                "label": "trimmer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/trimmer"
+            }, 
+            "surfaceText": "[[trimmer]] is a type of [[joist]]", 
+            "weight": 2.0
+        }
+    ]
+}

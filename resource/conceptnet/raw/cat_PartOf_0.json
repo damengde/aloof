@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tail/,/c/en/cat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "a cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tail", 
+                "@type": "Node", 
+                "label": "The tail", 
+                "language": "en", 
+                "term": "/c/en/tail"
+            }, 
+            "surfaceText": "[[The tail]] is part of [[a cat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/whisker/,/c/en/cat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "a cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/whisker", 
+                "@type": "Node", 
+                "label": "a whisker", 
+                "language": "en", 
+                "term": "/c/en/whisker"
+            }, 
+            "surfaceText": "[[a whisker]] is part of [[a cat]]", 
+            "weight": 1.0
+        }
+    ]
+}

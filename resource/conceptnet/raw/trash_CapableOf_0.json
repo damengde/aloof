@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trash&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/trash/,/c/en/consist_of_bottles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/consist_of_bottles", 
+                "@type": "Node", 
+                "label": "consist of bottles", 
+                "language": "en", 
+                "term": "/c/en/consist_of_bottles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chrismoore/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chrismoore"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[trash]] may [[consist of bottles]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/trash/,/c/en/holds_garbage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/holds_garbage", 
+                "@type": "Node", 
+                "label": "holds garbage", 
+                "language": "en", 
+                "term": "/c/en/holds_garbage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "A trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[A trash]] can [[holds garbage]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/trash/,/c/en/where_place_refuse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/where_place_refuse", 
+                "@type": "Node", 
+                "label": "is where you place refuse", 
+                "language": "en", 
+                "term": "/c/en/where_place_refuse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leesa0426/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leesa0426"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] can [[is where you place refuse]]", 
+            "weight": 1.0
+        }
+    ]
+}

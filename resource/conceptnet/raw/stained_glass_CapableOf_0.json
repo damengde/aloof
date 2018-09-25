@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stained_glass&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stained_glass/,/c/en/make_beautiful_pictures/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_beautiful_pictures", 
+                "@type": "Node", 
+                "label": "make beautiful pictures", 
+                "language": "en", 
+                "term": "/c/en/make_beautiful_pictures"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stained_glass", 
+                "@type": "Node", 
+                "label": "Stained glass", 
+                "language": "en", 
+                "term": "/c/en/stained_glass"
+            }, 
+            "surfaceText": "[[Stained glass]] can [[make beautiful pictures]]", 
+            "weight": 1.0
+        }
+    ]
+}

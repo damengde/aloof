@@ -1,0 +1,876 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pizza&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/disc_shaped_food_item/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/disc_shaped_food_item", 
+                "@type": "Node", 
+                "label": "a disc-shaped food item", 
+                "language": "en", 
+                "term": "/c/en/disc_shaped_food_item"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/eturner/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/eturner"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/frankbardon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/frankbardon"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/scarfboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/scarfboy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/tbarton/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/tbarton"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is [[a disc-shaped food item]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/anchovy_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/anchovy_pizza/n", 
+                "@type": "Node", 
+                "label": "anchovy pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/anchovy_pizza"
+            }, 
+            "surfaceText": "[[anchovy pizza]] is a type of [[pizza]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cheese_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cheese_pizza/n", 
+                "@type": "Node", 
+                "label": "cheese pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cheese_pizza"
+            }, 
+            "surfaceText": "[[cheese pizza]] is a type of [[pizza]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pepperoni_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepperoni_pizza/n", 
+                "@type": "Node", 
+                "label": "pepperoni pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pepperoni_pizza"
+            }, 
+            "surfaceText": "[[pepperoni pizza]] is a type of [[pizza]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/favorite_food_of_many/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/favorite_food_of_many", 
+                "@type": "Node", 
+                "label": "a favorite food of many", 
+                "language": "en", 
+                "term": "/c/en/favorite_food_of_many"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/trevorm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/trevorm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is [[a favorite food of many]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/n/,/c/en/dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dish/n", 
+                "@type": "Node", 
+                "label": "dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[pizza]] is a type of [[dish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sausage_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sausage_pizza/n", 
+                "@type": "Node", 
+                "label": "sausage pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sausage_pizza"
+            }, 
+            "surfaceText": "[[sausage pizza]] is a type of [[pizza]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sicilian_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sicilian_pizza/n", 
+                "@type": "Node", 
+                "label": "Sicilian pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sicilian_pizza"
+            }, 
+            "surfaceText": "[[Sicilian pizza]] is a type of [[pizza]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chicago_deep_dish_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicago_deep_dish_pizza/n", 
+                "@type": "Node", 
+                "label": "chicago deep dish pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chicago_deep_dish_pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hawaiian_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hawaiian_pizza/n", 
+                "@type": "Node", 
+                "label": "hawaiian pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hawaiian_pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/new_york_style_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/new_york_style_pizza/n", 
+                "@type": "Node", 
+                "label": "new york style pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/new_york_style_pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/fast_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fast_food", 
+                "@type": "Node", 
+                "label": "fast food", 
+                "language": "en", 
+                "term": "/c/en/fast_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/melahen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/melahen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is a type of [[fast food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/food", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[pizza]] is a kind of [[food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/form_of_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_food", 
+                "@type": "Node", 
+                "label": "a form of food", 
+                "language": "en", 
+                "term": "/c/en/form_of_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is [[a form of food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/good_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/good_food", 
+                "@type": "Node", 
+                "label": "a good food", 
+                "language": "en", 
+                "term": "/c/en/good_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mpatitz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mpatitz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[pizza]] is [[a good food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/popular_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/popular_food", 
+                "@type": "Node", 
+                "label": "a popular food", 
+                "language": "en", 
+                "term": "/c/en/popular_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[pizza]] is [[a popular food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/n/,/c/en/finger_food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/finger_food/n", 
+                "@type": "Node", 
+                "label": "finger food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/finger_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/n/,/c/en/food_composite/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_composite/n", 
+                "@type": "Node", 
+                "label": "food composite", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_composite"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/n/,/c/en/hot_food_or_drink/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/hot_food_or_drink/n", 
+                "@type": "Node", 
+                "label": "hot food or drink", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hot_food_or_drink"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/n/,/c/en/main_course/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/main_course/n", 
+                "@type": "Node", 
+                "label": "main course", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/main_course"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/thick_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thick_pizza/n", 
+                "@type": "Node", 
+                "label": "thick pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thick_pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/thin_pizza/n/,/c/en/pizza/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pizza/n", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pizza"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thin_pizza/n", 
+                "@type": "Node", 
+                "label": "thin pizza", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thin_pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pizza/,/c/en/food/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/food/n", 
+                "@type": "Node", 
+                "label": "food", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

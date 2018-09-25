@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/gate&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/gate/n/,/c/en/air_terminal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/air_terminal/n", 
+                "@type": "Node", 
+                "label": "air terminal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_terminal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate/n", 
+                "@type": "Node", 
+                "label": "gate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "[[gate]] is a part of [[air terminal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/hinge/n/,/c/en/gate/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/gate/n", 
+                "@type": "Node", 
+                "label": "gate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hinge/n", 
+                "@type": "Node", 
+                "label": "hinge", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hinge"
+            }, 
+            "surfaceText": "[[hinge]] is a part of [[gate]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lock/n/,/c/en/gate/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/gate/n", 
+                "@type": "Node", 
+                "label": "gate", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gate"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[lock]] is a part of [[gate]]", 
+            "weight": 2.0
+        }
+    ]
+}

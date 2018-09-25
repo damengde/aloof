@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cart&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cart/,/c/en/follow_horse/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/follow_horse", 
+                "@type": "Node", 
+                "label": "follow a horse", 
+                "language": "en", 
+                "term": "/c/en/follow_horse"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/freepost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/freepost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "a cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[a cart]] can [[follow a horse]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cart/,/c/en/transport_things/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport_things", 
+                "@type": "Node", 
+                "label": "transport things", 
+                "language": "en", 
+                "term": "/c/en/transport_things"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mfox/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mfox"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "a cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[a cart]] can [[transport things]]", 
+            "weight": 1.0
+        }
+    ]
+}

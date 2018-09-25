@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/curtain&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/eyelet/n/,/c/en/curtain/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/curtain/n", 
+                "@type": "Node", 
+                "label": "curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/curtain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/eyelet/n", 
+                "@type": "Node", 
+                "label": "eyelet", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/eyelet"
+            }, 
+            "surfaceText": "[[eyelet]] is a part of [[curtain]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pumpkin&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/david/,/c/en/pumpkin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pumpkin", 
+                "@type": "Node", 
+                "label": "a pumpkin", 
+                "language": "en", 
+                "term": "/c/en/pumpkin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/david", 
+                "@type": "Node", 
+                "label": "david", 
+                "language": "en", 
+                "term": "/c/en/david"
+            }, 
+            "surfaceText": "[[david]] has [[a pumpkin]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/pumpkin/,/c/en/seeds/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/seeds", 
+                "@type": "Node", 
+                "label": "seeds", 
+                "language": "en", 
+                "term": "/c/en/seeds"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pumpkin", 
+                "@type": "Node", 
+                "label": "a pumpkin", 
+                "language": "en", 
+                "term": "/c/en/pumpkin"
+            }, 
+            "surfaceText": "[[a pumpkin]] has [[seeds]]", 
+            "weight": 1.0
+        }
+    ]
+}

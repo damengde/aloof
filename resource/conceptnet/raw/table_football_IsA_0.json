@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/table_football&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/table_football/,/c/en/sport/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/sport/n", 
+                "@type": "Node", 
+                "label": "sport", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sport"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table_football", 
+                "@type": "Node", 
+                "label": "table football", 
+                "language": "en", 
+                "term": "/c/en/table_football"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

@@ -1,0 +1,335 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toy&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/droberts45/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/droberts45"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "*Something you find at [[a store]] is [[a toy]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/toy_chest/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy_chest", 
+                "@type": "Node", 
+                "label": "a toy chest", 
+                "language": "en", 
+                "term": "/c/en/toy_chest"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[a toy chest]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/playroom/,/c/en/toy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/playroom", 
+                "@type": "Node", 
+                "label": "a playroom", 
+                "language": "en", 
+                "term": "/c/en/playroom"
+            }, 
+            "surfaceText": "You are likely to find [[a playroom]] in [[a toy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/children's_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/children's_room", 
+                "@type": "Node", 
+                "label": "a children's room", 
+                "language": "en", 
+                "term": "/c/en/children's_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pinkdragon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pinkdragon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[a children's room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/child's_bedroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/child's_bedroom", 
+                "@type": "Node", 
+                "label": "a child's bedroom", 
+                "language": "en", 
+                "term": "/c/en/child's_bedroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[a child's bedroom]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/kindergarden/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kindergarden", 
+                "@type": "Node", 
+                "label": "a kindergarden", 
+                "language": "en", 
+                "term": "/c/en/kindergarden"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dragoncheez/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dragoncheez"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[a kindergarden]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "*Something you find on [[a table]] is [[a toy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/toy_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toy_box", 
+                "@type": "Node", 
+                "label": "a toy box", 
+                "language": "en", 
+                "term": "/c/en/toy_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/leisan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/leisan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[a toy box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/toy/,/c/en/toydroors/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/toydroors", 
+                "@type": "Node", 
+                "label": "toydroors", 
+                "language": "en", 
+                "term": "/c/en/toydroors"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pujo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pujo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toy", 
+                "@type": "Node", 
+                "label": "a toy", 
+                "language": "en", 
+                "term": "/c/en/toy"
+            }, 
+            "surfaceText": "You are likely to find [[a toy]] in [[toydroors]]", 
+            "weight": 1.0
+        }
+    ]
+}

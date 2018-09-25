@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pressure_cooker&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pressure_cooker/n/,/c/en/autoclave/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/autoclave/n", 
+                "@type": "Node", 
+                "label": "autoclave", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/autoclave"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pressure_cooker/n", 
+                "@type": "Node", 
+                "label": "pressure cooker", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pressure_cooker"
+            }, 
+            "surfaceText": "[[pressure cooker]] is a type of [[autoclave]]", 
+            "weight": 2.0
+        }
+    ]
+}

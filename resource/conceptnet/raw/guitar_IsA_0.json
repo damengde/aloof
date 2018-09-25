@@ -1,0 +1,930 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/guitar&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/string_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/string_instrument", 
+                "@type": "Node", 
+                "label": "string instrument", 
+                "language": "en", 
+                "term": "/c/en/string_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/trimalchio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/trimalchio"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/borris/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/borris"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/atrice/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/atrice"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ejames/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ejames"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gs4productions/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gs4productions"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/highway/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/highway"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jayem/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jayem"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/neitherday/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/neitherday"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[guitar]] is a kind of [[string instrument]]", 
+            "weight": 6.32455532033676
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bass_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bass_guitar/n", 
+                "@type": "Node", 
+                "label": "bass guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bass_guitar"
+            }, 
+            "surfaceText": "[[bass guitar]] is a type of [[guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cittern/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cittern/n", 
+                "@type": "Node", 
+                "label": "cittern", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cittern"
+            }, 
+            "surfaceText": "[[cittern]] is a type of [[guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/instrument", 
+                "@type": "Node", 
+                "label": "instrument", 
+                "language": "en", 
+                "term": "/c/en/instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/trimalchio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/trimalchio"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[guitar]] is a kind of [[instrument]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/hawaiian_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hawaiian_guitar/n", 
+                "@type": "Node", 
+                "label": "Hawaiian guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hawaiian_guitar"
+            }, 
+            "surfaceText": "[[Hawaiian guitar]] is a type of [[guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/uke/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/uke/n", 
+                "@type": "Node", 
+                "label": "uke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/uke"
+            }, 
+            "surfaceText": "[[uke]] is a type of [[guitar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/acoustic_guitar/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/trimalchio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/trimalchio"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/acoustic_guitar", 
+                "@type": "Node", 
+                "label": "acoustic guitar", 
+                "language": "en", 
+                "term": "/c/en/acoustic_guitar"
+            }, 
+            "surfaceText": "[[acoustic guitar]] is a kind of [[guitar]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/acoustic_guitar/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/acoustic_guitar", 
+                "@type": "Node", 
+                "label": "acoustic guitar", 
+                "language": "en", 
+                "term": "/c/en/acoustic_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/acoustic_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/acoustic_guitar/n", 
+                "@type": "Node", 
+                "label": "acoustic guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/acoustic_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_guitar/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/trimalchio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/trimalchio"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_guitar", 
+                "@type": "Node", 
+                "label": "electric guitar", 
+                "language": "en", 
+                "term": "/c/en/electric_guitar"
+            }, 
+            "surfaceText": "[[electric guitar]] is a kind of [[guitar]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_guitar/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_guitar", 
+                "@type": "Node", 
+                "label": "electric guitar", 
+                "language": "en", 
+                "term": "/c/en/electric_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_guitar/n", 
+                "@type": "Node", 
+                "label": "electric guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fender_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fender_guitar/n", 
+                "@type": "Node", 
+                "label": "fender guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fender_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gibson_guitar/n/,/c/en/guitar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gibson_guitar/n", 
+                "@type": "Node", 
+                "label": "gibson guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gibson_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/easier_to_play_than_violin/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/easier_to_play_than_violin", 
+                "@type": "Node", 
+                "label": "easier to play than a violin", 
+                "language": "en", 
+                "term": "/c/en/easier_to_play_than_violin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "A guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[A guitar]] is [[easier to play than a violin]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/instrument_of_music/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/instrument_of_music", 
+                "@type": "Node", 
+                "label": "an instrument of music", 
+                "language": "en", 
+                "term": "/c/en/instrument_of_music"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "the guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[the guitar]] is [[an instrument of music]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/most_common_musical_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/most_common_musical_instrument", 
+                "@type": "Node", 
+                "label": "the most common musical instrument", 
+                "language": "en", 
+                "term": "/c/en/most_common_musical_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/donwulff/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/donwulff"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "Guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[Guitar]] is [[the most common musical instrument]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/,/c/en/very_common_musical_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_common_musical_instrument", 
+                "@type": "Node", 
+                "label": "a very common musical instrument", 
+                "language": "en", 
+                "term": "/c/en/very_common_musical_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "A guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[A guitar]] is [[a very common musical instrument]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/n/,/c/en/chordophone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/chordophone", 
+                "@type": "Node", 
+                "label": "chordophone", 
+                "language": "en", 
+                "term": "/c/en/chordophone"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/n/,/c/en/lute/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/lute", 
+                "@type": "Node", 
+                "label": "lute", 
+                "language": "en", 
+                "term": "/c/en/lute"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/n/,/c/en/stringed_instrument/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/stringed_instrument", 
+                "@type": "Node", 
+                "label": "stringed instrument", 
+                "language": "en", 
+                "term": "/c/en/stringed_instrument"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/guitar/n/,/c/en/stringed_instrument/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/stringed_instrument/n", 
+                "@type": "Node", 
+                "label": "stringed instrument", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stringed_instrument"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar/n", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lap_steel/n/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lap_steel/n", 
+                "@type": "Node", 
+                "label": "lap steel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lap_steel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/steel_guitar/n/,/c/en/guitar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/steel_guitar/n", 
+                "@type": "Node", 
+                "label": "steel guitar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/steel_guitar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

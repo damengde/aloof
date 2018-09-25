@@ -1,0 +1,1147 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/horse&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pull_cart/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pull_cart", 
+                "@type": "Node", 
+                "label": "pull a cart", 
+                "language": "en", 
+                "term": "/c/en/pull_cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/andrewblackdrake/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/andrewblackdrake"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/andrewblackdrake/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/andrewblackdrake"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jstearns/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jstearns"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[pull a cart]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/carry_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_person", 
+                "@type": "Node", 
+                "label": "carry a person", 
+                "language": "en", 
+                "term": "/c/en/carry_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[carry a person]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/drink_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drink_water", 
+                "@type": "Node", 
+                "label": "drink water", 
+                "language": "en", 
+                "term": "/c/en/drink_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/blueice2k3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/blueice2k3"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gryftir/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gryftir"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[drink water]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/jump_barrier/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_barrier", 
+                "@type": "Node", 
+                "label": "jump a barrier", 
+                "language": "en", 
+                "term": "/c/en/jump_barrier"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[jump a barrier]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/jump_fence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_fence", 
+                "@type": "Node", 
+                "label": "jump a fence", 
+                "language": "en", 
+                "term": "/c/en/jump_fence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boojum/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/boojum"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/surgchen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/surgchen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[jump a fence]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/run_in_pasture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/run_in_pasture", 
+                "@type": "Node", 
+                "label": "run in a pasture", 
+                "language": "en", 
+                "term": "/c/en/run_in_pasture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/linwood/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/linwood"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[run in a pasture]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/run_quickly/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/run_quickly", 
+                "@type": "Node", 
+                "label": "run quickly", 
+                "language": "en", 
+                "term": "/c/en/run_quickly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breeder/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breeder"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cocodrylo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cocodrylo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[run quickly]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/carry_man_to_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_man_to_water", 
+                "@type": "Node", 
+                "label": "carry a man to water", 
+                "language": "en", 
+                "term": "/c/en/carry_man_to_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[carry a man to water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/carry_person_on_back/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_person_on_back", 
+                "@type": "Node", 
+                "label": "carry a person on its back", 
+                "language": "en", 
+                "term": "/c/en/carry_person_on_back"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[carry a person on its back]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/drink_when_led_to_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drink_when_led_to_water", 
+                "@type": "Node", 
+                "label": "drink when led to water", 
+                "language": "en", 
+                "term": "/c/en/drink_when_led_to_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[drink when led to water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/finish_race/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/finish_race", 
+                "@type": "Node", 
+                "label": "finish a race", 
+                "language": "en", 
+                "term": "/c/en/finish_race"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[finish a race]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/go_away/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_away", 
+                "@type": "Node", 
+                "label": "go away", 
+                "language": "en", 
+                "term": "/c/en/go_away"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/beruang/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/beruang"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[go away]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/go_into_stall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/go_into_stall", 
+                "@type": "Node", 
+                "label": "go into a stall", 
+                "language": "en", 
+                "term": "/c/en/go_into_stall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[go into a stall]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/haul_cart/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/haul_cart", 
+                "@type": "Node", 
+                "label": "haul a cart", 
+                "language": "en", 
+                "term": "/c/en/haul_cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/austin0420/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/austin0420"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "An activity [[a horse]] can do is [[haul a cart]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/jump_across_fence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_across_fence", 
+                "@type": "Node", 
+                "label": "jump across a fence", 
+                "language": "en", 
+                "term": "/c/en/jump_across_fence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[jump across a fence]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/jump_hedge/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_hedge", 
+                "@type": "Node", 
+                "label": "jump a hedge", 
+                "language": "en", 
+                "term": "/c/en/jump_hedge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[jump a hedge]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/jump_high/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jump_high", 
+                "@type": "Node", 
+                "label": "jump high", 
+                "language": "en", 
+                "term": "/c/en/jump_high"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/peizo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/peizo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "The horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[The horse]] can [[jump high]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/outrun_human/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/outrun_human", 
+                "@type": "Node", 
+                "label": "outrun a human", 
+                "language": "en", 
+                "term": "/c/en/outrun_human"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "An activity [[a horse]] can do is [[outrun a human]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/passing_field/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/passing_field", 
+                "@type": "Node", 
+                "label": "be passing the field", 
+                "language": "en", 
+                "term": "/c/en/passing_field"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[be passing the field]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pet", 
+                "@type": "Node", 
+                "label": "be a pet", 
+                "language": "en", 
+                "term": "/c/en/pet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[be a pet]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/place_second/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place_second", 
+                "@type": "Node", 
+                "label": "place second", 
+                "language": "en", 
+                "term": "/c/en/place_second"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrtj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrtj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[place second]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pull_buggy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pull_buggy", 
+                "@type": "Node", 
+                "label": "pull a buggy", 
+                "language": "en", 
+                "term": "/c/en/pull_buggy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[pull a buggy]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pull_buggy_to_picnic/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pull_buggy_to_picnic", 
+                "@type": "Node", 
+                "label": "pull a buggy to a picnic", 
+                "language": "en", 
+                "term": "/c/en/pull_buggy_to_picnic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[pull a buggy to a picnic]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pull_large_logs_to_pile/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pull_large_logs_to_pile", 
+                "@type": "Node", 
+                "label": "pull large logs to a pile", 
+                "language": "en", 
+                "term": "/c/en/pull_large_logs_to_pile"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ksandre/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ksandre"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[pull large logs to a pile]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/pull_wagon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pull_wagon", 
+                "@type": "Node", 
+                "label": "pull a wagon", 
+                "language": "en", 
+                "term": "/c/en/pull_wagon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/graylady/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/graylady"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[pull a wagon]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/remember_helped/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/remember_helped", 
+                "@type": "Node", 
+                "label": "remember that someone helped it", 
+                "language": "en", 
+                "term": "/c/en/remember_helped"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/righar/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/righar"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[remember that someone helped it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/rush_at_fence/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rush_at_fence", 
+                "@type": "Node", 
+                "label": "rush at a fence", 
+                "language": "en", 
+                "term": "/c/en/rush_at_fence"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[rush at a fence]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/step_high/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/step_high", 
+                "@type": "Node", 
+                "label": "step high", 
+                "language": "en", 
+                "term": "/c/en/step_high"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dragonjools/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dragonjools"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[step high]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/walk_on_four_legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/walk_on_four_legs", 
+                "@type": "Node", 
+                "label": "walk on four legs", 
+                "language": "en", 
+                "term": "/c/en/walk_on_four_legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] can [[walk on four legs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/wear_saddle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wear_saddle", 
+                "@type": "Node", 
+                "label": "wear a saddle", 
+                "language": "en", 
+                "term": "/c/en/wear_saddle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/natura1ist/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/natura1ist"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[wear a saddle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/horse/,/c/en/win_race/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/win_race", 
+                "@type": "Node", 
+                "label": "win a race", 
+                "language": "en", 
+                "term": "/c/en/win_race"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can [[win a race]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/horse&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/horse/,/c/en/larger_than_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/larger_than_person", 
+                "@type": "Node", 
+                "label": "larger than a person", 
+                "language": "en", 
+                "term": "/c/en/larger_than_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] is generally [[larger than a person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/horse/,/c/en/majestic/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/majestic", 
+                "@type": "Node", 
+                "label": "majestic", 
+                "language": "en", 
+                "term": "/c/en/majestic"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kopp4x/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kopp4x"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[a horse]] is [[majestic]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/horse/,/c/en/white/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/white", 
+                "@type": "Node", 
+                "label": "white", 
+                "language": "en", 
+                "term": "/c/en/white"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tlin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "A horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "[[A horse]] can be [[white]]", 
+            "weight": 1.0
+        }
+    ]
+}

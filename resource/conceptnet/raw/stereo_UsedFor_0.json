@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stereo&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/stereo/,/c/en/listening_to/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/listening_to", 
+                "@type": "Node", 
+                "label": "listening to", 
+                "language": "en", 
+                "term": "/c/en/listening_to"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stereo", 
+                "@type": "Node", 
+                "label": "a stereo", 
+                "language": "en", 
+                "term": "/c/en/stereo"
+            }, 
+            "surfaceText": "[[a stereo]] is for [[listening to]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/stereo/,/c/en/playing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/playing", 
+                "@type": "Node", 
+                "label": "playing", 
+                "language": "en", 
+                "term": "/c/en/playing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stereo", 
+                "@type": "Node", 
+                "label": "a stereo", 
+                "language": "en", 
+                "term": "/c/en/stereo"
+            }, 
+            "surfaceText": "[[a stereo]] is for [[playing]]", 
+            "weight": 1.0
+        }
+    ]
+}

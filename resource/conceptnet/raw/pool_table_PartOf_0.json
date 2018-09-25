@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pool_table&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/balk/n/,/c/en/pool_table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pool_table/n", 
+                "@type": "Node", 
+                "label": "pool table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pool_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/balk/n", 
+                "@type": "Node", 
+                "label": "balk", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/balk"
+            }, 
+            "surfaceText": "[[balk]] is a part of [[pool table]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pocket/n/,/c/en/pool_table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pool_table/n", 
+                "@type": "Node", 
+                "label": "pool table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pool_table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pocket/n", 
+                "@type": "Node", 
+                "label": "pocket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pocket"
+            }, 
+            "surfaceText": "[[pocket]] is a part of [[pool table]]", 
+            "weight": 2.0
+        }
+    ]
+}

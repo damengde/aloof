@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/baby_carriage&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/small_dog/,/c/en/baby_carriage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/baby_carriage", 
+                "@type": "Node", 
+                "label": "a baby carriage", 
+                "language": "en", 
+                "term": "/c/en/baby_carriage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/small_dog", 
+                "@type": "Node", 
+                "label": "a small dog", 
+                "language": "en", 
+                "term": "/c/en/small_dog"
+            }, 
+            "surfaceText": "You are likely to find [[a small dog]] in [[a baby carriage]]", 
+            "weight": 1.0
+        }
+    ]
+}

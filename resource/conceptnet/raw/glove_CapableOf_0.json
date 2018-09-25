@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/glove&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/glove/,/c/en/fit_hand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fit_hand", 
+                "@type": "Node", 
+                "label": "fit a hand", 
+                "language": "en", 
+                "term": "/c/en/fit_hand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/azidek/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/azidek"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ali33/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ali33"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/glove", 
+                "@type": "Node", 
+                "label": "a glove", 
+                "language": "en", 
+                "term": "/c/en/glove"
+            }, 
+            "surfaceText": "[[a glove]] can [[fit a hand]]", 
+            "weight": 2.0
+        }
+    ]
+}

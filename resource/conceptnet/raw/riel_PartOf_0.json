@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/riel&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/sen/n/,/c/en/riel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/riel/n", 
+                "@type": "Node", 
+                "label": "riel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/riel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sen/n", 
+                "@type": "Node", 
+                "label": "sen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sen"
+            }, 
+            "surfaceText": "[[sen]] is a part of [[riel]]", 
+            "weight": 2.0
+        }
+    ]
+}

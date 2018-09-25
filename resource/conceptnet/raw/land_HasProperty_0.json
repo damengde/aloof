@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/land&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/land/,/c/en/moving_as_plates/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/moving_as_plates", 
+                "@type": "Node", 
+                "label": "moving as plates", 
+                "language": "en", 
+                "term": "/c/en/moving_as_plates"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leonhoen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leonhoen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is [[moving as plates]]", 
+            "weight": 1.0
+        }
+    ]
+}

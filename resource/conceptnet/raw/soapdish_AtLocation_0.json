@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/soapdish&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/soap/,/c/en/soapdish/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soapdish", 
+                "@type": "Node", 
+                "label": "a soapdish", 
+                "language": "en", 
+                "term": "/c/en/soapdish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/talley/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/talley"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soap", 
+                "@type": "Node", 
+                "label": "a soap", 
+                "language": "en", 
+                "term": "/c/en/soap"
+            }, 
+            "surfaceText": "You are likely to find [[a soap]] in [[a soapdish]]", 
+            "weight": 1.0
+        }
+    ]
+}

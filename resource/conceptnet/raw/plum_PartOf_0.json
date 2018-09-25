@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plum&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plum/n/,/c/en/plum/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/plum/n", 
+                "@type": "Node", 
+                "label": "plum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plum/n", 
+                "@type": "Node", 
+                "label": "plum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plum"
+            }, 
+            "surfaceText": "[[plum]] is a part of [[plum]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pit/,/c/en/plum/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/plum", 
+                "@type": "Node", 
+                "label": "a plum", 
+                "language": "en", 
+                "term": "/c/en/plum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pit", 
+                "@type": "Node", 
+                "label": "A pit", 
+                "language": "en", 
+                "term": "/c/en/pit"
+            }, 
+            "surfaceText": "[[A pit]] is part of [[a plum]]", 
+            "weight": 1.0
+        }
+    ]
+}

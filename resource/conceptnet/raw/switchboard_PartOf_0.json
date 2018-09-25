@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/switchboard&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/switchboard/n/,/c/en/telephone_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/telephone_system/n", 
+                "@type": "Node", 
+                "label": "telephone system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/telephone_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/switchboard/n", 
+                "@type": "Node", 
+                "label": "switchboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/switchboard"
+            }, 
+            "surfaceText": "[[switchboard]] is a part of [[telephone system]]", 
+            "weight": 2.0
+        }
+    ]
+}

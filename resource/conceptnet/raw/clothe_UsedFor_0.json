@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/clothe&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/cloth/,/c/en/clothe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clothe", 
+                "@type": "Node", 
+                "label": "clothe", 
+                "language": "en", 
+                "term": "/c/en/clothe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbult/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbult"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cloth", 
+                "@type": "Node", 
+                "label": "a cloth", 
+                "language": "en", 
+                "term": "/c/en/cloth"
+            }, 
+            "surfaceText": "You can use [[a cloth]] to [[clothe]]", 
+            "weight": 1.0
+        }
+    ]
+}

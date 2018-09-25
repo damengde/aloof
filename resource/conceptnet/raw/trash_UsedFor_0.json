@@ -1,0 +1,469 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trash&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/taking_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/taking_out", 
+                "@type": "Node", 
+                "label": "taking out", 
+                "language": "en", 
+                "term": "/c/en/taking_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rspeer2"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[trash]] is for [[taking out]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dustbin/,/c/en/trash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/reisee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/reisee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dustbin", 
+                "@type": "Node", 
+                "label": "a dustbin", 
+                "language": "en", 
+                "term": "/c/en/dustbin"
+            }, 
+            "surfaceText": "[[a dustbin]] is for [[trash]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/restaurant_storage_area/,/c/en/trash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/restaurant_storage_area", 
+                "@type": "Node", 
+                "label": "a restaurant storage area", 
+                "language": "en", 
+                "term": "/c/en/restaurant_storage_area"
+            }, 
+            "surfaceText": "[[a restaurant storage area]] is used for [[trash]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/burn_as_fuel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/burn_as_fuel", 
+                "@type": "Node", 
+                "label": "burn as fuel", 
+                "language": "en", 
+                "term": "/c/en/burn_as_fuel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/terence/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/terence"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You can use [[trash]] to [[burn as fuel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/discarded_items/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/discarded_items", 
+                "@type": "Node", 
+                "label": "discarded items", 
+                "language": "en", 
+                "term": "/c/en/discarded_items"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[discarded items]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/disposal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/disposal", 
+                "@type": "Node", 
+                "label": "disposal", 
+                "language": "en", 
+                "term": "/c/en/disposal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[disposal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/disposing_of_unwanted_materials/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/disposing_of_unwanted_materials", 
+                "@type": "Node", 
+                "label": "disposing of unwanted materials", 
+                "language": "en", 
+                "term": "/c/en/disposing_of_unwanted_materials"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leesa0426/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leesa0426"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[disposing of unwanted materials]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/getting_rid_of_garbage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/getting_rid_of_garbage", 
+                "@type": "Node", 
+                "label": "getting rid of garbage", 
+                "language": "en", 
+                "term": "/c/en/getting_rid_of_garbage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tiskippy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tiskippy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[getting rid of garbage]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/no_purpose/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/no_purpose", 
+                "@type": "Node", 
+                "label": "no purpose", 
+                "language": "en", 
+                "term": "/c/en/no_purpose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cerewa/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cerewa"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[trash]] is for [[no purpose]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/old_boots/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/old_boots", 
+                "@type": "Node", 
+                "label": "old boots", 
+                "language": "en", 
+                "term": "/c/en/old_boots"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[old boots]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/recycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/recycle", 
+                "@type": "Node", 
+                "label": "recycle", 
+                "language": "en", 
+                "term": "/c/en/recycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kinchin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kinchin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You can use [[trash]] to [[recycle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash/,/c/en/throwing_things_away/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/throwing_things_away", 
+                "@type": "Node", 
+                "label": "throwing things away", 
+                "language": "en", 
+                "term": "/c/en/throwing_things_away"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wtgee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wtgee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "[[a trash]] is used for [[throwing things away]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/trash_receptacle/,/c/en/trash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash_receptacle", 
+                "@type": "Node", 
+                "label": "a trash receptacle", 
+                "language": "en", 
+                "term": "/c/en/trash_receptacle"
+            }, 
+            "surfaceText": "[[a trash receptacle]] is used for [[trash]]", 
+            "weight": 1.0
+        }
+    ]
+}

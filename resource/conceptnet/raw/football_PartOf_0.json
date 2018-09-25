@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/football&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bladder/n/,/c/en/football/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/football/n", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bladder/n", 
+                "@type": "Node", 
+                "label": "bladder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bladder"
+            }, 
+            "surfaceText": "[[bladder]] is a part of [[football]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/half/n/,/c/en/football/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/football/n", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/half/n", 
+                "@type": "Node", 
+                "label": "half", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/half"
+            }, 
+            "surfaceText": "[[half]] is a part of [[football]]", 
+            "weight": 2.0
+        }
+    ]
+}

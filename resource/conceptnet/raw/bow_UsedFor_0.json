@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bow&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bow/n/,/c/en/play/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/play/v", 
+                "@type": "Node", 
+                "label": "play", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/play"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow/n", 
+                "@type": "Node", 
+                "label": "bow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bow"
+            }, 
+            "surfaceText": "[[bow]] is used for [[play]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bow/n/,/c/en/shoot/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shoot/v", 
+                "@type": "Node", 
+                "label": "shoot", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/shoot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow/n", 
+                "@type": "Node", 
+                "label": "bow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bow"
+            }, 
+            "surfaceText": "[[bow]] is used for [[shoot]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bow/n/,/c/en/tie/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tie/v", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow/n", 
+                "@type": "Node", 
+                "label": "bow", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bow"
+            }, 
+            "surfaceText": "[[bow]] is used for [[tie]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bow/,/c/en/archery/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/archery", 
+                "@type": "Node", 
+                "label": "archery", 
+                "language": "en", 
+                "term": "/c/en/archery"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bow", 
+                "@type": "Node", 
+                "label": "a bow", 
+                "language": "en", 
+                "term": "/c/en/bow"
+            }, 
+            "surfaceText": "[[a bow]] is used for [[archery]].", 
+            "weight": 1.0
+        }
+    ]
+}

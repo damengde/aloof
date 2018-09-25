@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/football&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/football/,/c/en/playing_football/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/playing_football", 
+                "@type": "Node", 
+                "label": "playing football", 
+                "language": "en", 
+                "term": "/c/en/playing_football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "A football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "surfaceText": "[[A football]] is used for [[playing football]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/baseball_stadium/,/c/en/football/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baseball_stadium", 
+                "@type": "Node", 
+                "label": "a baseball stadium", 
+                "language": "en", 
+                "term": "/c/en/baseball_stadium"
+            }, 
+            "surfaceText": "[[a baseball stadium]] is used for [[football]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/football/,/c/en/exercising/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/exercising", 
+                "@type": "Node", 
+                "label": "exercising", 
+                "language": "en", 
+                "term": "/c/en/exercising"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/toblerones/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/toblerones"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/football", 
+                "@type": "Node", 
+                "label": "football", 
+                "language": "en", 
+                "term": "/c/en/football"
+            }, 
+            "surfaceText": "[[football]] is for [[exercising]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,195 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wall&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wall/,/c/en/separate_rooms/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separate_rooms", 
+                "@type": "Node", 
+                "label": "separate rooms", 
+                "language": "en", 
+                "term": "/c/en/separate_rooms"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "a wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[a wall]] can [[separate rooms]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wall/,/c/en/separate_rooms_from_each_other/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separate_rooms_from_each_other", 
+                "@type": "Node", 
+                "label": "separate rooms from each other", 
+                "language": "en", 
+                "term": "/c/en/separate_rooms_from_each_other"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "A wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[A wall]] can [[separate rooms from each other]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wall/,/c/en/divide_yard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/divide_yard", 
+                "@type": "Node", 
+                "label": "divide the yard", 
+                "language": "en", 
+                "term": "/c/en/divide_yard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cralize/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cralize"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "A wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[A wall]] can [[divide the yard]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wall/,/c/en/separate_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/separate_people", 
+                "@type": "Node", 
+                "label": "separate people", 
+                "language": "en", 
+                "term": "/c/en/separate_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/reddice/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/reddice"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "a wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[a wall]] can [[separate people]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/wall/,/c/en/stop_car/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stop_car", 
+                "@type": "Node", 
+                "label": "stop a car", 
+                "language": "en", 
+                "term": "/c/en/stop_car"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/neuromancer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/neuromancer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wall", 
+                "@type": "Node", 
+                "label": "a wall", 
+                "language": "en", 
+                "term": "/c/en/wall"
+            }, 
+            "surfaceText": "[[a wall]] can [[stop a car]]", 
+            "weight": 1.0
+        }
+    ]
+}

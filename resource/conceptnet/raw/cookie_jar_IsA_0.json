@@ -1,0 +1,152 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cookie_jar&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cookie_jar/n/,/c/en/jar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie_jar/n", 
+                "@type": "Node", 
+                "label": "cookie jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cookie_jar"
+            }, 
+            "surfaceText": "[[cookie jar]] is a type of [[jar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cookie_jar/,/c/en/jar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie_jar", 
+                "@type": "Node", 
+                "label": "cookie jar", 
+                "language": "en", 
+                "term": "/c/en/cookie_jar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cookie_jar/n/,/c/en/food_storage_container/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_storage_container/n", 
+                "@type": "Node", 
+                "label": "food storage container", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_storage_container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie_jar/n", 
+                "@type": "Node", 
+                "label": "cookie jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cookie_jar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cookie_jar/n/,/c/en/non_powered_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/non_powered_device/n", 
+                "@type": "Node", 
+                "label": "non powered device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/non_powered_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cookie_jar/n", 
+                "@type": "Node", 
+                "label": "cookie jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cookie_jar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

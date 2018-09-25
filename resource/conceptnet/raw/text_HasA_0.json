@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/text&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/page/,/c/en/text/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/page", 
+                "@type": "Node", 
+                "label": "a page", 
+                "language": "en", 
+                "term": "/c/en/page"
+            }, 
+            "surfaceText": "[[a page]] contains [[text]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/text/,/c/en/words/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/words", 
+                "@type": "Node", 
+                "label": "words", 
+                "language": "en", 
+                "term": "/c/en/words"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zoundz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zoundz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/text", 
+                "@type": "Node", 
+                "label": "a text", 
+                "language": "en", 
+                "term": "/c/en/text"
+            }, 
+            "surfaceText": "[[a text]] has [[words]]", 
+            "weight": 1.0
+        }
+    ]
+}

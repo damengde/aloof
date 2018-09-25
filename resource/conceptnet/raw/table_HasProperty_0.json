@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/table&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/table/,/c/en/rigid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rigid", 
+                "@type": "Node", 
+                "label": "rigid", 
+                "language": "en", 
+                "term": "/c/en/rigid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/saddat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/saddat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "a table ", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "surfaceText": "[[a table ]] is [[rigid]]", 
+            "weight": 1.0
+        }
+    ]
+}

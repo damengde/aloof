@@ -1,0 +1,448 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fire&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/cook/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cook", 
+                "@type": "Node", 
+                "label": "cook", 
+                "language": "en", 
+                "term": "/c/en/cook"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jjxwaltzin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jjxwaltzin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sellis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sellis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "You can use [[fire]] to [[cook]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/cook_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cook_food", 
+                "@type": "Node", 
+                "label": "cook food", 
+                "language": "en", 
+                "term": "/c/en/cook_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/conte"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/linderot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/linderot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "You can use [[fire]] to [[cook food]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/gun/n/,/c/en/fire/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fire/v", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gun/n", 
+                "@type": "Node", 
+                "label": "gun", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gun"
+            }, 
+            "surfaceText": "[[gun]] is used for [[fire]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/match/n/,/c/en/fire/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fire/n", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/match/n", 
+                "@type": "Node", 
+                "label": "match", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/match"
+            }, 
+            "surfaceText": "[[match]] is used for [[fire]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/both_good_and_bad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/both_good_and_bad", 
+                "@type": "Node", 
+                "label": "both good and bad", 
+                "language": "en", 
+                "term": "/c/en/both_good_and_bad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/msteede/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/msteede"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "Fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "[[Fire]] can be used for [[both good and bad]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/burn_waste/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/burn_waste", 
+                "@type": "Node", 
+                "label": "burn waste", 
+                "language": "en", 
+                "term": "/c/en/burn_waste"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/conte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "You can use [[fire]] to [[burn waste]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/heating_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heating_water", 
+                "@type": "Node", 
+                "label": "heating water", 
+                "language": "en", 
+                "term": "/c/en/heating_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "A fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "[[A fire]] is used for [[heating water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/keep_yourself_warm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_yourself_warm", 
+                "@type": "Node", 
+                "label": "keep yourself warm", 
+                "language": "en", 
+                "term": "/c/en/keep_yourself_warm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/conte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/conte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "You can use [[fire]] to [[keep yourself warm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/fire/,/c/en/make_electricity/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_electricity", 
+                "@type": "Node", 
+                "label": "make electricity", 
+                "language": "en", 
+                "term": "/c/en/make_electricity"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfalz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfalz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "surfaceText": "[[fire]] is used to [[make electricity]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/lighting_match/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/poptarts/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/poptarts"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lighting_match", 
+                "@type": "Node", 
+                "label": "lighting a match", 
+                "language": "en", 
+                "term": "/c/en/lighting_match"
+            }, 
+            "surfaceText": "[[lighting a match]] is for [[fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pistol/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pistol", 
+                "@type": "Node", 
+                "label": "a pistol", 
+                "language": "en", 
+                "term": "/c/en/pistol"
+            }, 
+            "surfaceText": "You can use [[a pistol]] to [[fire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/starting_fire/,/c/en/fire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fire", 
+                "@type": "Node", 
+                "label": "fire", 
+                "language": "en", 
+                "term": "/c/en/fire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smallfish/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smallfish"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/starting_fire", 
+                "@type": "Node", 
+                "label": "starting a fire", 
+                "language": "en", 
+                "term": "/c/en/starting_fire"
+            }, 
+            "surfaceText": "[[starting a fire]] is for [[fire]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/awning&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/awning/n/,/c/en/canopy/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/canopy/n", 
+                "@type": "Node", 
+                "label": "canopy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canopy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/awning/n", 
+                "@type": "Node", 
+                "label": "awning", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/awning"
+            }, 
+            "surfaceText": "[[awning]] is a type of [[canopy]]", 
+            "weight": 2.0
+        }
+    ]
+}

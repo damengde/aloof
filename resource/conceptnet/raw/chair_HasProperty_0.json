@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chair&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/chair/,/c/en/soft_or_hard/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/soft_or_hard", 
+                "@type": "Node", 
+                "label": "soft or hard", 
+                "language": "en", 
+                "term": "/c/en/soft_or_hard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/timeslicer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/timeslicer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chair", 
+                "@type": "Node", 
+                "label": "a chair", 
+                "language": "en", 
+                "term": "/c/en/chair"
+            }, 
+            "surfaceText": "[[a chair]] can be [[soft or hard]]", 
+            "weight": 1.0
+        }
+    ]
+}

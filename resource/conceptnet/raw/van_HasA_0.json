@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/van&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/van/,/c/en/new_tires/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/new_tires", 
+                "@type": "Node", 
+                "label": "new tires", 
+                "language": "en", 
+                "term": "/c/en/new_tires"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/steveh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/steveh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "My van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[My van]] has [[new tires]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/van/,/c/en/seats_inside/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/seats_inside", 
+                "@type": "Node", 
+                "label": "seats inside", 
+                "language": "en", 
+                "term": "/c/en/seats_inside"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "A van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[A van]] has [[seats inside]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/van/,/c/en/transmission_system/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transmission_system", 
+                "@type": "Node", 
+                "label": "a transmission system", 
+                "language": "en", 
+                "term": "/c/en/transmission_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rebrachman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rebrachman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "a van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "[[a van]] has [[a transmission system]]", 
+            "weight": 1.0
+        }
+    ]
+}

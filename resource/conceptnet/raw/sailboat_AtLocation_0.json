@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sailboat&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sailboat/,/c/en/lake/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lake", 
+                "@type": "Node", 
+                "label": "a lake", 
+                "language": "en", 
+                "term": "/c/en/lake"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/djaynewman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/djaynewman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sailboat", 
+                "@type": "Node", 
+                "label": "a sailboat", 
+                "language": "en", 
+                "term": "/c/en/sailboat"
+            }, 
+            "surfaceText": "*Something you find in [[a lake]] is [[a sailboat]]", 
+            "weight": 1.0
+        }
+    ]
+}

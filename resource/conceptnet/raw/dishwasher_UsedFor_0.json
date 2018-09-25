@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dishwasher&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dishwasher/,/c/en/washing_dishes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/washing_dishes", 
+                "@type": "Node", 
+                "label": "washing dishes", 
+                "language": "en", 
+                "term": "/c/en/washing_dishes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rspeer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rspeer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "surfaceText": "[[dishwasher]] is for [[washing dishes]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/dirty_dishes/,/c/en/dishwasher/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dishwasher", 
+                "@type": "Node", 
+                "label": "the dishwasher", 
+                "language": "en", 
+                "term": "/c/en/dishwasher"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dirty_dishes", 
+                "@type": "Node", 
+                "label": "a dirty dishes", 
+                "language": "en", 
+                "term": "/c/en/dirty_dishes"
+            }, 
+            "surfaceText": "[[a dirty dishes]] is used for [[the dishwasher]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/printer&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/printer/,/c/en/number_pages/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/number_pages", 
+                "@type": "Node", 
+                "label": "number pages", 
+                "language": "en", 
+                "term": "/c/en/number_pages"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/printer", 
+                "@type": "Node", 
+                "label": "a printer", 
+                "language": "en", 
+                "term": "/c/en/printer"
+            }, 
+            "surfaceText": "[[a printer]] can [[number pages]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/printer/,/c/en/print_designs_on_clothing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/print_designs_on_clothing", 
+                "@type": "Node", 
+                "label": "print designs on clothing", 
+                "language": "en", 
+                "term": "/c/en/print_designs_on_clothing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/printer", 
+                "@type": "Node", 
+                "label": "a printer", 
+                "language": "en", 
+                "term": "/c/en/printer"
+            }, 
+            "surfaceText": "[[a printer]] may [[print designs on clothing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/printer/,/c/en/work/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work", 
+                "@type": "Node", 
+                "label": "work", 
+                "language": "en", 
+                "term": "/c/en/work"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nicola168/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nicola168"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/printer", 
+                "@type": "Node", 
+                "label": "A printer", 
+                "language": "en", 
+                "term": "/c/en/printer"
+            }, 
+            "surfaceText": "[[A printer]] can [[work]]", 
+            "weight": 1.0
+        }
+    ]
+}

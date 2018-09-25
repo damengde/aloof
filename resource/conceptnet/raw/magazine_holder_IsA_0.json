@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/magazine_holder&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/mag_book/n/,/c/en/magazine_holder/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/magazine_holder", 
+                "@type": "Node", 
+                "label": "magazine holder", 
+                "language": "en", 
+                "term": "/c/en/magazine_holder"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mag_book/n", 
+                "@type": "Node", 
+                "label": "mag book", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mag_book"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/monitor&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/detector/n/,/c/en/monitor/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/monitor/v", 
+                "@type": "Node", 
+                "label": "monitor", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/monitor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/detector/n", 
+                "@type": "Node", 
+                "label": "detector", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/detector"
+            }, 
+            "surfaceText": "[[detector]] is used for [[monitor]]", 
+            "weight": 2.0
+        }
+    ]
+}

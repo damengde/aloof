@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/test&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/test/,/c/en/several_problems_to_solve/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/several_problems_to_solve", 
+                "@type": "Node", 
+                "label": "several problems to solve", 
+                "language": "en", 
+                "term": "/c/en/several_problems_to_solve"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chaitanya/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chaitanya"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "A test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[A test]] contains [[several problems to solve]]", 
+            "weight": 1.0
+        }
+    ]
+}

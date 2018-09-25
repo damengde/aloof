@@ -1,0 +1,162 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cauliflower&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cauliflower/,/c/en/vegetable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vegetable", 
+                "@type": "Node", 
+                "label": "a vegetable", 
+                "language": "en", 
+                "term": "/c/en/vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/rossjesse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/rossjesse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower", 
+                "@type": "Node", 
+                "label": "A cauliflower", 
+                "language": "en", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[A cauliflower]] is [[a vegetable]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cauliflower/n/,/c/en/crucifer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/crucifer/n", 
+                "@type": "Node", 
+                "label": "crucifer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/crucifer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower/n", 
+                "@type": "Node", 
+                "label": "cauliflower", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[cauliflower]] is a type of [[crucifer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cauliflower/n/,/c/en/cruciferous_vegetable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cruciferous_vegetable/n", 
+                "@type": "Node", 
+                "label": "cruciferous vegetable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cruciferous_vegetable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower/n", 
+                "@type": "Node", 
+                "label": "cauliflower", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": "[[cauliflower]] is a type of [[cruciferous vegetable]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cauliflower/,/c/en/cultivated_variety/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/cultivated_variety/n", 
+                "@type": "Node", 
+                "label": "cultivated variety", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cultivated_variety"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cauliflower", 
+                "@type": "Node", 
+                "label": "cauliflower", 
+                "language": "en", 
+                "term": "/c/en/cauliflower"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

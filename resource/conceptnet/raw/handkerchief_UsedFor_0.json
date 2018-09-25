@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/handkerchief&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/handkerchief/,/c/en/mop_brow/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mop_brow", 
+                "@type": "Node", 
+                "label": "mop a brow", 
+                "language": "en", 
+                "term": "/c/en/mop_brow"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handkerchief", 
+                "@type": "Node", 
+                "label": "A handkerchief", 
+                "language": "en", 
+                "term": "/c/en/handkerchief"
+            }, 
+            "surfaceText": "[[A handkerchief]] can be used to [[mop a brow]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/handkerchief/,/c/en/wipe_nose/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wipe_nose", 
+                "@type": "Node", 
+                "label": "wipe your nose", 
+                "language": "en", 
+                "term": "/c/en/wipe_nose"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handkerchief", 
+                "@type": "Node", 
+                "label": "A handkerchief", 
+                "language": "en", 
+                "term": "/c/en/handkerchief"
+            }, 
+            "surfaceText": "[[A handkerchief]] can be used to [[wipe your nose]]", 
+            "weight": 1.0
+        }
+    ]
+}

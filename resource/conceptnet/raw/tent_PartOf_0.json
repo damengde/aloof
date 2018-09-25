@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tent&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/guy/n/,/c/en/tent/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tent/n", 
+                "@type": "Node", 
+                "label": "tent", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tent"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guy/n", 
+                "@type": "Node", 
+                "label": "guy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/guy"
+            }, 
+            "surfaceText": "[[guy]] is a part of [[tent]]", 
+            "weight": 2.0
+        }
+    ]
+}

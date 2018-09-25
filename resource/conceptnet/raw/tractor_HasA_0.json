@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tractor&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/tractor/,/c/en/four_wheels/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/four_wheels", 
+                "@type": "Node", 
+                "label": "four wheels", 
+                "language": "en", 
+                "term": "/c/en/four_wheels"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jonmatthews617/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jonmatthews617"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tractor", 
+                "@type": "Node", 
+                "label": "the tractor", 
+                "language": "en", 
+                "term": "/c/en/tractor"
+            }, 
+            "surfaceText": "[[the tractor]] has [[four wheels]]", 
+            "weight": 1.0
+        }
+    ]
+}

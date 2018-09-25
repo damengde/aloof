@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trowel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/trowel/,/c/en/spread_morter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spread_morter", 
+                "@type": "Node", 
+                "label": "spread morter", 
+                "language": "en", 
+                "term": "/c/en/spread_morter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ehloria/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ehloria"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trowel", 
+                "@type": "Node", 
+                "label": "a trowel", 
+                "language": "en", 
+                "term": "/c/en/trowel"
+            }, 
+            "surfaceText": "[[a trowel]] can [[spread morter]]", 
+            "weight": 1.0
+        }
+    ]
+}

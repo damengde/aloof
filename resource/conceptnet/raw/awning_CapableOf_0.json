@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/awning&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/awning/,/c/en/shade_porch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shade_porch", 
+                "@type": "Node", 
+                "label": "shade A PORCH", 
+                "language": "en", 
+                "term": "/c/en/shade_porch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/leslie87/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/leslie87"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/awning", 
+                "@type": "Node", 
+                "label": "AN AWNING", 
+                "language": "en", 
+                "term": "/c/en/awning"
+            }, 
+            "surfaceText": "[[AN AWNING]] can [[shade A PORCH]]", 
+            "weight": 1.0
+        }
+    ]
+}

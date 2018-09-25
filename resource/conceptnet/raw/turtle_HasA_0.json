@@ -1,0 +1,131 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/turtle&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/turtle/,/c/en/hard_shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hard_shell", 
+                "@type": "Node", 
+                "label": "a hard shell", 
+                "language": "en", 
+                "term": "/c/en/hard_shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sparlin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sparlin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/davidfoley/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/davidfoley"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/markus25/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/markus25"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "A turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "[[A turtle]] has [[a hard shell]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/turtle/,/c/en/shell/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shell", 
+                "@type": "Node", 
+                "label": "a shell", 
+                "language": "en", 
+                "term": "/c/en/shell"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gazook/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gazook"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "A turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "[[A turtle]] has [[a shell]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/turtle/,/c/en/shield/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shield", 
+                "@type": "Node", 
+                "label": "a shield", 
+                "language": "en", 
+                "term": "/c/en/shield"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dellaert/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dellaert"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/turtle", 
+                "@type": "Node", 
+                "label": "a turtle", 
+                "language": "en", 
+                "term": "/c/en/turtle"
+            }, 
+            "surfaceText": "[[a turtle]] has [[a shield]]", 
+            "weight": 1.0
+        }
+    ]
+}

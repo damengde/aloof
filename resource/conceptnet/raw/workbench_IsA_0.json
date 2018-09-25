@@ -1,0 +1,188 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/workbench&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lab_bench/n/,/c/en/workbench/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/workbench/n", 
+                "@type": "Node", 
+                "label": "workbench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workbench"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lab_bench/n", 
+                "@type": "Node", 
+                "label": "lab bench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lab_bench"
+            }, 
+            "surfaceText": "[[lab bench]] is a type of [[workbench]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/workbench/n/,/c/en/worktable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/worktable/n", 
+                "@type": "Node", 
+                "label": "worktable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/worktable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/workbench/n", 
+                "@type": "Node", 
+                "label": "workbench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workbench"
+            }, 
+            "surfaceText": "[[workbench]] is a type of [[worktable]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/workbench/n/,/c/en/table/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/table/n", 
+                "@type": "Node", 
+                "label": "table", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/workbench/n", 
+                "@type": "Node", 
+                "label": "workbench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workbench"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/workbench/n/,/c/en/workstation/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/workstation/n", 
+                "@type": "Node", 
+                "label": "workstation", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workstation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/workbench/n", 
+                "@type": "Node", 
+                "label": "workbench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workbench"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/workbench/n/,/c/en/software/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/software/n", 
+                "@type": "Node", 
+                "label": "software", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/software"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/workbench/n", 
+                "@type": "Node", 
+                "label": "workbench", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/workbench"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

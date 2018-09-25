@@ -1,0 +1,244 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/animal&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/head/,/c/en/animal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/animal", 
+                "@type": "Node", 
+                "label": "an animal", 
+                "language": "en", 
+                "term": "/c/en/animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mark"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/klynn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/klynn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mtraven/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mtraven"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/unclghost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/unclghost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/head", 
+                "@type": "Node", 
+                "label": "a head", 
+                "language": "en", 
+                "term": "/c/en/head"
+            }, 
+            "surfaceText": "[[a head]] is part of [[an animal]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/animal/,/c/en/ecology/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ecology", 
+                "@type": "Node", 
+                "label": "an ecology", 
+                "language": "en", 
+                "term": "/c/en/ecology"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/blah_blankerson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/blah_blankerson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/animal", 
+                "@type": "Node", 
+                "label": "an animal", 
+                "language": "en", 
+                "term": "/c/en/animal"
+            }, 
+            "surfaceText": "[[an animal]] is part of [[an ecology]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/face/n/,/c/en/animal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/animal/n", 
+                "@type": "Node", 
+                "label": "animal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/face/n", 
+                "@type": "Node", 
+                "label": "face", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/face"
+            }, 
+            "surfaceText": "[[face]] is a part of [[animal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/head/n/,/c/en/animal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/animal/n", 
+                "@type": "Node", 
+                "label": "animal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/head/n", 
+                "@type": "Node", 
+                "label": "head", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/head"
+            }, 
+            "surfaceText": "[[head]] is a part of [[animal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/animal/,/c/en/ecosystem/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ecosystem", 
+                "@type": "Node", 
+                "label": "an ecosystem", 
+                "language": "en", 
+                "term": "/c/en/ecosystem"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rama/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rama"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/animal", 
+                "@type": "Node", 
+                "label": "An animal", 
+                "language": "en", 
+                "term": "/c/en/animal"
+            }, 
+            "surfaceText": "[[An animal]] is part of [[an ecosystem]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/animal/,/c/en/nature/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/nature", 
+                "@type": "Node", 
+                "label": "nature", 
+                "language": "en", 
+                "term": "/c/en/nature"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/avenger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/avenger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/animal", 
+                "@type": "Node", 
+                "label": "an animal", 
+                "language": "en", 
+                "term": "/c/en/animal"
+            }, 
+            "surfaceText": "[[an animal]] is part of [[nature]]", 
+            "weight": 1.0
+        }
+    ]
+}

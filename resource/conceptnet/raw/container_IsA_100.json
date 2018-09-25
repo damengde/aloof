@@ -1,0 +1,85 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/container&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/trash_receptacle/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash_receptacle", 
+                "@type": "Node", 
+                "label": "A trash receptacle", 
+                "language": "en", 
+                "term": "/c/en/trash_receptacle"
+            }, 
+            "surfaceText": "[[A trash receptacle]] is [[a container]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tub/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tub", 
+                "@type": "Node", 
+                "label": "A tub", 
+                "language": "en", 
+                "term": "/c/en/tub"
+            }, 
+            "surfaceText": "[[A tub]] is [[a container]]", 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/container&rel=/r/IsA&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "firstPage": "/query?node=/c/en/container&rel=/r/IsA&offset=0&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/container&rel=/r/IsA&offset=0&limit=100"
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electric_razor&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/electric_razor/,/c/en/power_switch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/power_switch", 
+                "@type": "Node", 
+                "label": "a power switch", 
+                "language": "en", 
+                "term": "/c/en/power_switch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/scottyv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/scottyv"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_razor", 
+                "@type": "Node", 
+                "label": "An electric razor", 
+                "language": "en", 
+                "term": "/c/en/electric_razor"
+            }, 
+            "surfaceText": "[[An electric razor]] has [[a power switch]]", 
+            "weight": 1.0
+        }
+    ]
+}

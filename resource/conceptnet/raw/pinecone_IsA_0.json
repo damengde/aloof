@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pinecone&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pinecone/n/,/c/en/cone/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cone/n", 
+                "@type": "Node", 
+                "label": "cone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pinecone/n", 
+                "@type": "Node", 
+                "label": "pinecone", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pinecone"
+            }, 
+            "surfaceText": "[[pinecone]] is a type of [[cone]]", 
+            "weight": 2.0
+        }
+    ]
+}

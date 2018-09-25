@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cell_phone&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/hand_luggage/,/c/en/cell_phone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cell_phone", 
+                "@type": "Node", 
+                "label": "your cell phone", 
+                "language": "en", 
+                "term": "/c/en/cell_phone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hand_luggage", 
+                "@type": "Node", 
+                "label": "hand luggage", 
+                "language": "en", 
+                "term": "/c/en/hand_luggage"
+            }, 
+            "surfaceText": "[[hand luggage]] is for [[your cell phone]]", 
+            "weight": 1.0
+        }
+    ]
+}

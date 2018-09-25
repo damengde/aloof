@@ -1,0 +1,224 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jacket&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/jacket/,/c/en/closet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/closet", 
+                "@type": "Node", 
+                "label": "a closet", 
+                "language": "en", 
+                "term": "/c/en/closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/avert/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/avert"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cirus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cirus"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "*Something you find in [[a closet]] is [[a jacket]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/arm/,/c/en/jacket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cld/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cld"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arm", 
+                "@type": "Node", 
+                "label": "an arm", 
+                "language": "en", 
+                "term": "/c/en/arm"
+            }, 
+            "surfaceText": "You are likely to find [[an arm]] in [[a jacket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fur/,/c/en/jacket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0208954/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0208954"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fur", 
+                "@type": "Node", 
+                "label": "fur", 
+                "language": "en", 
+                "term": "/c/en/fur"
+            }, 
+            "surfaceText": "You are likely to find [[fur]] in [[a jacket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/jacket/,/c/en/cold_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cold_person", 
+                "@type": "Node", 
+                "label": "a cold person", 
+                "language": "en", 
+                "term": "/c/en/cold_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/chouck/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/chouck"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "Somewhere [[a jacket]] can be is on [[a cold person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/jacket/,/c/en/person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/person", 
+                "@type": "Node", 
+                "label": "a person", 
+                "language": "en", 
+                "term": "/c/en/person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "Somewhere [[a jacket]] can be is on [[a person]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pouch/,/c/en/jacket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pouch", 
+                "@type": "Node", 
+                "label": "a pouch", 
+                "language": "en", 
+                "term": "/c/en/pouch"
+            }, 
+            "surfaceText": "You are likely to find [[a pouch]] in [[a jacket]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/loudspeaker&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/loudspeaker/,/c/en/sporting_event/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sporting_event", 
+                "@type": "Node", 
+                "label": "a sporting event", 
+                "language": "en", 
+                "term": "/c/en/sporting_event"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gdthoms/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gdthoms"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/loudspeaker", 
+                "@type": "Node", 
+                "label": "a loudspeaker", 
+                "language": "en", 
+                "term": "/c/en/loudspeaker"
+            }, 
+            "surfaceText": "*Something you find at [[a sporting event]] is [[a loudspeaker]]", 
+            "weight": 1.0
+        }
+    ]
+}

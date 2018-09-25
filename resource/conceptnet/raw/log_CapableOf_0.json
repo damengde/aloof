@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/log&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/log/,/c/en/bridge_ditch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bridge_ditch", 
+                "@type": "Node", 
+                "label": "bridge a ditch", 
+                "language": "en", 
+                "term": "/c/en/bridge_ditch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "a log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "surfaceText": "[[a log]] can [[bridge a ditch]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/log/,/c/en/bridge_lake/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bridge_lake", 
+                "@type": "Node", 
+                "label": "bridge lake", 
+                "language": "en", 
+                "term": "/c/en/bridge_lake"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/achoo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/achoo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "surfaceText": "[[log]] can [[bridge lake]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/log/,/c/en/bridge_ravine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bridge_ravine", 
+                "@type": "Node", 
+                "label": "bridge a ravine", 
+                "language": "en", 
+                "term": "/c/en/bridge_ravine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/log", 
+                "@type": "Node", 
+                "label": "a log", 
+                "language": "en", 
+                "term": "/c/en/log"
+            }, 
+            "surfaceText": "[[a log]] can [[bridge a ravine]]", 
+            "weight": 1.0
+        }
+    ]
+}

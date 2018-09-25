@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/duvet&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/duvet/,/c/en/sleep/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sleep", 
+                "@type": "Node", 
+                "label": "sleep", 
+                "language": "en", 
+                "term": "/c/en/sleep"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pfish/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pfish"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bookoo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bookoo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/duvet", 
+                "@type": "Node", 
+                "label": "a duvet", 
+                "language": "en", 
+                "term": "/c/en/duvet"
+            }, 
+            "surfaceText": "You can use [[a duvet]] to [[sleep]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/duvet/,/c/en/covering_comforter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/covering_comforter", 
+                "@type": "Node", 
+                "label": "covering a comforter", 
+                "language": "en", 
+                "term": "/c/en/covering_comforter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/duvet", 
+                "@type": "Node", 
+                "label": "a duvet", 
+                "language": "en", 
+                "term": "/c/en/duvet"
+            }, 
+            "surfaceText": "[[a duvet]] is used for [[covering a comforter]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/duvet/,/c/en/keep_warm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_warm", 
+                "@type": "Node", 
+                "label": "keep warm", 
+                "language": "en", 
+                "term": "/c/en/keep_warm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/maggiep/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/maggiep"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/duvet", 
+                "@type": "Node", 
+                "label": "a duvet", 
+                "language": "en", 
+                "term": "/c/en/duvet"
+            }, 
+            "surfaceText": "You can use [[a duvet]] to [[keep warm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/duvet/,/c/en/sleeping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sleeping", 
+                "@type": "Node", 
+                "label": "sleeping", 
+                "language": "en", 
+                "term": "/c/en/sleeping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bookoo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bookoo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/duvet", 
+                "@type": "Node", 
+                "label": "a duvet", 
+                "language": "en", 
+                "term": "/c/en/duvet"
+            }, 
+            "surfaceText": "[[a duvet]] is used for [[sleeping]]", 
+            "weight": 1.0
+        }
+    ]
+}

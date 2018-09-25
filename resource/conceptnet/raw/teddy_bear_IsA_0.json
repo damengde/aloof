@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teddy_bear&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teddy_bear/n/,/c/en/stuffed_animal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/stuffed_animal/n", 
+                "@type": "Node", 
+                "label": "stuffed animal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stuffed_animal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teddy_bear/n", 
+                "@type": "Node", 
+                "label": "teddy bear", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teddy_bear"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/teddy_bear/n/,/c/en/toy_bear/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/toy_bear/n", 
+                "@type": "Node", 
+                "label": "toy bear", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toy_bear"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/teddy_bear/n", 
+                "@type": "Node", 
+                "label": "teddy bear", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/teddy_bear"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

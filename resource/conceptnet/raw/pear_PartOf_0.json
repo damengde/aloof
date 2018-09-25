@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pear&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/pear/n/,/c/en/pear/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pear/n", 
+                "@type": "Node", 
+                "label": "pear", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pear"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pear/n", 
+                "@type": "Node", 
+                "label": "pear", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pear"
+            }, 
+            "surfaceText": "[[pear]] is a part of [[pear]]", 
+            "weight": 2.0
+        }
+    ]
+}

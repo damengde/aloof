@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/glove&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/finger/n/,/c/en/glove/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/glove/n", 
+                "@type": "Node", 
+                "label": "glove", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/glove"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/finger/n", 
+                "@type": "Node", 
+                "label": "finger", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/finger"
+            }, 
+            "surfaceText": "[[finger]] is a part of [[glove]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/thumb/n/,/c/en/glove/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/glove/n", 
+                "@type": "Node", 
+                "label": "glove", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/glove"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thumb/n", 
+                "@type": "Node", 
+                "label": "thumb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thumb"
+            }, 
+            "surfaceText": "[[thumb]] is a part of [[glove]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/train&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/boarding_pass/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tmichael/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tmichael"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/boarding_pass", 
+                "@type": "Node", 
+                "label": "a boarding pass", 
+                "language": "en", 
+                "term": "/c/en/boarding_pass"
+            }, 
+            "surfaceText": "[[a boarding pass]] is for [[a train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pistol/,/c/en/train/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pistol", 
+                "@type": "Node", 
+                "label": "a pistol", 
+                "language": "en", 
+                "term": "/c/en/pistol"
+            }, 
+            "surfaceText": "You can use [[a pistol]] to [[train]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/train/,/c/en/riding/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/riding", 
+                "@type": "Node", 
+                "label": "riding", 
+                "language": "en", 
+                "term": "/c/en/riding"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/cffrost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/cffrost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/train", 
+                "@type": "Node", 
+                "label": "a train", 
+                "language": "en", 
+                "term": "/c/en/train"
+            }, 
+            "surfaceText": "[[a train]] is for [[riding]]", 
+            "weight": 1.0
+        }
+    ]
+}

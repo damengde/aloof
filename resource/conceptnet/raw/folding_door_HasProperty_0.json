@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/folding_door&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/folding_door/,/c/en/convenient_in_small_apartment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/convenient_in_small_apartment", 
+                "@type": "Node", 
+                "label": "convenient in a small apartment", 
+                "language": "en", 
+                "term": "/c/en/convenient_in_small_apartment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/vsuren/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/vsuren"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "A folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[A folding door]] is [[convenient in a small apartment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/folding_door/,/c/en/very_big_in_small_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/very_big_in_small_room", 
+                "@type": "Node", 
+                "label": "very big in a small room", 
+                "language": "en", 
+                "term": "/c/en/very_big_in_small_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cruisin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cruisin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/folding_door", 
+                "@type": "Node", 
+                "label": "a folding door", 
+                "language": "en", 
+                "term": "/c/en/folding_door"
+            }, 
+            "surfaceText": "[[a folding door]] can be [[very big in a small room]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,120 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/horse&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/horse/,/c/en/women's_literature/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/women's_literature", 
+                "@type": "Node", 
+                "label": "women's literature", 
+                "language": "en", 
+                "term": "/c/en/women's_literature"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/meghan89/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/meghan89"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "You are likely to find [[a horse]] in [[women's literature]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/horse/,/c/en/woods/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/woods", 
+                "@type": "Node", 
+                "label": "the woods", 
+                "language": "en", 
+                "term": "/c/en/woods"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "You are likely to find [[a horse]] in [[the woods]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/horse/,/c/en/zoo/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/zoo", 
+                "@type": "Node", 
+                "label": "a zoo", 
+                "language": "en", 
+                "term": "/c/en/zoo"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dolus78/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dolus78"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse", 
+                "@type": "Node", 
+                "label": "a horse", 
+                "language": "en", 
+                "term": "/c/en/horse"
+            }, 
+            "surfaceText": "You are likely to find [[a horse]] in [[a zoo]]", 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/horse&rel=/r/AtLocation&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "firstPage": "/query?node=/c/en/horse&rel=/r/AtLocation&offset=0&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/horse&rel=/r/AtLocation&offset=0&limit=100"
+    }
+}

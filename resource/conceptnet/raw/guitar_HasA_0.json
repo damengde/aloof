@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/guitar&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/guitar/,/c/en/strings/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/strings", 
+                "@type": "Node", 
+                "label": "strings", 
+                "language": "en", 
+                "term": "/c/en/strings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/czdurham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/czdurham"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/katarnsurfer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/katarnsurfer"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motminds/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/motminds"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "A guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[A guitar]] has [[strings]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/guitar/,/c/en/6_strings/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/6_strings", 
+                "@type": "Node", 
+                "label": "6 strings", 
+                "language": "en", 
+                "term": "/c/en/6_strings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/benhart/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/benhart"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[a guitar]] has [[6 strings]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/guitar/,/c/en/six_strings/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/six_strings", 
+                "@type": "Node", 
+                "label": "six strings", 
+                "language": "en", 
+                "term": "/c/en/six_strings"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mark/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mark"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "a guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[a guitar]] has [[six strings]]", 
+            "weight": 1.0
+        }
+    ]
+}

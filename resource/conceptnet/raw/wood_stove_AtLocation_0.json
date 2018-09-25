@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/wood_stove&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/general_store/,/c/en/wood_stove/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wood_stove", 
+                "@type": "Node", 
+                "label": "a wood stove", 
+                "language": "en", 
+                "term": "/c/en/wood_stove"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/general_store", 
+                "@type": "Node", 
+                "label": "a general store", 
+                "language": "en", 
+                "term": "/c/en/general_store"
+            }, 
+            "surfaceText": "You are likely to find [[a general store]] in [[a wood stove]]", 
+            "weight": 1.0
+        }
+    ]
+}

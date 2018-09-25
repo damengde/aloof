@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stone&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/stone/,/c/en/harder_than_clay/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/harder_than_clay", 
+                "@type": "Node", 
+                "label": "harder than clay", 
+                "language": "en", 
+                "term": "/c/en/harder_than_clay"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/peterravn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/peterravn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone", 
+                "@type": "Node", 
+                "label": "Stone", 
+                "language": "en", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[Stone]] is [[harder than clay]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/stone/,/c/en/opaque/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opaque", 
+                "@type": "Node", 
+                "label": "opaque", 
+                "language": "en", 
+                "term": "/c/en/opaque"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/spectecjr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/spectecjr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone", 
+                "@type": "Node", 
+                "label": "Stone", 
+                "language": "en", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[Stone]] is [[opaque]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/screen&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/foreground/n/,/c/en/screen/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/screen/n", 
+                "@type": "Node", 
+                "label": "screen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/screen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/foreground/n", 
+                "@type": "Node", 
+                "label": "foreground", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/foreground"
+            }, 
+            "surfaceText": "[[foreground]] is a part of [[screen]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/screen/,/c/en/monitor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/monitor", 
+                "@type": "Node", 
+                "label": "a monitor", 
+                "language": "en", 
+                "term": "/c/en/monitor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screen", 
+                "@type": "Node", 
+                "label": "a screen", 
+                "language": "en", 
+                "term": "/c/en/screen"
+            }, 
+            "surfaceText": "[[a screen]] is part of [[a monitor]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/screen/n/,/c/en/cathode_ray_tube/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cathode_ray_tube/n", 
+                "@type": "Node", 
+                "label": "cathode-ray tube", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cathode_ray_tube"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screen/n", 
+                "@type": "Node", 
+                "label": "screen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/screen"
+            }, 
+            "surfaceText": "[[screen]] is a part of [[cathode-ray tube]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/screen/n/,/c/en/screen_door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/screen_door/n", 
+                "@type": "Node", 
+                "label": "screen door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/screen_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screen/n", 
+                "@type": "Node", 
+                "label": "screen", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/screen"
+            }, 
+            "surfaceText": "[[screen]] is a part of [[screen door]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/screen/,/c/en/tv/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tv", 
+                "@type": "Node", 
+                "label": "a TV", 
+                "language": "en", 
+                "term": "/c/en/tv"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/screen", 
+                "@type": "Node", 
+                "label": "a screen", 
+                "language": "en", 
+                "term": "/c/en/screen"
+            }, 
+            "surfaceText": "[[a screen]] is part of [[a TV]].", 
+            "weight": 1.0
+        }
+    ]
+}

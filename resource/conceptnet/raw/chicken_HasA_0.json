@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chicken&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/chicken/,/c/en/brain_within_it's_skull/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/brain_within_it's_skull", 
+                "@type": "Node", 
+                "label": "a brain within it's skull", 
+                "language": "en", 
+                "term": "/c/en/brain_within_it's_skull"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sirabi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sirabi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "A chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "[[A chicken]] has [[a brain within it's skull]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/chicken/,/c/en/chicken_meat_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chicken_meat_on", 
+                "@type": "Node", 
+                "label": "chicken meat on it", 
+                "language": "en", 
+                "term": "/c/en/chicken_meat_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lisawhirl/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lisawhirl"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "a chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "[[a chicken]] has [[chicken meat on it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/chicken/,/c/en/low_cholesterol/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/low_cholesterol", 
+                "@type": "Node", 
+                "label": "low cholesterol", 
+                "language": "en", 
+                "term": "/c/en/low_cholesterol"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/helios456/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/helios456"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chicken", 
+                "@type": "Node", 
+                "label": "Chicken", 
+                "language": "en", 
+                "term": "/c/en/chicken"
+            }, 
+            "surfaceText": "[[Chicken]] has [[low cholesterol]]", 
+            "weight": 1.0
+        }
+    ]
+}

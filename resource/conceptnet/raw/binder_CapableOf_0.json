@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/binder&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/binder/,/c/en/hold_many_pieces_of_paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_many_pieces_of_paper", 
+                "@type": "Node", 
+                "label": "hold many pieces of paper", 
+                "language": "en", 
+                "term": "/c/en/hold_many_pieces_of_paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/coruscafire/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/coruscafire"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/binder", 
+                "@type": "Node", 
+                "label": "A binder", 
+                "language": "en", 
+                "term": "/c/en/binder"
+            }, 
+            "surfaceText": "[[A binder]] can [[hold many pieces of paper]]", 
+            "weight": 1.0
+        }
+    ]
+}

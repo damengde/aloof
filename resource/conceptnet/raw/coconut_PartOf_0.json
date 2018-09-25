@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coconut&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/coconut/n/,/c/en/coconut/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/coconut/n", 
+                "@type": "Node", 
+                "label": "coconut", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coconut"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coconut/n", 
+                "@type": "Node", 
+                "label": "coconut", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coconut"
+            }, 
+            "surfaceText": "[[coconut]] is a part of [[coconut]]", 
+            "weight": 2.0
+        }
+    ]
+}

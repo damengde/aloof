@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mantle&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/mantle/,/c/en/surface_of_earth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/surface_of_earth", 
+                "@type": "Node", 
+                "label": "the surface of the earth", 
+                "language": "en", 
+                "term": "/c/en/surface_of_earth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mantle", 
+                "@type": "Node", 
+                "label": "the mantle", 
+                "language": "en", 
+                "term": "/c/en/mantle"
+            }, 
+            "surfaceText": "*Something you find on [[the surface of the earth]] is [[the mantle]]", 
+            "weight": 1.0
+        }
+    ]
+}

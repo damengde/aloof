@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/valve&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/diaphragm/,/c/en/valve/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/valve", 
+                "@type": "Node", 
+                "label": "a valve", 
+                "language": "en", 
+                "term": "/c/en/valve"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/eddyb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/eddyb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/diaphragm", 
+                "@type": "Node", 
+                "label": "a diaphragm", 
+                "language": "en", 
+                "term": "/c/en/diaphragm"
+            }, 
+            "surfaceText": "You are likely to find [[a diaphragm]] in [[a valve]]", 
+            "weight": 1.0
+        }
+    ]
+}

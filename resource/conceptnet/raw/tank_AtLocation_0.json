@@ -1,0 +1,312 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tank&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tank/,/c/en/military_base/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/military_base", 
+                "@type": "Node", 
+                "label": "a military base", 
+                "language": "en", 
+                "term": "/c/en/military_base"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/motev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/motev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "surfaceText": "*Something you find at [[a military base]] is [[a tank]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/crab/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crab", 
+                "@type": "Node", 
+                "label": "a crab", 
+                "language": "en", 
+                "term": "/c/en/crab"
+            }, 
+            "surfaceText": "You are likely to find [[a crab]] in [[a tank]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fish/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kcarnold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kcarnold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fish", 
+                "@type": "Node", 
+                "label": "fish", 
+                "language": "en", 
+                "term": "/c/en/fish"
+            }, 
+            "surfaceText": "*Something you find in [[a tank]] is [[fish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shark/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/bobdhaliwal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/bobdhaliwal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shark", 
+                "@type": "Node", 
+                "label": "a shark", 
+                "language": "en", 
+                "term": "/c/en/shark"
+            }, 
+            "surfaceText": "You are likely to find [[a shark]] in [[a tank]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/jellyfish/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/frtk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/frtk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jellyfish", 
+                "@type": "Node", 
+                "label": "a jellyfish", 
+                "language": "en", 
+                "term": "/c/en/jellyfish"
+            }, 
+            "surfaceText": "You are likely to find [[a jellyfish]] in [[a tank]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/lizard/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cfronte/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cfronte"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lizard", 
+                "@type": "Node", 
+                "label": "a lizard", 
+                "language": "en", 
+                "term": "/c/en/lizard"
+            }, 
+            "surfaceText": "You are likely to find [[a lizard]] in [[a tank]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/people/,/c/en/tank/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/tijmen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/tijmen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/people", 
+                "@type": "Node", 
+                "label": "people", 
+                "language": "en", 
+                "term": "/c/en/people"
+            }, 
+            "surfaceText": "You are likely to find [[people]] in [[a tank]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tank/,/c/en/war/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/war", 
+                "@type": "Node", 
+                "label": "a war", 
+                "language": "en", 
+                "term": "/c/en/war"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chriki/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chriki"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tank", 
+                "@type": "Node", 
+                "label": "a tank", 
+                "language": "en", 
+                "term": "/c/en/tank"
+            }, 
+            "surfaceText": "*Something you find at [[a war]] is [[a tank]]", 
+            "weight": 1.0
+        }
+    ]
+}

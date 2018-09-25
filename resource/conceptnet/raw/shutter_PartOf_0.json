@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shutter&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shutter/n/,/c/en/camera/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/camera/n", 
+                "@type": "Node", 
+                "label": "camera", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/camera"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shutter/n", 
+                "@type": "Node", 
+                "label": "shutter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shutter"
+            }, 
+            "surfaceText": "[[shutter]] is a part of [[camera]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shutter/n/,/c/en/double_hung_window/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/double_hung_window/n", 
+                "@type": "Node", 
+                "label": "double-hung window", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/double_hung_window"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shutter/n", 
+                "@type": "Node", 
+                "label": "shutter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shutter"
+            }, 
+            "surfaceText": "[[shutter]] is a part of [[double-hung window]]", 
+            "weight": 2.0
+        }
+    ]
+}

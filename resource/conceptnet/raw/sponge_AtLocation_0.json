@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sponge&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sponge/,/c/en/bottom_of_sea/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottom_of_sea", 
+                "@type": "Node", 
+                "label": "the bottom of the sea", 
+                "language": "en", 
+                "term": "/c/en/bottom_of_sea"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mastro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mastro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sponge", 
+                "@type": "Node", 
+                "label": "a sponge", 
+                "language": "en", 
+                "term": "/c/en/sponge"
+            }, 
+            "surfaceText": "*Something you find at [[the bottom of the sea]] is [[a sponge]]", 
+            "weight": 2.0
+        }
+    ]
+}

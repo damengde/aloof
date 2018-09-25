@@ -1,0 +1,222 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cradle&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/n/,/c/en/baby_bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/baby_bed/n", 
+                "@type": "Node", 
+                "label": "baby bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baby_bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle/n", 
+                "@type": "Node", 
+                "label": "cradle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": "[[cradle]] is a type of [[baby bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/n/,/c/en/birth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/birth/n", 
+                "@type": "Node", 
+                "label": "birth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/birth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle/n", 
+                "@type": "Node", 
+                "label": "cradle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": "[[cradle]] is a type of [[birth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/,/c/en/bed/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle", 
+                "@type": "Node", 
+                "label": "a cradle", 
+                "language": "en", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": "[[a cradle]] is [[a bed]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/,/c/en/small_bed_for_baby/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/small_bed_for_baby", 
+                "@type": "Node", 
+                "label": "a small bed for a baby", 
+                "language": "en", 
+                "term": "/c/en/small_bed_for_baby"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle", 
+                "@type": "Node", 
+                "label": "A cradle", 
+                "language": "en", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": "[[A cradle]] is [[a small bed for a baby]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle/n", 
+                "@type": "Node", 
+                "label": "cradle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cradle/n/,/c/en/storage_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/storage_device/n", 
+                "@type": "Node", 
+                "label": "storage device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/storage_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cradle/n", 
+                "@type": "Node", 
+                "label": "cradle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cradle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

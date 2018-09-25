@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/face&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/face/,/c/en/important_for_social_contacts/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/important_for_social_contacts", 
+                "@type": "Node", 
+                "label": "important for social contacts", 
+                "language": "en", 
+                "term": "/c/en/important_for_social_contacts"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breitmaulfrosch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breitmaulfrosch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/face", 
+                "@type": "Node", 
+                "label": "A face", 
+                "language": "en", 
+                "term": "/c/en/face"
+            }, 
+            "surfaceText": "[[A face]] is [[important for social contacts]]", 
+            "weight": 1.0
+        }
+    ]
+}

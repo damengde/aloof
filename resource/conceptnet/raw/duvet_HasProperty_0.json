@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/duvet&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/duvet/,/c/en/similar_to_comforter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/similar_to_comforter", 
+                "@type": "Node", 
+                "label": "similar to a comforter", 
+                "language": "en", 
+                "term": "/c/en/similar_to_comforter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/droob/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/droob"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/duvet", 
+                "@type": "Node", 
+                "label": "A duvet", 
+                "language": "en", 
+                "term": "/c/en/duvet"
+            }, 
+            "surfaceText": "[[A duvet]] is [[similar to a comforter]]", 
+            "weight": 1.0
+        }
+    ]
+}

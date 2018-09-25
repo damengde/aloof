@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jacket&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/double_knit/,/c/en/jacket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/double_knit", 
+                "@type": "Node", 
+                "label": "a double knit", 
+                "language": "en", 
+                "term": "/c/en/double_knit"
+            }, 
+            "surfaceText": "[[a double knit]] is used for [[a jacket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jacket/,/c/en/keep_body_warm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_body_warm", 
+                "@type": "Node", 
+                "label": "keep your body warm", 
+                "language": "en", 
+                "term": "/c/en/keep_body_warm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "You can use [[a jacket]] to [[keep your body warm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jacket/,/c/en/keeping_body_warm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_body_warm", 
+                "@type": "Node", 
+                "label": "keeping the body warm", 
+                "language": "en", 
+                "term": "/c/en/keeping_body_warm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "a jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "[[a jacket]] is for [[keeping the body warm]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/jacket/,/c/en/keeping_warm/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keeping_warm", 
+                "@type": "Node", 
+                "label": "keeping warm", 
+                "language": "en", 
+                "term": "/c/en/keeping_warm"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacket", 
+                "@type": "Node", 
+                "label": "A jacket", 
+                "language": "en", 
+                "term": "/c/en/jacket"
+            }, 
+            "surfaceText": "[[A jacket]] is for [[keeping warm]]", 
+            "weight": 1.0
+        }
+    ]
+}

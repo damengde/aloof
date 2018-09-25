@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/poster&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/poster/,/c/en/decorating_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/decorating_room", 
+                "@type": "Node", 
+                "label": "decorating your room", 
+                "language": "en", 
+                "term": "/c/en/decorating_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/frogface63/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/frogface63"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kcarnold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kcarnold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/poster", 
+                "@type": "Node", 
+                "label": "a poster", 
+                "language": "en", 
+                "term": "/c/en/poster"
+            }, 
+            "surfaceText": "[[a poster]] is for [[decorating your room]]", 
+            "weight": 2.0
+        }
+    ]
+}

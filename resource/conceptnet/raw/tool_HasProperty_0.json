@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tool&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/hammer/,/c/en/tool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tool", 
+                "@type": "Node", 
+                "label": "...a tool", 
+                "language": "en", 
+                "term": "/c/en/tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/747nomad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/747nomad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hammer", 
+                "@type": "Node", 
+                "label": "A hammer", 
+                "language": "en", 
+                "term": "/c/en/hammer"
+            }, 
+            "surfaceText": "[[A hammer]] is [[...a tool]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/tool/,/c/en/useful_for_tasks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_tasks", 
+                "@type": "Node", 
+                "label": "useful for some tasks", 
+                "language": "en", 
+                "term": "/c/en/useful_for_tasks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/colm/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/colm"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tool", 
+                "@type": "Node", 
+                "label": "a tool", 
+                "language": "en", 
+                "term": "/c/en/tool"
+            }, 
+            "surfaceText": "[[a tool]] is [[useful for some tasks]]", 
+            "weight": 1.0
+        }
+    ]
+}

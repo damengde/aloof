@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/swimming_pool&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/swimming_pool/n/,/c/en/lido/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lido/n", 
+                "@type": "Node", 
+                "label": "lido", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lido"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/swimming_pool/n", 
+                "@type": "Node", 
+                "label": "swimming pool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/swimming_pool"
+            }, 
+            "surfaceText": "[[swimming pool]] is a part of [[lido]]", 
+            "weight": 2.0
+        }
+    ]
+}

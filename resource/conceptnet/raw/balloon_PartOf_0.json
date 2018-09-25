@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/balloon&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/envelope/n/,/c/en/balloon/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/balloon/n", 
+                "@type": "Node", 
+                "label": "balloon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/balloon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/envelope/n", 
+                "@type": "Node", 
+                "label": "envelope", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/envelope"
+            }, 
+            "surfaceText": "[[envelope]] is a part of [[balloon]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/ripcord/n/,/c/en/balloon/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/balloon/n", 
+                "@type": "Node", 
+                "label": "balloon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/balloon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ripcord/n", 
+                "@type": "Node", 
+                "label": "ripcord", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ripcord"
+            }, 
+            "surfaceText": "[[ripcord]] is a part of [[balloon]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/steering_wheel&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/every_car/,/c/en/steering_wheel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/steering_wheel", 
+                "@type": "Node", 
+                "label": "a steering wheel", 
+                "language": "en", 
+                "term": "/c/en/steering_wheel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/every_car", 
+                "@type": "Node", 
+                "label": "Every car", 
+                "language": "en", 
+                "term": "/c/en/every_car"
+            }, 
+            "surfaceText": "[[Every car]] has [[a steering wheel]]", 
+            "weight": 1.0
+        }
+    ]
+}

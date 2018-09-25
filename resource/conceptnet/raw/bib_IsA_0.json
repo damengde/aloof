@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bib&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bib/n/,/c/en/napkin/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/napkin/n", 
+                "@type": "Node", 
+                "label": "napkin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/napkin"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bib/n", 
+                "@type": "Node", 
+                "label": "bib", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bib"
+            }, 
+            "surfaceText": "[[bib]] is a type of [[napkin]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bib/n/,/c/en/piece_of_cloth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/piece_of_cloth/n", 
+                "@type": "Node", 
+                "label": "piece of cloth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/piece_of_cloth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bib/n", 
+                "@type": "Node", 
+                "label": "bib", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bib"
+            }, 
+            "surfaceText": "[[bib]] is a type of [[piece of cloth]]", 
+            "weight": 2.0
+        }
+    ]
+}

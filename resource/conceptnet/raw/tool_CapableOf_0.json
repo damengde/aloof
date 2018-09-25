@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tool&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tool/,/c/en/application_or_program/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/application_or_program", 
+                "@type": "Node", 
+                "label": "be an application or program", 
+                "language": "en", 
+                "term": "/c/en/application_or_program"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tool", 
+                "@type": "Node", 
+                "label": "A tool", 
+                "language": "en", 
+                "term": "/c/en/tool"
+            }, 
+            "surfaceText": "[[A tool]] can [[be an application or program]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tool/,/c/en/eat_with/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eat_with", 
+                "@type": "Node", 
+                "label": "eat with it", 
+                "language": "en", 
+                "term": "/c/en/eat_with"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tool", 
+                "@type": "Node", 
+                "label": "it is a tool, we", 
+                "language": "en", 
+                "term": "/c/en/tool"
+            }, 
+            "surfaceText": "[[it is a tool, we]] can [[eat with it]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tool/,/c/en/help_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/help_person", 
+                "@type": "Node", 
+                "label": "help a person", 
+                "language": "en", 
+                "term": "/c/en/help_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wildhare/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wildhare"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tool", 
+                "@type": "Node", 
+                "label": "a tool", 
+                "language": "en", 
+                "term": "/c/en/tool"
+            }, 
+            "surfaceText": "[[a tool]] can [[help a person]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/key&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/key/,/c/en/hidden_in_pouch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hidden_in_pouch", 
+                "@type": "Node", 
+                "label": "hidden in a pouch", 
+                "language": "en", 
+                "term": "/c/en/hidden_in_pouch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/key", 
+                "@type": "Node", 
+                "label": "A key", 
+                "language": "en", 
+                "term": "/c/en/key"
+            }, 
+            "surfaceText": "[[A key]] can be [[hidden in a pouch]]", 
+            "weight": 1.0
+        }
+    ]
+}

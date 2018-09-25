@@ -1,0 +1,400 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/notepad&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/n/,/c/en/pad/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pad/n", 
+                "@type": "Node", 
+                "label": "pad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[notepad]] is a type of [[pad]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scratch_pad/n/,/c/en/notepad/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scratch_pad/n", 
+                "@type": "Node", 
+                "label": "scratch pad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scratch_pad"
+            }, 
+            "surfaceText": "[[scratch pad]] is a type of [[notepad]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/legal_pad/n/,/c/en/notepad/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/legal_pad/n", 
+                "@type": "Node", 
+                "label": "legal pad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/legal_pad"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad_adhesivestripback/n/,/c/en/notepad/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad_adhesivestripback/n", 
+                "@type": "Node", 
+                "label": "notepad adhesivestripback", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad_adhesivestripback"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/,/c/en/many_sheets_of_paper_bound_together/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/many_sheets_of_paper_bound_together", 
+                "@type": "Node", 
+                "label": "many sheets of paper bound together", 
+                "language": "en", 
+                "term": "/c/en/many_sheets_of_paper_bound_together"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thungk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thungk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "a notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[a notepad]] is [[many sheets of paper bound together]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/,/c/en/where_would_jot_down_ideas/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/where_would_jot_down_ideas", 
+                "@type": "Node", 
+                "label": "where you would jot down ideas", 
+                "language": "en", 
+                "term": "/c/en/where_would_jot_down_ideas"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "A notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[A notepad]] is [[where you would jot down ideas]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/,/c/en/word_processor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/word_processor", 
+                "@type": "Node", 
+                "label": "a word-processor", 
+                "language": "en", 
+                "term": "/c/en/word_processor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jgagnon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jgagnon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "Notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": "[[Notepad]] is [[a word-processor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/n/,/c/en/group_of_writing_paper/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/group_of_writing_paper/n", 
+                "@type": "Node", 
+                "label": "group of writing paper", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/group_of_writing_paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/n/,/c/en/pad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/pad", 
+                "@type": "Node", 
+                "label": "pad", 
+                "language": "en", 
+                "term": "/c/en/pad"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/n/,/c/en/primarily_paper_product/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/primarily_paper_product/n", 
+                "@type": "Node", 
+                "label": "primarily paper product", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/primarily_paper_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad/n", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/notepad/,/c/en/software/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/software/n", 
+                "@type": "Node", 
+                "label": "software", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/software"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/notepad", 
+                "@type": "Node", 
+                "label": "notepad", 
+                "language": "en", 
+                "term": "/c/en/notepad"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

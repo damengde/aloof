@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mortar&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/mortar/,/c/en/important_in_construction/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/important_in_construction", 
+                "@type": "Node", 
+                "label": "important in construction", 
+                "language": "en", 
+                "term": "/c/en/important_in_construction"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/melahen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/melahen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar", 
+                "@type": "Node", 
+                "label": "Mortar", 
+                "language": "en", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[Mortar]] is [[important in construction]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/mortar/,/c/en/opaque/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opaque", 
+                "@type": "Node", 
+                "label": "opaque", 
+                "language": "en", 
+                "term": "/c/en/opaque"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mortar", 
+                "@type": "Node", 
+                "label": "mortar", 
+                "language": "en", 
+                "term": "/c/en/mortar"
+            }, 
+            "surfaceText": "[[mortar]] is [[opaque]]", 
+            "weight": 1.0
+        }
+    ]
+}

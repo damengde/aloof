@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/case&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/police_officer/,/c/en/case/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/case", 
+                "@type": "Node", 
+                "label": "case you", 
+                "language": "en", 
+                "term": "/c/en/case"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joescmow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joescmow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/police_officer", 
+                "@type": "Node", 
+                "label": "a police officer", 
+                "language": "en", 
+                "term": "/c/en/police_officer"
+            }, 
+            "surfaceText": "[[a police officer]] can [[case you]]", 
+            "weight": 1.0
+        }
+    ]
+}

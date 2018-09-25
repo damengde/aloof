@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/package&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/package/n/,/c/en/hold/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hold/v", 
+                "@type": "Node", 
+                "label": "hold", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/hold"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/package/n", 
+                "@type": "Node", 
+                "label": "package", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/package"
+            }, 
+            "surfaceText": "[[package]] is used for [[hold]]", 
+            "weight": 2.0
+        }
+    ]
+}

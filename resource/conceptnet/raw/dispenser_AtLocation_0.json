@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dispenser&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/container_cup/,/c/en/dispenser/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dispenser", 
+                "@type": "Node", 
+                "label": "a dispenser", 
+                "language": "en", 
+                "term": "/c/en/dispenser"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alcinoe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alcinoe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/container_cup", 
+                "@type": "Node", 
+                "label": "a container cup", 
+                "language": "en", 
+                "term": "/c/en/container_cup"
+            }, 
+            "surfaceText": "You are likely to find [[a container cup]] in [[a dispenser]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/subway_map/,/c/en/dispenser/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dispenser", 
+                "@type": "Node", 
+                "label": "a dispenser", 
+                "language": "en", 
+                "term": "/c/en/dispenser"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/subway_map", 
+                "@type": "Node", 
+                "label": "a subway map", 
+                "language": "en", 
+                "term": "/c/en/subway_map"
+            }, 
+            "surfaceText": "You are likely to find [[a subway map]] in [[a dispenser]]", 
+            "weight": 1.0
+        }
+    ]
+}

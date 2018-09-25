@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/van&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/van/,/c/en/neighbor's_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/neighbor's_house", 
+                "@type": "Node", 
+                "label": "a neighbor's house", 
+                "language": "en", 
+                "term": "/c/en/neighbor's_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/van", 
+                "@type": "Node", 
+                "label": "a van", 
+                "language": "en", 
+                "term": "/c/en/van"
+            }, 
+            "surfaceText": "*Something you find at [[a neighbor's house]] is [[a van]]", 
+            "weight": 1.0
+        }
+    ]
+}

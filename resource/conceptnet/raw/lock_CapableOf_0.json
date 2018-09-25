@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lock&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lock/,/c/en/lock/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] can [[lock]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lock/,/c/en/open/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/open", 
+                "@type": "Node", 
+                "label": "open", 
+                "language": "en", 
+                "term": "/c/en/open"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "a lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[a lock]] can [[open]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lock/,/c/en/opened_using_lockpick/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opened_using_lockpick", 
+                "@type": "Node", 
+                "label": "be opened using a lockpick", 
+                "language": "en", 
+                "term": "/c/en/opened_using_lockpick"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/narcisse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/narcisse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lock", 
+                "@type": "Node", 
+                "label": "A lock", 
+                "language": "en", 
+                "term": "/c/en/lock"
+            }, 
+            "surfaceText": "[[A lock]] can [[be opened using a lockpick]]", 
+            "weight": 1.0
+        }
+    ]
+}

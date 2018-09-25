@@ -1,0 +1,156 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bottle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bottlecap/n/,/c/en/bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bottle/n", 
+                "@type": "Node", 
+                "label": "bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottlecap/n", 
+                "@type": "Node", 
+                "label": "bottlecap", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottlecap"
+            }, 
+            "surfaceText": "[[bottlecap]] is a part of [[bottle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bottle/,/c/en/bottle_of_wine/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottle_of_wine", 
+                "@type": "Node", 
+                "label": "a bottle of wine", 
+                "language": "en", 
+                "term": "/c/en/bottle_of_wine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/kwitzel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/kwitzel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "a bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "surfaceText": "[[a bottle]] is part of [[a bottle of wine]].", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mouth/n/,/c/en/bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bottle/n", 
+                "@type": "Node", 
+                "label": "bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mouth/n", 
+                "@type": "Node", 
+                "label": "mouth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mouth"
+            }, 
+            "surfaceText": "[[mouth]] is a part of [[bottle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bottlecap/,/c/en/bottle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bottle", 
+                "@type": "Node", 
+                "label": "a bottle", 
+                "language": "en", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/raiad1024/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/raiad1024"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bottlecap", 
+                "@type": "Node", 
+                "label": "A bottlecap", 
+                "language": "en", 
+                "term": "/c/en/bottlecap"
+            }, 
+            "surfaceText": "[[A bottlecap]] is part of [[a bottle]]", 
+            "weight": 1.0
+        }
+    ]
+}

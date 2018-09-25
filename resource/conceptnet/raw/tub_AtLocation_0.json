@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tub&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/kitten/,/c/en/tub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tub", 
+                "@type": "Node", 
+                "label": "a tub", 
+                "language": "en", 
+                "term": "/c/en/tub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rangerbaldwin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rangerbaldwin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitten", 
+                "@type": "Node", 
+                "label": "a kitten", 
+                "language": "en", 
+                "term": "/c/en/kitten"
+            }, 
+            "surfaceText": "You are likely to find [[a kitten]] in [[a tub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tub/,/c/en/kitchen/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/kitchen", 
+                "@type": "Node", 
+                "label": "a kitchen", 
+                "language": "en", 
+                "term": "/c/en/kitchen"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/narcisse/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/narcisse"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tub", 
+                "@type": "Node", 
+                "label": "a tub", 
+                "language": "en", 
+                "term": "/c/en/tub"
+            }, 
+            "surfaceText": "You are likely to find [[a tub]] in [[a kitchen]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tub/,/c/en/own_home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/own_home", 
+                "@type": "Node", 
+                "label": "your own home", 
+                "language": "en", 
+                "term": "/c/en/own_home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tub", 
+                "@type": "Node", 
+                "label": "a tub", 
+                "language": "en", 
+                "term": "/c/en/tub"
+            }, 
+            "surfaceText": "You are likely to find [[a tub]] in [[your own home]]", 
+            "weight": 1.0
+        }
+    ]
+}

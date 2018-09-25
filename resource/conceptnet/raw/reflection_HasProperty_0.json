@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/reflection&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/reflection/,/c/en/necessary_to_love_unlikeable_people/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/necessary_to_love_unlikeable_people", 
+                "@type": "Node", 
+                "label": "necessary to love unlikeable people", 
+                "language": "en", 
+                "term": "/c/en/necessary_to_love_unlikeable_people"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/reflection", 
+                "@type": "Node", 
+                "label": "Reflection", 
+                "language": "en", 
+                "term": "/c/en/reflection"
+            }, 
+            "surfaceText": "[[Reflection]] is [[necessary to love unlikeable people]]", 
+            "weight": 1.0
+        }
+    ]
+}

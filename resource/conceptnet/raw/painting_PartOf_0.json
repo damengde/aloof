@@ -1,0 +1,91 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/painting&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/painting/n/,/c/en/construction/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/construction/n", 
+                "@type": "Node", 
+                "label": "construction", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/construction"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/painting/n", 
+                "@type": "Node", 
+                "label": "painting", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/painting"
+            }, 
+            "surfaceText": "[[painting]] is a part of [[construction]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/frame/,/c/en/painting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/painting", 
+                "@type": "Node", 
+                "label": "a painting", 
+                "language": "en", 
+                "term": "/c/en/painting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/thayne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/thayne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/strand/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/strand"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frame", 
+                "@type": "Node", 
+                "label": "A frame", 
+                "language": "en", 
+                "term": "/c/en/frame"
+            }, 
+            "surfaceText": "[[A frame]] is part of [[a painting]]", 
+            "weight": 1.0
+        }
+    ]
+}

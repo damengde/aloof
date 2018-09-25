@@ -1,0 +1,378 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cock&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/,/c/en/male_chicken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/male_chicken", 
+                "@type": "Node", 
+                "label": "a male chicken", 
+                "language": "en", 
+                "term": "/c/en/male_chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/chibong/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/chibong"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/esteban83/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/esteban83"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock", 
+                "@type": "Node", 
+                "label": "a cock", 
+                "language": "en", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": "[[a cock]] is [[a male chicken]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cockerel/n/,/c/en/cock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cockerel/n", 
+                "@type": "Node", 
+                "label": "cockerel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cockerel"
+            }, 
+            "surfaceText": "[[cockerel]] is a type of [[cock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/n/,/c/en/bird/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bird/n", 
+                "@type": "Node", 
+                "label": "bird", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bird"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": "[[cock]] is a type of [[bird]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/n/,/c/en/chicken/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chicken/n", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": "[[cock]] is a type of [[chicken]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/n/,/c/en/penis/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/penis/n", 
+                "@type": "Node", 
+                "label": "penis", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/penis"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": "[[cock]] is a type of [[penis]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gamecock/n/,/c/en/cock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gamecock/n", 
+                "@type": "Node", 
+                "label": "gamecock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gamecock"
+            }, 
+            "surfaceText": "[[gamecock]] is a type of [[cock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/,/c/en/bird/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bird", 
+                "@type": "Node", 
+                "label": "bird", 
+                "language": "en", 
+                "term": "/c/en/bird"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock", 
+                "@type": "Node", 
+                "label": "a cock", 
+                "language": "en", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": "[[a cock]] is a kind of [[bird]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/,/c/en/chicken/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/chicken/n", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chicken"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cockerel/,/c/en/cock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cockerel", 
+                "@type": "Node", 
+                "label": "cockerel", 
+                "language": "en", 
+                "term": "/c/en/cockerel"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cock/n/,/c/de/chicken/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/chicken", 
+                "@type": "Node", 
+                "label": "chicken", 
+                "language": "de", 
+                "term": "/c/de/chicken"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cock/n", 
+                "@type": "Node", 
+                "label": "cock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cock"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/test&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/test/,/c/en/place_student/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place_student", 
+                "@type": "Node", 
+                "label": "place a student", 
+                "language": "en", 
+                "term": "/c/en/place_student"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/csonnich/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/csonnich"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "A test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[A test]] can [[place a student]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/test/,/c/en/show_applicant's_abilities/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/show_applicant's_abilities", 
+                "@type": "Node", 
+                "label": "show an applicant's abilities", 
+                "language": "en", 
+                "term": "/c/en/show_applicant's_abilities"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/willboy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/willboy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "The test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[The test]] can [[show an applicant's abilities]]", 
+            "weight": 1.0
+        }
+    ]
+}

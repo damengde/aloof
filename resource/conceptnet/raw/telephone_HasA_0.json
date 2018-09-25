@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/telephone&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/many_bedrooms/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/many_bedrooms", 
+                "@type": "Node", 
+                "label": "Many bedrooms", 
+                "language": "en", 
+                "term": "/c/en/many_bedrooms"
+            }, 
+            "surfaceText": "[[Many bedrooms]] have [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/telephone_box/,/c/en/telephone/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "a telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/marnoot/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/marnoot"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone_box", 
+                "@type": "Node", 
+                "label": "a telephone box", 
+                "language": "en", 
+                "term": "/c/en/telephone_box"
+            }, 
+            "surfaceText": "[[a telephone box]] contains [[a telephone]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/telephone/,/c/en/dial_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dial_on", 
+                "@type": "Node", 
+                "label": "a dial on it", 
+                "language": "en", 
+                "term": "/c/en/dial_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/telephone", 
+                "@type": "Node", 
+                "label": "A telephone", 
+                "language": "en", 
+                "term": "/c/en/telephone"
+            }, 
+            "surfaceText": "[[A telephone]] has [[a dial on it]]", 
+            "weight": 1.0
+        }
+    ]
+}

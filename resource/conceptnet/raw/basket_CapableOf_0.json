@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/basket&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/basket/,/c/en/carry_laundry/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_laundry", 
+                "@type": "Node", 
+                "label": "carry laundry", 
+                "language": "en", 
+                "term": "/c/en/carry_laundry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tenfiveoh/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tenfiveoh"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/basket", 
+                "@type": "Node", 
+                "label": "a basket", 
+                "language": "en", 
+                "term": "/c/en/basket"
+            }, 
+            "surfaceText": "[[a basket]] can [[carry laundry]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/basket/,/c/en/hold_easter_eggs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_easter_eggs", 
+                "@type": "Node", 
+                "label": "hold easter eggs", 
+                "language": "en", 
+                "term": "/c/en/hold_easter_eggs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmnicho/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmnicho"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/basket", 
+                "@type": "Node", 
+                "label": "A basket", 
+                "language": "en", 
+                "term": "/c/en/basket"
+            }, 
+            "surfaceText": "[[A basket]] may [[hold easter eggs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/basket/,/c/en/hold_flowers/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_flowers", 
+                "@type": "Node", 
+                "label": "hold flowers", 
+                "language": "en", 
+                "term": "/c/en/hold_flowers"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/djaynewman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/djaynewman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/basket", 
+                "@type": "Node", 
+                "label": "A basket", 
+                "language": "en", 
+                "term": "/c/en/basket"
+            }, 
+            "surfaceText": "[[A basket]] can [[hold flowers]]", 
+            "weight": 1.0
+        }
+    ]
+}

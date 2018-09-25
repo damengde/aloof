@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/egg&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/egg/,/c/en/round/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/round", 
+                "@type": "Node", 
+                "label": "round", 
+                "language": "en", 
+                "term": "/c/en/round"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jfarnell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jfarnell"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/akanders/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/akanders"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "An egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[An egg]] is [[round]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/egg/,/c/en/hard_boiled/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hard_boiled", 
+                "@type": "Node", 
+                "label": "hard-boiled", 
+                "language": "en", 
+                "term": "/c/en/hard_boiled"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alcinoe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alcinoe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "An egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[An egg]] can be [[hard-boiled]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/egg/,/c/en/oblong_shaped/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/oblong_shaped", 
+                "@type": "Node", 
+                "label": "oblong shaped", 
+                "language": "en", 
+                "term": "/c/en/oblong_shaped"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/millerah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/millerah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "an egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[an egg]] is [[oblong shaped]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/egg/,/c/en/white/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/white", 
+                "@type": "Node", 
+                "label": "white", 
+                "language": "en", 
+                "term": "/c/en/white"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jeffthistle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jeffthistle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/egg", 
+                "@type": "Node", 
+                "label": "an egg", 
+                "language": "en", 
+                "term": "/c/en/egg"
+            }, 
+            "surfaceText": "[[an egg]] can be [[white]]", 
+            "weight": 1.0
+        }
+    ]
+}

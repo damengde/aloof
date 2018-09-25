@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pepper&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pepper/,/c/en/season_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/season_food", 
+                "@type": "Node", 
+                "label": "season food", 
+                "language": "en", 
+                "term": "/c/en/season_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/neelix715016/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/neelix715016"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] can be used to [[season food]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pepper/,/c/en/adding_flavor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/adding_flavor", 
+                "@type": "Node", 
+                "label": "adding flavor", 
+                "language": "en", 
+                "term": "/c/en/adding_flavor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "Pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[Pepper]] is used for [[adding flavor]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pepper/,/c/en/flavouring_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flavouring_food", 
+                "@type": "Node", 
+                "label": "flavouring food", 
+                "language": "en", 
+                "term": "/c/en/flavouring_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[pepper]] is used for [[flavouring food]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pepper/,/c/en/season_salad/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/season_salad", 
+                "@type": "Node", 
+                "label": "season salad", 
+                "language": "en", 
+                "term": "/c/en/season_salad"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pepper", 
+                "@type": "Node", 
+                "label": "Pepper", 
+                "language": "en", 
+                "term": "/c/en/pepper"
+            }, 
+            "surfaceText": "[[Pepper]] can be used to [[season salad]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tricycle&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pedicab/n/,/c/en/tricycle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/tricycle/n", 
+                "@type": "Node", 
+                "label": "tricycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tricycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedicab/n", 
+                "@type": "Node", 
+                "label": "pedicab", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pedicab"
+            }, 
+            "surfaceText": "[[pedicab]] is a type of [[tricycle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tricycle/n/,/c/en/wheeled_vehicle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wheeled_vehicle/n", 
+                "@type": "Node", 
+                "label": "wheeled vehicle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wheeled_vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tricycle/n", 
+                "@type": "Node", 
+                "label": "tricycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tricycle"
+            }, 
+            "surfaceText": "[[tricycle]] is a type of [[wheeled vehicle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tricycle/,/c/en/transport/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/transport", 
+                "@type": "Node", 
+                "label": "transport", 
+                "language": "en", 
+                "term": "/c/en/transport"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tricycle", 
+                "@type": "Node", 
+                "label": "a tricycle", 
+                "language": "en", 
+                "term": "/c/en/tricycle"
+            }, 
+            "surfaceText": "[[a tricycle]] is a kind of [[transport]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tricycle/n/,/c/en/three_wheeler/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/three_wheeler", 
+                "@type": "Node", 
+                "label": "three wheeler", 
+                "language": "en", 
+                "term": "/c/en/three_wheeler"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tricycle/n", 
+                "@type": "Node", 
+                "label": "tricycle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tricycle"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,709 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/kitchen_utensil&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/prepare_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/prepare_food", 
+                "@type": "Node", 
+                "label": "prepare food", 
+                "language": "en", 
+                "term": "/c/en/prepare_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nlhelper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nlhelper"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is used to [[prepare food]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/beating/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/beating", 
+                "@type": "Node", 
+                "label": "beating", 
+                "language": "en", 
+                "term": "/c/en/beating"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[beating]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/opening_can/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opening_can", 
+                "@type": "Node", 
+                "label": "opening a can", 
+                "language": "en", 
+                "term": "/c/en/opening_can"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[opening a can]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/peeling_carrots/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/peeling_carrots", 
+                "@type": "Node", 
+                "label": "peeling carrots", 
+                "language": "en", 
+                "term": "/c/en/peeling_carrots"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/4m/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/4m"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[peeling carrots]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/chopping/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chopping", 
+                "@type": "Node", 
+                "label": "chopping", 
+                "language": "en", 
+                "term": "/c/en/chopping"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[chopping]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/cook_chop_or_stir/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cook_chop_or_stir", 
+                "@type": "Node", 
+                "label": "cook, chop, or stir", 
+                "language": "en", 
+                "term": "/c/en/cook_chop_or_stir"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/comdotatdotcom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/comdotatdotcom"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "You can use [[a kitchen utensil]] to [[cook, chop, or stir]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/cutting_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cutting_food", 
+                "@type": "Node", 
+                "label": "Cutting food", 
+                "language": "en", 
+                "term": "/c/en/cutting_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[Cutting food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/cutting_meat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cutting_meat", 
+                "@type": "Node", 
+                "label": "cutting meat", 
+                "language": "en", 
+                "term": "/c/en/cutting_meat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[cutting meat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/flipping_pancakes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flipping_pancakes", 
+                "@type": "Node", 
+                "label": "flipping pancakes", 
+                "language": "en", 
+                "term": "/c/en/flipping_pancakes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[flipping pancakes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/help_in_preparation_of_meals/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/help_in_preparation_of_meals", 
+                "@type": "Node", 
+                "label": "help in the preparation of meals", 
+                "language": "en", 
+                "term": "/c/en/help_in_preparation_of_meals"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phate/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phate"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "You can use [[a kitchen utensil]] to [[help in the preparation of meals]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/mixing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mixing", 
+                "@type": "Node", 
+                "label": "mixing", 
+                "language": "en", 
+                "term": "/c/en/mixing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[mixing]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/mixing_batter/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mixing_batter", 
+                "@type": "Node", 
+                "label": "mixing batter", 
+                "language": "en", 
+                "term": "/c/en/mixing_batter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/keratak/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/keratak"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[mixing batter]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/opening_cans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/opening_cans", 
+                "@type": "Node", 
+                "label": "opening cans", 
+                "language": "en", 
+                "term": "/c/en/opening_cans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[opening cans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/peeling_potatoes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/peeling_potatoes", 
+                "@type": "Node", 
+                "label": "peeling potatoes", 
+                "language": "en", 
+                "term": "/c/en/peeling_potatoes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[peeling potatoes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/preparing_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/preparing_food", 
+                "@type": "Node", 
+                "label": "preparing food", 
+                "language": "en", 
+                "term": "/c/en/preparing_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/friscojohn/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/friscojohn"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[preparing food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/stir_pot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stir_pot", 
+                "@type": "Node", 
+                "label": "stir a pot", 
+                "language": "en", 
+                "term": "/c/en/stir_pot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "You can use [[a kitchen utensil]] to [[stir a pot]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/stirring/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stirring", 
+                "@type": "Node", 
+                "label": "stirring", 
+                "language": "en", 
+                "term": "/c/en/stirring"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[stirring]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/stir_stew/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stir_stew", 
+                "@type": "Node", 
+                "label": "stir the stew", 
+                "language": "en", 
+                "term": "/c/en/stir_stew"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "You can use [[a kitchen utensil]] to [[stir the stew]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/kitchen_utensil/,/c/en/whisking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/whisking", 
+                "@type": "Node", 
+                "label": "whisking", 
+                "language": "en", 
+                "term": "/c/en/whisking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/llarson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/llarson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/kitchen_utensil", 
+                "@type": "Node", 
+                "label": "a kitchen utensil", 
+                "language": "en", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "surfaceText": "[[a kitchen utensil]] is for [[whisking]]", 
+            "weight": 1.0
+        }
+    ]
+}

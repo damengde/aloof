@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tie&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tie/n/,/c/en/railroad_track/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/railroad_track/n", 
+                "@type": "Node", 
+                "label": "railroad track", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/railroad_track"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tie/n", 
+                "@type": "Node", 
+                "label": "tie", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tie"
+            }, 
+            "surfaceText": "[[tie]] is a part of [[railroad track]]", 
+            "weight": 2.0
+        }
+    ]
+}

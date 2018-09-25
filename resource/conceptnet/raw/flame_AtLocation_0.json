@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flame&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/flame/,/c/en/chemistry_lab/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chemistry_lab", 
+                "@type": "Node", 
+                "label": "the chemistry lab", 
+                "language": "en", 
+                "term": "/c/en/chemistry_lab"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flame", 
+                "@type": "Node", 
+                "label": "a flame", 
+                "language": "en", 
+                "term": "/c/en/flame"
+            }, 
+            "surfaceText": "*Something you find in [[the chemistry lab]] is [[a flame]]", 
+            "weight": 1.0
+        }
+    ]
+}

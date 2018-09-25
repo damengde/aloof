@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/distaff&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/distaff/n/,/c/en/sphere/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sphere/n", 
+                "@type": "Node", 
+                "label": "sphere", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sphere"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/distaff/n", 
+                "@type": "Node", 
+                "label": "distaff", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/distaff"
+            }, 
+            "surfaceText": "[[distaff]] is a type of [[sphere]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/distaff/n/,/c/en/staff/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/staff/n", 
+                "@type": "Node", 
+                "label": "staff", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/staff"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/distaff/n", 
+                "@type": "Node", 
+                "label": "distaff", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/distaff"
+            }, 
+            "surfaceText": "[[distaff]] is a type of [[staff]]", 
+            "weight": 2.0
+        }
+    ]
+}

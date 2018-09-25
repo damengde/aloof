@@ -1,0 +1,299 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tapestry&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/,/c/en/rug_and_picture/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rug_and_picture", 
+                "@type": "Node", 
+                "label": "a rug and a picture", 
+                "language": "en", 
+                "term": "/c/en/rug_and_picture"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/bc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/bc"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry", 
+                "@type": "Node", 
+                "label": "a tapestry", 
+                "language": "en", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[a tapestry]] is [[a rug and a picture]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/n/,/c/en/complexity/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/complexity/n", 
+                "@type": "Node", 
+                "label": "complexity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/complexity"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry/n", 
+                "@type": "Node", 
+                "label": "tapestry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[tapestry]] is a type of [[complexity]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/n/,/c/en/fabric/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fabric/n", 
+                "@type": "Node", 
+                "label": "fabric", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fabric"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry/n", 
+                "@type": "Node", 
+                "label": "tapestry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[tapestry]] is a type of [[fabric]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/n/,/c/en/hanging/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hanging/n", 
+                "@type": "Node", 
+                "label": "hanging", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hanging"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry/n", 
+                "@type": "Node", 
+                "label": "tapestry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[tapestry]] is a type of [[hanging]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/,/c/en/colorful_wall_hanging/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/colorful_wall_hanging", 
+                "@type": "Node", 
+                "label": "a colorful wall-hanging", 
+                "language": "en", 
+                "term": "/c/en/colorful_wall_hanging"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/hurkle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/hurkle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry", 
+                "@type": "Node", 
+                "label": "a tapestry", 
+                "language": "en", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[a tapestry]] is [[a colorful wall-hanging]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/,/c/en/woven_piece_of_art/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/woven_piece_of_art", 
+                "@type": "Node", 
+                "label": "a woven piece of art", 
+                "language": "en", 
+                "term": "/c/en/woven_piece_of_art"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dougrrr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dougrrr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry", 
+                "@type": "Node", 
+                "label": "A tapestry", 
+                "language": "en", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": "[[A tapestry]] is [[a woven piece of art]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/n/,/c/en/solid_tangible_artifact/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/solid_tangible_artifact/n", 
+                "@type": "Node", 
+                "label": "solid tangible artifact", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/solid_tangible_artifact"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry/n", 
+                "@type": "Node", 
+                "label": "tapestry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tapestry/n/,/c/en/wall_hanging/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/wall_hanging/n", 
+                "@type": "Node", 
+                "label": "wall hanging", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wall_hanging"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tapestry/n", 
+                "@type": "Node", 
+                "label": "tapestry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tapestry"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

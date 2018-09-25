@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ice_bucket&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ice_bucket/n/,/c/en/bucket/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bucket/n", 
+                "@type": "Node", 
+                "label": "bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ice_bucket/n", 
+                "@type": "Node", 
+                "label": "ice bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ice_bucket"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/ice_bucket/n/,/c/en/serving_dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/serving_dish/n", 
+                "@type": "Node", 
+                "label": "serving dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/serving_dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ice_bucket/n", 
+                "@type": "Node", 
+                "label": "ice bucket", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ice_bucket"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

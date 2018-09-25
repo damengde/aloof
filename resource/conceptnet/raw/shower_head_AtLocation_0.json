@@ -1,0 +1,119 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_head&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_head/,/c/en/shower_stall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shower_stall", 
+                "@type": "Node", 
+                "label": "a shower stall", 
+                "language": "en", 
+                "term": "/c/en/shower_stall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/descott/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/descott"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_head", 
+                "@type": "Node", 
+                "label": "a shower head", 
+                "language": "en", 
+                "term": "/c/en/shower_head"
+            }, 
+            "surfaceText": "You are likely to find [[a shower head]] in [[a shower stall]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_head/,/c/en/gymnasium/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/gymnasium", 
+                "@type": "Node", 
+                "label": "a gymnasium", 
+                "language": "en", 
+                "term": "/c/en/gymnasium"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_head", 
+                "@type": "Node", 
+                "label": "a shower head", 
+                "language": "en", 
+                "term": "/c/en/shower_head"
+            }, 
+            "surfaceText": "You are likely to find [[a shower head]] in [[a gymnasium]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/shower_head/,/c/en/shower_cubicle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shower_cubicle", 
+                "@type": "Node", 
+                "label": "the shower cubicle", 
+                "language": "en", 
+                "term": "/c/en/shower_cubicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/emkeki/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/emkeki"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_head", 
+                "@type": "Node", 
+                "label": "a shower head", 
+                "language": "en", 
+                "term": "/c/en/shower_head"
+            }, 
+            "surfaceText": "You are likely to find [[a shower head]] in [[the shower cubicle]]", 
+            "weight": 1.0
+        }
+    ]
+}

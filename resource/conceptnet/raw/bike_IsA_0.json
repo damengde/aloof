@@ -1,0 +1,183 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bike&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bicycle/,/c/en/bike/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/richard_h0lt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/richard_h0lt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "a bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "surfaceText": "[[a bicycle]] is a kind of [[bike]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bike/,/c/en/another_way_to_say_bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/another_way_to_say_bicycle", 
+                "@type": "Node", 
+                "label": "another way to say bicycle", 
+                "language": "en", 
+                "term": "/c/en/another_way_to_say_bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "Bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[Bike]] is [[another way to say bicycle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bike/,/c/en/another_word_for_bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/another_word_for_bicycle", 
+                "@type": "Node", 
+                "label": "another word for bicycle", 
+                "language": "en", 
+                "term": "/c/en/another_word_for_bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[bike]] is [[another word for bicycle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bike/,/c/en/bicycle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bicycle", 
+                "@type": "Node", 
+                "label": "a bicycle", 
+                "language": "en", 
+                "term": "/c/en/bicycle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/daveb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/daveb"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] is [[a bicycle]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bike/,/c/en/clean_method_of_transportation/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clean_method_of_transportation", 
+                "@type": "Node", 
+                "label": "a clean method of transportation", 
+                "language": "en", 
+                "term": "/c/en/clean_method_of_transportation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bike", 
+                "@type": "Node", 
+                "label": "a bike", 
+                "language": "en", 
+                "term": "/c/en/bike"
+            }, 
+            "surfaceText": "[[a bike]] is [[a clean method of transportation]]", 
+            "weight": 1.0
+        }
+    ]
+}

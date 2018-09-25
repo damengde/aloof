@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bulb&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/bulb/n/,/c/en/bloom/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bloom/v", 
+                "@type": "Node", 
+                "label": "bloom", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/bloom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bulb/n", 
+                "@type": "Node", 
+                "label": "bulb", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bulb"
+            }, 
+            "surfaceText": "[[bulb]] is used for [[bloom]]", 
+            "weight": 2.0
+        }
+    ]
+}

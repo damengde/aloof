@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/lemon&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/lemon/,/c/en/make_lips_pucker/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/make_lips_pucker", 
+                "@type": "Node", 
+                "label": "make my lips pucker", 
+                "language": "en", 
+                "term": "/c/en/make_lips_pucker"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lemon", 
+                "@type": "Node", 
+                "label": "Lemon", 
+                "language": "en", 
+                "term": "/c/en/lemon"
+            }, 
+            "surfaceText": "[[Lemon]] can [[make my lips pucker]]", 
+            "weight": 1.0
+        }
+    ]
+}

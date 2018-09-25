@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/latch&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/latch/n/,/c/en/catch/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/catch/n", 
+                "@type": "Node", 
+                "label": "catch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/catch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/latch/n", 
+                "@type": "Node", 
+                "label": "latch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/latch"
+            }, 
+            "surfaceText": "[[latch]] is a type of [[catch]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/latch/n/,/c/en/lock/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lock/n", 
+                "@type": "Node", 
+                "label": "lock", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lock"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/latch/n", 
+                "@type": "Node", 
+                "label": "latch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/latch"
+            }, 
+            "surfaceText": "[[latch]] is a type of [[lock]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/latch/,/c/en/fastener/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fastener", 
+                "@type": "Node", 
+                "label": "fastener", 
+                "language": "en", 
+                "term": "/c/en/fastener"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/latch", 
+                "@type": "Node", 
+                "label": "a latch", 
+                "language": "en", 
+                "term": "/c/en/latch"
+            }, 
+            "surfaceText": "[[a latch]] is a kind of [[fastener]].", 
+            "weight": 1.0
+        }
+    ]
+}

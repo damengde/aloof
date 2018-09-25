@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ax&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/ax/,/c/en/useful_for_chopping_wood/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_chopping_wood", 
+                "@type": "Node", 
+                "label": "useful for chopping wood", 
+                "language": "en", 
+                "term": "/c/en/useful_for_chopping_wood"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/deanp/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/deanp"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ax", 
+                "@type": "Node", 
+                "label": "An ax", 
+                "language": "en", 
+                "term": "/c/en/ax"
+            }, 
+            "surfaceText": "[[An ax]] is [[useful for chopping wood]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/slot_machine&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/coin_box/n/,/c/en/slot_machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/slot_machine/n", 
+                "@type": "Node", 
+                "label": "slot machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coin_box/n", 
+                "@type": "Node", 
+                "label": "coin box", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coin_box"
+            }, 
+            "surfaceText": "[[coin box]] is a part of [[slot machine]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/coin_slot/n/,/c/en/slot_machine/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/slot_machine/n", 
+                "@type": "Node", 
+                "label": "slot machine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slot_machine"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coin_slot/n", 
+                "@type": "Node", 
+                "label": "coin slot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coin_slot"
+            }, 
+            "surfaceText": "[[coin slot]] is a part of [[slot machine]]", 
+            "weight": 2.0
+        }
+    ]
+}

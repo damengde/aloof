@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bowl&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bowl/,/c/en/convex_down/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/convex_down", 
+                "@type": "Node", 
+                "label": "convex down", 
+                "language": "en", 
+                "term": "/c/en/convex_down"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/oblinger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/oblinger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bowl", 
+                "@type": "Node", 
+                "label": "a bowl", 
+                "language": "en", 
+                "term": "/c/en/bowl"
+            }, 
+            "surfaceText": "[[a bowl]] is [[convex down]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/bowl/,/c/en/more_than_cup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/more_than_cup", 
+                "@type": "Node", 
+                "label": "more than a cup", 
+                "language": "en", 
+                "term": "/c/en/more_than_cup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bowl", 
+                "@type": "Node", 
+                "label": "a bowl", 
+                "language": "en", 
+                "term": "/c/en/bowl"
+            }, 
+            "surfaceText": "[[a bowl]] is [[more than a cup]]", 
+            "weight": 1.0
+        }
+    ]
+}

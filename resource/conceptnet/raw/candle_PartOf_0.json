@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/candle&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/candlewick/n/,/c/en/candle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/candle/n", 
+                "@type": "Node", 
+                "label": "candle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candlewick/n", 
+                "@type": "Node", 
+                "label": "candlewick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candlewick"
+            }, 
+            "surfaceText": "[[candlewick]] is a part of [[candle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wick/n/,/c/en/candle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/candle/n", 
+                "@type": "Node", 
+                "label": "candle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/candle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wick/n", 
+                "@type": "Node", 
+                "label": "wick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wick"
+            }, 
+            "surfaceText": "[[wick]] is a part of [[candle]]", 
+            "weight": 2.0
+        }
+    ]
+}

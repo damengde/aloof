@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shower_curtain&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shower_curtain/n/,/c/en/shower_stall/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/shower_stall/n", 
+                "@type": "Node", 
+                "label": "shower stall", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_stall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shower_curtain/n", 
+                "@type": "Node", 
+                "label": "shower curtain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shower_curtain"
+            }, 
+            "surfaceText": "[[shower curtain]] is a part of [[shower stall]]", 
+            "weight": 2.0
+        }
+    ]
+}

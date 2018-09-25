@@ -1,0 +1,125 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cube&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cube/,/c/en/six_side/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/six_side", 
+                "@type": "Node", 
+                "label": "six side", 
+                "language": "en", 
+                "term": "/c/en/six_side"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/outofpaper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/outofpaper"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/ubu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/ubu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cube", 
+                "@type": "Node", 
+                "label": "a cube", 
+                "language": "en", 
+                "term": "/c/en/cube"
+            }, 
+            "surfaceText": "[[a cube]] has [[six side]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cube/,/c/en/six_sides/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/six_sides", 
+                "@type": "Node", 
+                "label": "six sides", 
+                "language": "en", 
+                "term": "/c/en/six_sides"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/outofpaper/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/outofpaper"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cube", 
+                "@type": "Node", 
+                "label": "a cube", 
+                "language": "en", 
+                "term": "/c/en/cube"
+            }, 
+            "surfaceText": "[[a cube]] has [[six sides]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/cube/,/c/en/three_dimensions/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/three_dimensions", 
+                "@type": "Node", 
+                "label": "three dimensions", 
+                "language": "en", 
+                "term": "/c/en/three_dimensions"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mrtj/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mrtj"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cube", 
+                "@type": "Node", 
+                "label": "a cube", 
+                "language": "en", 
+                "term": "/c/en/cube"
+            }, 
+            "surfaceText": "[[a cube]] has [[three dimensions]]", 
+            "weight": 1.0
+        }
+    ]
+}

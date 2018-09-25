@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/guitar&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/guitar/,/c/en/work_of_art/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/work_of_art", 
+                "@type": "Node", 
+                "label": "be a work of art", 
+                "language": "en", 
+                "term": "/c/en/work_of_art"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/guitar", 
+                "@type": "Node", 
+                "label": "A guitar", 
+                "language": "en", 
+                "term": "/c/en/guitar"
+            }, 
+            "surfaceText": "[[A guitar]] can [[be a work of art]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dress&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dress/,/c/en/closet/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/closet", 
+                "@type": "Node", 
+                "label": "the closet", 
+                "language": "en", 
+                "term": "/c/en/closet"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chuddy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chuddy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "a dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "*Something you find in [[the closet]] is [[a dress]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/dress/,/c/en/shop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shop", 
+                "@type": "Node", 
+                "label": "a shop", 
+                "language": "en", 
+                "term": "/c/en/shop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/fremenchild/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/fremenchild"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "a dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "surfaceText": "*Something you find at [[a shop]] is [[a dress]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/fox/,/c/en/dress/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "a dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fox", 
+                "@type": "Node", 
+                "label": "a fox", 
+                "language": "en", 
+                "term": "/c/en/fox"
+            }, 
+            "surfaceText": "You are likely to find [[a fox]] in [[a dress]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/woolen_fabric/,/c/en/dress/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dress", 
+                "@type": "Node", 
+                "label": "a dress", 
+                "language": "en", 
+                "term": "/c/en/dress"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rose876/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rose876"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/woolen_fabric", 
+                "@type": "Node", 
+                "label": "woolen fabric", 
+                "language": "en", 
+                "term": "/c/en/woolen_fabric"
+            }, 
+            "surfaceText": "You are likely to find [[woolen fabric]] in [[a dress]]", 
+            "weight": 1.0
+        }
+    ]
+}

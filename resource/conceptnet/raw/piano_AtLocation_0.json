@@ -1,0 +1,791 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/piano&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/concert_hall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/concert_hall", 
+                "@type": "Node", 
+                "label": "a concert hall", 
+                "language": "en", 
+                "term": "/c/en/concert_hall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nihilmatters/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nihilmatters"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ovan4/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ovan4"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/nihilmatters/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/nihilmatters"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[a concert hall]]", 
+            "weight": 3.4641016151377544
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/concert/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/concert", 
+                "@type": "Node", 
+                "label": "a concert", 
+                "language": "en", 
+                "term": "/c/en/concert"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/lennonkbc/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/lennonkbc"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sarajsamson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sarajsamson"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/sarajsamson/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/sarajsamson"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "*Something you find at [[a concert]] is [[a piano]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keys/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/j2r2d2/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/j2r2d2"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/atrice/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/atrice"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keys", 
+                "@type": "Node", 
+                "label": "keys", 
+                "language": "en", 
+                "term": "/c/en/keys"
+            }, 
+            "surfaceText": "*Something you find on [[a piano]] is [[keys]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/church/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/church", 
+                "@type": "Node", 
+                "label": "a church", 
+                "language": "en", 
+                "term": "/c/en/church"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcarey1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/atrice/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/atrice"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[a church]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/orchestra/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/orchestra", 
+                "@type": "Node", 
+                "label": "an orchestra", 
+                "language": "en", 
+                "term": "/c/en/orchestra"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bjb/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bjb"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[an orchestra]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/black_keys/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/black_keys", 
+                "@type": "Node", 
+                "label": "black keys", 
+                "language": "en", 
+                "term": "/c/en/black_keys"
+            }, 
+            "surfaceText": "You are likely to find [[black keys]] in [[piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/hammers/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hammers", 
+                "@type": "Node", 
+                "label": "hammers", 
+                "language": "en", 
+                "term": "/c/en/hammers"
+            }, 
+            "surfaceText": "You are likely to find [[hammers]] in [[a piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/keyboard/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/roger/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/roger"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/keyboard", 
+                "@type": "Node", 
+                "label": "a keyboard", 
+                "language": "en", 
+                "term": "/c/en/keyboard"
+            }, 
+            "surfaceText": "You are likely to find [[a keyboard]] in [[a piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/metronome/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/calristian/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/calristian"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/metronome", 
+                "@type": "Node", 
+                "label": "a metronome", 
+                "language": "en", 
+                "term": "/c/en/metronome"
+            }, 
+            "surfaceText": "You are likely to find [[a metronome]] in [[piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pedals/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pedals", 
+                "@type": "Node", 
+                "label": "pedals", 
+                "language": "en", 
+                "term": "/c/en/pedals"
+            }, 
+            "surfaceText": "You are likely to find [[pedals]] in [[a piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/drawing_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drawing_room", 
+                "@type": "Node", 
+                "label": "the drawing room", 
+                "language": "en", 
+                "term": "/c/en/drawing_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rod57/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rod57"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[the drawing room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/music_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music_room", 
+                "@type": "Node", 
+                "label": "the music room", 
+                "language": "en", 
+                "term": "/c/en/music_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/meowmiller/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/meowmiller"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[the music room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/music_school/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music_school", 
+                "@type": "Node", 
+                "label": "...music school", 
+                "language": "en", 
+                "term": "/c/en/music_school"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/maofnoah/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/maofnoah"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[...music school]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/music_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/music_store", 
+                "@type": "Node", 
+                "label": "a music store", 
+                "language": "en", 
+                "term": "/c/en/music_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[a music store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/neighbor's_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/neighbor's_house", 
+                "@type": "Node", 
+                "label": "a neighbor's house", 
+                "language": "en", 
+                "term": "/c/en/neighbor's_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "*Something you find at [[a neighbor's house]] is [[a piano]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/old_movie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/old_movie", 
+                "@type": "Node", 
+                "label": "an old movie", 
+                "language": "en", 
+                "term": "/c/en/old_movie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[an old movie]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/restaurant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/restaurant", 
+                "@type": "Node", 
+                "label": "a restaurant", 
+                "language": "en", 
+                "term": "/c/en/restaurant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "Somewhere [[a piano]] can be is in [[a restaurant]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/store_or_home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store_or_home", 
+                "@type": "Node", 
+                "label": "a store or a home,", 
+                "language": "en", 
+                "term": "/c/en/store_or_home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/brainiac/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/brainiac"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[a store or a home,]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/symphony/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/symphony", 
+                "@type": "Node", 
+                "label": "a symphony", 
+                "language": "en", 
+                "term": "/c/en/symphony"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/lieber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/lieber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[a symphony]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/piano/,/c/en/symphony_orchestra/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/symphony_orchestra", 
+                "@type": "Node", 
+                "label": "symphony orchestra", 
+                "language": "en", 
+                "term": "/c/en/symphony_orchestra"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/duana/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/duana"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "You are likely to find [[a piano]] in [[symphony orchestra]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/white_keys/,/c/en/piano/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "a piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/white_keys", 
+                "@type": "Node", 
+                "label": "white keys", 
+                "language": "en", 
+                "term": "/c/en/white_keys"
+            }, 
+            "surfaceText": "You are likely to find [[white keys]] in [[a piano]]", 
+            "weight": 1.0
+        }
+    ]
+}

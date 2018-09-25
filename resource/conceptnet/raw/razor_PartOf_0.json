@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/razor&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/razorblade/n/,/c/en/razor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/razor/n", 
+                "@type": "Node", 
+                "label": "razor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/razor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/razorblade/n", 
+                "@type": "Node", 
+                "label": "razorblade", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/razorblade"
+            }, 
+            "surfaceText": "[[razorblade]] is a part of [[razor]]", 
+            "weight": 2.0
+        }
+    ]
+}

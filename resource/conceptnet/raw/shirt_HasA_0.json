@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shirt&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/shirt/,/c/en/buttons/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/buttons", 
+                "@type": "Node", 
+                "label": "buttons", 
+                "language": "en", 
+                "term": "/c/en/buttons"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shirt", 
+                "@type": "Node", 
+                "label": "A shirt", 
+                "language": "en", 
+                "term": "/c/en/shirt"
+            }, 
+            "surfaceText": "[[A shirt]] has [[buttons]]", 
+            "weight": 1.0
+        }
+    ]
+}

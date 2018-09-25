@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pineapple&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/pineapple/,/c/en/sybolize_hospitality/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sybolize_hospitality", 
+                "@type": "Node", 
+                "label": "sybolize hospitality", 
+                "language": "en", 
+                "term": "/c/en/sybolize_hospitality"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/amy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/amy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pineapple", 
+                "@type": "Node", 
+                "label": "A pineapple", 
+                "language": "en", 
+                "term": "/c/en/pineapple"
+            }, 
+            "surfaceText": "[[A pineapple]] is used to [[sybolize hospitality]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,223 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/flip_flop&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/n/,/c/en/circuit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/circuit/n", 
+                "@type": "Node", 
+                "label": "circuit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/circuit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop/n", 
+                "@type": "Node", 
+                "label": "flip-flop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": "[[flip-flop]] is a type of [[circuit]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/n/,/c/en/sandal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sandal/n", 
+                "@type": "Node", 
+                "label": "sandal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sandal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop/n", 
+                "@type": "Node", 
+                "label": "flip-flop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": "[[flip-flop]] is a type of [[sandal]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/n/,/c/en/somersault/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/somersault/n", 
+                "@type": "Node", 
+                "label": "somersault", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/somersault"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop/n", 
+                "@type": "Node", 
+                "label": "flip-flop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": "[[flip-flop]] is a type of [[somersault]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/,/c/en/sandal/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/sandal/n", 
+                "@type": "Node", 
+                "label": "sandal", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sandal"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop", 
+                "@type": "Node", 
+                "label": "flip flop", 
+                "language": "en", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/,/c/en/shoe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shoe", 
+                "@type": "Node", 
+                "label": "shoe", 
+                "language": "en", 
+                "term": "/c/en/shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop", 
+                "@type": "Node", 
+                "label": "A flip flop ", 
+                "language": "en", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": "[[A flip flop ]] is a kind of [[shoe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/flip_flop/n/,/c/en/casual_shoe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/casual_shoe/n", 
+                "@type": "Node", 
+                "label": "casual shoe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/casual_shoe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/flip_flop/n", 
+                "@type": "Node", 
+                "label": "flip flop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flip_flop"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

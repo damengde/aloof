@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pot_holder&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pot_holder/n/,/c/en/consumer_durable/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/consumer_durable/n", 
+                "@type": "Node", 
+                "label": "consumer durable", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/consumer_durable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pot_holder/n", 
+                "@type": "Node", 
+                "label": "pot holder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pot_holder"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pot_holder/n/,/c/en/cook's_accessory/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/cook's_accessory/n", 
+                "@type": "Node", 
+                "label": "cook's accessory", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cook's_accessory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pot_holder/n", 
+                "@type": "Node", 
+                "label": "pot holder", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pot_holder"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

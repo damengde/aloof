@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/teapot&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/spout/,/c/en/teapot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/teapot", 
+                "@type": "Node", 
+                "label": "a teapot", 
+                "language": "en", 
+                "term": "/c/en/teapot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nancyfay/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nancyfay"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spout", 
+                "@type": "Node", 
+                "label": "a spout", 
+                "language": "en", 
+                "term": "/c/en/spout"
+            }, 
+            "surfaceText": "You are likely to find [[a spout]] in [[a teapot]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tea/,/c/en/teapot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/teapot", 
+                "@type": "Node", 
+                "label": "teapot", 
+                "language": "en", 
+                "term": "/c/en/teapot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/arabel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/arabel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tea", 
+                "@type": "Node", 
+                "label": "tea", 
+                "language": "en", 
+                "term": "/c/en/tea"
+            }, 
+            "surfaceText": "You are likely to find [[tea]] in [[teapot]]", 
+            "weight": 1.0
+        }
+    ]
+}

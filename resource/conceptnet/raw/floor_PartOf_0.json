@@ -1,0 +1,265 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/floor&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/,/c/en/room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/room", 
+                "@type": "Node", 
+                "label": "a room", 
+                "language": "en", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/droberts45/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/droberts45"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor", 
+                "@type": "Node", 
+                "label": "The floor", 
+                "language": "en", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[The floor]] is part of [[a room]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/building/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/building/n", 
+                "@type": "Node", 
+                "label": "building", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/building"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[building]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/cave/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cave/n", 
+                "@type": "Node", 
+                "label": "cave", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cave"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[cave]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/exchange/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/exchange/n", 
+                "@type": "Node", 
+                "label": "exchange", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/exchange"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[exchange]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/hallway/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/hallway/n", 
+                "@type": "Node", 
+                "label": "hallway", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/hallway"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[hallway]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/lake/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/lake/n", 
+                "@type": "Node", 
+                "label": "lake", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lake"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[lake]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/floor/n/,/c/en/room/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/room/n", 
+                "@type": "Node", 
+                "label": "room", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/floor/n", 
+                "@type": "Node", 
+                "label": "floor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/floor"
+            }, 
+            "surfaceText": "[[floor]] is a part of [[room]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stone&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stone/,/c/en/bridge_river/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bridge_river", 
+                "@type": "Node", 
+                "label": "bridge a river", 
+                "language": "en", 
+                "term": "/c/en/bridge_river"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/draconicfae/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/draconicfae"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone", 
+                "@type": "Node", 
+                "label": "Stone", 
+                "language": "en", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[Stone]] can [[bridge a river]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/stone/,/c/en/unit_of_measurment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/unit_of_measurment", 
+                "@type": "Node", 
+                "label": "be a unit of measurment", 
+                "language": "en", 
+                "term": "/c/en/unit_of_measurment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stone", 
+                "@type": "Node", 
+                "label": "A stone", 
+                "language": "en", 
+                "term": "/c/en/stone"
+            }, 
+            "surfaceText": "[[A stone]] can [[be a unit of measurment]]", 
+            "weight": 1.0
+        }
+    ]
+}

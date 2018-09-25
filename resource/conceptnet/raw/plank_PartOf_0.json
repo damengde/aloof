@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/plank&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/plank/n/,/c/en/platform/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/platform/n", 
+                "@type": "Node", 
+                "label": "platform", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/platform"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/plank/n", 
+                "@type": "Node", 
+                "label": "plank", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/plank"
+            }, 
+            "surfaceText": "[[plank]] is a part of [[platform]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/baby&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/baby_buggy/n/,/c/en/baby/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/baby/n", 
+                "@type": "Node", 
+                "label": "baby", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baby"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baby_buggy/n", 
+                "@type": "Node", 
+                "label": "baby buggy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baby_buggy"
+            }, 
+            "surfaceText": "[[baby buggy]] is used for the benefit of [[baby]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/baby/,/c/en/building_family/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building_family", 
+                "@type": "Node", 
+                "label": "building a family", 
+                "language": "en", 
+                "term": "/c/en/building_family"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/nobody/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/nobody"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/baby", 
+                "@type": "Node", 
+                "label": "a baby", 
+                "language": "en", 
+                "term": "/c/en/baby"
+            }, 
+            "surfaceText": "[[a baby]] is used for [[building a family]].", 
+            "weight": 1.0
+        }
+    ]
+}

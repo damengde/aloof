@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/purse&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/purse/,/c/en/money/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/money", 
+                "@type": "Node", 
+                "label": "money", 
+                "language": "en", 
+                "term": "/c/en/money"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mariegriffiths/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mariegriffiths"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/purse", 
+                "@type": "Node", 
+                "label": "A purse", 
+                "language": "en", 
+                "term": "/c/en/purse"
+            }, 
+            "surfaceText": "[[A purse]] contains [[money]]", 
+            "weight": 1.0
+        }
+    ]
+}

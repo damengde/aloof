@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/broomstick&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/broomstick/n/,/c/en/handle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/handle/n", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/broomstick/n", 
+                "@type": "Node", 
+                "label": "broomstick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/broomstick"
+            }, 
+            "surfaceText": "[[broomstick]] is a type of [[handle]]", 
+            "weight": 2.0
+        }
+    ]
+}

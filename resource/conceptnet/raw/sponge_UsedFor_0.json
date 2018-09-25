@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sponge&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/sponge/,/c/en/cleaning/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cleaning", 
+                "@type": "Node", 
+                "label": "cleaning", 
+                "language": "en", 
+                "term": "/c/en/cleaning"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/tazzydevil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/tazzydevil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sponge", 
+                "@type": "Node", 
+                "label": "a sponge", 
+                "language": "en", 
+                "term": "/c/en/sponge"
+            }, 
+            "surfaceText": "[[a sponge]] is used for [[cleaning]]", 
+            "weight": 1.0
+        }
+    ]
+}

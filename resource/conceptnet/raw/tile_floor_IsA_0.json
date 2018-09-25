@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tile_floor&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tile_floor/,/c/en/uncomfortable_place_to_sleep/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/uncomfortable_place_to_sleep", 
+                "@type": "Node", 
+                "label": "an uncomfortable place to sleep", 
+                "language": "en", 
+                "term": "/c/en/uncomfortable_place_to_sleep"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/jkrasomil/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/jkrasomil"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tile_floor", 
+                "@type": "Node", 
+                "label": "A tile floor", 
+                "language": "en", 
+                "term": "/c/en/tile_floor"
+            }, 
+            "surfaceText": "[[A tile floor]] is [[an uncomfortable place to sleep]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tile_floor/,/c/en/water_resistant/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/water_resistant", 
+                "@type": "Node", 
+                "label": "water resistant", 
+                "language": "en", 
+                "term": "/c/en/water_resistant"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tile_floor", 
+                "@type": "Node", 
+                "label": "A tile floor", 
+                "language": "en", 
+                "term": "/c/en/tile_floor"
+            }, 
+            "surfaceText": "[[A tile floor]] is [[water resistant]]", 
+            "weight": 1.0
+        }
+    ]
+}

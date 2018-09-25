@@ -1,0 +1,353 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sofa&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/house", 
+                "@type": "Node", 
+                "label": "a house", 
+                "language": "en", 
+                "term": "/c/en/house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bedume/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bedume"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "*Something you find in [[a house]] is [[a sofa]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cat/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "the sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/micio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/micio"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/micio/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/micio"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cat", 
+                "@type": "Node", 
+                "label": "a cat", 
+                "language": "en", 
+                "term": "/c/en/cat"
+            }, 
+            "surfaceText": "You are likely to find [[a cat]] in [[the sofa]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/cushions/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/ariadne/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/ariadne"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/akshayubhat/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/akshayubhat"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cushions", 
+                "@type": "Node", 
+                "label": "cushions", 
+                "language": "en", 
+                "term": "/c/en/cushions"
+            }, 
+            "surfaceText": "*Something you find on [[a sofa]] is [[cushions]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/home/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/home", 
+                "@type": "Node", 
+                "label": "a home", 
+                "language": "en", 
+                "term": "/c/en/home"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gunther/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gunther"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gunther/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gunther"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "*Something you find at [[a home]] is [[a sofa]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/neighbor's_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/neighbor's_house", 
+                "@type": "Node", 
+                "label": "a neighbor's house", 
+                "language": "en", 
+                "term": "/c/en/neighbor's_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cxv/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cxv"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "their sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "*Something you find at [[a neighbor's house]] is [[their sofa]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/living_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/living_room", 
+                "@type": "Node", 
+                "label": "a living room", 
+                "language": "en", 
+                "term": "/c/en/living_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nsiciliano/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nsiciliano"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "You are likely to find [[a sofa]] in [[a living room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/livingroom/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/livingroom", 
+                "@type": "Node", 
+                "label": "a livingroom", 
+                "language": "en", 
+                "term": "/c/en/livingroom"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boojum/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/boojum"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "You are likely to find [[a sofa]] in [[a livingroom]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa/,/c/en/person's_living_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/person's_living_room", 
+                "@type": "Node", 
+                "label": "a person's living room", 
+                "language": "en", 
+                "term": "/c/en/person's_living_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/diveden/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/diveden"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "surfaceText": "You are likely to find [[a sofa]] in [[a person's living room]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/sofa_hide_bed/,/c/en/sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sofa", 
+                "@type": "Node", 
+                "label": "a sofa", 
+                "language": "en", 
+                "term": "/c/en/sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/arlosuave/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/arlosuave"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sofa_hide_bed", 
+                "@type": "Node", 
+                "label": "a sofa hide a bed", 
+                "language": "en", 
+                "term": "/c/en/sofa_hide_bed"
+            }, 
+            "surfaceText": "You are likely to find [[a sofa hide a bed]] in [[a sofa]]", 
+            "weight": 1.0
+        }
+    ]
+}

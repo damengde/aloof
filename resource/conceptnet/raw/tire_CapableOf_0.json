@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tire&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tire/,/c/en/get_leak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/get_leak", 
+                "@type": "Node", 
+                "label": "get a leak", 
+                "language": "en", 
+                "term": "/c/en/get_leak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/morgan12x/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/morgan12x"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "A tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[A tire]] can [[get a leak]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/tire/,/c/en/need_attention_soon/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/need_attention_soon", 
+                "@type": "Node", 
+                "label": "need attention soon", 
+                "language": "en", 
+                "term": "/c/en/need_attention_soon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tire", 
+                "@type": "Node", 
+                "label": "The tire", 
+                "language": "en", 
+                "term": "/c/en/tire"
+            }, 
+            "surfaceText": "[[The tire]] can [[need attention soon]]", 
+            "weight": 1.0
+        }
+    ]
+}

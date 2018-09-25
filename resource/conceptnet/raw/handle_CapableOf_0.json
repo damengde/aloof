@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/handle&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/handle/,/c/en/help_hold_telescope/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/help_hold_telescope", 
+                "@type": "Node", 
+                "label": "help you hold a telescope", 
+                "language": "en", 
+                "term": "/c/en/help_hold_telescope"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/egamma/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/egamma"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "A handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[A handle]] can [[help you hold a telescope]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/handle/,/c/en/lower_bucket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/lower_bucket", 
+                "@type": "Node", 
+                "label": "lower a bucket", 
+                "language": "en", 
+                "term": "/c/en/lower_bucket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/surgchen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/surgchen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle", 
+                "@type": "Node", 
+                "label": "a handle", 
+                "language": "en", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[a handle]] can [[lower a bucket]]", 
+            "weight": 1.0
+        }
+    ]
+}

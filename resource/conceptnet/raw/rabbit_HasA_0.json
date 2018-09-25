@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rabbit&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/rabbit/,/c/en/four_legs/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/four_legs", 
+                "@type": "Node", 
+                "label": "four legs", 
+                "language": "en", 
+                "term": "/c/en/four_legs"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rabbit", 
+                "@type": "Node", 
+                "label": "A rabbit", 
+                "language": "en", 
+                "term": "/c/en/rabbit"
+            }, 
+            "surfaceText": "[[A rabbit]] has [[four legs]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/rabbit/,/c/en/long_ears/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_ears", 
+                "@type": "Node", 
+                "label": "long ears", 
+                "language": "en", 
+                "term": "/c/en/long_ears"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rabbit", 
+                "@type": "Node", 
+                "label": "A rabbit", 
+                "language": "en", 
+                "term": "/c/en/rabbit"
+            }, 
+            "surfaceText": "[[A rabbit]] has [[long ears]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasA/,/c/en/rabbit/,/c/en/long_front_teeth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_front_teeth", 
+                "@type": "Node", 
+                "label": "long front teeth", 
+                "language": "en", 
+                "term": "/c/en/long_front_teeth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rabbit", 
+                "@type": "Node", 
+                "label": "A rabbit", 
+                "language": "en", 
+                "term": "/c/en/rabbit"
+            }, 
+            "surfaceText": "[[A rabbit]] has [[long front teeth]]", 
+            "weight": 1.0
+        }
+    ]
+}

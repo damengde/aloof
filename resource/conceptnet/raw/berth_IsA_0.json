@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/berth&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/berth/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/berth/n", 
+                "@type": "Node", 
+                "label": "berth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/berth"
+            }, 
+            "surfaceText": "[[berth]] is a type of [[bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lower_berth/n/,/c/en/berth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/berth/n", 
+                "@type": "Node", 
+                "label": "berth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/berth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lower_berth/n", 
+                "@type": "Node", 
+                "label": "lower berth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lower_berth"
+            }, 
+            "surfaceText": "[[lower berth]] is a type of [[berth]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/upper_berth/n/,/c/en/berth/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/berth/n", 
+                "@type": "Node", 
+                "label": "berth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/berth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/upper_berth/n", 
+                "@type": "Node", 
+                "label": "upper berth", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/upper_berth"
+            }, 
+            "surfaceText": "[[upper berth]] is a type of [[berth]]", 
+            "weight": 2.0
+        }
+    ]
+}

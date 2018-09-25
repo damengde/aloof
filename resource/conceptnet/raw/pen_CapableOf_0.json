@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pen&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pen/,/c/en/different_colors/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/different_colors", 
+                "@type": "Node", 
+                "label": "be different colors", 
+                "language": "en", 
+                "term": "/c/en/different_colors"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pen", 
+                "@type": "Node", 
+                "label": "A pen", 
+                "language": "en", 
+                "term": "/c/en/pen"
+            }, 
+            "surfaceText": "[[A pen]] can [[be different colors]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pen/,/c/en/mark_sheet_of_paper/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mark_sheet_of_paper", 
+                "@type": "Node", 
+                "label": "mark a sheet of paper", 
+                "language": "en", 
+                "term": "/c/en/mark_sheet_of_paper"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/caversham/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/caversham"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pen", 
+                "@type": "Node", 
+                "label": "a pen", 
+                "language": "en", 
+                "term": "/c/en/pen"
+            }, 
+            "surfaceText": "[[a pen]] can [[mark a sheet of paper]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pen/,/c/en/mark_spot/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mark_spot", 
+                "@type": "Node", 
+                "label": "mark the spot", 
+                "language": "en", 
+                "term": "/c/en/mark_spot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/junebug/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/junebug"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pen", 
+                "@type": "Node", 
+                "label": "A pen", 
+                "language": "en", 
+                "term": "/c/en/pen"
+            }, 
+            "surfaceText": "[[A pen]] can [[mark the spot]]", 
+            "weight": 1.0
+        }
+    ]
+}

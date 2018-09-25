@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spray&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/skunk/,/c/en/spray/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/spray", 
+                "@type": "Node", 
+                "label": "spray", 
+                "language": "en", 
+                "term": "/c/en/spray"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/skunk", 
+                "@type": "Node", 
+                "label": "any skunk", 
+                "language": "en", 
+                "term": "/c/en/skunk"
+            }, 
+            "surfaceText": "An activity [[any skunk]] can do is [[spray]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sliding_door&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/paneling/n/,/c/en/sliding_door/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/sliding_door/n", 
+                "@type": "Node", 
+                "label": "sliding door", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sliding_door"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paneling/n", 
+                "@type": "Node", 
+                "label": "paneling", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/paneling"
+            }, 
+            "surfaceText": "[[paneling]] is a part of [[sliding door]]", 
+            "weight": 2.0
+        }
+    ]
+}

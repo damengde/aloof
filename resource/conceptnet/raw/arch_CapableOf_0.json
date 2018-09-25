@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/arch&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/arch/,/c/en/support_very_large_weight/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/support_very_large_weight", 
+                "@type": "Node", 
+                "label": "support a very large weight", 
+                "language": "en", 
+                "term": "/c/en/support_very_large_weight"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/arch", 
+                "@type": "Node", 
+                "label": "An arch", 
+                "language": "en", 
+                "term": "/c/en/arch"
+            }, 
+            "surfaceText": "[[An arch]] can [[support a very large weight]]", 
+            "weight": 1.0
+        }
+    ]
+}

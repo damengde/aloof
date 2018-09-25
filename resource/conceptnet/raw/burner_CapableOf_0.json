@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/burner&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/burner/,/c/en/heat_pot_of_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/heat_pot_of_water", 
+                "@type": "Node", 
+                "label": "heat a pot of water", 
+                "language": "en", 
+                "term": "/c/en/heat_pot_of_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jhunt/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jhunt"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/burner", 
+                "@type": "Node", 
+                "label": "a burner", 
+                "language": "en", 
+                "term": "/c/en/burner"
+            }, 
+            "surfaceText": "[[a burner]] can [[heat a pot of water]]", 
+            "weight": 1.0
+        }
+    ]
+}

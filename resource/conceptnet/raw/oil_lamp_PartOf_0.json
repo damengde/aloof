@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/oil_lamp&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lamp_chimney/n/,/c/en/oil_lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/oil_lamp/n", 
+                "@type": "Node", 
+                "label": "oil lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oil_lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lamp_chimney/n", 
+                "@type": "Node", 
+                "label": "lamp chimney", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lamp_chimney"
+            }, 
+            "surfaceText": "[[lamp chimney]] is a part of [[oil lamp]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/wick/n/,/c/en/oil_lamp/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/oil_lamp/n", 
+                "@type": "Node", 
+                "label": "oil lamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oil_lamp"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wick/n", 
+                "@type": "Node", 
+                "label": "wick", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wick"
+            }, 
+            "surfaceText": "[[wick]] is a part of [[oil lamp]]", 
+            "weight": 2.0
+        }
+    ]
+}

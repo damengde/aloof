@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bolt&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bolt/,/c/en/fit_screw/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/fit_screw", 
+                "@type": "Node", 
+                "label": "fit a screw", 
+                "language": "en", 
+                "term": "/c/en/fit_screw"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mdr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mdr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt", 
+                "@type": "Node", 
+                "label": "A bolt", 
+                "language": "en", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[A bolt]] can [[fit a screw]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bolt/,/c/en/sprint_fast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sprint_fast", 
+                "@type": "Node", 
+                "label": "sprint fast", 
+                "language": "en", 
+                "term": "/c/en/sprint_fast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/anthonywilliams121/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/anthonywilliams121"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt", 
+                "@type": "Node", 
+                "label": "Bolt", 
+                "language": "en", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[Bolt]] can [[sprint fast]].", 
+            "weight": 1.0
+        }
+    ]
+}

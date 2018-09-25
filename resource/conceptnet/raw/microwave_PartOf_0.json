@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/microwave&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/microwave/n/,/c/en/electromagnetic_spectrum/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/electromagnetic_spectrum/n", 
+                "@type": "Node", 
+                "label": "electromagnetic spectrum", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electromagnetic_spectrum"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/microwave/n", 
+                "@type": "Node", 
+                "label": "microwave", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/microwave"
+            }, 
+            "surfaceText": "[[microwave]] is a part of [[electromagnetic spectrum]]", 
+            "weight": 2.0
+        }
+    ]
+}

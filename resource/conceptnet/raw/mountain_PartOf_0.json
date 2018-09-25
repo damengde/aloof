@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/mountain&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mountain_peak/n/,/c/en/mountain/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mountain/n", 
+                "@type": "Node", 
+                "label": "mountain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mountain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain_peak/n", 
+                "@type": "Node", 
+                "label": "mountain peak", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mountain_peak"
+            }, 
+            "surfaceText": "[[mountain peak]] is a part of [[mountain]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mountainside/n/,/c/en/mountain/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/mountain/n", 
+                "@type": "Node", 
+                "label": "mountain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mountain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountainside/n", 
+                "@type": "Node", 
+                "label": "mountainside", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mountainside"
+            }, 
+            "surfaceText": "[[mountainside]] is a part of [[mountain]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/mountain/,/c/en/landscape/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/landscape", 
+                "@type": "Node", 
+                "label": "the landscape", 
+                "language": "en", 
+                "term": "/c/en/landscape"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/d/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/d"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/mountain", 
+                "@type": "Node", 
+                "label": "a mountain", 
+                "language": "en", 
+                "term": "/c/en/mountain"
+            }, 
+            "surfaceText": "[[a mountain]] is part of [[the landscape]].", 
+            "weight": 1.0
+        }
+    ]
+}

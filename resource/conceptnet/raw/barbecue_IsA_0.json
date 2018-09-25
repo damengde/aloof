@@ -1,0 +1,326 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/barbecue&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/n/,/c/en/cookout/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cookout/n", 
+                "@type": "Node", 
+                "label": "cookout", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cookout"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue/n", 
+                "@type": "Node", 
+                "label": "barbecue", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[barbecue]] is a type of [[cookout]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/n/,/c/en/dish/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/dish/n", 
+                "@type": "Node", 
+                "label": "dish", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dish"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue/n", 
+                "@type": "Node", 
+                "label": "barbecue", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[barbecue]] is a type of [[dish]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/n/,/c/en/rack/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/rack/n", 
+                "@type": "Node", 
+                "label": "rack", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rack"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue/n", 
+                "@type": "Node", 
+                "label": "barbecue", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[barbecue]] is a type of [[rack]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/,/c/en/cooking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking", 
+                "@type": "Node", 
+                "label": "cooking", 
+                "language": "en", 
+                "term": "/c/en/cooking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/fedge/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/fedge"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "Barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[Barbecue]] is a type of [[cooking]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/,/c/en/cooking_tool/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cooking_tool", 
+                "@type": "Node", 
+                "label": "a cooking tool", 
+                "language": "en", 
+                "term": "/c/en/cooking_tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aherfst/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aherfst"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "A barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[A barbecue]] is [[a cooking tool]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/,/c/en/form_of_cooking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/form_of_cooking", 
+                "@type": "Node", 
+                "label": "a form of cooking", 
+                "language": "en", 
+                "term": "/c/en/form_of_cooking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/aaraujo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/aaraujo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[barbecue]] is [[a form of cooking]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/,/c/en/means_of_cooking_usually_meats/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/means_of_cooking_usually_meats", 
+                "@type": "Node", 
+                "label": "a means of cooking, usually meats", 
+                "language": "en", 
+                "term": "/c/en/means_of_cooking_usually_meats"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/jerryobject/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/jerryobject"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "a barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[a barbecue]] is [[a means of cooking, usually meats]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/barbecue/,/c/en/method_of_cooking/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/method_of_cooking", 
+                "@type": "Node", 
+                "label": "a method of cooking", 
+                "language": "en", 
+                "term": "/c/en/method_of_cooking"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/benh57/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/benh57"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[barbecue]] is [[a method of cooking]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sorry_poor_english/,/c/en/barbecue/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "it a barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sunet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sunet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sorry_poor_english", 
+                "@type": "Node", 
+                "label": "sorry my poor english,", 
+                "language": "en", 
+                "term": "/c/en/sorry_poor_english"
+            }, 
+            "surfaceText": "[[sorry my poor english,]] is [[it a barbecue]]", 
+            "weight": 1.0
+        }
+    ]
+}

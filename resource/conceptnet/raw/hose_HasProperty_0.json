@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/hose&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/hose/,/c/en/flexible_pipe/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/flexible_pipe", 
+                "@type": "Node", 
+                "label": "a flexible pipe", 
+                "language": "en", 
+                "term": "/c/en/flexible_pipe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/soakfo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/soakfo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hose", 
+                "@type": "Node", 
+                "label": "A hose", 
+                "language": "en", 
+                "term": "/c/en/hose"
+            }, 
+            "surfaceText": "[[A hose]] is [[a flexible pipe]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/hose/,/c/en/long_and_skinny/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/long_and_skinny", 
+                "@type": "Node", 
+                "label": "long and skinny", 
+                "language": "en", 
+                "term": "/c/en/long_and_skinny"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smeeg/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smeeg"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/hose", 
+                "@type": "Node", 
+                "label": "a hose", 
+                "language": "en", 
+                "term": "/c/en/hose"
+            }, 
+            "surfaceText": "[[a hose]] is [[long and skinny]]", 
+            "weight": 1.0
+        }
+    ]
+}

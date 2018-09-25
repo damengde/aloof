@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/gate&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/gate/,/c/en/allow_selected_people_to_pass_by/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/allow_selected_people_to_pass_by", 
+                "@type": "Node", 
+                "label": "allow selected people to pass by", 
+                "language": "en", 
+                "term": "/c/en/allow_selected_people_to_pass_by"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/kcarnold/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/kcarnold"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "A gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "[[A gate]] can [[allow selected people to pass by]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/gate/,/c/en/swing/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/swing", 
+                "@type": "Node", 
+                "label": "swing", 
+                "language": "en", 
+                "term": "/c/en/swing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kaze/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kaze"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gate", 
+                "@type": "Node", 
+                "label": "a gate", 
+                "language": "en", 
+                "term": "/c/en/gate"
+            }, 
+            "surfaceText": "[[a gate]] can [[swing]]", 
+            "weight": 1.0
+        }
+    ]
+}

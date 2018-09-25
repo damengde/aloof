@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/land&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/birds/,/c/en/land/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/birds", 
+                "@type": "Node", 
+                "label": "birds", 
+                "language": "en", 
+                "term": "/c/en/birds"
+            }, 
+            "surfaceText": "[[birds]] can [[land]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/land/,/c/en/become_barren/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/become_barren", 
+                "@type": "Node", 
+                "label": "become barren", 
+                "language": "en", 
+                "term": "/c/en/become_barren"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/xcaliber/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/xcaliber"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] can [[become barren]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/pilots/,/c/en/land/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/moncho1957/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/moncho1957"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pilots", 
+                "@type": "Node", 
+                "label": "pilots", 
+                "language": "en", 
+                "term": "/c/en/pilots"
+            }, 
+            "surfaceText": "An activity [[pilots]] can do is [[land]]", 
+            "weight": 1.0
+        }
+    ]
+}

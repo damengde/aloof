@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/video&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/video/,/c/en/simple_inexpensive_and_flexible/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/simple_inexpensive_and_flexible", 
+                "@type": "Node", 
+                "label": "simple, inexpensive and flexible", 
+                "language": "en", 
+                "term": "/c/en/simple_inexpensive_and_flexible"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bryan/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bryan"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video", 
+                "@type": "Node", 
+                "label": "Video", 
+                "language": "en", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[Video]] is [[simple, inexpensive and flexible]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/video/,/c/en/weak/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/weak", 
+                "@type": "Node", 
+                "label": "weak", 
+                "language": "en", 
+                "term": "/c/en/weak"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bowlergi21/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bowlergi21"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/video", 
+                "@type": "Node", 
+                "label": "a video", 
+                "language": "en", 
+                "term": "/c/en/video"
+            }, 
+            "surfaceText": "[[a video]] can be [[weak]]", 
+            "weight": 1.0
+        }
+    ]
+}

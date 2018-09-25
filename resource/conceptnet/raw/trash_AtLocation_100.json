@@ -1,0 +1,155 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/trash&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/trash/,/c/en/wastebasket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wastebasket", 
+                "@type": "Node", 
+                "label": "a wastebasket", 
+                "language": "en", 
+                "term": "/c/en/wastebasket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bbuzzell/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bbuzzell"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You are likely to find [[trash]] in [[a wastebasket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/trash/,/c/en/wastepaper_basket/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wastepaper_basket", 
+                "@type": "Node", 
+                "label": "a wastepaper basket", 
+                "language": "en", 
+                "term": "/c/en/wastepaper_basket"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "a trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "surfaceText": "You are likely to find [[a trash]] in [[a wastepaper basket]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/trashes/,/c/en/trash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "the trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/pujo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/pujo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/trashes", 
+                "@type": "Node", 
+                "label": "trashes", 
+                "language": "en", 
+                "term": "/c/en/trashes"
+            }, 
+            "surfaceText": "*Something you find in [[the trash]] is [[trashes]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/waste/,/c/en/trash/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/trash", 
+                "@type": "Node", 
+                "label": "the trash", 
+                "language": "en", 
+                "term": "/c/en/trash"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sargon/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sargon"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/waste", 
+                "@type": "Node", 
+                "label": "waste", 
+                "language": "en", 
+                "term": "/c/en/waste"
+            }, 
+            "surfaceText": "*Something you find in [[the trash]] is [[waste]]", 
+            "weight": 1.0
+        }
+    ], 
+    "view": {
+        "@id": "/query?node=/c/en/trash&rel=/r/AtLocation&offset=100&limit=100", 
+        "@type": "PartialCollectionView", 
+        "firstPage": "/query?node=/c/en/trash&rel=/r/AtLocation&offset=0&limit=100", 
+        "paginatedProperty": "edges", 
+        "previousPage": "/query?node=/c/en/trash&rel=/r/AtLocation&offset=0&limit=100"
+    }
+}

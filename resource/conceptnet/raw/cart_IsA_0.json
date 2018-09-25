@@ -1,0 +1,514 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cart&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cart/,/c/en/vehicle/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vehicle", 
+                "@type": "Node", 
+                "label": "a vehicle", 
+                "language": "en", 
+                "term": "/c/en/vehicle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "A cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[A cart]] is [[a vehicle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cart/n/,/c/en/wagon/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/wagon/n", 
+                "@type": "Node", 
+                "label": "wagon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wagon"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[cart]] is a type of [[wagon]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dogcart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dogcart/n", 
+                "@type": "Node", 
+                "label": "dogcart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dogcart"
+            }, 
+            "surfaceText": "[[dogcart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dumpcart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dumpcart/n", 
+                "@type": "Node", 
+                "label": "dumpcart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dumpcart"
+            }, 
+            "surfaceText": "[[dumpcart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/horse_cart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/horse_cart/n", 
+                "@type": "Node", 
+                "label": "horse cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/horse_cart"
+            }, 
+            "surfaceText": "[[horse cart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jaunting_car/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jaunting_car/n", 
+                "@type": "Node", 
+                "label": "jaunting car", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jaunting_car"
+            }, 
+            "surfaceText": "[[jaunting car]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jinrikisha/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jinrikisha/n", 
+                "@type": "Node", 
+                "label": "jinrikisha", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jinrikisha"
+            }, 
+            "surfaceText": "[[jinrikisha]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/oxcart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/oxcart/n", 
+                "@type": "Node", 
+                "label": "oxcart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oxcart"
+            }, 
+            "surfaceText": "[[oxcart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pony_cart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pony_cart/n", 
+                "@type": "Node", 
+                "label": "pony cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pony_cart"
+            }, 
+            "surfaceText": "[[pony cart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_cart/n/,/c/en/cart/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cart/n", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_cart/n", 
+                "@type": "Node", 
+                "label": "water cart", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_cart"
+            }, 
+            "surfaceText": "[[water cart]] is a type of [[cart]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cart/,/c/en/box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/box", 
+                "@type": "Node", 
+                "label": "a box", 
+                "language": "en", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "a cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[a cart]] is [[a box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cart/,/c/en/carriage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/carriage/n", 
+                "@type": "Node", 
+                "label": "carriage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carriage"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cart/,/c/en/wheeled_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wheeled_box", 
+                "@type": "Node", 
+                "label": "a wheeled box", 
+                "language": "en", 
+                "term": "/c/en/wheeled_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "A cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "surfaceText": "[[A cart]] is [[a wheeled box]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wheelbarrow/,/c/en/cart/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cart", 
+                "@type": "Node", 
+                "label": "a cart", 
+                "language": "en", 
+                "term": "/c/en/cart"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wheelbarrow", 
+                "@type": "Node", 
+                "label": "a wheelbarrow", 
+                "language": "en", 
+                "term": "/c/en/wheelbarrow"
+            }, 
+            "surfaceText": "[[a wheelbarrow]] is [[a cart]]", 
+            "weight": 1.0
+        }
+    ]
+}

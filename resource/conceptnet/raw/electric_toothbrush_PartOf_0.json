@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electric_toothbrush&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/electric_motor/n/,/c/en/electric_toothbrush/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/electric_toothbrush/n", 
+                "@type": "Node", 
+                "label": "electric toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_motor/n", 
+                "@type": "Node", 
+                "label": "electric motor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_motor"
+            }, 
+            "surfaceText": "[[electric motor]] is a part of [[electric toothbrush]]", 
+            "weight": 2.0
+        }
+    ]
+}

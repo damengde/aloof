@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bathrobe&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bathrobe/n/,/c/en/robe/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/robe/n", 
+                "@type": "Node", 
+                "label": "robe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/robe"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bathrobe/n", 
+                "@type": "Node", 
+                "label": "bathrobe", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bathrobe"
+            }, 
+            "surfaceText": "[[bathrobe]] is a type of [[robe]]", 
+            "weight": 2.0
+        }
+    ]
+}

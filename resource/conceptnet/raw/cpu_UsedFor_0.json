@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cpu&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/gold/,/c/en/cpu/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cpu", 
+                "@type": "Node", 
+                "label": "CPU", 
+                "language": "en", 
+                "term": "/c/en/cpu"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/matsun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/matsun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gold", 
+                "@type": "Node", 
+                "label": "gold", 
+                "language": "en", 
+                "term": "/c/en/gold"
+            }, 
+            "surfaceText": "[[gold]] is for [[CPU]]", 
+            "weight": 1.0
+        }
+    ]
+}

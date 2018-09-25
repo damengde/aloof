@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/branch&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bark/n/,/c/en/branch/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/branch/n", 
+                "@type": "Node", 
+                "label": "branch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/branch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bark/n", 
+                "@type": "Node", 
+                "label": "bark", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bark"
+            }, 
+            "surfaceText": "[[bark]] is a part of [[branch]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/branch/n/,/c/en/furcation/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/furcation/n", 
+                "@type": "Node", 
+                "label": "furcation", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/furcation"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/branch/n", 
+                "@type": "Node", 
+                "label": "branch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/branch"
+            }, 
+            "surfaceText": "[[branch]] is a part of [[furcation]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,192 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vase&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/urn/n/,/c/en/vase/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vase/n", 
+                "@type": "Node", 
+                "label": "vase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/urn/n", 
+                "@type": "Node", 
+                "label": "urn", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/urn"
+            }, 
+            "surfaceText": "[[urn]] is a type of [[vase]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vase/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/glenbrowning/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/glenbrowning"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vase", 
+                "@type": "Node", 
+                "label": "a vase", 
+                "language": "en", 
+                "term": "/c/en/vase"
+            }, 
+            "surfaceText": "[[a vase]] is [[a container]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vase/n/,/c/en/jar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jar/n", 
+                "@type": "Node", 
+                "label": "jar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vase/n", 
+                "@type": "Node", 
+                "label": "vase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vase"
+            }, 
+            "surfaceText": "[[vase]] is a type of [[jar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/crystal_vase/,/c/en/vase/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/vase", 
+                "@type": "Node", 
+                "label": "a vase", 
+                "language": "en", 
+                "term": "/c/en/vase"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crystal_vase", 
+                "@type": "Node", 
+                "label": "a crystal vase", 
+                "language": "en", 
+                "term": "/c/en/crystal_vase"
+            }, 
+            "surfaceText": "[[a crystal vase]] is [[a vase]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vase/n/,/c/en/fluid_reservoir/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/fluid_reservoir/n", 
+                "@type": "Node", 
+                "label": "fluid reservoir", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fluid_reservoir"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vase/n", 
+                "@type": "Node", 
+                "label": "vase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

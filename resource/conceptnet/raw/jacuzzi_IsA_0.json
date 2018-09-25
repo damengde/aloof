@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jacuzzi&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jacuzzi/,/c/en/large_bathtub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/large_bathtub", 
+                "@type": "Node", 
+                "label": "a large bathtub", 
+                "language": "en", 
+                "term": "/c/en/large_bathtub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jacuzzi", 
+                "@type": "Node", 
+                "label": "A Jacuzzi", 
+                "language": "en", 
+                "term": "/c/en/jacuzzi"
+            }, 
+            "surfaceText": "[[A Jacuzzi]] is [[a large bathtub]]", 
+            "weight": 1.0
+        }
+    ]
+}

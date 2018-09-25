@@ -1,0 +1,115 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/suitcase&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/suitcase/,/c/en/rectangular_shaped/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rectangular_shaped", 
+                "@type": "Node", 
+                "label": "rectangular-shaped", 
+                "language": "en", 
+                "term": "/c/en/rectangular_shaped"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dexy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dexy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/suitcase", 
+                "@type": "Node", 
+                "label": "a suitcase", 
+                "language": "en", 
+                "term": "/c/en/suitcase"
+            }, 
+            "surfaceText": "[[a suitcase]] is [[rectangular-shaped]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/suitcase/n/,/c/en/baggage/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/baggage/n", 
+                "@type": "Node", 
+                "label": "baggage", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/baggage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/suitcase/n", 
+                "@type": "Node", 
+                "label": "suitcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/suitcase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/suitcase/n/,/c/en/box/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/box/n", 
+                "@type": "Node", 
+                "label": "box", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/suitcase/n", 
+                "@type": "Node", 
+                "label": "suitcase", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/suitcase"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/frying_pan&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_frying_pan/n/,/c/en/frying_pan/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/frying_pan/n", 
+                "@type": "Node", 
+                "label": "frying pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/frying_pan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_frying_pan/n", 
+                "@type": "Node", 
+                "label": "electric frying pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_frying_pan"
+            }, 
+            "surfaceText": "[[electric frying pan]] is a type of [[frying pan]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/frying_pan/n/,/c/en/pan/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pan/n", 
+                "@type": "Node", 
+                "label": "pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/frying_pan/n", 
+                "@type": "Node", 
+                "label": "frying pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/frying_pan"
+            }, 
+            "surfaceText": "[[frying pan]] is a type of [[pan]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/spider/n/,/c/en/frying_pan/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/frying_pan/n", 
+                "@type": "Node", 
+                "label": "frying pan", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/frying_pan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spider/n", 
+                "@type": "Node", 
+                "label": "spider", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/spider"
+            }, 
+            "surfaceText": "[[spider]] is a type of [[frying pan]]", 
+            "weight": 2.0
+        }
+    ]
+}

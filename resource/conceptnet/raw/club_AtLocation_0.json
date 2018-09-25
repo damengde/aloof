@@ -1,0 +1,224 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/club&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/club/,/c/en/golf_bag/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/golf_bag", 
+                "@type": "Node", 
+                "label": "a golf bag", 
+                "language": "en", 
+                "term": "/c/en/golf_bag"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rangerbaldwin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rangerbaldwin"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "surfaceText": "You are likely to find [[a club]] in [[a golf bag]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bar/,/c/en/club/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/nmeryash/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/nmeryash"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "You are likely to find [[a bar]] in [[a club]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/club/,/c/en/armory/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/armory", 
+                "@type": "Node", 
+                "label": "an armory", 
+                "language": "en", 
+                "term": "/c/en/armory"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chrismoore/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chrismoore"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "surfaceText": "You are likely to find [[a club]] in [[an armory]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/club/,/c/en/meeting_place/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/meeting_place", 
+                "@type": "Node", 
+                "label": "a meeting place", 
+                "language": "en", 
+                "term": "/c/en/meeting_place"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/esunday/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/esunday"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "surfaceText": "You are likely to find [[a club]] in [[a meeting place]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/gentleman/,/c/en/club/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chuddy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chuddy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gentleman", 
+                "@type": "Node", 
+                "label": "a gentleman", 
+                "language": "en", 
+                "term": "/c/en/gentleman"
+            }, 
+            "surfaceText": "You are likely to find [[a gentleman]] in [[a club]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/homosexual/,/c/en/club/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/club", 
+                "@type": "Node", 
+                "label": "a club", 
+                "language": "en", 
+                "term": "/c/en/club"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/homosexual", 
+                "@type": "Node", 
+                "label": "a homosexual", 
+                "language": "en", 
+                "term": "/c/en/homosexual"
+            }, 
+            "surfaceText": "You are likely to find [[a homosexual]] in [[a club]].", 
+            "weight": 1.0
+        }
+    ]
+}

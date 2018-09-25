@@ -1,0 +1,295 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/toothbrush&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/toiletry/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/toiletry/n", 
+                "@type": "Node", 
+                "label": "toiletry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toiletry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "[[toothbrush]] is a type of [[toiletry]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/electric_toothbrush/n/,/c/en/toothbrush/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush/n", 
+                "@type": "Node", 
+                "label": "electric toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/,/c/en/tool_to_clean_teeth/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tool_to_clean_teeth", 
+                "@type": "Node", 
+                "label": "a tool to clean teeth", 
+                "language": "en", 
+                "term": "/c/en/tool_to_clean_teeth"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush", 
+                "@type": "Node", 
+                "label": "A toothbrush", 
+                "language": "en", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": "[[A toothbrush]] is [[a tool to clean teeth]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/brush/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/brush/n", 
+                "@type": "Node", 
+                "label": "brush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/brush"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/cleaning_implement/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/cleaning_implement/n", 
+                "@type": "Node", 
+                "label": "cleaning implement", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cleaning_implement"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/dental_tool/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/dental_tool/n", 
+                "@type": "Node", 
+                "label": "dental tool", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dental_tool"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/oral_hygiene_product/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/oral_hygiene_product/n", 
+                "@type": "Node", 
+                "label": "oral hygiene product", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oral_hygiene_product"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/toothbrush/n/,/c/en/tooth_care_market_category/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/tooth_care_market_category/n", 
+                "@type": "Node", 
+                "label": "tooth care market category", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tooth_care_market_category"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/toothbrush/n", 
+                "@type": "Node", 
+                "label": "toothbrush", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/toothbrush"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

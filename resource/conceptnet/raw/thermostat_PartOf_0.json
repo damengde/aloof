@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/thermostat&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/bimetallic_strip/n/,/c/en/thermostat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/thermostat/n", 
+                "@type": "Node", 
+                "label": "thermostat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thermostat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bimetallic_strip/n", 
+                "@type": "Node", 
+                "label": "bimetallic strip", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bimetallic_strip"
+            }, 
+            "surfaceText": "[[bimetallic strip]] is a part of [[thermostat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/thermostat/n/,/c/en/cooling_system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/cooling_system/n", 
+                "@type": "Node", 
+                "label": "cooling system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooling_system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thermostat/n", 
+                "@type": "Node", 
+                "label": "thermostat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thermostat"
+            }, 
+            "surfaceText": "[[thermostat]] is a part of [[cooling system]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/thermostat/n/,/c/en/incubator/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/incubator/n", 
+                "@type": "Node", 
+                "label": "incubator", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/incubator"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thermostat/n", 
+                "@type": "Node", 
+                "label": "thermostat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/thermostat"
+            }, 
+            "surfaceText": "[[thermostat]] is a part of [[incubator]]", 
+            "weight": 2.0
+        }
+    ]
+}

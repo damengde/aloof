@@ -1,0 +1,488 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/land&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/building_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building_on", 
+                "@type": "Node", 
+                "label": "building on", 
+                "language": "en", 
+                "term": "/c/en/building_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is used for [[building on]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/farming/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/farming", 
+                "@type": "Node", 
+                "label": "farming", 
+                "language": "en", 
+                "term": "/c/en/farming"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[farming]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/aircraft/n/,/c/en/land/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/land/v", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/aircraft/n", 
+                "@type": "Node", 
+                "label": "aircraft", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/aircraft"
+            }, 
+            "surfaceText": "[[aircraft]] is used for [[land]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/destroying_enemy/,/c/en/land/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kirun/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kirun"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/destroying_enemy", 
+                "@type": "Node", 
+                "label": "destroying your enemy", 
+                "language": "en", 
+                "term": "/c/en/destroying_enemy"
+            }, 
+            "surfaceText": "[[destroying your enemy]] is for [[land]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/building_house/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/building_house", 
+                "@type": "Node", 
+                "label": "building a house", 
+                "language": "en", 
+                "term": "/c/en/building_house"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[building a house]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/grow_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/grow_food", 
+                "@type": "Node", 
+                "label": "grow food", 
+                "language": "en", 
+                "term": "/c/en/grow_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/uofu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/uofu"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "You can use [[land]] to [[grow food]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/growing_crops/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/growing_crops", 
+                "@type": "Node", 
+                "label": "growing crops", 
+                "language": "en", 
+                "term": "/c/en/growing_crops"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anaitis/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anaitis"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is used for [[growing crops]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/growing_things_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/growing_things_on", 
+                "@type": "Node", 
+                "label": "growing things on", 
+                "language": "en", 
+                "term": "/c/en/growing_things_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[growing things on]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/hunting/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hunting", 
+                "@type": "Node", 
+                "label": "hunting", 
+                "language": "en", 
+                "term": "/c/en/hunting"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[hunting]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/living_on/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/living_on", 
+                "@type": "Node", 
+                "label": "living on", 
+                "language": "en", 
+                "term": "/c/en/living_on"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[living on]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/planting_trees/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/planting_trees", 
+                "@type": "Node", 
+                "label": "planting trees", 
+                "language": "en", 
+                "term": "/c/en/planting_trees"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is used for [[planting trees]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/playing_outdoors/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/playing_outdoors", 
+                "@type": "Node", 
+                "label": "playing outdoors", 
+                "language": "en", 
+                "term": "/c/en/playing_outdoors"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[playing outdoors]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/land/,/c/en/roaming/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/roaming", 
+                "@type": "Node", 
+                "label": "roaming", 
+                "language": "en", 
+                "term": "/c/en/roaming"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/adamkissel/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/adamkissel"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/land", 
+                "@type": "Node", 
+                "label": "land", 
+                "language": "en", 
+                "term": "/c/en/land"
+            }, 
+            "surfaceText": "[[land]] is for [[roaming]]", 
+            "weight": 1.0
+        }
+    ]
+}

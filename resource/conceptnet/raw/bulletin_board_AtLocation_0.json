@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bulletin_board&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/tack/,/c/en/bulletin_board/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bulletin_board", 
+                "@type": "Node", 
+                "label": "a bulletin board", 
+                "language": "en", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/logicexecution/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/logicexecution"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tack", 
+                "@type": "Node", 
+                "label": "a tack", 
+                "language": "en", 
+                "term": "/c/en/tack"
+            }, 
+            "surfaceText": "You are likely to find [[a tack]] in [[a bulletin board]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/thumb_tack/,/c/en/bulletin_board/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bulletin_board", 
+                "@type": "Node", 
+                "label": "a bulletin board", 
+                "language": "en", 
+                "term": "/c/en/bulletin_board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/alexi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/alexi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/thumb_tack", 
+                "@type": "Node", 
+                "label": "a thumb tack", 
+                "language": "en", 
+                "term": "/c/en/thumb_tack"
+            }, 
+            "surfaceText": "You are likely to find [[a thumb tack]] in [[a bulletin board]]", 
+            "weight": 1.0
+        }
+    ]
+}

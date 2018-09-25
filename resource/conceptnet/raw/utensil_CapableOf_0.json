@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/utensil&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/utensil/,/c/en/drop_on_floor/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drop_on_floor", 
+                "@type": "Node", 
+                "label": "drop on the floor", 
+                "language": "en", 
+                "term": "/c/en/drop_on_floor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/utensil", 
+                "@type": "Node", 
+                "label": "A utensil", 
+                "language": "en", 
+                "term": "/c/en/utensil"
+            }, 
+            "surfaceText": "[[A utensil]] can [[drop on the floor]]", 
+            "weight": 1.0
+        }
+    ]
+}

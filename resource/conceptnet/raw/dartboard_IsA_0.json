@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/dartboard&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dartboard/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dartboard/n", 
+                "@type": "Node", 
+                "label": "dartboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/dartboard"
+            }, 
+            "surfaceText": "[[dartboard]] is a type of [[board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/dartboard/,/c/en/object/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/object", 
+                "@type": "Node", 
+                "label": "a object", 
+                "language": "en", 
+                "term": "/c/en/object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/dartboard", 
+                "@type": "Node", 
+                "label": "A dartboard", 
+                "language": "en", 
+                "term": "/c/en/dartboard"
+            }, 
+            "surfaceText": "[[A dartboard]] is [[a object]]", 
+            "weight": 1.0
+        }
+    ]
+}

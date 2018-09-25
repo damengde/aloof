@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/picture&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/picture/,/c/en/cost_great_deal/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cost_great_deal", 
+                "@type": "Node", 
+                "label": "cost a great deal", 
+                "language": "en", 
+                "term": "/c/en/cost_great_deal"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smileyben/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smileyben"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/picture", 
+                "@type": "Node", 
+                "label": "a picture", 
+                "language": "en", 
+                "term": "/c/en/picture"
+            }, 
+            "surfaceText": "[[a picture]] can [[cost a great deal]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/picture/,/c/en/hang_on_nail/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hang_on_nail", 
+                "@type": "Node", 
+                "label": "hang on a nail", 
+                "language": "en", 
+                "term": "/c/en/hang_on_nail"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/csmajor/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/csmajor"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/picture", 
+                "@type": "Node", 
+                "label": "picture", 
+                "language": "en", 
+                "term": "/c/en/picture"
+            }, 
+            "surfaceText": "[[picture]] can [[hang on a nail]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/picture/,/c/en/hang_on_wall/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hang_on_wall", 
+                "@type": "Node", 
+                "label": "hang on the wall", 
+                "language": "en", 
+                "term": "/c/en/hang_on_wall"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/ncq/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/ncq"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/picture", 
+                "@type": "Node", 
+                "label": "a picture", 
+                "language": "en", 
+                "term": "/c/en/picture"
+            }, 
+            "surfaceText": "[[a picture]] can [[hang on the wall]]", 
+            "weight": 1.0
+        }
+    ]
+}

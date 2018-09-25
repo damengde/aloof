@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/test&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/test/,/c/en/false/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/false", 
+                "@type": "Node", 
+                "label": "false", 
+                "language": "en", 
+                "term": "/c/en/false"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/guru1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/guru1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "A test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[A test]] can be [[false]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/test/,/c/en/successful/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/successful", 
+                "@type": "Node", 
+                "label": "successful", 
+                "language": "en", 
+                "term": "/c/en/successful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/nosetests/,/s/contributor/omcs/rspeer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/nosetests", 
+                    "contributor": "/s/contributor/omcs/rspeer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/test", 
+                "@type": "Node", 
+                "label": "the test", 
+                "language": "en", 
+                "term": "/c/en/test"
+            }, 
+            "surfaceText": "[[the test]] is [[successful]]", 
+            "weight": 1.0
+        }
+    ]
+}

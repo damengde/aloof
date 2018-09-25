@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/island&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/island/,/c/en/alone_in_sea_of_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/alone_in_sea_of_water", 
+                "@type": "Node", 
+                "label": "alone in a sea of water", 
+                "language": "en", 
+                "term": "/c/en/alone_in_sea_of_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bobrideen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bobrideen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/island", 
+                "@type": "Node", 
+                "label": "An island", 
+                "language": "en", 
+                "term": "/c/en/island"
+            }, 
+            "surfaceText": "[[An island]] is [[alone in a sea of water]]", 
+            "weight": 1.0
+        }
+    ]
+}

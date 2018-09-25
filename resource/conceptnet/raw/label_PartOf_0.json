@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/label&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/label/,/c/en/jar/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/jar", 
+                "@type": "Node", 
+                "label": "a jar", 
+                "language": "en", 
+                "term": "/c/en/jar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/kurros/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/kurros"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/label", 
+                "@type": "Node", 
+                "label": "a label", 
+                "language": "en", 
+                "term": "/c/en/label"
+            }, 
+            "surfaceText": "[[a label]] is part of [[a jar]].", 
+            "weight": 1.0
+        }
+    ]
+}

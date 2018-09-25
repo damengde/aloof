@@ -1,0 +1,226 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/radio&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/antenna/,/c/en/radio/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "a radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/brichman/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/brichman"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/antenna", 
+                "@type": "Node", 
+                "label": "An antenna", 
+                "language": "en", 
+                "term": "/c/en/antenna"
+            }, 
+            "surfaceText": "[[An antenna]] is part of [[a radio]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/radio_receiver/n/,/c/en/radio/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/radio/n", 
+                "@type": "Node", 
+                "label": "radio", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio_receiver/n", 
+                "@type": "Node", 
+                "label": "radio receiver", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radio_receiver"
+            }, 
+            "surfaceText": "[[radio receiver]] is a part of [[radio]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/radio_transmitter/n/,/c/en/radio/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/radio/n", 
+                "@type": "Node", 
+                "label": "radio", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/radio_transmitter/n", 
+                "@type": "Node", 
+                "label": "radio transmitter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/radio_transmitter"
+            }, 
+            "surfaceText": "[[radio transmitter]] is a part of [[radio]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/knob/,/c/en/radio/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/knob", 
+                "@type": "Node", 
+                "label": "knob", 
+                "language": "en", 
+                "term": "/c/en/knob"
+            }, 
+            "surfaceText": "[[knob]] is part of [[radio]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/license_plate/,/c/en/radio/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/mprk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/mprk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/license_plate", 
+                "@type": "Node", 
+                "label": "license plate", 
+                "language": "en", 
+                "term": "/c/en/license_plate"
+            }, 
+            "surfaceText": "[[license plate]] is part of [[radio]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/tuner/,/c/en/radio/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/radio", 
+                "@type": "Node", 
+                "label": "a radio", 
+                "language": "en", 
+                "term": "/c/en/radio"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tuner", 
+                "@type": "Node", 
+                "label": "tuner", 
+                "language": "en", 
+                "term": "/c/en/tuner"
+            }, 
+            "surfaceText": "[[tuner]] is part of [[a radio]].", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/salt_and_pepper&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/salt_and_pepper/,/c/en/season_roast/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/season_roast", 
+                "@type": "Node", 
+                "label": "season a roast", 
+                "language": "en", 
+                "term": "/c/en/season_roast"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/bmurdoch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/bmurdoch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salt_and_pepper", 
+                "@type": "Node", 
+                "label": "Salt and pepper", 
+                "language": "en", 
+                "term": "/c/en/salt_and_pepper"
+            }, 
+            "surfaceText": "[[Salt and pepper]] can [[season a roast]]", 
+            "weight": 1.0
+        }
+    ]
+}

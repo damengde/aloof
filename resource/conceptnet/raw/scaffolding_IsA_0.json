@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scaffolding&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scaffolding/n/,/c/en/system/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/system/n", 
+                "@type": "Node", 
+                "label": "system", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/system"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scaffolding/n", 
+                "@type": "Node", 
+                "label": "scaffolding", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scaffolding"
+            }, 
+            "surfaceText": "[[scaffolding]] is a type of [[system]]", 
+            "weight": 2.0
+        }
+    ]
+}

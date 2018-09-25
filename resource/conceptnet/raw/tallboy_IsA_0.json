@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tallboy&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tallboy/,/c/en/beer_can/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/beer_can/n", 
+                "@type": "Node", 
+                "label": "beer can", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beer_can"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tallboy", 
+                "@type": "Node", 
+                "label": "tallboy", 
+                "language": "en", 
+                "term": "/c/en/tallboy"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

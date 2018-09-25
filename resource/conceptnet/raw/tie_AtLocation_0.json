@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tie&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/silk/,/c/en/tie/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/tie", 
+                "@type": "Node", 
+                "label": "a tie", 
+                "language": "en", 
+                "term": "/c/en/tie"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/sdbanks/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/sdbanks"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/silk", 
+                "@type": "Node", 
+                "label": "silk", 
+                "language": "en", 
+                "term": "/c/en/silk"
+            }, 
+            "surfaceText": "You are likely to find [[silk]] in [[a tie]]", 
+            "weight": 1.0
+        }
+    ]
+}

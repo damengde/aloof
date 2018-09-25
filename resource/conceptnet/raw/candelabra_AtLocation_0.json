@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/candelabra&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/candelabra/,/c/en/table/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/table", 
+                "@type": "Node", 
+                "label": "the table", 
+                "language": "en", 
+                "term": "/c/en/table"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rowanf/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rowanf"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candelabra", 
+                "@type": "Node", 
+                "label": "a candelabra", 
+                "language": "en", 
+                "term": "/c/en/candelabra"
+            }, 
+            "surfaceText": "*Something you find on [[the table]] is [[a candelabra]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/candle/,/c/en/candelabra/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/candelabra", 
+                "@type": "Node", 
+                "label": "a candelabra", 
+                "language": "en", 
+                "term": "/c/en/candelabra"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcarey1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcarey1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/candle", 
+                "@type": "Node", 
+                "label": "a candle", 
+                "language": "en", 
+                "term": "/c/en/candle"
+            }, 
+            "surfaceText": "You are likely to find [[a candle]] in [[a candelabra]]", 
+            "weight": 1.0
+        }
+    ]
+}

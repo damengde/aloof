@@ -1,0 +1,154 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electric_toothbrush&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/electric_toothbrush/,/c/en/store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/store", 
+                "@type": "Node", 
+                "label": "a store", 
+                "language": "en", 
+                "term": "/c/en/store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/databus/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/databus"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/fuzzysparkledoodle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/fuzzysparkledoodle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "an electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[an electric toothbrush]] in [[a store]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/electric_toothbrush/,/c/en/bathroom_drawer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/bathroom_drawer", 
+                "@type": "Node", 
+                "label": "a bathroom drawer", 
+                "language": "en", 
+                "term": "/c/en/bathroom_drawer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "an electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[an electric toothbrush]] in [[a bathroom drawer]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/electric_toothbrush/,/c/en/department_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/department_store", 
+                "@type": "Node", 
+                "label": "a department store", 
+                "language": "en", 
+                "term": "/c/en/department_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annedog/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annedog"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "an electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[an electric toothbrush]] in [[a department store]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/electric_toothbrush/,/c/en/pharmacy/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pharmacy", 
+                "@type": "Node", 
+                "label": "a pharmacy", 
+                "language": "en", 
+                "term": "/c/en/pharmacy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/zenkatz/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/zenkatz"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "an electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "You are likely to find [[an electric toothbrush]] in [[a pharmacy]]", 
+            "weight": 1.0
+        }
+    ]
+}

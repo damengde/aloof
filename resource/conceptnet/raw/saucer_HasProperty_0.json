@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/saucer&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/saucer/,/c/en/shaped_like_disc/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/shaped_like_disc", 
+                "@type": "Node", 
+                "label": "shaped like a disc", 
+                "language": "en", 
+                "term": "/c/en/shaped_like_disc"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/saucer", 
+                "@type": "Node", 
+                "label": "A saucer", 
+                "language": "en", 
+                "term": "/c/en/saucer"
+            }, 
+            "surfaceText": "[[A saucer]] is [[shaped like a disc]]", 
+            "weight": 1.0
+        }
+    ]
+}

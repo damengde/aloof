@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/tumble_dryer&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tumble_dryer/n/,/c/en/clothes_dryer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/clothes_dryer/n", 
+                "@type": "Node", 
+                "label": "clothes dryer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clothes_dryer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tumble_dryer/n", 
+                "@type": "Node", 
+                "label": "tumble-dryer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tumble_dryer"
+            }, 
+            "surfaceText": "[[tumble-dryer]] is a type of [[clothes dryer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tumble_dryer/,/c/en/clothes_dryer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/clothes_dryer/n", 
+                "@type": "Node", 
+                "label": "clothes dryer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/clothes_dryer"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tumble_dryer", 
+                "@type": "Node", 
+                "label": "tumble dryer", 
+                "language": "en", 
+                "term": "/c/en/tumble_dryer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/tumble_dryer/n/,/c/en/clothes_dryer/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/fr", 
+            "end": {
+                "@id": "/c/en/clothes_dryer", 
+                "@type": "Node", 
+                "label": "clothes dryer", 
+                "language": "en", 
+                "term": "/c/en/clothes_dryer"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/fr/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/fr", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/tumble_dryer/n", 
+                "@type": "Node", 
+                "label": "tumble dryer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/tumble_dryer"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

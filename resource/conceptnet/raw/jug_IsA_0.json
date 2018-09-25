@@ -1,0 +1,235 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/jug&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jug/,/c/en/container/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/container", 
+                "@type": "Node", 
+                "label": "a container", 
+                "language": "en", 
+                "term": "/c/en/container"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/danielle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/danielle"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/witbrock/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/witbrock"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/danielle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/danielle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jug", 
+                "@type": "Node", 
+                "label": "A jug", 
+                "language": "en", 
+                "term": "/c/en/jug"
+            }, 
+            "surfaceText": "[[A jug]] is [[a container]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bellarmine/n/,/c/en/jug/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jug/n", 
+                "@type": "Node", 
+                "label": "jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bellarmine/n", 
+                "@type": "Node", 
+                "label": "bellarmine", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bellarmine"
+            }, 
+            "surfaceText": "[[bellarmine]] is a type of [[jug]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jug/n/,/c/en/bottle/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bottle/n", 
+                "@type": "Node", 
+                "label": "bottle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bottle"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jug/n", 
+                "@type": "Node", 
+                "label": "jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jug"
+            }, 
+            "surfaceText": "[[jug]] is a type of [[bottle]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/jug/n/,/c/en/containerful/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/containerful/n", 
+                "@type": "Node", 
+                "label": "containerful", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/containerful"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/jug/n", 
+                "@type": "Node", 
+                "label": "jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jug"
+            }, 
+            "surfaceText": "[[jug]] is a type of [[containerful]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/water_jug/n/,/c/en/jug/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jug/n", 
+                "@type": "Node", 
+                "label": "jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/water_jug/n", 
+                "@type": "Node", 
+                "label": "water jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/water_jug"
+            }, 
+            "surfaceText": "[[water jug]] is a type of [[jug]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/whiskey_jug/n/,/c/en/jug/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/jug/n", 
+                "@type": "Node", 
+                "label": "jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/jug"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/whiskey_jug/n", 
+                "@type": "Node", 
+                "label": "whiskey jug", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/whiskey_jug"
+            }, 
+            "surfaceText": "[[whiskey jug]] is a type of [[jug]]", 
+            "weight": 2.0
+        }
+    ]
+}

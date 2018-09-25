@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/chip&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/chip/n/,/c/en/computer/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/computer/n", 
+                "@type": "Node", 
+                "label": "computer", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/computer"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chip/n", 
+                "@type": "Node", 
+                "label": "chip", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chip"
+            }, 
+            "surfaceText": "[[chip]] is a part of [[computer]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/integrated_circuit/n/,/c/en/chip/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/chip/n", 
+                "@type": "Node", 
+                "label": "chip", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chip"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/integrated_circuit/n", 
+                "@type": "Node", 
+                "label": "integrated circuit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/integrated_circuit"
+            }, 
+            "surfaceText": "[[integrated circuit]] is a part of [[chip]]", 
+            "weight": 2.0
+        }
+    ]
+}

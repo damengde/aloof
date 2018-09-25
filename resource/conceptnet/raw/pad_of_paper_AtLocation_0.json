@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pad_of_paper&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/pad_of_paper/,/c/en/desktop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desktop", 
+                "@type": "Node", 
+                "label": "a desktop", 
+                "language": "en", 
+                "term": "/c/en/desktop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/smtango/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/smtango"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/jbbdude/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/jbbdude"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pad_of_paper", 
+                "@type": "Node", 
+                "label": "a pad of paper", 
+                "language": "en", 
+                "term": "/c/en/pad_of_paper"
+            }, 
+            "surfaceText": "*Something you find on [[a desktop]] is [[a pad of paper]]", 
+            "weight": 2.0
+        }
+    ]
+}

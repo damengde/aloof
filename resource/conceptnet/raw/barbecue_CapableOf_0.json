@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/barbecue&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/barbecue/,/c/en/cook_food/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/cook_food", 
+                "@type": "Node", 
+                "label": "cook food", 
+                "language": "en", 
+                "term": "/c/en/cook_food"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/qubit/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/qubit"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/barbecue", 
+                "@type": "Node", 
+                "label": "a barbecue", 
+                "language": "en", 
+                "term": "/c/en/barbecue"
+            }, 
+            "surfaceText": "[[a barbecue]] can [[cook food]]", 
+            "weight": 1.0
+        }
+    ]
+}

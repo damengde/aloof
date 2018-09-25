@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coffeepot&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/handle/n/,/c/en/coffeepot/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/coffeepot/n", 
+                "@type": "Node", 
+                "label": "coffeepot", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coffeepot"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handle/n", 
+                "@type": "Node", 
+                "label": "handle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handle"
+            }, 
+            "surfaceText": "[[handle]] is a part of [[coffeepot]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/exit_sign&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/exit_sign/,/c/en/way_out/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/way_out", 
+                "@type": "Node", 
+                "label": "a way out", 
+                "language": "en", 
+                "term": "/c/en/way_out"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/exit_sign", 
+                "@type": "Node", 
+                "label": "An EXIT sign", 
+                "language": "en", 
+                "term": "/c/en/exit_sign"
+            }, 
+            "surfaceText": "[[An EXIT sign]] is [[a way out]]", 
+            "weight": 1.0
+        }
+    ]
+}

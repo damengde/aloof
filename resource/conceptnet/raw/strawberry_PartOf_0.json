@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/strawberry&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/strawberry/n/,/c/en/garden_strawberry/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/garden_strawberry/n", 
+                "@type": "Node", 
+                "label": "garden strawberry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/garden_strawberry"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/strawberry/n", 
+                "@type": "Node", 
+                "label": "strawberry", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/strawberry"
+            }, 
+            "surfaceText": "[[strawberry]] is a part of [[garden strawberry]]", 
+            "weight": 2.0
+        }
+    ]
+}

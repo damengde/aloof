@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/ironing_board&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/ironing_board/,/c/en/ironing_clothes/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/ironing_clothes", 
+                "@type": "Node", 
+                "label": "ironing clothes", 
+                "language": "en", 
+                "term": "/c/en/ironing_clothes"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/template/,/s/contributor/omcs/whitten/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/template", 
+                    "contributor": "/s/contributor/omcs/whitten"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/ironing_board", 
+                "@type": "Node", 
+                "label": "An ironing board", 
+                "language": "en", 
+                "term": "/c/en/ironing_board"
+            }, 
+            "surfaceText": "[[An ironing board]] is used for [[ironing clothes]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/record_player&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/stylus/,/c/en/record_player/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/record_player", 
+                "@type": "Node", 
+                "label": "a record player", 
+                "language": "en", 
+                "term": "/c/en/record_player"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/anotherbackache/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/anotherbackache"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stylus", 
+                "@type": "Node", 
+                "label": "a stylus", 
+                "language": "en", 
+                "term": "/c/en/stylus"
+            }, 
+            "surfaceText": "You are likely to find [[a stylus]] in [[a record player]]", 
+            "weight": 1.0
+        }
+    ]
+}

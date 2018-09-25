@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vault&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/lunette/n/,/c/en/vault/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vault/n", 
+                "@type": "Node", 
+                "label": "vault", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vault"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lunette/n", 
+                "@type": "Node", 
+                "label": "lunette", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lunette"
+            }, 
+            "surfaceText": "[[lunette]] is a part of [[vault]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/vault/n/,/c/en/bank/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bank/n", 
+                "@type": "Node", 
+                "label": "bank", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bank"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vault/n", 
+                "@type": "Node", 
+                "label": "vault", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vault"
+            }, 
+            "surfaceText": "[[vault]] is a part of [[bank]]", 
+            "weight": 2.0
+        }
+    ]
+}

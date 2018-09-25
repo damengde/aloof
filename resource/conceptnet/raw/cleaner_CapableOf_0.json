@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/cleaner&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/cleaner/,/c/en/clean_office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/clean_office", 
+                "@type": "Node", 
+                "label": "clean an office", 
+                "language": "en", 
+                "term": "/c/en/clean_office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dce23/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dce23"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cleaner", 
+                "@type": "Node", 
+                "label": "A cleaner", 
+                "language": "en", 
+                "term": "/c/en/cleaner"
+            }, 
+            "surfaceText": "[[A cleaner]] can [[clean an office]]", 
+            "weight": 1.0
+        }
+    ]
+}

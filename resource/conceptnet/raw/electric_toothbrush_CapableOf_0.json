@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/electric_toothbrush&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/electric_toothbrush/,/c/en/help_with_dental_hygiene/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/help_with_dental_hygiene", 
+                "@type": "Node", 
+                "label": "help with dental hygiene", 
+                "language": "en", 
+                "term": "/c/en/help_with_dental_hygiene"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/gary/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/gary"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "an electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "[[an electric toothbrush]] can [[help with dental hygiene]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/electric_toothbrush/,/c/en/rechargable/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rechargable", 
+                "@type": "Node", 
+                "label": "be rechargable", 
+                "language": "en", 
+                "term": "/c/en/rechargable"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "An electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "[[An electric toothbrush]] can [[be rechargable]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/electric_toothbrush/,/c/en/run_on_batteries/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/run_on_batteries", 
+                "@type": "Node", 
+                "label": "run on batteries", 
+                "language": "en", 
+                "term": "/c/en/run_on_batteries"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/laserjoy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/laserjoy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/electric_toothbrush", 
+                "@type": "Node", 
+                "label": "An electric toothbrush", 
+                "language": "en", 
+                "term": "/c/en/electric_toothbrush"
+            }, 
+            "surfaceText": "[[An electric toothbrush]] may [[run on batteries]]", 
+            "weight": 1.0
+        }
+    ]
+}

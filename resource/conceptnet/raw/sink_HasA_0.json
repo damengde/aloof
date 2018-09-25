@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/sink&rel=/r/HasA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasA/,/c/en/most_bathrooms/,/c/en/sink/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sink", 
+                "@type": "Node", 
+                "label": "a sink", 
+                "language": "en", 
+                "term": "/c/en/sink"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasA", 
+                "@type": "Relation", 
+                "label": "HasA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davecombs/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davecombs"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/biltcliffe/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/biltcliffe"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/most_bathrooms", 
+                "@type": "Node", 
+                "label": "most bathrooms", 
+                "language": "en", 
+                "term": "/c/en/most_bathrooms"
+            }, 
+            "surfaceText": "[[most bathrooms]] have [[a sink]]", 
+            "weight": 2.0
+        }
+    ]
+}

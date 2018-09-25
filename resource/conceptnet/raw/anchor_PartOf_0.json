@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/anchor&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/anchor/n/,/c/en/vessel/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/vessel/n", 
+                "@type": "Node", 
+                "label": "vessel", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vessel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/anchor/n", 
+                "@type": "Node", 
+                "label": "anchor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/anchor"
+            }, 
+            "surfaceText": "[[anchor]] is a part of [[vessel]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fluke/n/,/c/en/anchor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/anchor/n", 
+                "@type": "Node", 
+                "label": "anchor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/anchor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fluke/n", 
+                "@type": "Node", 
+                "label": "fluke", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fluke"
+            }, 
+            "surfaceText": "[[fluke]] is a part of [[anchor]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/shank/n/,/c/en/anchor/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/anchor/n", 
+                "@type": "Node", 
+                "label": "anchor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/anchor"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shank/n", 
+                "@type": "Node", 
+                "label": "shank", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shank"
+            }, 
+            "surfaceText": "[[shank]] is a part of [[anchor]]", 
+            "weight": 2.0
+        }
+    ]
+}

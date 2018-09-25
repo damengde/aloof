@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/fence&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/fence/n/,/c/en/fence_line/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fence_line/n", 
+                "@type": "Node", 
+                "label": "fence line", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fence_line"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fence/n", 
+                "@type": "Node", 
+                "label": "fence", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fence"
+            }, 
+            "surfaceText": "[[fence]] is a part of [[fence line]]", 
+            "weight": 2.0
+        }
+    ]
+}

@@ -1,0 +1,523 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/umbrella&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/,/c/en/device_to_protect/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/device_to_protect", 
+                "@type": "Node", 
+                "label": "a device to protect something", 
+                "language": "en", 
+                "term": "/c/en/device_to_protect"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/pavlos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/pavlos"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/thephantom/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/thephantom"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella", 
+                "@type": "Node", 
+                "label": "An umbrella", 
+                "language": "en", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[An umbrella]] is [[a device to protect something]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/gamp/n/,/c/en/umbrella/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/gamp/n", 
+                "@type": "Node", 
+                "label": "gamp", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/gamp"
+            }, 
+            "surfaceText": "[[gamp]] is a type of [[umbrella]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/canopy/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/canopy/n", 
+                "@type": "Node", 
+                "label": "canopy", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/canopy"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[umbrella]] is a type of [[canopy]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/defense/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/defense/n", 
+                "@type": "Node", 
+                "label": "defense", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/defense"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[umbrella]] is a type of [[defense]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/union/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/union/n", 
+                "@type": "Node", 
+                "label": "union", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/union"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": "[[umbrella]] is a type of [[union]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/beach_umbrella/n/,/c/en/umbrella/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/beach_umbrella/n", 
+                "@type": "Node", 
+                "label": "beach umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/beach_umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/de/union/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/de/union", 
+                "@type": "Node", 
+                "label": "union", 
+                "language": "de", 
+                "term": "/c/de/union"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/mechanical_device/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/mechanical_device/n", 
+                "@type": "Node", 
+                "label": "mechanical device", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/mechanical_device"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/protection/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/protection", 
+                "@type": "Node", 
+                "label": "protection", 
+                "language": "en", 
+                "term": "/c/en/protection"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/scope/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/scope", 
+                "@type": "Node", 
+                "label": "scope", 
+                "language": "en", 
+                "term": "/c/en/scope"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/shade/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/shade", 
+                "@type": "Node", 
+                "label": "shade", 
+                "language": "en", 
+                "term": "/c/en/shade"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/shelter_providing_artifact/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/shelter_providing_artifact/n", 
+                "@type": "Node", 
+                "label": "shelter providing artifact", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shelter_providing_artifact"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella/n/,/c/en/weather_protection/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/de", 
+            "end": {
+                "@id": "/c/en/weather_protection", 
+                "@type": "Node", 
+                "label": "weather protection", 
+                "language": "en", 
+                "term": "/c/en/weather_protection"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/de/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/de", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/umbrella_used_as_covering/n/,/c/en/umbrella/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/umbrella/n", 
+                "@type": "Node", 
+                "label": "umbrella", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/umbrella_used_as_covering/n", 
+                "@type": "Node", 
+                "label": "umbrella used as covering", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/umbrella_used_as_covering"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

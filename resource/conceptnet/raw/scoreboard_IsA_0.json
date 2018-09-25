@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/scoreboard&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scoreboard/n/,/c/en/board/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/board/n", 
+                "@type": "Node", 
+                "label": "board", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/board"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scoreboard/n", 
+                "@type": "Node", 
+                "label": "scoreboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scoreboard"
+            }, 
+            "surfaceText": "[[scoreboard]] is a type of [[board]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/scoreboard/n/,/c/en/signboard/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/signboard/n", 
+                "@type": "Node", 
+                "label": "signboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/signboard"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/scoreboard/n", 
+                "@type": "Node", 
+                "label": "scoreboard", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/scoreboard"
+            }, 
+            "surfaceText": "[[scoreboard]] is a type of [[signboard]]", 
+            "weight": 2.0
+        }
+    ]
+}

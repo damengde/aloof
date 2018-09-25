@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/deodorant&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/deodorant/,/c/en/useful_for_neutralizing_body_odours/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/useful_for_neutralizing_body_odours", 
+                "@type": "Node", 
+                "label": "useful for neutralizing body odours", 
+                "language": "en", 
+                "term": "/c/en/useful_for_neutralizing_body_odours"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/goblin/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/goblin"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/deodorant", 
+                "@type": "Node", 
+                "label": "a deodorant", 
+                "language": "en", 
+                "term": "/c/en/deodorant"
+            }, 
+            "surfaceText": "[[a deodorant]] is [[useful for neutralizing body odours]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/helicopter&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/helicopter/n/,/c/en/fly/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/fly/v", 
+                "@type": "Node", 
+                "label": "fly", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/fly"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter/n", 
+                "@type": "Node", 
+                "label": "helicopter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[helicopter]] is used for [[fly]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/helicopter/n/,/c/en/transport/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/transport/v", 
+                "@type": "Node", 
+                "label": "transport", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/transport"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter/n", 
+                "@type": "Node", 
+                "label": "helicopter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[helicopter]] is used for [[transport]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/helicopter/n/,/c/en/travel/v/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/travel/v", 
+                "@type": "Node", 
+                "label": "travel", 
+                "language": "en", 
+                "sense_label": "v", 
+                "term": "/c/en/travel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/helicopter/n", 
+                "@type": "Node", 
+                "label": "helicopter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/helicopter"
+            }, 
+            "surfaceText": "[[helicopter]] is used for [[travel]]", 
+            "weight": 2.0
+        }
+    ]
+}

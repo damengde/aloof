@@ -1,0 +1,84 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/pizza&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/pizza/,/c/en/baked_in_oven/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/baked_in_oven", 
+                "@type": "Node", 
+                "label": "baked in an oven", 
+                "language": "en", 
+                "term": "/c/en/baked_in_oven"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dev/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dev"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/phraughy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/phraughy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is [[baked in an oven]]", 
+            "weight": 2.82842712474619
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/pizza/,/c/en/popular/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/popular", 
+                "@type": "Node", 
+                "label": "popular", 
+                "language": "en", 
+                "term": "/c/en/popular"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wtgee/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wtgee"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pizza", 
+                "@type": "Node", 
+                "label": "Pizza", 
+                "language": "en", 
+                "term": "/c/en/pizza"
+            }, 
+            "surfaceText": "[[Pizza]] is [[popular]]", 
+            "weight": 1.0
+        }
+    ]
+}

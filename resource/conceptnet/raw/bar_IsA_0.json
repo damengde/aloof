@@ -1,0 +1,2057 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bar&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/place/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place", 
+                "@type": "Node", 
+                "label": "a place", 
+                "language": "en", 
+                "term": "/c/en/place"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/breu/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/breu"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/cedarbrook1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/cedarbrook1"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/gleuschk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/gleuschk"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/joy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/joy"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/polymatrix/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/polymatrix"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/push"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/vi/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/vi"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is [[a place]]", 
+            "weight": 5.291502622129181
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/barrier/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/barrier/n", 
+                "@type": "Node", 
+                "label": "barrier", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/barrier"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[barrier]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/counter/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/counter/n", 
+                "@type": "Node", 
+                "label": "counter", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/counter"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[counter]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/heating_element/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/heating_element/n", 
+                "@type": "Node", 
+                "label": "heating element", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heating_element"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[heating element]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/implement/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/implement/n", 
+                "@type": "Node", 
+                "label": "implement", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/implement"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[implement]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/obstruction/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/obstruction/n", 
+                "@type": "Node", 
+                "label": "obstruction", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/obstruction"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[obstruction]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/pressure_unit/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/pressure_unit/n", 
+                "@type": "Node", 
+                "label": "pressure unit", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pressure_unit"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[pressure unit]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/railing/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/railing/n", 
+                "@type": "Node", 
+                "label": "railing", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/railing"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[railing]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/ridge/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/ridge/n", 
+                "@type": "Node", 
+                "label": "ridge", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/ridge"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[ridge]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/support/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/support/n", 
+                "@type": "Node", 
+                "label": "support", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/support"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[bar]] is a type of [[support]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/belaying_pin/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/belaying_pin/n", 
+                "@type": "Node", 
+                "label": "belaying pin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/belaying_pin"
+            }, 
+            "surfaceText": "[[belaying pin]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bolt/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bolt/n", 
+                "@type": "Node", 
+                "label": "bolt", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bolt"
+            }, 
+            "surfaceText": "[[bolt]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/carpenter's_level/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/carpenter's_level/n", 
+                "@type": "Node", 
+                "label": "carpenter's level", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/carpenter's_level"
+            }, 
+            "surfaceText": "[[carpenter's level]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/cash_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/cash_bar/n", 
+                "@type": "Node", 
+                "label": "cash bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cash_bar"
+            }, 
+            "surfaceText": "[[cash bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chinning_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chinning_bar/n", 
+                "@type": "Node", 
+                "label": "chinning bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/chinning_bar"
+            }, 
+            "surfaceText": "[[chinning bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/core/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/core/n", 
+                "@type": "Node", 
+                "label": "core", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/core"
+            }, 
+            "surfaceText": "[[core]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/crossbar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/crossbar/n", 
+                "@type": "Node", 
+                "label": "crossbar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/crossbar"
+            }, 
+            "surfaceText": "[[crossbar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/drawbar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/drawbar/n", 
+                "@type": "Node", 
+                "label": "drawbar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/drawbar"
+            }, 
+            "surfaceText": "[[drawbar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/grab_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grab_bar/n", 
+                "@type": "Node", 
+                "label": "grab bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grab_bar"
+            }, 
+            "surfaceText": "[[grab bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/handlebar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handlebar/n", 
+                "@type": "Node", 
+                "label": "handlebar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handlebar"
+            }, 
+            "surfaceText": "[[handlebar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/handspike/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/handspike/n", 
+                "@type": "Node", 
+                "label": "handspike", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/handspike"
+            }, 
+            "surfaceText": "[[handspike]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/heaver/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/heaver/n", 
+                "@type": "Node", 
+                "label": "heaver", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/heaver"
+            }, 
+            "surfaceText": "[[heaver]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/lever/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/lever/n", 
+                "@type": "Node", 
+                "label": "lever", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/lever"
+            }, 
+            "surfaceText": "[[lever]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/oyster_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/oyster_bar/n", 
+                "@type": "Node", 
+                "label": "oyster bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/oyster_bar"
+            }, 
+            "surfaceText": "[[oyster bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rotor/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rotor/n", 
+                "@type": "Node", 
+                "label": "rotor", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rotor"
+            }, 
+            "surfaceText": "[[rotor]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/salad_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/salad_bar/n", 
+                "@type": "Node", 
+                "label": "salad bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/salad_bar"
+            }, 
+            "surfaceText": "[[salad bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sandbar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sandbar/n", 
+                "@type": "Node", 
+                "label": "sandbar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sandbar"
+            }, 
+            "surfaceText": "[[sandbar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/shackle/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shackle/n", 
+                "@type": "Node", 
+                "label": "shackle", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/shackle"
+            }, 
+            "surfaceText": "[[shackle]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/slice_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/slice_bar/n", 
+                "@type": "Node", 
+                "label": "slice bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/slice_bar"
+            }, 
+            "surfaceText": "[[slice bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/snack_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/snack_bar/n", 
+                "@type": "Node", 
+                "label": "snack bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/snack_bar"
+            }, 
+            "surfaceText": "[[snack bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/soda_fountain/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/soda_fountain/n", 
+                "@type": "Node", 
+                "label": "soda fountain", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/soda_fountain"
+            }, 
+            "surfaceText": "[[soda fountain]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/stabilizer_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/stabilizer_bar/n", 
+                "@type": "Node", 
+                "label": "stabilizer bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/stabilizer_bar"
+            }, 
+            "surfaceText": "[[stabilizer bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/sushi_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/sushi_bar/n", 
+                "@type": "Node", 
+                "label": "sushi bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/sushi_bar"
+            }, 
+            "surfaceText": "[[sushi bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/towel_rail/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/towel_rail/n", 
+                "@type": "Node", 
+                "label": "towel rail", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/towel_rail"
+            }, 
+            "surfaceText": "[[towel rail]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/track/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/track/n", 
+                "@type": "Node", 
+                "label": "track", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/track"
+            }, 
+            "surfaceText": "[[track]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wet_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wet_bar/n", 
+                "@type": "Node", 
+                "label": "wet bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wet_bar"
+            }, 
+            "surfaceText": "[[wet bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/wine_bar/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/wine_bar/n", 
+                "@type": "Node", 
+                "label": "wine bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/wine_bar"
+            }, 
+            "surfaceText": "[[wine bar]] is a type of [[bar]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/business/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/business", 
+                "@type": "Node", 
+                "label": "a business", 
+                "language": "en", 
+                "term": "/c/en/business"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rcfleischer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rcfleischer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is [[a business]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/establishment/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/establishment", 
+                "@type": "Node", 
+                "label": "an establishment", 
+                "language": "en", 
+                "term": "/c/en/establishment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dashro/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dashro"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "A bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[A bar]] is [[an establishment]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/not_regular_size/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/not_regular_size", 
+                "@type": "Node", 
+                "label": "not regular size", 
+                "language": "en", 
+                "term": "/c/en/not_regular_size"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/w0063590/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/w0063590"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar that", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar that]] is [[not regular size]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/place_to_get_drunk/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place_to_get_drunk", 
+                "@type": "Node", 
+                "label": "a place to get drunk", 
+                "language": "en", 
+                "term": "/c/en/place_to_get_drunk"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "A bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[A bar]] is [[a place to get drunk]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/place_where_alcoholic_drinks/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/place_where_alcoholic_drinks", 
+                "@type": "Node", 
+                "label": "a place where alcoholic drinks are", 
+                "language": "en", 
+                "term": "/c/en/place_where_alcoholic_drinks"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cedarbrook1/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cedarbrook1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "A bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[A bar]] is [[a place where alcoholic drinks are]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/popular_file_name_in_examples/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/popular_file_name_in_examples", 
+                "@type": "Node", 
+                "label": "a popular file name in examples", 
+                "language": "en", 
+                "term": "/c/en/popular_file_name_in_examples"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/davet/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/davet"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "Bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[Bar]] is [[a popular file name in examples]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/pub/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pub", 
+                "@type": "Node", 
+                "label": "a pub", 
+                "language": "en", 
+                "term": "/c/en/pub"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tornald/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tornald"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "A bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[A bar]] is [[a pub]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/,/c/en/watering_hole_for_humans/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/watering_hole_for_humans", 
+                "@type": "Node", 
+                "label": "watering hole for humans", 
+                "language": "en", 
+                "term": "/c/en/watering_hole_for_humans"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/miczaika/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/miczaika"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar", 
+                "@type": "Node", 
+                "label": "a bar", 
+                "language": "en", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": "[[a bar]] is [[watering hole for humans]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/commercial_service_establishment/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/commercial_service_establishment/n", 
+                "@type": "Node", 
+                "label": "commercial service establishment", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/commercial_service_establishment"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/food_and_beverage_organization/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/food_and_beverage_organization/n", 
+                "@type": "Node", 
+                "label": "food and beverage organization", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/food_and_beverage_organization"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/man_made_structure/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/man_made_structure/n", 
+                "@type": "Node", 
+                "label": "man made structure", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/man_made_structure"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/private_sector_organization/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/private_sector_organization/n", 
+                "@type": "Node", 
+                "label": "private sector organization", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/private_sector_organization"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/bar/n/,/c/en/solid_object/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/solid_object/n", 
+                "@type": "Node", 
+                "label": "solid object", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/solid_object"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/billiards_saloon/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/billiards_saloon/n", 
+                "@type": "Node", 
+                "label": "billiards saloon", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/billiards_saloon"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/fret/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/fret/n", 
+                "@type": "Node", 
+                "label": "fret", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/fret"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/indoor_bar_area/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/indoor_bar_area/n", 
+                "@type": "Node", 
+                "label": "indoor bar area", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/indoor_bar_area"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/nightclub/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/nightclub/n", 
+                "@type": "Node", 
+                "label": "nightclub", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/nightclub"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/pub/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/pub/n", 
+                "@type": "Node", 
+                "label": "pub", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pub"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rail/n/,/c/en/bar/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/bar/n", 
+                "@type": "Node", 
+                "label": "bar", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bar"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rail/n", 
+                "@type": "Node", 
+                "label": "rail", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rail"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

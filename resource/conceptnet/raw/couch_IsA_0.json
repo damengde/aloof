@@ -1,0 +1,326 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/couch&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/n/,/c/en/bed/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/bed/n", 
+                "@type": "Node", 
+                "label": "bed", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/bed"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch/n", 
+                "@type": "Node", 
+                "label": "couch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[couch]] is a type of [[bed]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/n/,/c/en/flat_coat/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/flat_coat/n", 
+                "@type": "Node", 
+                "label": "flat coat", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/flat_coat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch/n", 
+                "@type": "Node", 
+                "label": "couch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[couch]] is a type of [[flat coat]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/chesterfield/,/c/en/couch/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/couch/n", 
+                "@type": "Node", 
+                "label": "couch", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/couch"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/chesterfield", 
+                "@type": "Node", 
+                "label": "chesterfield", 
+                "language": "en", 
+                "term": "/c/en/chesterfield"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/,/c/en/another_word_for_sofa/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/another_word_for_sofa", 
+                "@type": "Node", 
+                "label": "another word for sofa", 
+                "language": "en", 
+                "term": "/c/en/another_word_for_sofa"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/jlquelch/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/jlquelch"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[couch]] is [[another word for sofa]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/,/c/en/divan/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/divan", 
+                "@type": "Node", 
+                "label": "a divan", 
+                "language": "en", 
+                "term": "/c/en/divan"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/halelaniau/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/halelaniau"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "a couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[a couch]] is [[a divan]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/,/c/en/furnitire/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/furnitire", 
+                "@type": "Node", 
+                "label": "furnitire", 
+                "language": "en", 
+                "term": "/c/en/furnitire"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "A couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[A couch]] is [[furnitire]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/,/c/en/wide_chair/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wide_chair", 
+                "@type": "Node", 
+                "label": "a wide chair", 
+                "language": "en", 
+                "term": "/c/en/wide_chair"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/is_a_cleanup/,/s/contributor/omcs/ilk/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/is_a_cleanup", 
+                    "contributor": "/s/contributor/omcs/ilk"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "A couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[A couch]] is [[a wide chair]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/couch/,/c/en/wider_than_love_seat/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/wider_than_love_seat", 
+                "@type": "Node", 
+                "label": "wider than a love seat", 
+                "language": "en", 
+                "term": "/c/en/wider_than_love_seat"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dbn3/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dbn3"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "A couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "surfaceText": "[[A couch]] is [[wider than a love seat]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/find_inside/,/c/en/couch/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/couch", 
+                "@type": "Node", 
+                "label": "a couch", 
+                "language": "en", 
+                "term": "/c/en/couch"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/rd933/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/rd933"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/find_inside", 
+                "@type": "Node", 
+                "label": "Something you find inside", 
+                "language": "en", 
+                "term": "/c/en/find_inside"
+            }, 
+            "surfaceText": "[[Something you find inside]] is [[a couch]]", 
+            "weight": 1.0
+        }
+    ]
+}

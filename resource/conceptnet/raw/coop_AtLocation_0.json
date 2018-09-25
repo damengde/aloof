@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/coop&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coop/n/,/c/en/budapest/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/budapest", 
+                "@type": "Node", 
+                "label": "budapest", 
+                "language": "en", 
+                "term": "/c/en/budapest"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coop/n", 
+                "@type": "Node", 
+                "label": "coop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coop"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/coop/n/,/c/en/hungary/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/hungary", 
+                "@type": "Node", 
+                "label": "hungary", 
+                "language": "en", 
+                "term": "/c/en/hungary"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/coop/n", 
+                "@type": "Node", 
+                "label": "coop", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/coop"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

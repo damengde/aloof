@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/magazine&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/magazine/,/c/en/pass_time/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/pass_time", 
+                "@type": "Node", 
+                "label": "pass time", 
+                "language": "en", 
+                "term": "/c/en/pass_time"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/browni/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/browni"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/magazine", 
+                "@type": "Node", 
+                "label": "a magazine", 
+                "language": "en", 
+                "term": "/c/en/magazine"
+            }, 
+            "surfaceText": "You can use [[a magazine]] to [[pass time]]", 
+            "weight": 1.0
+        }
+    ]
+}

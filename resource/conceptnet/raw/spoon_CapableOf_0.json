@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/spoon&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/spoon/,/c/en/eat_with/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/eat_with", 
+                "@type": "Node", 
+                "label": "eat with", 
+                "language": "en", 
+                "term": "/c/en/eat_with"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tjost/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tjost"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "A spoon is something you", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "[[A spoon is something you]] can [[eat with]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/spoon/,/c/en/hold_dozens_of_pieces_of_rice/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_dozens_of_pieces_of_rice", 
+                "@type": "Node", 
+                "label": "hold dozens of pieces of rice", 
+                "language": "en", 
+                "term": "/c/en/hold_dozens_of_pieces_of_rice"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/push/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/push"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "a spoon", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "[[a spoon]] can [[hold dozens of pieces of rice]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/spoon/,/c/en/use_to_eat_soup/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/use_to_eat_soup", 
+                "@type": "Node", 
+                "label": "be use to eat soup", 
+                "language": "en", 
+                "term": "/c/en/use_to_eat_soup"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/boomer/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/boomer"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/spoon", 
+                "@type": "Node", 
+                "label": "a spoon", 
+                "language": "en", 
+                "term": "/c/en/spoon"
+            }, 
+            "surfaceText": "[[a spoon]] can [[be use to eat soup]]", 
+            "weight": 1.0
+        }
+    ]
+}

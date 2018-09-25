@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bed&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bed/,/c/en/provide_comfort/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/provide_comfort", 
+                "@type": "Node", 
+                "label": "provide comfort", 
+                "language": "en", 
+                "term": "/c/en/provide_comfort"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/shaleane/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/shaleane"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "A bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[A bed]] can [[provide comfort]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bed/,/c/en/rest_person/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/rest_person", 
+                "@type": "Node", 
+                "label": "rest a person", 
+                "language": "en", 
+                "term": "/c/en/rest_person"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/kenbeal/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/kenbeal"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bed", 
+                "@type": "Node", 
+                "label": "a bed", 
+                "language": "en", 
+                "term": "/c/en/bed"
+            }, 
+            "surfaceText": "[[a bed]] can [[rest a person]]", 
+            "weight": 1.0
+        }
+    ]
+}

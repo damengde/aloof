@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/piano&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/piano/,/c/en/sound_out_of_tune/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/sound_out_of_tune", 
+                "@type": "Node", 
+                "label": "sound out of tune", 
+                "language": "en", 
+                "term": "/c/en/sound_out_of_tune"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/annierooney/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/annierooney"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/piano", 
+                "@type": "Node", 
+                "label": "A piano", 
+                "language": "en", 
+                "term": "/c/en/piano"
+            }, 
+            "surfaceText": "[[A piano]] can [[sound out of tune]]", 
+            "weight": 1.0
+        }
+    ]
+}

@@ -1,0 +1,186 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vanity&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vanity/n/,/c/en/worthlessness/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/worthlessness/n", 
+                "@type": "Node", 
+                "label": "worthlessness", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/worthlessness"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity/n", 
+                "@type": "Node", 
+                "label": "vanity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": "[[vanity]] is a type of [[worthlessness]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vanity/,/c/en/act_of_being_vain/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/act_of_being_vain", 
+                "@type": "Node", 
+                "label": "an act of being vain", 
+                "language": "en", 
+                "term": "/c/en/act_of_being_vain"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/justjim/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/justjim"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity", 
+                "@type": "Node", 
+                "label": "Vanity", 
+                "language": "en", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": "[[Vanity]] is [[an act of being vain]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vanity/,/c/en/admiration_of_oneself/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/admiration_of_oneself", 
+                "@type": "Node", 
+                "label": "admiration of oneself", 
+                "language": "en", 
+                "term": "/c/en/admiration_of_oneself"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/dselvo/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/dselvo"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity", 
+                "@type": "Node", 
+                "label": "Vanity", 
+                "language": "en", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": "[[Vanity]] is [[admiration of oneself]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vanity/n/,/c/en/pride/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/pride/n", 
+                "@type": "Node", 
+                "label": "pride", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/pride"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity/n", 
+                "@type": "Node", 
+                "label": "vanity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/vanity/n/,/c/en/musical_artist/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/dbpedia/en", 
+            "end": {
+                "@id": "/c/en/musical_artist/n", 
+                "@type": "Node", 
+                "label": "musical artist", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/musical_artist"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/dbpedia/2015/en", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/dbpedia/2015/en"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity/n", 
+                "@type": "Node", 
+                "label": "vanity", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": null, 
+            "weight": 0.5
+        }
+    ]
+}

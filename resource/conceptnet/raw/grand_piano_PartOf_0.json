@@ -1,0 +1,79 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/grand_piano&rel=/r/PartOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/leg/n/,/c/en/grand_piano/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/grand_piano/n", 
+                "@type": "Node", 
+                "label": "grand piano", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/grand_piano"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/leg/n", 
+                "@type": "Node", 
+                "label": "leg", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/leg"
+            }, 
+            "surfaceText": "[[leg]] is a part of [[grand piano]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/PartOf/,/c/en/grand_piano/,/c/en/chicago_symphony_orchestra/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/chicago_symphony_orchestra", 
+                "@type": "Node", 
+                "label": "the Chicago Symphony Orchestra", 
+                "language": "en", 
+                "term": "/c/en/chicago_symphony_orchestra"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/PartOf", 
+                "@type": "Relation", 
+                "label": "PartOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/bmsacr/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/bmsacr"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/grand_piano", 
+                "@type": "Node", 
+                "label": "The Grand Piano", 
+                "language": "en", 
+                "term": "/c/en/grand_piano"
+            }, 
+            "surfaceText": "[[The Grand Piano]] is part of [[the Chicago Symphony Orchestra]]", 
+            "weight": 1.0
+        }
+    ]
+}

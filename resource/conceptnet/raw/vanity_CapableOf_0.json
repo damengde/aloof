@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/vanity&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/vanity/,/c/en/accompanies_arrogance/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/accompanies_arrogance", 
+                "@type": "Node", 
+                "label": "accompanies arrogance", 
+                "language": "en", 
+                "term": "/c/en/accompanies_arrogance"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/tigen/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/tigen"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/vanity", 
+                "@type": "Node", 
+                "label": "vanity", 
+                "language": "en", 
+                "term": "/c/en/vanity"
+            }, 
+            "surfaceText": "[[vanity]] often [[accompanies arrogance]]", 
+            "weight": 1.0
+        }
+    ]
+}

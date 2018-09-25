@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/curtain&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/curtain/,/c/en/keep_light_out_of_room/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/keep_light_out_of_room", 
+                "@type": "Node", 
+                "label": "keep light out of a room", 
+                "language": "en", 
+                "term": "/c/en/keep_light_out_of_room"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/wmichaux/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/wmichaux"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/curtain", 
+                "@type": "Node", 
+                "label": "a curtain", 
+                "language": "en", 
+                "term": "/c/en/curtain"
+            }, 
+            "surfaceText": "[[a curtain]] can [[keep light out of a room]]", 
+            "weight": 1.0
+        }
+    ]
+}

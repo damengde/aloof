@@ -1,0 +1,49 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/desk_lamp&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/desk_lamp/,/c/en/desktop/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/desktop", 
+                "@type": "Node", 
+                "label": "a desktop", 
+                "language": "en", 
+                "term": "/c/en/desktop"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/socrates/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/socrates"
+                }, 
+                {
+                    "@id": "/and/[/s/activity/omcs/vote/,/s/contributor/omcs/stankbad/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/vote", 
+                    "contributor": "/s/contributor/omcs/stankbad"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/desk_lamp", 
+                "@type": "Node", 
+                "label": "a desk lamp", 
+                "language": "en", 
+                "term": "/c/en/desk_lamp"
+            }, 
+            "surfaceText": "*Something you find on [[a desktop]] is [[a desk lamp]]", 
+            "weight": 2.0
+        }
+    ]
+}

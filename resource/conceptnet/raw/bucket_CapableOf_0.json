@@ -1,0 +1,113 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/bucket&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bucket/,/c/en/carry_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/carry_water", 
+                "@type": "Node", 
+                "label": "carry water", 
+                "language": "en", 
+                "term": "/c/en/carry_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/landtrish/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/landtrish"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] can [[carry water]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bucket/,/c/en/hold_liquid/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_liquid", 
+                "@type": "Node", 
+                "label": "hold liquid", 
+                "language": "en", 
+                "term": "/c/en/hold_liquid"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/jarling/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/jarling"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "A bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[A bucket]] can [[hold liquid]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/bucket/,/c/en/hold_water/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/hold_water", 
+                "@type": "Node", 
+                "label": "hold water", 
+                "language": "en", 
+                "term": "/c/en/hold_water"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/waltglass/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/waltglass"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bucket", 
+                "@type": "Node", 
+                "label": "a bucket", 
+                "language": "en", 
+                "term": "/c/en/bucket"
+            }, 
+            "surfaceText": "[[a bucket]] can [[hold water]]", 
+            "weight": 1.0
+        }
+    ]
+}

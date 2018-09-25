@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/straw&rel=/r/UsedFor", 
+    "edges": [
+        {
+            "@id": "/a/[/r/UsedFor/,/c/en/straw/,/c/en/drinking_beverage/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/drinking_beverage", 
+                "@type": "Node", 
+                "label": "drinking a beverage", 
+                "language": "en", 
+                "term": "/c/en/drinking_beverage"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/UsedFor", 
+                "@type": "Relation", 
+                "label": "UsedFor"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/tinkerbelle/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/tinkerbelle"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/straw", 
+                "@type": "Node", 
+                "label": "A straw", 
+                "language": "en", 
+                "term": "/c/en/straw"
+            }, 
+            "surfaceText": "[[A straw]] is for [[drinking a beverage]]", 
+            "weight": 1.0
+        }
+    ]
+}

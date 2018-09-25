@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/stand&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/human/,/c/en/stand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stand", 
+                "@type": "Node", 
+                "label": "stand", 
+                "language": "en", 
+                "term": "/c/en/stand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons_manual_entry/,/s/contributor/omcs/sandos/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons_manual_entry", 
+                    "contributor": "/s/contributor/omcs/sandos"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/human", 
+                "@type": "Node", 
+                "label": "human", 
+                "language": "en", 
+                "term": "/c/en/human"
+            }, 
+            "surfaceText": "[[human]] can [[stand]].", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/people/,/c/en/stand/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/stand", 
+                "@type": "Node", 
+                "label": "stand", 
+                "language": "en", 
+                "term": "/c/en/stand"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/commons2_template/,/s/contributor/omcs/ochuckles/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/commons2_template", 
+                    "contributor": "/s/contributor/omcs/ochuckles"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/people", 
+                "@type": "Node", 
+                "label": "people", 
+                "language": "en", 
+                "term": "/c/en/people"
+            }, 
+            "surfaceText": "[[people]] can [[stand]]", 
+            "weight": 1.0
+        }
+    ]
+}

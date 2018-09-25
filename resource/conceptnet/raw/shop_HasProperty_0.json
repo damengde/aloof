@@ -1,0 +1,78 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/shop&rel=/r/HasProperty", 
+    "edges": [
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/shop/,/c/en/full_of_articles/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/full_of_articles", 
+                "@type": "Node", 
+                "label": "full of articles", 
+                "language": "en", 
+                "term": "/c/en/full_of_articles"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/cypherx/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/cypherx"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shop", 
+                "@type": "Node", 
+                "label": "A shop", 
+                "language": "en", 
+                "term": "/c/en/shop"
+            }, 
+            "surfaceText": "[[A shop]] is [[full of articles]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/HasProperty/,/c/en/shop/,/c/en/short_for_discount_store/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/short_for_discount_store", 
+                "@type": "Node", 
+                "label": "short for discount store", 
+                "language": "en", 
+                "term": "/c/en/short_for_discount_store"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/HasProperty", 
+                "@type": "Relation", 
+                "label": "HasProperty"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/mjcarrier/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/mjcarrier"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/shop", 
+                "@type": "Node", 
+                "label": "A shop", 
+                "language": "en", 
+                "term": "/c/en/shop"
+            }, 
+            "surfaceText": "[[A shop]] can be [[short for discount store]]", 
+            "weight": 1.0
+        }
+    ]
+}

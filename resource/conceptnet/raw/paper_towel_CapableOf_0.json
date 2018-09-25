@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/paper_towel&rel=/r/CapableOf", 
+    "edges": [
+        {
+            "@id": "/a/[/r/CapableOf/,/c/en/paper_towel/,/c/en/dry_apple/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/dry_apple", 
+                "@type": "Node", 
+                "label": "dry an apple", 
+                "language": "en", 
+                "term": "/c/en/dry_apple"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/CapableOf", 
+                "@type": "Relation", 
+                "label": "CapableOf"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/thevieve/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/thevieve"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/paper_towel", 
+                "@type": "Node", 
+                "label": "A paper towel", 
+                "language": "en", 
+                "term": "/c/en/paper_towel"
+            }, 
+            "surfaceText": "[[A paper towel]] can [[dry an apple]]", 
+            "weight": 1.0
+        }
+    ]
+}

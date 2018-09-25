@@ -1,0 +1,148 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/parcel&rel=/r/AtLocation", 
+    "edges": [
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/address_label/,/c/en/parcel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/parcel", 
+                "@type": "Node", 
+                "label": "a parcel", 
+                "language": "en", 
+                "term": "/c/en/parcel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/chimpy/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/chimpy"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/address_label", 
+                "@type": "Node", 
+                "label": "an address label", 
+                "language": "en", 
+                "term": "/c/en/address_label"
+            }, 
+            "surfaceText": "You are likely to find [[an address label]] in [[a parcel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/bomb/,/c/en/parcel/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/parcel", 
+                "@type": "Node", 
+                "label": "a parcel", 
+                "language": "en", 
+                "term": "/c/en/parcel"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/methodscarecrow/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/methodscarecrow"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/bomb", 
+                "@type": "Node", 
+                "label": "a bomb", 
+                "language": "en", 
+                "term": "/c/en/bomb"
+            }, 
+            "surfaceText": "You are likely to find [[a bomb]] in [[a parcel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/parcel/,/c/en/mail_box/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/mail_box", 
+                "@type": "Node", 
+                "label": "the mail box", 
+                "language": "en", 
+                "term": "/c/en/mail_box"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/carmenvw/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/carmenvw"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/parcel", 
+                "@type": "Node", 
+                "label": "a parcel", 
+                "language": "en", 
+                "term": "/c/en/parcel"
+            }, 
+            "surfaceText": "*Something you find in [[the mail box]] is [[a parcel]]", 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/AtLocation/,/c/en/parcel/,/c/en/post_office/]", 
+            "@type": "Edge", 
+            "dataset": "/d/conceptnet/4/en", 
+            "end": {
+                "@id": "/c/en/post_office", 
+                "@type": "Node", 
+                "label": "the post office", 
+                "language": "en", 
+                "term": "/c/en/post_office"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/AtLocation", 
+                "@type": "Relation", 
+                "label": "AtLocation"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/activity/omcs/omcs1_possibly_free_text/,/s/contributor/omcs/acruise/]", 
+                    "@type": "Source", 
+                    "activity": "/s/activity/omcs/omcs1_possibly_free_text", 
+                    "contributor": "/s/contributor/omcs/acruise"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/parcel", 
+                "@type": "Node", 
+                "label": "a parcel", 
+                "language": "en", 
+                "term": "/c/en/parcel"
+            }, 
+            "surfaceText": "*Something you find at [[the post office]] is [[a parcel]]", 
+            "weight": 1.0
+        }
+    ]
+}

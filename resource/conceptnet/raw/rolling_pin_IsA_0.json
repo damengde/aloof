@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/rolling_pin&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rolling_pin/n/,/c/en/kitchen_utensil/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wordnet/3.1", 
+            "end": {
+                "@id": "/c/en/kitchen_utensil/n", 
+                "@type": "Node", 
+                "label": "kitchen utensil", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/kitchen_utensil"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/wordnet/rdf/3.1", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wordnet/rdf/3.1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rolling_pin/n", 
+                "@type": "Node", 
+                "label": "rolling pin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rolling_pin"
+            }, 
+            "surfaceText": "[[rolling pin]] is a type of [[kitchen utensil]]", 
+            "weight": 2.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/rolling_pin/n/,/c/en/cooking_utensil/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/opencyc", 
+            "end": {
+                "@id": "/c/en/cooking_utensil/n", 
+                "@type": "Node", 
+                "label": "cooking utensil", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/cooking_utensil"
+            }, 
+            "license": "cc:by/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/s/resource/opencyc/2012", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/opencyc/2012"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/rolling_pin/n", 
+                "@type": "Node", 
+                "label": "rolling pin", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/rolling_pin"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}

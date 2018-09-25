@@ -1,0 +1,80 @@
+{
+    "@context": [
+        "http://api.conceptnet.io/ld/conceptnet5.6/context.ld.json"
+    ], 
+    "@id": "/query?node=/c/en/air_hockey&rel=/r/IsA", 
+    "edges": [
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_hockey/,/c/en/table_hockey/n/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/table_hockey/n", 
+                "@type": "Node", 
+                "label": "table hockey", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/table_hockey"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_hockey", 
+                "@type": "Node", 
+                "label": "air hockey", 
+                "language": "en", 
+                "term": "/c/en/air_hockey"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }, 
+        {
+            "@id": "/a/[/r/IsA/,/c/en/air_hockey/n/,/c/en/table_hockey/]", 
+            "@type": "Edge", 
+            "dataset": "/d/wiktionary/en", 
+            "end": {
+                "@id": "/c/en/table_hockey", 
+                "@type": "Node", 
+                "label": "table hockey", 
+                "language": "en", 
+                "term": "/c/en/table_hockey"
+            }, 
+            "license": "cc:by-sa/4.0", 
+            "rel": {
+                "@id": "/r/IsA", 
+                "@type": "Relation", 
+                "label": "IsA"
+            }, 
+            "sources": [
+                {
+                    "@id": "/and/[/s/process/wikiparsec/1/,/s/resource/wiktionary/en/]", 
+                    "@type": "Source", 
+                    "contributor": "/s/resource/wiktionary/en", 
+                    "process": "/s/process/wikiparsec/1"
+                }
+            ], 
+            "start": {
+                "@id": "/c/en/air_hockey/n", 
+                "@type": "Node", 
+                "label": "air hockey", 
+                "language": "en", 
+                "sense_label": "n", 
+                "term": "/c/en/air_hockey"
+            }, 
+            "surfaceText": null, 
+            "weight": 1.0
+        }
+    ]
+}
