@@ -18,7 +18,7 @@ With `pip`, this is done with:
 
 In `src` folder, you can find the code and in `resource` folder, the resources that we were used.
 
-## Execution:
+## Execution
 To run this program, it is necessary to have installed Python 2.7 or higher.
 
 The general way to run this program is the following:
@@ -32,12 +32,12 @@ Where `option` could be:
 - "frames", to extract relations using Frame Semantics.
 - "conceptnet", to extract relations from ConceptNet.
 
-## Example:
+## Example
 ```
  $ python main.py attributes
 ```
 
-## Notes:
+## Notes
 If you want to change the paths of the input data, in the `main.py` file change these options:
 
 - house_objects_path = "YOUR PATH"
