@@ -50,8 +50,7 @@ def assign_attribute(object_name, attributes, attribute_synsets, frequency_data)
 def select_relations(visualgenome_path, house_objects_path, model_path):
     ''' Select relations about how often attributes belong to objects of house domain '''
     attribute_frequency = load_json(join(visualgenome_path, 'attribute_frequencies.json'))
-    #groups = classification(attribute_frequency.values(), model_path)
-    groups = load_json(join(visualgenome_path, 'attribute_classes.json'))
+    groups = classification(attribute_frequency.values(), model_path)
     save_json(groups, join(visualgenome_path, 'attribute_classes.json'))
     if 'others' in groups: del groups['others']
     attribute_knowledge, relations = extract_knowledge(attribute_frequency, groups)
