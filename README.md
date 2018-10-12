@@ -5,22 +5,25 @@ The goal of ALOOF is to equip autonomous systems with the ability to learn the m
 
 To run this pipeline, it is necessary to have installed Python 2.7.
 
+
 ## Installation
 After clone the repository or download the source code, you must install the prerequisite Python packages listed in the file `requirements.txt`.
 
 With `pip`, this is done with:
 
     $ pip install -r requirements.txt
- 
+
+
 ## Configuration
 In `src` folder you can find the code and in `resource` folder the resources that we were used.
 
-If you want to change the paths of the input data, in the `main.py` file change these options:
+If you want to change the paths of the input data, in the `main.py` file you must to change these options:
 
 - house_objects_path = "YOUR PATH"
 - frame_raw_path = "YOUR PATH"
 - visualgenome_raw_path = "YOUR PATH"
 - conceptnet_raw_path = "YOUR PATH"
+
 
 ## Execution
 The general way to run this program is the following:
@@ -34,21 +37,27 @@ Where `option` could be:
 - "frames", to extract relations using Frame Semantics.
 - "conceptnet", to extract relations from ConceptNet.
 
+
 ## Example
 ```
  $ python main.py attributes
 ```
 
 ## Outputs
-```
-<spoon> <usedFor> <eating>
-<spoon> <locatedAt> <dishwasher>
-<spoon> <isA> <utensil>
-```
+This pipeline generates RDF triples in `nt` format (line-based).
+
+File `selected_triples.nt`:
 ```
 <http://dbpedia.org/resource/Spoon> <http://ns.inria.fr/deko/ontology/deko.owl#usedFor> <http://dbpedia.org/resource/Eating>
 <http://dbpedia.org/resource/Spoon> <http://ns.inria.fr/deko/ontology/deko.owl#locatedAt> <http://dbpedia.org/resource/Dishwasher>
 <http://dbpedia.org/resource/Spoon> <http://ns.inria.fr/deko/ontology/deko.owl#isA> <http://dbpedia.org/resource/Utensil>
+```
+
+File `selected_triples_label.nt`:
+```
+<spoon> <usedFor> <eating>
+<spoon> <locatedAt> <dishwasher>
+<spoon> <isA> <utensil>
 ```
 
 ## Notes
